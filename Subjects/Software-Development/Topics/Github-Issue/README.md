@@ -5,7 +5,24 @@ Selles peatükis käsitleme *Github Issue*'de kasutamist ja kirjutamist.
 
 ![Issue](Issue.webp)
 
-Kõik projektid vajavad süsteemi, mis aitaks töökulgu organiseerida ja sellel silma peal hoida. Selleks on palju erinevaid tööriistu, **GitHub Issues** on kõigest üks paljudest turul olemasolevatest. 
+- [Github Issue](#github-issue)
+  - [Õpitulemused](#õpitulemused)
+  - [Mis on *Github Issue*?](#mis-on-github-issue)
+  - [Miks kasutada *Github Issue*'sid?](#miks-kasutada-github-issuesid)
+  - [*Issuede* kirjutamise head tavad:](#issuede-kirjutamise-head-tavad)
+  - [Näide hästi struktureeritud *issuest*:](#näide-hästi-struktureeritud-issuest)
+  - [Näide mitte nii hästi kirjutatud *issuest*:](#näide-mitte-nii-hästi-kirjutatud-issuest)
+  - [Harjutused](#harjutused)
+
+Kõik projektid vajavad süsteemi, mis aitaks töökulgu organiseerida ja sellel silma peal hoida. Selleks on palju erinevaid tööriistu, **GitHub Issues** on kõigest üks paljudest turul olemasolevatest.
+
+## Õpitulemused
+
+Peale selle peatüki läbimist oskad:
+
+- kirjeldada, mis on *Github Issue* ja kuidas seda kasutada;
+- luua *Github Issue*'d ja määrata neile *assignee*'d;
+- kommenteerida ja sulgeda *Github Issue*'t;
 
 ## Mis on *Github Issue*?
 

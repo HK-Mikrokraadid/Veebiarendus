@@ -72,8 +72,8 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Git ja Githubi parimad tavad
 - .gitignore
+- Git ja Githubi parimad tavad
 - Harud
 
 ### Loeng 3: SDLC
