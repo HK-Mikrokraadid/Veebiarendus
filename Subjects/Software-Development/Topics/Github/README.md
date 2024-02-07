@@ -4,6 +4,8 @@ Selles teemas õpime tundma GitHubi, mis on üks maailma populaarsemaid koodi ma
 
 ![Git Platform](Git-Platform.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 - [Github](#github)
   - [Õpitulemused](#õpitulemused)
   - [Mis on Github?](#mis-on-github)

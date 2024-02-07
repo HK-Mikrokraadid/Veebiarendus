@@ -2,6 +2,10 @@
 
 Selles peatükis räägime Programmeerimise aluste ainest, mis on selle aine eesmärk, mida me selles aines õpime, millist keelt me kasutame ja milliseid tööriistu me kasutame.
 
+![Sissejuhatus](Introduction-To-Programming.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Sissejuhatus](#sissejuhatus)
   - [Mis on selle aine eesmärk?](#mis-on-selle-aine-eesmärk)
   - [Mis on programmeerimine ja miks see on oluline?](#mis-on-programmeerimine-ja-miks-see-on-oluline)

@@ -2,6 +2,10 @@
 
 Selles teemas räägime sellest, mis on moodulid Javascriptis ja kuidas neid kasutada.
 
+![Moodulid](Modules.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Moodulid](#moodulid)
   - [Õpitulemused](#õpitulemused)
   - [Mis on moodul?](#mis-on-moodul)

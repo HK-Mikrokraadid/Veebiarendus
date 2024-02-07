@@ -2,6 +2,10 @@
 
 Selles teemas vaatame, kuidas Javascriptis funktsioone defineerida ja kasutada.
 
+![Funktsioonid](Functions.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Funktsioonid](#funktsioonid)
   - [Õpitulemused](#õpitulemused)
   - [Mis on Funktsioon?](#mis-on-funktsioon)

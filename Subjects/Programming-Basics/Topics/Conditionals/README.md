@@ -2,6 +2,10 @@
 
 Selles teemas õpime Javascripti tingimuslausete kohta.
 
+![Tingimuslaused](Conditionals.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Tingimuslaused](#tingimuslaused)
   - [Õpitulemused](#õpitulemused)
   - [Mis on Tingimuslause?](#mis-on-tingimuslause)

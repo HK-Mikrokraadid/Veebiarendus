@@ -5,6 +5,8 @@ Selles peatükis käsitleme *Github Issue*'de kasutamist ja kirjutamist.
 
 ![Issue](Issue.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 - [Github Issue](#github-issue)
   - [Õpitulemused](#õpitulemused)
   - [Mis on *Github Issue*?](#mis-on-github-issue)

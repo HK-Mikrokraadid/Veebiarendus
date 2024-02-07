@@ -2,6 +2,10 @@
 
 Selles peatükis räägime Javascriptist, mis on selle programmeerimiskeele eelised ja miinused ning kuidas käivitada Javascripti Node JS-is.
 
+![Javascript](JavaScript.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Javascript](#javascript)
   - [Õpitulemused](#õpitulemused)
   - [Mis on Javascript?](#mis-on-javascript)

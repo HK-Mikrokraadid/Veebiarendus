@@ -1,5 +1,9 @@
 # Programmeerimise alused
 
+![Sissejuhatus Programmeerimisse](Introduction-To-Programming.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 ## Kirjeldus
 
 **"Programmeerimise alused"** on sissejuhatus arvutiprogrammeerimise maailma. Algajatele mõeldud aine katab põhilised kontseptsioonid, mida iga alustav programmeerija peab teadma. Õpilased õpivad muutujate, andmetüüpide, juhtstruktuuride, tsüklite, funktsioonide ja lihtsate algoritmide kasutamist. Praktiliste harjutuste ja projektide kaudu kirjutavad ja siluvad õpilased oma esimesed koodiread, rajades tee edasijõudnumatele õpingutele tarkvaraarenduses ja arvutiteaduses. Varasem programmeerimiskogemus ei ole nõutud, muutes selle ideaalseks lähtepunktiks kõigile, kel on huvi alustada programmeerimisega.

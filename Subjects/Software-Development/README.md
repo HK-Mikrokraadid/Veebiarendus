@@ -58,13 +58,13 @@ Selle aine läbinud õpilane:
 Maht: 4h
 
 - Aine tutvustus
-- Tööriistad
-- Tarkvara ja tarkvaraarendus
-- Versioonikontroll
-- Git
-- Github
-- Markdown
-- Github Issue
+- [Tööriistad](./Topics/Tools/README.md)
+- [Tarkvara ja tarkvaraarendus](./Topics/Software/README.md)
+- [Versioonikontroll](./Topics/Version-Control/README.md)
+- [Git](./Topics/Git/README.md)
+- [Github](./Topics/Github/README.md)
+- [Markdown](./Topics/Markdown/README.md)
+- [Github Issue](./Topics/Github-Issue/README.md)
 
 ### Loeng 2 (Zoom): Jätkamine Git ja Githubiga
 
@@ -72,7 +72,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- .gitignore
+- [.gitignore](./Topics/Gitignore/README.md)
 - Git ja Githubi parimad tavad
 - Harud
 

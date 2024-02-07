@@ -4,6 +4,8 @@ Selles peatükis räägime, kuidas kasutada `.gitignore` faili, et hoida reposit
 
 ![gitignore](gitignore.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 - [`.gitignore`](#gitignore)
   - [.gitignore Node.js kontekstis](#gitignore-nodejs-kontekstis)
     - [Selgitus eelnevast näitest:](#selgitus-eelnevast-näitest)

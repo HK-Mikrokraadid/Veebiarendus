@@ -2,6 +2,8 @@
 
 Selles teemas õpime tsüklite ja iteratsioonide kohta.
 
+![Tsüklid](Loops.webp)
+
 - [Tsüklid](#tsüklid)
   - [Õpitulemused](#õpitulemused)
   - [Mis on Tsükkel?](#mis-on-tsükkel)

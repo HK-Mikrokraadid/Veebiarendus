@@ -2,6 +2,10 @@
 
 Selles teemas õpime Javascripti andmetüüpide kohta.
 
+![Andmetüübid](Data-Types.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Andmetüübid](#andmetüübid)
   - [Õpitulemused](#õpitulemused)
   - [Mis on andmetüüp?](#mis-on-andmetüüp)

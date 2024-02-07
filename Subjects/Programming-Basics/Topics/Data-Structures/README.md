@@ -1,6 +1,8 @@
 # Andmestruktuurid
 
-Selles peadükis räägime täpsemalt andmestruktuuride kohta. Uurime, mis on andmestruktuur, mis on massiiv, mis on objekt ja kuidas massiive ning objekte kasutada.
+Selles peatükis räägime täpsemalt andmestruktuuride kohta. Uurime, mis on andmestruktuur, mis on massiiv, mis on objekt ja kuidas massiive ning objekte kasutada.
+
+![Andmestruktuurid](Data-Structures.webp)
 
 - [Andmestruktuurid](#andmestruktuurid)
   - [Õpitulemused](#õpitulemused)

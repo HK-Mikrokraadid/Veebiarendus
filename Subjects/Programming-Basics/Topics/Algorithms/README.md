@@ -2,6 +2,10 @@
 
 Selles teemas räägime algoritmidest ja kuidas neid disainida lihtsamate probleemide lahendamiseks.
 
+![Algoritmid](Algorithms.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Algoritmid](#algoritmid)
   - [Õpitulemused](#õpitulemused)
   - [Mis on algoritm?](#mis-on-algoritm)

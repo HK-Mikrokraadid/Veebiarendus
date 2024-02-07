@@ -2,6 +2,10 @@
 
 Selles teemas õpime NodeJS-s silumise kohta.
 
+![Silumine](Debugging.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Silumine](#silumine)
   - [Õpitulemused](#õpitulemused)
   - [Mis on Silumine?](#mis-on-silumine)

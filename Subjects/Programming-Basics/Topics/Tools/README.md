@@ -2,6 +2,10 @@
 
 Selles peatükis räägime täpsemalt tööriistadest, mida kasutame sellel kursusel.
 
+![Tools](Software-Development-Tools.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Tööriistad](#tööriistad)
   - [Õpitulemused](#õpitulemused)
   - [Koodiredaktor](#koodiredaktor)

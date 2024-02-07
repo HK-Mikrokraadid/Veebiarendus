@@ -1,6 +1,10 @@
 # Hello World!
 
-Selles peatükis räägime, mis on *Hello World*, kuidas kirjutada *Hello World* programm Javascriptis ja kuidas seda käivitada..
+Selles peatükis räägime, mis on *Hello World*, kuidas kirjutada *Hello World* programm Javascriptis ja kuidas seda käivitada.
+
+![Hello World!](Hello-World.webp)
+
+Pildi allikas: Dall-E by OpenAI
 
 - [Hello World!](#hello-world)
   - [Õpitulemused](#õpitulemused)
