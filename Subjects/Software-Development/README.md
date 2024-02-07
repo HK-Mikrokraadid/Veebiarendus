@@ -2,6 +2,8 @@
 
 ![Tarkvaraarendus](Topics/Software/Software-Development.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 ## Kirjeldus
 
 **Tarkvaraarendus** sukeldub sügavale kaasaegsete tarkvaralahenduste loomise südamesse. See aine katab kogu tarkvaraarenduse elutsükli, alates kasutajate vajaduste mõistmisest kuni disaini, kodeerimise, testimise, ja juurutamiseni. Õpilased õpivad nii tarkvaratehnika teoreetilisi aluseid kui ka praktilisi oskusi, mis on vajalikud tarkvaraarendajaks saamiseks. Käsitletud teemad hõlmavad disainipõhimõtteid, koodikirjutamise parimaid tavasid, koostööl põhinevat arendust, versioonikontrolli ja testimisstrateegiaid. Praktiliste projektide kaudu kogevad õpilased tarkvaraarenduse väljakutseid reaalmaailma kontekstides.

@@ -1,5 +1,9 @@
 # Front-End Arenduse Mikrokraad
 
+![Front-End](Front-End.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 ## Eesmärgid
 
 Pakkuda õpilasele põhjalikku arusaama põhimõtetest, tööriistadest, parimatest praktikatest ja oskustest, mis on vajalikud interaktiivsete ja kasutajasõbralike veebilehtede loomiseks.

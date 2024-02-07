@@ -1,5 +1,9 @@
 # Back-Endi Mikrokraad
 
+![Back-End](Back-End.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 ## Eesmärgid
 
 Pakkuda õpilastele põhjalikku ülevaadet serveripoolse rakenduse arendamisest, alates põhilistest programmeerimiskontseptsioonidest ja tarkvaraarenduse meetoditest kuni andmebaaside ja rakendusliideste loomiseni. Aine eesmärk on tagada, et õppijad suudavad disainida, ehitada ja hallata rakendusliideseid, mis vastavad kliendi ootustele.
