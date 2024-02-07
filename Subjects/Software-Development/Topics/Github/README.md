@@ -47,17 +47,18 @@ Siin on mõned peamised Githubi aspektid ja funktsioonid:
 
 ## Konto loomine
 
+![Github.com](Github-com.png)
+
 GitHubi konto loomiseks minge [github.com](https://github.com/signup) ja järgige juhiseid.
 
 ## Github Desktop
 
 ![Github Desktop](Gtihub-Desktop.png)
 
-GitHub Desktop on graafiline kasutajaliides (GUI) Git'i jaoks, mille on loonud GitHub. Selle eesmärk on lihtsustada Git'i hoidlate ja GitHubi projektide haldamise protsessi võrreldes Git'i kasutamisega ainult käsurea kaudu. Siin on mõned GitHub Desktopi peamised aspektid:
+**GitHub Desktop** on graafiline kasutajaliides (GUI) Git'i jaoks, mille on loonud GitHub. Selle eesmärk on lihtsustada Git'i hoidlate ja GitHubi projektide haldamise protsessi võrreldes Git'i kasutamisega ainult käsurea kaudu. Siin on mõned **GitHub Desktopi** peamised funktsionaalsused:
 
 - **Hoidlate haldamine**:
   - GitHub Desktop võimaldab kasutajatel luua uusi hoidlaid, kloonida olemasolevaid hoidlaid ja hallata kohalikke hoidlaid.
-  - See pakub visuaalset esitust teie hoidlatest, muutes struktuuri ja muudatuste mõistmise aja jooksul lihtsamaks.
 
 - **Harude loomine ja ühendamine**:
   - Kasutajad saavad otse liidesest luua, vahetada ja ühendada harusid, muutes harusid loomise protsessi intuitiivsemaks.
@@ -67,39 +68,35 @@ GitHub Desktop on graafiline kasutajaliides (GUI) Git'i jaoks, mille on loonud G
   - Rakendus pakub visuaalset muudatuste ajalugu, mis võib olla kasulik projekti arengu mõistmiseks.
   - Kasutajad saavad hõlpsalt näha, kes tegi muudatusi, milliseid muudatusi tehti ja millal need muudatused tehti.
 
-- **Lihtsad pühendamised ja tõukamised**:
-  - GitHub Desktop lihtsustab muudatuste lavastamise, pühendamise ja tõukamise protsessi GitHubi.
-  - See pakub lihtsat vormi pühendamissõnumite sisestamiseks ja valimiseks, milliseid muudatusi pühendamisse kaasata.
+- **Lihtsad `commit`-id ja tõukamised**:
+  - GitHub Desktop lihtsustab muudatuste lavastamise, `commit`-imise ja tõukamise protsessi GitHubi.
+  - See pakub lihtsat vormi `commit`-i sõnumite sisestamiseks ja valimiseks, milliseid muudatusi `commit`-i kaasata.
 
 - **Integratsioon GitHubiga**:
-  - Rakendus on tihedalt integreeritud GitHubiga, võimaldades kohalike hoidlate ja GitHubi hoidlate vahel hõlpsat sünkroniseerimist.
-  - Kasutajad saavad avada
-
- pull requeste, vaadata probleeme ja palju muud, kõik GitHub Desktopi liideses.
+  - Rakendus on tihedalt integreeritud GitHubiga, võimaldades kohalike hoidlate ja GitHubi hoidlate vahel lihtsat sünkroniseerimist.
 
 - **Platvormideülene**:
-  - GitHub Desktop on saadaval Windowsile ja macOSile, muutes selle mitmekülgseks tööriistaks segatud operatsioonisüsteemidega meeskondadele.
+  - GitHub Desktop on saadaval Windowsile ja macOSile, muutes selle mitmekülgseks tööriistaks mitme operatsioonisüsteemidega meeskondadele.
 
 - **Avatud lähtekood**:
   - GitHub Desktop on avatud lähtekoodiga, võimaldades kellelgi panustada selle arendusse või uurida selle koodi.
 
-- **Abi keerukate Git'i funktsioonide jaoks**:
-  - Kuigi GitHub Desktop keskendub Git'i põhifunktsioonide lihtsustamisele, pakub see abi ka keerukamate Git'i funktsioonide jaoks, olles sild käsurea ja GUI operatsioonide vahel.
-
-Üldiselt on GitHub Desktop mõeldud arendajatele, kes eelistavad graafilist liidest, ja see võib olla eriti kasulik neile, kes on Git'i uued või eelistavad visuaalseid suhtlusi käsurea suhtluste asemel.
+Üldiselt on GitHub Desktop mõeldud arendajatele, kes eelistavad graafilist kasutajaliidest, ja see võib olla eriti kasulik neile, kes on Git'i kasutamisel uued või eelistavad visuaalseid suhtlusi käsurea suhtluste asemel.
 
 ## Harjutused
 
 Minge [github.com](https://www.github.com), registreerige konto (kui teil pole veel kontot) või logige sisse (kui teil juba on).
 
-Tutvuge GitHubi kasutajaliidesega. Harjutage erinevate funktsioonide ja veebisaidi osadega.
+Tutvuge GitHubi kasutajaliidesega. Harjuge erinevate funktsioonide ja veebisaidi osadega.
 
 Seejärel tehke järgmist:
 
 - installeerige `Github Desktop` oma arvutisse
-- looge `Githubis` uus hoidla
+- looge `Github`-is uus hoidla
 - kloonige hoidla oma arvutisse
 - lisage hoidlasse uus fail
-- pühendage muudatused
-- tõugake muudatused kaughoidlasse
-- looge oma hoidlas `Githubis` uus `Issue` ja määrake see endale
+- `commit`-ige muudatused
+- saatke muudatused serverisse
+- looge oma hoidlas `Github`-is uus `Issue` ja määrake see endale
+
+![Repositooriumi loomine](CreateRepository.gif)
