@@ -6,7 +6,7 @@
 
 - **Maht**: 4 EAP (4 x 26 tundi)
 - **Aine eesmärgid**: **"Programmeerimise alused"** aine eesmärk on tutvustada õpilastele arvutiprogrammeerimise põhikontseptsioone ja -põhimõtteid.
-- 
+
 Kursuse lõpuks on õpilastel selge arusaam programmeerimise loogilisest struktuurist, nad on tuttavad põhilise koodi süntaksiga ja on suutelised kirjutama lihtsaid programme arvutusprobleemide lahendamiseks.
 
 ## Õpitulemused
