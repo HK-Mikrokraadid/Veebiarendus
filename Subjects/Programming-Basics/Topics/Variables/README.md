@@ -2,6 +2,10 @@
 
 Selles peatükis õpime Javascriptis muutujate kohta, mis need on, kuidas neid deklareerida ja kuidas neile väärtusi omistada.
 
+
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Muutujad](#muutujad)
   - [Õpitulemused](#õpitulemused)
   - [Mis on muutuja?](#mis-on-muutuja)

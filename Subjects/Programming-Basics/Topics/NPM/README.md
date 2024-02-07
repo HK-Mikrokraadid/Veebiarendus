@@ -2,6 +2,10 @@
 
 Selles teemas räägime Node Package Managerist (NPM).
 
+![NPM](NPM.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Node Package Manager (*NPM*)](#node-package-manager-npm)
   - [Õpitulemused](#õpitulemused)
   - [Mis on NPM?](#mis-on-npm)

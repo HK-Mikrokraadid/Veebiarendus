@@ -1,5 +1,12 @@
 # Skoop (_scope_)
 
+
+![Skoop](Scope.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+Skoop (_scope_) on kontseptsioon, mis viitab sellele, kus muutujad ja avaldised on kättesaadavad.
+
 Skoop on praegune täitmise kontekst, milles väärtused ja avaldised on "nähtavad" või neile saab viidata. Kui muutuja või avaldis ei ole skoobis, pole see kasutamiseks saadaval. Skoope saab kihistada ka hierarhias, nii et alamskoobil on juurdepääs ülemskoobile, kuid mitte vastupidi.
 
 JavaScriptil on järgmist tüüpi skoobid:

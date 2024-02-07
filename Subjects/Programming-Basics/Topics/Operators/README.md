@@ -2,6 +2,10 @@
 
 Selles peatükis õpime Javascripti operaatorite ja avaldiste kohta.
 
+![Operaatorid](Operators.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Operaatorid ja Avaldised](#operaatorid-ja-avaldised)
   - [Õpitulemused](#õpitulemused)
   - [Mis on Operaator?](#mis-on-operaator)
