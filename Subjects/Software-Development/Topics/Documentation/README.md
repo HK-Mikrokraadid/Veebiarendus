@@ -2,6 +2,7 @@
 
 Selles teemas õpime tarkvaraarenduse dokumentatsiooni tähtsuse, erinevate dokumentatsiooni tüüpide ning dokumentatsiooni koostamiseks kasutatavate tööriistade kohta.
 
+![Dokumentatsioon](Documentation.webp)
 
 Pildi allikas: Dall-E by OpenAI
 

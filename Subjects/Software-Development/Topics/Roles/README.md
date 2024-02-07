@@ -1,5 +1,11 @@
 # Tarkvaraarenduse rollid
 
+Selles teemas uurime tarkvaraarenduse võtmerolle. Tarkvaraarenduse valdkonnas võivad isikud täita erinevaid rolle, millest igaühel on oma eripärad ja panused üldprojekti.
+
+![Rollid](Roles.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Tarkvaraarenduse rollid](#tarkvaraarenduse-rollid)
 
 ## Õpiväljundid

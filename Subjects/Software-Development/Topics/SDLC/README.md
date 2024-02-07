@@ -2,6 +2,10 @@
 
 Selles teemas uurime tarkvaraarenduse elutsükli (SDLC) kontseptsiooni, õpime tundma selle erinevaid faase ja käsitleme SDLC tähtsust tarkvaraarenduses.
 
+![SDLC](SDLC.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Tarkvaraarenduse elutsükkel (SDLC):](#tarkvaraarenduse-elutsükkel-sdlc)
   - [Õpitulemused:](#õpitulemused)
   - [Tüüpilised SDLC faasid:](#tüüpilised-sdlc-faasid)

@@ -1,5 +1,9 @@
 # Testimine tarkvaraarenduses
 
+![Testimine](Testing.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Testimine tarkvaraarenduses](#testimine-tarkvaraarenduses)
   - [Õpitulemused:](#õpitulemused)
   - [Testimise tähtsus:](#testimise-tähtsus)
