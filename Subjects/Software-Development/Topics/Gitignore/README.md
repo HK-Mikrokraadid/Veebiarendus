@@ -1,4 +1,18 @@
-.gitignore pakub olulist vahendit Git'i hoidla puhtana ja tõhusana hoidmiseks. See tagab, et soovimatud failid on versioonihaldusest välja jäetud, pakkudes nii turvalisuse kui ka tõhususe eeliseid.
+# `.gitignore`
+
+Selles peatükis räägime, kuidas kasutada `.gitignore` faili, et hoida repositoorium puhtana, jättes välja failid ja kaustad, mis ei paku versioonihalduses väärtust või failid, mis sisaldavad tundlikke andmeid.
+
+![gitignore](gitignore.webp)
+
+- [`.gitignore`](#gitignore)
+  - [.gitignore Node.js kontekstis](#gitignore-nodejs-kontekstis)
+    - [Selgitus eelnevast näitest:](#selgitus-eelnevast-näitest)
+    - [Mida panna `.gitignore`:](#mida-panna-gitignore)
+    - [Mida mitte panna `.gitignore`:](#mida-mitte-panna-gitignore)
+  - [Harjutused](#harjutused)
+
+
+Lühidalt kirjeldades on `.gitignore` fail, mis sisaldab reegleid failide ja kaustade kohta, mida Git peaks ignoreerima.
 
 ## .gitignore Node.js kontekstis
 
@@ -49,16 +63,16 @@ node_modules/
 .node_repl_history
 ```
 
-### Selgitus:
+### Selgitus eelnevast näitest:
 
 - **Logid:** Tavaliselt jäetakse logifailid ja -kaustad ignoreerituks, kuna need sisaldavad sageli käitusaegseid andmeid, mida ei ole vaja versioonida.
 - **Käitusaegsed andmed:** Samuti tuleks välja jätta kõik genereeritud PID või seemnefailid.
 - **Testi katvuse andmed:** Kaustad nagu `lib-cov`, `coverage` ja `.nyc_output` sisaldavad sageli testi katvuse andmeid ja tuleks välja jätta.
-- **`node_modules/`:** See on Node.js projektide jaoks oluline. Kui installite kolmanda osapoole pakette npm-i või Yarni kaudu, salvestatakse need sellesse kausta. Peaksite välja jätma `node_modules/`, sest:
-   - See võib olla suur, muutes kloonimise ja tõmbamise aeglaseks.
-   - Sõltuvused saab installida keskkonnapõhiselt. See tagab, et kui teine arendaja või CI/CD torustik kloonib repositooriumi, saavad nad installida täpselt need versioonid, mis on määratud teie `package-lock.json` või `yarn.lock` failis, käivitades `npm install` või `yarn`.
-- **IDE seaded:** Kaustad nagu `.idea/` (JetBrainsi IDE-dele) ja `.vscode/` (Visual Studio Code'ile) võivad sisaldada kasutajaspetsiifilisi IDE seadeid. Neid tuleks ignoreerida, et vältida teise arendaja seadistuse ülekirjutamist.
-- **Keskkonnamuutujad:** Failid nagu `.env` sisaldavad sageli tundlikke või keskkonnapõhiseid väärtusi. Neid tuleks ignoreerida, et vältida saladuste lekkimist ja võimaldada erinevatel arendajatel või keskkondadel säilitada oma konfiguratsioone.
+- **`node_modules/`:** See on Node.js projektide jaoks oluline kaust, mida ei ole vaja versioonihaldusesse kaasata. Kui paigaldada kolmanda osapoole pakette npm-i või Yarni kaudu, salvestatakse need paketid sellesse kausta. See kaust tuleks välja jätta, sest:
+   - see võib olla suur, muutes kloonimise ja tõmbamise aeglaseks;
+   - sõltuvused saab installida keskkonnapõhiselt. See tagab, et kui teine arendaja või CI/CD kloonib repositooriumi, saavad nad paigaldada täpselt need versioonid, mis on määratud vastavalt `package-lock.json` või `yarn.lock` failides.
+- **IDE seaded:** Kaustad nagu `.idea/` (JetBrainsi IDE-dele) ja `.vscode/` (Visual Studio Code'ile) võivad sisaldada kasutajaspetsiifilisi koodieditori seadeid. Neid tuleks ignoreerida, et vältida teise arendaja seadistuse ülekirjutamist.
+- **Keskkonnamuutujad:** Failid nagu `.env` sisaldavad sageli tundlikke või keskkonnapõhiseid väärtusi. Neid tuleks ignoreerida, et vältida tundliku informatsiooni lekkimist ja võimaldada erinevatel arendajatel või keskkondadel säilitada oma konfiguratsioone.
 - **Maci-spetsiifilised:** `.DS_Store` on Mac OS-i poolt genereeritud süsteemifail.
 - **Vahemälu failid:** `.npm` ja `.eslintcache` on vahemälu kaustad/failid, mida ei ole vaja versioonida.
 - **REPL ajalugu:** `.node_repl_history` on ajaloo fail, kui kasutate Node REPL-i.
@@ -79,7 +93,7 @@ node_modules/
 - Dokumentatsioon ja sellega seotud varad.
 - Ehitus- ja juurutusskriptid.
   
-Pidage meeles, et `.gitignore` faili eesmärk on hoida teie repositoorium puhtana, jättes välja failid ja kaustad, mis ei paku versioonihalduses väärtust. See aitab ka vältida tundliku andme või kasutajaspetsiifiliste seadete kogemata pühendamist.
+Pidage meeles, et `.gitignore` faili eesmärk on hoida teie repositoorium puhtana, jättes välja failid ja kaustad, mis ei paku versioonihalduses väärtust. See aitab ka vältida tundliku andme või kasutajaspetsiifiliste seadete mittetahtlikult versioonihaldusesse lisamist.
 
 ## Harjutused
 
@@ -88,6 +102,6 @@ Proovi selgitada oma sõnadega, mis on `.gitignore` ja miks see on oluline.
 Järgmisena proovi lõpetada järgmised ülesanded:
 - Loo oma repositooriumis `.gitignore` fail.
 - Lisa `draft.md` `.gitignore` faili.
-- Pühenda `.gitignore` fail oma repositooriumisse.
+- `commit`-i .gitignore` fail oma repositooriumisse.
 - Loo uus fail nimega `draft.md` ja lisa sinna mõningane sisu.
-- Kontrolli, kas `draft.md` on Git'i poolt ignoreeritud (proovi seda pühendada).
+- Kontrolli, kas `draft.md` on Git'i poolt ignoreeritud (proovi seda `commit`-ida).
