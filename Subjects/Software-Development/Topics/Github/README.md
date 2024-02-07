@@ -2,6 +2,8 @@
 
 Selles teemas õpime tundma GitHubi, mis on üks maailma populaarsemaid koodi majutamise platvorme. Uurime selle funktsioone, õpime seda kasutama ja avastame, kuidas seda saab kasutada tarkvaraprojektide koostööks.
 
+![Git Platform](Git-Platform.webp)
+
 - [Github](#github)
   - [Õpitulemused](#õpitulemused)
   - [Mis on Github?](#mis-on-github)
@@ -11,7 +13,7 @@ Selles teemas õpime tundma GitHubi, mis on üks maailma populaarsemaid koodi ma
 
 ## Õpitulemused
 
-Pärast selle teema läbimist suudate:
+Pärast selle teema läbimist oskad:
 
 - kirjeldada, mis on GitHub ja miks see on populaarne;
 - luua GitHubi konto;
@@ -21,26 +23,26 @@ Pärast selle teema läbimist suudate:
 
 ## Mis on Github?
 
-**GitHub** on veebipõhine platvorm, mis pakub majutust tarkvaraarenduseks ja versioonikontrolliks Git'i abil. See pakub Git'i hajutatud versioonikontrolli võimekust koos omaenda funktsioonidega.
+![Github](Github.png)
 
-GitHub asutati 2008. aastal Tom Preston-Werneri, Chris Wanstrathi ja PJ Hyetti poolt. 2018. aastal omandas selle Microsoft. Täna on see üks maailma suurimaid koodi majutamise platvorme, kus on tohutu arendajate kogukond, avatud lähtekoodiga projektid ja privaatsed hoidlad.
+**GitHub** on veebipõhine platvorm, mis pakub majutust tarkvaraarenduseks ja versioonikontrolliks Git'i abil. See pakub Git'i hajutatud versioonikontrolli võimekust koos Github-i poolt lisatud funktsionaalsustega.
 
-Siin on mõned peamised aspektid ja GitHubi funktsioonid:
+GitHub asutati 2008. aastal Tom Preston-Werneri, Chris Wanstrathi ja PJ Hyetti poolt. 2018. aastal omandas selle Microsoft. Täna on see üks maailma suurimaid koodi majutamise platvorme, millel on väga suur arendajate kogukond ja mis sisaldab väga palju avatud lähtekoodiga projekte ja privaatseid hoidlad.
 
-- **Hoidlad**: GitHubi südames on "hoidla" (tihti lühendatud "repo"). Hoidla sisaldab kõiki projekti faile, sealhulgas muudatuste ajalugu. Hoidlad võivad olla avalikud (kõigile ligipääsetavad) või privaatsed (piiratud ligipääsuga).
-- **Forkimine**: Kasutajad saavad "forkida" hoidlat, mis tähendab isikliku koopia loomist teise kasutaja projektist. See võimaldab kasutajatel teha muudatusi ilma algset projekti mõjutamata. Kui forkis on muudatusi tehtud, saavad kasutajad saata "pull requesti" algse hoidla omanikule, et pakkuda nende muudatuste integreerimist.
-- **Pull Requestid**: Pull requestid võimaldavad teavitada teisi tehtud muudatustest hoidlas. Kui pull request on saadetud, saavad projekti haldurid üle vaadata muudatuste kogumi, arutada võimalikke modifikatsioone ja isegi teha järelmuudatusi enne muudatuste ühendamist hoidlasse.
-- **Probleemid**: GitHub pakub probleemide jälgimise süsteemi, kus kasutajad saavad teatada vigadest, taotleda funktsioone või arutada muid projekti puudutavaid küsimusi.
-- **GitHub Actions**: See funktsioon võimaldab CI/CD (pidev integratsioon/pidev väljastamine) ja muude ülesannete automatiseeritud töövoogude määratlemist otse GitHubi hoidlas.
-- **GitHubi lehed**: Kasutajad saavad otse oma hoidlatest GitHubis staatilisi veebisaite majutada. See on populaarne isiklike portfooliote, projekti dokumentatsiooni ja muu jaoks.
-- **Gistid**: Gist on teenus, mida GitHub pakub koodil
+Siin on mõned peamised Githubi aspektid ja funktsioonid:
 
-õikude jagamiseks. Kuigi hoidlad on suuremate projektide jaoks, on gistid mõeldud väiksemate koodilõikude jaoks.
+- **Hoidlad**: GitHubi südames on "hoidla" (tihti lühendatud "repo"). Hoidla sisaldab kõiki projekti faile, sealhulgas muudatuste ajalugu. Hoidlad võivad olla avalikud (kõigile ligipääsetavad), privaatsed (piiratud ligipääsuga) või organisatsiooni sisesed (nähtavad organisatsiooni liikmetele).
+- **Forkimine**: Kasutajad saavad "forkida" hoidlat, mis tähendab isikliku koopia loomist teise kasutaja projektist. See võimaldab kasutajatel teha muudatusi ilma algset projekti mõjutamata. Kui forkis on muudatusi tehtud, saavad kasutajad saata tõmbetaotluse algse hoidla omanikule, et soovitada nende muudatuste integreerimist.
+- **Tõmbetaotlused (PR - Pull Requestid)**: Tõmbetaotlused võimaldavad teavitada teisi hoidlas tehtud muudatustest. Kui tõmbetaotlus on saadetud, saavad projekti haldurid üle vaadata muudatuste kogumi, arutada võimalikke modifikatsioone ja isegi teha järelmuudatusi enne muudatuste ühendamist hoidlasse.
+- **Probleemid (Github Issue)**: GitHub pakub probleemide jälgimise süsteemi, kus kasutajad saavad teatada vigadest, taotleda funktsioone või arutada muid projekti puudutavaid küsimusi. Lisaks kasutatakse Github `Issue`-sid sageli ka ülesannete jagamiseks/jälgimiseks ja projektide haldamiseks.	
+- **GitHub Actions**: See funktsioon võimaldab CI/CD (pidev integratsioon/pidev väljastamine) ja muude sündmustele reageerivate ülesannete automatiseeritud töövoogude loomist otse GitHubi hoidlas.
+- **GitHubi lehed**: Kasutajad saavad otse oma hoidlatest GitHubis staatilisi veebisaite majutada. See on populaarne isiklike portfooliote, projekti dokumentatsiooni jms jaoks.
+- **Gistid**: Gist on teenus, mida GitHub pakub koodilõikude jagamiseks. Kuigi hoidlad on suuremate projektide jaoks, on gistid mõeldud väiksemate koodilõikude jagamiseks.
 - **Koostöö**: GitHub pakub mitmesuguseid tööriistu nagu koodi ülevaatused, projektijuhtimise tahvlid ja ulatuslikud koostööfunktsioonid, et muuta meeskonnatöö lihtsamaks.
 - **Turg**: GitHubi turg pakub hulga tööriistu ja integratsioone, mis laiendavad ja suurendavad GitHubi funktsionaalsust, ulatudes pideva integratsiooni teenustest koodi kvaliteedi kontrollijateni ja muuni.
-- **Turvalisus**: GitHubil on mitu turvafunktsiooni, sealhulgas automaatsed turvaärevused teadaolevate haavatavuste kohta sõltuvustes ja "Dependabot", mis saab automaatselt luua pull requeste sõltuvuste uuendamiseks uuematele, turvalistele versioonidele.
-- **Sponsorlus**: GitHub tutvustas "Sponsor" funktsiooni, mis võimaldab kasutajatel oma lemmik avatud lähtekoodiga arendajaid ja projekte GitHubis otse rahaliselt toetada.
-- **Integratsioonid**: GitHubi saab integreerida laia valiku kolmandate osapoolte tööriistade ja platvormidega, suurendades selle võimekust.
+- **Turvalisus**: GitHubil on mitu turvafunktsiooni, sealhulgas automaatsed turvakontrollid teadaolevate haavatavuste kohta sõltuvustes ja "Dependabot", mis saab automaatselt luua tõmbetaotlusi sõltuvuste uuendamiseks uuematele, turvalisematele versioonidele.
+- **Sponsorlus**: GitHub tutvustas "Sponsor" funktsiooni, mis võimaldab kasutajatel oma lemmik avatud lähtekoodiga arendajaid ja projekte GitHubis rahaliselt toetada.
+- **Integratsioonid**: GitHubi saab integreerida laia valiku kolmandate osapoolte tööriistade ja platvormidega, suurendades selle funktsionaalsust.
 - **GitHubi projektid**: See funktsioon võimaldab kasutajatel luua Kanban-stiilis tahvleid projektide ja ülesannete haldamiseks.
 
 ## Konto loomine
@@ -48,6 +50,8 @@ Siin on mõned peamised aspektid ja GitHubi funktsioonid:
 GitHubi konto loomiseks minge [github.com](https://github.com/signup) ja järgige juhiseid.
 
 ## Github Desktop
+
+![Github Desktop](Gtihub-Desktop.png)
 
 GitHub Desktop on graafiline kasutajaliides (GUI) Git'i jaoks, mille on loonud GitHub. Selle eesmärk on lihtsustada Git'i hoidlate ja GitHubi projektide haldamise protsessi võrreldes Git'i kasutamisega ainult käsurea kaudu. Siin on mõned GitHub Desktopi peamised aspektid:
 
