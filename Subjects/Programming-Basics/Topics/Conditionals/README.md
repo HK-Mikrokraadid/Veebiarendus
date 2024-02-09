@@ -7,7 +7,7 @@ Selles teemas õpime Javascripti tingimuslausete kohta.
 Pildi allikas: Dall-E by OpenAI
 
 - [Tingimuslaused](#tingimuslaused)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on Tingimuslause?](#mis-on-tingimuslause)
   - [Tingimuslauste Mõistmine](#tingimuslauste-mõistmine)
     - [Tõeväärtus Avaldis](#tõeväärtus-avaldis)
@@ -26,7 +26,7 @@ Pildi allikas: Dall-E by OpenAI
     - [Harjutus 2 - If-Else-lause](#harjutus-2---if-else-lause)
     - [Harjutus 3 - If-Else-If-lause](#harjutus-3---if-else-if-lause)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist suudate:
 

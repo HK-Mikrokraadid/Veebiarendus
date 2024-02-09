@@ -7,7 +7,7 @@ Pildi allikas: Dall-E by OpenAI
 Selles teemas õpime tundma Markdowni, mis on üks populaarsemaid teksti vormindamise keeli maailmas. Uurime selle funktsioone, õpime seda kasutama ja avastame, kuidas seda saab kasutada tarkvaraprojektide dokumentatsioonis, blogimises ja muudes eesmärkides.
 
 - [Markdown](#markdown)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on Markdown?](#mis-on-markdown)
   - [Mis on märgendikeel?](#mis-on-märgendikeel)
   - [Markdowni eelised:](#markdowni-eelised)
@@ -29,7 +29,7 @@ Selles teemas õpime tundma Markdowni, mis on üks populaarsemaid teksti vormind
     - [Ülesannete loendid:](#ülesannete-loendid)
   - [Harjutused](#harjutused)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
 

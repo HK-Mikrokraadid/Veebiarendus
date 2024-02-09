@@ -7,13 +7,13 @@ Selles teemas õpime tundma GitHubi, mis on üks maailma populaarsemaid koodi ma
 Pildi allikas: Dall-E by OpenAI
 
 - [Github](#github)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on Github?](#mis-on-github)
   - [Konto loomine](#konto-loomine)
   - [Github Desktop](#github-desktop)
   - [Harjutused](#harjutused)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
 

@@ -7,7 +7,7 @@ Selles peatükis räägime täpsemalt tööriistadest, mida kasutame sellel kurs
 Pildi allikas: Dall-E by OpenAI
 
 - [Tööriistad](#tööriistad)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Koodiredaktor](#koodiredaktor)
   - [Veebilehitseja](#veebilehitseja)
   - [Terminal](#terminal)
@@ -15,7 +15,7 @@ Pildi allikas: Dall-E by OpenAI
   - [GitHub](#github)
   - [GitHub Desktop](#github-desktop)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist suudad vastata järgmistele küsimustele:
 - mis on koodiredaktor

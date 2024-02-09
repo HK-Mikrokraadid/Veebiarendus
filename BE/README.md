@@ -8,7 +8,7 @@ Pildi allikas: Dall-E by OpenAI
 
 Pakkuda õpilastele põhjalikku ülevaadet serveripoolse rakenduse arendamisest, alates põhilistest programmeerimiskontseptsioonidest ja tarkvaraarenduse meetoditest kuni andmebaaside ja rakendusliideste loomiseni. Aine eesmärk on tagada, et õppijad suudavad disainida, ehitada ja hallata rakendusliideseid, mis vastavad kliendi ootustele.
 
-## Õpitulemused
+## Õpiväljundid
 
 - Õpilane on tuttav kaasaegsete tarkvaraarenduse põhimõtetega
 - Õpilane kasutab koodihalduskeskkonda `Github` koodi ja dokumentatsiooni haldamiseks kursuse jooksul

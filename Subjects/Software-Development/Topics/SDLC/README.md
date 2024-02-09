@@ -7,7 +7,7 @@ Selles teemas uurime tarkvaraarenduse elutsükli (SDLC) kontseptsiooni, õpime t
 Pildi allikas: Dall-E by OpenAI
 
 - [Tarkvaraarenduse elutsükkel (SDLC):](#tarkvaraarenduse-elutsükkel-sdlc)
-  - [Õpitulemused:](#õpitulemused)
+  - [Õpiväljundid:](#õpitulemused)
   - [Tüüpilised SDLC faasid:](#tüüpilised-sdlc-faasid)
   - [SDLC tähtsus:](#sdlc-tähtsus)
   - [Levinud tarkvaraarenduse elutsükli (SDLC) mudelid:](#levinud-tarkvaraarenduse-elutsükli-sdlc-mudelid)
@@ -21,7 +21,7 @@ Pildi allikas: Dall-E by OpenAI
     - [**Scrum:**](#scrum)
   - [Harjutused ja ülesanded](#harjutused-ja-ülesanded)
 
-## Õpitulemused:
+## Õpiväljundid:
 
 Pärast selle teema läbimist suudate:
 

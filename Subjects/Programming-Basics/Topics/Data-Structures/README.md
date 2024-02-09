@@ -7,7 +7,7 @@ Selles peatükis räägime täpsemalt andmestruktuuride kohta. Uurime, mis on an
 Pildi allikas: Dall-E by OpenAI
 
 - [Andmestruktuurid](#andmestruktuurid)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on andmestruktuur?](#mis-on-andmestruktuur)
   - [Massiiv](#massiiv)
     - [Massiivi meetodid](#massiivi-meetodid)
@@ -22,7 +22,7 @@ Pildi allikas: Dall-E by OpenAI
     - [Harjutus 3 - Põhilised objekti toimingud](#harjutus-3---põhilised-objekti-toimingud)
     - [Harjutus 4 - Objekti omaduste muutmine](#harjutus-4---objekti-omaduste-muutmine)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
 

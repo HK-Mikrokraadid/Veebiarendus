@@ -7,7 +7,7 @@ Selles teemas räägime sellest, mis on moodulid Javascriptis ja kuidas neid kas
 Pildi allikas: Dall-E by OpenAI
 
 - [Moodulid](#moodulid)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on moodul?](#mis-on-moodul)
   - [Kuidas eksportida moodulit?](#kuidas-eksportida-moodulit)
   - [Kuidas importida moodulit?](#kuidas-importida-moodulit)
@@ -18,7 +18,7 @@ Pildi allikas: Dall-E by OpenAI
     - [Harjutus 2 - Mitme funktsiooni eksportimine](#harjutus-2---mitme-funktsiooni-eksportimine)
     - [Harjutus 3 - Objekti eksportimine](#harjutus-3---objekti-eksportimine)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
 

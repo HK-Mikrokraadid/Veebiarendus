@@ -7,7 +7,7 @@ Selles teemas räägime Node Package Managerist (NPM).
 Pildi allikas: Dall-E by OpenAI
 
 - [Node Package Manager (*NPM*)](#node-package-manager-npm)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on NPM?](#mis-on-npm)
   - [Kuidas paigaldada NPM-i ennast?](#kuidas-paigaldada-npm-i-ennast)
   - [Kuidas kasutada NPM-i?](#kuidas-kasutada-npm-i)
@@ -20,7 +20,7 @@ Pildi allikas: Dall-E by OpenAI
     - [Käsud ja kood, mida näites kasutati](#käsud-ja-kood-mida-näites-kasutati)
     - [package.json faili loomine](#packagejson-faili-loomine)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
 

@@ -7,7 +7,7 @@ Selles teemas räägime algoritmidest ja kuidas neid disainida lihtsamate proble
 Pildi allikas: Dall-E by OpenAI
 
 - [Algoritmid](#algoritmid)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on algoritm?](#mis-on-algoritm)
   - [Algoritmide disainimine](#algoritmide-disainimine)
   - [Pseudokood](#pseudokood)
@@ -17,7 +17,7 @@ Pildi allikas: Dall-E by OpenAI
     - [Harjutus 2](#harjutus-2)
     - [Harjutus 3](#harjutus-3)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist suudate:
 

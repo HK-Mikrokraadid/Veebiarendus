@@ -3,12 +3,12 @@
 Selles teemas õpime tundma parimaid praktikaid Git'i ja GitHub'i kasutamiseks. Uurime Git'i ja GitHub'i parimaid praktikaid ning õpime, kuidas neid tarkvaraarendusprojektis rakendada.
 
 - [Git ja Github parimad praktikad](#git-ja-github-parimad-praktikad)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Git'i parimad praktikad:](#giti-parimad-praktikad)
   - [GitHub'i parimad praktikad:](#githubi-parimad-praktikad)
   - [Harjutused](#harjutused)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist suudate:
 

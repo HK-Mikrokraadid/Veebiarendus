@@ -8,7 +8,7 @@ Pildi allikas: Dall-E by OpenAI
 
 Pakkuda õpilasele põhjalikku arusaama põhimõtetest, tööriistadest, parimatest praktikatest ja oskustest, mis on vajalikud interaktiivsete ja kasutajasõbralike veebilehtede loomiseks.
 
-## Õpitulemused
+## Õpiväljundid
 
 - Õpilane on tuttav kaasaegsete tarkvaraarenduse põhimõtetega
 - Õpilane kasutab koodihalduskeskkonda `Github` koodi ja dokumentatsiooni haldamiseks kursuse jooksul

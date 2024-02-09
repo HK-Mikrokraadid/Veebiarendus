@@ -5,7 +5,7 @@ Selles teemas vaatame versioonihalduse põhimõisteid, ajalugu ja keskseid mõis
 ![Version Control](Version-Control.webp)
 
 - [Versioonihaldus](#versioonihaldus)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on versioonihaldus?](#mis-on-versioonihaldus)
   - [Miks on versioonihaldus oluline?](#miks-on-versioonihaldus-oluline)
   - [Versioonihalduse lühiajalugu](#versioonihalduse-lühiajalugu)
@@ -15,7 +15,7 @@ Selles teemas vaatame versioonihalduse põhimõisteid, ajalugu ja keskseid mõis
     - [Võrdlus:](#võrdlus)
   - [Harjutused](#harjutused)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
 - kirjeldada, mis on versioonihaldus ja miks see on oluline;

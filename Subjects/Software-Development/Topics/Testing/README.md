@@ -5,7 +5,7 @@
 Pildi allikas: Dall-E by OpenAI
 
 - [Testimine tarkvaraarenduses](#testimine-tarkvaraarenduses)
-  - [Õpitulemused:](#õpitulemused)
+  - [Õpiväljundid:](#õpitulemused)
   - [Testimise tähtsus:](#testimise-tähtsus)
   - [Testimise tüübid:](#testimise-tüübid)
   - [Testimise lähenemised:](#testimise-lähenemised)
@@ -14,7 +14,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Populaarsed testimise tööriistad:](#populaarsed-testimise-tööriistad)
   - [Harjutused ja ülesanded](#harjutused-ja-ülesanded)
 
-## Õpitulemused:
+## Õpiväljundid:
 
 Pärast selle teema läbimist suudate:
 

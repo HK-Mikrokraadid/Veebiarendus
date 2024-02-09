@@ -7,7 +7,7 @@ Selles teemas õpime tarkvaraarenduse dokumentatsiooni tähtsuse, erinevate doku
 Pildi allikas: Dall-E by OpenAI
 
 - [Dokumentatsioon tarkvaraarenduses](#dokumentatsioon-tarkvaraarenduses)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Dokumentatsiooni tähtsus](#dokumentatsiooni-tähtsus)
   - [Dokumentatsiooni tüübid](#dokumentatsiooni-tüübid)
   - [Dokumentatsiooni koostamise tööriistad](#dokumentatsiooni-koostamise-tööriistad)
@@ -15,7 +15,7 @@ Pildi allikas: Dall-E by OpenAI
 
 Tarkvaraarenduses viitab dokumentatsioon kirjalikele materjalidele, mis kirjeldavad tarkvaralahenduse funktsioone, arhitektuuri, disaini või kasutamist. See hõlmab kõiki andmeid, mida on vaja tarkvara mõistmiseks, sellega suhtlemiseks ja selle hooldamiseks.
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist oskate:
 

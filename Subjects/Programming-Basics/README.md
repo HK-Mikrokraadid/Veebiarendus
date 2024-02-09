@@ -13,7 +13,7 @@ Pildi allikas: Dall-E by OpenAI
 
 Kursuse lõpuks on õpilastel selge arusaam programmeerimise loogilisest struktuurist, nad on tuttavad põhilise koodi süntaksiga ja on suutelised kirjutama lihtsaid programme arvutusprobleemide lahendamiseks.
 
-## Õpitulemused
+## Õpiväljundid
 
 - **Programmeerimiskontseptsioonide mõistmine**: Tunneb ja kasutab programmide kirjutamisel põhilisi programmeerimiskonstruktsioone nagu muutujad, andmetüübid ja operaatorid.
 - **Juhtstruktuurid**: Rakendab põhilisi juhtstruktuure, sealhulgas tsükleid (nt `for`, `while`) ja tingimuslauseid (nt `if-else` laused), et mõjutada programmi täitmise kulgu.

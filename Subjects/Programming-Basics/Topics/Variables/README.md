@@ -7,7 +7,7 @@ Selles peatükis õpime Javascriptis muutujate kohta, mis need on, kuidas neid d
 Pildi allikas: Dall-E by OpenAI
 
 - [Muutujad](#muutujad)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on muutuja?](#mis-on-muutuja)
   - [Kuidas deklareerida muutujat?](#kuidas-deklareerida-muutujat)
   - [Väärtuste omistamine muutujatele](#väärtuste-omistamine-muutujatele)
@@ -16,7 +16,7 @@ Pildi allikas: Dall-E by OpenAI
     - [Harjutus 2](#harjutus-2)
     - [Harjutus 3](#harjutus-3)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist suudate:
 - Määratleda, mis on muutuja

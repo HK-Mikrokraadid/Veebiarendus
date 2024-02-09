@@ -7,13 +7,13 @@ Selles peatükis räägime NodeJS-ist, mis on selle eelised ja miinused ning kui
 Pildi allikas: Dall-E by OpenAI
 
 - [NodeJS](#nodejs)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on NodeJS?](#mis-on-nodejs)
   - [Miks kasutada NodeJS-i?](#miks-kasutada-nodejs-i)
   - [Kuidas paigaldada NodeJS-i?](#kuidas-paigaldada-nodejs-i)
   - [Kuidas käivitada NodeJS-i?](#kuidas-käivitada-nodejs-i)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist suudad:
 - selgitada, mis on NodeJS;

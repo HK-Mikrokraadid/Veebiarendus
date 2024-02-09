@@ -7,7 +7,7 @@ Selles peatükis räägime hajutatud versioonihaldussüsteemist Git. Õpime Git'
 Pildi allikas: Dall-E by OpenAI
 
 - [Gitlavastusala](#gitlavastusala)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on Git?](#mis-on-git)
   - [Git'i põhiarhitektuur](#giti-põhiarhitektuur)
   - [Giti paigaldamine](#giti-paigaldamine)
@@ -24,7 +24,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Harjutused](#harjutused)
   - [Järgmised sammud:](#järgmised-sammud)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist suudad:
 

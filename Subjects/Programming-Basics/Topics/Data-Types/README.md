@@ -7,7 +7,7 @@ Selles teemas õpime Javascripti andmetüüpide kohta.
 Pildi allikas: Dall-E by OpenAI
 
 - [Andmetüübid](#andmetüübid)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Mis on andmetüüp?](#mis-on-andmetüüp)
   - [Primitiivsed andmetüübid](#primitiivsed-andmetüübid)
   - [Objekt andmetüübid](#objekt-andmetüübid)
@@ -17,7 +17,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Harjutus 1](#harjutus-1)
   - [Harjutus 2](#harjutus-2)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist suudad:
 - Määratleda, mis on andmetüüp

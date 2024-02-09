@@ -14,7 +14,7 @@ Pildi allikas: Dall-E by OpenAI
 
 Kursuse lõpuks omavad õpilased head ettekujutust reaalmaailma probleemide tõlkimisest arvutuslikeks lahendusteks ja olema valmis arendama tarkvararakendusi, mis on vastupidavad, kasutajasõbralikud ja hooldatavad.
 
-## Õpitulemused
+## Õpiväljundid
 
 Selle aine läbinud õpilane:
 

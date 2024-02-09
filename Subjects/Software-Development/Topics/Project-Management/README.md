@@ -7,13 +7,13 @@ Selles teemas õpime tundma projektijuhtimise tähtsust tarkvaraarenduses. Uurim
 Pildi allikas: Dall-E by OpenAI
 
 - [Tarkvaraarenduse projektijuhtimine](#tarkvaraarenduse-projektijuhtimine)
-  - [Õpitulemused](#õpitulemused)
+  - [Õpiväljundid](#õpitulemused)
   - [Projektijuhtimise tähtsus tarkvaraarenduses:](#projektijuhtimise-tähtsus-tarkvaraarenduses)
   - [Projektijuhtimise põhielemendid tarkvaraarenduses:](#projektijuhtimise-põhielemendid-tarkvaraarenduses)
   - [Tööriistad](#tööriistad)
   - [Harjutused](#harjutused)
 
-## Õpitulemused
+## Õpiväljundid
 
 Pärast selle teema läbimist suudate:
 
