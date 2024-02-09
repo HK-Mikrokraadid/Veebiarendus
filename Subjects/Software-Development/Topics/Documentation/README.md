@@ -8,9 +8,9 @@ Pildi allikas: Dall-E by OpenAI
 
 - [Dokumentatsioon tarkvaraarenduses](#dokumentatsioon-tarkvaraarenduses)
   - [Õpitulemused](#õpitulemused)
-  - [Dokumentatsiooni tähtsus:](#dokumentatsiooni-tähtsus)
-  - [Dokumentatsiooni tüübid:](#dokumentatsiooni-tüübid)
-  - [Dokumentatsiooni koostamise tööriistad:](#dokumentatsiooni-koostamise-tööriistad)
+  - [Dokumentatsiooni tähtsus](#dokumentatsiooni-tähtsus)
+  - [Dokumentatsiooni tüübid](#dokumentatsiooni-tüübid)
+  - [Dokumentatsiooni koostamise tööriistad](#dokumentatsiooni-koostamise-tööriistad)
   - [Harjutused](#harjutused)
 
 Tarkvaraarenduses viitab dokumentatsioon kirjalikele materjalidele, mis kirjeldavad tarkvaralahenduse funktsioone, arhitektuuri, disaini või kasutamist. See hõlmab kõiki andmeid, mida on vaja tarkvara mõistmiseks, sellega suhtlemiseks ja selle hooldamiseks.
@@ -24,7 +24,7 @@ Pärast selle teema läbimist oskate:
 - kirjeldada erinevaid dokumentatsiooni koostamiseks kasutatavaid tööriistu;
 - koostada dokumentatsiooni tarkvaraprojektile.
 
-## Dokumentatsiooni tähtsus:
+## Dokumentatsiooni tähtsus
 
 - **Teadmiste säilitamine:** Tagab, et tarkvara kohta käivad teadmised ei kao, eriti kui meeskonnaliikmed vahetuvad või kui möödub oluline aeg.
 - **Kasutusmugavus:** Nõuetekohane dokumentatsioon, eriti kasutusjuhendid või API viited, aitavad kasutajatel ja arendajatel tarkvara tõhusalt mõista ja kasutada.
@@ -33,7 +33,7 @@ Pärast selle teema läbimist oskate:
 - **Tööle võtmine:** Uued meeskonnaliikmed saavad tarkvara arhitektuuri, koodibaasi ja funktsionaalsuse kiiremini mõista hea dokumentatsiooni abil.
 - **Regulatiivne vastavus:** Teatud sektorites, nagu finants- või tervishoid, on nõuetekohane dokumentatsioon kohustuslik, et tagada seaduste ja määrustega vastavus.
 
-## Dokumentatsiooni tüübid:
+## Dokumentatsiooni tüübid
 
 - **Nõuete dokumentatsioon:** Määratleb, mida tarkvara peaks tegema. See võib sisaldada kasutajalugusid, kasutusjuhte või formaalsemat nõuete loetelu.
 - **Tehniline dokumentatsioon:** On mõeldud arendajatele ja sisaldab koodikommentaare, API dokumentatsiooni ja arhitektuurikavandeid.
@@ -42,12 +42,13 @@ Pärast selle teema läbimist oskate:
 - **Testimisdokumentatsioon:** Sisald
 
 ab testiplaane, testijuhtumeid ja muid dokumente, mis juhendavad ja salvestavad testimispüüdlusi.
+
 - **Hooldus- ja abijuhendid:** Aitavad diagnoosida, tõrkeotsingut teha ja lahendada probleeme.
 - **Protsessi dokumentatsioon:** Täpsustab arenduse käigus järgitavaid protsesse ja standardeid.
 - **Toote dokumentatsioon:** Spetsifikatsioonid, tingimused ja muud tarkvaratoote üksikasjad.
 - **API dokumentatsioon:** Juhised selle kohta, kuidas API-t tõhusalt kasutada ja integreerida. Sageli genereeritakse koodikommentaaridest.
 
-## Dokumentatsiooni koostamise tööriistad:
+## Dokumentatsiooni koostamise tööriistad
 
 - **Wiki tööriistad:** Platvormid nagu **Confluence** või **MediaWiki** on tavaliselt kasutusel meeskonnatöö ja dokumentatsiooni jaoks.
 - **API dokumentatsiooni tööriistad:** Tööriistad nagu **Swagger** (RESTful API-de jaoks), **Doxygen** ja **JSDoc** võivad genereerida dokumentatsiooni automaatselt, lähtudes koodikommentaaridest.

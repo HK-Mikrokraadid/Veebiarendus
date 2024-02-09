@@ -6,28 +6,29 @@ Pildi allikas: Dall-E by OpenAI
 
 ## Kirjeldus
 
-**Tarkvaraarendus** sukeldub sügavale kaasaegsete tarkvaralahenduste loomise südamesse. See aine katab kogu tarkvaraarenduse elutsükli, alates kasutajate vajaduste mõistmisest kuni disaini, kodeerimise, testimise, ja juurutamiseni. Õpilased õpivad nii tarkvaratehnika teoreetilisi aluseid kui ka praktilisi oskusi, mis on vajalikud tarkvaraarendajaks saamiseks. Käsitletud teemad hõlmavad disainipõhimõtteid, koodikirjutamise parimaid tavasid, koostööl põhinevat arendust, versioonikontrolli ja testimisstrateegiaid. Praktiliste projektide kaudu kogevad õpilased tarkvaraarenduse väljakutseid reaalmaailma kontekstides.
+**Tarkvaraarendus** sukeldub sügavale kaasaegsete tarkvaralahenduste loomise südamesse. See aine katab kogu tarkvaraarenduse elutsükli, alates kasutajate vajaduste mõistmisest kuni koodikirjutamise, versioonikontrolli kasutamiseni, koostööl põhinevat arenduse, rakenduse testimise ja juurutamiseni. Õpilased õpivad nii tarkvaratehnika teoreetilisi aluseid kui ka praktilisi oskusi, mis on vajalikud tarkvaraarendajaks saamiseks. Praktiliste ülesannete kaudu kogevad õpilased tarkvaraarenduse väljakutseid reaalmaailma kontekstis.
 
 - **Maht**: 4 EAP (4 x 26 tundi)
 - **Loengud**: 5 x 4 tundi kohapeal + 5 x 2 tundi veebis
-- **Aine eesmärgid**: "Tarkvaraarenduse" aine eesmärk on anda õpilastele põhjalik arusaam protsessidest, meetoditest, tööriistadest ja parimatest tavastest, mida kasutatakse tarkvararakenduste disainimisel ja loomisel.
-- 
-Kursuse lõpuks peaksid õpilased olema hästi varustatud reaalmaailma probleemide tõlkimiseks arvutuslikeks lahendusteks ja olema valmis arendama tarkvararakendusi, mis on vastupidavad, kasutajasõbralikud ja hooldatavad.
+- **Aine eesmärgid**: **Tarkvaraarenduse** aine eesmärk on anda õpilastele põhjalik arusaam protsessidest, meetoditest, tööriistadest ja parimatest tavastest, mida kasutatakse tarkvararakenduste disainimisel ja loomisel.
+
+Kursuse lõpuks omavad õpilased head ettekujutust reaalmaailma probleemide tõlkimisest arvutuslikeks lahendusteks ja olema valmis arendama tarkvararakendusi, mis on vastupidavad, kasutajasõbralikud ja hooldatavad.
 
 ## Õpitulemused
 
 Selle aine läbinud õpilane:
 
-- **Tarkvaraarenduse elutsükli (SDLC) mõistmine**: Kirjeldab tarkvaraarenduse elutsükli etappe, sealhulgas nõuete kogumist, disaini, rakendamist, testimist, juurutamist ja hooldust.
-- **Arendusmeetodid**: Mõistab ja eristab erinevaid tarkvaraarendusmeetodeid nagu *Waterfall*, *Agile* ja *Scrum*.
-- **Nõuete analüüs**: Kogub ja dokumenteerib selged, täielikud ja teostatavad tarkvaranõuded sidusrühmade suhtlusest.
-- **Kodeerimisstandardid**: Kirjutab puhast, hooldatavat ja hästi dokumenteeritud koodi, mis järgib tööstusstandardeid ja parimaid tavasid.
-- **Testimine ja kvaliteedi tagamine**: Rakendab erinevaid testimisstrateegiaid, nagu manuaaltestimine,ühiktestimine, integratsioonitestimine, et valideerida tarkvara funktsionaalsust ja vastupidavust.
-- **Versioonikontroll**: Kasutab tõhusalt versioonikontrolli süsteeme, nagu Git, et hallata koodibaasi muudatusi, teha koostööd teiste arendajatega ja säilitada projekti arengu ajalugu.
-- **Koostööl põhinev arendus**: Töötab tõhusalt meeskondlikus arenduskeskkonnas, mõistes rollide, vastutuste ja meeskondliku tarkvaraarenduse parimaid tavasid.
-- **Kasutajakeskne disain**: Arendab tarkvara, mis on mõeldud lõppkasutajale, rõhutades kasutatavust ja kasutajakogemust.
+- Kirjeldab tarkvaraarenduse elutsükli etappe, sealhulgas nõuete kogumist, disaini, rakendamist, testimist, juurutamist ja hooldust.
+- Mõistab ja eristab erinevaid tarkvaraarendusmeetodeid nagu *Waterfall*, *Agile* ja *Scrum*.
+- Kogub ja dokumenteerib selged, täielikud ja teostatavad tarkvaranõuded sidusrühmade suhtlusest.
+- Kirjutab puhast, hooldatavat ja hästi dokumenteeritud koodi, mis järgib tööstusstandardeid ja parimaid tavasid.
+- Rakendab erinevaid testimisstrateegiaid, nagu manuaaltestimine,ühiktestimine ja integratsioonitestimine, et valideerida tarkvara funktsionaalsust ja vastupidavust.
+- Kasutab tõhusalt versioonikontrolli süsteeme, nagu Git, et hallata koodibaasi muudatusi, teha koostööd teiste arendajatega ja säilitada projekti arengu ajalugu.
+- Töötab tõhusalt meeskondlikus arenduskeskkonnas, mõistes rollide, vastutuste ja meeskondliku tarkvaraarenduse parimaid tavasid.
+- Arendab tarkvara, mis on mõeldud lõppkasutajale, rõhutades kasutatavust ja kasutajakogemust.
 
-## Teemad
+## Kursuse jooksul käsitletavad teemad
+
 - [Tööriistad](./Topics/Tools/README.md)
 - [Tarkvara ja tarkvaraarendus](./Topics/Software/README.md)
 - [Versioonikontroll](./Topics/Version-Control/README.md)
@@ -51,7 +52,7 @@ Selle aine läbinud õpilane:
 - [Prototüüpimine](./Topics/Prototyping/README.md)
 - [Testimine](./Topics/Testing/README.md)
 
-## Loengud
+## Loengud (esialgne plaan, mis võib muutuda kursuse jooksul)
 
 ### Loeng 1: Sissejuhatus tarkvaraarendusse ja tööriistadesse
 

@@ -2,7 +2,7 @@
 
 Selles peatükis õpime Javascriptis muutujate kohta, mis need on, kuidas neid deklareerida ja kuidas neile väärtusi omistada.
 
-
+![Muutujad](Variables.webp)
 
 Pildi allikas: Dall-E by OpenAI
 

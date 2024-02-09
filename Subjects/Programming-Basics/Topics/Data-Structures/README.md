@@ -4,6 +4,8 @@ Selles peatükis räägime täpsemalt andmestruktuuride kohta. Uurime, mis on an
 
 ![Andmestruktuurid](Data-Structures.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 - [Andmestruktuurid](#andmestruktuurid)
   - [Õpitulemused](#õpitulemused)
   - [Mis on andmestruktuur?](#mis-on-andmestruktuur)

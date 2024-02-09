@@ -5,10 +5,205 @@ marp: true
 # Veebiarendus
 
 Martti raavel
-martti.raavel@tlu.ee
+
+<martti.raavel@tlu.ee>
 
 ---
-# Sissejuhatus
 
+## Sissejuhatus
+
+- Aine ülesehitus
+- Kodused tööd
+- Hindamine
 
 ---
+
+## Kursuse ülesehitus
+
+- 10 loengut
+  - viis loengut kohapeal
+  - viis loengut Zoomis
+- Materjalid Github-is
+- Kodused tööd iga loengu järel
+- Materjalide lugemine enne loengut
+- Otsesuhtlus Discordis
+
+---
+
+## Tarkvaraarendus
+
+- Tööriistad
+- Tarkvara ja tarkvaraarendus
+- Versioonikontroll
+- Git
+- Github
+- Markdown
+- Github Issue
+
+---
+
+## Tööriistad
+
+- Visual Studio Code
+  - Markdown All in One pistikprogramm
+- Github Desktop
+- ...
+
+---
+
+## Tarkvara ja tarkvaraarendus
+
+- Mis on tarkvara?
+- Avatud vs Suletud koodiga tarkvara
+- Kust tarkvara saab?
+- Mis on tarkvaraarendus?
+
+---
+
+## Verioonikontroll/versioonihaldus
+
+- Mis on versioonikontroll?
+- Miks see oluline on?
+- Keskne vs hajutatud versioonikontroll
+
+---
+
+## Git
+
+- Mis on Git?
+- Git-i põhiarhitektuur
+- Git-i sõnavara
+- Kuidas Git-i kasutada?
+
+---
+
+## Github
+
+- Mis on Github?
+- Miks kasutada Github-i?
+- Github Desktop
+- Harjutused
+
+---
+
+## Markdown
+
+- Mis on Markdown?
+- Markdown-i plussid
+- Markdown-i miinused
+- Markdown-i süntaks
+- Harjutused
+
+---
+
+## Github Issue
+
+- Mis on Github Issue?
+- Miks seda kasutada?
+- Kuidas seda kasutada?
+- Harjutused
+
+---
+
+## Programmeerimine
+
+- Sissejuhatus
+- Tööriistad
+- Javascript
+- NodeJS
+- Hello World
+- Algoritmid
+- Muutujad
+- Andmetüübid
+- Koodi laadimine Githubi
+
+---
+
+## Sissejuhatus (Programmeerimine)
+
+- Aine ülesehitus
+
+---
+
+## Tööriistad (Programmeerimine)
+
+- Visual Studio Code
+- NodeJS
+- Terminal
+
+---
+
+## Javascript
+
+- Mis on Javascript?
+- Miks Javascript?
+- Javascript-i eelised
+- Javascript-i puudused
+
+---
+
+## NodeJS
+
+- Mis on NodeJS?
+- Miks NodeJS?
+- NodeJS-i eelised
+- Kuidas NodeJS-i kasutada?
+
+---
+
+## Hello World
+
+- Mis on Hello World?
+- Kuidas Hello World-i kirjutada?
+- Kuidas NodeJS-is programme käivitada?
+- Harjutus
+
+---
+
+## Algoritmid
+
+- Mis on algoritm?
+- Algoritmide disainimine
+- Pseudokood
+- Voodiagrammid
+- Harjutused
+
+---
+
+## Muutujad
+
+- Mis on muutuja?
+- Muutuja deklareerimine
+- Muutujale väärtuse omistamine
+- Harjutused
+
+---
+
+## Andmetüübid
+
+- Mis on andmetüüp?
+- Primitiivsed andmetüübid
+- Andmestruktuurid
+- Muutuja väärtuse tüübi muutmine
+
+---
+
+## Koodi üleslaadimine Githubi
+
+- Harjutused
+
+---
+
+## Järgmiseks korraks
+
+- Lugege läbi esimese loengu materjalid
+- Tehke läbi materjalides olevad harjutused
+- Laadige tehtud harjutuste kood Githubi
+
+---
+
+## Küsimused
+
+---
+
+## Aitäh!
