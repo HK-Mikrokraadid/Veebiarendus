@@ -7,7 +7,7 @@ Selles teemas uurime tarkvara ja tarkvaraarenduse kontseptsioone.
 Pildi allikas: Dall-E by OpenAI
 
 - [Tarkvara ja tarkvaraarendus](#tarkvara-ja-tarkvaraarendus)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on tarkvara?](#mis-on-tarkvara)
   - [Avaliku lähtekoodiga tarkvara vs suletud lähtekoodiga tarkvara](#avaliku-lähtekoodiga-tarkvara-vs-suletud-lähtekoodiga-tarkvara)
   - [Kust tuleb tarkvara?](#kust-tuleb-tarkvara)

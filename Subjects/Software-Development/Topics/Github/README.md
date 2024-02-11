@@ -7,7 +7,7 @@ Selles teemas õpime tundma GitHubi, mis on üks maailma populaarsemaid koodi ma
 Pildi allikas: Dall-E by OpenAI
 
 - [Github](#github)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on Github?](#mis-on-github)
   - [Konto loomine](#konto-loomine)
   - [Github Desktop](#github-desktop)

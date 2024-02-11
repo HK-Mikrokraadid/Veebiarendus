@@ -5,7 +5,7 @@ Selles peatükis räägime tarkvaraarenduses kasutatavatest tööriistadest.
 ![alt text](Software-Development-Tools.webp)
 
 - [Tööriistad](#tööriistad)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
 
 ## Õpiväljundid
 

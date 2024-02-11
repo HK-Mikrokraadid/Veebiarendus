@@ -7,7 +7,7 @@ Selles peatükis räägime täpsemalt andmestruktuuride kohta. Uurime, mis on an
 Pildi allikas: Dall-E by OpenAI
 
 - [Andmestruktuurid](#andmestruktuurid)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on andmestruktuur?](#mis-on-andmestruktuur)
   - [Massiiv](#massiiv)
     - [Massiivi meetodid](#massiivi-meetodid)

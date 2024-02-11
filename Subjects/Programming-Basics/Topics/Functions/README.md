@@ -7,7 +7,7 @@ Selles teemas vaatame, kuidas Javascriptis funktsioone defineerida ja kasutada.
 Pildi allikas: Dall-E by OpenAI
 
 - [Funktsioonid](#funktsioonid)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on Funktsioon?](#mis-on-funktsioon)
   - [Funktsioonide Deklareerimine](#funktsioonide-deklareerimine)
     - [Funktsiooni Deklaratsioon](#funktsiooni-deklaratsioon)

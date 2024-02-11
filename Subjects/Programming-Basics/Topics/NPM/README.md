@@ -7,7 +7,7 @@ Selles teemas räägime Node Package Managerist (NPM).
 Pildi allikas: Dall-E by OpenAI
 
 - [Node Package Manager (*NPM*)](#node-package-manager-npm)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on NPM?](#mis-on-npm)
   - [Kuidas paigaldada NPM-i ennast?](#kuidas-paigaldada-npm-i-ennast)
   - [Kuidas kasutada NPM-i?](#kuidas-kasutada-npm-i)

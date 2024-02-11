@@ -12,9 +12,18 @@ Martti raavel
 
 ## Sissejuhatus
 
-- Aine ülesehitus
+- Saame tuttavaks
+- Kursuse ülesehitus
 - Kodused tööd
 - Hindamine
+
+---
+
+## Saame tuttavaks
+
+- Kes ma olen?
+- Eelnev kokkupuude seoses tarkvaraarendusega ja programmeerimisega
+- Mis on minu ootused?
 
 ---
 
@@ -194,7 +203,7 @@ Martti raavel
 
 ---
 
-## Järgmiseks korraks
+## Kodune töö
 
 - Lugege läbi esimese loengu materjalid
 - Tehke läbi materjalides olevad harjutused
@@ -206,4 +215,4 @@ Martti raavel
 
 ---
 
-## Aitäh!
+## Aitäh

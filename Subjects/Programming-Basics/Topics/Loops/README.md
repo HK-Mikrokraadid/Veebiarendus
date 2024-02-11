@@ -5,7 +5,7 @@ Selles teemas õpime tsüklite ja iteratsioonide kohta.
 ![Tsüklid](Loops.webp)
 
 - [Tsüklid](#tsüklid)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on Tsükkel?](#mis-on-tsükkel)
   - [`for` Tsükkel](#for-tsükkel)
   - [`while` Tsükkel](#while-tsükkel)

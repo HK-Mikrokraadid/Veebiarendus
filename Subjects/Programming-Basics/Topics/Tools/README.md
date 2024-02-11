@@ -7,7 +7,7 @@ Selles peatükis räägime täpsemalt tööriistadest, mida kasutame sellel kurs
 Pildi allikas: Dall-E by OpenAI
 
 - [Tööriistad](#tööriistad)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Koodiredaktor](#koodiredaktor)
   - [Veebilehitseja](#veebilehitseja)
   - [Terminal](#terminal)

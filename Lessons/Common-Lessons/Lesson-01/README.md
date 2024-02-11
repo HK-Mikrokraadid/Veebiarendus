@@ -25,4 +25,3 @@ Programmeerimine
 - [Andmetüübid](../../../Subjects/Programming-Basics/Topics/Data-Types/README.md)
 - Koodi laadimine Githubi
 - Harjutused
-

@@ -7,7 +7,7 @@ Selles peatükis õpime Javascripti operaatorite ja avaldiste kohta.
 Pildi allikas: Dall-E by OpenAI
 
 - [Operaatorid ja Avaldised](#operaatorid-ja-avaldised)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on Operaator?](#mis-on-operaator)
   - [Mis on Avaldis?](#mis-on-avaldis)
   - [Operaatorite ja Avaldiste vaheline seos:](#operaatorite-ja-avaldiste-vaheline-seos)

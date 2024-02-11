@@ -7,7 +7,7 @@ Selles teemas õpime tarkvaraarenduse dokumentatsiooni tähtsuse, erinevate doku
 Pildi allikas: Dall-E by OpenAI
 
 - [Dokumentatsioon tarkvaraarenduses](#dokumentatsioon-tarkvaraarenduses)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Dokumentatsiooni tähtsus](#dokumentatsiooni-tähtsus)
   - [Dokumentatsiooni tüübid](#dokumentatsiooni-tüübid)
   - [Dokumentatsiooni koostamise tööriistad](#dokumentatsiooni-koostamise-tööriistad)

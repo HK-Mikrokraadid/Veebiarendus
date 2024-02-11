@@ -7,7 +7,7 @@ Selles teemas õpime Javascripti andmetüüpide kohta.
 Pildi allikas: Dall-E by OpenAI
 
 - [Andmetüübid](#andmetüübid)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on andmetüüp?](#mis-on-andmetüüp)
   - [Primitiivsed andmetüübid](#primitiivsed-andmetüübid)
   - [Objekt andmetüübid](#objekt-andmetüübid)

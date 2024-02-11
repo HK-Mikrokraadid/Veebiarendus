@@ -5,7 +5,7 @@
 Pildi allikas: Dall-E by OpenAI
 
 - [Testimine tarkvaraarenduses](#testimine-tarkvaraarenduses)
-  - [Õpiväljundid:](#õpitulemused)
+  - [Õpiväljundid:](#õpiväljundid)
   - [Testimise tähtsus:](#testimise-tähtsus)
   - [Testimise tüübid:](#testimise-tüübid)
   - [Testimise lähenemised:](#testimise-lähenemised)

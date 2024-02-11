@@ -8,7 +8,7 @@ Selles peatükis käsitleme *Github Issue*'de kasutamist ja kirjutamist.
 Pildi allikas: Dall-E by OpenAI
 
 - [Github Issue](#github-issue)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on *Github Issue*?](#mis-on-github-issue)
   - [Miks kasutada *Github Issue*'sid?](#miks-kasutada-github-issuesid)
   - [*Issuede* kirjutamise head tavad:](#issuede-kirjutamise-head-tavad)

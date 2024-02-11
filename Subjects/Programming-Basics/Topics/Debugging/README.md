@@ -7,7 +7,7 @@ Selles teemas õpime NodeJS-s silumise kohta.
 Pildi allikas: Dall-E by OpenAI
 
 - [Silumine](#silumine)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on Silumine?](#mis-on-silumine)
   - [Silumisvahendid](#silumisvahendid)
   - [Silumisnõuanded](#silumisnõuanded)

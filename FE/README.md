@@ -41,3 +41,12 @@ Pakkuda õpilasele põhjalikku arusaama põhimõtetest, tööriistadest, parimat
 - [Programmeerimise alused](../Subjects/Programming-Basics/README.md)
 - [Front-End Tehnoloogiad](../Subjects/Front-End-Technologies/README.md)
 - [Front-End Raamistikud](../Subjects/Front-End-Frameworks/README.md)
+
+## Loengud
+
+### Ühised loengud
+
+- [Esimene loeng](./Lessons/Common-Lessons/Lesson-01/README.md)
+- [Teine loeng](./Lessons/Common-Lessons/Lesson-02/README.md)
+
+## Front-End loengud

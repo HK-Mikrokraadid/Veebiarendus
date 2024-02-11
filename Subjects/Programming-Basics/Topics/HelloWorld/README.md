@@ -7,7 +7,7 @@ Selles peatükis räägime, mis on *Hello World*, kuidas kirjutada *Hello World*
 Pildi allikas: Dall-E by OpenAI
 
 - [Hello World!](#hello-world)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on Hello World?](#mis-on-hello-world)
   - [Kuidas kirjutada Hello World! programmi Javascriptis?](#kuidas-kirjutada-hello-world-programmi-javascriptis)
   - [Kuidas käivitada Hello World! programmi NodeJS-is?](#kuidas-käivitada-hello-world-programmi-nodejs-is)

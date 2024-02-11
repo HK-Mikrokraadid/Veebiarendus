@@ -7,7 +7,7 @@ Selles teemas räägime sellest, mis on moodulid Javascriptis ja kuidas neid kas
 Pildi allikas: Dall-E by OpenAI
 
 - [Moodulid](#moodulid)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on moodul?](#mis-on-moodul)
   - [Kuidas eksportida moodulit?](#kuidas-eksportida-moodulit)
   - [Kuidas importida moodulit?](#kuidas-importida-moodulit)

@@ -112,7 +112,7 @@ Maht: 4h
 - Kasutajatestimine
 - Koodi ülevaatus
 
-### Loeng 6 (Zoom):
+### Loeng 6 (Zoom)
 
 Maht: 2h
 
@@ -128,7 +128,7 @@ Maht: 4h
 - Prototüüpimine
 - Testimine
 
-### Loeng 8 (Zoom):
+### Loeng 8 (Zoom)
 
 Maht: 2h
 
@@ -143,7 +143,7 @@ Maht: 4h
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Testimine
 
-### Loeng 10 (Zoom):
+### Loeng 10 (Zoom)
 
 Maht: 2h
 

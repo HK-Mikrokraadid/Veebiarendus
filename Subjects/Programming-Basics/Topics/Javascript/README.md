@@ -7,7 +7,7 @@ Selles peatükis räägime Javascriptist, mis on selle programmeerimiskeele eeli
 Pildi allikas: Dall-E by OpenAI
 
 - [Javascript](#javascript)
-  - [Õpiväljundid](#õpitulemused)
+  - [Õpiväljundid](#õpiväljundid)
   - [Mis on Javascript?](#mis-on-javascript)
   - [Javascripti ajalugu](#javascripti-ajalugu)
   - [Javascripti eelised](#javascripti-eelised)
