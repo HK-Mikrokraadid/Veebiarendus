@@ -12,3 +12,7 @@ Tarkvaraarendus:
 
 Programmeerimine
 
+- Eelmise loengu meeldetuletus
+- Kodutööde ajal tekkinud probleemide lahendamine
+- Operaatorid ja avaldised
+- Harjutused

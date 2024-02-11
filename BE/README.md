@@ -45,7 +45,7 @@ Pakkuda õpilastele põhjalikku ülevaadet serveripoolse rakenduse arendamisest,
 
 ### Ühised loengud
 
-- [Esimene loeng](./Lessons/Common-Lessons/Lesson-01/README.md)
-- [Teine loeng](./Lessons/Common-Lessons/Lesson-02/README.md)
+- [Esimene loeng](../Lessons/Common-Lessons/Lesson-01/README.md)
+- [Teine loeng](../Lessons/Common-Lessons/Lesson-02/README.md)
 
 ## Back-End loengud

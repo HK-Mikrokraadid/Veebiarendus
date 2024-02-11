@@ -2,14 +2,14 @@
 
 See hoidla sisaldab õppeaineid [Front-End Arenduse Mikrokraadi](../FE/README.md) ja [Back-End Arenduse Mikrokraadi](../BE/README.md) jaoks.
 
-## Front-End Arenduse Mikrokraadi õppeained:
+## Front-End Arenduse Mikrokraadi õppeained
 
 - [Tarkvaraarendus](./Software-Development/README.md)
 - [Programmeerimise alused](./Programming-Basics/README.md)
 - [Front-End Tehnoloogiad](./Front-End-Technologies/README.md)
 - [Front-End Raamistikud](./Front-End-Frameworks/README.md)
 
-## Back-End Arenduse Mikrokraadi õppeained:
+## Back-End Arenduse Mikrokraadi õppeained
 
 - [Tarkvaraarendus](./Software-Development/README.md)
 - [Programmeerimise alused](./Programming-Basics/README.md)

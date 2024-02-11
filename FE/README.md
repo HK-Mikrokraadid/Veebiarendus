@@ -46,7 +46,7 @@ Pakkuda õpilasele põhjalikku arusaama põhimõtetest, tööriistadest, parimat
 
 ### Ühised loengud
 
-- [Esimene loeng](./Lessons/Common-Lessons/Lesson-01/README.md)
-- [Teine loeng](./Lessons/Common-Lessons/Lesson-02/README.md)
+- [Esimene loeng](../Lessons/Common-Lessons/Lesson-01/README.md)
+- [Teine loeng](../Lessons/Common-Lessons/Lesson-02/README.md)
 
 ## Front-End loengud

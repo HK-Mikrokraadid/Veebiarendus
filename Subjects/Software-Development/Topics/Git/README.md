@@ -14,8 +14,8 @@ Pildi allikas: Dall-E by OpenAI
   - [Git'i põhisõnavara](#giti-põhisõnavara)
   - [Git'i põhikäsud](#giti-põhikäsud)
   - [Graafilised Git'i kliendid](#graafilised-giti-kliendid)
-    - [Mõned populaarsed graafilised kliendid Git'ile:](#mõned-populaarsed-graafilised-kliendid-gitile)
-    - [Graafiliste Git'i klientide kasutamise põhjused:](#graafiliste-giti-klientide-kasutamise-põhjused)
+    - [Mõned populaarsed graafilised kliendid Git'ile](#mõned-populaarsed-graafilised-kliendid-gitile)
+    - [Graafiliste Git'i klientide kasutamise põhjused](#graafiliste-giti-klientide-kasutamise-põhjused)
   - [Git flow](#git-flow)
     - [1. **Peamised harud**:](#1-peamised-harud)
     - [2. **Toetavad harud**:](#2-toetavad-harud)
@@ -61,7 +61,7 @@ Git'il on ainulaadne arhitektuur ja andmemudel, mis muudab selle tõhusaks ja v�
   - Esindab faili sisu Git'is.
   - Blob hoiab faili andmeid, kuid ei sisalda faili kohta metaandmeid.
   - See on binaarne suur objekt ja seda tuvastatakse SHA-1 räsi abil.
-- **Puu (*tree*)**:
+- **Puu (_tree_)**:
   - Esindab kataloogi või kausta Git'is.
   - Puu objekt kaardistab nimed blobidele või puudele (sisuliselt võib see viidata alamkataloogide jaoks teistele puudele).
   - Nagu blobid, tuvastatakse puud SHA-1 räsi abil.
@@ -73,7 +73,7 @@ Git'il on ainulaadne arhitektuur ja andmemudel, mis muudab selle tõhusaks ja v�
     - `commit`-i tegija
     - Kuupäev
     - `commit`-i sõnum
-  - Iga `commit` viitab ka oma vanem`commit`ile, luues lingitud loendi. See loob Git'is muudatuste "ajaloo". 
+  - Iga `commit` viitab ka oma vanem`commit`ile, luues lingitud loendi. See loob Git'is muudatuste "ajaloo".
   - Tuvastatav SHA-1 räsi abil.
 - **Harud**:
   - Harud võimaldavad arengut eristada, kus funktsioone või katsetusi saab arendada isoleeritult enne nende tagasi ühendamist peamisse koodibaasi.
@@ -187,13 +187,13 @@ See loetelu katab põhitõed, et saaks Git-i kasutamisega alustada. Git on üsna
 
 Kuigi graafilised kliendid võivad olla uskumatult kasulikud, eriti neile, kes ennast käsureaga väga mugavalt ei tunne, varjavad nad mõningaid Git'i keerukusi ja ei pruugi võimaldada keerulisemaid tegevusi. Sügavamate ja keerukamate toimingute või Git'i sisemise töö tõeliseks mõistmiseks on käsurea tundmine kasulik. Mõlemal lähenemisel on oma eelised ja paljud arendajad leiavad, et kõige tõhusam on hübriidlähenemine (kasutades nii käsurida kui ka Graafilise kasutajaliidesega tööriistu).
 
-### Mõned populaarsed graafilised kliendid Git'ile:
+### Mõned populaarsed graafilised kliendid Git'ile
 
 - [**GitHub Desktop**](https://desktop.github.com/): GitHubi ametlik GUI. See on avatud lähtekoodiga ja platvormideülene (saadaval macOS-ile ja Windowsile).
 - [**Sourcetree**](https://www.sourcetreeapp.com/): Arendatud  Atlassiani poolt. Tasuta tööriist, mis on saadaval macOS-ile ja Windowsile. Pakub visuaalset suhtlust hoidlatega ja toetab lisaks Git-ile ka Mercurialit.
 - [**GitKraken**](https://www.gitkraken.com/): Platvormideülene tööriist (saadaval Windowsile, macOS-ile ja Linuxile), mis pakub erksat ja interaktiivset kasutajaliidest. See on tuntud graafi visualiseerimise poolest ja see integreerub GitHubi, GitLabi, Bitbucketi ja muude teenusepakkujatega.
 
-### Graafiliste Git'i klientide kasutamise põhjused:
+### Graafiliste Git'i klientide kasutamise põhjused
 
 - **Kasutajasõbralik**: Algajatele võib käsurea kasutamine olla hirmutav. Graafilised kliendid pakuvad interaktiivsemat ja intuitiivsemat liidest Git'iga suhtlemiseks.
 - **Visualiseerimine**: Võivad pakkuda selget visuaalset esitust harudest, `commit`-idest, ühendamistest jne. See on eriti kasulik hoidla `commit`-ide voo ja struktuuri mõistmiseks.
