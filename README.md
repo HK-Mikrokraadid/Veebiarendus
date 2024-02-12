@@ -15,7 +15,7 @@ Discordi server on mõeldud otsesuhtluseks õpetajate ja õpilaste vahel. Samuti
 
 ## Zoomi link online kohtumiste jaoks
 
-- [Zoomi link](https://discord.gg/7N5CcVhUv3)
+- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
 
 ## Mikrokraadide Struktuur
 
