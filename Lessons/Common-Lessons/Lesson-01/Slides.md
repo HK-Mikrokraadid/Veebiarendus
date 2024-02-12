@@ -27,12 +27,23 @@ Martti raavel
 
 ---
 
+## Materjalid
+
+### https://github.com/HK-Mikrokraadid/Veebiarendus
+
+---
+
+## Discord
+
+### https://discord.com/invite/7N5CcVhUv3
+
+---
+
 ## Kursuse ülesehitus
 
 - 10 loengut
   - viis loengut kohapeal
   - viis loengut Zoomis
-- Materjalid Github-is
 - Kodused tööd iga loengu järel
 - Materjalide lugemine enne loengut
 - Otsesuhtlus Discordis

@@ -1,8 +1,11 @@
 # Esimene loeng
 
+- [Esimese loengu slaidid](Slides.md)
+- [Esimese loengu salvestus]()
+
 ## Teemad
 
-Tarkvaraarendus:
+### Tarkvaraarendus
 
 - Aine tutvustus
 - [Tööriistad](../../../Subjects/Software-Development/Topics/Tools/README.md)
@@ -13,7 +16,7 @@ Tarkvaraarendus:
 - [Markdown](../../../Subjects/Software-Development/Topics/Markdown/README.md)
 - [Github Issue](../../../Subjects/Software-Development/Topics/Github-Issue/README.md)
 
-Programmeerimine
+### Programmeerimine
 
 - [Sissejuhatus](../../../Subjects/Programming-Basics/Topics/Introduction/README.md)
 - [Tööriistad](../../../Subjects/Programming-Basics/Topics/Tools/README.md)

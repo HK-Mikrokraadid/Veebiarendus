@@ -2,8 +2,8 @@
 
 See repositoorium sisaldab järgmiseid Veebiarenduse mikrokraade:
 
-- [Front-End arendus](./FE/README.md)
-- [Back-End arendus](./BE/README.md)
+- [Front-End arendus](./FE)
+- [Back-End arendus](./BE)
 
 Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti raames.
 
