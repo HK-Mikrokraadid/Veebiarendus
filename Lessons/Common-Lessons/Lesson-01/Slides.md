@@ -4,7 +4,7 @@ marp: true
 ---
 # Veebiarendus
 
-Martti raavel
+Martti Raavel
 
 <martti.raavel@tlu.ee>
 

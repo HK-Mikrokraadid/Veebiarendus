@@ -37,7 +37,7 @@ Tarkvara saab klassifitseerida kahte põhikategooriasse:
   - **iOS**
 
 - **Rakendustarkvara:** Rakendustarkvara on tarkvara, mis täidab konkreetset ülesannet või ülesannete kogumit. See hõlmab programme nagu tekstitöötlusprogrammid, tabelarvutusprogrammid, veebilehitsejad, mängud jne. Rakendustarkvara on see, millele enamik inimesi mõtleb, kui nad mõtlevad tarkvarale. Rakendustarkvara näited on:
-- 
+
   - **Microsoft Word**
   - **Google Chrome**
   - **Adobe Photoshop**
