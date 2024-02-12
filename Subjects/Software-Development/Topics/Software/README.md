@@ -30,17 +30,18 @@ Tarkvara saab klassifitseerida kahte põhikategooriasse:
 
 - **Süsteemitarkvara:** Süsteemitarkvara on tarkvara, mis juhib ja haldab arvutisüsteemi riistvarakomponente. See hõlmab operatsioonisüsteeme, seadmedraivereid, utiliite ja muid tööriistu, mis aitavad hallata arvutisüsteemi. Süsteemitarkvara on arvuti nõuetekohaseks toimimiseks hädavajalik. Süsteemitarkvara näited on:
 
-- **Windows**
-- **macOS**
-- **Linux**
-- **Android**
-- **iOS**.
+  - **Windows**
+  - **macOS**
+  - **Linux**
+  - **Android**
+  - **iOS**
 
 - **Rakendustarkvara:** Rakendustarkvara on tarkvara, mis täidab konkreetset ülesannet või ülesannete kogumit. See hõlmab programme nagu tekstitöötlusprogrammid, tabelarvutusprogrammid, veebilehitsejad, mängud jne. Rakendustarkvara on see, millele enamik inimesi mõtleb, kui nad mõtlevad tarkvarale. Rakendustarkvara näited on:
-- **Microsoft Word**
-- **Google Chrome**
-- **Adobe Photoshop**
-- **Minecraft**.
+- 
+  - **Microsoft Word**
+  - **Google Chrome**
+  - **Adobe Photoshop**
+  - **Minecraft**.
 
 Samuti võib rakendustarkvaraks lugeda erinevad veebirakendused, mobiilirakendused ja muud spetsiifilised tarkvaralahendused, mis on loodud konkreetsete ülesannete täitmiseks.
 
