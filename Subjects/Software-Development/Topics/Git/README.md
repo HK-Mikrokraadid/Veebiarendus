@@ -1,4 +1,4 @@
-# Gitlavastusala
+# Git
 
 Selles peatükis räägime hajutatud versioonihaldussüsteemist Git. Õpime Git'i põhitõdesid, -arhitektuuri, -sõnavara, -käske ja Git flow'd. Lisaks räägime graafilistest Git'i klientidest ja Git'i majutusplatvormidest.
 
@@ -6,7 +6,7 @@ Selles peatükis räägime hajutatud versioonihaldussüsteemist Git. Õpime Git'
 
 Pildi allikas: Dall-E by OpenAI
 
-- [Gitlavastusala](#gitlavastusala)
+- [Git](#git)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on Git?](#mis-on-git)
   - [Git'i põhiarhitektuur](#giti-põhiarhitektuur)

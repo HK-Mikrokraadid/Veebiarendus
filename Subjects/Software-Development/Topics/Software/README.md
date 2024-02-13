@@ -24,23 +24,24 @@ Selle teema lõpuks peaksid oskama:
 
 ## Mis on tarkvara?
 
-Tarkvara on juhiste või programmide kogum, mis on loodud arvutisüsteemis konkreetsete ülesannete või funktsioonide täitmiseks. See on programmide, andmete ja juhiste kogum, mis ütleb arvutile, mida ja kuidas teha. See võib olla programm, rakendus või süsteem. Tarkvara muudab arvutid tavainimesele kasutatavaks ja ilma tarkvarata ei saaks arvutid teha midagi kasulikku.
+Tarkvara on juhiste või programmide kogum, mis on loodud arvutisüsteemis konkreetsete ülesannete või funktsioonide täitmiseks. Põhimõtteliselt on see juhiste kogum, mis ütleb arvutile, mida ja kuidas teha. See võib olla programm, rakendus või süsteem. Tarkvara muudab arvutid tavainimesele kasutatavaks ja ilma tarkvarata ei saaks arvutid teha midagi kasulikku.
 
 Tarkvara saab klassifitseerida kahte põhikategooriasse:
 
 - **Süsteemitarkvara:** Süsteemitarkvara on tarkvara, mis juhib ja haldab arvutisüsteemi riistvarakomponente. See hõlmab operatsioonisüsteeme, seadmedraivereid, utiliite ja muid tööriistu, mis aitavad hallata arvutisüsteemi. Süsteemitarkvara on arvuti nõuetekohaseks toimimiseks hädavajalik. Süsteemitarkvara näited on:
 
-- **Windows**
-- **macOS**
-- **Linux**
-- **Android**
-- **iOS**.
+  - **Windows**
+  - **macOS**
+  - **Linux**
+  - **Android**
+  - **iOS**
 
 - **Rakendustarkvara:** Rakendustarkvara on tarkvara, mis täidab konkreetset ülesannet või ülesannete kogumit. See hõlmab programme nagu tekstitöötlusprogrammid, tabelarvutusprogrammid, veebilehitsejad, mängud jne. Rakendustarkvara on see, millele enamik inimesi mõtleb, kui nad mõtlevad tarkvarale. Rakendustarkvara näited on:
-- **Microsoft Word**
-- **Google Chrome**
-- **Adobe Photoshop**
-- **Minecraft**.
+
+  - **Microsoft Word**
+  - **Google Chrome**
+  - **Adobe Photoshop**
+  - **Minecraft**.
 
 Samuti võib rakendustarkvaraks lugeda erinevad veebirakendused, mobiilirakendused ja muud spetsiifilised tarkvaralahendused, mis on loodud konkreetsete ülesannete täitmiseks.
 
@@ -48,7 +49,17 @@ Samuti võib rakendustarkvaraks lugeda erinevad veebirakendused, mobiilirakendus
 
 Tarkvara saab samuti klassifitseerida avaliku lähtekoodiga või suletud lähtekoodiga tarkvaraks. Avaliku lähtekoodiga tarkvara on tarkvara, mis on vabalt kättesaadav ning mida võib (üldjuhul) muuta ja levitada igaüks. Suletud lähtekoodiga on tarkvara, mis kuulub ettevõttele või isikule ja mida ei saa ilma loata kasutada, muuta ega levitada.
 
-Avaliku lähtekoodiga tarkvara näited on **Linux**, **Firefox** ja **WordPress**. Suletud lähtekoodiga näited on **Microsoft Windows**, **Adobe Photoshop** ja **Apple iOS**.
+Avaliku lähtekoodiga tarkvara näited on:
+
+- **Linux**
+- **Firefox**
+- **WordPress**
+
+Suletud lähtekoodiga näited on:
+
+- **Microsoft Windows**
+- **Adobe Photoshop**
+- **Apple iOS**
 
 |                         | Avaliku lähtekoodiga tarkvara                                   | Suletud lähtekoodiga (Omandvara) |
 |-------------------------|----------------------------------------------------------------|----------------|
