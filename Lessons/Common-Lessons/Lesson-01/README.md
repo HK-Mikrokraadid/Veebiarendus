@@ -1,7 +1,7 @@
 # Esimene loeng
 
 - [Esimese loengu slaidid](Slides.md)
-- [Esimese loengu salvestus]()
+- [Esimese loengu salvestus](https://youtu.be/917zsHa_wrc)
 
 ## Teemad
 
@@ -22,8 +22,7 @@
 - [Tööriistad](../../../Subjects/Programming-Basics/Topics/Tools/README.md)
 - [Javascript](../../../Subjects/Programming-Basics/Topics/Javascript/README.md)
 - [NodeJS](../../../Subjects/Programming-Basics/Topics/NodeJS/README.md)
-- [Hello World](../../../Subjects/Programming-Basics/Topics/Hello-World/README.md)
-- [Algoritmid](../../../Subjects/Programming-Basics/Topics/Algorithms/README.md)
+- [Hello World](../../../Subjects/Programming-Basics/Topics/HelloWorld/README.md)
 - [Muutujad](../../../Subjects/Programming-Basics/Topics/Variables/README.md)
 - [Andmetüübid](../../../Subjects/Programming-Basics/Topics/Data-Types/README.md)
 - Koodi laadimine Githubi
