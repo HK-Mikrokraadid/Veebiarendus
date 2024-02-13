@@ -27,7 +27,7 @@ Pärast selle teema läbimist suudate:
 
 ## Mis on Javascript?
 
-Javascript on programmeerimiskeel, mis on algslt mõeldud interaktiivsete veebilehtede loomiseks. Minevikus kasutati Javascripti ainult kliendipoolselt (veebilehitsejas, *Front-End*). Tänapäeval on võimalus kasutada Javascripti ka serveripoolselt, kasutades NodeJS-i (*Back-End*). Selle kursuse raames kasutame Javascripti just sellepärast, et saaksime õppida nii kliendi- kui ka serveripoolset arendust kasutades sama programmeerimiiskeelt.
+Javascript on programmeerimiskeel, mis on algselt mõeldud interaktiivsete veebilehtede loomiseks. Minevikus kasutati Javascripti ainult kliendipoolselt (veebilehitsejas, *Front-End*). Tänapäeval on võimalus kasutada Javascripti ka serveripoolselt, kasutades NodeJS-i (*Back-End*). Selle kursuse raames kasutame Javascripti just sellepärast, et saaksime õppida nii kliendi- kui ka serveripoolset arendust kasutades sama programmeerimiskeelt.
 
 ## Javascripti ajalugu
 
@@ -47,7 +47,7 @@ Javascript on programmeerimiskeel, mis on algslt mõeldud interaktiivsete veebil
 - Javascript on nõrgalt tüübitud, see tähendab, et muutuja tüüpi saab programmi täitmise ajal muuta
 - Javascript ei ole kompileeritud keel, see tähendab, et koodi ei kompileerita enne selle täitmist
 - Mõnikord on koodi raske mõista tüübiteabe puudumise tõttu
-- 
+
 ## Kuidas Javascripti koodi kirjutatakse?
 
 Javascripti kirjutamiseks võib kasutada lihtsat tekstiredaktorit, kuid soovitatav on kasutada spetsiaalset koodiredaktorit, mis toetab Javascripti. Koodi kirjutamiseks tuleb luua uus fail laiendiga `.js` ja kirjutada kood sellesse faili.
@@ -57,11 +57,12 @@ Näiteks:
 ```js
 console.log('Hello, World!');
 ```
+
 Seejärel tuleb fail salvestada ja seejärel on juba võimalik kirjutatud kood käivitada.
 
 ## Kuidas käivitada Javascripti?
 
-Javascripti käivitamiseks on mitu võimalust. Me saame salvestada Javascripti koodi faili ja käivitada kasutades *Node JS*-i või veebilehitsejat. Samuti saame käivitada Javascripti koodi vebilehitseja konsooli kirjutades või sinna koodi kleepides.
+Javascripti käivitamiseks on mitu võimalust. Me saame salvestada Javascripti koodi faili ja käivitada kasutades *Node JS*-i või veebilehitsejat. Samuti saame käivitada Javascripti koodi veebilehitseja konsooli kirjutades või sinna koodi kleepides.
 
 ## Javascripti käivitamine Node JS-is
 
