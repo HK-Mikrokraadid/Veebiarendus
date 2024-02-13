@@ -10,14 +10,15 @@ Selles teemas vaatame versioonihalduse põhimõisteid, ajalugu ja keskseid mõis
   - [Miks on versioonihaldus oluline?](#miks-on-versioonihaldus-oluline)
   - [Versioonihalduse lühiajalugu](#versioonihalduse-lühiajalugu)
   - [Keskne vs hajutatud versioonihaldussüsteemid](#keskne-vs-hajutatud-versioonihaldussüsteemid)
-    - [Keskne versioonihaldussüsteemid (`CVCS`):](#keskne-versioonihaldussüsteemid-cvcs)
-    - [Hajutatud versioonihaldussüsteemid (`DVCS`):](#hajutatud-versioonihaldussüsteemid-dvcs)
-    - [Võrdlus:](#võrdlus)
+    - [Keskne versioonihaldussüsteemid (`CVCS`)](#keskne-versioonihaldussüsteemid-cvcs)
+    - [Hajutatud versioonihaldussüsteemid (`DVCS`)](#hajutatud-versioonihaldussüsteemid-dvcs)
+    - [Võrdlus](#võrdlus)
   - [Harjutused](#harjutused)
 
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
+
 - kirjeldada, mis on versioonihaldus ja miks see on oluline;
 - kirjeldada erinevaid versioonihaldussüsteemide tüüpe;
 - võrrelda keskset ja hajutatud versioonihaldussüsteeme;
@@ -75,15 +76,16 @@ Versioonihaldus on aastate jooksul arenenud lihtsatest manuaalsetest meetoditest
    - Enne korralike versioonihaldussüsteemide (`VCS`) olemasolu tegid arendajad oma koodist koopiaid ja hoidsid neid eraldi kataloogides, tihti märgistades neid kuupäevade või versiooninumbritega.
    - Nagu võib ette kujutada, oli see meetod vigadele vastuvõtlik, ei olnud skaleeritav ja tegi koostöö keeruliseks.
 
-1. **Keskne versioonihaldussüsteemid (`CVCS`, 1970ndad-1990ndad)**:
+1. **Kesksed versioonihaldussüsteemid (`CVCS`, 1970ndad-1990ndad)**:
    - `CVCS`-i peamine idee on üks keskne hoidla, kus kõiki muudatusi jälgitakse.
    - **RCS (Revision Control System)**: Tutvustati 1970ndate lõpus, `RCS` oli üks esimesi tööriistu, mis haldas ja jälgis individuaalsete failide revisjone. See kasutas lihtsat mehhanismi, kus salvestati viimane versioon ja versioonidevahelised erinevused.
    - **SCCS (Source Code Control System)**: Teine varajane süsteem, mis oli ajaliselt paralleelne `RCS`-iga, kuid omas mõningaid erinevaid funktsioone.
    - **CVS (Concurrent Versions System)**: 1980ndatel esile kerkinud `CVS` oli `RCS`-i täiustus ja võimaldas mitmel arendajal samaaegselt projekti kallal töötada.
    - **Perforce**: Omanditarkvara, mis sai paljude suurte organisatsioonide seas populaarseks 1990ndatel.
-   - **Subversion (SVN)**: Tutvustati 2000. aastal kui täiustust `CVS`-ile, pakkudes paremat harusid haldust, atomaarseid pühendumisi ja järjepidevamat andmemudelit.
+   - **Subversion (SVN)**: Tutvustati 2000. aastal kui täiustust `CVS`-ile, pakkudes paremat harude haldust, atomaarseid `commit`-e ja järjepidevamat andmemudelit.
 
-2. **Hajutatud versioonihaldussüsteemid (`DVCS`, 2000ndad-tänapäev)**:
+1. **Hajutatud versioonihaldussüsteemid (`DVCS`, 2000ndad-tänapäev)**
+
    - `DVCS`-is on igal arendajal oma kohalik hoidla, mis sisaldab kogu koodibaasi ja selle täielikku ajalugu.
    - **BitKeeper**: 2000ndate alguses oli BitKeeper üks esimesi `DVCS`-e. See oli omanditarkvara, kuid seda kasutasid mõnda aega Linuxi tuuma arendajad.
    - **Git**: Loodud Linus Torvaldsi poolt 2005. aastal, arendati Git välja vajadusest tasuta, avatud lähtekoodiga `DVCS`-i järele pärast seda, kui Linuxi arenduskogukonna ja BitKeeperi suhted katkesid. Git rõhutab kiirust, andmete terviklust ja toetust hajutatud, mitte-lineaarsetele töövoogudele.
@@ -91,7 +93,8 @@ Versioonihaldus on aastate jooksul arenenud lihtsatest manuaalsetest meetoditest
    - **Bazaar**: Arendatud Canonicali poolt, sellel oli paindlik arhitektuur, mis võimaldas nii keskset kui ka hajutatud versioonihaldust.
    - **Fossil**: Mitte ainult `DVCS`, vaid integreeris ka veajälgimise ja wiki, pakkudes ühtset kooskõlastatud paketti.
 
-3. **Kaasaegne ajastu (2010ndad-tänapäev)**:
+1. **Kaasaegne ajastu (2010ndad-tänapäev)**:
+
    - Platvormid nagu **GitHub, GitLab ja Bitbucket** on täiustanud versioonihalduse koostööaspekte, tutvustades funktsioone nagu Pull Requestid, koodi ülevaatused, pidev integratsioon ja sotsiaalne kodeerimine.
    - Nende platvormide tõusu tõttu on Git saanud domineerivaks versioonihaldussüsteemiks, arvestades selle integratsiooni ja keskset rolli neis platvormides.
 
@@ -101,45 +104,51 @@ Kuigi see on lühike ülevaade, on versioonihalduse ajalugu tunnistus pidevatest
 
 Järgnevalt võrdleme kesksete ja hajutatud versioonihaldussüsteemide (VCS) omadusi:
 
-### Keskne versioonihaldussüsteemid (`CVCS`):
+### Keskne versioonihaldussüsteemid (`CVCS`)
 
 **Ülevaade**:
+
 1. **Üks hoidla**: `CVCS`-is on üks keskne hoidla serveris. Arendajad saavad viimase versiooni sellest kesksest hoidlast ja laevad muudatused tagasi sinna.
 2. **Töökoopia**: Arendajad saavad ainult viimase hetktõmmise (või töökoopia) koodibaasist, mitte kogu versiooniajalugu.
-3. **Keskne autoriteet**: Kõik toimingud nagu harusid loomine ja ühendamine tehakse keskselt hoidlas.
+3. **Keskne autoriteet**: Kõik toimingud nagu harude loomine ja ühendamine tehakse keskselt hoidlas.
 4. **Näited**: Subversion (`SVN`), Concurrent Versions System (`CVS`), Perforce.
 
 **Eelised**:
+
 1. **Administratiivne kontroll**: Lihtsam jõustada juurdepääsukontrolle ja õigusi.
 2. **Lineaarne ajalugu**: Lineaarse muudatuste ajaloo säilitamine on lihtne.
 3. **Lihtsam seadistamine**: Üldiselt lihtsam seadistada ja konfigureerida kui `DVCS`.
 4. **Keskne varundamine**: Keskserverit saab varundada andmekao vältimiseks.
 
 **Puudused**:
+
 1. **Üksik ebaõnnestumispunkt**: Kui keskserver kukub kokku ja varukoopiaid pole, võib koodiajalugu kaduda.
 2. **Võrgusõltuvus**: Enamik toiminguid, nagu muudatuste pühendamine, nõuab ühendust keskse hoidlaga, mis võib töövooge aeglustada.
-3. **Ühendamiskonfliktid**: Kuna kõik levad muudatusi otse kesksesse hoidlasse, võib eriti suurtes meeskondades olla suurem tõenäosus ühendamiskonfliktideks.
+3. **Ühendamiskonfliktid**: Kuna kõik laevad muudatusi otse kesksesse hoidlasse, võib eriti suurtes meeskondades olla suurem tõenäosus ühendamiskonfliktideks.
 
-### Hajutatud versioonihaldussüsteemid (`DVCS`):
+### Hajutatud versioonihaldussüsteemid (`DVCS`)
 
 **Ülevaade**:
+
 1. **Mitmed hoidlad**: Igal arendajal on oma kohalik hoidla, mis sisaldab kogu koodibaasi ja selle täielikku ajalugu.
 2. **Täielik versiooniajalugu**: Arendajad kloonivad kogu hoidla, mitte ainult viimast hetktõmmist.
-3. **Võrdõiguslik**: Ühendamist ja harusid loomist saab teha kohalikult. Pühendumised tehakse kohalikku hoidlasse ja seejärel sünkroniseeritakse (lükatakse muudatused) keskse või kaugse hoidlaga.
+3. **Võrdõiguslik**: Ühendamist ja harude loomist saab teha kohalikult. `commit`-id tehakse kohalikku hoidlasse ja seejärel sünkroniseeritakse (lükatakse muudatused) keskse või kaugse hoidlaga.
 4. **Näited**: Git, Mercurial, Bazaar, Fossil.
 
 **Eelised**:
-1. **Kiired toimingud**: Kuna enamik toiminguid (pühendumine, harusid loomine, ühendamine) on kohalikud, on need kiiremad ja ei sõltu võrguühendusest.
+
+1. **Kiired toimingud**: Kuna enamik toiminguid (`commit`, harude loomine, ühendamine) on kohalikud, on need kiiremad ja ei sõltu võrguühendusest.
 2. **Varundamise redundants**: Iga hoidla kloon toimib täieliku varukoopiana, vähendades andmekao riski.
 3. **Paindlikud töövood**: Arendajad saavad pühendada muudatusi kohalikult, võimaldades paindlikumaid töövooge ja sagedasi pühendumisi ilma peamist koodibaasi häirimata.
 4. **Harude haldamine**: Harude loomine ja ühendamine on tavaliselt `DVCS`-is arenenumad ja lihtsamini hallatavad.
 5. **Koostöö soodustamine**: Funktsioonid nagu forkid ja pull requestid (eriti platvormidel nagu GitHub ja GitLab) soodustavad koostööd kodeerimisel.
 
 **Puudused**:
+
 1. **Keerukus**: `DVCS`-i paindlikkus ja võimsus võivad samuti sisaldada suuremat keerukust, eriti neile, kes ei ole selle kontseptsiooniga tutttavad.
 2. **Suured hoidlad**: Kogu versiooniajaloo säilitamine võib olla problemaatiline, kui hoidla on väga suur.
 
-### Võrdlus:
+### Võrdlus
 
 | Omadus/Aspekt           | Keskne versioonihaldus (`CVCS`) | Hajutatud versioonihaldus (`DVCS`) |
 |--------------------------|------------------------------------|------------------------------------|
