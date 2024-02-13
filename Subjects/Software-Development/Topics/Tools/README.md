@@ -82,7 +82,7 @@ Siin on ülevaade erinevatest tööriistade tüüpidest, mida tarkvaraarenduses 
     - Bugzilla
     - GitHub Issues
     - Trello
-  > Lisaks on võimalik nei tööriistu kasutada ka ülesannete ja projektide haldamiseks ja jälgimiseks.
+  > Lisaks on võimalik neid tööriistu kasutada ka ülesannete ja projektide haldamiseks ja jälgimiseks.
 
 - **Dokumentatsiooni tööriistad:**
   - **Eesmärk:** Luua ja hallata tarkvaradokumentatsiooni. Tarkvaraarenduses on dokumentatsioon olulise tähtsusega, kuna see aitab uutel arendajatel kiiremini aru saada olemasolevast koodist ja sellest, kuidas rakendus töötab. Samuti aitab dokumentatsioon kasutajatel rakendust paremini mõista ja kasutada. Lisaks erinevatele teksti kujul loodavale dokumentatsioonile (kasutusjuhendid jms) on olemas ka erinevad tööriistad, mis aitavad dokumentatsiooni luua ja hallata spetsiifiliselt tarkvara koodi kohta.
