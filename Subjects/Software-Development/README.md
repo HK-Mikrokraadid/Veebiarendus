@@ -76,6 +76,8 @@ Maht: 2h
 - [.gitignore](./Topics/Gitignore/README.md)
 - Git ja Githubi parimad tavad
 - Harud
+- Pull Requests
+- Merge
 
 ### Loeng 3: SDLC
 
@@ -83,11 +85,10 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- Forkimine
 - Tarkvaraarenduse elutsükkel
 - Rollid tarkvaraarenduses
 - Tarkvaraarenduse meetodid
-- Pull Requests
-- Merge
 
 ### Loeng 4 (Zoom): Dokumentatsioon
 

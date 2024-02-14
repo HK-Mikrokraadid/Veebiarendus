@@ -33,6 +33,7 @@ Kursuse jooksul kasutame `Github`-i õppematerjalide jagamiseks ja kodutööde e
 Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arvatud esimene loeng). Loengutes arutleme teemade üle ja lahendame harjutusi õpitud teemade kohta.
 
 ## Teemad
+
 - [Sissejuhatus](./Topics/Introduction/README.md)
 - [Tööriistad](./Topics/Tools/README.md)
 - [Javascript](./Topics/Javascript/README.md)
@@ -61,31 +62,32 @@ Maht: 4h
 - Javascript
 - NodeJS
 - Hello World
-- Algoritmid
 - Muutujad
 - Andmetüübid
 - Koodi üleslaadimine Githubi
 - Harjutused
 
-### Loeng 2 (Zoom):
+### Loeng 2 (Zoom)
 
 Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- Operaatorid ja avaldised
 - Koodi üleslaadimine Githubi
 - Harjutused
 
-### Loeng 3:
+### Loeng 3
 
 Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Operaatorid ja avaldised
+- Algoritmid
+- Tingimuslaused
 - Harjutused
 
-### Loeng 4 (Zoom): 
+### Loeng 4 (Zoom)
 
 Maht: 2h
 
@@ -93,18 +95,16 @@ Maht: 2h
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Harjutused
 
-
-### Loeng 5: 
+### Loeng 5
 
 Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Silumine
-- Tingimuslaused
 - Harjutused
 
-### Loeng 6 (Zoom):
+### Loeng 6 (Zoom)
 
 Maht: 2h
 
@@ -112,7 +112,7 @@ Maht: 2h
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Harjutused
 
-### Loeng 7: 
+### Loeng 7
 
 Maht: 4h
 
@@ -122,7 +122,7 @@ Maht: 4h
 - Funktsioonid
 - Harjutused
 
-### Loeng 8 (Zoom):
+### Loeng 8 (Zoom)
 
 Maht: 2h
 
@@ -130,7 +130,7 @@ Maht: 2h
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Harjutused
 
-### Loeng 9: 
+### Loeng 9
 
 Maht: 4h
 
@@ -140,7 +140,7 @@ Maht: 4h
 - Moodulid
 - Harjutused
 
-### Loeng 10 (Zoom):
+### Loeng 10 (Zoom)
 
 Maht: 2h
 

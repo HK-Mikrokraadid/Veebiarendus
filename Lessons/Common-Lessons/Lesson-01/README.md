@@ -2,6 +2,7 @@
 
 - [Esimese loengu slaidid](Slides.md)
 - [Esimese loengu salvestus](https://youtu.be/917zsHa_wrc)
+- [Teine loeng](../Lesson-02/README.md)
 
 ## Teemad
 
