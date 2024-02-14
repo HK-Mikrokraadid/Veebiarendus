@@ -36,7 +36,7 @@ Siin on mõned peamised Githubi aspektid ja funktsioonid:
 - **Hoidlad**: GitHubi südames on "hoidla" (tihti lühendatud "repo"). Hoidla sisaldab kõiki projekti faile, sealhulgas muudatuste ajalugu. Hoidlad võivad olla avalikud (kõigile ligipääsetavad), privaatsed (piiratud ligipääsuga) või organisatsiooni sisesed (nähtavad organisatsiooni liikmetele).
 - **Forkimine**: Kasutajad saavad "forkida" hoidlat, mis tähendab isikliku koopia loomist teise kasutaja projektist. See võimaldab kasutajatel teha muudatusi ilma algset projekti mõjutamata. Kui forkis on muudatusi tehtud, saavad kasutajad saata tõmbetaotluse algse hoidla omanikule, et soovitada nende muudatuste integreerimist.
 - **Tõmbetaotlused (PR - Pull Requestid)**: Tõmbetaotlused võimaldavad teavitada teisi hoidlas tehtud muudatustest. Kui tõmbetaotlus on saadetud, saavad projekti haldurid üle vaadata muudatuste kogumi, arutada võimalikke modifikatsioone ja isegi teha järelmuudatusi enne muudatuste ühendamist hoidlasse.
-- **Probleemid (Github Issue)**: GitHub pakub probleemide jälgimise süsteemi, kus kasutajad saavad teatada vigadest, taotleda funktsioone või arutada muid projekti puudutavaid küsimusi. Lisaks kasutatakse Github `Issue`-sid sageli ka ülesannete jagamiseks/jälgimiseks ja projektide haldamiseks.	
+- **Probleemid (Github Issue)**: GitHub pakub probleemide jälgimise süsteemi, kus kasutajad saavad teatada vigadest, taotleda funktsioone või arutada muid projekti puudutavaid küsimusi. Lisaks kasutatakse Github `Issue`-sid sageli ka ülesannete jagamiseks/jälgimiseks ja projektide haldamiseks.
 - **GitHub Actions**: See funktsioon võimaldab CI/CD (pidev integratsioon/pidev väljastamine) ja muude sündmustele reageerivate ülesannete automatiseeritud töövoogude loomist otse GitHubi hoidlas.
 - **GitHubi lehed**: Kasutajad saavad otse oma hoidlatest GitHubis staatilisi veebisaite majutada. See on populaarne isiklike portfooliote, projekti dokumentatsiooni jms jaoks.
 - **Gistid**: Gist on teenus, mida GitHub pakub koodilõikude jagamiseks. Kuigi hoidlad on suuremate projektide jaoks, on gistid mõeldud väiksemate koodilõikude jagamiseks.
@@ -63,7 +63,7 @@ GitHubi konto loomiseks minge [github.com](https://github.com/signup) ja järgig
   - GitHub Desktop võimaldab kasutajatel luua uusi hoidlaid, kloonida olemasolevaid hoidlaid ja hallata kohalikke hoidlaid.
 
 - **Harude loomine ja ühendamine**:
-  - Kasutajad saavad otse liidesest luua, vahetada ja ühendada harusid, muutes harusid loomise protsessi intuitiivsemaks.
+  - Kasutajad saavad otse liidesest luua, vahetada ja ühendada harusid, muutes harude loomise protsessi intuitiivsemaks.
   - See pakub visuaaliseerimist ühendamiskonfliktidele ja aitab neid lahendada.
 
 - **Muudatuste ajalugu**:
