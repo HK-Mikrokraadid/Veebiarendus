@@ -23,7 +23,7 @@ Pärast selle teema läbimist suudate:
 
 ## Mis on Hello World?
 
-Tavaliselt, kui alustatakse programmeerimise või uue programmeerimiskeele õppimist, on esimene kood, mida kirjtuatakse, kood, mis kuvab ekraanile **Hello World!**. Seda nimetatakse **Hello World** programmiks. See on lihtne programm, mida kasutatakse programmeerimiskeele põhisüntaksi demonstreerimiseks ja veendumaks, et me saame programmi oma arvutis käivitada. Seda kasutatakse ka arenduskeskkonna testimiseks ja veendumaks, et kõik töötab korrektselt.
+Tavaliselt, kui alustatakse programmeerimise või uue programmeerimiskeele õppimist, on esimene kood, mida kirjutatakse, kood, mis kuvab ekraanile **Hello World!**. Seda nimetatakse **Hello World** programmiks. See on lihtne programm, mida kasutatakse programmeerimiskeele põhisüntaksi demonstreerimiseks ja veendumaks, et me saame programmi oma arvutis käivitada. Seda kasutatakse ka arenduskeskkonna testimiseks ja veendumaks, et kõik töötab korrektselt.
 
 Mõnes programmeerimiskeele (nagu `C`) peame kirjutama *Hello World!*-i jaoks üsna palju kood, kuid Javascriptis saame hakkama ühe reaga.
 
