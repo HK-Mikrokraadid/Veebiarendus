@@ -43,9 +43,9 @@ Pärast selle teema läbimist suudad:
 Siin on mõned **Git**i peamised aspektid ja omadused:
 
 - **Hajutatud süsteem**: Erinevalt kesksetest versioonihaldussüsteemidest, kus on üks keskne hoidla, on **Git**is iga arendaja arvutis olev koodikoopia ka hoidla, mis võib sisaldada kogu ajalugu ja versioonijälgimise võimalusi. See tagab andmete dubleerimise ja muudab harude loomise ja ühendamise äärmiselt tõhusaks.
-- **Harud ja ühendamine** (*Branch* ja *Merge*): **Git**i harusüsteem võimaldab arendajatel luua peamisest koodibaasist isoleeritud harusid funktsioonide arendamiseks või vigade parandamiseks. Need harusid saab seejärel ühendada tagasi peamisse harusse, mis on tavaliselt tuntud kui "master/main" haru.
+- **Harud ja ühendamine** (*Branch* ja *Merge*): **Git**i harusüsteem võimaldab arendajatel luua peamisest koodibaasist isoleeritud harusid funktsioonide arendamiseks või vigade parandamiseks. Need harud saab seejärel ühendada tagasi peamisse harusse, mis on tavaliselt tuntud kui "master/main" haru.
 - **Ajalugu**: **Git** jälgib kogu projekti ajalugu. Iga muudatuste fikseerimine on kontrollsummeeritud ja taastatav, tagades tervikluse ja jälgitavuse.
-- **Muudatuste fikseerimine** (*commit*): **Git** võimaldab arendajatel fikseerida muudatused koodibaasis, millele on lisatud sõnum, mis kirjeldab muudatuste olemust. `commit` on justkui fikseeritud olek koodibaasis, mida saab hiljem taastada.t
+- **Muudatuste fikseerimine** (*commit*): **Git** võimaldab arendajatel fikseerida muudatused koodibaasis, millele on lisatud sõnum, mis kirjeldab muudatuste olemust. `commit` on justkui fikseeritud olek koodibaasis, mida saab hiljem taastada.
 - **Ettevalmistusala**: **Git** tutvustab ainulaadset kontseptsiooni ettevalmistusalast. See on vaheala, kus `commit`-e saab vormistada ja üle vaadata enne `commit`-imise lõpuleviimist.
 - **Jõudlus**: **Git**i toimingud viiakse läbi kohapeal, muutes selle kiiremaks kui paljud teised võrgutoimingutel põhinevad versioonihaldussüsteemid.
 - **Terviklus**: **Git** kasutab oma andmete kontrollsummeerimiseks SHA-1 räsialgoritmi. See tagab versiooniajaloo tervikluse.
@@ -185,7 +185,7 @@ See loetelu katab põhitõed, et saaks Git-i kasutamisega alustada. Git on üsna
 
 **Graafilised Git'i kliendid** on rakendused, mis pakuvad visuaalset liidest Git'iga suhtlemiseks, selle asemel, et tugineda ainult käsureale. Need võivad kujutada visuaalselt versiooniajalugu, harusid ja muid Git'i hoidla aspekte.
 
-Kuigi graafilised kliendid võivad olla uskumatult kasulikud, eriti neile, kes ennast käsureaga väga mugavalt ei tunne, varjavad nad mõningaid Git'i keerukusi ja ei pruugi võimaldada keerulisemaid tegevusi. Sügavamate ja keerukamate toimingute või Git'i sisemise töö tõeliseks mõistmiseks on käsurea tundmine kasulik. Mõlemal lähenemisel on oma eelised ja paljud arendajad leiavad, et kõige tõhusam on hübriidlähenemine (kasutades nii käsurida kui ka Graafilise kasutajaliidesega tööriistu).
+Kuigi graafilised kliendid võivad olla uskumatult kasulikud, eriti neile, kes ennast käsureaga väga mugavalt ei tunne, varjavad nad mõningaid Git'i keerukusi ja ei pruugi võimaldada keerulisemaid tegevusi. Sügavamate ja keerukamate toimingute või Git'i sisemise töö tõeliseks mõistmiseks on käsurea tundmine kasulik. Mõlemal lähenemisel on oma eelised ja paljud arendajad leiavad, et kõige tõhusam on hübriidlähenemine (kasutades nii käsurida kui ka graafilise kasutajaliidesega tööriistu).
 
 ### Mõned populaarsed graafilised kliendid Git'ile
 
@@ -214,7 +214,7 @@ Git Flow on populaarne töövoogude metodoloogia Git'is, mis määratleb struktu
   - See haru sisaldab ametlikku väljalaskeajalugu.
   - Kõik `main` harus olevad `commit`-id esindavad tarkvara versiooni, mis on täielikult testitud ja valmis kasutuseks.
 - **`develop`**:
-  - Toimib funktsioonide integreerimise harusena.
+  - Toimib funktsioonide integreerimise haruna.
   - Kõik järgmise väljalaske jaoks ette nähtud muudatused on integreeritud sellesse harusse.
 
 ### 2. **Toetavad harud**:
