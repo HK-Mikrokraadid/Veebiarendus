@@ -25,7 +25,7 @@ Pärast selle teema läbimist oskad:
 
 ## Mis on versioonihaldus?
 
-Kui kirjutada üksinda ühte dokumenti ja teha sellesse muudatusi, siis ehk ei ole väga oluline jälgida, millal ja mis selles dokumnedis muutus. Kuid kui töötad koos teiste inimestega, kes teevad samas dokumendis muudatusi, siis võib see muutuda ühel hetkel oluliseks. Eriti, kui see dokument liigub edasi-taga ja seda võidakse muuta paljude erinevate inimeste poolt. Kuidas me sellisel juhul teame, **milline on viimane versioon?** Kuidas me teame, **kes tegi viimase muudatuse?** Kuidas me teame, **mida muudeti?** Rakendused koosnevad sageli väga paljudest failidest ja koodi muudatused võivad olla väga keerulised ja ülevaade muudatustest ja ajaloost nendes failides on väga oluline, et tagada tarkvara kvaliteet ja stabiilsus.
+Kui kirjutada üksinda ühte dokumenti ja teha sellesse muudatusi, siis ehk ei ole väga oluline jälgida, millal ja mis selles dokumendis muutus. Kuid kui töötad koos teiste inimestega, kes teevad samas dokumendis muudatusi, siis võib see muutuda ühel hetkel oluliseks. Eriti, kui see dokument liigub edasi-tagasi ja seda võidakse muuta paljude erinevate inimeste poolt. Kuidas me sellisel juhul teame, **milline on viimane versioon?** Kuidas me teame, **kes tegi viimase muudatuse?** Kuidas me teame, **mida muudeti?** Rakendused koosnevad sageli väga paljudest failidest ja koodi muudatused võivad olla väga keerulised ja ülevaade muudatustest ja ajaloost nendes failides on väga oluline, et tagada tarkvara kvaliteet ja stabiilsus.
 
 Kui otsida internetis versioonihalduse kohta, siis sageli leiab selle kohta sarnase pildi, mille abil visualiseeritakse koodi ajalugu ja muudatusi:
 
@@ -100,11 +100,11 @@ Versioonihaldus on aastate jooksul arenenud lihtsatest manuaalsetest meetoditest
 
 Kuigi see on lühike ülevaade, on versioonihalduse ajalugu tunnistus pidevatest jõupingutustest tarkvarakogukonna poolt koostööarenduse optimeerimiseks, andmete tervikluse tagamiseks ja töövoogude lihtsustamiseks.
 
-## Keskne vs hajutatud versioonihaldussüsteemid
+## Kesksed vs hajutatud versioonihaldussüsteemid
 
 Järgnevalt võrdleme kesksete ja hajutatud versioonihaldussüsteemide (VCS) omadusi:
 
-### Keskne versioonihaldussüsteemid (`CVCS`)
+### Kesksed versioonihaldussüsteemid (`CVCS`)
 
 **Ülevaade**:
 
@@ -124,7 +124,7 @@ Järgnevalt võrdleme kesksete ja hajutatud versioonihaldussüsteemide (VCS) oma
 
 1. **Üksik ebaõnnestumispunkt**: Kui keskserver kukub kokku ja varukoopiaid pole, võib koodiajalugu kaduda.
 2. **Võrgusõltuvus**: Enamik toiminguid, nagu muudatuste pühendamine, nõuab ühendust keskse hoidlaga, mis võib töövooge aeglustada.
-3. **Ühendamiskonfliktid**: Kuna kõik laevad muudatusi otse kesksesse hoidlasse, võib eriti suurtes meeskondades olla suurem tõenäosus ühendamiskonfliktideks.
+3. **Ühendamiskonfliktid**: Kuna kõik laadivad muudatusi otse kesksesse hoidlasse, võib eriti suurtes meeskondades olla suurem tõenäosus ühendamiskonfliktideks.
 
 ### Hajutatud versioonihaldussüsteemid (`DVCS`)
 
