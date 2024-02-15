@@ -92,7 +92,7 @@ Siin on ülevaade erinevatest tööriistade tüüpidest, mida tarkvaraarenduses 
     - JSDoc
 
 - **Andmebaasihalduse tööriistad:**
-  - **Eesmärk:** Kujundada, hallata ja suhelda andmebaasidega. Sageli vajab rakendust mingit tüüpi andmebaasi, kuhu salvestada andmeid. Andmebaaside disainimine, loomine ja haldamine on üsna keeruline protsess, mida on võimalik teha käsitsi, kuid selleks on olemas ka erinevad tööriistad, mis seda protsessi lihtsustavad.
+  - **Eesmärk:** Kujundada, hallata ja suhelda andmebaasidega. Sageli vajab rakendus mingit tüüpi andmebaasi, kuhu salvestada andmeid. Andmebaaside disainimine, loomine ja haldamine on üsna keeruline protsess, mida on võimalik teha käsitsi, kuid selleks on olemas ka erinevad tööriistad, mis seda protsessi lihtsustavad.
   - **Näited:**
     - MySQL Workbench
     - pgAdmin
@@ -115,7 +115,7 @@ Siin on ülevaade erinevatest tööriistade tüüpidest, mida tarkvaraarenduses 
     - Heroku
 
 - **Koostöö ja kommunikatsiooni tööriistad:**
-  - **Eesmärk:** Hõlbustada meeskonna suhtlust ja koostööd. Tarvaraarendus on enamasti meeskonnatöö ja selleks on oluline, et meeskonnaliikmed saaksid omavahel suhelda ja koostööd teha. Sageli võib kasutada selleks ka lihtsaid suhtlusvahendeid, nagu näiteks e-mail või mõni tavaline suhtlusrakendus, kuid on olemas ka spetsiaalsed tööriistad, mis on mõeldud just selleks, et hõlbustada tarkvaraarendust meeskonnatööd. Näiteks võib olla vajalik sõnumirakenduses jagada koodinäidiseid, mida teised meeskonnaliikmed saaksid kiiresti üle vaadata ja tavalised suhtlusvahendid ei pruugi seda väga hästi võimaldada.
+  - **Eesmärk:** Hõlbustada meeskonna suhtlust ja koostööd. Tarvaraarendus on enamasti meeskonnatöö ja selleks on oluline, et meeskonnaliikmed saaksid omavahel suhelda ja koostööd teha. Sageli võib kasutada selleks ka lihtsaid suhtlusvahendeid, nagu näiteks e-mail või mõni tavaline suhtlusrakendus, kuid on olemas ka spetsiaalsed tööriistad, mis on mõeldud just selleks, et hõlbustada tarkvaraarenduses meeskonnatööd. Näiteks võib olla vajalik sõnumirakenduses jagada koodinäidiseid, mida teised meeskonnaliikmed saaksid kiiresti üle vaadata ja tavalised suhtlusvahendid ei pruugi seda väga hästi võimaldada.
   - **Näited:**
     - [Slack](https://slack.com/)
     - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
@@ -131,7 +131,7 @@ Siin on ülevaade erinevatest tööriistade tüüpidest, mida tarkvaraarenduses 
     - ... ja palju teisi
 
 - **API arendamise ja testimise tööriistad:**
-  - **Eesmärk:** Kujundada, simuleerida, testida ja dokumenteerida API-sid. Rakendusliidesed (*API-d*) on tänapäeva tarkvaraarenduses väga olulised, kuna need pakuvad head võimalust vahetatada andmeid erinevate rakenduste vahel. Vahel saame mõnda lihtsamat API-t testida ka lihtsalt brauseri aadressiribale midagi kirjutades, kuid kui API on keerukam, siis on olemas ka spetsiaalsed tööriistad, mis aitavad muu hulgas lihtsustada API-de loomist, testimist ja dokumenteerimist.
+  - **Eesmärk:** Kujundada, simuleerida, testida ja dokumenteerida API-sid. Rakendusliidesed (*API-d*) on tänapäeva tarkvaraarenduses väga olulised, kuna need pakuvad head võimalust vahetada andmeid erinevate rakenduste vahel. Vahel saame mõnda lihtsamat API-t testida ka lihtsalt brauseri aadressiribale midagi kirjutades, kuid kui API on keerukam, siis on olemas ka spetsiaalsed tööriistad, mis aitavad muu hulgas lihtsustada API-de loomist, testimist ja dokumenteerimist.
   - **Näited:**
     - Postman
     - Swagger/OpenAPI
