@@ -20,6 +20,7 @@ Pildi allikas: Dall-E by OpenAI
 ## Õpiväljundid
 
 Pärast selle teema läbimist suudad:
+
 - Määratleda, mis on andmetüüp
 - Loetleda Javascripti primitiivsed andmetüüpe
 - Loetleda Javascripti objekt andmetüüpe
@@ -32,7 +33,8 @@ Nagu me juba teame, on muutuja `nimetatud piirkond arvuti mälus`, mida saab kas
 
 Javascript on dünaamiliselt tüübitud keel, mis tähendab, et muutuja **tüüpi** saab programmi täitmise ajal muuta. Näiteks võime muutujale omistada **numbri** ja hiljem programmis omistada samale muutujale **stringi**. See erineb staatiliselt tüübitud keeltest nagu **Java**, kus muutuja tüüp on deklareerimisel fikseeritud.
 
-Javascriptis saame andmetüüpe jagada kahte kategooriasse: 
+Javascriptis saame andmetüüpe jagada kahte kategooriasse:
+
 - **primitiivsed andmetüübid**;
 - **objekt andmetüübid**.
 
