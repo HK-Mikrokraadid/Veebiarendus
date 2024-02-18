@@ -38,4 +38,33 @@ Harude loomine käib tavaliselt järgmiselt:
 5. **Tõmbetaotluse ülevaatamine ja ühendamine:** Tõmbetaotlus läbib ülevaatamise ja kui see on heaks kiidetud, ühendatakse muudatused peamise koodibaasiga.
 6. **Haru kustutamine:** Pärast muudatuste ühendamist peamise koodibaasiga võib haru kustutada.
 
+## Harude loomise protsessi näide
+
+Alljärgnev näide näitab, kuidas harude loomise protsess võib välja näha kasutades Github-i ja Github Desktop-i.
+
+Alguses on olemas peamine haru (*main branch*), kus asub stabiilne kood. Arendaja soovib luua uue funktsiooni jaoks haru, et arendada seda isoleeritud keskkonnas.
+
+![Main haru](main.png)
+
+Seejärel loob arendaja uue haru, mille nimi on `feature/new-feature`, ja avaldab selle kasutades Github Desktop-i.
+
+![New Branch](new-branch-button.png)
+
+![Create a Branch](create-branch-button.png)
+
+![Publish branch](publish-branch.png)
+
+Seejärel avab arendaja oma koodiredaktori, milles on aktiivne juba uus haru, ja hakkab arendama uut funktsiooni.
+
+![Open in VS-Code](open-in-editor.png)
+
+![VS Code](VS-Code.png)
+
+![New Function](new-function.png)
+
+Kui uus kood on kirjutatud, teeb arendaja `commit`-i ja `push`-ib muudatused uude harusse.
+
+![Commit](commit.png)
+
+![Push](push.png)
 
