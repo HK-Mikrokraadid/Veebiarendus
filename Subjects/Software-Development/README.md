@@ -65,7 +65,6 @@ Maht: 4h
 - [Git](./Topics/Git/README.md)
 - [Github](./Topics/Github/README.md)
 - [Markdown](./Topics/Markdown/README.md)
-- [Github Issue](./Topics/Github-Issue/README.md)
 
 ### Loeng 2 (Zoom): Jätkamine Git ja Githubiga
 
@@ -73,11 +72,10 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- [Github Issue](./Topics/Github-Issue/README.md)
 - [.gitignore](./Topics/Gitignore/README.md)
-- Git ja Githubi parimad tavad
-- Harud
-- Pull Requests
-- Merge
+- [Harud, Tõmbetaotlus ja ühendamine](./Topics/Branch/README.md)
+- [Git ja Githubi parimad tavad](./Topics/Git-Best-Practices/README.md)
 
 ### Loeng 3: SDLC
 
@@ -86,8 +84,8 @@ Maht: 4h
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Forkimine
-- Tarkvaraarenduse elutsükkel
-- Rollid tarkvaraarenduses
+- [Tarkvaraarenduse elutsükkel](./Topics/SDLC/README.md)
+- [Rollid tarkvaraarenduses]
 - Tarkvaraarenduse meetodid
 
 ### Loeng 4 (Zoom): Dokumentatsioon

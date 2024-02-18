@@ -17,9 +17,9 @@ Pildi allikas: Dall-E by OpenAI
     - [Mõned populaarsed graafilised kliendid Git'ile](#mõned-populaarsed-graafilised-kliendid-gitile)
     - [Graafiliste Git'i klientide kasutamise põhjused](#graafiliste-giti-klientide-kasutamise-põhjused)
   - [Git flow](#git-flow)
-    - [1. **Peamised harud**:](#1-peamised-harud)
-    - [2. **Toetavad harud**:](#2-toetavad-harud)
-    - [**Git flow põhiprotsess**:](#git-flow-põhiprotsess)
+    - [1. **Peamised harud**](#1-peamised-harud)
+    - [2. **Toetavad harud**](#2-toetavad-harud)
+    - [**Git flow põhiprotsess**](#git-flow-põhiprotsess)
   - [Git'i majutusplatvormid](#giti-majutusplatvormid)
   - [Harjutused](#harjutused)
   - [Järgmised sammud:](#järgmised-sammud)
@@ -208,7 +208,7 @@ Kuigi graafilised kliendid võivad olla uskumatult kasulikud, eriti neile, kes e
 
 Git Flow on populaarne töövoogude metodoloogia Git'is, mis määratleb struktureeritud lähenemise harude loomiseks ja ühendamiseks. See pakub kindlat raamistikku suuremate projektide haldamiseks ja võib lihtsustada koostööprotsessi teiste arendajatega ühises hoidlas. Allpool on kirjeldatud `Git Flow` protsessi, keskendudes harude loomise rollile:
 
-### 1. **Peamised harud**:
+### 1. **Peamised harud**
 
 - **`main` (endine `master`)**:
   - See haru sisaldab ametlikku väljalaskeajalugu.
@@ -217,7 +217,7 @@ Git Flow on populaarne töövoogude metodoloogia Git'is, mis määratleb struktu
   - Toimib funktsioonide integreerimise haruna.
   - Kõik järgmise väljalaske jaoks ette nähtud muudatused on integreeritud sellesse harusse.
 
-### 2. **Toetavad harud**:
+### 2. **Toetavad harud**
 
 Neid harusid kasutatakse paralleelse arenduse toetamiseks, funktsioonide lihtsaks jälgimiseks, väljalasete ettevalmistamiseks ja probleemide kiireks lahendamiseks.
 
@@ -260,7 +260,7 @@ Neid harusid kasutatakse paralleelse arenduse toetamiseks, funktsioonide lihtsak
         B --> C[develop]
     ```
 
-### **Git flow põhiprotsess**:
+### **Git flow põhiprotsess**
 
 ```mermaid
 gitGraph
@@ -314,6 +314,7 @@ Siin on mõned populaarsed Git'i majutusplatvormid:
 ## Harjutused
 
 Proovi selgitada järgmisi kontseptsioone oma sõnadega:
+
 - Mis on Git ja versioonihaldus?
 - Nimeta vähemalt neli terminit Git'i sõnavarast
 - Nimeta vähemalt üks Git'i majutusplatvorm
