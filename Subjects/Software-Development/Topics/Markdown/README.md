@@ -221,5 +221,5 @@ Lugege lisaks [Markdowni juhendist](https://www.markdownguide.org/).
 
 - Looge oma hoidlasse `README.md` fail ja kirjutage sinna lühike tutvustus enda kohta, kasutades Markdowni süntaksit.
 - Veenduge, et kasutate vähemalt 3 erinevat Markdowni süntaksit (nt pealkirjad, loendid, lingid, pildid jne).
-- Pühendage ja tõugake oma muudatused oma hoidlasse.
+- `commit`-ige ja tõugake oma muudatused oma hoidlasse.
 - Kontrollige oma hoidlat GitHubis ja veenduge, et teie `README.md` fail kuvatakse korrektselt.
