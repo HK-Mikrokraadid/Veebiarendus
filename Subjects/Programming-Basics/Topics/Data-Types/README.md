@@ -159,6 +159,6 @@ function sayHello() {
 - `fruits` on massiiv
 - `õun`, `banaan` ja `apelsin` on `fruits` massiivi elemendid
   - `õun`, `banaan` ja `apelsin` on stringid
-- `sayHelle` on funktsioon
+- `sayHello` on funktsioon
 
 </details>
