@@ -74,6 +74,7 @@ Maht: 2h
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Operaatorid ja avaldised
+- Tingimuslaused
 - Koodi üleslaadimine Githubi
 - Harjutused
 
@@ -84,7 +85,7 @@ Maht: 4h
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Algoritmid
-- Tingimuslaused
+- Tsüklid
 - Harjutused
 
 ### Loeng 4 (Zoom)
@@ -93,6 +94,8 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- Javascripti parimad praktikad
+- Silumine
 - Harjutused
 
 ### Loeng 5
@@ -101,7 +104,8 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Silumine
+- 
+- 
 - Harjutused
 
 ### Loeng 6 (Zoom)
@@ -118,7 +122,7 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Tsüklid
+
 - Funktsioonid
 - Harjutused
 

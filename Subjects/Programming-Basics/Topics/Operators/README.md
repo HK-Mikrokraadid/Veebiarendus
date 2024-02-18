@@ -10,7 +10,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on Operaator?](#mis-on-operaator)
   - [Mis on Avaldis?](#mis-on-avaldis)
-  - [Operaatorite ja Avaldiste vaheline seos:](#operaatorite-ja-avaldiste-vaheline-seos)
+  - [Operaatorite ja Avaldiste vaheline seos](#operaatorite-ja-avaldiste-vaheline-seos)
   - [Operaatorite Tüübid](#operaatorite-tüübid)
     - [Aritmeetilised Operaatorid](#aritmeetilised-operaatorid)
     - [Määramisoperaatorid](#määramisoperaatorid)
@@ -48,9 +48,9 @@ let x = 5 + 10; // 5 ja 10 on operandid, + on operaator. x on muutuja, millele o
 
 ## Mis on Avaldis?
 
-Avaldis on väärtuste, muutujate, operaatorite ja funktsioonide kombinatsioon, mida hinnatakse tulemuse tootmiseks. Näiteks `2 + 3` on avaldis, mille tulemus on `5`. Avaldisi saab kasutada arvutuste tegemiseks, stringide manipuleerimiseks ja muuks.
+Avaldis on väärtuste, muutujate, operaatorite ja funktsioonide kombinatsioon, mille abil arvutatakse uus väärtus. Näiteks `2 + 3` on avaldis, mille tulemus on `5`. Avaldisi saab kasutada arvutuste tegemiseks, stringide manipuleerimiseks ja muuks.
 
-## Operaatorite ja Avaldiste vaheline seos:
+## Operaatorite ja Avaldiste vaheline seos
 
 Peamine seos on see, et operaatoreid kasutatakse avaldistes, et määratleda sooritatava toimingu tüüp operandidega. Avaldis võib koosneda lihtsast toimingust ainult ühe operaatoriga (nagu `x + y`) või keerulisemast toimingust mitme operaatoriga (nagu `(x + y) * (a - b)`).
 
@@ -141,8 +141,9 @@ x !== y; // true
 x == z; // true
 x === z; // false
 ```
+
 > Soovitus on alati kasutada ranget võrdsust (`===`) ja ranget mittevõrdsust (`!==`) väärtuste võrdlemisel, sest nagu näeme eespool toodud näites, võib võrdsusoperaator (`==`) ja mittevõrdsusoperaator (`!=`) anda ootamatuid tulemusi.
-> 
+>
 > Näiteks `5 == '5'` tagastab `true`, aga `5 === '5'` tagastab `false`. See on seetõttu, et võrdsusoperaator (`==`) teisendab operandid enne nende võrdlemist samaks tüübiks, kuid range võrdsusoperaator (`===`) ei teisenda operande enne nende võrdlemist samaks tüübiks, vaid võtab arvesse peale väärtuste ka nende tüübi.
 
 ### Loogilised Operaatorid

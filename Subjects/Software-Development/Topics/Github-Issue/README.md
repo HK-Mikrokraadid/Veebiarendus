@@ -11,9 +11,9 @@ Pildi allikas: Dall-E by OpenAI
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on *Github Issue*?](#mis-on-github-issue)
   - [Miks kasutada *Github Issue*'sid?](#miks-kasutada-github-issuesid)
-  - [*Issuede* kirjutamise head tavad:](#issuede-kirjutamise-head-tavad)
-  - [Näide hästi struktureeritud *issuest*:](#näide-hästi-struktureeritud-issuest)
-  - [Näide mitte nii hästi kirjutatud *issuest*:](#näide-mitte-nii-hästi-kirjutatud-issuest)
+  - [*Issuede* kirjutamise head tavad](#issuede-kirjutamise-head-tavad)
+  - [Näide hästi struktureeritud *issuest*](#näide-hästi-struktureeritud-issuest)
+  - [Näide mitte nii hästi kirjutatud *issuest*](#näide-mitte-nii-hästi-kirjutatud-issuest)
   - [Harjutused](#harjutused)
 
 Kõik projektid vajavad süsteemi, mis aitaks töökulgu organiseerida ja sellel silma peal hoida. Selleks on palju erinevaid tööriistu, **GitHub Issues** on kõigest üks paljudest turul olemasolevatest.
@@ -30,7 +30,7 @@ Peale selle peatüki läbimist oskad:
 
 Githubi kontekstis on *issue* omadus, mis võimaldab kasutajatel jälgida konkreetse hoidla ülesandeid, vigu ja funktsioonitaotlusi. See on hea võimalus saada projekti olukorrast kiire ülevaade ja oma töövoogu vastavalt sellele planeerida ja prioritiseerida. *Issue*d on ka üks viis, kuidas projekti liikmed saavad suhelda hoidlas oleva projekti teemal ja jälgida selle edenemist. *Issuede* võimalus tuleb kaasa iga loodud repositooriumiga ja lisaks suhtlusele moodustavad *issue*'d ka osa projekti dokumentatsioonist.
 
-*Issue* avab tavaliselt kasutaja ja selle saab määrata ühele või mitmele teisele kasutajale, kes selle probleemi kallal võiks töötada. *Issue* võib sisaldada **pealkirja**, **kirjeldust**, **silte** ja muid metaandmeid, nagu **prioriteet** või selle parandamise eest vastutav **isik**. 
+*Issue* avab tavaliselt kasutaja ja selle saab määrata ühele või mitmele teisele kasutajale, kes selle probleemi kallal võiks töötada. *Issue* võib sisaldada **pealkirja**, **kirjeldust**, **silte** ja muid metaandmeid, nagu **prioriteet** või selle parandamise eest vastutav **isik**.
 
 Githubis on võimalik kasutada eelloodud malle levinumate *issuede* avamiseks, nt *bug report*'id ja *feature request*'id. Malle saab ka ise luua, vastavalt oma projekti vajadustele.
 
@@ -45,9 +45,9 @@ GitHubi *issue*t saab kasutada erinevatel eesmärkidel, näiteks:
 - Töö üle arutamine ja koordineerimine arendajate meeskonna vahel
 - Konkreetsele hoidlale või projektile toe taotlemine või pakkumine
 
-*Issue*t saab otsida ja filtreerida erinevate kriteeriumide alusel, nagu *Issue* **number**, **pealkiri**, **autor**, **silt** ja **olek**. Neid saab ka **kommenteerida** ja **värskendada**, et kajastada jälgitava töö oleku **muutusi**. *Issuede* otsingu kasutamine on soojalt soovitatav, et (nt suuremate projektide korral) vältida *issue*-duplikaate ehk sama või sarnase sisuga *issue*'de loomist. Teistel sarnastel tööriistadel on automaatne duplikaatide tuvastussüsteem tavaliselt olemas, Github Issues seda võimalust kahjuks ei paku. Küll aga on Githubis võimalus kasutajal endal *issue* duplikaatidest teada anda ja sarnased probleemid kokku grupeerida. Selleks tuleb kasutada kommenteerimisel või vastamisel `duplicate of #*issue* nr`, `duplicate pull request` või `duplicate *issue*` märksõnu. 
+*Issue*t saab otsida ja filtreerida erinevate kriteeriumide alusel, nagu *Issue* **number**, **pealkiri**, **autor**, **silt** ja **olek**. Neid saab ka **kommenteerida** ja **värskendada**, et kajastada jälgitava töö oleku **muutusi**. *Issuede* otsingu kasutamine on soojalt soovitatav, et (nt suuremate projektide korral) vältida *issue*-duplikaate ehk sama või sarnase sisuga *issue*'de loomist. Teistel sarnastel tööriistadel on automaatne duplikaatide tuvastussüsteem tavaliselt olemas, Github Issues seda võimalust kahjuks ei paku. Küll aga on Githubis võimalus kasutajal endal *issue* duplikaatidest teada anda ja sarnased probleemid kokku grupeerida. Selleks tuleb kasutada kommenteerimisel või vastamisel `duplicate of #*issue* nr`, `duplicate pull request` või `duplicate *issue*` märksõnu.
 
-## *Issuede* kirjutamise head tavad:
+## *Issuede* kirjutamise head tavad
 
 - Hoia pealkirjad lühikesed ja konkreetsed
 - Sisus kirjelda tausta (*context*), esita probleem või idee, paku välja lahendus või järgmine samm
@@ -58,12 +58,14 @@ GitHubi *issue*t saab kasutada erinevatel eesmärkidel, näiteks:
 - Tee vahet *issuel* ja *discussionil* – lahtisemateks aruteludeks on parem variant GitHub Discussions
 - Lahendatud *issued* sulge, et segadust vältida
 
-## Näide hästi struktureeritud *issuest*:
-![hea tava näide](https://wiredcraft.com/images/posts/how_we_write_our_github_issues_2.png) 
+## Näide hästi struktureeritud *issuest*
+
+![hea tava näide](https://wiredcraft.com/images/posts/how_we_write_our_github_issues_2.png)
 
 Konkreetne pealkiri, tausta kirjeldus, inimeste kaasamine ja järgmine samm välja pakutud.
 
-## Näide mitte nii hästi kirjutatud *issuest*:
+## Näide mitte nii hästi kirjutatud *issuest*
+
 ![halb näide](https://wiredcraft.com/images/posts/how_we_write_our_github_issues_1.png)
 
 Liiga pikk pealkiri, liiga üldine sisu.

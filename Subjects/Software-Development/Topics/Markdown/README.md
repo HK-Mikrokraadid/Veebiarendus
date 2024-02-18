@@ -10,23 +10,23 @@ Selles teemas õpime tundma Markdowni, mis on üks populaarsemaid teksti vormind
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on Markdown?](#mis-on-markdown)
   - [Mis on märgendikeel?](#mis-on-märgendikeel)
-  - [Markdowni eelised:](#markdowni-eelised)
-  - [Markdowni puudused:](#markdowni-puudused)
-  - [Millal kasutada Markdowni:](#millal-kasutada-markdowni)
-  - [Põhilised Markdowni süntaksid:](#põhilised-markdowni-süntaksid)
-    - [Pealkirjad:](#pealkirjad)
-    - [Rõhutamine:](#rõhutamine)
-    - [Loendid:](#loendid)
-      - [Märgistamata:](#märgistamata)
-      - [Nummerdatud:](#nummerdatud)
-    - [Lingid:](#lingid)
+  - [Markdowni eelised](#markdowni-eelised)
+  - [Markdowni puudused](#markdowni-puudused)
+  - [Millal kasutada Markdowni](#millal-kasutada-markdowni)
+  - [Põhilised Markdowni süntaksid](#põhilised-markdowni-süntaksid)
+    - [Pealkirjad](#pealkirjad)
+    - [Rõhutamine](#rõhutamine)
+    - [Loendid](#loendid)
+      - [Märgistamata](#märgistamata)
+      - [Nummerdatud](#nummerdatud)
+    - [Lingid](#lingid)
     - [Pildid:](#pildid)
-    - [Tsitaadid:](#tsitaadid)
-    - [Ridade kood:](#ridade-kood)
-    - [Koodiblokid:](#koodiblokid)
-    - [Horisontaaljoon:](#horisontaaljoon)
-    - [Tabelid:](#tabelid)
-    - [Ülesannete loendid:](#ülesannete-loendid)
+    - [Tsitaadid](#tsitaadid)
+    - [Ridade kood](#ridade-kood)
+    - [Koodiblokid](#koodiblokid)
+    - [Horisontaaljoon](#horisontaaljoon)
+    - [Tabelid](#tabelid)
+    - [Ülesannete loendid](#ülesannete-loendid)
   - [Harjutused](#harjutused)
 
 ## Õpiväljundid
@@ -55,7 +55,7 @@ Levinumad märgendikeeled on näiteks:
 - Markdown
 - jmt
 
-## Markdowni eelised:
+## Markdowni eelised
 
 - **Lihtsus:** Markdowni on lihtne õppida ja kasutada. Selle süntaks on intuitiivne, mis tähendab, et ka mittetehnilised inimesed saavad selles formaadis kirjutamisega hõlpsasti alustada.
 - **Loetavus:** Markdowni dokumendid koosnevad tavalisest tekstist, seega need on loetavad isegi ilma teisele formaadile konverteerimata.
@@ -65,14 +65,14 @@ Levinumad märgendikeeled on näiteks:
 - **Versioonikontrolli sõbralik:** Kuna tegemist on tavalise tekstiga, töötab Markdown sujuvalt versioonikontrollisüsteemidega nagu Git.
 - **Pole vaja spetsialiseeritud tarkvara:** Markdowni saab kirjutada mis tahes tekstiredaktoris. Lisaks on olemas spetsialiseeritud Markdowni redaktorid, mis pakuvad täiendavaid funktsioone, nagu eelvaade ja kiire konverteerimine.
 
-## Markdowni puudused:
+## Markdowni puudused
 
 - **Piiratud stiilimine:** Kuigi Markdown saab hõlpsasti hakkama põhilise vormindusega, ei sobi see dokumentide koostamiseks, mis nõuavad keerukaid stiile või paigutusi.
 - **Ebajärjekindlused:** On mitmeid Markdowni variatsioone ja mitte kõik tööriistad ei toeta igat funktsiooni. Näiteks GitHubi Markdowni töötlus võib olla veidi erinev teistest platvormidest.
 - **Pole ideaalne suurte dokumentide jaoks:** Kuigi Markdowni saab kindlasti kasutada suuremate dokumentide jaoks, ei pruugi see olla nii hallatav või struktureeritud kui teised selleks otstarbeks loodud vormingud.
 - **Ei ole sisseehitatud eelvaadet:** Kui ei kasutata spetsialiseeritud Markdowni redaktorit, ei ole võimalik vormindatud väljundit eelvaadata ilma seda konverteerimata. Samas on võimalik osadele redaktoritele paigaldada pistikprogramme, mis võimaldavad eelvaadet, nagu näiteks VS Code koos Markdown All in One pistikprogrammiga.
 
-## Millal kasutada Markdowni:
+## Millal kasutada Markdowni
 
 - **Dokumentatsioon:** Paljud avatud lähtekoodiga projektid kasutavad oma README-failide ja dokumentatsiooni jaoks Markdowni, kuna see on lihtne ja GitHub toetab seda juba vaikimisi.
 - **Blogimine:** Paljud blogiplatvormid ja staatiliste saitide generaatorid toetavad Markdowni, kuna see on loetav ja kasutajasõbralik.
@@ -84,11 +84,11 @@ Levinumad märgendikeeled on näiteks:
 
 Kokkuvõttes on Markdown suurepärane valik projektidele, mis nõuavad põhilist vormindust ilma keerukamate märgistuskeelte lisakoormata. Selle lihtsus ja loetavus on Markdowni peamised tugevused, kuid keerukamate paigutuste või ulatusliku stiilimise jaoks võivad sobida paremini teised formaadid.
 
-## Põhilised Markdowni süntaksid:
+## Põhilised Markdowni süntaksid
 
 Siin on kiire viide põhilistele Markdowni süntaksitele:
 
-### Pealkirjad:
+### Pealkirjad
 
 ```markdown
 # H1
@@ -99,7 +99,7 @@ Siin on kiire viide põhilistele Markdowni süntaksitele:
 ###### H6
 ```
 
-### Rõhutamine:
+### Rõhutamine
 
 ```markdown
 *italic* või _italic_
@@ -108,9 +108,9 @@ Siin on kiire viide põhilistele Markdowni süntaksitele:
 ~~läbikriipsutus~~
 ```
 
-### Loendid:
+### Loendid
 
-#### Märgistamata:
+#### Märgistamata
 
 ```markdown
 * Ese 1
@@ -119,7 +119,7 @@ Siin on kiire viide põhilistele Markdowni süntaksitele:
   * Alamese 2.2
 ```
 
-või 
+või
 
 ```markdown
 - Ese 1
@@ -130,7 +130,7 @@ amese 2.1
   - Alamese 2.2
 ```
 
-#### Nummerdatud:
+#### Nummerdatud
 
 ```markdown
 1. Esimene ese
@@ -139,7 +139,14 @@ amese 2.1
    2. Alamese 2.2
 ```
 
-### Lingid:
+> Github võib mõningal määral näidata Markdown-i erinevalt, näiteks eelpool toodud loendit näidatakse nii:
+
+1. Esimene ese
+2. Teine ese
+   1. Alamese 2.1
+   2. Alamese 2.2
+
+### Lingid
 
 ```markdown
 [Google](https://www.google.com)
@@ -151,19 +158,19 @@ amese 2.1
 ![Alt tekst](url_pildile)
 ```
 
-### Tsitaadid:
+### Tsitaadid
 
 ```markdown
 > See on tsitaat.
 ```
 
-### Ridade kood:
+### Ridade kood
 
 ```markdown
 Siin on `rida koodi`.
 ```
 
-### Koodiblokid:
+### Koodiblokid
 
 Kasutades kolme tagurpidikoma:
 
@@ -185,19 +192,19 @@ function example() {
 ```
 </pre>
 
-### Horisontaaljoon:
+### Horisontaaljoon
 
 ```markdown
 ---
 ```
 
-või 
+või
 
 ```markdown
 ***
 ```
 
-### Tabelid:
+### Tabelid
 
 ```markdown
 | Päis 1 | Päis 2 |
@@ -206,7 +213,7 @@ või
 | Lahtr3    | Lahtr4    |
 ```
 
-### Ülesannete loendid:
+### Ülesannete loendid
 
 ```markdown
 - [x] Ülesanne 1 (tehtud)
