@@ -15,7 +15,6 @@
 - [Git](../../../Subjects/Software-Development/Topics/Git/README.md)
 - [Github](../../../Subjects/Software-Development/Topics/Github/README.md)
 - [Markdown](../../../Subjects/Software-Development/Topics/Markdown/README.md)
-- [Github Issue](../../../Subjects/Software-Development/Topics/Github-Issue/README.md)
 
 ### Programmeerimine
 
@@ -28,3 +27,9 @@
 - [Andmetüübid](../../../Subjects/Programming-Basics/Topics/Data-Types/README.md)
 - Koodi laadimine Githubi
 - Harjutused
+
+## Kodutöö
+
+- Lugege läbi esimese loengu materjalid
+- Tehke läbi materjalides olevad harjutused
+- Laadige tehtud harjutuste kood Githubi

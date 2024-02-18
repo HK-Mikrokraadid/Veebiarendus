@@ -12,14 +12,14 @@
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Forkimine
-- Tarkvaraarenduse elutsükkel
-- Rollid tarkvaraarenduses
-- Tarkvaraarenduse meetodid
+- [Tarkvaraarenduse elutsükkel](../../../Subjects/Software-Development/Topics/SDLC/README.md)
+- [Rollid tarkvaraarenduses](../../../Subjects/Software-Development/Topics/Roles/README.md)
+- [Tarkvaraarenduse meetodid]()
 
 ### Programmeerimine
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Algoritmid
-- Tingimuslaused
+- [Algoritmid](../../../Subjects/Programming-Basics/Topics/Algorithms/README.md)
+- [Tsüklid](../../../Subjects/Programming-Basics/Topics/Cycles/README.md)
 - Harjutused

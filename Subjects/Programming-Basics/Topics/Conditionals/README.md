@@ -37,7 +37,7 @@ Pärast selle teema läbimist suudate:
 
 ## Mis on Tingimuslause?
 
-Tingimuslause on kontrollmehanism, mida kasutatakse tingimuse alusel valikute tegemislel. Näiteks saame kasutada tingimuslauset, et kontrollida, kas arv on positiivne või negatiivne, ja sooritada kontrolli tulemuse põhjal erinevaid toiminguid.
+Tingimuslause on kontrollmehanism, mida kasutatakse tingimuse alusel valikute tegemisel. Näiteks saame kasutada tingimuslauset, et kontrollida, kas arv on positiivne või negatiivne, ja sooritada kontrolli tulemuse põhjal erinevaid toiminguid.
 
 Oma mõtetes kasutame tingimuslausete pidevalt, kui teeme otsuseid. Näiteks, kui otsustame, kas minna sportima või mitte, kontrollime ilma, oma tuju, oma ajakava jne ja kontrolli tulemuse põhjal otsustame, kas minna sportima või mitte.
 
@@ -111,11 +111,12 @@ if (weather === 'päikeseline') {
   console.log('Lähen randa!');
 }
 ```
+
 Selles näites kontrollime, kas ilm on päikeseline ja kui on, väljastame konsooli vastava teate.
 
 ### if-else
 
-`if-else` lauset kasutatakse ühe koodiploki täitmiseks, kui tingimus on tõene, ja teise koodiploki täitmiseks, kui tingimus on väär. 
+`if-else` lauset kasutatakse ühe koodiploki täitmiseks, kui tingimus on tõene, ja teise koodiploki täitmiseks, kui tingimus on väär.
 
 `if-else` lausel on järgmine süntaks:
 
@@ -202,6 +203,7 @@ switch (weather) {
     console.log('Jään koju!');
 }
 ```
+
 See näide on ekvivalentne eelmisele näitele if-else-if lausega.
 
 ### Ternaaroperaator
@@ -241,7 +243,6 @@ if (weather === 'päikeseline') {
 ```
 
 See näide on ekvivalentne eelmisele näitele `if-else-if` lausega, kuid see sisaldab rohkem koodi ja on raskem lugeda. Sellistel juhtudel on parem kasutada `if-else-if` tingimuslauset.
-
 
 ## Tõesus ja Väärasus
 
@@ -330,8 +331,8 @@ if (number % 2 === 0) {
   console.log('Arv on paaritu');
 }
 ```
-</details>
 
+</details>
 
 ### Harjutus 3 - If-Else-If-lause
 
@@ -346,4 +347,3 @@ if (number % 2 === 0) {
 - `F`: alla 60
 
 Väljasta hinne.
-

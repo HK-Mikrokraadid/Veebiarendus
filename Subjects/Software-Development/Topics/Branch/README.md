@@ -12,7 +12,6 @@ Selles peatükis vaatame, mis on harud, kuidas neid luua ja kuidas nendega töö
   - [Harude loomise protsessi näide](#harude-loomise-protsessi-näide)
   - [Harjutused](#harjutused)
 
-
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
@@ -114,4 +113,3 @@ Lõpuks võib ka uue haru kustutada, kui see enam vajalik ei ole ja lülituda ta
 ## Harjutused
 
 - Tee läbi ülalolevad sammud, et luua uus haru, teha selles muudatusi ja ühendada see peamise haruga.
-

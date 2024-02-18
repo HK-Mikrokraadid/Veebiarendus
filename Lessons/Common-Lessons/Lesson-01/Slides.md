@@ -58,7 +58,6 @@ Martti Raavel
 - Git
 - Github
 - Markdown
-- Github Issue
 
 ---
 
@@ -132,7 +131,6 @@ Martti Raavel
 - Javascript
 - NodeJS
 - Hello World
-- Algoritmid
 - Muutujad
 - Andmetüübid
 - Koodi laadimine Githubi
@@ -177,16 +175,6 @@ Martti Raavel
 - Kuidas Hello World-i kirjutada?
 - Kuidas NodeJS-is programme käivitada?
 - Harjutus
-
----
-
-## Algoritmid
-
-- Mis on algoritm?
-- Algoritmide disainimine
-- Pseudokood
-- Voodiagrammid
-- Harjutused
 
 ---
 

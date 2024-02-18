@@ -6,9 +6,8 @@ Selles teemas õpime tundma parimaid praktikaid Git'i ja GitHub'i kasutamiseks. 
 
 - [Git ja Github parimad praktikad](#git-ja-github-parimad-praktikad)
   - [Õpiväljundid](#õpiväljundid)
-  - [Git'i parimad praktikad:](#giti-parimad-praktikad)
-  - [GitHub'i parimad praktikad:](#githubi-parimad-praktikad)
-  - [Harjutused](#harjutused)
+  - [Git'i parimad praktikad](#giti-parimad-praktikad)
+  - [GitHub'i parimad praktikad](#githubi-parimad-praktikad)
 
 ## Õpiväljundid
 
@@ -21,69 +20,47 @@ Pärast selle teema läbimist suudate:
 
 Siin on ülevaade parimatest praktikatest nii Git'i kui ka GitHub'i jaoks:
 
-## Git'i parimad praktikad:
+## Git'i parimad praktikad
 
-1. **Pühenda tihti, tõuka harvem:** 
-   - Tee sagedasi, väiksemaid pühendusi, mis hõlmavad ühte loogilist muudatust (nt vea parandamine või funktsiooni lisamine). See muudab ajaloo mõistmise ja probleemide isoleerimise lihtsamaks.
-2. **Kirjuta tähendusrikkaid pühendumissõnumeid:** 
-   - Alusta lühikese, kirjeldava pealkirjaga. Kui on vaja rohkem detaile, esita põhjalik kirjeldus pärast tühja rida.
+1. **`commit`-i tihti, tõuka harvem:**
+   - Tee sagedasi, väiksemaid `commit`-e, mis hõlmavad ühte loogilist muudatust (nt vea parandamine või funktsiooni lisamine). See muudab ajaloo mõistmise ja probleemide isoleerimise lihtsamaks.
+2. **Kirjuta tähendusrikkaid `commit`-i sõnumeid:**
+   - Alusta lühikese, kirjeldava pealkirjaga. Kui on vaja rohkem detaile, lisa põhjalik kirjeldus eraldi `Description` osas. See aitab teistel arendajatel mõista, miks muudatus tehti ja kuidas see mõjutab koodibaasi
 3. **Kasuta harusid:**
-   - Ära kunagi tööta otse `main` või `master` harul. Kasuta iga uue funktsiooni või veaparanduse jaoks funktsiooniharud.
-   - Kustuta harusid pärast nende ühendamist, et hoida hoidla puhas.
-4. **Väldi avaldatud ajaloo muutmist:** 
-   - Kui pühendused on jagatud harule tõugatud, väldi ajalugu ümberkirjutavate käskude kasutamist (nt `rebase` või `force push`), välja arvatud juhul, kui oled täiesti kindel, mida teed.
-5. **Sünkroniseeri regulaarselt:** 
+   - Ära kunagi tööta otse `main` või `master` haruga. Kasuta iga uue funktsiooni või veaparanduse jaoks funktsiooniharud.
+   - Kustuta harud pärast nende ühendamist, et hoida hoidla puhas.
+4. **Väldi avaldatud ajaloo muutmist:**
+   - Kui `commit`-id on harussee tõugatud, väldi ajalugu ümberkirjutavate käskude kasutamist (nt `rebase` või `force push`), välja arvatud juhul, kui oled täiesti kindel, mida teed.
+5. **Sünkroniseeri regulaarselt:**
    - Tõmba sageli peahoidlast, et integreerida muudatused ja lahendada konfliktid varakult.
-6. **Lahenda konfliktid viivitamatult:** 
+6. **Lahenda konfliktid viivitamatult:**
    - Käsitle ja lahenda ühendamiskonfliktid kohe, kui need tekivad.
-7. **Kasuta `.gitignore`:**
-   - Lisa failid, mida ei peaks hoidlas olema (nt ehitusartefaktid, vahemälu, logifailid), `.gitignore` faili.
+7. **Kasuta `.gitignore` faili:**
+   - Lisa failid, mida ei peaks hoidlas olema (nt saladused, vahemälu, logifailid), `.gitignore` faili.
 8. **Varunda:**
-   - Kuigi Git on versioonikontrollisüsteem, on hea praktika omada hoidla varukoopiaid, eriti kui majutad seda kohapeal.
+   - Kuigi Git on versioonikontrollisüsteem, on hea praktika omada hoidla varukoopiaid, eriti kui git on lokaalselt majutatud.
 
-## GitHub'i parimad praktikad:
+## GitHub'i parimad praktikad
 
-1. **Kasuta kirjeldavaid hoidla nimesid:** 
+1. **Kasuta kirjeldavaid hoidla nimesid:**
    - Nimed peaksid andma vihje projekti eesmärgi või sisu kohta.
 2. **Lisa `README.md`:**
-   - Alati lisa oma hoidlatesse `README.md` fail. See peaks selgitama projekti, kuidas seda seadistada,
-
- selle sõltuvusi, kuidas kaasa aidata ja muud asjakohast teavet.
+   - Alati lisa oma hoidlatesse `README.md` fail. See peaks selgitama projekti, kuidas seda seadistada, kuidas paigaldada projekti sõltuvusi, kuidas projketis saab kaasa aidata ja muud asjakohast teavet. Pane tähele, et `README.md` nimi on kirjutatud suurte tähtedega.
 3. **Kasuta probleemide ja pull requestide malle:**
    - Mallid juhendavad kaastöötajaid esitama vajaliku teabe, kui luuakse probleeme või PR-e.
-4. **Kaitse oma peaharu:** 
-   - Kasuta haru kaitse reegleid, et tagada, et `main` või `master` harule ei saaks otseselt tõugata, ja nõua enne ühendamist pull requestide ülevaatamist.
-5. **Kasuta silte ja verstaposte:** 
-   - Korralda probleemid ja PR-id siltidega (nt `bug`, `enhancement`). Kasuta verstaposte, et grupeerida probleemid ja PR-id funktsiooni, versiooni või ajaraami järgi.
+4. **Kaitse oma peaharu:**
+   - Kasuta haru kaitse reegleid, et tagada, et `main` või `master` harule ei saaks otse tõugata ja nõua enne ühendamist `pull requestide` ülevaatamist (*review*).
+5. **Kasuta silte:**
+   - Organiseeri `Issue`-d ja `Pull Requestid`-id siltidega (nt `bug`, `enhancement`).
 6. **Koodi ülevaatused:**
-   - Alati vaadake läbi pull requestid enne ühendamist. See tagab koodi kvaliteedi, järjepidevuse ja et mitu silmapaari on muudatusi kontrollinud.
-7. **Kaasa kogukonnaga:**
-   - Vasta probleemidele ja PR-idele õigeaegselt. Tänage ja julgustage kaastöötajaid, isegi kui nende panust ei võeta vastu.
+   - Alati vaadake läbi `Pull Request`-id enne ühendamist. See tagab paremini koodi kvaliteedi, järjepidevuse kuna koodi on vaadanud üle rohkem kui üks inimene.
+7. **Suhtle kogukonnaga:**
+   - Vasta `Issue`-dele ja `Pull Request`-idele õigeaegselt. Tänage ja julgustage kaastöötajaid, isegi kui nende panust projekti ei lisata.
 8. **Kasuta GitHub Actions:**
-   - Automaatige testimise, ehitamise ja juurutamise protsessid GitHub Actionsiga.
-9. **Hoidke isikuandmed väljas:**
-   - Ärge kunagi salvestage tundlikku teavet nagu paroolid, API võtmed või saladused oma hoidlatesse. Kasutage GitHubi saladuste funktsiooni või välistele tööriistadele nagu keskkonnamuutujad selleks otstarbeks.
-10. **Vaadake regulaarselt üle load ja juurdepääs:** 
-   - Veenduge, et ainult vajalikel kaastöötajatel oleks juurdepääs teie hoidlale, ja vaadake regulaarselt läbi ning kohandage lubasid.
+   - Automatiseerige testimise, ehitamise ja juurutamise protsessid `GitHub Actions`-iga.
+9. **Hoidke isikuandmed repositooriumist väljas:**
+   - Ärge kunagi salvestage tundlikku teavet nagu **paroolid**, **API võtmed** või **saladused** oma hoidlatesse. Kasutage selleks GitHubi saladuste funktsiooni või väliseid tööriistu, nagu keskkonnamuutujad.
+10. **Vaadake regulaarselt üle load ja juurdepääsud:**
+     - Veenduge, et ainult vajalikel kaastöötajatel oleks juurdepääs teie hoidlale.
 
 Nende parimate praktikate järgimine tagab, et teie Git'i ja GitHub'i kasutamine on tõhus, teie projekti ajalugu jääb mõttekaks ja korraldatuks ning koostöö on sujuv ja produktiivne.
-
-## Harjutused
-
-Selleks, et praktiseerida selles teemas õpitut, tehke järgmist:
-
-- Looge kursuse Githubi organisatsioonis uus hoidla.
-- Nimetage hoidla oma `Eesnimi-Perekonnanimi` järgi.
-- Lisage hoidlasse `README.md` fail.
-- Lisage `README.md` faili mõningane kirjeldus enda kohta.
-- Looge haru nimega `feature-gitignore`.
-- Lisage hoidlasse `.gitignore` fail järgmise sisuga:
-
-```
-# Node
-node_modules/
-```
-- Pühendage ja tõugake oma muudatused `feature-gitignore` harusse.
-- Looge pull request, et ühendada `feature-gitignore` haru `main` harusse.
-- Määrake oma juhendaja pull requesti ülevaatajaks.
-- Ühendage pull request pärast juhendaja heakskiitu.
