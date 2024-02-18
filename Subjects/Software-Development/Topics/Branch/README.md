@@ -1,11 +1,26 @@
 # Harudega töötamine
 
+Selles peatükis vaatame, mis on harud, kuidas neid luua ja kuidas nendega töötada.
+
 ![Harudega töötamine](Working-With-Branches.webp)
+
+- [Harudega töötamine](#harudega-töötamine)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on haru?](#mis-on-haru)
+  - [Harude tüübid](#harude-tüübid)
+  - [Kuidas harude loomine käib](#kuidas-harude-loomine-käib)
+  - [Harude loomise protsessi näide](#harude-loomise-protsessi-näide)
+  - [Harjutused](#harjutused)
+
 
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
 
+- kirjeldada, mis on haru ja miks see on kasulik;
+- kirjeldada erinevaid harude tüüpe;
+- luua uue haru ja teha selles muudatusi;
+- luua tõmbetaotluse (*pull request*) ja ühendada haru peamise koodibaasiga.
 
 ## Mis on haru?
 
@@ -67,4 +82,36 @@ Kui uus kood on kirjutatud, teeb arendaja `commit`-i ja `push`-ib muudatused uud
 ![Commit](commit.png)
 
 ![Push](push.png)
+
+Nüüd on uus haru koos uue koodiga nähtav ka Github-is, lisaks on näha ka võimalus luua tõmbetaotlus (*pull request*) - nupp `Compare & pull request`.
+
+![Uus haru Gihubis](new-branch-visible.png)
+
+Samal ajal, kui vaadata peamist haru (*main* või *master*), siis seal veel uued muudatused nähtavad ei kajastu.
+
+![Main haru ilma muudatusteta](main-branch-before-merge.png)
+
+Nüüd selleks, et uued muudatused peaharusse saada, tuleb teha tõmbetaotlus (*pull request*), mille kaudu saab uued muudatused peamise haruga ühendada.
+
+![Pull Request nupp](pull-request-button.png)
+
+Seejärel on võimalik üle vaadata, milliste harude vahel muudatusi soovitakse teha, määrata vajaduse korral ülevaatajad (*Reviewers*) ja kirjutada lühike kirjeldus, mida muudatused endast kujutavad. Seejärel saab tõmbetaotluse avaldada vajutades nupule `Create pull request`.
+
+![Create Pull Request](create-pull-request.png)
+
+Seejärel on võimalik tõmbetaotlust üle vaadata, lisada kommentaare ja teha muudatusi, kui on vaja. Kui kõik on korras, siis saab tõmbetaotluse ühendada peamise haruga vajutades nupule `Merge pull request`.
+
+![Merge](merge.png)
+
+Pärast tõmbetaotluse ühendamist on uued muudatused peamises harus nähtavad.
+
+![Peaharu peale ühendamist](main-branch-after-merge.png)
+
+Lõpuks võib ka uue haru kustutada, kui see enam vajalik ei ole ja lülituda tagasi peamisse harusse.
+
+![Tagasi peaharusse](back-to.main-branch.png)
+
+## Harjutused
+
+- Tee läbi ülalolevad sammud, et luua uus haru, teha selles muudatusi ja ühendada see peamise haruga.
 
