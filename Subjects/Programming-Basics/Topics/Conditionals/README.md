@@ -351,4 +351,4 @@ Väljasta hinne.
 
 ### Lisaülesanded
 
-Kui soovid lahendada lisaülesandeid, siis leiad mõned siit: [Lisaülesanded tingimuslausetele](./Exercises.md);
+Kui soovid lahendada lisaülesandeid, siis leiad mõned siit: [Lisaülesanded tingimuslausetele](./Exercises.md)
