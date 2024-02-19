@@ -99,7 +99,7 @@ Martti Raavel
 
 ---
 
-## Harud, Tõmbetaotlus ja ühendamine
+## Harud (*branch*), Tõmbetaotlus (*Pull Request*) ja Ühendamine (*Merge*)
 
 - Harude loomine
 - Harusse vahetamine
@@ -181,7 +181,7 @@ let sum = 5 + 10;
 
 ---
 
-## Arithmeetilised operaatorid
+## Aritmeetilised operaatorid
 
 - `+` - liitmine
 - `-` - lahutamine
