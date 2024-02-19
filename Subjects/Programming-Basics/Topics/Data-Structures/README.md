@@ -39,6 +39,7 @@ Me juba teame, mis on muutuja ja et seda kasutatakse andmete hoidmiseks. Kuid se
 Andmestruktuur on viis andmete korraldamiseks arvuti mälus. Andmestruktuure kasutatakse andmekogumite salvestamiseks.
 
 Javascript võimaldab kasutada järgmiseid andmestruktuure:
+
 - Massiivid (Arrays)
 - Objektid (Objects)
 - Mapid (Maps)
@@ -55,6 +56,7 @@ Massiivi loomiseks kasutame `[]` operaatorit. Näiteks saame luua massiivi nimeg
 ```javascript
 const numbers = [1, 2, 3];
 ```
+
 Või saame luua massiivi nimega `names`, mis sisaldab nimesid `John`, `Jane` ja `Jack` nii:
 
 ```javascript
@@ -68,9 +70,10 @@ const numbers = [1, 2, 3];
 
 console.log(numbers[0]);
 ```
+
 **Oodatav väljund**:
 
-```
+```bash
 1
 ```
 
@@ -83,9 +86,10 @@ numbers[0] = 10;
 
 console.log(numbers);
 ```
+
 **Oodatav väljund**:
 
-```
+```bash
 [10, 2, 3]
 ```
 
@@ -108,11 +112,13 @@ numbers.push(4);
 
 console.log(numbers);
 ```
+
 **Oodatav väljund**:
 
-```
+```bash
 [1, 2, 3, 4]
 ```
+
 > Pane tähele, et massiivide meetodite kasutamine käib kujul `massiiv.meetod()`.
 >
 > `push()` meetod tagastab massiivi uue pikkuse.
@@ -126,14 +132,15 @@ const numbers = [1, 2, 3];
 
 console.log(numbers.indexOf(2));
 ```
+
 **Oodatav väljund**:
 
-```
+```bash
 1
 ```
 
 > `indexOf()` meetod tagastab väärtuse indeksi massiivis.
-> 
+>
 > Kui massiivis on mitu sama väärtust, tagastab `indexOf()` meetod esimese väärtuse indeksi.
 >
 > Kui väärtust massiivis ei leita, tagastab `indexOf()` meetod `-1`.
@@ -149,20 +156,21 @@ numbers.splice(1, 1);
 
 console.log(numbers);
 ```
+
 **Oodatav väljund**:
 
-```
+```bash
 [1, 3]
 ```
 
 > `splice()` meetodi esimene argument on väärtuse indeks, mida soovime eemaldada, ja teine argument on eemaldatavate väärtuste arv.
-> 
+>
 > `splice()` meetod tagastab eemaldatud väärtuste massiivi.
-> 
+>
 > Kui me ei määra teist argumenti, eemaldab `splice()` meetod kõik väärtused alates esimeses argumendis määratud indeksist.
-> 
+>
 > Kui määrame teise argumendi väärtuseks `0`, siis `splice()` meetod ei eemalda ühtegi väärtust.
-> 
+>
 > Pea meeles, et väärtuse eemaldamiseks massiivist kasutades seda meetodit, peame teadma eemaldatava väärtuse indeksit.
 
 ### Massiivi iteratsioon
@@ -176,9 +184,10 @@ for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
 ```
+
 **Oodatav väljund**:
 
-```
+```bash
 Esmaspäev
 Teisipäev
 Kolmapäev
@@ -189,20 +198,21 @@ Pühapäev
 ```
 
 > Pööra tähelepanu `for` tsükli tingimusele. Peame kasutama massiivi `length` omadust tsükli tingimuses, et veenduda, et me ei lähe massiivi piiridest välja.
-> 
+>
 > Massiivi `length` omadus tagastab massiivis olevate väärtuste arvu.
-> 
+>
 > Massiivi `length` omadus on alati üks rohkem kui massiivi viimase väärtuse indeks (kuna elemenitde indeksite loendamine algab `0`-st).
-> 
+>
 > Samuti pea meeles, et `i` on väärtus, mis suureneb iga `for` tsükli iteratsiooni korral. Väärtuse `i` abil saame pääseda ligi massiivi väärtustele.
-> 
+>
 > Massiivi esimese väärtuse indeks on `0`, seega massiivi viimase väärtuse indeks on `length - 1`.
 
 ## Objekt
 
 Objekt on **võti**-**väärtus** paaride kogum, mis on salvestatud ühte muutujasse. Objekte kasutatakse juhul, kui on vaja talletada informatsiooni, mis koosneb paljudest omadustest. Näiteks saame kasutada objekti inimese kohta käiva info salvestamiseks (*eesnimi*, *perekonnanimi*, *vanus*, *aadress* jne).
 
-Objekti loomiseks kasutame `{}` operaatorit. Näiteks saame luua objekti nimega `person`, mis sisaldab omadusi: 
+Objekti loomiseks kasutame `{}` operaatorit. Näiteks saame luua objekti nimega `person`, mis sisaldab omadusi:
+
 - eesnimi: `John`,
 - perekonnanimi: `Doe`,
 - vanus: `25` nii:
@@ -258,7 +268,7 @@ Loo fail nimega `index.js` (või mõni muu sinu valikul olev nimi) ja alusta all
 **Kirjeldus**: Loo massiiv, et salvestada kolme lemmikpuuvilja nimekirja. Lisa massiivi veel kaks puuvilja, kasutades massiivi **meetodeid**. Lõpuks väljasta iga puuvili massiivis eraldi reale.
 
 > Elementide lisamiseks massiivi saad kasutada `push()` meetodit.
-> 
+>
 > Kasuta `for` tsüklit, et trükkida iga element massiivis uuele reale.
 
 <details>
@@ -274,6 +284,7 @@ for (let i = 0; i < fruits.length; i++) {
   console.log(fruits[i]);
 }
 ```
+
 ![Massiiv](array.gif)
 
 </details>
@@ -300,11 +311,13 @@ for (let i = 0; i < numbers.length; i++) {
 
 console.log(sum);
 ```
+
 **Oodatav väljund**:
 
-```
+```bash
 15
 ```
+
 </details>
 
 ### Harjutus 3 - Põhilised objekti toimingud
@@ -332,9 +345,10 @@ console.log(`Ma sõidan ${auto.aasta} aasta ${auto.mark} ${auto.mudel}iga.`);
 
 **Oodatav väljund**:
 
-```
+```bash
 Ma sõidan 2019 aasta Toyota Corollaga.
 ```
+
 ![Objekt](object.gif)
 
 </details>
