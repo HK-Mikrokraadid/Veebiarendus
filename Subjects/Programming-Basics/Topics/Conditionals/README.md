@@ -25,6 +25,7 @@ Pildi allikas: Dall-E by OpenAI
     - [Harjutus 1 - Lihtne If-lause](#harjutus-1---lihtne-if-lause)
     - [Harjutus 2 - If-Else-lause](#harjutus-2---if-else-lause)
     - [Harjutus 3 - If-Else-If-lause](#harjutus-3---if-else-if-lause)
+    - [Lisaülesanded](#lisaülesanded)
 
 ## Õpiväljundid
 
@@ -347,3 +348,7 @@ if (number % 2 === 0) {
 - `F`: alla 60
 
 Väljasta hinne.
+
+### Lisaülesanded
+
+Kui soovid lahendada lisaülesandeid, siis leiad mõned siit: [Lisaülesanded tingimuslausetele](./Exercises.md);
