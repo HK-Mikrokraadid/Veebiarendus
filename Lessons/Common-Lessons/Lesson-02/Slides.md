@@ -175,9 +175,9 @@ let sum = 5 + 10;
 - Operaatorid:
   - Aritmeetilised operaatorid
   - Määramisoperaatorid
+  - Stringi operaatorid
   - Võrdlusoperaatorid
   - Loogilised operaatorid
-  - Stringi operaatorid
 
 ---
 
@@ -206,6 +206,12 @@ let sum = 5 + 10;
 
 ---
 
+## Stringi operaatorid
+
+- `+` - liitmine
+
+---
+
 ## Võrdlusoperaatorid
 
 Võrdlusoperaatoreid kasutatakse kahe väärtuse võrdlemiseks ja tõeväärtuse tagastamiseks - tulemuseks on `true` või `false`.
@@ -226,12 +232,6 @@ Võrdlusoperaatoreid kasutatakse kahe väärtuse võrdlemiseks ja tõeväärtuse
 - `&&` - ja (AND)
 - `||` - või (OR)
 - `!` - mitte (NOT)
-
----
-
-## Stringi operaatorid
-
-- `+` - liitmine
 
 ---
 
