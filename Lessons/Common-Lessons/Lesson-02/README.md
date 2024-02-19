@@ -18,6 +18,8 @@
 - [Harud, Tõmbetaotlus ja ühendamine](../../../Subjects/Software-Development/Topics/Branch/README.md)
 - [Git ja Githubi parimad tavad](../../../Subjects/Software-Development/Topics/Git-Best-Practices/README.md)
 
+![Teises loengus tahvlile joonistatud pilt](git-flow.jpg)
+
 ### Programmeerimine
 
 - Eelmise loengu meeldetuletus
