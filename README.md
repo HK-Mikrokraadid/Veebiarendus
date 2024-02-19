@@ -8,7 +8,7 @@ See repositoorium sisaldab järgmiseid Veebiarenduse mikrokraade:
 
 Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti raames.
 
-## 2024 kevade pilootprogrammi kuupäevad
+## 2024. aasta pilootprogrammi kuupäevad
 
 - [1. kohtumine](./Lessons/Common-Lessons/Lesson-01/README.md) (Haapsalus): 12.02.2024 kell 10:00 - 17:30
 - [2. kohtumine](./Lessons/Common-Lessons/Lesson-02/README.md) ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)): 19.02.2024 kell 10 - 13:15
