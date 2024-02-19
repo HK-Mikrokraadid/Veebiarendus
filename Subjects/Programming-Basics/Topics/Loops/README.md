@@ -304,7 +304,7 @@ Loo korrutustabel kasutades tsüklit tsükli sees.
 
 **Oodatud väljund:**
 
-```plaintext	
+```plaintext
 1 x 1 = 1
 1 x 2 = 2
 1 x 3 = 3
@@ -313,3 +313,5 @@ Loo korrutustabel kasutades tsüklit tsükli sees.
 10 x 9 = 90
 10 x 10 = 100
 ```
+
+Kui soovid lahendada lisaülesandeid, siis leiad mõned siit: [Lisaülesanded tsüklitele](./Exercises.md)
