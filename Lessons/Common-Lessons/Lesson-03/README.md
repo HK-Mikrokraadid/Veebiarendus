@@ -12,6 +12,7 @@
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Forkimine
+- Koodi ülevaatus (Code Review)
 - [Tarkvaraarenduse elutsükkel](../../../Subjects/Software-Development/Topics/SDLC/README.md)
 - [Rollid tarkvaraarenduses](../../../Subjects/Software-Development/Topics/Roles/README.md)
 - [Tarkvaraarenduse meetodid]()

@@ -25,11 +25,33 @@ Martti Raavel
 
 ---
 
+## Loenguga seotud probleemid
+
+- Projektori pilt halvasti näha
+  - Edaspidi kasutame Live Share pistikprogrammi
+- Algtase väga erinev
+- Veel midagi?
+
+---
+
 ## Kodutööde ajal tekkinud probleemid
 
+- Palju kirjavigu ja veidraid sõnastusi - miks?
 - Githubi Markdowni iseärasused
 - Koodi käivitamine õigest kaustast
 - Veel midagi?
+
+---
+
+## Live share pistikprogramm
+
+- Live Share on Visual Studio Code pistikprogramm, mis võimaldab mitmel inimesel üheaegselt samas koodifailis töötada/seda vaadata.
+
+---
+
+## Live Share paigaldamine
+
+![Live Share paigaldamine](image.png)
 
 ---
 
