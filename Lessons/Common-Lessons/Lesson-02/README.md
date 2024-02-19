@@ -2,7 +2,7 @@
 
 - [Esimene loeng](../Lesson-01/README.md)
 - [Teise loengu slaidid](Slides.md)
-- [Teise loengu salvestus]()
+- [Teise loengu salvestus](https://youtu.be/gF2mFUuLvMw) Ainult kohtumise esimene pool, sest unustasin teisel poolel Zoomi uuesti salvestama panna :sad:
 - [Kolmas loeng](../Lesson-03/README.md)
 
 - [Teise loengu harjutuste lahendused](https://github.com/HK-Mikrokraadid/Martti/blob/3e21ed460cca4ac8711fb3c41e455ba771cfb499/app.js)
@@ -17,6 +17,8 @@
 - [.gitignore](../../../Subjects/Software-Development/Topics/Gitignore/README.md)
 - [Harud, Tõmbetaotlus ja ühendamine](../../../Subjects/Software-Development/Topics/Branch/README.md)
 - [Git ja Githubi parimad tavad](../../../Subjects/Software-Development/Topics/Git-Best-Practices/README.md)
+
+![Teises loengus tahvlile joonistatud pilt](git-flow.jpg)
 
 ### Programmeerimine
 
