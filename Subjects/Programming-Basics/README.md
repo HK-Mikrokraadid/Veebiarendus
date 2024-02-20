@@ -53,6 +53,12 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 - [Silumine](./Topics/Debugging/README.md)
 - [NPM](./Topics/NPM/README.md)
 
+---
+
+- [Guard Clause](./Topics/Guard-Clause/README.md)
+- [Try Catch](./Topics/Try-Catch/README.md)
+- [Semikoolonite kasutamine](./Topics/Semicolons/README.md)
+
 ## Loengud
 
 ### Loeng 1: Sissejuhatus programmeerimise alustesse
