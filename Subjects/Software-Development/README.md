@@ -52,6 +52,12 @@ Selle aine läbinud õpilane:
 - [Prototüüpimine](./Topics/Prototyping/README.md)
 - [Testimine](./Topics/Testing/README.md)
 
+---
+
+- [Koodi kvaliteet](./Topics/Code-Quality/README.md)
+- [ESLint](./Topics/ESLint/README.md)
+- [Käsurida](./Topics/Command-Line/README.md)
+
 ## Loengud (esialgne plaan, mis võib muutuda kursuse jooksul)
 
 ### Loeng 1: Sissejuhatus tarkvaraarendusse ja tööriistadesse
