@@ -48,6 +48,7 @@ function add(a, b) {
   return sum;
 }
 ```
+
 Eelnevas näites on deklareeritud funktsioon nimega `add` märksõnaga `function`, mis võtab kaks **parameetrit** `a` ja `b` ning **tagastab** `a` ja `b` summa. Funktsiooni **sisu** koosneb kahest avaldisest: `const sum = a + b;` ja `return sum;`. Esimene avaldis deklareerib muutuja nimega `sum` ja omistab sellele `a + b` väärtuse. Teine avaldis tagastab `sum` muutuja väärtuse funktsiooni väljakutsujale. Oluline on teada seda, et Javascriptis tagastab funktsioon alati `undefined`, kui tagastusavaldust ei ole deklareeritud.
 
 > Me peame meeles pidama, et parameetrid on muutujad, mida kasutatakse väärtuste salvestamiseks, mis antakse funktsioonile, kui see käivitatakse (välja kutsutakse). Kui me ei pea funktsioonile väärtusi edastama, võime parameetrid ära jätta. Näiteks, kui me soovime deklareerida funktsiooni nimega `sayHello`, mis väljastab konsooli sõnad "Hello World!" (ehk, et funktsioonis ei tehta midagi, mis eeldaks mingeid andmeid väljastpoolt), võime selle deklareerida nii:
@@ -61,6 +62,7 @@ function sayHello() {
 ## Funktsioonide Deklareerimine
 
 Javascriptis saame funktsioone deklareerida kahel viisil:
+
 - funktsiooni deklaratsioon;
 - funktsiooni avaldis.
 
@@ -132,7 +134,7 @@ Nagu näha, siis näeb noolfunktsiooni süntaks välja pisut teisiti, kuid selle
 
 Loo fail nimega `index.js` (või teise valitud nimega) ja alusta allpool olevate harjutuste lahendamist.
 
-Testi oma koodi, käivitades` index.js` faili node `index.js` käsu abil.
+Testi oma koodi, käivitades `index.js` faili node `index.js` käsu abil.
 
 Testi oma koodi erinevate väärtustega
 
@@ -152,6 +154,7 @@ function greet(name) {
 
 greet('John');
 ```
+
 ![Funktsiooni deklareerimine](function.gif)
 
 </details>

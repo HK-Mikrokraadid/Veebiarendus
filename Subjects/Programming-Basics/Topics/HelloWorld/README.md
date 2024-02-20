@@ -52,5 +52,5 @@ Kirjutage programm, mis kuvab ekraanile sõnad "Hello World!".
 Käivitage programm kasutades Node JS-i.
 
 > Vihje: Saate kasutada `console.log()` meetodit sõnumi kuvamiseks konsooli.
-
+>
 > Vihje: Saate kasutada `node fileName.js` käsku Javascripti faili käivitamiseks.
