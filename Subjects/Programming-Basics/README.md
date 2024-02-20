@@ -39,16 +39,18 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 - [Javascript](./Topics/Javascript/README.md)
 - [Node.JS](./Topics/NodeJS/README.md)
 - [Hello World](./Topics/HelloWorld/README.md)
-- [Algoritmid](./Topics/Algorithms/README.md)
 - [Muutujad](./Topics/Variables/README.md)
 - [Andmetüübid](./Topics/Data-Types/README.md)
 - [Operaatorid ja avaldised](./Topics/Operators/README.md)
-- [Silumine](./Topics/Debugging/README.md)
 - [Tingimuslaused](./Topics/Conditionals/README.md)
+- [Tõepärasus](./Topics/Truthiness/README.md)
+- [Algoritmid](./Topics/Algorithms/README.md)
 - [Tsüklid](./Topics/Loops/README.md)
-- [Funktsioonid](./Topics/Functions/README.md)
+- [Javascripti parimad praktikad](./Topics/Best-Practices/README.md)
 - [Andmestruktuurid](./Topics/Data-Structures/README.md)
+- [Funktsioonid](./Topics/Functions/README.md)
 - [Moodulid](./Topics/Modules/README.md)
+- [Silumine](./Topics/Debugging/README.md)
 - [NPM](./Topics/NPM/README.md)
 
 ## Loengud
@@ -84,6 +86,7 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- Tõepärasus
 - Algoritmid
 - Tsüklid
 - Harjutused
@@ -95,7 +98,7 @@ Maht: 2h
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Javascripti parimad praktikad
-- Silumine
+- Andmestruktuurid (massiivid)
 - Harjutused
 
 ### Loeng 5
@@ -104,8 +107,8 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- 
-- 
+- Andmestruktuurid (objektid)
+- Funktsioonid
 - Harjutused
 
 ### Loeng 6 (Zoom)
@@ -114,6 +117,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- Moodulid
 - Harjutused
 
 ### Loeng 7
@@ -122,8 +126,8 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-
-- Funktsioonid
+- Silumine
+- Moodulid
 - Harjutused
 
 ### Loeng 8 (Zoom)
@@ -140,8 +144,7 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Andmestruktuurid
-- Moodulid
+
 - Harjutused
 
 ### Loeng 10 (Zoom)
