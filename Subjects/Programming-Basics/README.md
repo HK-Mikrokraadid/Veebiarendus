@@ -60,12 +60,12 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 Maht: 4h
 
 - Aine tutvustus
-- Tööriistad
-- Javascript
-- NodeJS
-- Hello World
-- Muutujad
-- Andmetüübid
+- [Tööriistad](./Topics/Tools/README.md)
+- [Javascript](./Topics/Javascript/README.md)
+- [NodeJS](./Topics/NodeJS/README.md)
+- [Hello World](./Topics/HelloWorld/README.md)
+- [Muutujad](./Topics/Variables/README.md)
+- [Andmetüübid](./Topics/Data-Types/README.md)
 - Koodi üleslaadimine Githubi
 - Harjutused
 
@@ -75,8 +75,8 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Operaatorid ja avaldised
-- Tingimuslaused
+- [Operaatorid ja avaldised](./Topics/Operators/README.md)
+- [Tingimuslaused](./Topics/Conditionals/README.md)
 - Koodi üleslaadimine Githubi
 - Harjutused
 
@@ -86,9 +86,9 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Tõepärasus
-- Algoritmid
-- Tsüklid
+- [Tõepärasus](./Topics/Truthiness/README.md)
+- [Algoritmid](./Topics/Algorithms/README.md)
+- [Tsüklid](./Topics/Loops/README.md)
 - Harjutused
 
 ### Loeng 4 (Zoom)
@@ -97,8 +97,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Javascripti parimad praktikad
-- Andmestruktuurid (massiivid)
+- [Andmestruktuurid (massiivid)](./Topics/Data-Structures/README.md)
 - Harjutused
 
 ### Loeng 5
@@ -107,8 +106,8 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Andmestruktuurid (objektid)
-- Funktsioonid
+- [Andmestruktuurid (objektid)](./Topics/Data-Structures/README.md)
+- [Funktsioonid](./Topics/Functions/README.md)
 - Harjutused
 
 ### Loeng 6 (Zoom)
@@ -117,7 +116,8 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Moodulid
+- [Javascripti parimad praktikad](./Topics/Best-Practices/README.md)
+- [Moodulid](./Topics/Modules/README.md)
 - Harjutused
 
 ### Loeng 7
@@ -126,8 +126,9 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Silumine
-- Moodulid
+- [Silumine](./Topics/Debugging/README.md)
+- [Moodulid - kolmanda osapoole moodulid](./Topics/Modules/README.md)
+- [NPM](./Topics/NPM/README.md)
 - Harjutused
 
 ### Loeng 8 (Zoom)
@@ -144,7 +145,6 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-
 - Harjutused
 
 ### Loeng 10 (Zoom)
@@ -153,5 +153,5 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- NPM
+
 - Lõplik Q&A

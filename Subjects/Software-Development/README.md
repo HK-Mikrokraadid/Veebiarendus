@@ -83,10 +83,9 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Forkimine
 - [Tarkvaraarenduse elutsükkel](./Topics/SDLC/README.md)
-- [Rollid tarkvaraarenduses]
-- Tarkvaraarenduse meetodid
+- [Rollid tarkvaraarenduses](./Topics/Roles/README.md)
+- [Tarkvaraarenduse meetodid](./Topics/Development-Models/README.md)
 
 ### Loeng 4 (Zoom): Dokumentatsioon
 

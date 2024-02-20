@@ -3,12 +3,19 @@
 - [Kolmas loeng](../Lesson-03/README.md)
 - [Neljanda loengu slaidid](Slides.md)
 - [Neljanda loengu salvestus]()
-- [Viies loeng](../Lesson-04/README.md)
+- [Viies loeng](../Lesson-05/README.md)
 
 ## Teemad
 
 ### Tarkvaraarendus
 
+- Eelmise loengu meeldetuletus
+- Kodutööde ajal tekkinud probleemide lahendamine
+- [Dokumentatsioon](../../../Subjects/Software-Development/Topics/Documentation/README.md)
 
 ### Programmeerimine
 
+- Eelmise loengu meeldetuletus
+- Kodutööde ajal tekkinud probleemide lahendamine
+- [Andmestruktuurid (massiivid)](../../../Subjects/Programming-Basics/Topics/Data-Structures/Arrays/README.md)
+- Harjutused

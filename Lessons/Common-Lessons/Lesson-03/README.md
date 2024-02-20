@@ -24,3 +24,4 @@
 - [Tõepärasus](../../../Subjects/Programming-Basics/Topics/Truthiness/README.md)
 - [Tsüklid](../../../Subjects/Programming-Basics/Topics/Cycles/README.md)
 - Harjutused
+
