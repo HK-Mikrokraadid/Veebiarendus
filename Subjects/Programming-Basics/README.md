@@ -58,6 +58,7 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 - [Guard Clause](./Topics/Guard-Clause/README.md)
 - [Try Catch](./Topics/Try-Catch/README.md)
 - [Semikoolonite kasutamine](./Topics/Semicolons/README.md)
+- [typeof](./Topics/Typeof/README.md)
 
 ## Loengud
 
