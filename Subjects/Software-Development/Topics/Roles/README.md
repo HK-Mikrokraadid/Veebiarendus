@@ -25,12 +25,12 @@ Siin on ülevaade mõningatest tarkvaraarenduse võtmerollidest:
 - **Vastutusalad:** Koodi kirjutamine, vigade otsimine, funktsionaalsuse rakendamine disainispetsifikatsioonide põhjal.
 - **Oskused:** Valdamine programmeerimiskeeltes, probleemide lahendamine, algoritmide ja andmestruktuuride mõistmine.
 
-## Lahendusarhitekt
+## Arhitekt
 
 - **Vastutusalad:** Määratleb tarkvara üldistruktuuri ja tagab arhitektuurilise terviklikkuse.
 - **Oskused:** Sügav mõistmine tehnoloogiast, arhitektuurilistest mustritest ja disainipõhimõtetest.
 
-## QA Insener/Testi Insener
+## QA Insener/Testija
 
 - **Vastutusalad:** Tagab tarkvara kvaliteedi testimise kaudu. Tuvastab vigu ja probleeme.
 - **Oskused:** Testide automatiseerimine, manuaalsete testimismeetodite mõistmine, tarkvara elutsükli mõistmine.
@@ -52,12 +52,12 @@ Siin on ülevaade mõningatest tarkvaraarenduse võtmerollidest:
 
 ## UI/UX Disainer
 
-- **Vastutusalad:** Disainib kasutajaliidese ja kasutajakogemuse. Tagab, et tarkvara on intuitiivne ja visuaalselt meeldiv.
+- **Vastutusalad:** Kasutajaliidese ja kasutajakogemuse disain. Tagab, et tarkvara on intuitiivne ja visuaalselt meeldiv.
 - **Oskused:** Graafiline disain, kasutajakogemuse uurimine, prototüüpimisvahendid.
 
 ## Süsteemiadministraator/DevOps Insener
 
-- **Vastutusalad:** Haldab infrastruktuuri, paigaldust, pidevat integratsiooni ja pidevat tarnimist.
+- **Vastutusalad:** Haldab infrastruktuuri, paigaldust, pidevat integratsiooni ja pidevat tarnimist (CI/CD).
 - **Oskused:** Pilveplatvormide mõistmine, infrastruktuur kui kood, CI/CD vahendid.
 
 ## Andmebaasi Administraator
@@ -68,13 +68,11 @@ Siin on ülevaade mõningatest tarkvaraarenduse võtmerollidest:
 ## Tehniline Kirjutaja
 
 - **Vastutusalad:** Loob dokumentatsiooni, mis selgitab, kuidas tarkvara toimib.
-- **Oskused:** Kirjutamine, t
+- **Oskused:** Kirjutamine, tarkvara ja tehnoloogia mõistmine, võime selgitada keerulisi teemasid lihtsate terminitega.
 
-arkvara ja tehnoloogia mõistmine, võime selgitada keerulisi teemasid lihtsate terminitega.
+## Scrum Master (Agile meeskondades)
 
-## Scrum Meister (Agile meeskondades)
-
-- **Vastutusalad:** Hõlbustab Agile tseremooniaid, kõrvaldab takistused, juhendab meeskonda Scrum praktikas.
+- **Vastutusalad:** Hõlbustab Agile töövoogu, kõrvaldab takistused, juhendab meeskonda Scrum praktikas.
 - **Oskused:** Agile meetodite mõistmine, meeskonna hõlbustamine, konfliktide lahendamine.
 
 ## Turvaanalüütik/Insener
@@ -88,3 +86,5 @@ arkvara ja tehnoloogia mõistmine, võime selgitada keerulisi teemasid lihtsate 
 - **Oskused:** Masinõpe, statistika, andmetöötluskeelte/-vahendite valdamine.
 
 Need rollid võivad sageli kattuda, eriti väiksemates meeskondades või startupides. Suuremates organisatsioonides võib olla rohkem spetsialiseerumist ja täiendavaid rolle võib tekkida projekti keerukuse ja ulatuse põhjal.
+
+Kokkuvõttes võib tõdeda, et tarkvaraarenduses on palju erinevaid rolle ja mitte kõik ei ole seotud koodi kirjutamisega. Iga roll on oluline tarkvaraarenduse protsessi jaoks ning nende vaheline koostöö on võtmetähtsusega projekti edukuse tagamiseks.
