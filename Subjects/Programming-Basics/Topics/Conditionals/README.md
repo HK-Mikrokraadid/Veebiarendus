@@ -249,7 +249,7 @@ See näide on ekvivalentne eelmisele näitele `if-else-if` lausega, kuid see sis
 
 Javascriptis tõlgendatakse kõiki väärtusi tõeseks või vääraks. Selline tõlgendamine võib meille olla vahel kasulik, kuna näiteks selleks, et kontrollida, kas muutuja on määratud, saame lihtsalt kontrollida, kas muutuja on tõene (muutujal on väärtus) või väär (muutujal ei ole väärtust, või on sellel väärtus, mida tõlgendatakse vääraks).
 
-Järgmised väärtused peetakse vääraseks:
+Järgmised väärtused peetakse vääraks:
 
 - `false`
 - `0`
