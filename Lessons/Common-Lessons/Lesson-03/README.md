@@ -22,5 +22,5 @@
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [Algoritmid](../../../Subjects/Programming-Basics/Topics/Algorithms/README.md)
 - [Tõepärasus](../../../Subjects/Programming-Basics/Topics/Truthiness/README.md)
-- [Tsüklid](../../../Subjects/Programming-Basics/Topics/Cycles/README.md)
+- [Tsüklid](../../../Subjects/Programming-Basics/Topics/Loops/README.md)
 - Harjutused
