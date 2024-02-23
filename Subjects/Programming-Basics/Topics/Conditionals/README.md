@@ -298,7 +298,7 @@ Testi oma koodi erinevate väärtustega.
 
 **Eesmärk**: Kontrolli, kas number on positiivne.
 
-**Kirjeldus**: Kirjuta JavaScripti programm, milles deklareeritakse muutuja ja omistatakse sellele numbriline väärtus. Kasuta `if`-lauset, et prindida "Number on positiivne", kui number on suurem kui null. Testi oma koodi ka negatiivse väärtuse ja nulliga.
+**Kirjeldus**: Kirjuta JavaScripti programm, milles deklareeritakse muutuja ja omistatakse sellele numbriline väärtus. Kasuta `if`-lauset, et väljastada "Number on positiivne", kui number on suurem kui null. Testi oma koodi ka negatiivse väärtuse ja nulliga.
 
 <details>
   <summary>Lahendus</summary>
