@@ -134,7 +134,7 @@ Näiteks:
 ```js
 weather = 'päikeseline';
 
-if (ilm === 'päikeseline') {
+if (weather === 'päikeseline') {
   console.log('Lähen randa!');
 } else {
   console.log('Lähen kinno!');
