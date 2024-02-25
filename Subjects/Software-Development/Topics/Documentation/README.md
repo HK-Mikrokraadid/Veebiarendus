@@ -11,6 +11,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Dokumentatsiooni tähtsus](#dokumentatsiooni-tähtsus)
   - [Dokumentatsiooni tüübid](#dokumentatsiooni-tüübid)
   - [Dokumentatsiooni koostamise tööriistad](#dokumentatsiooni-koostamise-tööriistad)
+  - [Tarkvaraarenduse dokumentatsiooni loomine](#tarkvaraarenduse-dokumentatsiooni-loomine)
   - [Harjutused](#harjutused)
 
 Tarkvaraarenduses viitab dokumentatsioon kirjalikele materjalidele, mis kirjeldavad tarkvaralahenduse funktsioone, arhitektuuri, disaini või kasutamist. See hõlmab kõiki andmeid, mida on vaja tarkvara mõistmiseks, sellega suhtlemiseks ja selle hooldamiseks.
@@ -39,10 +40,7 @@ Pärast selle teema läbimist oskate:
 - **Tehniline dokumentatsioon:** On mõeldud arendajatele ja sisaldab koodikommentaare, API dokumentatsiooni ja arhitektuurikavandeid.
 - **Kasutajadokumentatsioon:** On suunatud lõppkasutajatele ja juhendab neid tarkvara funktsioonide ja võimalustega. Näiteks kasutusjuhendid, abi juhendid ja KKK-d.
 - **Arhitektuuri- ja disainidokumentatsioon:** Annab tarkvarast kõrgetasemelise vaate, selle komponentidest ja nende vastastikusest mõjust.
-- **Testimisdokumentatsioon:** Sisald
-
-ab testiplaane, testijuhtumeid ja muid dokumente, mis juhendavad ja salvestavad testimispüüdlusi.
-
+- **Testimisdokumentatsioon:** Sisaldab testiplaane, testijuhtumeid ja muid dokumente, mis juhendavad ja salvestavad testimispüüdlusi.
 - **Hooldus- ja abijuhendid:** Aitavad diagnoosida, tõrkeotsingut teha ja lahendada probleeme.
 - **Protsessi dokumentatsioon:** Täpsustab arenduse käigus järgitavaid protsesse ja standardeid.
 - **Toote dokumentatsioon:** Spetsifikatsioonid, tingimused ja muud tarkvaratoote üksikasjad.
@@ -59,7 +57,27 @@ ab testiplaane, testijuhtumeid ja muid dokumente, mis juhendavad ja salvestavad 
 - **Tehnilise kirjutamise platvormid:** Tööriistad nagu **MadCap Flare** või **Adobe FrameMaker** on kohandatud tehnilise dokumentatsiooni jaoks.
 - **Märkmete tegemise rakendused:** **Notion**, **OneNote** ja **Evernote** võib kasutada kerge dokumentatsiooni ja märkmete tegemiseks.
 
-Kokkuvõttes on dokumentatsioon tarkvaraarenduse oluline aspekt, mis tagab selguse, järjepidevuse ja sujuva toimimise tarkvara elutsükli erinevatel etappidel. Nõuetekohane dokumentatsioon vähendab uute meeskonnaliikmete õppekurvi, aitab tõrkeotsingul ja parandab üldist tarkvara kvaliteeti ning kasutajakogemust.
+## Tarkvaraarenduse dokumentatsiooni loomine
+
+Tarkvaraarenduse dokumentatsiooni koostamine võib olla keeruline protsess, kuna olenevalt projekti vajadustest võib olla vaja koostada palju erinevat tüüpi dokumentatsiooni. Siin on aga mõned üldised sammud, mida saab tõhusa tarkvaraarenduse dokumentatsiooni loomiseks järgida:
+
+- **Tehke kindlaks dokumentatsiooni eesmärk ja ulatus.** Enne dokumentatsiooni loomise alustamist on oluline kindlaks teha, millist tüüpi dokumentatsiooni on vaja, kes on sihtrühm ja millised on dokumentatsiooni eesmärgid.
+- **Dokumentatsiooni kavandamine:** see samm hõlmab dokumentatsiooni struktuuri, vormingu ja sisu määratlemist. Peaksite kaaluma dokumentatsiooni (nt tekst, diagrammid või videod) parimat vormingut ja otsustama, milline sisu tuleb kaasata.
+- **Kirjutage dokumentatsioon:** kui planeerimine on lõpetatud, võite alustada dokumentatsiooni kirjutamist. Kasutage selget ja ülevaatlikku keelt ning veenduge, et dokumentatsioon oleks kergesti loetav ja arusaadav. Peaksite lisama ka kõik asjakohased diagrammid, pildid ja viited, mis aitavad sisu selgitada.
+- **Dokumentatsiooni testimine ja ülevaatamine:** oluline on dokumentatsiooni testida, et olla kindel, et see on täpne ja hõlpsasti jälgitav. See võib hõlmata seda, et teised arendajad, sidusrühmad või lõppkasutajad vaatavad tagasiside andmiseks dokumentatsiooni üle.
+- **Dokumentatsiooni värskendamine ja hooldamine:** Tarkvaraarendus on pidev protsess, mistõttu on oluline dokumentatsiooni projekti edenedes uuendada ja säilitada. See võib hõlmata uue teabe lisamist, olemasoleva teabe värskendamist ja aegunud teabe eemaldamist.
+
+Mõned näpunäited tõhusa tarkvaraarenduse dokumentatsiooni koostamiseks on järgmised:
+
+- Kasutage kogu dokumentatsioonis ühtset vormingut ja stiili
+- Keeruliste mõistete selgitamiseks kasutage diagramme ja pilte
+- Hoidke dokumentatsioon ajakohasena
+- Kasutage selget ja kokkuvõtlikku keelt
+- Kaaluge sihtrühma vajadusi ja vaatenurki
+
+Üldiselt nõuab tõhusa tarkvaraarenduse dokumentatsiooni loomine hoolikat planeerimist, kirjutamist, testimist ja hooldust. Järgides neid samme ja parimaid tavasid, saate luua dokumentatsiooni, mis aitab tagada teie tarkvaraprojekti edu.
+
+Kokkuvõttes on dokumentatsioon tarkvaraarenduse oluline aspekt, mis tagab selguse, järjepidevuse ja sujuva toimimise tarkvara elutsükli erinevatel etappidel. Nõuetekohane dokumentatsioon vähendab uute meeskonnaliikmete õpikõverat, aitab tõrkeotsingul ja parandab üldist tarkvara kvaliteeti ning kasutajakogemust.
 
 ## Harjutused
 

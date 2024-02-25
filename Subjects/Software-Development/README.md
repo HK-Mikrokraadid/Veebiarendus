@@ -52,6 +52,12 @@ Selle aine läbinud õpilane:
 - [Prototüüpimine](./Topics/Prototyping/README.md)
 - [Testimine](./Topics/Testing/README.md)
 
+---
+
+- [Koodi kvaliteet](./Topics/Code-Quality/README.md)
+- [ESLint](./Topics/ESLint/README.md)
+- [Käsurida](./Topics/Command-Line/README.md)
+
 ## Loengud (esialgne plaan, mis võib muutuda kursuse jooksul)
 
 ### Loeng 1: Sissejuhatus tarkvaraarendusse ja tööriistadesse
@@ -83,10 +89,9 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Forkimine
 - [Tarkvaraarenduse elutsükkel](./Topics/SDLC/README.md)
-- [Rollid tarkvaraarenduses]
-- Tarkvaraarenduse meetodid
+- [Tarkvaraarenduse meetodid](./Topics/Development-Models/README.md)
+- [Rollid tarkvaraarenduses](./Topics/Roles/README.md)
 
 ### Loeng 4 (Zoom): Dokumentatsioon
 
@@ -94,7 +99,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Dokumentatsioon
+- [Dokumentatsioon](./Topics/Documentation/README.md)
 
 ### Loeng 5: Kasutajauuringud
 
@@ -106,10 +111,7 @@ Maht: 4h
 - Nõuded
 - Kasutajalood
 - Personad
-- Kasutajateekonnad
-- Kasutajavood
-- Kasutajatestimine
-- Koodi ülevaatus
+- Kasutaja teekonnad
 
 ### Loeng 6 (Zoom)
 

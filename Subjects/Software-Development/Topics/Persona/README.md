@@ -9,7 +9,7 @@ Pildi allikas: Dall-E by OpenAI
 - Näidis-kasutaja, tüüpilise lõppkasutaja arhetüüp, kes esindab konkreetset kasutajagruppi;
 - Luuakse kliendi paremaks mõistmiseks – mis teda motiveerib, mis ärritab, mida ta vajab?
 - Ei asenda kasutajauuringuid, vaid tugineb nendel!
-- Aitab disaini loomisel silmas pidada lõppkasutaja vajadusi, nt eristada olulisi funktsionaalsusi ebaolulistest. 
+- Aitab disaini loomisel silmas pidada lõppkasutaja vajadusi, nt eristada olulisi funktsionaalsusi ebaolulistest.
 
 Tarkvaraarenduse ja kasutajakogemuse kujundamise kontekstis on **persoona** väljamõeldud tegelane, kes esindab teatud tüüpi kasutajat. **Persoona** luuakse uurimistöö ja andmete põhjal reaalsete kasutajate kohta ning neid kasutatakse abistamaks disaineritel ja arendajatel oma kasutajate mõistmiseks ja nende vajadustest, eesmärkidest ja käitumisest aru saamiseks.
 
@@ -18,6 +18,7 @@ Tarkvaraarenduse ja kasutajakogemuse kujundamise kontekstis on **persoona** väl
 **Persoonasid** kasutatakse empaatia tekitamiseks ning disainerite ja arendajate abistamiseks, mis põhinevad kasutaja vajadustel ja eelistustel. Mõistes eri tüüpi kasutajate vajadusi ja käitumist, saavad disainerid luua liideseid ja kogemusi, mis on kohandatud nende sihtrühmale, mille tulemuseks on tarkvara, mis on kaasahaaravam, kasutatavam ja tõhusam.
 
 Persoona loomiseks kogub meeskond tavaliselt teavet selliste uurimismeetodite abil nagu:
+
 - küsitlused;
 - intervjuud;
 - reaalsete kasutajate vaatlus.
@@ -44,18 +45,18 @@ Kui persoonad on loodud, saab neid kogu kavandamise ja arendamise protsessi väl
   - Kirjelda tunnuseid, mis on sinu toote / teenuse seisukohast olulised (nt iseseisev vs tuge vajav;  järjepidev vs püsimatu jne)
 - Eesmärgid, sihid
   - Ainult antud teenuse / tootega seotud motivatsioon!
-  - Mida soovib saavutada? Mis on selle juures oluline? 
+  - Mida soovib saavutada? Mis on selle juures oluline?
   - Mis võiks teenuse / toote juurde suunata? Mida soovib?
 - Valukohad, mure
-- Ainult antud teenuse / tootega seotud probleemid! 
+- Ainult antud teenuse / tootega seotud probleemid!
 - Mis takistab eesmärkideni jõudmisel? Millised on mured ja hirmud?
 - Kuidas takistusi ületab?
 
 ## Persoonade jaotumine
 
-- **Proto-persoona**: ei tugine uutel uuringutel. Eesmärk on kiiresti luua visand või ülevaade olemasolevatest eeldustest! 
+- **Proto-persoona**: ei tugine uutel uuringutel. Eesmärk on kiiresti luua visand või ülevaade olemasolevatest eeldustest!
 - **Kvalitatiivne persoona**: tugineb väikesemahulistel uuringutel (nt intervjuu, vaatlus). Eesmärk on klientide süvitsi mõistmine!
-- **Kvantitatiivne persoona**: tugineb laiaulatuslikel uuringutel (nt statistika, küsitlused). Eesmärk on andmete isikustamine! 
+- **Kvantitatiivne persoona**: tugineb laiaulatuslikel uuringutel (nt statistika, küsitlused). Eesmärk on andmete isikustamine!
 
 ## Näited persoonadest
 
@@ -71,3 +72,5 @@ Autor: Xtensio
 ## Persoona koostamise mall
 
 [Persoona mall](files/Persoona.pdf)
+
+## Harjutus

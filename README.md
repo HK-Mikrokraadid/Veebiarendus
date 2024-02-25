@@ -1,6 +1,6 @@
-![logo](https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Logo/HaapsaluK_est.png)
-
 # Veebiarenduse mikrokraadid
+
+![logo](https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Logo/HaapsaluK_est.png)
 
 See repositoorium sisaldab järgmiseid Veebiarenduse mikrokraade:
 

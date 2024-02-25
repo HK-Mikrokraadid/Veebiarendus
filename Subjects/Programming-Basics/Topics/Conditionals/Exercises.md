@@ -4,7 +4,12 @@ Kui õppematerjalides olevad ülesanded on lahendatud, kuid sooovid veel harjuta
 
 ## Ülesanne 1: Aastaaegade Kontrollija
 
-Deklareeri muutuja `numberOfMonth` ja määra sellele väärtuseks kuu number (1 jaanuarist kuni 12 detsembrini). Kirjuta seejärel tingimuslaused, mis kontrollivad kuu numbrit ja trükivad konsooli, milline aastaaeg antud kuule vastab. Kasuta järgmist jaotust: Talv - detsember (12), jaanuar (1), veebruar (2); Kevad - märts (3), aprill (4), mai (5); Suvi - juuni (6), juuli (7), august (8); Sügis - september (9), oktoober (10), november (11).
+Deklareeri muutuja `numberOfMonth` ja määra sellele väärtuseks kuu number (1 jaanuarist kuni 12 detsembrini). Kirjuta seejärel tingimuslaused, mis kontrollivad kuu numbrit ja trükivad konsooli, milline aastaaeg antud kuule vastab. Kasuta järgmist jaotust:
+
+- Talv - detsember (12), jaanuar (1), veebruar (2);
+- Kevad - märts (3), aprill (4), mai (5);
+- Suvi - juuni (6), juuli (7), august (8);
+- Sügis - september (9), oktoober (10), november (11).
 
 ```javascript
 let numberOfMonth = 3; // Muuda seda numbrit vastavalt testitavale kuule
@@ -13,7 +18,12 @@ let numberOfMonth = 3; // Muuda seda numbrit vastavalt testitavale kuule
 
 ### Ülesanne 2: Kasutaja Vanusegrupi Tuvastamine
 
-Deklareeri muutuja `age` ja määra sellele kasutaja vanus. Kirjuta programm, mis tuvastab, millisesse vanusegruppi kasutaja kuulub, ja trükib selle konsooli. Vanusegrupid on järgmised: Laps - alla 13; Teismeline - 13 kuni 19; Täiskasvanu - 20 kuni 65; Seenior - üle 65.
+Deklareeri muutuja `age` ja määra sellele kasutaja vanus. Kirjuta programm, mis tuvastab, millisesse vanusegruppi kasutaja kuulub, ja trükib selle konsooli. Vanusegrupid on järgmised:
+
+- Laps - alla 13;
+- Teismeline - 13 kuni 19;
+- Täiskasvanu - 20 kuni 65;
+- Seenior - üle 65.
 
 ```javascript
 let age = 25; // Muuda seda väärtust vastavalt testitavale vanusele
@@ -22,7 +32,7 @@ let age = 25; // Muuda seda väärtust vastavalt testitavale vanusele
 
 ### Ülesanne 3: Hinnanguline Sõiduaeg
 
-Deklareeri muutujad `distance` (distants kilomeetrites) ja `traffic` (liiklusolukord, millel on järgmised võimalikud väärtused: "normaalne", "ummik", "väga tihe"). Kirjuta programm, mis arvutab hinnangulise sõiduaja, lähtudes distantsist ja liiklusolukorrast, ning trükib selle aja tundides konsooli.
+Deklareeri muutujad `distance` (distants kilomeetrites) ja `traffic` (liiklusolukord, millel on järgmised võimalikud väärtused: "**normaalne**", "**ummik**", "**väga tihe**"). Kirjuta programm, mis arvutab hinnangulise sõiduaja, lähtudes distantsist ja liiklusolukorrast, ning trükib selle aja tundides konsooli.
 
 ```javascript
 let distance = 120; // Muuda seda numbrit vastavalt testitavale distantsile
