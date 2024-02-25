@@ -40,7 +40,7 @@ Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti raames.
 ### Back-End arenduse kohtumised
 
 - 29.04.2024 kell 10:00 - 17:30
-- 06.05.2024 kell 10:00 - 31:15
+- 06.05.2024 kell 10:00 - 13:15
 - 13.05.2024 kell 10:00 - 17:30
 - 20.05.2024 kell 10:00 - 13:15
 - 27.05.2024 kell 10:00 - 17:30
