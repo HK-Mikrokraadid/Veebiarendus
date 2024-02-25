@@ -124,9 +124,7 @@ või
 ```markdown
 - Ese 1
 - Ese 2
-  - Al
-
-amese 2.1
+  - Alamese 2.1
   - Alamese 2.2
 ```
 
