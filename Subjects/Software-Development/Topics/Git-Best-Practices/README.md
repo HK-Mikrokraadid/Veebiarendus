@@ -46,8 +46,8 @@ Siin on ülevaade parimatest praktikatest nii Git'i kui ka GitHub'i jaoks:
    - Nimed peaksid andma vihje projekti eesmärgi või sisu kohta.
 2. **Lisa `README.md`:**
    - Alati lisa oma hoidlatesse `README.md` fail. See peaks selgitama projekti, kuidas seda seadistada, kuidas paigaldada projekti sõltuvusi, kuidas projketis saab kaasa aidata ja muud asjakohast teavet. Pane tähele, et `README.md` nimi on kirjutatud suurte tähtedega.
-3. **Kasuta probleemide ja pull requestide malle:**
-   - Mallid juhendavad kaastöötajaid esitama vajaliku teabe, kui luuakse probleeme või PR-e.
+3. **Kasuta `Issue`-de ja Pull Requestide malle:**
+   - Mallid juhendavad kaastöötajaid esitama vajaliku teabe, kui luuakse `Issue`-id või `Pull Request`-e.
 4. **Kaitse oma peaharu:**
    - Kasuta haru kaitse reegleid, et tagada, et `main` või `master` harule ei saaks otse tõugata ja nõua enne ühendamist `pull requestide` ülevaatamist (*review*).
 5. **Kasuta silte:**

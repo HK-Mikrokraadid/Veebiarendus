@@ -189,7 +189,7 @@ Kuigi graafilised kliendid võivad olla uskumatult kasulikud, eriti neile, kes e
 
 ### Mõned populaarsed graafilised kliendid Git'ile
 
-- [**GitHub Desktop**](https://desktop.github.com/): GitHubi ametlik GUI. See on avatud lähtekoodiga ja platvormideülene (saadaval macOS-ile ja Windowsile).
+- [**GitHub Desktop**](https://desktop.github.com/): GitHubi ametlik graafilise kasutajaliidesega (_GUI_ - Graphical User Interface) tööriist. See on avatud lähtekoodiga ja platvormideülene (saadaval macOS-ile ja Windowsile).
 - [**Sourcetree**](https://www.sourcetreeapp.com/): Arendatud  Atlassiani poolt. Tasuta tööriist, mis on saadaval macOS-ile ja Windowsile. Pakub visuaalset suhtlust hoidlatega ja toetab lisaks Git-ile ka Mercurialit.
 - [**GitKraken**](https://www.gitkraken.com/): Platvormideülene tööriist (saadaval Windowsile, macOS-ile ja Linuxile), mis pakub erksat ja interaktiivset kasutajaliidest. See on tuntud graafi visualiseerimise poolest ja see integreerub GitHubi, GitLabi, Bitbucketi ja muude teenusepakkujatega.
 

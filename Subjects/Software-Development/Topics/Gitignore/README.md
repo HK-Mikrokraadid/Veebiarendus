@@ -72,7 +72,7 @@ node_modules/
 - **`node_modules/`:** See on Node.js projektide jaoks oluline kaust, mida ei ole vaja versioonihaldusesse kaasata. Kui paigaldada kolmanda osapoole pakette `npm`-i või `yarni` kaudu, salvestatakse need paketid sellesse kausta. See kaust tuleks välja jätta, sest:
 
 - see võib olla suur, muutes kloonimise ja tõmbamise aeglaseks;
-- sõltuvused saab installida keskkonnapõhiselt. See tagab, et kui teine arendaja või CI/CD kloonib repositooriumi, paigaldatakse täpselt need versioonid, mis on määratud vastavalt `package-lock.json` või `yarn.lock` failides.
+- sõltuvused saab installida keskkonnapõhiselt. See tagab, et kui teine arendaja või CI/CD (*Continuous Integration/Continuous Delivery*, Pidev Integreerimine/Pidev Tarnimine ) kloonib repositooriumi, paigaldatakse täpselt need versioonid, mis on määratud vastavalt `package-lock.json` või `yarn.lock` failides.
 - **IDE seaded:** Kaustad nagu `.idea/` (JetBrainsi IDE-dele) ja `.vscode/` (Visual Studio Code'ile) sisaldavad kasutajaspetsiifilisi koodieditori seadeid. Neid tuleks ignoreerida, et vältida teise arendaja seadistuse ülekirjutamist.
 - **Keskkonnamuutujad:** Failid nagu `.env` sisaldavad sageli tundlikke või keskkonnapõhiseid väärtusi. Neid tuleks ignoreerida, et vältida tundliku informatsiooni lekkimist ja võimaldada erinevatel arendajatel või keskkondadel säilitada oma spetsiifilisi konfiguratsioone.
 - **Maci-spetsiifilised:** `.DS_Store` on Mac OS-i poolt genereeritud süsteemifail, mis ei ole rakenduse koodi jaoks vajalik.

@@ -12,7 +12,7 @@ Deklareeri muutuja `numberOfMonth` ja määra sellele väärtuseks kuu number (1
 - Sügis - september (9), oktoober (10), november (11).
 
 ```javascript
-let noumberOfMonth = 3; // Muuda seda numbrit vastavalt testitavale kuule
+let numberOfMonth = 3; // Muuda seda numbrit vastavalt testitavale kuule
 // Siia lisada loogika aastaaegade kontrollimiseks ja tulemuse väljastamiseks
 ```
 

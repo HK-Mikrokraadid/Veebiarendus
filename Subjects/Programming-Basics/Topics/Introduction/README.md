@@ -16,7 +16,7 @@ Pildi allikas: Dall-E by OpenAI
 
 ## Mis on selle aine eesmärk?
 
-Selle aine eesmärk on tutvuda programmeerimise maailmaga. Õpime programmeerimise aluseid, kuidas planeerida ja kirjutada koodi kasutades Javascripti.
+Selle aine eesmärk on tutvuda programmeerimise maailmaga. Õpime programmeerimise aluseid, kuidas planeerida ja kirjutada koodi kasutades JavaScripti.
 
 See aine on `Front-End` ja `Back-End` arenduse aluseks. See aitab mõista programmeerimise aluseid ja kontseptsioone. See aine on mõeldud neile, kes soovivad õppida programmeerimist ja tarkvaraarendust, kuid ei ole varem programmeerimisega kokku puutunud.
 
@@ -29,6 +29,7 @@ Programmeerimine on loov protsess, mis hõlmab **algoritmide** kavandamist ja **
 ## Mida me selles aines õpime?
 
 Selles aines õpime tundma:
+
 - muutujaid;
 - andmetüüpe;
 - juhtstruktuure;
@@ -48,6 +49,7 @@ Programmeerimiseks on palju erinevaid programmeerimiskeeli ja igaühel neist on 
 Nagu iga töö vajab tööriistu, vajab ka programmeerimine tööriistu. Kasutame erinevaid tööriistu ja rakendusi oma koodi kirjutamiseks, käitamiseks, haldamiseks ja salvestamiseks.
 
 Meie peamised tööriistad on:
+
 - Koodiredaktor
 - Node.js
 - Brauser
