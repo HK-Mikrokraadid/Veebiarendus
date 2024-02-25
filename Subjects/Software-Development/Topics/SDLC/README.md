@@ -1,6 +1,6 @@
 # Tarkvaraarenduse elutsükkel (SDLC)
 
-Selles teemas uurime tarkvaraarenduse elutsükli (SDLC) kontseptsiooni, õpime tundma selle erinevaid faase ja käsitleme SDLC tähtsust tarkvaraarenduses.
+Selles teemas uurime tarkvaraarenduse elutsükli (SDLC - *Software Development Life Cycle*) kontseptsiooni, õpime tundma selle erinevaid faase ja käsitleme SDLC tähtsust tarkvaraarenduses.
 
 ![SDLC](SDLC.webp)
 
@@ -108,7 +108,7 @@ See etapp on tavaliselt kõigi etappide alamhulk, nagu tänapäevaste SDLC mudel
 
 ### Juurutamine
 
-Kui toode on testitud ja kasutuselevõtuks valmis, lastakse see ametlikult vastavale turuel. Mõnikord toimub toote juurutamine selle organisatsiooni äristrateegia kohaselt etapiviisiliselt. Toode võidakse esmalt välja anda piiratud segmendis ja testida reaalses ärikeskkonnas (UAT – kasutaja aktsepteerimise testimine).
+Kui toode on testitud ja kasutuselevõtuks valmis, lastakse see ametlikult vastavale turule. Mõnikord toimub toote juurutamine selle organisatsiooni äristrateegia kohaselt etapiviisiliselt. Toode võidakse esmalt välja anda piiratud segmendis ja testida reaalses ärikeskkonnas (UAT – kasutaja aktsepteerimise testimine).
 
 Seejärel võidakse toode tagasiside põhjal välja anda sellisel kujul või koos soovitatud täiustustega sihtturusegmendis.
 
