@@ -1,4 +1,5 @@
 ![logo](https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Logo/HaapsaluK_est.png)
+
 # Veebiarenduse mikrokraadid
 
 See repositoorium sisaldab järgmiseid Veebiarenduse mikrokraade:
@@ -39,7 +40,7 @@ Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti raames.
 ### Back-End arenduse kohtumised
 
 - 29.04.2024 kell 10:00 - 17:30
-- 06.05.2024 kell 10:00 - 31:15
+- 06.05.2024 kell 10:00 - 13:15
 - 13.05.2024 kell 10:00 - 17:30
 - 20.05.2024 kell 10:00 - 13:15
 - 27.05.2024 kell 10:00 - 17:30
