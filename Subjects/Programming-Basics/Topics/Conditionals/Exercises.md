@@ -7,7 +7,7 @@ Kui õppematerjalides olevad ülesanded on lahendatud, kuid sooovid veel harjuta
 Deklareeri muutuja `numberOfMonth` ja määra sellele väärtuseks kuu number (1 jaanuarist kuni 12 detsembrini). Kirjuta seejärel tingimuslaused, mis kontrollivad kuu numbrit ja trükivad konsooli, milline aastaaeg antud kuule vastab. Kasuta järgmist jaotust: Talv - detsember (12), jaanuar (1), veebruar (2); Kevad - märts (3), aprill (4), mai (5); Suvi - juuni (6), juuli (7), august (8); Sügis - september (9), oktoober (10), november (11).
 
 ```javascript
-let noumberOfMonth = 3; // Muuda seda numbrit vastavalt testitavale kuule
+let numberOfMonth = 3; // Muuda seda numbrit vastavalt testitavale kuule
 // Siia lisada loogika aastaaegade kontrollimiseks ja tulemuse väljastamiseks
 ```
 
