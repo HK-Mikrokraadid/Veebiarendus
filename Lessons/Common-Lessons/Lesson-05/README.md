@@ -9,6 +9,11 @@
 
 ### Tarkvaraarendus
 
+- Kasutajauuringud
+- Nõuded
+- Kasutajalood
+- Personad
+- Kasutaja teekonnad
 
 ### Programmeerimine
 

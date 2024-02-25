@@ -90,8 +90,8 @@ Maht: 4h
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [Tarkvaraarenduse elutsükkel](./Topics/SDLC/README.md)
-- [Rollid tarkvaraarenduses](./Topics/Roles/README.md)
 - [Tarkvaraarenduse meetodid](./Topics/Development-Models/README.md)
+- [Rollid tarkvaraarenduses](./Topics/Roles/README.md)
 
 ### Loeng 4 (Zoom): Dokumentatsioon
 
@@ -99,7 +99,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Dokumentatsioon
+- [Dokumentatsioon](./Topics/Documentation/README.md)
 
 ### Loeng 5: Kasutajauuringud
 
@@ -111,10 +111,7 @@ Maht: 4h
 - Nõuded
 - Kasutajalood
 - Personad
-- Kasutajateekonnad
-- Kasutajavood
-- Kasutajatestimine
-- Koodi ülevaatus
+- Kasutaja teekonnad
 
 ### Loeng 6 (Zoom)
 
