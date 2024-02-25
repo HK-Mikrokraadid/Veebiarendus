@@ -4,6 +4,7 @@
 - [Neljanda loengu slaidid](Slides.md)
 - [Neljanda loengu salvestus]()
 - [Viies loeng](../Lesson-05/README.md)
+- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
 
 ## Teemad
 
