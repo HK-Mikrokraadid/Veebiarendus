@@ -14,6 +14,7 @@ Martti Raavel
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemid
+- Koodi kvaliteet
 - Koodi ülevaatus (Code review)
 - Tarkvaraarenduse elutsükkel
 - Tarkvaraarenduse meetodid
@@ -28,20 +29,54 @@ Martti Raavel
 ## Kodutööde ajal tekkinud probleemid
 
 - `Issue`-le `Assignee` määramine
-- Koduste tööda organiseerimine
+- Koduste tööde organiseerimine
   - Eraldi kaustadesse teemade kaupa
+
+---
+
+## Koodi kvaliteet - Arutelu
+
+Mida tähendab üldse koodi kvaliteet, mida see sisaldab ja kuidas seda tagada?
+
+---
+
+## Koodi kvaliteet - Mis?
+
+Koodi kvaliteet viitab koodibaasi üldisele kvaliteedile ja hooldatavusele. See hõlmab koodi erinevaid aspekte, sealhulgas selle loetavust, järjepidevust, lihtsust, hooldatavust ja usaldusväärsust. Kvaliteetset koodibaasi on aja jooksul lihtsam mõista, muuta ja hooldada, mis võib säästa arendusmeeskondade aega ja ressursse.
+
+---
+
+## Koodi kvaliteet - Mida sisaldab?
+
+- Loetavus
+- Järjepidevus
+- Lihtsus
+- Hooldatavus
+- Töökindlus
+
+---
+
+## Koodi kvaliteet - Kuidas tagada?
+
+- Järjepidev koodi vormindamine
+- Kommentaarid ja dokumentatsioon
+- Ühiktestimine
+- Koodi ülevaatused
+- Vigade käsitlemine
 
 ---
 
 ## Koodi ülevaatus 1 (Code review)
 
-Koodi ülevaatus on protsess, mille käigus üks või mitu arendajat vaatavad üle teise arendaja kirjutatud koodi. Koodiülevaatuse eesmärk on tuvastada võimalikud probleemid, parandada koodi kvaliteeti ja tagada koodi vastavus projekti nõuetele.
+Koodi ülevaatus on protsess, mille käigus üks või mitu arendajat vaatavad üle teise arendaja kirjutatud koodi.
+
+Koodi ülevaatuse eesmärk on tuvastada võimalikud probleemid, parandada koodi kvaliteeti ja tagada koodi vastavus projekti nõuetele.
 
 ---
 
 ## Koodi ülevaatus - Mis?
 
-Koodi ülevaatus hõlmab tavaliselt koodi ridade kaupa läbilugemist, selliste probleemide otsimist nagu:
+Koodi ülevaatus hõlmab tavaliselt koodi ridade kaupa läbilugemist ja selliste probleemide otsimist nagu:
 
 - vead;
 - turvanõrkused;
@@ -72,7 +107,7 @@ Koodi ülevaatus hõlmab tavaliselt koodi ridade kaupa läbilugemist, selliste p
 
 ---
 
-## Tarkvaraarenduse elutsükkel (SDLC)
+## Tarkvaraarenduse elutsükkel (SDLC - *Software Development Life Cycle*)
 
 Tarkvaraarenduse elutsükkel (SDLC) on süsteemne protsess tarkvara planeerimiseks, loomiseks, testimiseks, juurutamiseks ja hooldamiseks. See määratleb etapid ja ülesanded, mis on seotud tarkvara tootmisega algusest kuni selle lõpetamiseni.
 
@@ -84,7 +119,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Sammud
+## Tarvaraarenduse elutsükkel - Sammud
 
 1. Planeerimine
 2. Nõuete määratlemine ja analüüs
@@ -97,7 +132,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Planeerimine
+## Tarvaraarenduse elutsükkel - Planeerimine
 
 - Projekti ulatuse määramine.
 - Potentsiaalsed riskide, piirangute ja ressurside tuvastamine.
@@ -106,7 +141,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Nõuete määratlemine ja analüüs
+## Tarvaraarenduse elutsükkel - Nõuete määratlemine ja analüüs
 
 - Nõuete ja vajaduste kogumine ja dokumenteerimine.
 - Spetsifikatsioonide kogumine sidusrühmadelt (*lõppkasutajad, kliendid jne.*).
@@ -115,7 +150,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Disain
+## Tarvaraarenduse elutsükkel - Disain
 
 - Nõuete *tõlkimine* süsteemi spetsifikatsioonideks.
 - Süsteemi arhitektuuri ja raamistiku disainimine.
@@ -124,7 +159,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Arendamine
+## Tarvaraarenduse elutsükkel - Arendamine
 
 - Koodi kirjutamine.
 - Disaini muutmine funktsionaalseks tarkvaraks.
@@ -132,7 +167,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Testimine
+## Tarvaraarenduse elutsükkel - Testimine
 
 - Tarkvara nõuetele vastavuse kontroll.
 - Vigade ja ebakõlade parandus ja kontroll.
@@ -141,7 +176,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Juurutamine
+## Tarvaraarenduse elutsükkel - Juurutamine
 
 - Tarkvara käivituskeskkonna ettevalmistus.
 - Tarkvara tootmiskeskkonda paigaldamine ja rakendamine.
@@ -150,7 +185,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Hooldus ja tugi
+## Tarvaraarenduse elutsükkel - Hooldus ja tugi
 
 - Pärast juurutamist tekkinud probleemide ja vigade lahendamine.
 - Uuenduste, paranduste või täiustuste loomine vastavalt kasutajate tagasisidele.
@@ -159,7 +194,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Tagasiside
+## Tarvaraarenduse elutsükkel - Tagasiside
 
 - Tagasiside kogumine sidusrühmadelt ja lõppkasutajatelt.
 - Tarkvara jõudluse analüüs ja täiustamiskohtade tuvastamine.
@@ -167,7 +202,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ---
 
-## Tarvaraarenduse elutsükkel Miks on oluline?
+## Tarvaraarenduse elutsükkel - Miks on oluline?
 
 ---
 
@@ -181,7 +216,7 @@ Tarkvaraarenduse mudelid on struktureeritud lähenemised tarkvaraarendusele, mis
 
 ---
 
-## Tarkvaraarenduse mudelid Kose mudel (Waterfall)
+## Tarkvaraarenduse mudelid - Kose mudel (Waterfall)
 
 - **Kirjeldus:** Lineaarne ja järjestikune lähenemine, kus iga faas tuleb lõpetada enne järgmise algust. See on varaseim SDLC lähenemine.
 - **Eelised:** Selge struktuur, lihtne mõistmine, hästi määratletud etapid.
@@ -189,7 +224,7 @@ Tarkvaraarenduse mudelid on struktureeritud lähenemised tarkvaraarendusele, mis
 
 ---
 
-## Tarkvaraarenduse mudelid Agiilne mudel (Agile)
+## Tarkvaraarenduse mudelid - Agiilne mudel (Agile)
 
 - **Kirjeldus:** Iteratiivne lähenemine tarkvara tarnimisele, mis ehitab tarkvara järk-järgult, keskendudes kliendi tagasisidele ja kiiretele iteratsioonidele.
 - **Eelised:** Paindlik, edendab iteratiivset tagasisidet, julgustab kliendi kaasamist.
@@ -197,7 +232,7 @@ Tarkvaraarenduse mudelid on struktureeritud lähenemised tarkvaraarendusele, mis
 
 ---
 
-## Tarkvaraarenduse mudelid Kanban
+## Tarkvaraarenduse mudelid - Kanban
 
 - **Kirjeldus:** Visuaalne protsessijuhtimise lähenemine, mis võtab vihjeid lean tootmisest ja rõhutab just õigeaegset tarnimist.
 - **Eelised:** Paindlikkus, pidev tarnimine, visuaalne olemus aitab tuvastada kitsaskohti.
@@ -205,7 +240,7 @@ Tarkvaraarenduse mudelid on struktureeritud lähenemised tarkvaraarendusele, mis
 
 ---
 
-## Tarkvaraarenduse mudelid Scrum
+## Tarkvaraarenduse mudelid - Scrum
 
 - **Kirjeldus:** Agiilse metodoloogia tüüp, mis korraldab töö tsüklitena, mida nimetatakse "Sprintideks", mis kestavad tavaliselt 2-4 nädalat.
 - **Eelised:** Regulaarsed toodete tarned, läbipaistvus, kohandatavus.
@@ -213,7 +248,7 @@ Tarkvaraarenduse mudelid on struktureeritud lähenemised tarkvaraarendusele, mis
 
 ---
 
-## Tarkvaraarenduse mudelid Extreme Programming (XP)
+## Tarkvaraarenduse mudelid - Extreme Programming (XP)
 
 - **Kirjeldus:** Agiilne raamistik, mis rõhutab kliendi rahulolu, pakkudes sagedasi "väljalaskeid" lühikeste arendustsüklite jooksul, eesmärgiga parandada tootlikkust ja tutvustada kontrollpunkte.
 - **Eelised:** Rõhutab koodi kvaliteeti, julgustab kliendi kaasamist.
@@ -351,14 +386,14 @@ if (number) {
 
 ## Tõepärasuse teisendamine - Väärad väärtused
 
-- null - väärtuse puudumine
-- undefined - väärtuse puudumine
-- false - väär
-- NaN - mitte number (*Not a Number*)
-- 0 - null
-- -0 - negatiivne null
-- 0n - BigInt null
-- '' - tühi string
+- **null** - väärtuse puudumine
+- **undefined** - väärtuse puudumine
+- **false** - väär
+- **NaN** - mitte number (*Not a Number*)
+- **0** - null
+- **-0** - negatiivne null
+- **0n** - BigInt null
+- **''** - tühi string
 
 ---
 

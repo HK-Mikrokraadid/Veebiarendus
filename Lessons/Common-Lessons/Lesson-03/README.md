@@ -11,7 +11,7 @@
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Koodi kvaliteet
+- [Koodi kvaliteet](../../../Subjects/Software-Development/Topics/Code-Quality/README.md)
 - [Koodi ülevaatus (Code Review)](../../../Subjects/Software-Development/Topics/Code-Review/README.md)
 - [Tarkvaraarenduse elutsükkel](../../../Subjects/Software-Development/Topics/SDLC/README.md)
 - [Tarkvaraarenduse mudelid](../../../Subjects/Software-Development/Topics/Development-Models/README.md)
