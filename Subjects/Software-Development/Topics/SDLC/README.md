@@ -114,7 +114,7 @@ Seejärel võidakse toode tagasiside põhjal välja anda sellisel kujul või koo
 
 - Tarkvara käivituskeskkonna ettevalmistus.
 - Tarkvara tootmiskeskkonda paigaldamine ja rakendamine.
-- Vajadusel lõppkasutajte koolitus.
+- Vajadusel lõppkasutajate koolitus.
 - Tarkvara jõudluse jälgimine ja sujuva töö tagamine.
 
 ### Hooldus ja tugi
