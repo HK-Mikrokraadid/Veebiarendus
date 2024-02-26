@@ -253,7 +253,7 @@ console.log(person); // { firstName: 'Jane', lastName: 'Doe', age: 25 }
 
 Nagu massiivide puhul, on ka objektide manipuleerimiseks palju meetodeid. Näiteks saame kasutada `Object.keys()` meetodit, et saada objekti võtmete massiiv, `Object.values()` meetodit, et saada objekti väärtuste massiiv, ja `Object.entries()` meetodit, et saada objekti võtme-väärtuse paaride massiiv.
 
-Kõik objekti meetodid on loetletud [Objekti meetodid](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) jaotises MDN veebidokumentatsioonis.
+Kõik objekti meetodid on loetletud [Objekti meetodid](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) jaotises Mozilla Developer Network (MDN) veebidokumentatsioonis.
 
 ## Harjutused
 
@@ -340,7 +340,7 @@ const car = {
   year: 2019
 };
 
-console.log(`Ma sõidan ${auto.aasta} aasta ${auto.mark} ${auto.mudel}iga.`);
+console.log(`Ma sõidan ${car.year} aasta ${car.mark} ${car.model}iga.`);
 ```
 
 **Oodatav väljund**:

@@ -23,7 +23,7 @@
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [Algoritmid](../../../Subjects/Programming-Basics/Topics/Algorithms/README.md)
 - [Tõepärasus](../../../Subjects/Programming-Basics/Topics/Truthiness/README.md)
-- [Massiivid](../../../Subjects/Programming-Basics/Topics/Data-Structures/README.md)
+- [Massiivid](../../../Subjects/Programming-Basics/Topics/Data-Structures/README.md#massiiv)
 - [Tsüklid](../../../Subjects/Programming-Basics/Topics/Loops/README.md)
 - Harjutused
 
