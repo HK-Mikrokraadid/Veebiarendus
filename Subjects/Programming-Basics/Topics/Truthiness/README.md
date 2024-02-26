@@ -93,5 +93,4 @@ Nagu me juba teame, siis me saame kasutada loogilisi operaatoreid, et teha otsus
 | true  | false | false | true  | false |
 | true  | true  | true  | true  | false |
 
-Ehk siis näiteks, kui meil on avaldis `A && B`, siis see avaldis on tõene, kui mõlemad `A` ja `B` on tõesed, vastasel juhul on avaldis väär. Kui meil on avaldis `A \|\| B`, siis see avaldis on tõene, kui vähemalt üks `A` või `B` on tõene, vastasel juhul on avaldis väär. Kui meil on avaldis `!A`, siis see avaldis on tõene, kui `A` on väär, vastasel juhul on avaldis tõene.
-
+Ehk siis näiteks, kui meil on avaldis `A && B`, siis see avaldis on tõene, kui mõlemad `A` ja `B` on tõesed, vastasel juhul on avaldis väär. Kui meil on avaldis `A || B`, siis see avaldis on tõene, kui vähemalt üks `A` või `B` on tõene, vastasel juhul on avaldis väär. Kui meil on avaldis `!A`, siis see avaldis on tõene, kui `A` on väär. Ja kui `A` on väär, siis avaldise `!A` tulemus on tõene.
