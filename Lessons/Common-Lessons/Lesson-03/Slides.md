@@ -113,7 +113,7 @@ Tarkvaraarenduse elutsükkel (SDLC) on süsteemne protsess tarkvara planeerimise
 
 ---
 
-## Tarvaraarenduse elutsükkel Arutelu
+## Tarkvaraarenduse elutsükkel Arutelu
 
 Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
@@ -260,6 +260,8 @@ Tarkvaraarenduse mudelid on struktureeritud lähenemised tarkvaraarendusele, mis
 
 Tarkvaraarenduse valdkonnas võivad isikud täita erinevaid rolle, millest igaühel on oma eripärad ja panused üldprojekti.
 
+---
+
 ## Rollid tarkvaraarenduses - Arutelu
 
 ---
@@ -309,7 +311,7 @@ Tarkvaraarenduse valdkonnas võivad isikud täita erinevaid rolle, millest igaü
 
 ---
 
-## Algoritmid Arutelu
+## Algoritmid - Arutelu
 
 ---
 
