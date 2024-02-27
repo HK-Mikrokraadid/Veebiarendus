@@ -6,7 +6,7 @@
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on tarkvaraarenduse mudelid?](#mis-on-tarkvaraarenduse-mudelid)
     - [**Kose mudel:**](#kose-mudel)
-    - [**Lean**](#lean)
+    - [**Lean:**](#lean)
     - [**Spiraalmudel:**](#spiraalmudel)
     - [**Agiilne mudel:**](#agiilne-mudel)
     - [**Feature-Driven Development (FDD):**](#feature-driven-development-fdd)
@@ -32,7 +32,7 @@ Tarkvaraarenduse mudelid on struktureeritud lähenemised tarkvaraarendusele, mis
 - **Eelised:** Selge struktuur, lihtne mõistmine, hästi määratletud etapid.
 - **Puudused:** Pärast faasi lõpetamist on muudatuste tegemine keeruline, ei sobi keerukate projektide jaoks.
 
-### **Lean**
+### **Lean:**
 
 - **Kirjeldus:** Sai alguse tootmisest, keskendub ressursside optimeerimisele ja kliendi väärtuse pakkumisele. Eesmärk on kõrvaldada igasugune "raiskamine" protsessist.
 - **Eelised:** Tõhus ressursside kasutamine, keskendub väärtuse pakkumisele.
