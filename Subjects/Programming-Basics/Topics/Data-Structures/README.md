@@ -320,6 +320,8 @@ console.log(sum);
 
 </details>
 
+Kui soovid lahendada lisaülesandeid, siis leiad mõned siit: [Lisaülesanded massiividele](Exercises-Arrays.md).
+
 ### Harjutus 3 - Põhilised objekti toimingud
 
 **Eesmärk**: Objekti loomine ja selle omaduste väljastamine.
