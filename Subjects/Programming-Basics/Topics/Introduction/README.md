@@ -30,13 +30,12 @@ Programmeerimine on loov protsess, mis hõlmab **algoritmide** kavandamist ja **
 
 Selles aines õpime tundma:
 
-- muutujaid;
-- andmetüüpe;
-- juhtstruktuure;
-- operaatorid ja avaldised;
-- tsükleid;
-- funktsioone;
-- lihtsate algoritmide arendamist.
+- [andmetüüpe;](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Data-Types/README.md)
+- [juhtstruktuure;]
+- [operaatorid ja avaldised;](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Operators/README.md)
+- [tsükleid;](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Loops/README.md)
+- [funktsioone;](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Functions/README.md)
+- [lihtsate algoritmide arendamist.](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Algorithms/README.md)
 
 Õpime kuidas kirjutada ja siluda oma esimesi koodiridu, rajades teed edasijõudnumateks õpinguteks tarkvaraarenduses ja arvutiteaduses.
 
@@ -51,10 +50,10 @@ Nagu iga töö vajab tööriistu, vajab ka programmeerimine tööriistu. Kasutam
 Meie peamised tööriistad on:
 
 - Koodiredaktor
-- Node.js
+- [Node.js](https://nodejs.org/en)
 - Brauser
 - Git
-- Github
+- [Github](https://github.com/)
 - ...
 
 Räägime kasutatavatest tööriistadest vastavalt teemadele, kui edasi liigume.
@@ -63,3 +62,12 @@ Räägime kasutatavatest tööriistadest vastavalt teemadele, kui edasi liigume.
 
 - Kas oled varem programmeerimisega kokku puutunud?
 - Millistest programmeerimiskeeltest oled varasemalt kuulnud?
+
+## Allikad:
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+- https://developer.mozilla.org/en-US/docs/Glossary/Control_flow
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+- https://developer.mozilla.org/en-US/docs/Glossary/Algorithm
