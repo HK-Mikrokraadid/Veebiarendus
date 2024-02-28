@@ -78,12 +78,12 @@ Tarkvara loovad tarkvaraarendajad. Tarkvaraarendajad on inimesed, kes kirjutavad
 
 Olemas on palju erinevaid programmeerimiskeeli ja igaühel on oma tugevused ja nõrkused. Mõnda neist peetakse teistest lihtsamaks õppida, samas kui mõned on võimsamad ja paindlikumad. Mõned populaarsemad programmeerimiskeeled on:
 
-- **JavaScript**
-- **Python**
-- **C#**
-- **Java**
-- **C**
-- **C++**
+- [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [**Python**](https://www.python.org/)
+- [**C#**](https://dotnet.microsoft.com/en-us/languages/csharp)
+- [**Java**](https://www.w3schools.com/java/java_intro.asp)
+- [**C**](https://www.w3schools.com/c/c_intro.php?external_link=true)
+- [**C++**](https://www.w3schools.com/cpp/cpp_intro.asp)
 - jne
 
 On oluline märkida, et programmeerimiskeele valik ei ole alati isikliku eelistuse küsimus. Mõned programmeerimiskeeled sobivad teatud ülesannete jaoks paremini kui teised. Näiteks **JavaScript** on populaarne programmeerimiskeel veebiarenduseks, samas kui **Python** on populaarne programmeerimiskeel andmeteaduse ja masinõppe jaoks. See võib sõltuda ka riistvara tüübist (üldotstarbeline laua- või sülearvuti, spetsiifiline server, mängukonsol, mikrokontroller vms) või operatsioonisüsteemist, millel tarkvara töötab.
