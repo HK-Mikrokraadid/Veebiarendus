@@ -30,13 +30,13 @@ Programmeerimine on loov protsess, mis hõlmab **algoritmide** kavandamist ja **
 
 Selles aines õpime tundma:
 
-- muutujaid;
-- andmetüüpe;
-- juhtstruktuure;
-- operaatorid ja avaldised;
-- tsükleid;
-- funktsioone;
-- lihtsate algoritmide arendamist.
+- [muutujaid;](https://developer.mozilla.org/en-US/docs/Glossary/Variable)
+- [andmetüüpe;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+- [juhtstruktuure;](https://developer.mozilla.org/en-US/docs/Glossary/Control_flow)
+- [operaatorid ja avaldised;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators)
+- [tsükleid;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+- [funktsioone;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+- [lihtsate algoritmide arendamist.](https://developer.mozilla.org/en-US/docs/Glossary/Algorithm)
 
 Õpime kuidas kirjutada ja siluda oma esimesi koodiridu, rajades teed edasijõudnumateks õpinguteks tarkvaraarenduses ja arvutiteaduses.
 
@@ -51,10 +51,10 @@ Nagu iga töö vajab tööriistu, vajab ka programmeerimine tööriistu. Kasutam
 Meie peamised tööriistad on:
 
 - Koodiredaktor
-- Node.js
+- [Node.js](https://nodejs.org/en)
 - Brauser
 - Git
-- Github
+- [Github](https://github.com/)
 - ...
 
 Räägime kasutatavatest tööriistadest vastavalt teemadele, kui edasi liigume.
