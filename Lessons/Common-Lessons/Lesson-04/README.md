@@ -18,5 +18,13 @@
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Andmestruktuurid (massiivid)](../../../Subjects/Programming-Basics/Topics/Data-Structures/Arrays/README.md)
+- [Andmestruktuurid (objektid)](../../../Subjects/Programming-Basics/Topics/Data-Structures/README.md#objekt)
 - Harjutused
+
+## Kodutöö
+
+- Loe läbi tänase loengu materjalid
+- Tee läbi materjalides olevad harjutused
+  - [Andmestruktuurid (objektid)](../../../Subjects/Programming-Basics/Topics/Data-Structures/README.md#harjutused)
+  - [Andmestruktuuride lisaülesanded](../../../Subjects/Programming-Basics/Topics/Data-Structures/Exercises-Objects.md) (Soovi korral)
+- Esita kodune töö läbi koodi ülevaatuse (`Code review`)

@@ -32,4 +32,7 @@
 
 - Loe läbi tänase loengu materjalid
 - Tee läbi materjalides olevad harjutused
+  - [Operaatorid](../../../Subjects/Programming-Basics/Topics/Operators/README.md#harjutused)
+  - [Tingimusaused](../../../Subjects/Programming-Basics/Topics/Conditionals/README.md#harjutused)
+  - [Tingimuslausete lisaülesanded](../../../Subjects/Programming-Basics/Topics/Conditionals/Exercises.md) (Soovi korral)
 - Laadi tehtud harjutuste kood Githubi

@@ -2,7 +2,7 @@
 
 - [Teine loeng](../Lesson-02/README.md)
 - [Kolmanda loengu slaidid](Slides.md)
-- [Kolmanda loengu salvestus]()
+- [Kolmanda loengu salvestus](https://youtu.be/FKftck8WSdU)
 - [Neljas loeng](../Lesson-04/README.md)
 
 ## Teemad
@@ -31,4 +31,9 @@
 
 - Loe läbi tänase loengu materjalid
 - Tee läbi materjalides olevad harjutused (need, mis puudutavad tänaseid teemasid)
-- Kasuta koodi ülevaatuseks `Code review`-d
+  - [Algoritmid](../../../Subjects/Programming-Basics/Topics/Algorithms/README.md#harjutused)
+  - [Massiivid](../../../Subjects/Programming-Basics/Topics/Data-Structures/README.md#harjutused) (Ainult massiivide kohta käivad ülesanded)
+  - [Massiivide lisaülesanded](../../../Subjects/Programming-Basics/Topics/Data-Structures/Exercises-Arrays.md) (Soovi korral)
+  - [Tsüklid](../../../Subjects/Programming-Basics/Topics/Loops/README.md#harjutused)
+  - [Tsüklite lisaülesanded](../../../Subjects/Programming-Basics/Topics/Loops/Exercises.md) (Soovi korral)
+- Esita kodune töö läbi koodi ülevaatuse (`Code review`)
