@@ -180,8 +180,8 @@ Massiivi üle iteratsiooni tegemiseks saame kasutada `for` tsüklit. Kui soovime
 ```javascript
 const days = ['Esmaspäev', 'Teisipäev', 'Kolmapäev', 'Neljapäev', 'Reede', 'Laupäev', 'Pühapäev'];
 
-for (let i = 0; i < numbers.length; i++) {
-  console.log(numbers[i]);
+for (let i = 0; i < days.length; i++) {
+  console.log(days[i]);
 }
 ```
 
@@ -201,7 +201,7 @@ Pühapäev
 >
 > Massiivi `length` omadus tagastab massiivis olevate väärtuste arvu.
 >
-> Massiivi `length` omadus on alati üks rohkem kui massiivi viimase väärtuse indeks (kuna elemenitde indeksite loendamine algab `0`-st).
+> Massiivi `length` omadus on alati üks rohkem kui massiivi viimase väärtuse indeks (kuna elementide indeksite loendamine algab `0`-st).
 >
 > Samuti pea meeles, et `i` on väärtus, mis suureneb iga `for` tsükli iteratsiooni korral. Väärtuse `i` abil saame pääseda ligi massiivi väärtustele.
 >
