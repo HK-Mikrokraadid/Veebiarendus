@@ -82,6 +82,7 @@ while (i < 10) {
   i++;
 }
 ```
+
 Väljund:
 
 ```plaintext
@@ -100,6 +101,7 @@ Väljund:
 Nagu näha, kuigi `for` tsükkel ja `while` tsükkel on erinevalt defineeritud, teevad nad mõlemad sama asja. Nendes näidetes itereerivad nad mõlemad arvudest `0` kuni `9` ja väljastavad need konsooli.
 
 ## `do...while` Tsükkel
+
 do...while tsükkel on teist tüüpi tsükkel, mida kasutatakse koodiploki kordamiseks seni, kuni teatud tingimus on tõene. Erinevus eelmiste tsüklitega seisneb selles, et eelmiste tsüklite puhul kontrolliti tsükli täitmise tingimust enne koodiploki täitmist, kuid `do...while` tsükli puhul kontrollitakse tingimust pärast koodiploki täitmist. See tähendab, et `do...while` tsükli puhul täidetakse koodiplokk alati vähemalt üks kord, isegi kui tingimus ei ole tõene.
 
 ```js
@@ -110,6 +112,7 @@ do {
   i++;
 } while (i < 10);
 ```
+
 Väljund:
 
 ```plaintext
@@ -155,7 +158,7 @@ Selles näites lõime objekti nimega `person` nelja omadusega: `firstName`, `las
 
 ## `for...of` Tsükkel
 
-`for...of` tsükkel tsükkel, mida kasutatakse `iterable` objekti väärtuste iteratsiooniks. `Iterable` objekt on objekt, millel on sisseehitatud iteratsioonimehhanism. Näiteks massiivid, sõned, `Map` ja `Set` on kõik `iterable` objektid. `for...of` tsükkel koosneb **muutujast** ja **iterable objektist**. **Muutujat** kasutatakse väärtuse salvestamiseks ja **iterable** objekt on see, mille väärtusi itereeritakse.
+`for...of` tsükkel, mida kasutatakse `iterable` objekti väärtuste iteratsiooniks. `Iterable` objekt on objekt, millel on sisseehitatud iteratsioonimehhanism. Näiteks massiivid, sõned, `Map` ja `Set` on kõik `iterable` objektid. `for...of` tsükkel koosneb **muutujast** ja **iterable objektist**. **Muutujat** kasutatakse väärtuse salvestamiseks ja **iterable** objekt on see, mille väärtusi itereeritakse.
 
 ```js
 const fruits = ['apple', 'banana', 'orange'];
@@ -164,6 +167,7 @@ for (let fruit of fruits) {
   console.log(fruit);
 }
 ```
+
 Väljund:
 
 ```plaintext
@@ -171,6 +175,7 @@ apple
 banana
 orange
 ```
+
 Selles näites lõime massiivi nimega `fruits` (iterable objekt) kolme väärtusega: `apple`, `banana` ja `orange`. Seejärel lõime `for...of` tsükli, mis itereerib `fruits` massiivi väärtuste üle ja väljastab need konsooli.
 
 ## Tsükli Kontrolllausendid
@@ -265,6 +270,7 @@ for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
 ```
+
 ![For loop](forLoop.gif)
 
 </details>
