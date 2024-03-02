@@ -12,6 +12,8 @@
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- Koodi ülevaatus
+- Kuidas teiste koodi käivitada saab?
 - [Dokumentatsioon](../../../Subjects/Software-Development/Topics/Documentation/README.md)
 
 ### Programmeerimine
