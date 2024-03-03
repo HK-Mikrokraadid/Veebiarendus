@@ -38,13 +38,13 @@ Pärast selle teema läbimist oskate:
 
 - **Nõuete dokumentatsioon:** Määratleb, mida tarkvara peaks tegema. See võib sisaldada kasutajalugusid, kasutusjuhte või formaalsemat nõuete loetelu.
 - **Tehniline dokumentatsioon:** On mõeldud arendajatele ja sisaldab koodikommentaare, API dokumentatsiooni ja arhitektuurikavandeid.
-- **Kasutajadokumentatsioon:** On suunatud lõppkasutajatele ja juhendab neid tarkvara funktsioonide ja võimalustega. Näiteks kasutusjuhendid, abi juhendid ja KKK-d.
+- **Kasutusjuhend:** On suunatud lõppkasutajatele ja juhendab neid tarkvara funktsioonide ja võimalustega. Näiteks kasutusjuhendid, abi juhendid ja KKK-d (Korduma Kippuvad Küsimused).
 - **Arhitektuuri- ja disainidokumentatsioon:** Annab tarkvarast kõrgetasemelise vaate, selle komponentidest ja nende vastastikusest mõjust.
-- **Testimisdokumentatsioon:** Sisaldab testiplaane, testijuhtumeid ja muid dokumente, mis juhendavad ja salvestavad testimispüüdlusi.
+- **Testimisdokumentatsioon:** Sisaldab testiplaane, testijuhtumeid ja muid dokumente, mis käivad testimise kohta.
 - **Hooldus- ja abijuhendid:** Aitavad diagnoosida, tõrkeotsingut teha ja lahendada probleeme.
 - **Protsessi dokumentatsioon:** Täpsustab arenduse käigus järgitavaid protsesse ja standardeid.
 - **Toote dokumentatsioon:** Spetsifikatsioonid, tingimused ja muud tarkvaratoote üksikasjad.
-- **API dokumentatsioon:** Juhised selle kohta, kuidas API-t tõhusalt kasutada ja integreerida. Sageli genereeritakse koodikommentaaridest.
+- **Rakendusliidese (API - Application Programming Interface) dokumentatsioon:** Juhised selle kohta, kuidas API-t tõhusalt kasutada ja integreerida.
 
 ## Dokumentatsiooni koostamise tööriistad
 
@@ -59,7 +59,7 @@ Pärast selle teema läbimist oskate:
 
 ## Tarkvaraarenduse dokumentatsiooni loomine
 
-Tarkvaraarenduse dokumentatsiooni koostamine võib olla keeruline protsess, kuna olenevalt projekti vajadustest võib olla vaja koostada palju erinevat tüüpi dokumentatsiooni. Siin on aga mõned üldised sammud, mida saab tõhusa tarkvaraarenduse dokumentatsiooni loomiseks järgida:
+Tarkvaraarenduse dokumentatsiooni koostamine võib olla üsna keeruline protsess, kuna olenevalt projekti vajadustest võib olla vaja koostada palju erinevat tüüpi dokumentatsiooni. Siin on aga mõned üldised sammud, mida saab tõhusa tarkvaraarenduse dokumentatsiooni loomiseks järgida:
 
 - **Tehke kindlaks dokumentatsiooni eesmärk ja ulatus.** Enne dokumentatsiooni loomise alustamist on oluline kindlaks teha, millist tüüpi dokumentatsiooni on vaja, kes on sihtrühm ja millised on dokumentatsiooni eesmärgid.
 - **Dokumentatsiooni kavandamine:** see samm hõlmab dokumentatsiooni struktuuri, vormingu ja sisu määratlemist. Peaksite kaaluma dokumentatsiooni (nt tekst, diagrammid või videod) parimat vormingut ja otsustama, milline sisu tuleb kaasata.
@@ -86,3 +86,6 @@ Mõelge selle tunni materjali peale ja vastake järgmistele küsimustele:
 - Millist dokumentatsiooni olete varem kasutanud. Mis see oli? Kuidas see teid aitas?
 - Kui tihti loete dokumentatsiooni? Mis on kõige tavalisemad põhjused, miks te dokumentatsiooni loete?
 - Mida te arvate - kui oluline on dokumentatsioon tarkvaraarenduses? Miks?
+- Kui Su repositooriumis veel ei ole, siis loo selle juurkausta `README.md` fail, mis sisaldab:
+  - Lühikest kirjeldust selle kohta, mis repositooriumiga on tegemist
+  - Viiteid koduste ülesannete lahenduste juurde

@@ -12,6 +12,8 @@
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- [Koodi ülevaatuse juhend](../../../Subjects/Software-Development/Topics/Code-Review-Guide/README.md)
+- Kuidas teiste koodi käivitada saab?
 - [Dokumentatsioon](../../../Subjects/Software-Development/Topics/Documentation/README.md)
 
 ### Programmeerimine
@@ -27,4 +29,5 @@
 - Tee läbi materjalides olevad harjutused
   - [Andmestruktuurid (objektid)](../../../Subjects/Programming-Basics/Topics/Data-Structures/README.md#harjutused)
   - [Andmestruktuuride lisaülesanded](../../../Subjects/Programming-Basics/Topics/Data-Structures/Exercises-Objects.md) (Soovi korral)
+  - Lisa/täienda oma repositooriumi `README.md` faili vastavalt [ülesandele](../../../Subjects/Software-Development/Topics/Documentation/README.md#harjutused) (neljas punkt)
 - Esita kodune töö läbi koodi ülevaatuse (`Code review`)

@@ -208,6 +208,7 @@ Väljund:
 8
 9
 ```
+
 Nagu näha, jätab `continue` lausend vahele tsükli ühe korduse, kus kontrollitakse, kas tsükli loendur on võrdne `5`-ga. Kui tsükli loendur on võrdne `5`-ga, siis jäetakse see iteratsioon vahele ja jätkatakse järgmise iteratsiooniga.
 
 ### `break`

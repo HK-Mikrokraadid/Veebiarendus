@@ -89,6 +89,8 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- [Koodi kvaliteet](./Topics/Code-Quality/README.md)
+- [Koodi ülevaatus (Code Review)](./Topics/Code-Review/README.md)
 - [Tarkvaraarenduse elutsükkel](./Topics/SDLC/README.md)
 - [Tarkvaraarenduse meetodid](./Topics/Development-Models/README.md)
 - [Rollid tarkvaraarenduses](./Topics/Roles/README.md)
@@ -99,6 +101,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- [Koodi ülevaatus (Code Review)](./Topics/Code-Review/README.md)
 - [Dokumentatsioon](./Topics/Documentation/README.md)
 
 ### Loeng 5: Kasutajauuringud

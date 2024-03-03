@@ -46,5 +46,6 @@ flowchart LR
     E --> | Tagasiside | F{Muudatuste <br> vajadus?}
     F --> | Jah | A
     F --> | Ei | G(Merge)
-  ```
-  
+```
+
+Koodi ülevaatuse samm-sammulise juhendi leiate [siit](../Code-Review-Guide/README.md).

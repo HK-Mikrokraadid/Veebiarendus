@@ -95,6 +95,7 @@ Maht: 4h
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [Tõepärasus](./Topics/Truthiness/README.md)
 - [Algoritmid](./Topics/Algorithms/README.md)
+- [Andmestruktuurid (massiivid)](./Topics/Data-Structures/README.md#massiiv)
 - [Tsüklid](./Topics/Loops/README.md)
 - Harjutused
 
@@ -104,7 +105,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Andmestruktuurid (massiivid)](./Topics/Data-Structures/README.md)
+- [Andmestruktuurid (objektid)](./Topics/Data-Structures/README.md#objekt)
 - Harjutused
 
 ### Loeng 5
@@ -113,7 +114,7 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Andmestruktuurid (objektid)](./Topics/Data-Structures/README.md)
+- [Javascripti parimad praktikad](./Topics/Best-Practices/README.md)
 - [Funktsioonid](./Topics/Functions/README.md)
 - Harjutused
 
@@ -123,7 +124,6 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Javascripti parimad praktikad](./Topics/Best-Practices/README.md)
 - [Moodulid](./Topics/Modules/README.md)
 - Harjutused
 
