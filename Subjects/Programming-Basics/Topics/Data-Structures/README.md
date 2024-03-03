@@ -16,6 +16,9 @@ Pildi allikas: Dall-E by OpenAI
       - [Väärtuste eemaldamine massiivist](#väärtuste-eemaldamine-massiivist)
     - [Massiivi iteratsioon](#massiivi-iteratsioon)
   - [Objekt](#objekt)
+    - [`Object.keys()` Meetod](#objectkeys-meetod)
+    - [`Object.values()` Meetod](#objectvalues-meetod)
+    - [`Object.entries()` Meetod](#objectentries-meetod)
   - [Harjutused](#harjutused)
     - [Harjutus 1 - Põhilised massiivi toimingud](#harjutus-1---põhilised-massiivi-toimingud)
     - [Harjutus 2 - Massiivi iteratsioon](#harjutus-2---massiivi-iteratsioon)
@@ -253,6 +256,108 @@ console.log(person); // { firstName: 'Jane', lastName: 'Doe', age: 25 }
 
 Nagu massiivide puhul, on ka objektide manipuleerimiseks palju meetodeid. Näiteks saame kasutada `Object.keys()` meetodit, et saada objekti võtmete massiiv, `Object.values()` meetodit, et saada objekti väärtuste massiiv, ja `Object.entries()` meetodit, et saada objekti võtme-väärtuse paaride massiiv.
 
+### `Object.keys()` Meetod
+
+`Object.keys()` meetod tagastab objekti võtmed massiivina. Näiteks, kui soovime saada `person` objekti võtmed massiivina, saame kasutada `Object.keys()` meetodit nii:
+
+```javascript
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 25
+};
+
+console.log(Object.keys(person)); // [ 'firstName', 'lastName', 'age' ]
+```
+
+Seda võib kasutada ka objekti omaduste iteratsiooniks. Näiteks, kui soovime väljastada iga võtme `person` objektis, saame kasutada `Object.keys()` meetodit nii:
+
+```javascript
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 25
+};
+
+for (let key of Object.keys(person)) {
+  console.log(key);
+}
+
+// Väljund:
+// firstName
+// lastName
+// age
+
+```
+
+Kui me ei soovi kasutada `for...of` tsüklit, saame kasutada ka `for` tsüklit nii:
+
+```javascript
+
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 25
+};
+
+for (let i = 0; i < Object.keys(person).length; i++) {
+  console.log(Object.keys(person)[i]);
+}
+
+// Väljund:
+// firstName
+// lastName
+// age
+
+```
+
+### `Object.values()` Meetod
+
+`Object.values()` meetod tagastab objekti väärtused massiivina. Näiteks, kui soovime saada `person` objekti väärtused massiivina, saame kasutada `Object.values()` meetodit nii:
+
+```javascript
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 25
+};
+
+console.log(Object.values(person)); // [ 'John', 'Doe', 25 ]
+```
+
+### `Object.entries()` Meetod
+
+`Object.entries()` meetod tagastab objekti võtme-väärtuse paaride massiivina. Näiteks, kui soovime saada `person` objekti võtme-väärtuse paarid massiivina, saame kasutada `Object.entries()` meetodit nii:
+
+```javascript
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 25
+};
+
+console.log(Object.entries(person)); // [ [ 'firstName', 'John' ], [ 'lastName', 'Doe' ], [ 'age', 25 ] ]
+```
+
+Kui me soovime nüüd näiteks väljastada ühekaupe võtme-väärtuse paare, saame kasutada `for` tsüklit nii:
+
+```javascript
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 25
+};
+
+for (let i = 0; i < Object.entries(person).length; i++) {
+  console.log(Object.entries(person)[i]);
+}
+
+// Väljund:
+// [ 'firstName', 'John' ]
+// [ 'lastName', 'Doe' ]
+// [ 'age', 25 ]
+```
+
 Kõik objekti meetodid on loetletud [Objekti meetodid](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) jaotises Mozilla Developer Network (MDN) veebidokumentatsioonis.
 
 ## Harjutused
@@ -396,8 +501,10 @@ console.log(student);
 
 **Oodatav väljund**:
 
-```json
+```js
 { name: 'John Doe', age: 17, class: 10, subject: 'Matemaatika' }
 ```
 
 </details>
+
+Kui soovid lahendada lisaülesandeid objektide kohta, siis leiad mõned siit: [Lisaülesanded objektide kohta](Exercises-Objects.md).
