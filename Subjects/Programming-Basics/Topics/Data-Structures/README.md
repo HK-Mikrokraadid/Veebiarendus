@@ -339,7 +339,7 @@ const person = {
 console.log(Object.entries(person)); // [ [ 'firstName', 'John' ], [ 'lastName', 'Doe' ], [ 'age', 25 ] ]
 ```
 
-Kui me soovime nüüd näiteks väljastada ühekaupe võtme-väärtuse paare, saame kasutada `for` tsüklit nii:
+Kui me soovime nüüd näiteks väljastada ühekaupa võtme-väärtuse paare, saame kasutada `for` tsüklit nii:
 
 ```javascript
 const person = {
