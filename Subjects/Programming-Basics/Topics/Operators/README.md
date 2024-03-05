@@ -225,9 +225,9 @@ x > 10 ? true : false; // false
 
 Koma operaatorit kasutatakse mitme avaldise hindamiseks ja viimase avaldise tulemuse tagastamiseks.
 
-Javascriptis on ainult üks komma operaator:
+Javascriptis on ainult üks koma operaator:
 
-- `,`: komma - hindab mitut avaldist ja tagastab viimase avaldise tulemuse
+- `,`: koma - hindab mitut avaldist ja tagastab viimase avaldise tulemuse
 
 ```js
 let x = 5;
