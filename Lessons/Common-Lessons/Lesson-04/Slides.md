@@ -26,6 +26,11 @@ Martti Raavel
 
 ## Koduste tööde ajal tekkinud probleemid
 
+- Koodi ülevaatus
+- Ülevaataja määramine
+- Kes ühendab koodi tagasi peaharusse?
+- Algoritmide IF lause
+
 ---
 
 ## Koodi ülevaatuse juhend
@@ -56,7 +61,7 @@ Tarkvaraarenduses viitab dokumentatsioon kirjalikele materjalidele, mis kirjelda
 
 ---
 
-## Dokumnetaatsioon - Tüübid
+## Dokumentatsioon - Tüübid
 
 - Nõuete dokumentatsioon
 - Tehniline dokumentatsioon
