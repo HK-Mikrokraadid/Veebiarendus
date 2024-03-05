@@ -99,7 +99,7 @@ let z = Boolean(x); // boolean - z väärtus on true
 
 ## Tüübisunnitus
 
-Tüübisunnitus on protsess, mille käigus teisendatakse väärtus ühest andmetüübist teise implitsiitselt. See tähenda, et tüübisunnitus toimub automaatselt ilma, et peaksime seda ise tegema. Javascriptis toimub tüübisunnitus, kui operaatorit kasutatakse erineva andmetüübiga operandidega. Näiteks + operaatorit saab kasutada kahe numbri liitmiseks, kuid seda saab kasutada ka kahe stringi ühendamiseks.
+Tüübisunnitus on protsess, mille käigus teisendatakse väärtus ühest andmetüübist teise implitsiitselt. See tähendab, et tüübisunnitus toimub automaatselt ilma, et peaksime seda ise tegema. Javascriptis toimub tüübisunnitus, kui operaatorit kasutatakse erineva andmetüübiga operandidega. Näiteks + operaatorit saab kasutada kahe numbri liitmiseks, kuid seda saab kasutada ka kahe stringi ühendamiseks.
 
 ```js
 let x = 5; // number
@@ -120,6 +120,7 @@ let isMarried = false;
 let x;
 let car = null;
 ```
+
 <details>
 <summary>Lahendus</summary>
 
