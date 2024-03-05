@@ -19,6 +19,5 @@
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Andmestruktuurid (objektid)](./Topics/Data-Structures/README.md)
 - [Funktsioonid](./Topics/Functions/README.md)
 - Harjutused
