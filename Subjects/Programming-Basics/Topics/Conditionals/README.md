@@ -40,7 +40,7 @@ Pärast selle teema läbimist suudate:
 
 Tingimuslause on kontrollmehanism, mida kasutatakse tingimuse alusel valikute tegemisel. Näiteks saame kasutada tingimuslauset, et kontrollida, kas arv on positiivne või negatiivne, ja sooritada kontrolli tulemuse põhjal erinevaid toiminguid.
 
-Oma mõtetes kasutame tingimuslausete pidevalt, kui teeme otsuseid. Näiteks, kui otsustame, kas minna sportima või mitte, kontrollime ilma, oma tuju, oma ajakava jne ja kontrolli tulemuse põhjal otsustame, kas minna sportima või mitte.
+Oma mõtetes kasutame tingimuslauseid pidevalt, kui teeme otsuseid. Näiteks, kui otsustame, kas minna sportima või mitte, kontrollime ilma, oma tuju, oma ajakava jne ja kontrolli tulemuse põhjal otsustame, kas minna sportima või mitte.
 
 ```mermaid
 flowchart TD
