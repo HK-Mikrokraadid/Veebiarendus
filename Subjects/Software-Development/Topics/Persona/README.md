@@ -4,18 +4,41 @@
 
 Pildi allikas: Dall-E by OpenAI
 
-## Mis või kes on persoona?
+- [Persoona](#persoona)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis või kes on persoona?](#mis-või-kes-on-persoona)
+  - [Persoona lühidalt](#persoona-lühidalt)
+  - [Persoona loomine](#persoona-loomine)
+  - [Mida persoonas kirjeldatakse?](#mida-persoonas-kirjeldatakse)
+  - [Persoonade jaotumine](#persoonade-jaotumine)
+  - [Näited persoonadest](#näited-persoonadest)
+  - [Tööriistu persoonade loomiseks](#tööriistu-persoonade-loomiseks)
+  - [Persoona koostamise mall](#persoona-koostamise-mall)
 
-- Näidis-kasutaja, tüüpilise lõppkasutaja arhetüüp, kes esindab konkreetset kasutajagruppi;
-- Luuakse kliendi paremaks mõistmiseks – mis teda motiveerib, mis ärritab, mida ta vajab?
-- Ei asenda kasutajauuringuid, vaid tugineb nendel!
-- Aitab disaini loomisel silmas pidada lõppkasutaja vajadusi, nt eristada olulisi funktsionaalsusi ebaolulistest.
+## Õpiväljundid
+
+Pärast selle teema läbimist suudad:
+
+- selgitada, mis on persoona;
+- tuvastada persoona eesmärke ja eeliseid;
+- koostada persona tarkvaraarenduse kontekstis.
+
+## Mis või kes on persoona?
 
 Tarkvaraarenduse ja kasutajakogemuse kujundamise kontekstis on **persoona** väljamõeldud tegelane, kes esindab teatud tüüpi kasutajat. **Persoona** luuakse uurimistöö ja andmete põhjal reaalsete kasutajate kohta ning neid kasutatakse abistamaks disaineritel ja arendajatel oma kasutajate mõistmiseks ja nende vajadustest, eesmärkidest ja käitumisest aru saamiseks.
 
 **Persoona** sisaldab tavaliselt teavet kasutaja demograafia (näiteks vanus, sugu ja amet), samuti üksikasjad nende huvide, motivatsiooni ja käitumise kohta. **Persoona** võib sisaldada ka teavet kasutaja eesmärkide, pettumuste ja valupunktide kohta, samuti üksikasju nende eelistatud suhtlemismeetodite kohta tarkvara või rakendusega.
 
 **Persoonasid** kasutatakse empaatia tekitamiseks ning disainerite ja arendajate abistamiseks, mis põhinevad kasutaja vajadustel ja eelistustel. Mõistes eri tüüpi kasutajate vajadusi ja käitumist, saavad disainerid luua liideseid ja kogemusi, mis on kohandatud nende sihtrühmale, mille tulemuseks on tarkvara, mis on kaasahaaravam, kasutatavam ja tõhusam.
+
+## Persoona lühidalt
+
+- Näidis-kasutaja, tüüpilise lõppkasutaja arhetüüp, kes esindab konkreetset kasutajagruppi;
+- Luuakse kliendi paremaks mõistmiseks – mis teda motiveerib, mis ärritab, mida ta vajab?
+- Ei asenda kasutajauuringuid, vaid tugineb nendel!
+- Aitab disaini loomisel silmas pidada lõppkasutaja vajadusi, nt eristada olulisi funktsionaalsusi ebaolulistest.
+
+## Persoona loomine
 
 Persoona loomiseks kogub meeskond tavaliselt teavet selliste uurimismeetodite abil nagu:
 
@@ -69,8 +92,11 @@ Autor: Julia Sjöberg
 ![Persoona 3](files/persona_3.png)
 Autor: Xtensio
 
+## Tööriistu persoonade loomiseks
+
+- [UXPressia](https://uxpressia.com/)
+- [Hubspot](https://www.hubspot.com/make-my-persona)
+
 ## Persoona koostamise mall
 
 [Persoona mall](files/Persoona.pdf)
-
-## Harjutus

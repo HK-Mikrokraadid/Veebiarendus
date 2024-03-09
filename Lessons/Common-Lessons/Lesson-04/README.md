@@ -23,7 +23,7 @@
 - [Andmestruktuurid (objektid)](../../../Subjects/Programming-Basics/Topics/Data-Structures/README.md#objekt)
 - Harjutused
 
-## Kodutöö
+## Kodutöö - tähtaeg: enne järgmist loengut
 
 - Loe läbi tänase loengu materjalid
 - Tee läbi materjalides olevad harjutused

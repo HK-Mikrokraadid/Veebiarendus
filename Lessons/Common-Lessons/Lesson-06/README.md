@@ -8,8 +8,6 @@
 
 ## Teemad
 
-### Tarkvaraarendus
+### Tarkvaraarendus ja programmeerimine
 
-
-### Programmeerimine
-
+Sel korral uusi teemasid ei ole ja keskendume järeleaitamisele. Kui on tekkinud küsimusi eelmiste loengute teemade kohta, siis on võimalik neid küsida.

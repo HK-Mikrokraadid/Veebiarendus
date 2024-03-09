@@ -28,7 +28,7 @@
 - [Tingimuslaused](../../../Subjects/Programming-Basics/Topics/Conditionals/README.md)
 - Harjutused
 
-## Kodutöö
+## Kodutöö - tähtaeg: enne järgmist loengut
 
 - Loe läbi tänase loengu materjalid
 - Tee läbi materjalides olevad harjutused

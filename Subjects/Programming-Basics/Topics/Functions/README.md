@@ -17,6 +17,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Harjutused](#harjutused)
     - [Harjutus 1 - Lihtne Funktsiooni Deklareerimine ja Kutsumine](#harjutus-1---lihtne-funktsiooni-deklareerimine-ja-kutsumine)
     - [Harjutus 2 - Funktsioon Tagastusväärtusega](#harjutus-2---funktsioon-tagastusväärtusega)
+  - [Lisaülesanded](#lisaülesanded)
 
 ## Õpiväljundid
 
@@ -147,7 +148,7 @@ Testi oma koodi erinevate väärtustega
 <details>
   <summary>Lahendus</summary>
 
-```javascript	
+```javascript
 function greet(name) {
   console.log(`Tere, ${name}!`);
 }
@@ -184,3 +185,7 @@ console.log(area2);
 ```
 
 </details>
+
+## Lisaülesanded
+
+Kui soovid lahendada lisaülesandeid funktsioonide kohta, siis leiad mõned [siit](./Exercises.md).
