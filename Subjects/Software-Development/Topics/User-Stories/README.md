@@ -4,11 +4,30 @@
 
 Pildi allikas: Dalle-E by OpenAI
 
+- [Kasutajalugu](#kasutajalugu)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on kasutajalugu?](#mis-on-kasutajalugu)
+  - [Kasutajalugude kirjutamine](#kasutajalugude-kirjutamine)
+  - [Näide](#näide)
+  - [Kasutajaloo mall](#kasutajaloo-mall)
+
+## Õpiväljundid
+
+Pärast selle teema läbimist suudad:
+
+- selgitada, mis on kasutajalugu;
+- tuvastada kasutajaloo eesmärke ja eeliseid;
+- kirjutada kasutajalugusid tarkvaraarenduse kontekstis.
+
+## Mis on kasutajalugu?
+
 Kasutajalugu on lihtne ühelauseline tarkvararakenduse funktsiooni või funktsionaalsuse kirjeldus, mis on kirjutatud lõppkasutaja vaatenurgast. Kasutajalood on levinud tehnika, mida kasutatakse agiilses tarkvaraarenduses, et kirjeldada rakenduse nõudeid nii, et neid on lihtne mõista ja prioriteete seada.
 
 Siin on näide kasutaja loost:
 
 `Registreeritud kasutajana tahan oma parooli lähtestada, et saaksin parooli unustamise korral oma kontole tagasi juurdepääsu.`
+
+## Kasutajalugude kirjutamine
 
 Kasutajaloo kirjutamiseks järgige neid lihtsaid samme:
 
@@ -18,7 +37,7 @@ Kasutajaloo kirjutamiseks järgige neid lihtsaid samme:
 
 - **Nimetage kasu**: lõpuks märkige kasu, mida kasutaja saab selle toimingu sooritamisest. See peaks kirjeldama, miks kasutaja soovib toimingu sooritada ja mida ta loodab saavutada.
 
-Kasutajalugude kirjutamisel on oluline, et need oleksid lühikesed ja keskenduksid lõppkasutaja vajadustele. Samuti tuleks kasutajalood kirjutada lihtsalt ja arusaadavalt ning prioriseerida, et arendusmeeskond saaks kiiresti kindlaks teha, milliseid lugusid on kõige olulisem rakendada.
+Kasutajalugude kirjutamisel on oluline, et need oleksid lühikesed ja keskenduksid lõppkasutaja vajadustele. Samuti tuleks kasutajalood kirjutada lihtsalt ja arusaadavalt ning **prioriseerida**, et arendusmeeskond saaks kiiresti kindlaks teha, milliseid lugusid on kõige olulisem rakendada.
 
 ## Näide
 

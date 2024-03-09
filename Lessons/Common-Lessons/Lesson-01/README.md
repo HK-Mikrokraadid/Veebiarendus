@@ -28,7 +28,7 @@
 - Koodi laadimine Githubi
 - Harjutused
 
-## Kodutöö
+## Kodutöö - tähtaeg: enne järgmist loengut
 
 - Lugege läbi esimese loengu materjalid
 - Tehke läbi materjalides olevad harjutused
