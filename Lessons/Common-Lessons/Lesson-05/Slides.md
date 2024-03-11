@@ -37,6 +37,45 @@ Martti Raavel
 
 ---
 
+## Lähteülesanne
+
+---
+
+## Lähteülesaane - Mis?
+
+Lähteülesanne veebilehe loomise kontekstis on dokument või juhend, mis sisaldab kogu vajalikku teavet ja nõudeid, et arendajad, disainerid ja muud osapooled saaksid mõista, mida veebiprojektilt oodatakse
+
+---
+
+## Lähteülesanne - Lühidalt
+
+- Lühikirjeldus loodava veebilehe eesmärgist, nõuetest ja ajakavast;
+- Annab osapooltele selge ühise arusaama projekti ootustest;
+- Üldjuhul koostab lähteülesande veebilehe tellija;
+- Põhjalik ja konkreetne briif tagab projekti õnnestumise.
+
+---
+
+## Mida lähteülesanne sisaldab?
+
+- Ettevõtte kirjeldus
+- Projekti skoop
+- Projekti eesmärk
+- Sihtrühma määratlus
+- Peamised konkurendid
+- Tehnilised nõuded
+- Ajakava ja eelarve
+- Kokkulepete fikseerimine
+- Lansseerimine ja hooldus
+
+---
+
+## Lähteülesanne - Arutelu
+
+Blogi keskkonna loomine
+
+---
+
 ## Persona
 
 ---
