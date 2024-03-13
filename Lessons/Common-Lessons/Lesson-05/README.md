@@ -2,7 +2,7 @@
 
 - [Neljas loeng](../Lesson-04/README.md)
 - [Viienda loengu slaidid](Slides.md)
-- [Viienda loengu salvestus]()
+- [Viienda loengu salvestus](https://youtu.be/_eGY0da2J24)
 - [Kuues loeng](../Lesson-06/README.md)
 
 ## Teemad
