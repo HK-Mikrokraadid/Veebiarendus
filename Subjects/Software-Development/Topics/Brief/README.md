@@ -93,4 +93,4 @@ Lähteülesanne võib sisaldada järgmist:
 
 ## Lähteülesande koostamise mall
 
-- [Lähteülesande mall](briif.pdf)
+- [Lähteülesande mall](Briif.pdf)

@@ -51,4 +51,4 @@ Kaardistades kasutaja teekonna sel viisil, saavad tarkvaraarendajad ja disaineri
 
 ## Kasutaja teekonna kaardistamise mall
 
-- [Kasutaja teekonna kaardistamise mall](files/Kasutaja_teekond.pdf)
+- [Kasutaja teekonna kaardistamise mall](files/kasutaja_teekond.pdf)
