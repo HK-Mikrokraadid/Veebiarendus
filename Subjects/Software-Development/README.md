@@ -101,7 +101,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Koodi ülevaatus (Code Review)](./Topics/Code-Review/README.md)
+- [Koodi ülevaatuse juhend](./Topics/Code-Review-Guide/README.md)
 - [Dokumentatsioon](./Topics/Documentation/README.md)
 
 ### Loeng 5: Kasutajauuringud
@@ -111,26 +111,28 @@ Maht: 4h
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Kasutajauuringud
-- Nõuded
-- Kasutajalood
-- Personad
-- Kasutaja teekonnad
+  - [Lähteülesanne](./Topics/Brief/README.md)
+  - [Kasutajalood](./Topics/User-Stories/README.md)
+  - [Persoona](./Topics/Persona/README.md)
+  - [Stsenaarium](./Topics/Scenario/README.md)
+  - [Kasutaja teekonnad](./Topics/User-Journey/README.md)
 
 ### Loeng 6 (Zoom)
 
 Maht: 2h
 
 - Eelmise loengu meeldetuletus
+- Varasemates loengu teemades tekkinud probleemide lahendamine
 - Kodutööde ajal tekkinud probleemide lahendamine
 
-### Loeng 7: Prototüüpimine ja testimine
+### Loeng 7: Nipid ja trikid
 
 Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Prototüüpimine
-- Testimine
+- VS Code laiendused ja nipid
+- Käsurea kasutamine (*terminal*)
 
 ### Loeng 8 (Zoom)
 
@@ -138,6 +140,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- Prototüüpimine
 
 ### Loeng 9: Testimine
 
