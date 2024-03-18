@@ -50,8 +50,8 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 - [Andmestruktuurid](./Topics/Data-Structures/README.md)
 - [Funktsioonid](./Topics/Functions/README.md)
 - [Moodulid](./Topics/Modules/README.md)
-- [Silumine](./Topics/Debugging/README.md)
 - [NPM](./Topics/NPM/README.md)
+- [Silumine](./Topics/Debugging/README.md)
 
 ---
 
@@ -93,8 +93,8 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Tõepärasus](./Topics/Truthiness/README.md)
 - [Algoritmid](./Topics/Algorithms/README.md)
+- [Tõepärasus](./Topics/Truthiness/README.md)
 - [Andmestruktuurid (massiivid)](./Topics/Data-Structures/README.md#massiiv)
 - [Tsüklid](./Topics/Loops/README.md)
 - Harjutused
@@ -114,8 +114,12 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Javascripti parimad praktikad](./Topics/Best-Practices/README.md)
 - [Funktsioonid](./Topics/Functions/README.md)
+- Erinevaid Javascripti sisseehitatud funktsioone (meetodeid)
+  - Math.random()
+  - Math.floor()
+  - Math.ceil()
+  - Math.round()
 - Harjutused
 
 ### Loeng 6 (Zoom)
@@ -124,7 +128,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Moodulid](./Topics/Modules/README.md)
+- Eelnevates loengutes tekkinud küsimuste arutelu
 - Harjutused
 
 ### Loeng 7
@@ -133,9 +137,9 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- [Silumine](./Topics/Debugging/README.md)
-- [Moodulid - kolmanda osapoole moodulid](./Topics/Modules/README.md)
+- [Moodulid](./Topics/Modules/README.md)
 - [NPM](./Topics/NPM/README.md)
+- [Silumine](./Topics/Debugging/README.md)
 - Harjutused
 
 ### Loeng 8 (Zoom)
@@ -144,6 +148,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- [Javascripti parimad praktikad](./Topics/Best-Practices/README.md)
 - Harjutused
 
 ### Loeng 9
