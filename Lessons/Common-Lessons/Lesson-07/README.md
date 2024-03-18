@@ -9,6 +9,11 @@
 
 ### Tarkvaraarendus
 
+- VS Code laiendused ja nipid
+- Käsurea kasutamine (*terminal*)
 
 ### Programmeerimine
 
+- Moodulid
+- Node Package Manager (NPM)
+- 
