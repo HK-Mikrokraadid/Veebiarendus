@@ -43,7 +43,7 @@ console.log(findMax(numbers));
 **Näide:**
 
 ```javascript
-console.log(countWords("Tere tulemast JavaScripti maailma"));
+console.log(countWords('Tere tulemast JavaScripti maailma'));
 ```
 
 **Oodatav väljund:**
@@ -56,12 +56,12 @@ console.log(countWords("Tere tulemast JavaScripti maailma"));
 
 ## Ülesanne 4: Tähestiku Sagedus Massiivis
 
-**Kirjeldus:** Kirjuta kood, mis loeb etteantud sõnede massiivist, kui mitu korda iga täht esineb kõikides sõnades kokku. Tagasta objekt, kus võtmed on tähed ja väärtused on vastavad esinemiskorrad.
+**Kirjeldus:** Kirjuta funktsioon `countLetters`, mis loeb etteantud sõnede massiivist, kui mitu korda iga täht esineb kõikides sõnades kokku. Tagasta objekt, kus võtmed on tähed ja väärtused on vastavad esinemiskorrad.
 
 **Näide:**
 
 ```javascript
-const words = ["hello", "world", "javascript"];
+const words = ['hello', 'world', 'javascript'];
 
 console.log(countLetters(words));
 ```
@@ -95,7 +95,7 @@ console.log(countLetters(words));
 **Näide:**
 
 ```javascript
-const sentence = "JavaScript on väga võimas programmeerimiskeel";
+const sentence = 'JavaScript on väga võimas programmeerimiskeel';
 
 console.log(findLongestWord(sentence));
 ```
