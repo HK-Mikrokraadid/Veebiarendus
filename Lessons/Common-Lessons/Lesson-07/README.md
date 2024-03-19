@@ -10,7 +10,7 @@
 ### Tarkvaraarendus
 
 - [VS Code laiendused ja nipid](../../../Subjects/Software-Development/Topics/VSCode-Tips/README.md)
-- Käsurea kasutamine (*terminal*)
+- [Käsurea kasutamine (*terminal*)](../../../Subjects/Software-Development/Topics/Command-Line/README.md)
 
 ### Programmeerimine
 
