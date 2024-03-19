@@ -17,7 +17,6 @@ Pildi allikas: Dall-E by OpenAI
     - [Tee loomine](#tee-loomine)
   - [`os` moodul](#os-moodul)
     - [Operatsioonisüsteemi teave](#operatsioonisüsteemi-teave)
-  - [Harjutused](#harjutused)
 
 Sellest, mis on moodulid Javascriptis, saad lugeda siit: [Moodulid](../Modules/README.md).
 
@@ -182,6 +181,3 @@ console.log(os.cpus()); // [{ model: 'Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz'
 
 // ...
 ```
-
-## Harjutused
-
