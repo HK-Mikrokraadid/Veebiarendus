@@ -8,6 +8,33 @@ Sellest, mis on moodulid Javascriptis, saad lugeda siit: [Moodulid](../Modules/R
 
 Peale isetehtud ja isseehitatud moodulite, on NodeJS-is võimalik kasutada ka kolmandate osapoolte loodud mooduleid. Need moodulid on loodud teiste arendajate poolt ja on saadaval *[Node Package Manager (NPM)](https://www.npmjs.com/)* registrist.
 
+- [Kolmanda osapoole moodulid](#kolmanda-osapoole-moodulid)
+  - [Õpiväljundid](#õpiväljundid)
+  - [NPM](#npm)
+  - [package.json](#packagejson)
+  - [Kolmandate osapoolte moodulite paigaldamine](#kolmandate-osapoolte-moodulite-paigaldamine)
+  - [node\_modules kaust](#node_modules-kaust)
+  - [node\_modules kausta taastamine](#node_modules-kausta-taastamine)
+  - [Kolmandate osapoolte moodulite kasutamine](#kolmandate-osapoolte-moodulite-kasutamine)
+  - [Kolmandate osapoolte moodulite eemaldamine](#kolmandate-osapoolte-moodulite-eemaldamine)
+  - [Kolmanda osapoole mooduli paigaldamine ja kasutamine](#kolmanda-osapoole-mooduli-paigaldamine-ja-kasutamine)
+  - [Nimekiri kasulikest kolmandate osapoolte moodulitest](#nimekiri-kasulikest-kolmandate-osapoolte-moodulitest)
+  - [Harjutused](#harjutused)
+    - [Harjutus 1](#harjutus-1)
+    - [Harjutus 2](#harjutus-2)
+    - [Harjutus 3](#harjutus-3)
+    - [Harjutus 4](#harjutus-4)
+
+
+## Õpiväljundid
+
+Peale selle teema läbimist:
+
+- oskad selgitada, mis on kolmandate osapoolte moodulid
+- oskad luua `package.json` faili
+- oskad paigaldada kolmandate osapoolte mooduleid
+- oskad kasutada kolmandate osapoolte mooduleid
+
 ## NPM
 
 NPM, ehk Node Package Manager, on NodeJS-i pakihaldussüsteem, mis võimaldab arendajatel alla laadida ja kasutada teiste loodud mooduleid. NPM on NodeJS-i vaikimisi kaasas ja seda saab kasutada käsurealt. Kolmanda osapoole mooduleid talletatakse [NPM](https://www.npmjs.com/) registris, kust on võimalik neid alla laadida. Registrist võib leida tuhandeid mooduleid, mis on loodud erinevate probleemide lahendamiseks, nagu näiteks:
