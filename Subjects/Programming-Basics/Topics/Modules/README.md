@@ -46,7 +46,9 @@ const myModule = { // defineerida moodul nimega myModule
 
 module.exports = myModule; // eksportida moodul nimega myModule
 ```
+
 või
+
 ```javascript
 module.exports = { myModule, myModule1 }; // eksportida mitu moodulit nimega myModule ja myModule1
 ```
@@ -58,7 +60,9 @@ Mooduli importimiseks peame kasutama `require` võtmesõna, millele järgneb fai
 ```javascript
 const myModule = require('./moduleFileName'); // importida moodul failist nimega `moduleFileName.js`
 ```
+
 või
+
 ```javascript
 import { myModule, myModule1 } from './moduleFileName'; // importida mitu moodulit nimega myModule ja myModule1 failist `moduleFileName.js`
 ```
@@ -133,6 +137,7 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 
   sayHello();
   ```
+
 ![Moodulid](modules.gif)
 
 </details>
@@ -168,6 +173,7 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
   sayHello();
   sayHelloTo('Jaan');
   ```
+
 </details>
 
 ### Harjutus 3 - Objekti eksportimine
@@ -179,6 +185,7 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 ) ja `cube` (tagastab numbri kuubi). Eksporti see objekt. Failis `index.js`, impordi see objekt ja kasuta selle meetodeid.
 
 > Vihje: Funktsioonide lisamiseks objekti saad kasutada järgmist süntaksit:
+>
 > ```javascript
 > const myObject = {
 >   myFunction() {
@@ -187,7 +194,8 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 > }
 > ```
 >
-> Vihje: Funktsiooni kutsumiseks objektist saad kasutada järgmist süntaksit:
+> Vihje: Funktsiooni kutsumiseks objektist saad kasutada järgmist süntaksit:,
+>
 > ```javascript
 > myObject.myFunction();
 > ```
