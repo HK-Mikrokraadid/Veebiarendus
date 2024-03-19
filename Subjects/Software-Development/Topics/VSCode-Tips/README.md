@@ -1,4 +1,4 @@
-# Visual Studi Code Tips
+# Visual Studio Code Tips
 
 ![VS Code nipid](VSCode-Tips.webp)
 

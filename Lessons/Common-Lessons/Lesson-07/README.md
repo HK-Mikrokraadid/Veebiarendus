@@ -9,7 +9,7 @@
 
 ### Tarkvaraarendus
 
-- VS Code laiendused ja nipid
+- [VS Code laiendused ja nipid](../../../Subjects/Software-Development/Topics/VSCode-Tips/README.md)
 - Käsurea kasutamine (*terminal*)
 
 ### Programmeerimine
