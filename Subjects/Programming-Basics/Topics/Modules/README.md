@@ -2,6 +2,9 @@
 
 Selles teemas räägime sellest, mis on moodulid Javascriptis ja kuidas neid kasutada.
 
+Sisseehitatud moodulitest saad lugeda [siit](../Modules-Built-In/README.md).
+Kolmanda osapoole moodulitest saad lugeda [siit](../Modules-Third-Party/README.md).
+
 ![Moodulid](Modules.webp)
 
 Pildi allikas: Dall-E by OpenAI

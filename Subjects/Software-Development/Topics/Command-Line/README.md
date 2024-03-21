@@ -133,4 +133,3 @@ Siiani oleme kasutanud Git-i läbi graafilise kasutajaliidese ja võime seda ka 
 - `git reset --hard` - Tühistab viimase `commit`-i ja kustutab ka muudatused;
 - `git reset --hard <commiti id>` - Tühistab kõik muudatused ja `commit`-id kuni antud `commit`-ini;
 - `git reset --hard origin/master` - Tühistab kõik muudatused ja `commit`-id kuni kaugrepos oleva `master` haru seisundini;
-

@@ -17,14 +17,35 @@ Peale selle teema läbimist:
 
 Lühiklahvikombinatsioonid on kiire viis, kuidas kasutada VS Code'i funktsioone. Siin on mõned kasulikud lühiklahvikombinatsioonid:
 
+### Otsing
+
 - `Ctrl + P` - Avab kiire otsingu, kus saad otsida faile projekti kaustast
-- `Ctrl + Shift + N` - Avab uue VS Code'i akna
-- `Ctrl + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone
+- `Ctrl + F` - Avab otsingu praeguses failis
 - `Ctrl + Shift + F` - Avab globaalse otsingu kogu projekti kaustast
-- `Ctrl + Shift + E` - Avab küljepaneeli, kus saad näha kõiki projekti faile ja kaustu
+- `Ctrl + H` - Avab asendamise praeguses failis
+- `Ctrl + Shift + H` - Avab globaalse asendamise kogu projekti kaustast
+
+### VS Code klahvikombinatsioonid - Kommentaarid
+
 - `Alt + Shift + A` - Valitud ridade 'välja' ja 'sisse' kommenteerimine
+
+### Kopeerimine/Lõikamine/Kustutamine/Valimine
+
 - `Alt + Shift + Nool üles` - Valitud ridade ülespoole kopeerimine
 - `Alt + Shift + Nool alla` - Valitud ridade allapoole kopeerimine
+- `Ctrl + C` - Kopeerib valitud rea (ka siis, kui rida pole valitud)
+- `Ctrl + X` - Lõikab valitud rea (ka siis, kui rida pole valitud)
+- `Ctrl + Shift + K` - Kustutab valitud rea, kus kursor asub (ei lähe lõikelauale)
+- `Ctr + Shift + L` - Valib kõik esinemised, kus kursor asub
+- `Ctrl + D` - Valib järgmise esinemise, kus kursor asub
+
+### Muud
+
+- `Ctrl + Shift + E` - Avab küljepaneeli, kus saad näha kõiki projekti faile ja kaustu
+- `Ctrl + Shift + X` - Avab küljepaneeli, kus saad näha kõiki laiendusi
+- `Ctrl + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone (*Command Palette*)
+- `Ctrl + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
+- `Ctrl + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
 
 ## Kasulikud laiendused
 
