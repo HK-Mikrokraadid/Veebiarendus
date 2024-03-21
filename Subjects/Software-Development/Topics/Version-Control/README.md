@@ -4,13 +4,15 @@ Selles teemas vaatame versioonihalduse põhimõisteid, ajalugu ja keskseid mõis
 
 ![Version Control](Version-Control.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 - [Versioonihaldus](#versioonihaldus)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on versioonihaldus?](#mis-on-versioonihaldus)
   - [Miks on versioonihaldus oluline?](#miks-on-versioonihaldus-oluline)
   - [Versioonihalduse lühiajalugu](#versioonihalduse-lühiajalugu)
-  - [Keskne vs hajutatud versioonihaldussüsteemid](#keskne-vs-hajutatud-versioonihaldussüsteemid)
-    - [Keskne versioonihaldussüsteemid (`CVCS`)](#keskne-versioonihaldussüsteemid-cvcs)
+  - [Kesksed vs hajutatud versioonihaldussüsteemid](#kesksed-vs-hajutatud-versioonihaldussüsteemid)
+    - [Kesksed versioonihaldussüsteemid (`CVCS`)](#kesksed-versioonihaldussüsteemid-cvcs)
     - [Hajutatud versioonihaldussüsteemid (`DVCS`)](#hajutatud-versioonihaldussüsteemid-dvcs)
     - [Võrdlus](#võrdlus)
   - [Harjutused](#harjutused)

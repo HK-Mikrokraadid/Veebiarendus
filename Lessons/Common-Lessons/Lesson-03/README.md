@@ -27,7 +27,7 @@
 - [Tsüklid](../../../Subjects/Programming-Basics/Topics/Loops/README.md)
 - Harjutused
 
-## Kodune töö
+## Kodune töö - tähtaeg: enne järgmist loengut
 
 - Loe läbi tänase loengu materjalid
 - Tee läbi materjalides olevad harjutused (need, mis puudutavad tänaseid teemasid)

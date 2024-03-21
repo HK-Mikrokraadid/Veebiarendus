@@ -9,7 +9,7 @@ Kui õppematerjalides olevad ülesanded on lahendatud, kuid sooovid veel harjuta
 **Näide:**
 
 ```javascript
-let fruits = {
+const fruits = {
   apple: 5,
   banana: 2,
   orange: 7
@@ -20,14 +20,14 @@ let fruits = {
 
 > **Vihje:** Saad kasutada [`Object.keys`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) meetodit, et saada objekti võtmed massiivina.
 
-### Ülesanne 2: Objekti Väärtuste Summa
+## Ülesanne 2: Objekti Väärtuste Summa
 
 **Kirjeldus:** Antud on objekt, mis sisaldab erinevate inimeste vanuseid. Kirjutage kood, mis arvutab ja väljastab kõikide inimeste vanuste summa.
 
 **Näide:**
 
 ```javascript
-let ages = {
+const ages = {
   John: 25,
   Mary: 31,
   Chris: 16
@@ -38,14 +38,14 @@ let ages = {
 
 > **Vihje:** Saad kasutada [`Object.values`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values) meetodit, et saada objekti väärtused massiivina.
 
-### Ülesanne 3: Objekti Elementide Filtreerimine
+## Ülesanne 3: Objekti Elementide Filtreerimine
 
 **Kirjeldus:** Antud on objekt, mis sisaldab erinevate toodete hindu. Kirjutage kood, mis loob uue objekti, kuhu kuuluvad ainult need tooted, mille hind on väiksem kui `10`.
 
 **Näide:**
 
 ```javascript
-let prices = {
+const prices = {
   book: 15,
   pen: 5,
   notebook: 8,
@@ -72,10 +72,10 @@ let prices = {
 **Näide:**
 
 ```javascript
-let people = [
-  { name: John, age: 25 },
-  { name: Mary, age: 31 },
-  { name: Chris, age: 16 }
+const people = [
+  { name: 'John', age: 25 },
+  { name: 'Mary', age: 31 },
+  { name: 'Chris', age: 16 }
 ];
 ```
 
@@ -88,10 +88,10 @@ let people = [
 **Näide:**
 
 ```javascript
-let books = [
-  { title: The Hobbit, author: J.R.R. Tolkien, read: true },
-  { title: Harry Potter, author: J.K. Rowling, read: false },
-  { title: 1984, author: George Orwell, read: true }
+const books = [
+  { title: 'The Hobbit, author: J.R.R. Tolkien', read: true },
+  { title:' Harry Potter, author: J.K. Rowling', read: false },
+  { title: '1984, author: George Orwell', read: true }
 ];
 ```
 

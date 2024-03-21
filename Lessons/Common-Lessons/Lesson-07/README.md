@@ -9,11 +9,12 @@
 
 ### Tarkvaraarendus
 
-- VS Code laiendused ja nipid
-- Käsurea kasutamine (*terminal*)
+- [VS Code laiendused ja nipid](../../../Subjects/Software-Development/Topics/VSCode-Tips/README.md)
+- [Käsurea kasutamine (*terminal*)](../../../Subjects/Software-Development/Topics/Command-Line/README.md)
 
 ### Programmeerimine
 
 - Moodulid
-- Node Package Manager (NPM)
-- 
+  - [Ise loodud moodulid](../../../Subjects/Programming-Basics/Topics/Modules/README.md)
+  - [Sisseehitatud moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md)
+  - [Kolmanda osapoole moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Third-Party/README.md)

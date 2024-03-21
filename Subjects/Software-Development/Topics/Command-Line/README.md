@@ -6,10 +6,12 @@
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on käsurida?](#mis-on-käsurida)
     - [Windows](#windows)
-    - [Linux](#linux)
+    - [MacOS/Linux](#macoslinux)
   - [Node projekt ja node moodulid](#node-projekt-ja-node-moodulid)
+    - [Node programmide käivitamine](#node-programmide-käivitamine)
     - [Projekti alustamine](#projekti-alustamine)
     - [Moodulite paigaldamine ja eemaldamine](#moodulite-paigaldamine-ja-eemaldamine)
+    - [Node projekti sõltuvuste paigaldamine](#node-projekti-sõltuvuste-paigaldamine)
   - [Git-i käsud](#git-i-käsud)
 
 ## Õpiväljundid
@@ -35,33 +37,45 @@ Samas võib juhtuda, et oleme käsu käivitamiseks sattunud valesse kausta ja pe
 
 ### Windows
 
-- `cd` - Liigub ühest kaustast teise;
+- `cd kaustanimi` - Liigub ühest kaustast teise;
+- `cd ..` - Liigub ühe kausta võrra ülespoole;
 - `dir` - Näitab kausta sisu;
-- `mkdir` - Loob uue kausta;
+- `mkdir kaustanimi` - Loob uue kausta;
 - `del` - Kustutab faili;
 - `echo` - Kirjutab teksti konsooli;
-- `type` - Näitab faili sisu;
+- `type failinimi` - Näitab faili sisu;
 - `cls` - Puhastab konsooli;
 - `exit` - Sulgeb konsooli;
 
-### Linux
+### MacOS/Linux
 
 - `pwd` - Näitab, millises kaustas me hetkel oleme;
 - `ls` - Näitab kausta sisu;
-- `cd` - Liigub ühest kaustast teise;
-- `mkdir` - Loob uue kausta;
-- `rm` - Kustutab faili;
-- `touch` - Loob uue faili;
+- `cd kaustanimi` - Liigub ühest kaustast teise;
+- `cd ..` - Liigub ühe kausta võrra ülespoole;
+- `mkdir kaustanimi` - Loob uue kausta;
+- `rm failinimi` - Kustutab faili;
+- `mv failinimi uusfailinimi` - Muudab faili nime;
+- `mv failinimi kaustanimi` - Liigutab faili teise kausta;
+- `cp failinimi kaustanimi` - Kopeerib faili teise kausta;
+- `cat failinimi` - Näitab faili sisu;
+- `touch failinimi` - Loob uue faili;
 - `clear` - Puhastab konsooli;
 - `exit` - Sulgeb konsooli;
-
-Näiteks:
 
 ## Node projekt ja node moodulid
 
 Et kasutada NodeJS-is kolmandate osapoolte mooduleid, peame samuti tõenäoliselt kasutama käsurida ja mõningaid käsklusi, et neid mooduleid paigaldada ja hallata.
 
 > Pane tähele, et järgmistest käskudest rääkides eeldame, et oled juba loonud NodeJS projekti jaoks kausta ja käsud sisestatakse samas kaustas.
+
+### Node programmide käivitamine
+
+NodeJS programmide käivitamiseks kasutame järgmist käsku:
+
+```bash
+node app.js
+```
 
 ### Projekti alustamine
 
@@ -93,14 +107,29 @@ Node moodulite eemaldamiseks kasutame samuti `npm` käsku, millele järgneb omak
 npm uninstall express
 ```
 
+### Node projekti sõltuvuste paigaldamine
+
+Kui meil on olemas `package.json` fail, kus on kirjas kõik projekti sõltuvused, siis saame kõik sõltuvused paigaldada järgmise käsuga:
+
+```bash
+npm install
+```
+
 ## Git-i käsud
 
 Siiani oleme kasutanud Git-i läbi graafilise kasutajaliidese ja võime seda ka edaspidi nii teha, kuid on oluline teada ka mõningaid Git-i käsklusi, et saaksime vajadusel kasutada Git-i käsurealt.
 
-- `git clone`
-- `git status`
-- `git add`
-- `git commit`
-- `git push`
-- `git pull`
-
+- `git clone <url>` - Kloonib kaugrepos oleva projekti enda arvutisse;
+- `git status` - Näitab muudatusi, mis on tehtud failides;
+- `git add` - Lisab failid, mille muudatused soovime `commit`-ida;
+- `git commit -m "Muudatuste kirjeldus"` - Salvestab muudatused versioonihaldusse koos kirjeldusega;
+- `git push` - Saadab `commit`-itud muudatused kaugreposse;
+- `git pull` - Tõmbab kaugrepos olevad muudatused enda arvutisse;
+- `git log` - Näitab kõiki `commit`-e, mis on tehtud projekti ajaloos;
+- `git branch` - Näitab kõiki olemasolevaid haru (branch) ja näitab, millisel harul me hetkel oleme;
+- `git checkout -b uusharu` - Loob uue haru ja liigub sellele;
+- `git merge haru` - Liidab haru, mille nimi on `haru`, praeguse haruga kokku;
+- `git reset` - Tühistab viimase `commit`-i, kuid jätab muudatused alles;
+- `git reset --hard` - Tühistab viimase `commit`-i ja kustutab ka muudatused;
+- `git reset --hard <commiti id>` - Tühistab kõik muudatused ja `commit`-id kuni antud `commit`-ini;
+- `git reset --hard origin/master` - Tühistab kõik muudatused ja `commit`-id kuni kaugrepos oleva `master` haru seisundini;
