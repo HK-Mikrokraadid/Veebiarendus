@@ -19,11 +19,11 @@ Martti Raavel
 
 ## VS Code klahvikombinatsioonid - Otsing
 
-- `Ctrl + P` - Avab kiire otsingu, kus saad otsida faile projekti kaustast
-- `Ctrl + F` - Avab otsingu praeguses failis
-- `Ctrl + Shift + F` - Avab globaalse otsingu kogu projekti kaustast
-- `Ctrl + H` - Avab asendamise praeguses failis
-- `Ctrl + Shift + H` - Avab globaalse asendamise kogu projekti kaustast
+- `Ctrl (Cmd) + P` - Avab kiire otsingu, kus saad otsida faile projekti kaustast
+- `Ctrl (Cmd) + F` - Avab otsingu praeguses failis
+- `Ctrl (Cmd) + Shift + F` - Avab globaalse otsingu kogu projekti kaustast
+- `Ctrl (Cmd) + H` - Avab asendamise praeguses failis
+- `Ctrl (Cmd) + Shift + H` - Avab globaalse asendamise kogu projekti kaustast
 
 ---
 
@@ -37,28 +37,28 @@ Martti Raavel
 
 - `Alt + Shift + Nool üles` - Valitud ridade ülespoole kopeerimine
 - `Alt + Shift + Nool alla` - Valitud ridade allapoole kopeerimine
-- `Ctrl + C` - Kopeerib valitud rea (ka siis, kui rida pole valitud)
-- `Ctrl + X` - Lõikab valitud rea (ka siis, kui rida pole valitud)
-- `Ctrl + Shift + K` - Kustutab valitud rea, kus kursor asub (ei lähe lõikelauale)
-- `Ctr + Shift + L` - Valib kõik esinemised, kus kursor asub
-- `Ctrl + D` - Valib järgmise esinemise, kus kursor asub
+- `Ctrl (Cmd) + C` - Kopeerib valitud rea (ka siis, kui rida pole valitud)
+- `Ctrl (Cmd) + X` - Lõikab valitud rea (ka siis, kui rida pole valitud)
+- `Ctrl (Cmd) + Shift + K` - Kustutab valitud rea, kus kursor asub (ei lähe lõikelauale)
+- `Ctr (Cmd) + Shift + L` - Valib kõik esinemised, kus kursor asub
+- `Ctrl (Cmd) + D` - Valib järgmise esinemise, kus kursor asub
 
 ---
 
 ## VS Code klahvikombinatsioonid - Muud
 
-- `Ctrl + Shift + E` - Avab küljepaneeli, kus saad näha kõiki projekti faile ja kaustu
-- `Ctrl + Shift + X` - Avab küljepaneeli, kus saad näha kõiki laiendusi
-- `Ctrl + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone (*Command Palette*)
-- `Ctrl + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
-- `Ctrl + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
+- `Ctrl (Cmd) + Shift + E` - Avab küljepaneeli, kus saad näha kõiki projekti faile ja kaustu
+- `Ctrl (Cmd) + Shift + X` - Avab küljepaneeli, kus saad näha kõiki laiendusi
+- `Ctrl (Cmd) + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone (*Command Palette*)
+- `Ctrl (Cmd) + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
+- `Ctrl (Cmd) + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
 
 ---
 
 ## VS Code laiendused
 
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - Markdowni lihtsamaks redigeerimiseks ja eelvaateks
-- [Preitter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Koodi automaatseks vormindamiseks
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Koodi automaatseks vormindamiseks
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) - Git ajaloo graafiline kuvamine
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Kommentaaride värvimine vastavalt nende tüübile
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Arendusserveri käivitamine ja veebilehtede automaatne värskendamine
