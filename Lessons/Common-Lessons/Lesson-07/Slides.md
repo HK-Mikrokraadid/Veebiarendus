@@ -67,6 +67,33 @@ Martti Raavel
 
 ---
 
+## Code Snippets
+
+Laiendusena või isetehtud:
+
+`File -> Preferences -> Configure User Snippets`
+
+---
+
+## Code Snippets - Isetehtud
+```json
+"Print to console": {
+    "prefix": "cl",
+    "body": [
+        "console.log('$1');",
+        "$2"
+    ],
+    "description": "Log output to console"
+},
+```
+---
+
+## Code Snippets - Laiendused
+
+JavaScript (ES6) code snippets
+
+---
+
 ## Käsurea kasutamine
 
 ---

@@ -61,3 +61,51 @@ VS Code'i laiendused võivad olla väga kasulikud, kuna need võimaldavad laiend
 - [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Markdowni failide lintimine (korrektsuse kontroll) ja stiilinõuete kontrollimine
 - [Icon Themes](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) - Ikoonide teema muutmine vastavalt failitüübile
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Javascripti lintimine (korrektsuse kontroll) ja stiilinõuete kontrollimine
+
+## Code Snippets
+
+VS Code'is on võimalik luua oma kohandatud kooditükke (`Code Snippets`), mida saab kasutada kiireks koodi kirjutamiseks. Neid tükikesi saab kasutada näiteks erinevate koodiplokkide, mallide või korduvate koodijuppide jaoks. VS Code-s töötavad need nii, et kui eelnevalt kirjeldatud lühiaklahvikombinatsiooni abil sisestad kooditüki nime, siis VS Code asendab selle kooditükiga.
+
+Siin on mõned näited kohandatud kooditükkidest:
+
+```json
+{
+    "Print to console": {
+        "prefix": "log",
+        "body": [
+            "console.log('$1');",
+            "$2"
+        ],
+        "description": "Log output to console"
+    },
+    "For loop": {
+        "prefix": "for",
+        "body": [
+            "for (let ${1:i} = 0; ${1:i} < ${2:array}.length; ${1:i}++) {",
+            "\t$3",
+            "}"
+        ],
+        "description": "For loop"
+    }
+}
+```
+
+Eeltoodud koodinäites asendatakse `log` lühiklahvikombinatsiooni kasutades kooditükk järgmise koodijupiga:
+
+```javascript
+console.log('');
+```
+
+ja `for` lühiklahvikombinatsiooni kasutades kooditükk järgmise koodijupiga:
+
+```javascript
+for (let i = 0; i < array.length; i++) {
+    // code here
+}
+```
+
+Kohandatud kooditükke saab luua VS Code'i seadete all, valides `File -> Preferences -> Configure User Snippets`.
+
+Samuti on võimalik kasutada eelnevalt kellegi teise poolt loodud kooditükke, mida saab leida VS Code'i laienduste hulgast. Näiteks saab kasutada [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) laiendust, mis sisaldab palju kasulikke kooditükke JavaScripti jaoks.
+
+`Code Snippet`-ite kohta saad rohkem lugeda [siit] (https://code.visualstudio.com/docs/editor/userdefinedsnippets)
