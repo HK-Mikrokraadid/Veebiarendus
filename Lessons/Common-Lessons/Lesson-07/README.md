@@ -20,8 +20,6 @@
   - [Moodulid](../../../Subjects/Programming-Basics/Topics/Modules/README.md)
   - [Sisseehitatud moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md)
   - [Kolmanda osapoole moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Third-Party/README.md)
-<<<<<<< Updated upstream
-=======
 
 ## Kodutöö - tähtaeg: enne järgmist loengut
 
@@ -39,4 +37,3 @@
     - Erista nimekirjas tegevused, mis on tehtud ja mis on tegemata (värvide abil)
     - Lisa võimalus näidata ainult tehtud või ainult tegemata tegevusi
 - Esita kodune töö läbi koodi ülevaatuse (`Code review`)
->>>>>>> Stashed changes
