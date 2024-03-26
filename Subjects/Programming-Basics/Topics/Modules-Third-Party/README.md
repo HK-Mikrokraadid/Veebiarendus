@@ -25,7 +25,6 @@ Peale isetehtud ja isseehitatud moodulite, on NodeJS-is võimalik kasutada ka ko
     - [Harjutus 3](#harjutus-3)
     - [Harjutus 4](#harjutus-4)
 
-
 ## Õpiväljundid
 
 Peale selle teema läbimist:
@@ -213,6 +212,7 @@ if (username === 'admin' && password === '1234') {
 }
 
 ```
+
 </details>
 
 ### Harjutus 2
@@ -251,3 +251,5 @@ Väljundi värvimiseks `colors` mooduliga saad kasutada näiteks järgmiseid mee
 `console.log(colors.red('Vale nimi või parool!'))` - kuvab teksti punasena
 
 </details>
+
+Kui Soovid lahendada lisaülesandeid, siis leiad need [siit](Exercises.md)

@@ -20,3 +20,18 @@
   - [Ise loodud moodulid](../../../Subjects/Programming-Basics/Topics/Modules/README.md)
   - [Sisseehitatud moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md)
   - [Kolmanda osapoole moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Third-Party/README.md)
+
+## Kodutöö - tähtaeg: enne järgmist loengut
+
+- Loe läbi tänase loengu materjalid
+- Tee läbi materjalides olevad harjutused
+  - [Ise loodud moodulid](../../../Subjects/Programming-Basics/Topics/Modules/README.md#harjutused)
+  - [Kolmanda osapoole moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Third-Party/README.md#harjutused)
+  - [Moodulite lisaülesanded](../../../Subjects/Programming-Basics/Topics/Modules-Third-Party/Exercises.md) (soovi korral)
+  - Soovi korral võid ka täiendada loengus tehtud `TODO` rakendust:
+    - Lisa kontrollid, kas uue `TODO` lisamisel on tegevus lisatud - kui ei ole, siis väljasta vastav teade
+    - Lisa kontroll, kas tegevuse oleku muutusel on valitud `id`-ga tegevus olemas - kui ei ole, siis väljasta vastav teade
+    - Tee tegevuste nimekiri ilusamaks (et ei näidataks lihtsalt objektide massiivi, vaid tegevusi ükshaaval)
+    - Erista nimekirjas tegevused, mis on tehtud ja mis on tegemata (värvide abil)
+    - Lisa võimalus näidata ainult tehtud või ainult tegemata tegevusi
+- Esita kodune töö läbi koodi ülevaatuse (`Code review`)
