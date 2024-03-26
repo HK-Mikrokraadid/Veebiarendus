@@ -38,7 +38,8 @@ Selle aine läbinud õpilane:
   - [Markdown](./Topics/Markdown/README.md)
   - [Git ja Githubi parimad tavad](./Topics/Git-Best-Practices/README.md)
   - [Github Issue](./Topics/Github-Issue/README.md)
-- [Projektijuhtimine](./Topics/Project-Management/README.md)
+- [Koodi kvaliteet](./Topics/Code-Quality/README.md)
+- [Koodi ülevaatus (Code Review)](./Topics/Code-Review/README.md)
 - [Tarkvaraarenduse elutsükkel](./Topics/SDLC/README.md)
 - [Rollid tarkvaraarenduses](./Topics/Roles/README.md)
 - [Tarkvaraarenduse meetodid](./Topics/SDLC/README.md#common-sdlc-models)
@@ -49,14 +50,14 @@ Selle aine läbinud õpilane:
   - [Stsenaarium](./Topics/Scenario/README.md)
   - [Kasutaja teekond](./Topics/User-Journey/README.md)
 - [Dokumentatsioon](./Topics/Documentation/README.md)
+- [VS Code laiendused ja nipid](./Topics/VSCode-Tips/README.md)
+- [Käsurida](./Topics/Command-Line/README.md)
 - [Prototüüpimine](./Topics/Prototyping/README.md)
 - [Testimine](./Topics/Testing/README.md)
 
 ---
 
-- [Koodi kvaliteet](./Topics/Code-Quality/README.md)
 - [ESLint](./Topics/ESLint/README.md)
-- [Käsurida](./Topics/Command-Line/README.md)
 
 ## Loengud (esialgne plaan, mis võib muutuda kursuse jooksul)
 

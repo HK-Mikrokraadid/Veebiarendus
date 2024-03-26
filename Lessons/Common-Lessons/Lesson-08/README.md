@@ -10,6 +10,9 @@
 
 ### Tarkvaraarendus
 
+- [Prototüüpimine](../../../Subjects/Software-Development/Topics/Prototyping/README.md)
 
 ### Programmeerimine
 
+- [Javascripti parimad praktikad](../../../Subjects/Software-Development/Topics/Javascript-Best-Practices/README.md)
+- [Silumine](../../../Subjects/Software-Development/Topics/Debugging/README.md)
