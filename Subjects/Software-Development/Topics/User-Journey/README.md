@@ -34,7 +34,7 @@ Tüüpiline kasutaja teekond võib sisaldada mitmeid võtmeetappe, näiteks:
 
 - **Teadlikkus**: kasutaja saab tootest või teenusest teada reklaami, sotsiaalmeedia või suusõnalise info kaudu.
 - **Uuringud**: kasutaja viib läbi uuringuid toote või teenuse kohta lisateabe saamiseks, sealhulgas arvustusi lugedes, veebisaiti külastades või videot vaadates.
-- **Registreerumine või ost**: kasutaja otsustab toote või teenuse.
+- **Registreerumine või ost**: kasutaja teeb otsuse toote või teenuse osas.
 - **Onboarding**: kasutajat juhendatakse toote või teenuse kasutusele võtmisel.
 - **Kasutamine**: kasutaja kasutab toodet või teenust regulaarselt, puutudes kokku kasutjaakogemust paremaks muutvate omaduste ja funktsionaalsutega.
 - **Tugi**: kasutajal võib tekkida toodete või teenusega probleeme või probleeme ning otsib arendaja või tugimeeskonna tuge.
@@ -51,4 +51,4 @@ Kaardistades kasutaja teekonna sel viisil, saavad tarkvaraarendajad ja disaineri
 
 ## Kasutaja teekonna kaardistamise mall
 
-- [Kasutaja teekonna kaardistamise mall](files/Kasutaja_teekond.pdf)
+- [Kasutaja teekonna kaardistamise mall](files/kasutaja_teekond.pdf)

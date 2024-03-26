@@ -159,7 +159,7 @@ Kasutajalugu on lihtne ühelauseline tarkvararakenduse funktsiooni või funktsio
 
 ---
 
-## Kasutaajalood 2
+## Kasutajalood 2
 
 Kasutajalood on levinud tehnika, mida kasutatakse agiilses tarkvaraarenduses, et kirjeldada rakenduse nõudeid nii, et neid on lihtne mõista ja prioriteete seada.
 
@@ -176,7 +176,7 @@ Kasutajalood on levinud tehnika, mida kasutatakse agiilses tarkvaraarenduses, et
 - Tuvastage kasutaja
 - Kirjeldage toimingut
 - Nimetage kasu
-- Prioriseerige
+- Prioritiseerige
 
 ---
 
@@ -251,11 +251,7 @@ Loo vähemalt üks stsenaarium blogimise keskkonna kasutaja kohta.
 
 ---
 
-## Kasutaja teekond 1
-
-Kasutaja teekond, mida tuntakse ka kui kasutaja teekonnakaarti või kliendi teekonnakaarti, on tööriist, mida kasutatakse tarkvaraarenduses, et visualiseerida kasutaja kogemus toote või teenusega suheldes.
-
-## Kasutaja teekond 2
+## Kasutaja teekond
 
 Kasutaja teekond, mida tuntakse ka kui kasutaja teekonnakaarti või kliendi teekonnakaarti, on tööriist, mida kasutatakse tarkvaraarenduses, et visualiseerida kasutaja kogemus toote või teenusega suheldes.
 

@@ -35,12 +35,12 @@ Martti Raavel
 
 ## VS Code klahvikombinatsioonid - Kopeerimine/Lõikamine/Kustutamine/Valimine
 
-- `Alt + Shift + Nool üles` - Valitud ridade ülespoole kopeerimine
-- `Alt + Shift + Nool alla` - Valitud ridade allapoole kopeerimine
+- `Alt (Option) + Shift + Nool üles` - Valitud ridade ülespoole kopeerimine
+- `Alt (Option) + Shift + Nool alla` - Valitud ridade allapoole kopeerimine
 - `Ctrl (Cmd) + C` - Kopeerib valitud rea (ka siis, kui rida pole valitud)
 - `Ctrl (Cmd) + X` - Lõikab valitud rea (ka siis, kui rida pole valitud)
 - `Ctrl (Cmd) + Shift + K` - Kustutab valitud rea, kus kursor asub (ei lähe lõikelauale)
-- `Ctr (Cmd) + Shift + L` - Valib kõik esinemised, kus kursor asub
+- `Ctrl (Cmd) + Shift + L` - Valib kõik esinemised, kus kursor asub
 - `Ctrl (Cmd) + D` - Valib järgmise esinemise, kus kursor asub
 
 ---
@@ -50,8 +50,8 @@ Martti Raavel
 - `Ctrl (Cmd) + Shift + E` - Avab küljepaneeli, kus saad näha kõiki projekti faile ja kaustu
 - `Ctrl (Cmd) + Shift + X` - Avab küljepaneeli, kus saad näha kõiki laiendusi
 - `Ctrl (Cmd) + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone (*Command Palette*)
-- `Ctrl (Cmd) + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
-- `Ctrl (Cmd) + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
+- `Ctrl (Cmd) + Alt (Option) + Nool üles/Nool alla` - Mitu kursorit üles/alla
+- `Ctrl (Cmd) + Alt (Option) + Nool üles/Nool alla` - Mitu kursorit üles/alla
 
 ---
 
@@ -64,6 +64,35 @@ Martti Raavel
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Arendusserveri käivitamine ja veebilehtede automaatne värskendamine
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - Reaalajas koostöö teiste arendajatega
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Koodis olevate vigade ja hoiatuste esiletõstmine
+
+---
+
+## Code Snippets
+
+Laiendusena või isetehtud:
+
+`File -> Preferences -> Configure User Snippets`
+
+---
+
+## Code Snippets - Isetehtud
+
+```json
+"Print to console": {
+    "prefix": "cl",
+    "body": [
+        "console.log('$1');",
+        "$2"
+    ],
+    "description": "Log output to console"
+},
+```
+
+---
+
+## Code Snippets - Laiendused
+
+JavaScript (ES6) code snippets
 
 ---
 
