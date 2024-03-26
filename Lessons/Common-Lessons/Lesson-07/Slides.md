@@ -35,12 +35,12 @@ Martti Raavel
 
 ## VS Code klahvikombinatsioonid - Kopeerimine/Lõikamine/Kustutamine/Valimine
 
-- `Alt + Shift + Nool üles` - Valitud ridade ülespoole kopeerimine
-- `Alt + Shift + Nool alla` - Valitud ridade allapoole kopeerimine
+- `Alt (Option) + Shift + Nool üles` - Valitud ridade ülespoole kopeerimine
+- `Alt (Option) + Shift + Nool alla` - Valitud ridade allapoole kopeerimine
 - `Ctrl (Cmd) + C` - Kopeerib valitud rea (ka siis, kui rida pole valitud)
 - `Ctrl (Cmd) + X` - Lõikab valitud rea (ka siis, kui rida pole valitud)
 - `Ctrl (Cmd) + Shift + K` - Kustutab valitud rea, kus kursor asub (ei lähe lõikelauale)
-- `Ctr (Cmd) + Shift + L` - Valib kõik esinemised, kus kursor asub
+- `Ctrl (Cmd) + Shift + L` - Valib kõik esinemised, kus kursor asub
 - `Ctrl (Cmd) + D` - Valib järgmise esinemise, kus kursor asub
 
 ---
@@ -50,8 +50,8 @@ Martti Raavel
 - `Ctrl (Cmd) + Shift + E` - Avab küljepaneeli, kus saad näha kõiki projekti faile ja kaustu
 - `Ctrl (Cmd) + Shift + X` - Avab küljepaneeli, kus saad näha kõiki laiendusi
 - `Ctrl (Cmd) + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone (*Command Palette*)
-- `Ctrl (Cmd) + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
-- `Ctrl (Cmd) + Alt + Nool üles/Nool alla` - Mitu kursorit üles/alla
+- `Ctrl (Cmd) + Alt (Option) + Nool üles/Nool alla` - Mitu kursorit üles/alla
+- `Ctrl (Cmd) + Alt (Option) + Nool üles/Nool alla` - Mitu kursorit üles/alla
 
 ---
 
@@ -76,6 +76,7 @@ Laiendusena või isetehtud:
 ---
 
 ## Code Snippets - Isetehtud
+
 ```json
 "Print to console": {
     "prefix": "cl",
@@ -86,6 +87,7 @@ Laiendusena või isetehtud:
     "description": "Log output to console"
 },
 ```
+
 ---
 
 ## Code Snippets - Laiendused

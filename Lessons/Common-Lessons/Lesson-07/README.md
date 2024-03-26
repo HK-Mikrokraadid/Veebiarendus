@@ -2,8 +2,10 @@
 
 - [Kuues loeng](../Lesson-06/README.md)
 - [Seitsmenda loengu slaidid](Slides.md)
-- [Seitsmenda loengu salvestus]()
+- [Seitsmenda loengu salvestus](https://youtu.be/os2q5LAvy_Y)
 - [Kaheksas loeng](../Lesson-08/README.md)
+
+- [Seitsmendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/Modules)
 
 ## Teemad
 
