@@ -17,13 +17,17 @@
 ### Programmeerimine
 
 - Moodulid
-  - [Ise loodud moodulid](../../../Subjects/Programming-Basics/Topics/Modules/README.md)
+  - [Moodulid](../../../Subjects/Programming-Basics/Topics/Modules/README.md)
   - [Sisseehitatud moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md)
   - [Kolmanda osapoole moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Third-Party/README.md)
+<<<<<<< Updated upstream
+=======
 
 ## Kodutöö - tähtaeg: enne järgmist loengut
 
 - Loe läbi tänase loengu materjalid
+  - [Ise loodud moodulid](../../../Subjects/Programming-Basics/Topics/Modules/README.md)
+  - [Kolmanda osapoole moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Third-Party/README.md)
 - Tee läbi materjalides olevad harjutused
   - [Ise loodud moodulid](../../../Subjects/Programming-Basics/Topics/Modules/README.md#harjutused)
   - [Kolmanda osapoole moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Third-Party/README.md#harjutused)
@@ -35,3 +39,4 @@
     - Erista nimekirjas tegevused, mis on tehtud ja mis on tegemata (värvide abil)
     - Lisa võimalus näidata ainult tehtud või ainult tegemata tegevusi
 - Esita kodune töö läbi koodi ülevaatuse (`Code review`)
+>>>>>>> Stashed changes

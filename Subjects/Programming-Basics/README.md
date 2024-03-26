@@ -50,6 +50,8 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 - [Andmestruktuurid](./Topics/Data-Structures/README.md)
 - [Funktsioonid](./Topics/Functions/README.md)
 - [Moodulid](./Topics/Modules/README.md)
+  - [Sisseehitatud moodulid](./Topics/Modules-Built-In/README.md)
+  - [Kolmanda osapoole moodulid](./Topics/Modules-Third-Party/README.md)
 - [NPM](./Topics/NPM/README.md)
 - [Silumine](./Topics/Debugging/README.md)
 
@@ -138,8 +140,9 @@ Maht: 4h
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [Moodulid](./Topics/Modules/README.md)
+  - [Sisseehitatud moodulid](./Topics/Modules-Built-In/README.md)
+  - [Kolmanda osapoole moodulid](./Topics/Modules-Third-Party/README.md)
 - [NPM](./Topics/NPM/README.md)
-- [Silumine](./Topics/Debugging/README.md)
 - Harjutused
 
 ### Loeng 8 (Zoom)
@@ -149,6 +152,7 @@ Maht: 2h
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [Javascripti parimad praktikad](./Topics/Best-Practices/README.md)
+- [Silumine](./Topics/Debugging/README.md)
 - Harjutused
 
 ### Loeng 9
@@ -157,6 +161,7 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- Failide lugemine ja kirjutamine (Sisseehitatud moodul `fs`)
 - Harjutused
 
 ### Loeng 10 (Zoom)
