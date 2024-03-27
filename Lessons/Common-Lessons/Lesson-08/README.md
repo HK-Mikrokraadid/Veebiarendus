@@ -14,5 +14,5 @@
 
 ### Programmeerimine
 
-- [Javascripti parimad praktikad](../../../Subjects/Software-Development/Topics/Javascript-Best-Practices/README.md)
-- [Silumine](../../../Subjects/Software-Development/Topics/Debugging/README.md)
+- [Javascripti parimad praktikad](../../../Subjects/Programming-Basics/Topics/Javascript-Best-Practices/README.md)
+- [Silumine](../../../Subjects/Programming-Basics/Topics/Debugging/README.md)

@@ -36,6 +36,9 @@ Mõned prototüüpide loomise eelised tarkvaraarenduses on järgmised:
 
 ## Paberprototüüpimine
 
+![Mobiilimängu paberprototüüp](Paper_prototype.jpg)
+Pildi autor: Oliver Õunap
+
 Paberprototüüpimine on odav ja madala täpsusega prototüüpimise tehnika, mida kasutatakse tarkvaraarenduses toote või süsteemi kiire, lihtsa ja interaktiivse esituse loomiseks. See hõlmab paberi, pastakate ja muude põhimaterjalide kasutamist kasutajaliidese või töövoo füüsilise mudeli loomiseks.
 
 Paberprototüübi loomiseks kasutavad arendajad visandeid, jooniseid ja muid lihtsaid materjale erinevate ekraanide, menüüde ja muude liidese elementide kujutamiseks. Neid elemente saab vastavalt vajadusele korraldada ja ümber paigutada, et simuleerida erinevaid kasutaja interaktsioone ja töövooge.
@@ -58,18 +61,22 @@ Prototüüpimise tööriistad on tarkvaraarenduse oluline tööriistade klass, m
 Saadaval on palju erinevaid prototüüpimistööriistu, alates lihtsatest veebipõhistest tööriistadest, mis ei vaja installimist, kuni keerukamate funktsioonidega töölauarakendusteni. Mõned näited populaarsetest prototüüpimistööriistadest on järgmised:
 
 - **Sketch:** Sketch on populaarne kasutajaliidese kujundamise tööriist, mis sisaldab sisseehitatud prototüüpimisfunktsioone. Kasutajad saavad luua klõpsatavaid prototüüpe, ühendades joonised omavahel ja lisades üleminekuefekte.
-  - https://www.sketch.com/
+  - <https://www.sketch.com/>
 
 - **Adobe XD:** Adobe XD on kasutajaliidese/UX-i disainitööriist, mis sisaldab funktsioone interaktiivsete prototüüpide loomiseks ja jagamiseks. Kasutajad saavad luua interaktiivseid kujundusi animatsioonide, üleminekute ja muude efektidega.
-  - https://www.adobe.com/products/xd/learn/get-started-xd-prototype.html
+  - <https://www.adobe.com/products/xd/learn/get-started-xd-prototype.html>
 
 - **InVision:** InVision on veebipõhine prototüüpimise tööriist, mis võimaldab kasutajatel luua interaktiivseid kujundusi animatsioonide, levialade ja muude interaktiivsete elementidega. InVision sisaldab ka funktsioone kujunduse kallal koostöö tegemiseks ja sidusrühmadelt tagasiside kogumiseks.
-  - https://www.invisionapp.com/
+  - <https://www.invisionapp.com/>
 
 - **Figma:** Figma on veebipõhine kasutajaliidese disaini- ja prototüüpimistööriist, mis võimaldab kasutajatel luua ja jagada interaktiivseid kujundusi koos animatsioonide, üleminekute ja muude efektidega. Figma sisaldab ka funktsioone reaalajas koostööks ja versioonikontrolliks.
-  - https://www.figma.com/
+  - <https://www.figma.com/>
+
+![Figma prototüüp](FigmaProto.png)
 
 - **Axure RP:** Axure RP on töölauarakendus, mis võimaldab kasutajatel luua veebi- ja mobiilirakenduste jaoks interaktiivseid traatkaare, prototüüpe ja spetsifikatsioone. Axure RP sisaldab täiustatud funktsioone keerukate interaktsioonide ja töövoogude kujundamiseks.
-  - https://www.axure.com/
+  - <https://www.axure.com/>
+
+- Igasugused muud veebipõhised ja töölauarakendused, mis võimaldavad kasutajatel luua interaktiivseid või mitteinteraktiivseid prototüüpe ja kujundusi.
 
 Prototüüpimise tööriistad võivad olla väärtuslikuks täienduseks tarkvaraarenduse tööriistakomplektile, eriti projekti algfaasis, kui kasutajaliidese kujundusi veel täiustatakse. Interaktiivseid prototüüpe luues saavad arendajad kiiresti katsetada ja korrata disainikontseptsioone, koguda tagasisidet sidusrühmadelt ning tagada, et lõpptoode vastab kasutajate vajadustele ja ootustele.
