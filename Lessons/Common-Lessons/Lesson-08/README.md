@@ -10,9 +10,20 @@
 
 ### Tarkvaraarendus
 
+- Eelmise loengu meeldetuletus
+- Kodutööde ajal tekkinud probleemide lahendamine
 - [Prototüüpimine](../../../Subjects/Software-Development/Topics/Prototyping/README.md)
 
 ### Programmeerimine
 
-- [Javascripti parimad praktikad](../../../Subjects/Software-Development/Topics/Javascript-Best-Practices/README.md)
-- [Silumine](../../../Subjects/Software-Development/Topics/Debugging/README.md)
+- Eelmise loengu meeldetuletus
+- Kodutööde ajal tekkinud probleemide lahendamine
+- [Javascripti parimad praktikad](../../../Subjects/Programming-Basics/Topics/Javascript-Best-Practices/README.md)
+- [Koodi silumine](../../../Subjects/Programming-Basics/Topics/Debugging/README.md)
+
+## Kodutöö - tähtaeg: enne järgmist loengut
+
+- Loe läbi tänase loengu materjalid
+  - [Prototüüpimine](../../../Subjects/Software-Development/Topics/Prototyping/README.md)
+  - [Javascripti parimad praktikad](../../../Subjects/Programming-Basics/Topics/Javascript-Best-Practices/README.md)
+  - [Koodi silumine](../../../Subjects/Programming-Basics/Topics/Debugging/README.md)

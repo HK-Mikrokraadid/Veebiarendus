@@ -1,3 +1,0 @@
-# Javascripti parimad praktikad
-
-## Nimetamine

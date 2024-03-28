@@ -161,6 +161,7 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- Sünkroonne ja asünkroonne kood
 - Failide lugemine ja kirjutamine (Sisseehitatud moodul `fs`)
 - Harjutused
 
