@@ -10,7 +10,7 @@
     - [Alusta loogelise suluga koodiblokiga samal real](#alusta-loogelise-suluga-koodiblokiga-samal-real)
     - [Kasuta muutujate ja funktsioonide nimedes camelCase stiili](#kasuta-muutujate-ja-funktsioonide-nimedes-camelcase-stiili)
     - [Eelistatavalt kasuta const-i muutujate jaoks](#eelistatavalt-kasuta-const-i-muutujate-jaoks)
-    - [Kui projekt sisaldab mooduleid, siis impordi neid alati koodi alguses, mitte näiteks funktsiooni sees](#kui-projekt-sisaldab-mooduleid-siis-impordi-neid-alati-koodi-alguses-mitte-näiteks-funktsiooni-sees)
+    - [Moodulite importimine](#moodulite-importimine)
     - [Kasuta `===` ja `!==` operaatoreid](#kasuta--ja--operaatoreid)
     - [Kasuta malliliteraale (*template literal*) stringide koostamisel](#kasuta-malliliteraale-template-literal-stringide-koostamisel)
   - [Kasutatud allikad](#kasutatud-allikad)
@@ -82,7 +82,9 @@ function my_function() {
 
 Kui muutuja väärtus ei muutu, siis kasuta selle defineerimisel `const` märksõna. `const` muutujale ei saa hiljem uut väärtust omistada ja see aitab vältida muutujate tahtmatut muutmist. Kui muutuja väärtus peab muutuma, siis kasuta `let`-i. `var`-i kasutamine on soovitatavalt vältida.
 
-### Kui projekt sisaldab mooduleid, siis impordi neid alati koodi alguses, mitte näiteks funktsiooni sees
+### Moodulite importimine
+
+Kui projekt sisaldab mooduleid, siis impordi neid alati koodi alguses, mitte näiteks funktsiooni sees.
 
 Kui moodulid on imporditud koodi alguses, siis on koodi lihtsam lugeda ja mõista ja koodi vaadates saame kohe aru, millised on vaadeldava faili sõltuvused.
 
@@ -98,12 +100,12 @@ Malliliteraalidid on Javascript-i stringi literaalid, mis võimaldavad stringi s
 
 ```javascript
 // Tee nii
-let name = 'John';
-let greeting = `Hello, ${name}!`;
+const name = 'John';
+const greeting = `Hello, ${name}!`;
 
 // Väldi
-let name = 'John';
-let greeting = 'Hello, ' + name + '!';
+const name = 'John';
+const greeting = 'Hello, ' + name + '!';
 ```
 
 ## Kasutatud allikad

@@ -1,4 +1,4 @@
-# Silumine
+# Silumine (*Debugging*)
 
 Selles teemas õpime NodeJS-s silumise kohta.
 
@@ -6,7 +6,7 @@ Selles teemas õpime NodeJS-s silumise kohta.
 
 Pildi allikas: Dall-E by OpenAI
 
-- [Silumine](#silumine)
+- [Silumine (*Debugging*)](#silumine-debugging)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on Silumine?](#mis-on-silumine)
   - [Silumisvahendid](#silumisvahendid)
@@ -31,7 +31,7 @@ Silumine on protsess, mille käigus otsitakse ja parandatakse programmeerimisvig
 
 Kuigi NodeJS-l on olemas ka sisseehitatud silur, on lihtsam kasutada koodiredaktori silurit. Enamikul koodiredaktoritel on oma silurid, mis võimaldavad meil samm-sammult läbi koodi liikuda ja igal sammul muutujate väärtusi kontrollida. Visual Studio Code'i-s on samuti sisseehitatud silur, mida me saame kasutada.
 
-Visual Studio Code'i sisseehitatud siluri kasutamiseks peame käivitama oma programmi silumisrežiimis, vajutades `F5` või klõpsates menüüüksusel `Run > Start Debugging`. Seejärel saame valida silumiskeskkonna, mis meie puhul on `Node.js`. Seejärel saame oma koodis määrata **murdepunkte** klõpsates reanumbril, kus soovime murdepunkti seada. Murdepunkt on koht meie koodis, kus soovime, et silur peataks täitmise ja võimaldaks meil muutujate väärtusi kontrollida.
+Visual Studio Code'i sisseehitatud siluri kasutamiseks peame käivitama oma programmi silumisrežiimis, vajutades `F5` või klõpsates menüüüksusel `Run > Start Debugging`. Seejärel saame valida silumiskeskkonna, mis meie puhul on `Node.js`. Seejärel saame oma koodis määrata **murdepunkte** (*breakpoint*) klõpsates reanumbril, kus soovime murdepunkti seada. Murdepunkt on koht meie koodis, kus soovime, et silur peataks täitmise ja võimaldaks meil muutujate väärtusi kontrollida.
 
 ![Silumine VSCode'is](DebuggingNodeJSInVSCode.gif)
 

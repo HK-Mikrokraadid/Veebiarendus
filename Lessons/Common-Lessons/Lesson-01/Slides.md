@@ -29,13 +29,13 @@ Martti Raavel
 
 ## Materjalid
 
-### https://github.com/HK-Mikrokraadid/Veebiarendus
+### <https://github.com/HK-Mikrokraadid/Veebiarendus>
 
 ---
 
 ## Discord
 
-### https://discord.com/invite/7N5CcVhUv3
+### <https://discord.com/invite/7N5CcVhUv3>
 
 ---
 

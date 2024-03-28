@@ -8,7 +8,11 @@ Prototüüpimine on tehnika, mida kasutatakse tarkvaraarenduses tarkvaratoote v�
   - [Õpiväljundid](#õpiväljundid)
   - [Prototüüpimisest üldiselt](#prototüüpimisest-üldiselt)
   - [Paberprototüüpimine](#paberprototüüpimine)
+  - [Paberprototüüpimine - Eelised](#paberprototüüpimine---eelised)
+  - [Paberprototüüpimine - Miinused](#paberprototüüpimine---miinused)
   - [Digitaalsed prototüüpimise tööriistad](#digitaalsed-prototüüpimise-tööriistad)
+  - [Digitaalsete prototüüpimise tööriistade eelised](#digitaalsete-prototüüpimise-tööriistade-eelised)
+  - [Digitaalsete prototüüpimise tööriistade miinused](#digitaalsete-prototüüpimise-tööriistade-miinused)
 
 ## Õpiväljundid
 
@@ -45,12 +49,23 @@ Paberprototüübi loomiseks kasutavad arendajad visandeid, jooniseid ja muid lih
 
 Paberprototüüpide loomine on kiire ja lihtne viis erinevate disainikontseptsioonide ja töövoogude uurimiseks ning sidusrühmadelt ja lõppkasutajatelt tagasiside kogumiseks. Kuna prototüübid on lihtsad ja madala täpsusega, saab neid kiiresti luua ja muuta, ilma et oleks vaja kallist tarkvara või erioskusi.
 
+## Paberprototüüpimine - Eelised
+
 Mõned paberprototüüpide loomise eelised on järgmised:
 
 - **Madalad kulud:** paberist prototüüpimine on odav tehnika, mis nõuab minimaalseid ressursse, muutes selle kättesaadavaks igasuguse oskustaseme ja eelarvega arendajatele ja disaineritele.
 - **Kiire iteratsioon:** paberist prototüüpe saab kiiresti luua ja muuta, võimaldades arendajatel lühikese aja jooksul katsetada ja itereerida erinevaid disainikontseptsioone ja töövooge.
 - **Parandatud suhtlus:** paberprototüübid võivad aidata arendajatel ja sidusrühmadel keerukamaid ideid ja töövooge paremini mõista ja edastada ning tuvastada võimalikke probleeme ja parendusvaldkondi.
 - **Suurem kasutajate kaasatus:** paberprototüüpe saab kasutada lõppkasutajatelt tagasiside kogumiseks arendusprotsessi alguses, võimaldades arendajatel luua tooteid, mis vastavad nende sihtrühma vajadustele ja ootustele.
+
+## Paberprototüüpimine - Miinused
+
+Mõned paberprototüüpide loomise miinused võiksid olla järgmised:
+
+- **Madal täpsus:** paberprototüübid on lihtsad ja madala täpsusega, mis võib piirata nende kasutatavust keerukamate disainikontseptsioonide ja töövoogude jaoks.
+- **Piiratud funktsionaalsus:** paberprototüübid ei pruugi olla võimelised simuleerima kõiki interaktsioone ja funktsioone, mis võivad olla vajalikud lõpptootes.
+- **Piiratud kasutatavus:** paberprototüübid võivad olla piiratud kasutatavuse ja interaktiivsuse osas, mis võib muuta nende sobivuse keerukamate kasutajaliideste ja töövoogude jaoks.
+- **Keskkonna piirangud:** paberprototüüpide loomine nõuab füüsilist keskkonda ja materjale, mis võivad olla piiravad, eriti kaugtöö ja hajusate meeskondade jaoks.
 
 Üldiselt on paberprototüüpimine tarkvaraarenduses väärtuslik tehnika, mis aitab arendajatel ja disaineritel luua paremaid, kasutajakesksemaid tooteid. Kasutades kasutajaliideste ja töövoogude interaktiivsete mudelite loomiseks lihtsaid ja odavaid materjale, saavad arendajad kiiresti katsetada ja viimistleda erinevaid disainikontseptsioone ning koguda tagasisidet sidusrühmadelt ja lõppkasutajatelt, et tagada lõpptoote vastavus kasutajate vajadustele ja ootustele.
 
@@ -78,5 +93,25 @@ Saadaval on palju erinevaid prototüüpimistööriistu, alates lihtsatest veebip
   - <https://www.axure.com/>
 
 - Igasugused muud veebipõhised ja töölauarakendused, mis võimaldavad kasutajatel luua interaktiivseid või mitteinteraktiivseid prototüüpe ja kujundusi.
+
+## Digitaalsete prototüüpimise tööriistade eelised
+
+Mõned digitaalsete prototüüpimise tööriistade eelised on järgmised:
+
+- **Interaktiivsus:** digitaalsed prototüübid võimaldavad kasutajatel luua interaktiivseid kujundusi, mis simuleerivad reaalset kasutajakogemust ja interaktsioone.
+- **Animatsioonid ja üleminekud:** digitaalsed prototüübid võimaldavad kasutajatel lisada animatsioone, üleminekuid ja muid efekte, et paremini visualiseerida disainikontseptsioone ja töövooge.
+- **Koostöö ja jagamine:** digitaalsed prototüübid võimaldavad kasutajatel koostööd teha ja jagada kujundusi ja prototüüpe meeskonnaliikmete ja sidusrühmadega reaalajas.
+- **Tagasiside ja iteratsioon:** digitaalsed prototüübid võimaldavad kasutajatel koguda tagasisidet ja sisendit sidusrühmadelt ja lõppkasutajatelt ning kiiresti itereerida ja kohandada disainikontseptsioone vastavalt saadud tagasisidele.
+- **Korduvkasutatavus:** digitaalsed prototüübid võimaldavad kasutajatel korduvkasutada kujunduselemente ja interaktsioone, mis võib säästa aega ja ressursse disainiprotsessi käigus.
+- **Disainisüsteemide tugi:** mõned digitaalsed prototüüpimise tööriistad toetavad disainisüsteeme ja komponentide raamatukogusid, mis võimaldavad kasutajatel luua korduvkasutatavaid ja konsistentseid kujundusi.
+- **Arendajatele koodi eksportimise võimalus:** mõned digitaalsed prototüüpimise tööriistad võimaldavad kasutajatel eksportida kujunduselemente ja interaktsioone arendajatele koodi kirjutamiseks ja lõpliku toote loomiseks.
+
+## Digitaalsete prototüüpimise tööriistade miinused
+
+Mõned digitaalsete prototüüpimise tööriistade miinused võiksid olla järgmised:
+
+- **Kõrged kulud:** mõned digitaalsed prototüüpimise tööriistad võivad olla kallid, eriti täiustatud funktsioonide ja meeskonnatöö funktsioonide kasutamisel.
+- **Õppimiskõver:** mõned digitaalsed prototüüpimise tööriistad võivad nõuda aega ja vaeva õppimiseks ja kasutamiseks, eriti algajatele kasutajatele.
+- **Aeganõudev:** digitaalsed prototüübid võivad olla aeganõudvad luua ja kohandada, eriti keerukamate disainikontseptsioonide ja töövoogude jaoks.
 
 Prototüüpimise tööriistad võivad olla väärtuslikuks täienduseks tarkvaraarenduse tööriistakomplektile, eriti projekti algfaasis, kui kasutajaliidese kujundusi veel täiustatakse. Interaktiivseid prototüüpe luues saavad arendajad kiiresti katsetada ja korrata disainikontseptsioone, koguda tagasisidet sidusrühmadelt ning tagada, et lõpptoode vastab kasutajate vajadustele ja ootustele.

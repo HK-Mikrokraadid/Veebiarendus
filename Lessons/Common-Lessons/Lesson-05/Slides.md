@@ -10,6 +10,8 @@ Martti Raavel
 
 ---
 
+## Tarkvaraarendus
+
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Nõuded ja kasutajauuringud
