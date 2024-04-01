@@ -32,11 +32,11 @@ Pärast selle teema läbimist oskad:
 
 ## Mis on moodul?
 
-Moodul on Javascripti fail, mis sisaldab koodi, mida saab taaskasutada teistes Javascripti failides. Mooduleid kasutatakse koodi organiseerimiseks loogilistesse üksustesse, mida saab taaskasutada programmi teistes osades. Moodulid võivad sisaldada funktsioone, objekte, klasside, muutujaid ja muid Javascripti koodi osi.
+Moodul on Javascripti fail, mis sisaldab koodi, mida saab taaskasutada teistes Javascripti failides. Mooduleid kasutatakse koodi organiseerimiseks loogilistesse üksustesse, mida saab taaskasutada programmi teistes osades. Moodulid võivad sisaldada funktsioone, objekte, klasse, muutujaid ja muid Javascripti koodi osi.
 
 ## Kuidas eksportida moodulit?
 
-Esiteks peaks meil olema fail, milles olevat koodi soovime eksportida. See fail võib sisaldada funktsioone, objekte, klasside, muutujaid ja muid Javascripti koodi osi.
+Esiteks peaks meil olema fail, milles olevat koodi soovime eksportida. See fail võib sisaldada funktsioone, objekte, klasse, muutujaid ja muid Javascripti koodi osi.
 
 Mooduli eksportimiseks peame kasutama `module.exports` võtmesõna, millele järgneb mooduli nimi, mida soovime eksportida. Näiteks, kui soovime eksportida moodulit nimega `myModule`, saame tippida `module.exports = myModule;` või `module.exports = { myModule, myModule1 };` (kui meil on mitu eksporti) Javascripti failis, kust soovime moodulit eksportida.
 
