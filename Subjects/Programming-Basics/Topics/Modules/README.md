@@ -183,9 +183,7 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 
 **Eesmärk**: Eskpordida objekt, mis sisaldab mitut meetodit.
 
-**Kirjeldus**: Loo fail `utils.js` objektiga, mis omab kahte meetodit: `square` (tagastab numbri ruudu
-
-) ja `cube` (tagastab numbri kuubi). Eskpordi see objekt. Failis `index.js`, impordi see objekt ja kasuta selle meetodeid.
+**Kirjeldus**: Loo fail `utils.js` objektiga, mis omab kahte meetodit: `square` (tagastab numbri ruudu) ja `cube` (tagastab numbri kuubi). Eskpordi see objekt. Failis `index.js`, impordi see objekt ja kasuta selle meetodeid.
 
 > Vihje: Funktsioonide lisamiseks objekti saad kasutada järgmist süntaksit:
 >
