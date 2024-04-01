@@ -116,7 +116,7 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 
 **Eesmärk**: Mooduli loomine, selle eksportimine, importimine ja kasutamine.
 
-**Kirjeldus**: Loo kaks faili, `greetings.js` ja `index.js`. Failis `greetings.js` defineeri funktsioon, mis väljastab konsooli "Hello, World!". Eksporti see funktsioon. Failis `index.js`, impordi `greetings.js` ja käivita imporditud funktsioon.
+**Kirjeldus**: Loo kaks faili, `greetings.js` ja `index.js`. Failis `greetings.js` defineeri funktsioon, mis väljastab konsooli "Hello, World!". Eskpordi see funktsioon. Failis `index.js`, impordi `greetings.js` ja käivita imporditud funktsioon.
 
 > Vihje: Ära unusta kasutada `module.exports` võtmesõna funktsiooni eksportimiseks.
 >
@@ -149,7 +149,7 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 
 **Eesmärk**: Mitme funktsiooniga mooduli eksport, import ja kasutamine.
 
-**Kirjeldus**: Loo kaks faili, `greetings.js` ja `index.js`. Failis `greetings.js`, defineeri kaks funktsiooni, üks, mis trükib konsooli "Hello, World!" ja teine, mis võtab argumendina nime ja trükib konsooli "Hello, [nimi]!". Eksporti mõlemad funktsioonid. Failis `index.js`, impordi `greetings.js` ja kutsu imporditud funktsioonid.
+**Kirjeldus**: Loo kaks faili, `greetings.js` ja `index.js`. Failis `greetings.js`, defineeri kaks funktsiooni, üks, mis trükib konsooli "Hello, World!" ja teine, mis võtab argumendina nime ja trükib konsooli "Hello, [nimi]!". Eskpordi mõlemad funktsioonid. Failis `index.js`, impordi `greetings.js` ja kutsu imporditud funktsioonid.
 
 > Vihje: Mitme funktsiooni eksportimiseks saad kasutada `module.exports` võtmesõna, millele järgneb objekt, mis sisaldab eksportida soovitud funktsioone.
 
@@ -181,11 +181,11 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 
 ### Harjutus 3 - Objekti eksportimine
 
-**Eesmärk**: Eksportida objekt, mis sisaldab mitut meetodit.
+**Eesmärk**: Eskpordida objekt, mis sisaldab mitut meetodit.
 
 **Kirjeldus**: Loo fail `utils.js` objektiga, mis omab kahte meetodit: `square` (tagastab numbri ruudu
 
-) ja `cube` (tagastab numbri kuubi). Eksporti see objekt. Failis `index.js`, impordi see objekt ja kasuta selle meetodeid.
+) ja `cube` (tagastab numbri kuubi). Eskpordi see objekt. Failis `index.js`, impordi see objekt ja kasuta selle meetodeid.
 
 > Vihje: Funktsioonide lisamiseks objekti saad kasutada järgmist süntaksit:
 >
