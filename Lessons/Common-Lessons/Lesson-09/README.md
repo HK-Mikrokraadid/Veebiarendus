@@ -9,6 +9,13 @@
 
 ### Tarkvaraarendus
 
+- Koodi kvaliteet (staatiline koodi analüsaator)
+  - ESLint + Airbnb
 
 ### Programmeerimine
 
+- Failide salvestamine ja lugemine (`fs` moodul)
+- Sünkroonne ja asünkroonne kood
+  - promise
+  - async/await
+  - callback
