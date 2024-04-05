@@ -39,7 +39,7 @@ Kõigepealt lisa VSCode-le (kui ei ole veel lisatud) ESLint psitikprogramm. Leia
 npm install eslint --save-dev
 ```
 
-2. Käivita oma projekti juurkaustast ESLint seadistamine:
+1. Käivita oma projekti juurkaustast ESLint seadistamine:
 
 ```bash
 npx eslint --init
@@ -134,4 +134,4 @@ Lisaks saad olemasolevat taanet (nt tabulaatoritest tühikuteks muuta) järgides
 1. Ava fail, mida soovid redigeerida, VSCode'is.
 2. Klõpsa VSCode'i akna paremas alanurgas "Spaces" või "Tab Size" nupul. See avab väikese kontekstimenüü.
 3. Kui soovid muuta taandesuurust, klõpsa "Indent Using Spaces" (Taanda tühikute kasutamisega) ja vali loendist soovitud number.
-4. Ära unusta oma muudatusi salvestada.
+4. Ära unusta muudatusi salvestada.

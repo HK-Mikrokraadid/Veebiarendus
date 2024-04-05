@@ -10,7 +10,7 @@
 ### Tarkvaraarendus
 
 - Koodi kvaliteet (staatiline koodi analüsaator)
-  - ESLint + Airbnb
+  - [ESLint + Airbnb](../../../Subjects/Software-Development/Topics/ESLint/README.md)
 
 ### Programmeerimine
 
