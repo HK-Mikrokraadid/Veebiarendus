@@ -2,6 +2,8 @@
 
 ![Callback funktsioon](Callback.webp)
 
+Pildi allikas: [Dall-E by OpenAI](https://openai.com/)
+
 - [Callback funktsioon](#callback-funktsioon)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on *Callback* funktsioon?](#mis-on-callback-funktsioon)

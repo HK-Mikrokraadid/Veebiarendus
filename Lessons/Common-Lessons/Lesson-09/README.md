@@ -14,8 +14,9 @@
 
 ### Programmeerimine
 
-- Failide salvestamine ja lugemine (`fs` moodul)
+- [Nodemon moodul](../../../Subjects/Programming-Basics/Topics/Nodemon/README.md)
+- [Failide salvestamine ja lugemine (`fs` moodul)](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md#fs-moodul)
 - Sünkroonne ja asünkroonne kood
-  - promise
-  - async/await
-  - callback
+  - [callback](../../../Subjects/Programming-Basics/Topics/Callback/README.md)
+  - [async/await](../../../Subjects/Programming-Basics/Topics/Async-Await/README.md)
+- [Try/Catch](../../../Subjects/Programming-Basics/Topics/Try-Catch-Finally/README.md)
