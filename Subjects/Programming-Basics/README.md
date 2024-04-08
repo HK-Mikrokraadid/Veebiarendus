@@ -54,11 +54,17 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
   - [Kolmanda osapoole moodulid](./Topics/Modules-Third-Party/README.md)
 - [NPM](./Topics/NPM/README.md)
 - [Silumine](./Topics/Debugging/README.md)
+- [Promise](./Topics/Promise/README.md)
+- [Async/Await](./Topics/Async-Await/README.md)
+- [Callback](./Topics/Callback/README.md)
+- [JSON](./Topics/JSON/README.md)
+- [NodeMon](./Topics/Nodemon/README.md)
+- [Try Catch](./Topics/Try-Catch/README.md)
 
 ---
 
 - [Guard Clause](./Topics/Guard-Clause/README.md)
-- [Try Catch](./Topics/Try-Catch/README.md)
+
 - [Semikoolonite kasutamine](./Topics/Semicolons/README.md)
 - [typeof](./Topics/Typeof/README.md)
 

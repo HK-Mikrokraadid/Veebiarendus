@@ -10,12 +10,14 @@
 ### Tarkvaraarendus
 
 - Koodi kvaliteet (staatiline koodi analüsaator)
-  - ESLint + Airbnb
+  - [ESLint + Airbnb](../../../Subjects/Software-Development/Topics/ESLint/README.md)
 
 ### Programmeerimine
 
-- Failide salvestamine ja lugemine (`fs` moodul)
+- [Nodemon moodul](../../../Subjects/Programming-Basics/Topics/Nodemon/README.md)
+- [Failide salvestamine ja lugemine (`fs` moodul)](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md#fs-moodul)
 - Sünkroonne ja asünkroonne kood
-  - promise
-  - async/await
-  - callback
+  - [callback](../../../Subjects/Programming-Basics/Topics/Callback/README.md)
+  - [async/await](../../../Subjects/Programming-Basics/Topics/Async-Await/README.md)
+- [JSON.stingify()](../../../Subjects/Programming-Basics/Topics/JSON/README.md#jsonstringify)
+- [Try/Catch](../../../Subjects/Programming-Basics/Topics/Try-Catch-Finally/README.md)
