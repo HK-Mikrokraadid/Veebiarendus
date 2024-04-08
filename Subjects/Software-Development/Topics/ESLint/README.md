@@ -10,6 +10,7 @@
   - [Realõpud LF vs CRLF](#realõpud-lf-vs-crlf)
   - [Realõppumärgi seadistamine VSCode koodiredaktoris](#realõppumärgi-seadistamine-vscode-koodiredaktoris)
   - [Tühikute arvu seadistamine](#tühikute-arvu-seadistamine)
+  - [.eslintrc.js faili sisu](#eslintrcjs-faili-sisu)
 
 ## Õpiväljundid
 
@@ -135,3 +136,24 @@ Lisaks saad olemasolevat taanet (nt tabulaatoritest tühikuteks muuta) järgides
 2. Klõpsa VSCode'i akna paremas alanurgas "Spaces" või "Tab Size" nupul. See avab väikese kontekstimenüü.
 3. Kui soovid muuta taandesuurust, klõpsa "Indent Using Spaces" (Taanda tühikute kasutamisega) ja vali loendist soovitud number.
 4. Ära unusta muudatusi salvestada.
+
+## .eslintrc.js faili sisu
+
+```javascript
+module.exports = {
+  env: {
+    browser: true,
+    commonjs: true,
+    es2021: true,
+  },
+  extends: 'airbnb-base',
+  overrides: [
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+  },
+  rules: {
+    'linebreak-style': 0,
+  },
+};
+```
