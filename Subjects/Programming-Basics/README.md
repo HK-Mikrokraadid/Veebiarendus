@@ -60,13 +60,13 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 - [JSON](./Topics/JSON/README.md)
 - [NodeMon](./Topics/Nodemon/README.md)
 - [Try Catch](./Topics/Try-Catch/README.md)
+- [typeof](./Topics/Typeof/README.md)
 
 ---
 
 - [Guard Clause](./Topics/Guard-Clause/README.md)
 
 - [Semikoolonite kasutamine](./Topics/Semicolons/README.md)
-- [typeof](./Topics/Typeof/README.md)
 
 ## Loengud
 
