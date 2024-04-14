@@ -101,15 +101,15 @@ LF ja CRLF on kaks erinevat realõpumärki, mida kasutatakse tekstifailides. LF 
 
 LF-i ja CRLF-i erinevus seisneb selles, kuidas nad tekstifailides reavahetusi kujutavad. LF tähistab ühte reavahetust, mida kasutatakse Unixi, Linuxi ja macOS-i operatsioonisüsteemides. CRLF tähistab kahte märki, "carriage return" ja reavahetust ning seda kasutatakse Windowsi operatsioonisüsteemides.
 
-Rea lõpu märgi valik on oluline, kuna see võib mõjutada tekstifaili tõlgendamist erinevate programmide poolt. Näiteks kui loote tekstifaili CRLF-i realõpudega Windowsi masinas ja edastate selle seejärel Linuxi masinasse, ei pruugi mõned Linuxi masina programmid realõppe õigesti tõlgendada, mis võib põhjustada vigu või ootamatut käitumist.
+Rea lõpu märgi valik on oluline, kuna see võib mõjutada tekstifaili tõlgendamist erinevate programmide poolt. Näiteks kui loote tekstifaili CRLF-i realõppudega Windowsi masinas ja edastate selle seejärel Linuxi masinasse, ei pruugi mõned Linuxi masina programmid realõppe õigesti tõlgendada, mis võib põhjustada vigu või ootamatut käitumist.
 
-Samamoodi, kui loote tekstifaili, kasutades Unixi või Linuxi masinas LF-i realõpusid, ja edastate selle seejärel Windowsi masinasse, ei pruugi mõned Windowsi masina programmid realõppe õigesti tõlgendada.
+Samamoodi, kui loote tekstifaili, kasutades Unixi või Linuxi masinas LF-i reavahetusi ja edastate selle seejärel Windowsi masinasse, ei pruugi mõned Windowsis töötavad programmid neid õigesti tõlgendada.
 
 Realõpumärkidega seotud probleemide vältimiseks on soovitatav valida sobiv realõpumärk vastavalt kasutatavale operatsioonisüsteemile või tekstiredaktorile ning kasutada kogu failis ühtset realõpumärki. Mõnel tekstiredaktoril ja versioonihaldussüsteemil (nt Git) on sätted realõpude automaatseks teisendamiseks sobivasse vormingusse, kui töötate erinevate operatsioonisüsteemide failidega.
 
 ## Realõppumärgi seadistamine VSCode koodiredaktoris
 
-Windowsi VS-koodi vaikerealõpude LF-i määramiseks toimige järgmiselt.
+Windowsi VS-koodi vaikerealõppude LF-i määramiseks toimige järgmiselt.
 
 1. Avage VS Code ja minge menüüsse `Settings`, klõpsates akna vasakus alanurgas hammasrattaikooni.
 2. Sisestage seadete otsinguribale `files.eol` ja vajutage sisestusklahvi. See peaks kuvama sätte `End of Line`.
