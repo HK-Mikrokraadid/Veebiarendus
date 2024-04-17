@@ -454,7 +454,7 @@ Inline CSS-i kasutatakse CSS-i rakendamiseks ühele HTML elemendile. Näiteks ku
 <p style="color: red">Tere, maailm!</p>
 ```
 
-Selles näites kasutasime `style` atribuuti CSS-i rakendamiseks `<p>` elemendile. `style` atribuut on järgnenud topeltjutumärkidele `""`. Topeltjutumärkide sees oleme määranud CSS-reeglid, mis rakendatakse `<p>` elemendile. CSS-reeglid koosnevad omadusest ja väärtusest. Selles näites on omadus `color` ja väärtus `red`.
+Selles näites on kasutatud `style` atribuuti CSS-i rakendamiseks `<p>` elemendile. `style` atribuut on järgnenud topeltjutumärkidele `""`. Topeltjutumärkide sees oleme määranud CSS-reeglid, mis rakendatakse `<p>` elemendile. CSS-reeglid koosnevad omadusest ja väärtusest. Selles näites on omadus `color` ja väärtus `red`.
 
 ![Inline CSS](inlineCSS.gif)
 
@@ -481,7 +481,7 @@ Sisemist CSS-i kasutatakse CSS-i rakendamiseks ühele HTML-lehele. Näiteks kui 
 
 ![Sisemine CSS](internalCSS.gif)
 
-Selles näites kasutasime `<style>` märgendit CSS-i rakendamiseks HTML-lehele. `<style>` märgendit on järgnenud loogelised suludele `{}`. loogeliste sulgude sees oleme määranud CSS-reeglid, mis rakendatakse HTML-lehele. Selles näites rakendame punast värvi kõigile lõikudele HTML-lehel.
+Selles näites kasutasime `<style>` märgendit CSS-i rakendamiseks HTML-lehele. `<style>` märgendile järgneb selector `p`, millele omakorda loogeliste sulgude sees CSS-reeglid, mis rakendatakse HTML-lehele. Selles näites rakendame punast värvi kõikidele lõikudele HTML-lehel.
 
 ### Väline CSS
 
@@ -499,21 +499,24 @@ Välist CSS-i kasutatakse CSS-i rakendamiseks mitmele HTML-lehele. Näiteks kui 
   </body>
 </html>
 ```
+
 `style.css` fail:
+
 ```css
 p {
   color: red;
 }
 ```
+
 ![Väline CSS](externalCSS.gif)
 
-Selles näites kasutasime `<link>` märgendit CSS-i rakendamiseks HTML-lehele. `<link>` märgendit on järgnenud topeltjutumärkidele `""`. Topeltjutumärkide sees oleme määranud CSS-faili tee. Selles näites on CSS-faili tee `style.css`.
+Selles näites kasutasime `<link>` märgendit CSS-i rakendamiseks HTML-lehele. `<link>` märgendis kasutatakse `rel="stylesheet"` atribuuti, mis määrab, et tegemist on peamise stiilifailiga. Sellele järgneb omakorda `href="style.css"` atribuut, mis määrab stiililehe asukoha. `
 
 `style.css` failis oleme määranud CSS-reeglid, mis rakendatakse HTML-lehele. Selles näites rakendame punast värvi kõigile lõikudele HTML-lehel.
 
 ## CSS-i rakendamise viiside ühendamine HTML-is
 
-Saame ühendada kõik kolm viisi CSS-i rakendamiseks HTML-is. Näiteks kui soovime muuta ühe lõigu värvi, saame kasutada järgmist HTML-koodi:
+Soovi korral on võimalik ühendada kõik kolm viisi CSS-i rakendamiseks HTML-is. Näiteks kui soovime muuta ühe lõigu värvi, saame kasutada järgmist HTML-koodi:
 
 ```html
 <!DOCTYPE html>
@@ -537,23 +540,24 @@ Kaskaad CSS-is tähendab, et stiilid rakendatakse kindlas järjekorras. Järjeko
 
 1. Brauseri vaikeväärtused;
 2. Väline stiilileht;
-3. Sis
-
-emine stiilileht (jaos `<head>`);
+3. Sisemine stiilileht (jaotuses `<head>`);
 4. Inline stiil (HTML elemendi sees);
 
 Eelmises näites on teise lõigu värv `blue`. See on seetõttu, et inline stiil rakendatakse pärast sisemist stiililehte.
 
 ## Kastimudel
 
-CSS kastimudel on HTML-elementide ristkülikukujuline paigutusmudel. See koosneb neljast osast: `sisu`, `polsterdus`, `piir` ja `marginaal`. `Sisu` on elemendi tegelik sisu. `Polsterdus` on ruum sisu ja piiri vahel. `Piir` on elemendi piir. `Marginaal` on ruum piiri ja järgmise elemendi vahel.
+CSS kastimudel on HTML-elementide ristkülikukujuline paigutusmudel. See koosneb neljast osast: `sisu`, `polsterdus` (*padding*), `piir` (*border*) ja `veeris` (*margin*).
+
+`Sisu` on elemendi tegelik sisu. `Polsterdus` on ruum sisu ja piiri vahel. `Piir` on elemendi piir. `Veeris` on ruum piiri ja järgmise elemendi vahel.
 
 ![Kastimudel](BoxModel.png)
+
 [Pildi allikas](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model/box-model.png)
 
 ### Standardne kastimudel
 
-Standardne kastimudel on CSS-is vaike kastimudel. Seda kasutavad enamik brausereid. Standardse kastimudeli puhul arvutatakse elemendi laius ja kõrgus järgmiselt:
+Standardne kastimudel on CSS-is vaikimisi kastimudel. Seda kasutavad enamik brausereid. Standardse kastimudeli puhul arvutatakse elemendi laius ja kõrgus järgmiselt:
 
 - `laius = sisu laius + polsterdus vasakul + polsterdus paremal + piir vasakul + piir paremal`;
 - `kõrgus = sisu kõrgus + polsterdus ülal + polsterdus all + piir ülal + piir all`;
@@ -578,19 +582,17 @@ Kasti laius ja kõrgus arvutatakse järgmiselt:
 ![Standardne kastimudel](StandardBoxModel.png)
 [Pildi allikas](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model/standard-box-model.png)
 
-> Elemendi laius ja kõrgus ei sisalda marginaali.
+> Elemendi laius ja kõrgus ei sisalda veeriseid.
 
 ### Alternatiivne kastimudel
 
-Alternatiivses kastimudelis on laius sisu laius ja kõrgus on sisu kõrgus. Polsterdus, piir ja marginaal lisatakse laiusele ja kõrgusele. Alternatiivses kastimudelis arvutatakse elemendi laius ja kõrgus järgmiselt:
-
-- `laius = sisu laius`;
-- `kõrgus = sisu kõrgus`;
+Alternatiivses kastimudelis on elemendi laius ja kõrgus vastavalt `width` ja `height` väärtustele. Polsterdus ja piir arvutatakse juba laiuse ja kõrguses sisse ja selle võrra on sisul vähem ruumi. 
 
 Kui eeldame, et kastil on samad CSS-reeglid kui eespool:
 
 ```css
 .box {
+  box-sizing: border-box;
   width: 350px;
   height: 150px;
   margin: 10px;
@@ -627,9 +629,7 @@ html {
 }
 ```
 
-Kastimudeli kohta saate
-
- lugeda rohkem [siit](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+Kastimudeli kohta saate lugeda rohkem [siit](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
 ## Harjutused
 
@@ -688,6 +688,7 @@ div {
   padding: 25px;
 }
 ```
+
 </details>
 
 ### Harjutus 2: Lihtsa navigeerimisriba loomine
@@ -697,6 +698,7 @@ div {
 **Kirjeldus**: Kujunda põhiline veebileht navigeerimisribaga, mis koosneb järjestamata loendi üksustest. Navigeerimisriba peaks olema horisontaalne, iga loendi üksus kuvatakse järjest. Stiilige loendi üksused, lisades polsterduse, piiri ja taustavärvi. Hiirega loendi üksusele minnes muutke selle taustavärvi.
 
 **Oodatavad ülesanded**:
+
 - Rakenda stiilimine (polsterdus, piir, taustavärv) loendi üksustele.
 - Muuda loendi üksuste taustavärv hiirega minnes
 
@@ -746,6 +748,7 @@ li:hover {
   background-color: red;
 }
 ```
+
 </details>
 
 ### Harjutus 3: Sisusektsiooni stiilimine veergudega
