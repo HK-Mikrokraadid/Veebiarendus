@@ -2,6 +2,10 @@
 
 Selles teemas õpime Kaskaadstiililehtede kohta (CSS).
 
+![CSS](CSS.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Kaskaadstiililehed (CSS - *Cascading Style Sheets*)](#kaskaadstiililehed-css---cascading-style-sheets)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on CSS?](#mis-on-css)

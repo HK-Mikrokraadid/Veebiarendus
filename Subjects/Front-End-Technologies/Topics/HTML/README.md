@@ -2,6 +2,10 @@
 
 Selles peatükis räägime HTML-i põhitõdedest.
 
+![HTML](HTML.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Hüperteksi märgendikeel (Hyper Text Markup Language, *HTML*)](#hüperteksi-märgendikeel-hyper-text-markup-language-html)
   - [Õpiväljundid](#õpiväljundid)
   - [HTML põhitõed](#html-põhitõed)

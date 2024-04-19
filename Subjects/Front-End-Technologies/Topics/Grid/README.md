@@ -1,6 +1,23 @@
-# Võrk
+# Grid
 
 Selles teemas õpime CSS Gridi põhitõdesid.
+
+![Grid](Grid.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Grid](#grid)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on CSS Grid?](#mis-on-css-grid)
+  - [Miks kasutada CSS Gridi?](#miks-kasutada-css-gridi)
+  - [Kuidas kasutada CSS Gridi](#kuidas-kasutada-css-gridi)
+    - [Ruudustiku konteiner](#ruudustiku-konteiner)
+    - [Ruudustiku veerud](#ruudustiku-veerud)
+  - [Otsesed ja kaudsed ruudustikud](#otsesed-ja-kaudsed-ruudustikud)
+  - [Ruudustiku esemete paigutamine](#ruudustiku-esemete-paigutamine)
+  - [Harjutused](#harjutused)
+    - [Harjutus 1: Ruudustiku loomine](#harjutus-1-ruudustiku-loomine)
+    - [Harjutus 2: Malelaua ruudustiku loomine](#harjutus-2-malelaua-ruudustiku-loomine)
 
 ## Õpiväljundid
 
