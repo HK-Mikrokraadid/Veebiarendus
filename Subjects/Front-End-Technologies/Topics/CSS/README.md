@@ -57,6 +57,8 @@ Pärast selle teema läbimist oskad:
 
 ## Mis on CSS?
 
+CSS on lühend, mis tähistab Cascading Style Sheets (kaskaadstiililehed). CSS on stiililehtede keel, mis kirjeldab, kuidas HTML elemendid peaksid olema kuvatud.
+
 CSS on keel, mida kasutatakse HTML elementide stiilimiseks. Seda kasutatakse veebilehtede värvide, fontide, paigutuste ja muu lisamiseks. CSS on koos HTML-i ja JavaScriptiga üks veebi põhitehnoloogiaid.
 
 CSS on loodud esitluse ja sisu eraldamiseks, sealhulgas paigutuse, värvide ja fontidega. See eraldamine parandab sisu ligipääsetavust, pakub rohkem paindlikkust ja kontrolli esitlusomaduste määramisel, võimaldab mitmel veebilehel jagada vormindust, määrates vastava CSS-i eraldi `.css` failis, ja vähendab struktuurse sisu keerukust ja kordust.
@@ -104,7 +106,12 @@ Kui soovime HTML-elemendile mingit stiili rakendada, peame selle esmalt valima, 
 - pseudo-klassi järgi;
 - jne.
 
-Kui kirjutame CSS-i, peame määrama kaks asja: selektori ja deklaratsiooniploki. Selektorit kasutatakse HTML-elementide valimiseks, mida soovime stiilida. Deklaratsiooniplokk on kasutatud CSS-reeglite määramiseks, mis rakendatakse valitud HTML-elementidele. Deklaratsiooniplokk on ümbritsetud loogeliste sulgudega `{}`. Loogeliste sulgude sees saame määratleda ühe või mitu CSS-reeglit. Iga CSS-reegel koosneb omadusest ja väärtusest. Omadus järgneb koolonile `:` ja väärtus järgneb semikoolonile `;`.
+Kui kirjutame CSS-i, peame määrama kaks asja:
+
+- selektori
+- deklaratsiooniploki.
+
+Selektorit kasutatakse HTML-elementide valimiseks, mida soovime stiilida. Deklaratsiooniplokk on kasutatud CSS-reeglite määramiseks, mis rakendatakse valitud HTML-elementidele. Deklaratsiooniplokk on ümbritsetud loogeliste sulgudega `{}`. Loogeliste sulgude sees saame määratleda ühe või mitu CSS-reeglit. Iga CSS-reegel koosneb omadusest ja väärtusest. Omadus järgneb koolonile `:` ja väärtus järgneb semikoolonile `;`.
 
 ### Märgendi selektorid
 

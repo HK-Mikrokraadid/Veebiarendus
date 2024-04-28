@@ -27,12 +27,12 @@ Pildi allikas: Dall-E by OpenAI
 
 Pärast selle teema läbimist oskad:
 
-- seletada, mis on HTML;
-- seletada, mis on HTML märgendid;
-- seletada, mis on HTML elemendid;
-- seletada, mis on HTML atribuudid;
-- seletada, mis on HTML dokumendi struktuur;
-- seletada, mis on HTML dokumendi metaandmed;
+- selgitada, mis on HTML;
+- selgitada, mis on HTML märgendid;
+- selgitada, mis on HTML elemendid;
+- selgitada, mis on HTML atribuudid;
+- selgitada, mis on HTML dokumendi struktuur;
+- selgitada, mis on HTML dokumendi metaandmed;
 - kirjutada lihtsa HTML dokumendi;
 - avada HTML dokumendi veebiveebilehitsejais.
 
@@ -40,7 +40,7 @@ Pärast selle teema läbimist oskad:
 
 HTML on lühend, mis märgenditab Hyper Text Markup Language ja tähendab tõlgituna Hüperteksti Märgendikeel.
 
-Märgendikeel tähendab, et erinevalt programmeerimiskeele kasutamisest arvuti juhendamiseks, kasutatakse märgendeid erinevat tüüpi sisu määratlemiseks. HTML on standardne märgendikeel veebilehtede loomiseks. HTML kirjeldab veebilehe struktuuri ja see koosneb elementide seeriast, mida kasutatakse sisu teatud viisil kuvamiseks või käitumiseks. Sisu ümbritsevad märgendid võivad muuta sõna või pildi hüperlingiks kuskile mujale lehele, võivad sõnad kursiivis kuvada, muuta fondi suuremaks või väiksemaks jne.
+Märgendikeel tähendab, et erinevalt programmeerimiskeele kasutamisest arvuti juhendamiseks, kasutatakse märgendeid erinevat tüüpi sisu määratlemiseks. HTML on standardne märgendikeel veebilehtede loomiseks ja see kirjeldab veebilehe struktuuri. HTML koosneb elementide seeriast, mida kasutatakse sisu teatud viisil kuvamiseks või käitumiseks. Sisu ümbritsevad märgendid võivad muuta sõna või pildi hüperlingiks kuskile mujale lehele, võivad sõnad kursiivis kuvada, muuta fondi suuremaks või väiksemaks jne.
 
 HTML-is ei öelda arvutile, mida teha, vaid öeldakse, mis midagi on. Näiteks võib öelda "see on lõik", "see on pealkiri", "see on link" jne. Veebilehitseja teab siis, kuidas kirjutatud sisu kuvada. Erinevad veebilehitsejad võivad seda erinevalt kuvada, kuid siiski need kõik teavad, millega on tegemist. Näiteks võib üks veebilehitseja kuvada lõiku erinevas fondis kui teine veebilehitseja, kuid mõlemad teavad, et tegemist on lõiguga.
 
@@ -110,7 +110,9 @@ Näiteks järgmine HTML kood defineerib esimese taseme pealkirja ja lõigu eleme
 </p>
 ```
 
-HTML elementide pesastamine on väga tavaline. Näiteks `<body>` element sisaldab kõiki HTML dokumendi sisu ja `<head>` element sisaldab kõiki HTML dokumendi metaandmeid. Pesastamist kasutatakse ka elementide rühmitamiseks. Näiteks `<ul>` element sisaldab kõiki järjestamata nimekirja üksuseid (`<li>` elemente). Näiteks:
+HTML elementide pesastamine on väga tavaline. Näiteks `<body>` element sisaldab kõiki HTML dokumendi sisu ja `<head>` element sisaldab kõiki HTML dokumendi metaandmeid. Pesastamist kasutatakse ka elementide rühmitamiseks. Näiteks `<ul>` element sisaldab kõiki järjestamata nimekirja üksuseid (`<li>` elemente).
+
+Näiteks:
 
 ```html
 <ul>
@@ -149,7 +151,7 @@ Tabeli näide kuvatakse Google Chrome'is nii:
 
 ## HTML atribuudid
 
-HTML atribuudid on erilised sõnad, mida kasutatakse algusmärgendites elemendi käitumise juhtimiseks. HTML atribuute kasutatakse HTML elementidele lisainformatsiooni andmiseks. HTML atribuudid on alati määratud algusmärgendites. HTML atribuudid on nimetatud/väärtustatud paaridena nagu: `nimi="väärtus"`.
+HTML atribuudid on erilised sõnad, mida kasutatakse algusmärgendites elemendi käitumise juhtimiseks ja HTML elementidele lisainformatsiooni andmiseks. HTML atribuudid on alati määratud algusmärgendites. HTML atribuudid on nimetatud/väärtustatud paaridena nagu: `nimi="väärtus"`.
 
 Näiteks järgmine HTML kood defineerib esimese taseme pealkirja koos id atribuudiga:
 

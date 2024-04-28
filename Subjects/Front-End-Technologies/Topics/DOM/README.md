@@ -6,9 +6,14 @@ Selles õppematerjalis saad teada, mis on Dokumendi Objekti Mudel ehk DOM ja mik
 
 Pärast selle materjali läbimist oskad:
 
+- Selgitada, mis on Dokumendi Objekti Mudel (DOM) ja kuidas see toimib;
+- näidata, kuidas kasutada DOM-i elementide valimiseks ja nendega manipuleerimiseks;
+- kirjeldada, kuidas DOM võimaldab veebilehtedel olla dünaamilised ja interaktiivsed;
+- näidata, kuidas kasutada DOM-i sündmuste käsitlemiseks ja reageerimiseks.
+
 ## Mis on DOM?
 
-Dokumendi Objekti Mudel (DOM) on programmeerimisliides, mida veebibrauserid kasutavad veebidokumentide kujundamiseks. See muudab kogu lehe sisu, struktuuri ja stiili objektidena, millele saab juurde pääseda ja neid muuta JavaScripti kaudu. DOM esitab dokumendi hierarhilise puuna, võimaldades arendajatel valida üksikuid elemente ja manipuleerida nendega dünaamiliselt.
+Dokumendi Objekti Mudel (DOM) on programmeerimisliides, mida veebibrauserid kasutavad veebidokumentide kujundamiseks. See kujutab kogu lehe sisu, struktuuri ja stiili objektidena, millele saab juurde pääseda ja neid muuta JavaScripti kaudu. DOM esitab dokumendi hierarhilise puuna, võimaldades arendajatel valida üksikuid elemente ja manipuleerida nendega dünaamiliselt.
 
 ## Miks on DOM oluline?
 

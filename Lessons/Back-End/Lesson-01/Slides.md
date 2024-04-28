@@ -222,4 +222,5 @@ Marsruudid on veebirakenduse komponendid, mis määratlevad, kuidas päringud ma
 
 - Analüüsi mõnda blogi ja mõtle, millised API ressursid seal võiksid olla (vähemalt neli)
 - Loo Express rakendus, millel on URI-d vähemalt nelja blogi ressursi jaoks
+- Loo iga ressursi jaoks massiiv, kus on iga ressursi kohta vähemalt 3 objekti vastavate omaduste ja väärtustega
 - Tee nii, et igale ressursile päringu tegemisel tagastatakse vastavad ressursid (nt GET /posts tagastab kõik postitused)

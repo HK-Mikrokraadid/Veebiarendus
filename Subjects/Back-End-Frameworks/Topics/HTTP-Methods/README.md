@@ -1,8 +1,20 @@
 # HTTP päringu meetodid (*Request methods*)
 
+Selles peatükis käsitleme erinevaid HTTP päringu meetodeid, mida kasutatakse veebi API-dega suhtlemiseks.
+
+![HTTP meetodid](HTTP-Methods.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [HTTP päringu meetodid (*Request methods*)](#http-päringu-meetodid-request-methods)
+  - [GET](#get)
+
+
 HTTP päringu meetodeid kasutatakse selleks, et näidata, milliseid toiminguid soovitakse HTTP päringus URI-ga (*Uniform Resource Identifier*) tuvastatud ressursiga sooritada.
 
-- **GET:** GET-meetodit kasutatakse serverist ressursi toomiseks. See on ohutu ja idempotentne meetod, mis tähendab, et mitmel identsel päringul on sama mõju kui ühel päringul. Vastus GET-päringule sisaldab tavaliselt taotletud ressurssi või selle esitust sõnumi kehas.
+## GET
+
+**GET:** GET-meetodit kasutatakse serverist ressursi toomiseks. See on ohutu ja idempotentne meetod, mis tähendab, et mitmel identsel päringul on sama mõju kui ühel päringul. Vastus GET-päringule sisaldab tavaliselt taotletud ressurssi või selle esitust sõnumi kehas.
 
 ```mermaid
 sequenceDiagram
