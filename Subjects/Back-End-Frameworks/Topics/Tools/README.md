@@ -1,5 +1,24 @@
 # API testimise tööriistad
 
+Selles peatükis käsitleme erinevaid tööriistu, mis on abiks `API`-de loomisel ja testimisel.
+
+![API tools](API-tools.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [API testimise tööriistad](#api-testimise-tööriistad)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Postman](#postman)
+  - [Thunder Client](#thunder-client)
+  - [Käsurea tööriist `curl`](#käsurea-tööriist-curl)
+  - [Docker Desktop](#docker-desktop)
+
+## Õpiväljundid
+
+Peale selle peatüki läbimist oskad:
+
+- Kirjeldada erinevaid tööriistu, mis on abiks `API`-de loomisel ja testimisel.
+
 Kuna reeglina toetavad veebiAPI-d erinevaid päringumeetodeid (`GET`, `POST`, `PUT`, `DELETE` jne), siis ei piisa enam lihtsalt veebilehitsejast, et saaksime loodavale `API`-le päringuid saata, vaid selleks on vaja eraldi tööriista.
 
 ## Postman

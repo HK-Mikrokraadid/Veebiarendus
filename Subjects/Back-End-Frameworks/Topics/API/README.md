@@ -1,5 +1,28 @@
 # API - Application Programming Interface
 
+Selles peatükis käsitleme API-sid, nende tüüpe, ressursse, vastuseid ja CRUD-toiminguid.
+
+![HTTP API](HTTP-API.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [API - Application Programming Interface](#api---application-programming-interface)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Veebi API-sid on mitut tüüpi, sealhulgas:](#veebi-api-sid-on-mitut-tüüpi-sealhulgas)
+  - [API ressurss](#api-ressurss)
+  - [API vastus](#api-vastus)
+  - [CRUD API](#crud-api)
+
+## Õpiväljundid
+
+Peale selle peatüki läbimist oskad:
+
+- Selgitada, mis on veebi API ja kuidas see toimib;
+- Kirjeldada erinevaid veebi API tüüpe, sealhulgas RESTful API-sid, SOAP API-sid ja GraphQL API-sid;
+- Määratleda API ressursse ja URI-sid;
+- Kirjeldada API vastuse struktuuri ja andmevorminguid, nagu JSON ja XML;
+- Selgitada CRUD API põhitoiminguid ja nende seost HTTP-meetoditega.
+
 Selle kursuse kontekstis on mõeldud üle HTTP protokolli töötavat API-t, ehk Veebi API-t (Web API).
 
 Veebi API tähistab veebirakenduste programmeerimisliidest. See on protokollide, tööriistade ja mehhanismide kogum veebipõhiste rakenduste loomiseks, mis saavad üksteisega Interneti kaudu suhelda.
@@ -43,7 +66,7 @@ Selles näites esindab esimene URI klientide kogumit, teine URI konkreetset klie
 
 Ressursse ja URI-d selgelt ja järjepidevalt määratledes võivad veebi API-d pakkuda lihtsat ja intuitiivset liidest andmetele ja funktsioonidele Interneti kaudu juurdepääsuks. See muudab arendajatel lihtsamaks veebipõhiste rakenduste loomise, mis suudavad suhelda teiste süsteemide ja teenustega, olenemata nende asukohast või rakendamise üksikasjadest.
 
-Valikut tasuta kasutatavatest veebi API-dest näeb näiteks siit: https://github.com/public-apis/public-apis
+Valikut tasuta kasutatavatest veebi API-dest näeb näiteks siit: <https://github.com/public-apis/public-apis>
 
 ## API vastus
 

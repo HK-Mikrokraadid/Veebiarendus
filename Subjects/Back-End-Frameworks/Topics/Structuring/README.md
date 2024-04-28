@@ -1,5 +1,30 @@
 # API struktureerimine
 
+Selles materjalis käsitleme API struktureerimist ja selle olulisust. API struktureerimine on oluline, sest see muudab API loetavamaks, hallatavaks ja muudetavaks.
+
+![API Struktureerimine](API-Structuring.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [API struktureerimine](#api-struktureerimine)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Miks on API struktureerimine oluline?](#miks-on-api-struktureerimine-oluline)
+  - [Models](#models)
+  - [Kontrollerid](#kontrollerid)
+  - [Teenused](#teenused)
+  - [Marsruuterid (routers)](#marsruuterid-routers)
+  - [Voodiagramm](#voodiagramm)
+
+## Õpiväljundid
+
+Peale selle materjali läbimist oskad:
+
+- Selgitada, miks on API struktureerimine oluline;
+- Kirjeldada API struktureerimise põhimõtteid, nagu mudulid (models), kontrollerid (controllers), teenused (services) ja marsruuterid (routers);
+- Selgitada, kuidas API struktureerimine aitab paremini hallata ja arendada API-d.
+
+## Miks on API struktureerimine oluline?
+
 Kui kogu API kood kirjutada ühte faili, siis muutub see üsna ruttu raskesti loetavaks, hallatavaks ja muudetavaks. Seetõttu on hea API jagada erinevateks mooduliteks, millest igaüks tegeleb ühe kindla asjaga.
 
 API struktureerimisel on mitmeid erinevaid viise ja põhimõtteid, kuidas seda teha, kuid üldiselt on kõige olulisem, et API oleks loetav, hallatav ja muudetav.
@@ -92,4 +117,3 @@ sequenceDiagram
 - Teenus teeb vajaliku CRUD operatsiooni andmebaasis (Database).
 - Andmebaas vastab teenusele, mis omakorda edastab selle info või vea kontrollerile.
 - Kontroller koostab ja edastab HTTP vastuse, mis läbib marsruutija ja jõuab tagasi klienti.
-

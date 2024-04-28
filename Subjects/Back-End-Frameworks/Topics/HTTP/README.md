@@ -1,5 +1,34 @@
 # HTTP (*Hypertext Transfer Protocol*)
 
+Selles peatükis käsitleme HTTP-d, selle päringumeetodeid ja vastusekoode.
+
+![HTTP](HTTP.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [HTTP (*Hypertext Transfer Protocol*)](#http-hypertext-transfer-protocol)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on HTTP?](#mis-on-http)
+  - [HTTP päringumeetodid](#http-päringumeetodid)
+  - [HTTP vastuskoodid](#http-vastuskoodid)
+  - [Näited HTTP vastuskoodidest](#näited-http-vastuskoodidest)
+    - [1xx (Informational)](#1xx-informational)
+    - [2xx (Successful)](#2xx-successful)
+    - [3xx (Redirection)](#3xx-redirection)
+    - [4xx (Client Error)](#4xx-client-error)
+    - [5xx (Server Error)](#5xx-server-error)
+
+## Õpiväljundid
+
+Peale selle peatüki läbimist oskad:
+
+- Selgitada, mis on HTTP ja kuidas see toimib;
+- Kirjeldada erinevaid HTTP päringumeetodeid ja nende kasutusjuhtumeid;
+- Määratleda HTTP vastusekoodid ja nende tähendused;
+- Selgitada, kuidas HTTP vastusekoode kasutatakse päringute tulemuste ja olekute kajastamiseks.
+
+## Mis on HTTP?
+
 HTTP tähistab hüperteksti edastusprotokolli. See on rakenduskihi protokoll, mida kasutatakse andmete edastamiseks Interneti kaudu.
 
 HTTP on World Wide Web alus ja seda kasutavad veebibrauserid veebilehtede, piltide, videote ja muu sisu pärimiseks ja toomiseks veebiserveritest. Seda kasutavad ka veebiserverid neile päringutele vastamiseks ja nõutud sisu kliendile tagasi saatmiseks.

@@ -23,14 +23,34 @@ Kursuse lõpuks peaksid õppurid olema osavad serveri arhitektuuri põhimõtetes
 
 ## Teemad
 
-- API
+- [Sissejuhatus](./Topics/Introduction/README.md)
+- [Tööriistad](./Topics/Tools/README.md)
+- [API](./Topics/API/README.md)
+- [HTTP](./Topics/HTTP/README.md)
+- [Http meetodid](./Topics/HTTP-Methods/README.md)
+- [Express](./Topics/Express/README.md)
+- [Struktureerimine](./Topics/Structure/README.md)
+- [Vahevara](./Topics/Middleware/README.md)
+- [Not Found vahevara](./Topics/Not-Found-Middleaware/README.md)
+- [Routes](./Topics/Routes/README.md)
+- [Autentimine ja autoriseerimine](./Topics/Auth/README.md)
+- [Bcrypt](./Topics/Bcrypt/README.md)
+- [JWT](./Topics/JWT/README.md)
+
+- [Testide lisamine olemasolevale projektile](./Topics/Adding-Tests-TO-Existing-Project/README.md)
+
+- [Chai](./Topics/Chai/README.md)
+- [Andmebaasiga ühendamine](./Topics/Connecting-Database/README.md)
+- [Disainimustrid](./Topics/Design-Patterns/README.md)
+- [Docker](./Topics/Docker/README.md)
+- [Keskkonnamuutujad](./Topics/Environment-Variables/README.md)
+- [Vigade haldus Expressis](./Topics/Error-Handling/README.md)
+- [Factory arendusmuster](./Topics/Factory/README.md)
+- [Mocha](./Topics/Mocha/README.md)
+- [Supertest](./Topics/Supertest/README.md)
+- [Testimine](./Topics/Testing/README.md)
+
 - REST
 - Express.JS
 - Päringu/vastuse tsükkel
-- API struktuur
 - API dokumentatsioon
-- Vahendustarkvara
-- Autentimine/Autoriseerimine
-- Turvalisus
-- JWT
-- Testimine

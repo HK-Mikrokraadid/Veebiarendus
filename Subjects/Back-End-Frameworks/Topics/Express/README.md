@@ -1,5 +1,28 @@
 # Express
 
+Selles õppematerjalis käsitleme Expressi, mis on populaarne veebirakenduste raamistik Node.js-i jaoks. Õpime, kuidas paigaldada Express, kasutada selle meetodeid ja kuidas töötada päringu ja vastuse objektidega Expressis.
+
+![Express](Express.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Express](#express)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on Express?](#mis-on-express)
+  - [Expressi paigaldamine](#expressi-paigaldamine)
+  - [Express app-i meetodid](#express-app-i-meetodid)
+  - [Request ja Response Expressis](#request-ja-response-expressis)
+
+## Õpiväljundid
+
+Peale selle õppematerjali läbimist oskad:
+
+- Selgitada, mis on Express ja miks seda kasutatakse;
+- paigaldada Express Node.js projekti;
+- luua lihtne Expressi rakendus ja käivitada see.
+
+## Mis on Express?
+
 Express on Node.js-i populaarne veebirakenduste raamistik, mis on loodud skaleeritavate ja paindlike veebirakenduste loomiseks. See pakub hulga funktsioone veebirakenduste loomiseks, nagu marsruutimine, vahevara ning HTTP-päringute ja vastuste tugi.
 
 Express lihtsustab veebirakenduste loomise protsessi, pakkudes kerget, kuid võimsat raamistikku, mis võimaldab arendajatel keskenduda rakenduse põhifunktsioonide loomisele. See sisaldab lihtsat API-t, mis võimaldab arendajatel hõlpsasti luua HTTP-marsruute, määratleda päringute käsitlemiseks vahevara funktsioone ning töötada mitmesuguste mallimootorite ja muude tööriistadega.
@@ -13,6 +36,7 @@ Expressi paigaldamiseks Node.js projekti tuleb järgida järgmiseid samme.
 3. Installige Express, kasutades käsku `npm install express`. See laadib alla ja installib Expressi uusima versiooni ja selle sõltuvused.
 
 Siin on näide Expressi installimisest käsurea abil:
+
 ```bash
 mkdir myapp
 cd myapp

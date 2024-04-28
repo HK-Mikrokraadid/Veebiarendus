@@ -60,3 +60,4 @@ app.get('/api', logger, (req, res) => {
 ...
 ```
 
+![Middelware](./middleware.png)
