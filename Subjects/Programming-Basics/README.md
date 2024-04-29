@@ -60,13 +60,12 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 - [JSON](./Topics/JSON/README.md)
 - [NodeMon](./Topics/Nodemon/README.md)
 - [Try Catch](./Topics/Try-Catch/README.md)
+- [typeof](./Topics/Typeof/README.md)
 
 ---
 
 - [Guard Clause](./Topics/Guard-Clause/README.md)
-
 - [Semikoolonite kasutamine](./Topics/Semicolons/README.md)
-- [typeof](./Topics/Typeof/README.md)
 
 ## Loengud
 
@@ -166,9 +165,13 @@ Maht: 2h
 Maht: 4h
 
 - Eelmise loengu meeldetuletus
-- Kodutööde ajal tekkinud probleemide lahendamine
+- [Failide lugemine ja kirjutamine (Sisseehitatud moodul `fs`)](./Topics/Modules-Built-In/README.md#failide-lugemine-ja-kirjutamine)
 - Sünkroonne ja asünkroonne kood
-- Failide lugemine ja kirjutamine (Sisseehitatud moodul `fs`)
+  - [callback funktsioonid](./Topics/Callback/README.md)
+  - [async/await](./Topics/Async-Await/README.md)
+- [JSON.stringify() ja JSON.parse()](./Topics/JSON/README.md)
+- [Try/Catch](./Topics/Try-Catch-Finally/README.md)
+- Kodutööde ajal tekkinud probleemide lahendamine
 - Harjutused
 
 ### Loeng 10 (Zoom)
@@ -177,5 +180,4 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-
 - Lõplik Q&A

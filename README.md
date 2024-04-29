@@ -26,29 +26,29 @@ Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti raames.
 
 ### Front-End arenduse kohtumised
 
-- 30.04.2024 kell 10:00 - 13:15
-- 07.05.2024 kell 10:00 - 17:30
-- 14.05.2024 kell 10:00 - 13:15
-- 21.05.2024 kell 10:00 - 17:30
-- 28.05.2024 kell 10:00 - 13:15
-- 04.06.2024 kell 10:00 - 17:30
-- 11.06.2024 kell 10:00 - 13:15
-- 18.06.2024 kell 10:00 - 17:30
-- 02.07.2024 kell 10:00 - 13:15
-- 09.07.2024 kell 10:00 - 17:30
+- [1. kohtumine](./Lessons/Front-End/Lesson-01/README.md) 30.04.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+- [2. kohtumine](./Lessons/Front-End/Lesson-02/README.md) 07.05.2024 kell 10:00 - 17:30
+- [3. kohtumine](./Lessons/Front-End/Lesson-03/README.md) 14.05.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+- [4. kohtumine](./Lessons/Front-End/Lesson-04/README.md) 21.05.2024 kell 10:00 - 17:30
+- [5. kohtumine](./Lessons/Front-End/Lesson-05/README.md) 28.05.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+- [6. kohtumine](./Lessons/Front-End/Lesson-06/README.md) 04.06.2024 kell 10:00 - 17:30
+- [7. kohtumine](./Lessons/Front-End/Lesson-07/README.md) 11.06.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+- [8. kohtumine](./Lessons/Front-End/Lesson-08/README.md) 18.06.2024 kell 10:00 - 17:30
+- [9. kohtumine](./Lessons/Front-End/Lesson-09/README.md) 02.07.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+- [10. kohtumine](./Lessons/Front-End/Lesson-10/README.md) 09.07.2024 kell 10:00 - 17:30
 
 ### Back-End arenduse kohtumised
 
-- 29.04.2024 kell 10:00 - 17:30
-- 06.05.2024 kell 10:00 - 13:15
-- 13.05.2024 kell 10:00 - 17:30
-- 20.05.2024 kell 10:00 - 13:15
-- 27.05.2024 kell 10:00 - 17:30
-- 03.06.2024 kell 10:00 - 13:15
-- 10.06.2024 kell 10:00 - 17:30
-- 17.06.2024 kell 10:00 - 13:15
-- 01.07.2024 kell 10:00 - 17:30
-- 08.07.2024 kell 10:00 - 13:15
+- [1. kohtumine](./Lessons/Back-End/Lesson-01/README.md) 29.04.2024 kell 10:00 - 17:30
+- [2. kohtumine](./Lessons/Back-End/Lesson-02/README.md) 06.05.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+- [3. kohtumine](./Lessons/Back-End/Lesson-03/README.md) 13.05.2024 kell 10:00 - 17:30
+- [4. kohtumine](./Lessons/Back-End/Lesson-04/README.md) 20.05.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+- [5. kohtumine](./Lessons/Back-End/Lesson-05/README.md) 27.05.2024 kell 10:00 - 17:30
+- [6. kohtumine](./Lessons/Back-End/Lesson-06/README.md) 03.06.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+- [7. kohtumine](./Lessons/Back-End/Lesson-07/README.md) 10.06.2024 kell 10:00 - 17:30
+- [8. kohtumine](./Lessons/Back-End/Lesson-08/README.md) 17.06.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+- [9. kohtumine](./Lessons/Back-End/Lesson-09/README.md) 01.07.2024 kell 10:00 - 17:30
+- [10. kohtumine](./Lessons/Back-End/Lesson-10/README.md) 08.07.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
 
 ## Discordi serveri kutse
 
@@ -86,8 +86,6 @@ flowchart TB
     CS --> BE
 
 ```
-
-[](./Subjects/Back-End-Frameworks/README.md)
 
 ## Õpijuhend
 

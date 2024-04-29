@@ -17,6 +17,10 @@ Pildi allikas: Dall-E by OpenAI
     - [Tee loomine](#tee-loomine)
   - [`os` moodul](#os-moodul)
     - [Operatsioonisüsteemi teave](#operatsioonisüsteemi-teave)
+  - [Harjutused](#harjutused)
+    - [Harjutus 1](#harjutus-1)
+    - [Harjutus 2](#harjutus-2)
+    - [Harjutus 3](#harjutus-3)
 
 Sellest, mis on moodulid Javascriptis, saad lugeda siit: [Moodulid](../Modules/README.md).
 
@@ -181,3 +185,38 @@ console.log(os.cpus()); // [{ model: 'Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz'
 
 // ...
 ```
+
+## Harjutused
+
+### Harjutus 1
+
+Võta siia lisatud failist [Tõde ja Õigus katkend](text.txt) tekst ja kopeeri see oma NodeJS rakenduse faili. Loo rakendus, mis küsib kasutajalt sõna ja väljastab konsooli, mitu korda see sõna tekstis esineb.
+
+> Tekst on alla laetud <http://et.wikisource.org> veebilehelt.
+>
+> Tekstist on välja jäetud kõik kirjavahemärgid, et seda oleks lihtsam töödelda.
+>
+> Vihje: kasuta `split` ja `filter` meetodeid, et teha sõnade massiiv ja leida sõna esinemiste arv.
+>
+> Vihje: realõpu märk on `\n`.
+
+### Harjutus 2
+
+Kirjuta rakendus, mis väljastab konsooli:
+
+- tekstis olevate sõnade arvu
+- tekstis olevate tähtede arvu
+- tesktis olevate unikaalsete sõnade arvu
+- kõige sagedamini esinevad 10 sõna
+
+> Kasuta eelmises harjutuses kasutatud teksti.
+>
+> Võid kasutada objekti või massiivi, et hoida sõnade ja nende esinemiste arvu.
+
+### Harjutus 3
+
+Kirjuta rakendus, mis loeb tekstifaili [text.txt](text.txt), sorteerib sõnad tähestikulises järjekorras ja kirjutab need uude faili [sorted.txt](sorted.txt).
+
+> Kasuta esimeses harjutuses kasutatud teksti.
+>
+> Vihje: kasuta `sort` meetodit, et sorteerida sõnu tähestikulises järjekorras.

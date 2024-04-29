@@ -54,10 +54,9 @@ Selle aine läbinud õpilane:
 - [Käsurida](./Topics/Command-Line/README.md)
 - [Prototüüpimine](./Topics/Prototyping/README.md)
 - [Testimine](./Topics/Testing/README.md)
+- [ESLint](./Topics/ESLint/README.md)
 
 ---
-
-- [ESLint](./Topics/ESLint/README.md)
 
 ## Loengud (esialgne plaan, mis võib muutuda kursuse jooksul)
 
@@ -132,8 +131,8 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- VS Code laiendused ja nipid
-- Käsurea kasutamine (*terminal*)
+- [VS Code laiendused ja nipid](./Topics/VSCode-Tips/README.md)
+- [Käsurea kasutamine (*terminal*)](./Topics/Command-Line/README.md)
 
 ### Loeng 8 (Zoom)
 
@@ -141,7 +140,7 @@ Maht: 2h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Prototüüpimine
+- [Prototüüpimine](./Topics/Prototyping/README.md)
 
 ### Loeng 9: Testimine
 
@@ -149,7 +148,7 @@ Maht: 4h
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
-- Testimine
+- [ESLint](./Topics/ESLint/README.md)
 
 ### Loeng 10 (Zoom)
 
