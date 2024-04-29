@@ -4,7 +4,7 @@ marp: true
 ---
 # Veebiarendus
 
-## Front-End arendus
+## Back-End arendus
 
 Martti Raavel
 
