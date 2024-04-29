@@ -88,3 +88,65 @@ header {
 ## Kokkuvõte
 
 `Position` omaduse mõistmine ja oskus seda efektiivselt kasutada on oluline iga veebiarendaja jaoks, kes soovib luua intuitiivseid ja visuaalselt kaasahaaravaid veebilehti. Erinevad `position` väärtused pakuvad paindlikkust elementide paigutamisel, mis võimaldab luua kõike alates fikseeritud navigatsioonimenüüdest kuni interaktiivsete, dünaamiliselt paigutatud kasutajaliideste osadeni.
+
+## Harjutused
+
+### Harjutus 1: Lihtsa navigeerimisriba loomine
+
+**Eesmärk**: Stiilige põhiline horisontaalne navigeerimisriba.
+
+**Kirjeldus**: Kujunda põhiline veebileht navigeerimisribaga, mis koosneb järjestamata loendi üksustest. Navigeerimisriba peaks olema horisontaalne, iga loendi üksus kuvatakse järjest. Stiilige loendi üksused, lisades polsterduse, piiri ja taustavärvi. Hiirega loendi üksusele minnes muutke selle taustavärvi.
+
+**Oodatavad ülesanded**:
+
+- Rakenda stiilimine (polsterdus, piir, taustavärv) loendi üksustele.
+- Muuda loendi üksuste taustavärv hiirega minnes
+
+> Vihje: Kasuta `list-style-type: none`, et eemaldada loendi üksustelt täpp.
+>
+> Vihje: Kasuta `display: inline` või `display: inline-block`, et paigutada loendi üksused horisontaalselt.
+>
+> Vihje: Kasuta `:hover` pseudo-klassi, et muuta loendi üksuste taustavärv hiirega minnes.
+
+<details>
+<summary>Lahendus</summary>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lihtsa navigeerimisriba loomine</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <ul>
+      <li>Avaleht</li>
+      <li>Meist
+
+</li>
+      <li>Kontakt</li>
+    </ul>
+  </body>
+</html>
+```
+
+```css
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: yellow;
+}
+
+li:hover {
+  background-color: red;
+}
+```
+
+</details>
