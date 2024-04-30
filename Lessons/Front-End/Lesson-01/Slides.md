@@ -17,7 +17,6 @@ Martti Raavel
 - Mida me tegema hakkame?
 - HTML
 - CSS
-- Node JS vs Veebilehitseja JS
 
 ---
 
@@ -316,6 +315,74 @@ Näiteks kui soovid oma veebilehel teksti värvi muuta, saad seda teha CSS-i abi
 
 ---
 
+## Kuidas rakendada CSS-i HTML-ile
+
+CSS-i rakendamiseks HTML-ile on kolm viisi:
+
+- inline CSS;
+- sisemine CSS;
+- väline CSS;
+
+---
+
+## Inline CSS
+
+Inline CSS on CSS, mis on määratud otse HTML elemendi atribuudis. Inline CSS-i kasutatakse siis, kui soovite rakendada CSS-i ainult ühele HTML elemendile. Näiteks:
+
+```html
+<p style="color: red;">See on punane lõik.</p>
+```
+
+---
+
+## Sisemine CSS
+
+Sisemine CSS on CSS, mis on määratud HTML dokumendi `<head>` elemendis `<style>` märgendis. Sisemist CSS-i kasutatakse siis, kui soovite rakendada CSS-i kogu HTML dokumendile. Näiteks:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>See on punane lõik.</p>
+  </body>
+</html>
+```
+
+---
+
+## Väline CSS
+
+Väline CSS on CSS, mis on määratud eraldi CSS-failis. Välist CSS-i kasutatakse siis, kui soovite rakendada CSS-i mitmele HTML dokumendile. Näiteks:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <p>See on punane lõik.</p>
+  </body>
+</html>
+```
+
+`style.css` fail:
+
+```css
+p {
+  color: red;
+}
+```
+
+---
+
 ## CSS Selektorid - 1
 
 Kui soovime HTML-elemendile mingit stiili rakendada, peame selle esmalt valima, et määrata, millist elementi soovime stiilida. HTML-elementi saab valida CSS-selektori abil.
@@ -445,7 +512,7 @@ On palju erinevaid CSS omadusi. Mõned kõige levinumad CSS omadused on:
 
 ## CSS väärtused
 
-CSS väärtusi kasutatakse CSS omaduse väärtuse määramiseks. Igal CSS väärtusel on nimi ja väärtus. Nimele järgneb koolon `:` ja väärtusele järgneb semikoolon `;`. Näiteks kui soovime muuta oma veebilehe teksti värvi, saame kasutada järgmist CSS-reeglit:
+CSS väärtusi kasutatakse CSS omaduse väärtuse määramiseks. Näiteks kui soovime muuta oma veebilehe teksti värvi, saame kasutada järgmist CSS-reeglit:
 
 ```css
 p {
@@ -454,7 +521,7 @@ p {
 }
 ```
 
-Selles näites on CSS-reegel kolme omadusega, mis on rakendatud kõigile veebilehe lõikudele: `color`, `font-size` ja `font-family`. Igal omadusel on väärtus. `color` omaduse väärtus on `blue`. `font-size` omaduse väärtus on `40px`. `font-family` omaduse väärtus on `Arial, Helvetica, sans-serif`.
+Selles näites on CSS-reegel kolme omadusega, mis on rakendatud kõigile veebilehe lõikudele: `color` ja `font-size`. `color` omaduse väärtus on `blue`. `font-size` omaduse väärtus on `40px`.
 
 ---
 
@@ -590,74 +657,6 @@ CSS-is on palju värvinimesid. Mõned kõige levinumad värvinimed on:
 - `black` - must värv;
 - `white` - valge värv;
 - jne
-
----
-
-## Kuidas rakendada CSS-i HTML-ile
-
-CSS-i rakendamiseks HTML-ile on kolm viisi:
-
-- inline CSS;
-- sisemine CSS;
-- väline CSS;
-
----
-
-## Inline CSS
-
-Inline CSS on CSS, mis on määratud otse HTML elemendi atribuudis. Inline CSS-i kasutatakse siis, kui soovite rakendada CSS-i ainult ühele HTML elemendile. Näiteks:
-
-```html
-<p style="color: red;">See on punane lõik.</p>
-```
-
----
-
-## Sisemine CSS
-
-Sisemine CSS on CSS, mis on määratud HTML dokumendi `<head>` elemendis `<style>` märgendis. Sisemist CSS-i kasutatakse siis, kui soovite rakendada CSS-i kogu HTML dokumendile. Näiteks:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      p {
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <p>See on punane lõik.</p>
-  </body>
-</html>
-```
-
----
-
-## Väline CSS
-
-Väline CSS on CSS, mis on määratud eraldi CSS-failis. Välist CSS-i kasutatakse siis, kui soovite rakendada CSS-i mitmele HTML dokumendile. Näiteks:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <p>See on punane lõik.</p>
-  </body>
-</html>
-```
-
-`style.css` fail:
-
-```css
-p {
-  color: red;
-}
-```
 
 ---
 
