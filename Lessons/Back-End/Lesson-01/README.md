@@ -2,6 +2,7 @@
 
 - [Esimese loengu slaidid](Slides.md)
 - [Esimese loengu salvestus](https://youtu.be/4-YBDN0G_bE)
+- [Esimeses loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/BE/01)
 - [Teine loeng](../Lesson-02/README.md)
 
 ## Teemad
