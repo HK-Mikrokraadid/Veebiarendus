@@ -15,7 +15,15 @@
 
 ## Kodutöö
 
-Loe läbi loengus käsitletud teemad.
+Loe läbi loengus käsitletud teemad:
+
+- [API](../../../Subjects/Back-End-Frameworks/Topics/API/README.md)
+- [HTTP](../../../Subjects/Back-End-Frameworks/Topics/HTTP/README.md)
+- [Http meetodid](../../../Subjects/Back-End-Frameworks/Topics/HTTP-Methods/README.md)
+- [Express](../../../Subjects/Back-End-Frameworks/Topics/Express/README.md)
+- [Struktureerimine](../../../Subjects/Back-End-Frameworks/Topics/Structure/README.md)
+
+### Ülesanne
 
 - Analüüsi mõnda blogi ja mõtle, millised API ressursid seal võiksid olla (vähemalt neli)
 - Loo Express rakendus, millel on URI-d vähemalt nelja blogi ressursi jaoks
