@@ -2,6 +2,21 @@
 
 Selles õppematerjalis uurime JavaScripti sündmuste mõistet, nende tähtsust ja kuidas neid veebiarenduses kasutada.
 
+![JS Events](<JS Events.webp>)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [JavaScripti sündmused](#javascripti-sündmused)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on JavaScripti sündmused?](#mis-on-javascripti-sündmused)
+  - [Miks on JavaScripti sündmused olulised?](#miks-on-javascripti-sündmused-olulised)
+  - [Kuidas kasutada JavaScripti sündmusi](#kuidas-kasutada-javascripti-sündmusi)
+  - [JavaScripti sündmuste näited](#javascripti-sündmuste-näited)
+    - [Klõpsusündmus](#klõpsusündmus)
+    - [Klaviatuuri sündmus](#klaviatuuri-sündmus)
+    - [Vormi esitamise sündmus](#vormi-esitamise-sündmus)
+    - [Hiire sündmus](#hiire-sündmus)
+
 ## Õpiväljundid
 
 Pärast selle materjali läbimist oskad:

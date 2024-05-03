@@ -1,10 +1,27 @@
 # Algeline Javascript programmiga suhtlemine
 
+Selles peatükis käsitleme, kuidas kõige lihtsamalt suhelda JavaScript programmiga.
+
+![JS Input Output](JS-Input-Output.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Algeline Javascript programmiga suhtlemine](#algeline-javascript-programmiga-suhtlemine)
+  - [Õpiväljundid](#õpiväljundid)
+  - [JS programmiga suhtlemine](#js-programmiga-suhtlemine)
   - [`alert();`](#alert)
   - [`prompt();`](#prompt)
   - [`confirm();`](#confirm)
   - [`console.log();`](#consolelog)
+
+## Õpiväljundid
+
+Pärast selle materjali läbimist oskad:
+
+- Selgitada, kuidas suhelda JavaScript programmiga kasutades `alert()`, `prompt()`, `confirm()` ja `console.log()` funktsioone;
+- kasutada neid funktsioone kasutajaliidese loomiseks ja kasutajalt sisendi saamiseks.
+
+## JS programmiga suhtlemine
 
 Programmiga suhtlemine tähendab tavaliselt interaktsiooni arvutiprogrammi või tarkvaraga. See võib hõlmata erinevaid tegevusi, nagu programmile käskude andmine, andmete sisestamine, programmist teabe saamine, programmide vahelise suhtluse haldamine ja palju muud.
 

@@ -2,6 +2,16 @@
 
 Selles õppematerjalis uurime, kuidas Node.js ja brauseris töötav JavaScript omavahel sarnanevad ja erinevad. See teave on kasulik nii uutele kui ka kogenud arendajatele, kes soovivad mõista mõlema keskkonna võimalusi ja piiranguid.
 
+![Node vs JS](Node-vs-JS.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Node.js ja Brauseri JavaScript: Sarnasused ja Erinevused](#nodejs-ja-brauseri-javascript-sarnasused-ja-erinevused)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Sarnasused](#sarnasused)
+  - [Erinevused](#erinevused)
+  - [Praktiline näide](#praktiline-näide)
+
 ## Õpiväljundid
 
 Pärast selle materjali läbimist oskad:
@@ -29,9 +39,7 @@ Kuigi Node.js ja brauseri JavaScript jagavad palju ühist, on nende vahel ka mä
 
 ## Praktiline näide
 
-Siin on lihtne näide, mis illustreerib, kuidas Node.js ja brauseri JavaScript võiv
-
-ad koos töötada:
+Siin on lihtne näide, mis illustreerib, kuidas Node.js ja brauseri JavaScript võivad koos töötada:
 
 ```javascript
 // Node.js: Server
@@ -56,4 +64,3 @@ fetch('http://localhost:3000')
 See näide näitab, kuidas Node.js server saab vastata HTTP päringutele ja kuidas brauseris töötav JavaScript saab neid päringuid teha ja vastust kuvada.
 
 Mõistmine, kuidas Node.js ja brauseri JavaScript töötavad ning kuidas neid oma projektides kasutada, on väärtuslik oskus iga veebiarendaja jaoks. Lisateavet nende tehnoloogiate kohta leiate [Node.js dokumentatsioonist](https://nodejs.org/en/docs/) ja [MDN Web Docs](https://developer.mozilla.org/) veebisaidilt.
-```

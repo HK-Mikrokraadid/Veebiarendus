@@ -1,5 +1,26 @@
 # Kuidas alustada JavaScripti koodi kirjutamist?
 
+Selles peatükis käsitleme, kuidas alustada JavaScripti koodi kirjutamist ja testimist veebilehitsejas.
+
+![Javascript](JavaScript.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Kuidas alustada JavaScripti koodi kirjutamist?](#kuidas-alustada-javascripti-koodi-kirjutamist)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Alustamine](#alustamine)
+  - [JavaScript eraldi failis](#javascript-eraldi-failis)
+    - [Miks kirjutada JavaScripti kood eraldi faili?](#miks-kirjutada-javascripti-kood-eraldi-faili)
+
+## Õpiväljundid
+
+Pärast selle materjali läbimist oskad:
+
+- kirjeldada, kuidas alustada JavaScripti koodi kirjutamist ja testimist veebilehitsejas;
+- selgitada, kuidas kirjutada JavaScripti koodi eraldi faili ja laadida see HTML-faili.
+
+## Alustamine
+
 JavaScripti koodi kirjutamine ja testimine on üsna lihtne, kuna see nõuab minimaalselt seadistust. Siin on mõned sammud, mida saab järgida, et alustada JavaScripti koodi kirjutamist.
 
 - Tekstiredaktor: Esimene asi, mida vajate, on tekstiredaktor. Saate kasutada mis tahes tekstiredaktorit, mida soovite. Mõned populaarsed valikud on *Visual Studio Code*, *Atom*, *Sublime Text* jms.

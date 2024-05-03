@@ -1,6 +1,17 @@
 # Dokumendi Objekti Mudel (DOM)
 
-Selles õppematerjalis saad teada, mis on Dokumendi Objekti Mudel ehk DOM ja miks on see veebiarenduses oluline. 
+Selles õppematerjalis saad teada, mis on Dokumendi Objekti Mudel ehk DOM ja miks on see veebiarenduses oluline.
+
+![DOM](DOM.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Dokumendi Objekti Mudel (DOM)](#dokumendi-objekti-mudel-dom)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on DOM?](#mis-on-dom)
+  - [Miks on DOM oluline?](#miks-on-dom-oluline)
+  - [Kuidas kasutada DOM-i](#kuidas-kasutada-dom-i)
+  - [DOM-i manipuleerimise näited](#dom-i-manipuleerimise-näited)
 
 ## Õpiväljundid
 
@@ -14,6 +25,8 @@ Pärast selle materjali läbimist oskad:
 ## Mis on DOM?
 
 Dokumendi Objekti Mudel (DOM) on programmeerimisliides, mida veebibrauserid kasutavad veebidokumentide kujundamiseks. See kujutab kogu lehe sisu, struktuuri ja stiili objektidena, millele saab juurde pääseda ja neid muuta JavaScripti kaudu. DOM esitab dokumendi hierarhilise puuna, võimaldades arendajatel valida üksikuid elemente ja manipuleerida nendega dünaamiliselt.
+
+Kõige lihtsam viis DOM-i mõistmiseks on kujutada ette HTML-dokumenti, mis on esitatud puuna, kus iga element on sõlme ja iga sõlme omadused ja atribuudid on objektid. Näiteks HTML-dokumendi `<body>` element on DOM-i puus sõlm, millel on omadused nagu `textContent`, `innerHTML` ja `style`. Kui soovid kogu lehe objekti ise vaadata, saad seda teha, avades brauseriarendaja tööriistad ja vaadates DOM-i puud Elementide paneelil.
 
 ## Miks on DOM oluline?
 

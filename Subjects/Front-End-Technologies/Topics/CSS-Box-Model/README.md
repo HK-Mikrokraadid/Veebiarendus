@@ -1,5 +1,25 @@
 # Kastimudel
 
+Selles peatükis käsitleme CSS-i kastimudelit ja selle kahte peamist tüüpi: standardne ja alternatiivne kastimudel.
+
+![CSS Box Model](CSS-Box-Model.webp)
+
+- [Kastimudel](#kastimudel)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on kastimudel?](#mis-on-kastimudel)
+  - [Standardne kastimudel](#standardne-kastimudel)
+  - [Alternatiivne kastimudel](#alternatiivne-kastimudel)
+
+## Õpiväljundid
+
+Peale selle peatüki läbimist oskad:
+
+- kirjeldada CSS-i kastimudelit;
+- selgitada standardse ja alternatiivse kastimudeli erinevusi;
+- kasutada CSS-i kastimudelit oma veebilehtede kujundamisel.
+
+## Mis on kastimudel?
+
 CSS kastimudel on HTML-elementide ristkülikukujuline paigutusmudel. See koosneb neljast osast: `sisu`, `polsterdus` (*padding*), `piir` (*border*) ja `veeris` (*margin*).
 
 `Sisu` on elemendi tegelik sisu. `Polsterdus` on ruum sisu ja piiri vahel. `Piir` on elemendi piir. `Veeris` on ruum piiri ja järgmise elemendi vahel.
