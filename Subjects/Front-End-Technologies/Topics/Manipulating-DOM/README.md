@@ -2,6 +2,19 @@
 
 Selles õppematerjalis uurime, kuidas JavaScripti abil veebilehe Dokumendi Objekti Mudelit (DOM) manipuleerida. See oskus on hädavajalik igale veebiarendajale, kes soovib luua dünaamilisi ja interaktiivseid veebirakendusi.
 
+![DOM-i Manipuleerimine](DOM-Manipulation.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [DOM-i manipuleerimine JavaScriptiga](#dom-i-manipuleerimine-javascriptiga)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on DOM manipuleerimine?](#mis-on-dom-manipuleerimine)
+  - [Elementide Valimine](#elementide-valimine)
+  - [Elementide Muutmine](#elementide-muutmine)
+  - [Elementide Lisamine ja Eemaldamine](#elementide-lisamine-ja-eemaldamine)
+  - [Sündmusekuulajate Rakendamine](#sündmusekuulajate-rakendamine)
+  - [Kokkuvõte](#kokkuvõte)
+
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
@@ -107,6 +120,4 @@ button.addEventListener('click', function() {
 
 ## Kokkuvõte
 
-DOM-i manipuleerimine JavaScriptiga on võimas tööriist, mis võimaldab arendajatel luua interaktiivseid ja kasutajasõbralikke veebirakendusi. Alates elementide valimisest ja muutmisest kuni dünaamilise sisu lisamise ja sündmuste käsitlemiseni on JavaScripti abil võimalik veebi veelgi dünaamil
-
-isemaks muuta. Praktiseerides neid oskusi, võite suurendada oma võimeid veebiarenduse valdkonnas ja pakkuda kasutajatele meeldejäävaid kogemusi.
+DOM-i manipuleerimine JavaScriptiga on võimas tööriist, mis võimaldab arendajatel luua interaktiivseid ja kasutajasõbralikke veebirakendusi. Alates elementide valimisest ja muutmisest kuni dünaamilise sisu lisamise ja sündmuste käsitlemiseni on JavaScripti abil võimalik veebi veelgi dünaamilisemaks muuta.
