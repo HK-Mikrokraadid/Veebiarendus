@@ -7,3 +7,15 @@
 - [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
 
 ## Teemad
+
+- Struktureerimine - kontrollerid
+- [Andmete saatmine API-sse](../../../Subjects/Back-End-Frameworks/Topics/Sending-Data-To-Express/README.md)
+  - Query string
+  - Body
+- API tööriista kasutamine
+  - Thunder Client
+
+## Kodutöö
+
+- Loe läbi loengus käsitletud teemad
+- Lisa oma Express rakenduse ressurssidele võimalus uusi andmeid lisada
