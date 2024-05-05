@@ -17,7 +17,6 @@ Pildi allikas: Dall-E by OpenAI
     - [`flex`](#flex)
   - [Täisnäide](#täisnäide)
 
-
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
