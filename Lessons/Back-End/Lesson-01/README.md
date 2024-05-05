@@ -12,7 +12,7 @@
 - [HTTP](../../../Subjects/Back-End-Frameworks/Topics/HTTP/README.md)
 - [Http meetodid](../../../Subjects/Back-End-Frameworks/Topics/HTTP-Methods/README.md)
 - [Express](../../../Subjects/Back-End-Frameworks/Topics/Express/README.md)
-- [Struktureerimine](../../../Subjects/Back-End-Frameworks/Topics/Structure/README.md)
+- [Struktureerimine](../../../Subjects/Back-End-Frameworks/Topics/Structuring/README.md)
 
 ## Kodutöö
 
