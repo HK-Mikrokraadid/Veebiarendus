@@ -24,3 +24,5 @@
 
 - [HTML-i valideerimine]
 - [CSS-i valideerimine]
+
+Veebilehel andmete kuvamine failist (Javascripti objektist)

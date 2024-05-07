@@ -1,0 +1,11 @@
+.container {
+  display: flex; /* Muudab elemendi paindlikuks konteineriks */
+  border: 1px solid black;
+/*   margin: auto;  */
+}
+
+.item {
+  flex: 1; /* Iga element võtab ühtviisi jagamata ruumi */
+  border: 1px solid black;
+  margin: 10px;
+}
