@@ -19,4 +19,5 @@
 ## Kodutöö
 
 - Loe läbi loengus käsitletud teemad
-- Lisa oma Express rakenduse ressurssidele võimalus uusi andmeid lisada
+- Struktureeri oma rakendus vastavalt loengus tehtule kontrolleriteks ja teenusteks
+- Proovi tekitada oma API-le võimalus andmeid ressursside alla lisada
