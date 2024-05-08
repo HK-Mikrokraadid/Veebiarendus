@@ -299,7 +299,6 @@ DOM-i manipuleerimiseks saate kasutada mitmeid meetodeid, nagu elementide valimi
 
 - Loe läbi tänase loengu materjalid
 - Korrasta oma loodud Blogi rakenduse välimus kasutades CSS-i `display`, `flex` ja `box model` omadusi
-- Lisa oma Blogi lehele Javascripti kood, mille abil saad muuta näiteks pealkirja sisu (eesmärk on harjutada DOM-i manipuleerimist ja sündmuste lisamist)
+- Lisa oma Blogi lehele Javascripti kood, mille abil saad muuta näiteks pealkirja sisu või lisada mingeid elemente (eesmärk on harjutada DOM-i manipuleerimist ja sündmuste lisamist)
 
 ---
-
