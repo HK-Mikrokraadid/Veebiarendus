@@ -7,3 +7,8 @@
 - [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
 
 ## Teemad
+
+- [Material Disain](../../../Subjects/Front-End-Technologies/Topics/Material-Design/README.md)
+- [Local Storage](../../../Subjects/Front-End-Technologies/Topics/Local-Storage/README.md)
+- [HTML-i valideerimine]
+- [CSS-i valideerimine]

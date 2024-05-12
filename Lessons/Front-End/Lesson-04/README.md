@@ -7,9 +7,8 @@
 
 ## Teemad
 
+- Andmete päring välisest allikast
+  - [Axios](../../../Subjects/Front-End-Technologies/Topics/Axios/README.md)
 - [CSS Frameworks](../../../Subjects/Front-End-Technologies/Topics/CSS-Frameworks/README.md)
-- [Material Disain](../../../Subjects/Front-End-Technologies/Topics/Material-Design/README.md)
 - [Bootstrap](../../../Subjects/Front-End-Technologies/Topics/Bootstrap/README.md)
-- [Local Storage](../../../Subjects/Front-End-Technologies/Topics/Local-Storage/README.md)
-- [HTML-i valideerimine]
-- [CSS-i valideerimine]
+
