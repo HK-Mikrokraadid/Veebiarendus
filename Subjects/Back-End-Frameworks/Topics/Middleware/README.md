@@ -1,8 +1,28 @@
 # Vahevara ehk Middleware
 
-`Middleware` funktsioonid on funktsioonid, millel on juurdepääs päringuobjektile (`req`), vastuseobjektile (`res`) ja järgmisele funktsioonile rakenduse päringu-vastuse tsüklis.
+Selles peatükis räägime Express.js keskkonnas kasutatavast vahevarast ehk `middleware`'st.
+
+![Middleware](Middleware.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+## Õpiväljundid
+
+Peale selle peatüki läbimist oskab õpilane:
+
+- selgitada, mis on `middleware` ja kuidas seda kasutatakse;
+- kirjutada `middleware` funktsioone;
+- rakendada `middleware`'i Express.js rakenduses.
+
+## Mis on Middleware funktsioonid?
+
+`Middleware` funktsioonid on funktsioonid, millel on juurdepääs päringuobjektile (`req`), vastuseobjektile (`res`) ja järgmisele funktsioonile rakenduse päringu-vastuse tsüklis. Põhimõtteliselt võime `middleware`'i mõelda kui filtrist, mis töötleb päringuid enne, kui need jõuavad päringu-vastuse tsükli järgmisse etappi. Näiteks võib `middleware` olla logimine, autentimine, päringuandmete analüüs või mõni muu funktsioon, mis on rakenduse jaoks oluline.
+
+## Next funktsioon
 
 `Next` funktsioon on Express-ruuteri funktsioon, mis käivitamisel käivitab `middleware` praeguse `middleware`’i järel.
+
+## Middleware kasutamine
 
 `Middleware` saab:
 
@@ -17,24 +37,23 @@ Logimise `middleware` näide:
 
 ```javascript
 // Http päringute konsooli logimise middleware
-import { Request, Response, NextFunction } from 'express';
 
-export default (req: Request, res: Response, next: NextFunction) => {
+const logger = (req, res, next) => {
   // Väljastatakse päringu sihtaadress, meetod ja aeg
   console.log(req.url, req.method, new Date().toISOString());
   // Next funktsiooni käivitamine annab järjekorra üle järgmisele middleware'le
-  next();
+  return next();
 }
 ```
 
-`Middleware`-t saab kasutada erinevalt.
+`Middleware`-t saab rakendada erinevalt.
 
 Üks variantidest on registreerida `middleware` kõikidele päringutele:
 
 ```javascript
 ...
-// Middleware importimine
-import logger from './middlewares/logger';
+// Middleware importimine (teekond sõltub faili asukohast)
+const logger = require('./middlewares/logger');
 
 ...
 
@@ -49,7 +68,7 @@ Teine variant on registreerida `middleware` ainult teatud marsuutidele:
 ```javascript
 ...
 // Middleware importimine
-import logger from './middlewares/logger';
+const logger = require('./middlewares/logger');
 
 ...
 
@@ -59,5 +78,7 @@ app.get('/api', logger, (req, res) => {
 });
 ...
 ```
+
+## Päringu/vastuse tsükkel koos `middleware`'iga
 
 ![Middelware](./middleware.png)
