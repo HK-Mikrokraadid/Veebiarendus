@@ -8,8 +8,9 @@
 
 ## Teemad
 
-- Veebilehel andmete kuvamine failist
+- Meenutame eelmist loengut
+- Mitme `js` faili kasutamine
 - [HTML vormid](../../../Subjects/Front-End-Technologies/Topics/HTML-Forms/README.md)
 - [HTML vormid ja Javascript](../../../Subjects/Front-End-Technologies/Topics/Forms-and-JS/README.md)
-- Andmete päring välisest allikast
-  - [Axios](../../../Subjects/Front-End-Technologies/Topics/Axios/README.md)
+
+## Kodutöö

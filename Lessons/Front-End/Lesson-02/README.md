@@ -8,6 +8,7 @@
 
 ## Teemad
 
+- Meenutame eelmist loengut
 - [CSS Display](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Display/README.md)
 - [CSS Display Flex](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Display-Flex/README.md)
 - [CSS Box model](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Box-Model/README.md)
