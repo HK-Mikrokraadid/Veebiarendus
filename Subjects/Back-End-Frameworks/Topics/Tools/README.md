@@ -31,7 +31,7 @@ Saadaval on ka Postman-i laiendus VSCode jaoks. Selle leiad VSCode laienduste al
 
 ## Thunder Client
 
-Thunde Clinet on vabavaraline laiendus VSCode koodieditorile, mis võimaldab samuti `API`-sid testida..
+Thunder Clinet on vabavaraline laiendus VSCode koodieditorile, mis võimaldab samuti `API`-sid testida..
 
 Thunder Client-i saad alla laadida VSCode laienduste alt.
 
