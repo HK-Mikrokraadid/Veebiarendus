@@ -6,6 +6,13 @@ Selles peatükis räägime Express.js keskkonnas kasutatavast vahevarast ehk `mi
 
 Pildi allikas: Dall-E by OpenAI
 
+- [Vahevara ehk Middleware](#vahevara-ehk-middleware)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on Middleware funktsioonid?](#mis-on-middleware-funktsioonid)
+  - [Next funktsioon](#next-funktsioon)
+  - [Middleware kasutamine](#middleware-kasutamine)
+  - [Päringu/vastuse tsükkel koos `middleware`'iga](#päringuvastuse-tsükkel-koos-middlewareiga)
+
 ## Õpiväljundid
 
 Peale selle peatüki läbimist oskab õpilane:
