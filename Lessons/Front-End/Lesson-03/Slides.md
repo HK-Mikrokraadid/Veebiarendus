@@ -16,8 +16,8 @@ Martti Raavel
 
 - Meenutame eelmist loengut
 - Mitme JS faili kasutamine
-- HTML vormid
-- HTML vormid ja Javascript
+- [HTML vormid](../../../Subjects/Front-End-Technologies/Topics/HTML-Forms/README.md)
+- [HTML vormid ja Javascript](../../../Subjects/Front-End-Technologies/Topics/Forms-and-JS/README.md)
 
 ---
 
@@ -142,4 +142,33 @@ document.getElementById('userInfoForm').addEventListener('submit', (event) => {
 
 ---
 
+## HTML vormide valideerimine Javascriptiga
+
+Vormi andmeid saab kontrollida ja valideerida Javascripti abil kasutades `checkValidity()` meetodit.
+
+```javascript
+if (email.checkValidity()) {
+  // Kui email on korrektne
+} else {
+  // Kui email on valesti sisestatud
+}
+```
+
+---
+
+## HTML vormide valideerimine Javascriptiga - veateade
+
+Javascripti abil saame ka kuvada veateateid, kui vormi andmed on valesti sisestatud.
+
+```javascript
+if (!email.checkValidity()) {
+  console.log(email.validationMessage);
+}
+```
+
+---
+
 ## Kodutöö
+
+- Blogipostituste sisestamine HTML vormide abil
+- Blogipostituste kuvamine eraldi failist

@@ -10,6 +10,7 @@ Pildi allikas: Dall-E by OpenAI
 - [HTML Vormide käsitlemine JavaScriptiga](#html-vormide-käsitlemine-javascriptiga)
   - [Õpiväljundid](#õpiväljundid)
   - [JavaScriptiga andmete lugemine](#javascriptiga-andmete-lugemine)
+  - [HTML vormide valideerimine JavaScriptiga](#html-vormide-valideerimine-javascriptiga)
   - [Kokkuvõte](#kokkuvõte)
   - [Allikad](#allikad)
 
@@ -65,6 +66,32 @@ document.getElementById('userInfoForm').addEventListener('submit', function(even
   // Siit saab jätkata andmete töötlemist või saatmist serverisse
 });
 ```
+
+## HTML vormide valideerimine JavaScriptiga
+
+Nüüd, kui kasutame vormide lugemiseks Javascripti ja kasutame meetodit `event.preventDefault()`, et peatada vormi tavapärane esitamine, ei toimi enam automaatne vormi valideerimine veebilehitseja poolt (*required*, *email* jne). Samas saame siiski kasutada vormidega kassa tulevat HTML5 valideerimist, kui kasutame `checkValidity()` meetodit.
+
+Eelnevale koodile saab lisada järgmise koodilõigu, mis valideerib vormi enne andmete lugemist:
+
+```javascript
+if (!email.checkValidity()) {
+  console.log('Vigane e-posti aadress');
+}
+```
+
+Kui vormi element ei vasta HTML5 nõuetele (*required*, *email*), siis `checkValidity()` meetod tagastab `false`. Selle abil saame kontrollida, kas vormi element on korrektselt täidetud.
+
+Lisaks on võimalik tagastada kliendile ka teade, mis sisaldab informatsiooni selle kohta, miks vormi esitamine ebaõnnestus:
+
+```javascript
+if (!email.checkValidity()) {
+  console.log(email.validationMessage);
+}
+```
+
+`validationMessage` omadus tagastab vormi elemendi valideerimise veateate.
+
+Sellisel viisil saame kasutada HTML5 vormi valideerimist koos JavaScriptiga, et tagada vormi andmete õigsus enne nende töötlemist.
 
 ## Kokkuvõte
 
