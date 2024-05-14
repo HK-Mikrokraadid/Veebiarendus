@@ -86,6 +86,7 @@ HTML vormielementidele saab lisada erinevaid atribuute, mis määravad vormi kä
 - `action` - Määrab URL-i, kuhu vormi andmed saadetakse
 - `method` - Määrab andmete saatmise meetodi, tavaliselt `GET` või `POST`
 - `name` - Määrab vormi elemendi nime
+- `type` - Määrab, mis tüüpi vormielemendiga tegemist on
 - `required` - Määrab, kas vormielement on kohustuslik
 - jne ...
 
