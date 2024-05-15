@@ -28,9 +28,31 @@ CSS-i `position` omadus võimaldab arendajatel määrata elemendi paigutuse meet
 
 ## Näited ja Kasutusalad
 
+### HTML näide
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Position Property</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="child child-1">Child 1</div>
+    <div class="child child-1">Child 2</div>
+    <div class="child child-1">Child 3</div>
+  </div>
+</body>
+</html>
+```
+
 ### Static
 
-Enamik HTML elemente kasutab vaikimisi `static` paigutust, mis tähendab, et need asuvad seal, kuhu lehe normaalne voog neid paigutab.
+Enamik HTML elemente kasutab vaikimisi `static` paigutust, mis tähendab, et need asuvad seal, kuhu lehe normaalne voog neid paigutab. See tähendab, et `top`, `right`, `bottom`, ja `left` omadused ei mõjuta elementi.
 
 ```css
 div {
@@ -43,10 +65,11 @@ div {
 `Relative` paigutus võimaldab nihutada elementi oma normaalsest asukohast, ilma et see mõjutaks teiste elementide asukohta.
 
 ```css
-div {
+.child-1 {
+  background-color: #0f0;
   position: relative;
-  top: 10px;
-  left: 20px;
+  top: 20px;
+  left: 10px;
 }
 ```
 
@@ -59,9 +82,10 @@ div {
   position: relative;
 }
 
-.child {
+.child-2 {
+  background-color: #f00;
   position: absolute;
-  top: 50px;
+  top: 0;
   right: 0;
 }
 ```
@@ -71,7 +95,8 @@ div {
 `Fixed` paigutus fikseerib elemendi kindlale positsioonile vaateaknas, olenemata lehe kerimisest.
 
 ```css
-div {
+.child-3 {
+  background-color: #778899;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -89,6 +114,47 @@ header {
 }
 ```
 
+### CSS fail kokku
+
+```css
+.constainer {
+  border: 1px solid black;
+  display: flex;
+  position: relative;
+}
+
+.child {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.child-1 {
+  background-color: #0f0;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.child-2 {
+  background-color: #f00;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.child-3 {
+  background-color: #778899;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+```
+
+See näide paigutab kolm erinevat elementi lehe erinevatesse kohtadesse, kasutades erinevaid `position` väärtusi.
+
 ## Kokkuvõte
 
-`Position` omaduse mõistmine ja oskus seda efektiivselt kasutada on oluline iga veebiarendaja jaoks, kes soovib luua intuitiivseid ja visuaalselt kaasahaaravaid veebilehti. Erinevad `position` väärtused pakuvad paindlikkust elementide paigutamisel, mis võimaldab luua kõike alates fikseeritud navigatsioonimenüüdest kuni interaktiivsete, dünaamiliselt paigutatud kasutajaliideste osadeni.
+CSS-i `position` omadus on oluline tööriist elementide paigutamiseks veebilehel. Selle omaduse abil saate määrata, kuidas element paigutatakse suhtes oma tavapärase vooga või teiste elementidega. Erinevad `position` väärtused võimaldavad teil luua dünaamilisi ja kohandatud paigutusi, mis vastavad teie disaini vajadustele.
