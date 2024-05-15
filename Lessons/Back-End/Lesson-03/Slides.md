@@ -22,7 +22,6 @@ Martti Raavel
     - `req.params`
     - `req.body`
     - `req.query`
-- [Middleware](../../../Subjects/Back-End-Frameworks/Topics/Middleware/README.md)
 
 ---
 
@@ -198,5 +197,7 @@ app.get('/api', logger, (req, res) => {
 ## Kodutöö
 
 - Paigalda oma arvutisse Docker Desktop rakendus
-
----
+- Lisa oma varasemalt alustatud projektile uute ressursside lisamise võimalus (kui juba ei ole lisanud).
+- Lisa resuusrsside loomisele kontrollid, et kasutaja ei saaks lisada tühje või vigaseid andmeid.
+  
+Kasuks võib olla loengus kirjutatud kood, mille leiad siit: [Kolmandas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/BE/03)

@@ -15,3 +15,15 @@
 - [HTML vormid ja Javascript](../../../Subjects/Front-End-Technologies/Topics/Forms-and-JS/README.md)
 
 ## Kodutöö
+
+Loe läbi loengus räägitud teemade peatükid:
+
+- [HTML vormid](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/HTML-Forms/README.md)
+- [HTML vormid ja Javascript](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Forms-and-JS/README.md)
+
+## Ülesanne
+
+- Lisa oma veebilehele vorm, mis võimaldab uute postituste lisamist.
+- Proovi ka teha nii, et postituste nimekiri on eraldi failis ja et sellest nimekirjast luuakse automaatselt veebilehele postituste loend.
+
+Kasuks võib olla loengus kirjutatud kood, mille leiad siit: [Kolmandas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/03)
