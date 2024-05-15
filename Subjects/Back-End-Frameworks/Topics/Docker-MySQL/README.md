@@ -11,6 +11,7 @@ Image allalaadimiseks tuleks minna käsureale ja sinna kirjutada: ```docker pull
 Docker konteineri käivitamiseks imagest on käsk `docker run imageName`. MySQL-i imagest konteineri käivitamiseks on siis käsk: ```docker run mysql```
 
 Kui proovida sellisel viisil MySQL-i käivitada, siis tuleb välja, et see ei tööta ja ekraanile kuvatakse:
+
 ```bash
 $ docker run mysql
 2023-10-31 15:49:19+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.2.0-1.el8 started.
