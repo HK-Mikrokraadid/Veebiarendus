@@ -17,6 +17,10 @@
     - Request body
     - Query string
 
+## Request-Response tsükkel (loengus joonistatud pilt)
+
+![Req-Res-Cycle](req-res-cycle.jpg)
+
 ## Kodutöö
 
 - Lisa oma varasemalt alustatud projektile uute ressursside lisamise võimalus (kui juba ei ole lisanud).
