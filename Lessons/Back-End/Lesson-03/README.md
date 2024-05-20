@@ -8,6 +8,7 @@
 
 ## Teemad
 
+- Meenutame eelmist loengut
 - Kordamine
   - Struktureerimine
     - Vaatame üle teenused ja kontrollerid

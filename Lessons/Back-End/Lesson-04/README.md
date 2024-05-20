@@ -7,3 +7,9 @@
 - [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
 
 ## Teemad
+
+- Meenutame eelmist loengut
+- [Middleware](../../../Subjects/Back-End-Frameworks/Topics/Middleware/README.md)
+- [Express Router](../../../Subjects/Back-End-Frameworks/Topics/Routes/README.md)
+
+## Kodutöö

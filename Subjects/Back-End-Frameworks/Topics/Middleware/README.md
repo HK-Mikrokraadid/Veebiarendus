@@ -12,6 +12,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Next funktsioon](#next-funktsioon)
   - [Middleware kasutamine](#middleware-kasutamine)
   - [Päringu/vastuse tsükkel koos `middleware`'iga](#päringuvastuse-tsükkel-koos-middlewareiga)
+  - [Not Found `middleware`](#not-found-middleware)
 
 ## Õpiväljundid
 
@@ -89,3 +90,47 @@ app.get('/api', logger, (req, res) => {
 ## Päringu/vastuse tsükkel koos `middleware`'iga
 
 ![Middelware](./middleware.png)
+
+## Not Found `middleware`
+
+Üks variant, kus `middleware` on kasulik, on 404 lehekülje kuvamine, kui päringu sihtressurssi ei leita. Näide:
+
+```javascript
+// 404 lehekülje kuvamine, kui päringu sihtressurssi ei leita
+
+const notFound = (req, res, next) => {
+  res.status(404).send({
+    success: false,
+    message: 'Route not found',
+  });
+}
+
+module.exports = notFound;
+```
+
+`Middleware` registreerimine:
+
+```javascript
+...
+// Middleware importimine
+const notFound = require('./middlewares/notFound');
+
+...
+
+// Middleware registreerimine
+
+app.use('*', notFoundMiddleware);
+
+...
+```
+
+Siinkohal tuleb meeles pidada, et see `middleware` funktsioon tuleb registreerida peale kõiki marsuute ja marsuudi teekonnaks tuleb panna `*`. See tähendab, et kui kasutaja pöördub mõne marsuudi poole, mida API-s ei eksisteeri, siis ta suunatakse sellele `middleware` funktsioonile.
+
+Nüüd, kui kasutaja pöördub mõne marsuudi poole, mida API-s ei eksisteeri, siis ta saab vastuseks järgmise:
+
+```json
+{
+  "success": false,
+  "message": "Route not found"
+}
+```

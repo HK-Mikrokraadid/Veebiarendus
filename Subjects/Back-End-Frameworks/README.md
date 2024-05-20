@@ -31,7 +31,6 @@ Kursuse lõpuks peaksid õppurid olema osavad serveri arhitektuuri põhimõtetes
 - [Express](./Topics/Express/README.md)
 - [Struktureerimine](./Topics/Structure/README.md)
 - [Vahevara](./Topics/Middleware/README.md)
-- [Not Found vahevara](./Topics/Not-Found-Middleaware/README.md)
 - [Routes](./Topics/Routes/README.md)
 - [Autentimine ja autoriseerimine](./Topics/Auth/README.md)
 - [Bcrypt](./Topics/Bcrypt/README.md)

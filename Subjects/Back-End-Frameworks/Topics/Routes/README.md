@@ -1,14 +1,35 @@
 # Router-i kasutamine express raamistikus
 
-Siiani on meil erinevad marsuudid olnud otse failis `index.ts` kirjas. Kui meil on aga palju marsuute, siis võib faili sisu muutuda väga suureks ja raskesti loetavaks. Selleks, et koodi veel paremini struktureerida ja ka `index.ts` faili sisu loetavamaks muuta, saame kasutada `express Router`-it.
+Selles peatükis räägime Express.js raamistikus kasutatavast `Router`-ist.
+
+![Express Router](Express-Router.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Router-i kasutamine express raamistikus](#router-i-kasutamine-express-raamistikus)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Router](#router)
+  - [Router-i loomine](#router-i-loomine)
+  - [Middlewarede kasutamine Router-ites](#middlewarede-kasutamine-router-ites)
+  - [Kokkuvõtteks](#kokkuvõtteks)
+
+## Õpiväljundid
+
+Peale selle peatüki läbimist oskab õpilane:
+
+- selgitada, mis on `Router` ja kuidas seda kasutatakse;
+- luua `Router`-eid Express.js rakenduses;
+- kasutada `Router`-eid marsruutide grupeerimiseks.
+
+Siiani on meil erinevad marsuudid olnud otse failis `app.js` kirjas. Kui meil on aga palju marsuute, siis võib faili sisu muutuda väga suureks ja raskesti loetavaks. Selleks, et koodi veel paremini struktureerida ja ka `app.js` faili sisu loetavamaks muuta, saame kasutada `express Router`-it.
 
 ## Router
 
 `Router` on `Express` raamistiku objekt, mis võimaldab meil marsruute grupeerida. Näiteks kui meil on vaja eraldi marsruudid kasutajatele ja eraldi marsruudid postitustele, siis saame need eraldi `Router`-isse panna.
 
-Kui meil praegu on failis `index.ts` marsruudid kirjas midagi sellist:
+Kui meil praegu on failis `app.js` marsruudid kirjas midagi sellist:
 
-```typescript
+```js
 app.get('/logs', logger, loggerControllers.getLogs);
 
 app.post('/login', authControllers.login);
@@ -36,85 +57,85 @@ Siis me näeme, et need marsuudid juba moodustavad omaette grupid vastavalt ress
 
 ## Router-i loomine
 
-Kõigepealt loome vastava komponendi kausta uue faili, mis hakkab sisaldama vastava ressursiga seotud marsruute. Näiteks õppeainetega seotud marsruudid võiks olla failis `subjectsRoutes.ts` failis. Kõigepealt tuleb sinna faili importida `express` raamistiku `Router` objekt:
+Kõigepealt loome vastava komponendi kausta uue faili, mis hakkab sisaldama vastava ressursiga seotud marsruute. Näiteks õppeainetega seotud marsruudid võiks olla failis `subjectsRoutes.js` failis. Kõigepealt tuleb sinna faili importida `express`:
 
-```typescript
-import { Router } from 'express';
+```javascript
+const express = require('express');
 ```
 
-Ja seejärel saame luua `Router`-i:
+Ja seejärel saame luua `Router` objekti:
 
-```typescript
-const router = Router();
+```javascript
+const router = express.Router();
 ```
 
-Lisaks tuleks samasse faili omportida ka vastavad kontrollerid, mida marsruudid kasutavad:
+Lisaks tuleks samasse faili importida ka vastavad kontrollerid, mida marsruudid kasutavad:
 
-```typescript
-import subjectsControllers from './subjectsControllers';
+```javascript
+const subjectsControllers = require('./subjectsControllers');
 ```
 
-Seejärel saame `index.ts` failist liigutada kõik õppeainetega seotud marsruudid `subjectsRoutes.ts` faili ja need pisut ümber kirjutada, et need kasutaksid `app` asemel `router`-it:
+Seejärel saame `app.js` failist liigutada kõik õppeainetega seotud marsruudid `subjectsRoutes.js` faili ja need pisut ümber kirjutada, et need kasutaksid `app` asemel `router`-it:
 
-```typescript
-router.get('/subjects', subjectsControllers.getSubjects);
-router.get('/subjects/:id', subjectsControllers.getSubjectById);
-router.post('/subjects', subjectsControllers.createSubject);
+```javascript
+router.get('/', subjectsControllers.getSubjects);
+router.get('/:id', subjectsControllers.getSubjectById);
+router.post('/', subjectsControllers.createSubject);
 ```
 
-Ja lõpuks tuleb `router` ka eksporida ja `index.ts` faili importida:
+Ja lõpuks tuleb `router` ka eksporida ja `app.js` faili importida:
 
-```typescript
-export default router;
+```javascript
+module.exports = router;
 ```
 
-`index.ts` failis impordime `subjectsRoutes.ts` faili ja kasutame `app.use` meetodit, et `express` raamistik teaks, et meil on olemas selline `Router`:
+`app.js` failis impordime `subjectsRoutes.js` faili ja kasutame `app.use` meetodit, et `express` raamistik teaks, et meil on olemas selline `Router`:
 
-```typescript
-import subjectsRoutes from './subjects/subjectsRoutes';
+```javascript
+const subjectsRoutes = require('./subjects/subjectsRoutes');
 
-app.use(subjectsRoutes);
+app.use('/subjects', subjectsRoutes);
 ```
 
-Lõplikult näeb `subjectsRoutes.ts` fail välja selline:
+Lõplikult näeb `subjectsRoutes.js` fail välja selline:
 
-```typescript
-import { Router } from 'express';
-import subjectsControllers from './subjectsControllers';
+```javascript
+const express = require('express');
+const subjectsControllers = require('./subjectsControllers');
 
-const router = Router();
+const router = express.Router();
 
-router.get('/subjects', subjectsControllers.getSubjects);
-router.get('/subjects/:id', subjectsControllers.getSubjectById);
-router.post('/subjects', subjectsControllers.createSubject);
+router.get('/', subjectsControllers.getSubjects);
+router.get('/:id', subjectsControllers.getSubjectById);
+router.post('/', subjectsControllers.createSubject);
 
-export default router;
+module.exports = router;
 ```
 
 ## Middlewarede kasutamine Router-ites
 
 Middleware-de kasutamine `Router`-ites on täpselt samamoodi nagu `app`-is. Näiteks kui meil on vaja `isLoggedInMiddleware`-i kasutada, siis saame seda teha nii:
 
-```typescript
-import { Router } from 'express';
+```javascript
+const express = require('express');
 
-import subjectsControllers from './subjectsControllers';
-import isLoggedInMiddleware from '../auth/isLoggedInMiddleware';
+const subjectsControllers = require('./subjectsControllers');
+const isLoggedInMiddleware = require('../auth/isLoggedInMiddleware');
 
-const router = Router();
+const router = express.Router();
 
-router.get('/subjects', isLoggedInMiddleware, subjectsControllers.getSubjects);
+router.get('/', isLoggedInMiddleware, subjectsControllers.getSubjects);
 
-export default router;
+module.exports = router;
 ```
 
 Samas on oluline meeles pidada, et kui me kasutame `Router`-it, siis me ei saa kasutada `app.use` meetodit, et kasutada middleware-d kõikide marsruutide puhul. Selle asemel peame kasutama `router.use` meetodit:
 
-```typescript
-import { Router } from 'express';
+```javascript
+const express = require('express');
 
-import subjectsControllers from './subjectsControllers';
-import isLoggedInMiddleware from '../auth/isLoggedInMiddleware';
+const subjectsControllers = require('./subjectsControllers');
+const isLoggedInMiddleware = require('../auth/isLoggedInMiddleware');
 
 const router = Router();
 
@@ -122,14 +143,18 @@ router.use(isLoggedInMiddleware);
 
 router.get('/subjects', subjectsControllers.getSubjects);
 
-export default router;
+module.exports = router;
 ```
 
-Või siis registreerime vastava middleware lihtsalt `index.ts` failis enne vastava `router`-i kasutamist:
+Või siis registreerime vastava middleware lihtsalt `app.js` failis enne vastava `router`-i kasutamist:
 
-```typescript
-import subjectsRoutes from './subjects/subjectsRoutes';
+```javascript
+const subjectsRoutes = require('./subjects/subjectsRoutes');
 
 app.use(isLoggedInMiddleware);
 app.use(subjectsRoutes);
 ```
+
+## Kokkuvõtteks
+
+`Router`-id on väga kasulikud, kui meil on palju marsruute ja soovime neid grupeerida. Samuti muudab see meie koodi loetavamaks ja paremini struktureerituks. Samuti saame `Router`-ites kasutada middleware-deid täpselt samamoodi nagu `app`-is.

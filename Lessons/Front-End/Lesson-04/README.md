@@ -10,5 +10,5 @@
 - [CSS Position](../../../Subjects/Front-End-Technologies/Topics/CSS-Position/README.md)
 - [CSS Frameworks](../../../Subjects/Front-End-Technologies/Topics/CSS-Frameworks/README.md)
 - [Bootstrap](../../../Subjects/Front-End-Technologies/Topics/Bootstrap/README.md)
-- Andmete päring välisest allikast
+- Andmete pärimine välisest allikast
   - [Axios](../../../Subjects/Front-End-Technologies/Topics/Axios/README.md)
