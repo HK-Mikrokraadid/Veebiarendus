@@ -37,7 +37,7 @@ Kursuse lõpuks peaksid õpilased omama oskuseid peamistes front-end tehnoloogia
 - [Cookies](./Topics/Cookies/README.md)
 - [CSS Grid](./Topics/Grid/README.md)
 - [CSS läbipaistvus ja nähtavus](./Topics/Opacity-Visibility/README.md)
-- [CSS Position](./Topics/Position/README.md)
+- [CSS Position](./Topics/CSS-Position/README.md)
 - [CSS Display](./Topics/CSS-Display/README.md)
 - [CSS Border](./Topics/Border/README.md)
 - [Kujundid CSS-i abil](./Topics/Shapes-with-CSS/README.md)
