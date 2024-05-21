@@ -287,13 +287,54 @@ Axios-i kasutamine on lihtne ja loogiline. Siin on näide, kuidas teha GET-päri
 ```javascript
 async function fetchPosts() {
   try {
-    const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
+    const response = await axios.get('https://jsonplaceholder.typicode.com/todos');
     console.log(response.data);
   } catch (error) {
     console.error('Viga päringus:', error);
   }
 }
+
+fetchPosts();
 ```
 
 ---
 
+## JS funktsioonide käivitamine HTML-is
+
+Kui siiani oleme kuulanud sündmusi ja käivitanud funktsioone JavaScripti kaudu, siis tegelikult on võimalik käivitada JavaScripti funktsioone ka otse HTML-is.
+
+```html
+<button onclick="myFunction()">Käivita funktsioon</button>
+```
+
+```javascript
+const myFunction = () => {
+  alert('Hello World!');
+};
+```
+
+---
+
+## Sündmuse objekti edastamine
+
+Nagu eelmine loeng rääkisime, siis kaasneb sündmusega objekt, mis sisaldab palju kasulikku teavet sündmuse kohta. Selle objekti edastamine HTML-ist Javascripti käib nii:
+
+```html
+<button onclick="myFunction(event)">Käivita funktsioon</button>
+```
+
+```javascript
+const myFunction = (event) => {
+  console.log(event);
+};
+```
+
+---
+
+## Kodune töö
+
+- Tee blogi lehekülg kasutades Bootstrap-i.
+- Lisa blogisse Axios-i abil andmete pärimine välisest allikast.
+  - Näiteks kasuta [JSONPlaceholder](https://jsonplaceholder.typicode.com/) API-t
+  - Kuva blogi postitused leheküljele.
+  - Proovi kuvada ka kommentaarid postituste kohta.
