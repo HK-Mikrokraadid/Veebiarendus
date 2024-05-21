@@ -22,9 +22,11 @@ CSS-i `position` omadus võimaldab arendajatel määrata elemendi paigutuse meet
 
 - **`static`**: Vaikeseade, mis jätab elemendi tavapärasesse voogu. `top`, `right`, `bottom`, ja `left` omadused ei mõjuta `static` elemendi asukohta.
 - **`relative`**: Paigutab elemendi suhteliselt tema tavapärasest asukohast. See võimaldab elemendil liikuda ilma teisi elemente mõjutamata.
-- **`absolute`**: Eemaldab elemendi dokumentide voost ja paigutab selle suhtes lähima positsioneeritud vanema elemendi.
-- **`fixed`**: Paigutab elemendi suhtes vaateporti ja see jääb paigale isegi kerimisel.
+- **`absolute`**: Eemaldab elemendi dokumendi elementide voost ja paigutab selle suhtes lähima positsioneeritud vanema elemendiga.
+- **`fixed`**: Paigutab elemendi nähtava ala suhtes ja see jääb paigale isegi kerimisel.
 - **`sticky`**: Kombinatsioon `relative` ja `fixed` paigutusest. Element on `relative` kuni teatud punktini, kus see muutub `fixed`.
+
+> **Märkus:** Elemendi positsiooni saame määrata ka `top`, `right`, `bottom`, ja `left` omaduste abil, mis määravad elemendi asukoha suhtes selle elemendi konteineriga.
 
 ## Näited ja Kasutusalad
 
