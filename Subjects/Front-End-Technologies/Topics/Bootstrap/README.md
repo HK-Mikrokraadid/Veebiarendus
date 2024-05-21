@@ -26,7 +26,6 @@ Pildi allikas: Dall-E by OpenAI
     - [Näide Navigeerimisribast](#näide-navigeerimisribast)
   - [Kokkuvõte](#kokkuvõte)
 
-
 ## Õpiväljundid
 
 Peale selle õppetüki läbimist suudad:
@@ -53,7 +52,7 @@ Lihtsaim viis Bootstrapi kasutamiseks on lisada järgmised lingid oma HTML-dokum
 
 ```html
 <!-- Bootstrapi CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
 
 <!-- Valikuline JavaScript -->
 <!-- jQuery, Popper.js ja Bootstrap JS -->
@@ -73,7 +72,7 @@ Siin on näide lihtsast Bootstrapiga loodud veebilehest:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrapi Näidis</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
