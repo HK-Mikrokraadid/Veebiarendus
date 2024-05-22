@@ -100,6 +100,8 @@ div.fixed {
 }
 ```
 
+---
+
 ## CSS Position: sticky
 
 **sticky**: väärtus on kombinatsioon `relative` ja `fixed` paigutusest. Element on `relative` kuni teatud punktini, kus see muutub `fixed` elemendiks. Seda kasutatakse näiteks navigatsioonimenüüde jaoks.
@@ -280,9 +282,9 @@ Nagu paljusid teisi *library*-sid, saab Axios-i paigaldada mitmel viisil, kuid k
 
 ---
 
-## Axios-i kasutamine
+## Axios-e kasutamine
 
-Axios-i kasutamine on lihtne ja loogiline. Siin on näide, kuidas teha GET-päring ja käsitleda vastust *async/await* abil:
+Axios-e kasutamine on üsna lihtne ja loogiline. Siin on näide, kuidas teha GET-päring ja käsitleda vastust *async/await* abil:
 
 ```javascript
 async function fetchPosts() {
