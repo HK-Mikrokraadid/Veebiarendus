@@ -200,8 +200,9 @@ app.use('/cars', carsRoutes);
 
 ## Kodune töö
 
-- Loe läbi tänase loengu materjalid:
-  - [Middleware](../../../Subjects/Back-End-Frameworks/Topics/Middleware/README.md)
-  - [Express Router](../../../Subjects/Back-End-Frameworks/Topics/Routes/README.md) materjalid
+- Loe läbi neljanda loengu materjalid:
+  - [Middleware](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Back-End-Frameworks/Topics/Middleware/README.md)
+  - [Express Router](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Back-End-Frameworks/Topics/Routes/README.md) materjalid
 - Struktureeri oma projekti marsruudid `Router` objektideks
-- Lisa oma projekti `middleware` funktsioon, mis ...
+- Lisa oma projekti `middleware` funktsioon, mis logib konsooli kõik päringud koos kellaajaga
+- Paigalda oma arvutisse [Docker Desktop](https://www.docker.com/products/docker-desktop/) rakendus

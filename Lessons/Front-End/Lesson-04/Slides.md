@@ -333,6 +333,11 @@ const myFunction = (event) => {
 
 ## Kodune töö
 
+- Loe läbi neljanda loengu materjalid:
+  - [CSS Position](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Position/README.md)
+  - [CSS raamistikud](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Frameworks/README.md)
+  - [Bootstrap](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Bootstrap/README.md)
+  - [Andmete pärimine välisest allikast Axios-ega](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Axios/README.md)
 - Tee blogi lehekülg kasutades Bootstrap-i.
 - Lisa blogisse Axios-i abil andmete pärimine välisest allikast.
   - Näiteks kasuta [JSONPlaceholder](https://jsonplaceholder.typicode.com/) API-t
