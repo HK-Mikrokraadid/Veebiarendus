@@ -2,7 +2,7 @@
 
 - [Kolmas loeng](../Lesson-03/README.md)
 - [Neljanda loengu slaidid](Slides.md)
-- [Neljanda loengu salvestus](https://youtu.be/dHSBwsp1GF4)
+- [Neljanda loengu salvestus](https://youtu.be/4VjWU5XPKuw)
 - [Viies loeng](../Lesson-05/README.md)
 
 ## Teemad
