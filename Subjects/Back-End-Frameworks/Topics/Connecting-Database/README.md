@@ -34,7 +34,7 @@ npm install mysql2
 Andmebaasiga ühenduse loomiseks teeme kõigepealt eraldi faili (näiteks `database.ts`), kuhu impordime `MySQL2` paketi ja loome ühenduse andmebaasiga:
 
 ```javascript
-import mysql from 'mysql2';
+const mysql = require('mysql2');
 
 const dbConfig = {
   host: 'localhost',
@@ -45,7 +45,7 @@ const dbConfig = {
 
 const db = mysql.createConnection(dbConfig).promise();
 
-export default db;
+module.exports = db;
 ```
 
 > `dbConfig` objektis on vaja muuta `user`, `password` ja `database` väärtused vastavalt oma andmebaasi seadetele.
@@ -59,14 +59,12 @@ Nüüd on meil võimalik andmebaasiühendus oma API teenustesse importida ja kas
 Teenustes saab hakata nüüd päringuid tegema nii:
 
 ```typescript
-import { FieldPacket, ResultSetHeader } from 'mysql2';
-import db from '../../database';
-import IUser from './interfaces';
+const db = require('./database');
 
 const usersService = {
-  getAllUsers: async (): Promise<IUser[] | false> => {
+  getAllUsers: async () => {
     try {
-      const [users]: [IUser[], FieldPacket[]] = await db.query('SELECT id, firstName, lastName, email, dateCreated, role FROM users WHERE dateDeleted IS NULL');
+      const [users] = await db.query('SELECT id, firstName, lastName, email, dateCreated, role FROM users WHERE dateDeleted IS NULL');
       return users;
     } catch (error) {
       console.log(error);
@@ -81,13 +79,13 @@ const usersService = {
 
 ### Parameetrilised päringud
 
-```typescript
+```js
 // Selle asemel, et kirjutada kasutaja poolt saadetud infot otse päringusse kujul:
-const [user]: [IUser[], FieldPacket[]] = await db.query('SELECT * FROM users WHERE email = email AND dateDeleted IS NULL;');
+const [user] = await db.query('SELECT * FROM users WHERE email = email AND dateDeleted IS NULL;');
 
 // Tuleks seda teha sellisel kujul:
-const [user]: [IUser[], FieldPacket[]] = await db.query('SELECT * FROM users WHERE email = ? AND dateDeleted IS NULL', [email]);
+const [user] = await db.query('SELECT * FROM users WHERE email = ? AND dateDeleted IS NULL', [email]);
 
 // Kui muutujaid on rohkem siis tuleb ikkagi muutujate asemele päringusse kirjutada ? ja pärast [] sisse lihtsalt muutujad komadega eraldatult
-const [result]: [ResultSetHeader, FieldPacket[]] = await db.query(`INSERT INTO users SET firstName = ?, lastName = ?, email = ?, password = ?`, [user.firstName, user.lastName, user.email, user.password]);
+const [result] = await db.query(`INSERT INTO users SET firstName = ?, lastName = ?, email = ?, password = ?`, [user.firstName, user.lastName, user.email, user.password]);
 ```
