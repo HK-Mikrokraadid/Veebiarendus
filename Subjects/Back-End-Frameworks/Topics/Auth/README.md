@@ -1,5 +1,26 @@
 # Autentimine ja Autoriseerimine
 
+Selles peatükis käsitleme autentimise ja autoriseerimise mõisteid ning protsessi. Autentimine on protsess, millega kasutaja tuvastab ennast süsteemis, samas kui autoriseerimine on protsess, millega määratakse kindlaks, milliseid toiminguid kasutaja saab teha.
+
+![Auth](Auth.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Autentimine ja Autoriseerimine](#autentimine-ja-autoriseerimine)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Autentimine](#autentimine)
+  - [Autoriseerimine](#autoriseerimine)
+  - [Autentimine ja autoriseerimine üldiselt](#autentimine-ja-autoriseerimine-üldiselt)
+  - [Autentimise ja autoriseerimise protsess Front-End rakenduses](#autentimise-ja-autoriseerimise-protsess-front-end-rakenduses)
+  - [Autentimise ja autoriseerimise protsess Back-End rakenduses](#autentimise-ja-autoriseerimise-protsess-back-end-rakenduses)
+
+## Õpiväljundid
+
+Selle peatüki lõpuks peaksid õppijad olema võimelised:
+
+- selgitama autentimise ja autoriseerimise mõisteid;
+- selgitama autentimise ja autoriseerimise protsessi.
+
 ## Autentimine
 
 Autentimine on protsess, millega üks kasutaja, süsteem või muu olem (objekt) saab kontrollida teise olemi väidetava identiteedi tõesust, tavaliselt mingit tüüpi identsustõendi alusel:
@@ -14,20 +35,50 @@ Autentimine on protsess, millega üks kasutaja, süsteem või muu olem (objekt) 
 
 [Allikas](https://sisu.ut.ee/autentimine/m%C3%B5isted)
 
-## Autentimine ja autoriseerimine API-s
-Selleks, et me saaksime API-le tekitada `autentimise` ja `autoriseerimise`, on meil vaja kõigepealt luua kasutajate jaoks andmebaasi tabel, kasutajate loomise/muutmise/kustutamise võimalus ja sisselogimise võimalus.
+## Autentimine ja autoriseerimine üldiselt
 
-Selleks teeme oma API-le kasutajate tabeli, kuhu salvestatakse kasutaja:
+Kui meil on rakendus või API, millel on erinevad kasutajad, siis tõenäoliselt on meil vaja ka neile kasutajatele määrata erinevaid rolle. Näiteks on tõenäoliselt vaja API-le eraldi administraatori rollis kasutajat, kes saaks vajadusel teha muudatusi kasutajate andmetes või muudes süsteemi seadetes, mida tavakasutaja teha ei tohiks.
 
-- eesnimi
-- perekonnanimi
-- email (kasutajanimi)
-- kasutaja roll
-- parool
+Kasutaja autentimise protsess on tavaliselt järgmine:
 
-Lisaks oleks vaja võimalust kasutajaid luua, muuta, kustutada ja ka võimalust sisse logimiseks.
+1. Kasutaja saadab oma autentimisandmed (nt kasutajanimi ja parool) serverile.
+2. Server kontrollib, kas antud kasutajanimi ja parool on õiged.
+3. Samuti kontrollitakse, millised õigused kasutajal on (nt kasutaja, administraator jne).
+4. Kui autentimine on edukas, genereeritakse kasutajale token, mis saadetakse tagasi kasutajale/kliendile, mida kasutatakse edaspidi autentimiseks. Token sisadab tavaliselt nii kasutaja identifikaatorit, kasutaja rolli või õiguseid ja tokeni aegumise aega.
+5. Kasutaja saadab edaspidi tokeni iga päringuga kaasa, et server saaks tuvastada kasutaja ja tema õigused.
+6. Server kontrollib tokenit ja otsustab, kas kasutajal on õigus teha antud päringut.
+7. Kui kasutajal on õigus, siis päring töödeldakse vastavalt.
+8. Kui kasutajal pole õigust, siis päring tagastab vastava veateate või staatuse.
+9. Autentimistoken aegub teatud aja möödudes ja kasutaja peab uue tokeni saamiseks uuesti autentimise läbima.
 
-Sisselogimisel on vaja kontrollida kasutajanime ja parooli õigsust ja vastavalt sellele kasutajat edasi lubada või mitte. Lisaks peaks olema võimalik kontrollida kasutaja rolli (näiteks tavakasutaja või administraator) ja selle alusel otsustada, kas kasutaja lubada mingite ressursside/tegevuste juurde või mitte.
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Server
+    Client->>Server: Saada autentimisandmed
+    Server->>Server: Kontrolli kasutajat
+    Server->>Server: Genereeri token
+    Server->>Client: Saada token
+    Client->>Server: Saada päring koos tokeniga
+    Server->>Server: Kontrolli tokenit
+    Server->>Server: Otsusta kas kasutajal on õigus
+    Server->>Client: Tagasta vastus
+```
 
-Edaspidi peab otsustama milliste ressursside juurde keegi pääseb - näiteks kas kasutaja näeb ainult oma loodud ressursse, kes saab loodud ressursse muuta jne.
+## Autentimise ja autoriseerimise protsess Front-End rakenduses
 
+Front-Endi vaates on meil vaja luua kasutajale võimalus sisestada oma kasutajanimi ja parool (või mõni muu autentimisviis) ning seejärel saata need andmed serverile. Kui autentimine on edukas, siis server saadab tagasi autentimistokeni, mis tuleb meil kuidagi salvestada ja edaspidi kaasa saata iga päringuga.
+
+Näiteks salvestatakse token tavaliselt kasutaja brauseri `localStorage` või `sessionStorage` objekti. Kui kasutaja sulgeb brauseri või tabi, siis `sessionStorage` objekt kustutatakse, kuid `localStorage` objekt jääb alles ka siis, kui brauser suletakse ja uuesti avatakse.
+
+## Autentimise ja autoriseerimise protsess Back-End rakenduses
+
+Back-Endi vaates on meil vaja luua serveri pool, mis suudab vastu võtta kasutaja autentimisandmed, kontrollida neid ja genereerida autentimistokeni. Samuti peab server suutma kontrollida iga päringuga kaasa saadetud tokenit ja otsustada, kas kasutajal on õigus teha antud päringut.
+
+Selle kursuse käigus kasutame tokeni genereerimiseks ja kontrollimiseks `JWT` (JSON Web Token) tehnoloogiat. JWT on standard, mis defineerib kompaktse ja isetasanduva viisi turvaliselt edastada teavet JSON objektis.
+
+JWT genereerimisel kasutatakse salajast võtit, mis on ainult serveri poolel ja mida kasutatakse tokeni allkirjastamiseks. Kui token on allkirjastatud, siis seda ei saa muuta ilma, et allkiri muutuks - see tagab tokeni autentsuse.
+
+Tokeni kontrollimiseks saame kasutada sama salajast võtit, et dekodeerida token ja kontrollida, kas token on õige ja kasutaja on autenditud.
+
+Võtme kontrollimist rakendame kasutades `middleware` funktsiooni, mis kontrollib iga päringut ja otsustab, kas kasutajal on õigus teha antud päringut. Nimetatud funktsiooni saame rakendada kõikidele päringutele, millele soovime autentimist ja autoriseerimist rakendada.

@@ -7,4 +7,9 @@
 
 ## Teemad
 
-- [MySQL Dockeris](../../../Subjects/Back-End-Frameworks/Topics/Docker/README.md)
+- [Autentimine ja autoriseerimine](../../../Subjects/Back-End-Frameworks/Topics/Auth/README.md)
+- [Bcrypt](../../../Subjects/Back-End-Frameworks/Topics/Bcrypt/README.md)
+- [JWT](../../../Subjects/Back-End-Frameworks/Topics/JWT/README.md)
+- [Autentimise ja autoriseerimise rakendamine](../../../Subjects/Back-End-Frameworks/Topics/Auth-Middleware/README.md)
+- [MySQL](../../../Subjects/Back-End-Frameworks/Topics/MySQL/README.md)
+- [MySQL Dockeris](../../../Subjects/Back-End-Frameworks/Topics/Docker-MySQL/README.md)
