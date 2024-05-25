@@ -166,5 +166,3 @@ See käsk taastab andmebaasi `my_database` failist `my_database_backup.sql`.
 - Kirjutage SQL päring, mis valib kõik õpilased, kelle vanus on suurem kui 18.
 - Looge SQL päring, mis uuendab õpilase emaili, kelle ID on 2.
 - Kirjutage SQL päring, mis kustutab tabelist "Students" kirje, kus õpilase vanus on väiksem kui 16.
-
-See peatükk annab ülevaate MySQL-i põhilistest baasoperatsioonidest, pakkudes praktilisi näiteid ja harjutusi, mis aitavad õppijal teemat sügavamalt mõista.

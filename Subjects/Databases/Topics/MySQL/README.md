@@ -1,15 +1,39 @@
 # MySQL põhitõed
 
-## Sissejuhatus
-
 MySQL on üks populaarsemaid avatud lähtekoodiga relatsioonilise andmebaasi haldussüsteeme (RDBMS). Seda kasutatakse laialdaselt veebirakendustes ja erinevates tööstusharudes tänu oma jõudlusele, töökindlusele ja kasutuslihtsusele. Selles peatükis antakse ülevaade MySQL-i põhikomponentidest ja selle kasutamise alustamisest.
+
+![MySQL](MySQL.webp)
+
+- [MySQL põhitõed](#mysql-põhitõed)
+  - [Õpiväljundid](#õpiväljundid)
+  - [MySQL ja SQL tutvustus](#mysql-ja-sql-tutvustus)
+  - [MySQL installatsioon ja seadistus](#mysql-installatsioon-ja-seadistus)
+    - [MySQL Serveri installatsioon](#mysql-serveri-installatsioon)
+    - [MySQL Workbench](#mysql-workbench)
+  - [Andmebaasi ja tabelite loomine](#andmebaasi-ja-tabelite-loomine)
+    - [Uue andmebaasi loomine](#uue-andmebaasi-loomine)
+    - [Tabelite loomine](#tabelite-loomine)
+  - [Andmete manipuleerimine](#andmete-manipuleerimine)
+    - [Andmete lisamine](#andmete-lisamine)
+    - [Andmete valimine](#andmete-valimine)
+    - [Andmete uuendamine](#andmete-uuendamine)
+    - [Andmete kustutamine](#andmete-kustutamine)
+  - [Andmebaasi haldus](#andmebaasi-haldus)
+    - [Indeksite loomine](#indeksite-loomine)
+    - [Vaadete loomine](#vaadete-loomine)
+  - [Andmete varundamine ja taastamine](#andmete-varundamine-ja-taastamine)
+    - [Andmete varundamine](#andmete-varundamine)
+    - [Andmete taastamine](#andmete-taastamine)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on MySQL ja kuidas see erineb teistest andmebaasisüsteemidest.
-- Installima ja seadistama MySQL serveri.
+- selgitama, mis on MySQL ja kuidas see erineb teistest andmebaasisüsteemidest;
+- installima ja seadistama MySQL serveri;
 - Kasutama MySQL Workbenchi andmebaaside ja tabelite haldamiseks.
 - Looma ja haldama andmebaase ja tabeleid MySQL-is.
 - Teostama põhilisi andmebaasi operatsioone MySQL-is.

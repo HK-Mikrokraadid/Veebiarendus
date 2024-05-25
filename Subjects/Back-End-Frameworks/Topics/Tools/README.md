@@ -12,6 +12,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Thunder Client](#thunder-client)
   - [Käsurea tööriist `curl`](#käsurea-tööriist-curl)
   - [Docker Desktop](#docker-desktop)
+  - [SQLTools VS Code laiendus](#sqltools-vs-code-laiendus)
 
 ## Õpiväljundid
 
@@ -56,3 +57,8 @@ curl -X POST -H "Content-Type: application/json" -d '{"username":"xyz","password
 ## Docker Desktop
 
 `Docker Desktop` on rakendus, mis võimaldab arendajatel luua, testida ja jagada rakendusi konteinerites. Konteinerid on kerged, isoleeritud ja taaskasutatavad virtuaalsed keskkonnad, mis pakuvad arendajatele võimalust arendada ja käivitada rakendusi kõikjal, kus on olemas Dockeri keskkond.
+
+## SQLTools VS Code laiendus
+
+`SQLTools` on populaarne Visual Studio Code (VS Code) pistikprogramm, mis pakub võimsat ja kasutajasõbralikku SQL andmebaasi haldamise tööriista otse VS Code-i keskkonnas. See võimaldab arendajatel kirjutada ja käivitada SQL päringuid, hallata andmebaase ja vaadata andmete tulemusi ilma VS Code-ist lahkumata. `SQLTools` toetab mitmeid andmebaasihaldussüsteeme, sealhulgas MySQL, PostgreSQL, SQLite ja paljud teised.
+
