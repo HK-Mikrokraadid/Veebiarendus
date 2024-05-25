@@ -8,7 +8,8 @@
 
 ## Teemad
 
-- [Material Disain](../../../Subjects/Front-End-Technologies/Topics/Material-Design/README.md)
-- [Local Storage](../../../Subjects/Front-End-Technologies/Topics/Local-Storage/README.md)
-- [HTML-i valideerimine]
-- [CSS-i valideerimine]
+- [Autentimine ja autoriseerimine](../../../Subjects/Back-End-Frameworks/Topics/Auth/README.md)
+- [Veebilehitseja mälutehnoloogiad](../../../Subjects/Front-End-Technologies/Topics/Browser-Memory/README.md)
+- [JWT](../../../Subjects/Back-End-Frameworks/Topics/JWT/README.md)
+- [Päiste saatmine Axiose abil](../../../Subjects/Front-End-Technologies/Topics/Axios/README.md#päiste-saatmine-axiosega)
+- Autentimise ja autoriseerimise rakendamine

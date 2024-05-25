@@ -1,5 +1,33 @@
 # Veebilehitseja mälutehnoloogiad: Ülevaade ja kasutamine
 
+![Browser-Memory](Browser-Memory.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Veebilehitseja mälutehnoloogiad: Ülevaade ja kasutamine](#veebilehitseja-mälutehnoloogiad-ülevaade-ja-kasutamine)
+  - [Sissejuhatus](#sissejuhatus)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Veebilehitseja mälumeetodid](#veebilehitseja-mälumeetodid)
+    - [Local Storage](#local-storage)
+      - [Local Storage omadused](#local-storage-omadused)
+      - [Local Storage kasutamine](#local-storage-kasutamine)
+    - [Session Storage](#session-storage)
+      - [Session Storage omadused](#session-storage-omadused)
+      - [Session Storage kasutamine](#session-storage-kasutamine)
+    - [Küpsised (*Cookies*)](#küpsised-cookies)
+      - [Cookies omadused](#cookies-omadused)
+      - [Cookies kasutamine](#cookies-kasutamine)
+    - [IndexedDB](#indexeddb)
+      - [IndexedDB omadused](#indexeddb-omadused)
+      - [Kasutamine](#kasutamine)
+  - [Valikukriteeriumid](#valikukriteeriumid)
+    - [Local Storage vs Session Storage](#local-storage-vs-session-storage)
+    - [Cookies](#cookies)
+    - [IndexedDB](#indexeddb-1)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
+
 ## Sissejuhatus
 
 Kui siiani oleme rääkinud, et veebilehitsejas töötaval Javascriptil puudub ligipääs arvuti kõvakettale, siis see ei tähenda siiski, et veebirakendused ei saaks andmeid salvestada.

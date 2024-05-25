@@ -1,53 +1,91 @@
 # MySQL Dockeris
 
+Selles peatükis räägime MySQL-i kasutamisest Dockeri konteineris.
+
+![MySQL-Docker](MySQL-Docker.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [MySQL Dockeris](#mysql-dockeris)
+  - [Õpiväljundid](#õpiväljundid)
+  - [MySQL image ja konteineri loomine Docker Dekstopis](#mysql-image-ja-konteineri-loomine-docker-dekstopis)
+  - [MySQL konteineri loomine terminali kaudu](#mysql-konteineri-loomine-terminali-kaudu)
+  - [Allikad](#allikad)
+  - [Harjutused](#harjutused)
+
+## Õpiväljundid
+
+Selle peatüki lõpuks peaksid õppijad olema võimelised:
+
+- tõmbama alla ja käivitama MySQL-i Dockeri konteineris;
+- seadistama MySQL-i konteineri kasutamiseks.
+
 Üks lihtsamaid viise oma arvutis MySQL-i kasutamiseks on seda kasutada läbi Dockeri. Dockeri kasutamiseks peab arvutis olema Docker Desktop. Kui seda ei ole, siis saab selle alla laadida [siit](https://www.docker.com/products/docker-desktop).
 
-## MySQL image ja konteineri loomine
+## MySQL image ja konteineri loomine Docker Dekstopis
 
-Järgmisena on vaja MySQL (või ka näiteks MariaDB) imaget, mille saab alla laadida docker hub-ist: https://hub.docker.com/_/mysql
+Kõigepealt käivitame Docker Desktopi ja otsime Docker Hubist MySQL-i image'i. Selleks kirjutame Docker Desktop-i akna üleval olevale otsinguaknasse `mysql` ja vajutame esimese tulemuse taga olevale `Pull`nupule, mis tõmbab meie arvutisse MySQL-i ametliku Image'i.
 
-Image allalaadimiseks tuleks minna käsureale ja sinna kirjutada: ```docker pull mysql```
+![Search Result](Search-result.png)
 
-Docker konteineri käivitamiseks imagest on käsk `docker run imageName`. MySQL-i imagest konteineri käivitamiseks on siis käsk: ```docker run mysql```
+Seejärel tuleb minna vasakul menüüd `Images` jaotisesse ja vajutada MySQL-i Image järel olevale `Run` nupule, mis on `Actions` tulbas.
 
-Kui proovida sellisel viisil MySQL-i käivitada, siis tuleb välja, et see ei tööta ja ekraanile kuvatakse:
+![Images-Play](Images-Play.png)
+
+Seejärel avanevas `Run a new container` aknas tuleb valida `Optional settings` ja täita nõutud väljad:
+
+- `Container name`: loodava konteineri nimi
+- `Ports`: port, millel MySQL päringuid vastu võtab (vaikimisi 3306)
+- `Volumes`: kui soovite, et konteineri andmed oleksid salvestatud arvutisse, siis tuleb määrata kaust, kuhu andmed salvestatakse ja see siduda konteineri kaustaga.
+- `Environment variables`: nende abil saab määrata erinevaid MySQL-i seadeid, nagu kasutajanimi, parool jne.
+  - `MYSQL_ROOT_PASSWORD`: MySQL-i root kasutaja parool
+  - `MYSQL_DATABASE`: loodava andmebaasi nimi
+  - `MYSQL_USER`: loodava kasutaja nimi
+  - `MYSQL_PASSWORD`: loodava kasutaja parool
+  - ...
+
+![Optional Settings](Optional-Settings.png)
+
+Kui seadistused on määratud, tuleb vajutada `Run` nupule, mis loob konteineri ja käivitab selle.
+
+Selle tulemusena on meil käivitatud MySQL-i konteiner, millele saame ligi pääseda läbi terminali (mis on saadaval ka Docker Desktop-is), ühenduda mõne SQL tööriistaga (nagu näiteks SQLTools VS Code-is) või siis juba meie enda loodud rakendusega, mis kasutab MySQL-i andmebaasi
+
+## MySQL konteineri loomine terminali kaudu
+
+Kui soovite luua MySQL konteineri terminali kaudu, siis saate samade seadistustega konteineri luua järgmise käsu abil:
+
+// andmebaasi nimi: todo, root parool: super-secret, kasutaja: todo-user, kasutaja parool: secret, volume: docker kaust `mysql-data` sidumine konteineri kaustaga `/var/lib/mysql`
 
 ```bash
-$ docker run mysql
-2023-10-31 15:49:19+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.2.0-1.el8 started.
-2023-10-31 15:49:19+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
-2023-10-31 15:49:19+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.2.0-1.el8 started.
-2023-10-31 15:49:20+00:00 [ERROR] [Entrypoint]: Database is uninitialized and password option is not specified
-    You need to specify one of the following as an environment variable:
-    - MYSQL_ROOT_PASSWORD
-    - MYSQL_ALLOW_EMPTY_PASSWORD
-    - MYSQL_RANDOM_ROOT_PASSWORD
+docker run --name mysql-todo -e MYSQL_ROOT_PASSWORD=super-secret -e MYSQL_DATABASE=todos -e MYSQL_USER=todo-user -e MYSQL_PASSWORD=my-secret -p 3306:3306 -v mysql-data:/var/lib/mysql -d mysql
 ```
 
-Probleem seisneb selles, et MySQLi image tahab saada parooli, et hiljem oleks võimalik ka andmebaasiga ühendust võtta.
+Kui käivitate selle käsu, siis luuakse MySQL konteiner, millel on järgmised seaded:
 
-Selleks lisame eelnevale käsule juurde võtme `-e` ja selle järele keskkonnamuutuja (environment variable) `MYSQL_ROOT_PASSWORD=parool`. Selle abil anname MySQL-ile teada, mis on `root` parool.
+- **Andmebaasi nimi:** `todos`
+- **Root kasutaja parool:** `super-secret`
+- **Kasutaja:** `todo-user`
+- **Kasutaja parool:** `my-secret`
+- **Port:** `3306`
+- **Volume:** `mysql-data`, mis on seotud konteineri kaustaga `/var/lib/mysql`
+- **Konteineri nimi:** `mysql-todo`
+- **Image:** mysql
+- Käivitatakse taustal (*detach mode*)
 
-Käsk näeb siis välja selline: ```docker run -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql```
+Kui soovite kontrollida, kas konteiner on käivitatud, siis saate seda teha järgmise käsu abil:
 
-Seejuures on oluline, et keskkonnamuutuja tuleb lisada enne image nime.
+```bash
+docker ps
+```
 
-Kui nüüd see käsk käivitada, siis on näha, et MySQL läheb käima ja hakkab näitama meile ekraanil logi. Lisaks, kui me käivitame nüüd `Docker Desktop` programmi, siis näeme seal, et eksisteerib juba mitu konteinerit, millest osa töötavad ja osa mitte:
+Nüüd on meil olemas keskkond, kus saame kasutada MySQL-i andmebaasi. Soovi korral saame selle lihtsalt peatada, kustutada või uuesti käivitada. Samas saame ka luua uusi konteinereid, mis kasutavad sama MySQL-i Image'i.
 
-![Alt text](image.png)
+## Allikad
 
-Kui konteineri nime peale minna, siis ilmuvad konteineri juurde nupud, millest saame konteinerisse sisse minna, seisma panna, taaskäivitada ja kustutada.
+- [Docker Official Documentation](https://docs.docker.com/)
+- [MySQL Official Docker Image](https://hub.docker.com/_/mysql)
+- [Docker Hub](https://hub.docker.com/)
 
-![Alt text](image-1.png)
+## Harjutused
 
-Hetkel sellisel kujul meil sellest konteinerist suuremat kasu ei ole, kuna see töötab isoleeritud keskkonnas ja sellele ligi ei pääse. Selleks, et me saaksime näiteks oma arvutis läbi mingi rakenduse selle konteineris oleva MySQL-iga ühendust võtta, peame konteinerit luues avama mingi **pordi**, mille kaudu oleks võimalik MySQL-iga suhelda. Selleks kasutame võtit `-p` (avab kõik pordid) või `-p välimine port:sisemine port`. Kuna me teame, et MySQL töötab pordil **3306**, siis lisame docker run käsule võtme `-p 3306:3306`, mis tähendab, et näitame dockeri konteinerist välja porti numbriga **3306** ja suuname selle edasi sisemisele pordile numbriga **3306**.
-
-Lisaks lisame võtme `-d`, mis käivitab konteineri taustal, nii et MySQLi logi ei jää meile aknasse ette. Käsk näeb siis välja selline: ```docker run -p 3306:3306 -d -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql```
-
-Nüüd näeme Docker Desktop-is uut konteinerit, mille juures on ka avatud port näha:
-
-![Alt text](image-2.png)
-
-Nüüd on meil võimalik ka mingi programmiga juba konteineris oleva MySQL-iga suhelda, kuigi meil on praegu selline olukord, kus konteineri kustutamisel kaovad ära ka andmed, mis on andmebaasi salvestatud. Tihtipeale ongi see okei, kuid kui meil oleks vaja, et andmed säiliksid ja vajadusel saaksime konteineri uuesti luua nii, et vanad andmed seal sees oleksid, siis on meil vaja teha nii, et andmed salvestataks meie arvuti failisüsteemi, mitte ainult konteinerisse. Selle jaoks on omakorda võti `-v`, millele järgneb teekond kohalikus failisüsteemis:teekond konteineri failisüsteemis. Docker Hub-is olevas MySQLi image dokumentatsioonist leiame, et konteineris hoitakse olulisi faile `/var/lib/mysql` kaustas. Seega lisame olemasolevale käsklusele juurde `-v data:/var/lib/mysql` ja käsk näeb kokku välja selline: ```docker run -p 3306:3306 -d -v data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql```
-
-Nüüd seda käsku käivitades näeme, et saame veateate, mis ütleb, et port **3306** on juba kasutusel. See tähendab, et samas arvutis ei saa ühe pordi peal mitu erinevat rakendust töötada. Seega peame olemasoleva konteineri seisma panema ja võime ka ära kustutada. Seda saab lihtsalt teha Docker Desktopis konteineri peal klõpsates ja prügikasti märki vajutades. Nüüd saame uue konteineri käivitada, sellega suhelda ja sinna kirjutatud andmed jäävad ka alles.
+- Loo MySQL konteiner Docker Desktopis oma arvutis kasutades endale sobivaid seadeid.
