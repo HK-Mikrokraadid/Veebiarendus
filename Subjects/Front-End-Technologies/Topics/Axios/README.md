@@ -90,6 +90,27 @@ const userData = {
 createUser(userData);
 ```
 
+### Päiste saatmine Axiosega
+
+Sageli tahame saata API-dele koos päringutega kaasa ka päised. Näiteks on see vajalik autentimistokeni saatmiseks, kui API eeldab autentimist. Siin on näide, kuidas saata päised Axiose abil:
+
+```javascript
+async function fetchUser(userId) {
+  try {
+    const response = await axios.get(`https://jsonplaceholder.typicode.com/users/${userId}`, {
+      headers: {
+        Authorization: 'Bearer my-auth-token'
+      }
+    });
+    console.log(response.data);
+  } catch (error) {
+    console.error('Viga päringus:', error);
+  }
+};
+
+fetchUser(1);
+```
+
 ## Kokkuvõte
 
 Axios koos async/await'iga pakub puhtat ja lihtsasti hallatavat viisi HTTP-päringute tegemiseks. See kombinatsioon parandab koodi loetavust ja vähendab vigade esinemist asünkroonsetes operatsioonides. Kasutades neid tööriistu koos, saate optimeerida andmevahetust veebirakendustes.
