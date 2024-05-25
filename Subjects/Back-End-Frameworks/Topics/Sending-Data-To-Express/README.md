@@ -112,7 +112,7 @@ Päringu päistes saate andmeid saata. Näiteks saate päringu kohta saata auten
 
 Express rakenduste puhul kasutatakse päiseid näiteks autentimiseks, turvalisuse tagamiseks, keele määramiseks, sisu tüübi määramiseks jne. Meie arendatavate API-de puhul kasutame päiseid selleks, et saata kliendi poolt API-sse pöördumisel kaasa JWT tokeni, mille abil saab API tuvastada kasutaja staatust (sisselogitud või mitte) ja tema õiguseid.
 
-```javascript	
+```javascript
 ...
 app.get('/headers', (req, res) => {
   const { headers } = req;
@@ -123,7 +123,7 @@ app.get('/headers', (req, res) => {
 
 Selles näites seadistame Expressi rakenduse, mis kuulab GET-päringuid marsruudil `/headers`. Kui sellele marsruudile tehakse GET-päring, pääseme päistele ligi, kasutades `req.headers` objekti. Kliendile saadame vastuseks tagasi kõik päised, mis ta meile saatis.
 
-Kui nüüd rääkida konkreetselt JWT tokenist, siis selle saadetakse tavaliselt päises `Authorization` ja selle väärtus on kujul `Bearer <token>`. Kasutades Thunder Clienti näeb see välja järgmiselt:
+Kui nüüd rääkida konkreetselt autentimisest/autoriseerimisest ja nende poolt kasutatavast JWT tokenist, siis see saadetakse tavaliselt päises `Authorization` ja selle väärtus on kujul `Bearer <token>`. Kasutades Thunder Clienti näeb see välja järgmiselt:
 
 ![Send JWT](image.png)
 
@@ -141,6 +141,8 @@ Vastus sellele päringule näeb välja selline:
   "connection": "close"
 }
 ```
+
+Nüüd jääb üle ainult päisest vastavad andmed välja lugeda ja neid kasutada.
 
 ## Kokkuvõte
 
