@@ -103,7 +103,7 @@ const notFound = (req, res, next) => {
     success: false,
     message: 'Route not found',
   });
-}
+};
 
 module.exports = notFound;
 ```

@@ -61,4 +61,3 @@ curl -X POST -H "Content-Type: application/json" -d '{"username":"xyz","password
 ## SQLTools VS Code laiendus
 
 `SQLTools` on populaarne Visual Studio Code (VS Code) pistikprogramm, mis pakub võimsat ja kasutajasõbralikku SQL andmebaasi haldamise tööriista otse VS Code-i keskkonnas. See võimaldab arendajatel kirjutada ja käivitada SQL päringuid, hallata andmebaase ja vaadata andmete tulemusi ilma VS Code-ist lahkumata. `SQLTools` toetab mitmeid andmebaasihaldussüsteeme, sealhulgas MySQL, PostgreSQL, SQLite ja paljud teised.
-
