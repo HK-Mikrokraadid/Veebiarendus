@@ -1,18 +1,37 @@
 # React: Ülevaade ja kasutamine
 
-## Sissejuhatus
-
 React on populaarne avatud lähtekoodiga JavaScripti teek, mida kasutatakse kasutajaliideste loomiseks. Selle töötas välja Facebook ja see on muutunud üheks enim kasutatavaks tööriistaks tänu oma komponentidel põhinevale arhitektuurile ja jõudlusele. React keskendub komponentide loomisele, mis võimaldavad arendajatel luua korduvkasutatavaid ja isoleeritud UI tükke.
+
+![React](React.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [React: Ülevaade ja kasutamine](#react-ülevaade-ja-kasutamine)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Reacti põhimõisted](#reacti-põhimõisted)
+  - [React projekti loomine ja seadistamine](#react-projekti-loomine-ja-seadistamine)
+    - [Create React App](#create-react-app)
+      - [Create React App installimine](#create-react-app-installimine)
+  - [React komponendid](#react-komponendid)
+    - [Funktsionaalsed komponendid](#funktsionaalsed-komponendid)
+    - [Klassipõhised komponendid](#klassipõhised-komponendid)
+  - [React Hooks ja olekuhaldus (*state management*)](#react-hooks-ja-olekuhaldus-state-management)
+    - [useState](#usestate)
+    - [useEffect](#useeffect)
+  - [Reacti põhimõtted ja tehnikad](#reacti-põhimõtted-ja-tehnikad)
+    - [Ühesuunaline andmevoog](#ühesuunaline-andmevoog)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on React ja kuidas see töötab.
-- Loome React projekt ja seadistama arenduskeskkonna.
-- Loome ja haldama React komponente.
-- Kasutama React Hooks-i ja olekuhaldust (*state management*).
-- Rakendama põhilisi React-i kontseptsioone ja tehnikaid.
+- selgitama, mis on React ja kuidas see töötab;
+- looma React projekt ja seadistama arenduskeskkonna;
+- loome ja haldama React komponente;
+- kasutama React Hooks-i ja olekuhaldust (*state management*).
 
 ## Reacti põhimõisted
 
@@ -22,9 +41,19 @@ Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
 **JSX:** JavaScripti laiendus, mis võimaldab HTML-i kirjutamist JavaScripti sees. JSX muudab koodi lugemise ja kirjutamise lihtsamaks.
 
-**Hooks:** Reacti funktsioonid, mis võimaldavad kasutada olekut ja muid Reacti omadusi funktsionaalsetes komponentides. Kõige levinumad Hookid on `useState` ja `useEffect`.
+**Hooks:** Reacti funktsioonid, mis võimaldavad kasutada olekut (*state*) ja muid Reacti omadusi funktsionaalsetes komponentides. Kõige levinumad Hookid on `useState` ja `useEffect`.
 
 ## React projekti loomine ja seadistamine
+
+React-iga on võimalik alustada mitut moodi - luua käsitsi projekt, kuhu paigaldada React-iga seotud teegid, või kasutada mõnda tööriista, mis aitab erinevad seadistused ja paigaldused automaatselt teha. Sellised tööriistad on näiteks:
+
+- [Create React App](https://create-react-app.dev/)
+- [Vite](https://vitejs.dev/)
+- [Create Next App](https://nextjs.org/docs/api-reference/create-next-app)
+
+Kõik need tööriistad aitavad kiiresti luua uue React projekti, mis on kohe seadistatud ja valmis kasutamiseks.
+
+Siin keskendume Create React App tööriistale, kuna see on üks levinumaid ja lihtsamaid viise (kuigi mitte kõige uuem) uue React projekti loomiseks ja meie eesmärkide jaoks sobib hästi.
 
 ### Create React App
 
@@ -59,6 +88,8 @@ See käsk avab teie vaikimisi brauseris uue React rakenduse.
 
 Funktsionaalsed komponendid on lihtsad JavaScripti funktsioonid, mis võtavad argumentidena propsid ja tagastavad Reacti elemente.
 
+*Props* on komponendi parameetrid, mis võimaldavad andmete edastamist vanemkomponentidelt lapskomponentidele.
+
 Näide:
 
 ```javascript
@@ -70,6 +101,8 @@ function Greeting(props) {
 
 export default Greeting;
 ```
+
+> Nagu näha, siis toimub React-is moodulite ja komponentide eksportimine ja importimine kasutades `export default` ja `import` võtmesõnu, erinevalt sellest, kuidas me varasemalt oleme seda teinud Node.js-is.
 
 ### Klassipõhised komponendid
 
@@ -90,6 +123,10 @@ export default Greeting;
 ```
 
 ## React Hooks ja olekuhaldus (*state management*)
+
+React Hooks on funktsioonid, mis võimaldavad kasutada olekut (*state*) ja muid Reacti omadusi funktsionaalsetes komponentides. Hooks on kasulikud oleku haldamiseks, elutsüklite sündmuste käsitlemiseks ja muudeks funktsioonideks.
+
+*State* on komponendi andmete hoidmise viis, mis võimaldab komponendil reageerida kasutaja toimingutele ja uuendada oma välimust vastavalt.
 
 ### useState
 
@@ -118,7 +155,7 @@ export default Counter;
 
 ### useEffect
 
-`useEffect` Hook võimaldab külgehaakida kõrvalmõjusid funktsionaalsetesse komponentidesse (nt andmete toomine, tellimused).
+`useEffect` Hook võimaldab külge haakida kõrvalmõjusid funktsionaalsetesse komponentidesse (nt andmete toomine, tellimused).
 
 Näide:
 
@@ -152,22 +189,15 @@ export default DataFetcher;
 
 React järgib ühesuunalist andmevoogu, mis tähendab, et andmed liiguvad vanematelt komponentidelt allapoole lastakomponentidele. See tagab koodi lihtsuse ja parema kontrolli oleku üle.
 
-### Kompositsioon vs pärimine
-
-React soosib kompositsiooni pärimise asemel. Kompositsioon võimaldab komponentidel olla korduvkasutatavad ja isoleeritud, pakkudes paindlikkumaid lahendusi komponentide ühendamiseks ja koostamiseks.
-
 ## Allikad
 
 - [React Official Documentation](https://reactjs.org/docs/getting-started.html)
 - [React Hooks Documentation](https://reactjs.org/docs/hooks-intro.html)
 - [Create React App Documentation](https://create-react-app.dev/docs/getting-started/)
-- [JavaScript Front-End Frameworks and Libraries](https://www.javascriptstuff.com/)
 
 ## Kontrollküsimused või harjutus
 
 - Mis on React ja kuidas see töötab?
-- Selgitage, mis on virtuaalne DOM ja kuidas see erineb tegelikust DOM-ist.
-- Kirjutage näide funktsionaalsest ja klassipõhisest komponendist, mis tervitab kasutajat nimega.
 - Mis on React Hooks ja kuidas neid kasutatakse? Tooge näiteid `useState` ja `useEffect` kasutamisest.
 - Mis on ühesuunaline andmevoog ja miks see on Reactis oluline?
 
@@ -177,4 +207,3 @@ React soosib kompositsiooni pärimise asemel. Kompositsioon võimaldab komponent
 - Looge funktsionaalne komponent, mis kuvab kasutaja nime ja võimaldab seda muuta.
 - Lisage komponent, mis loeb ja kuvab andmeid välisest API-st, kasutades `useEffect` Hooki.
 - Looge rakendus, mis koosneb mitmest komponendist, mis suhtlevad omavahel, kasutades ühesuunalist andmevoogu.
-- Kirjutage komponent, mis demonstreerib kompositsiooni, luues korduvkasutatavaid UI komponente.
