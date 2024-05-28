@@ -1,17 +1,39 @@
 # Reacti olekuhaldus (*state management*)
 
-## Sissejuhatus
-
 Reacti olekuhaldus (*state management*) on keskne kontseptsioon, mis võimaldab komponentidel hallata ja ajakohastada oma sisemist olekut. Olekuhaldus on oluline dünaamiliste ja interaktiivsete veebirakenduste loomiseks, kuna see võimaldab komponentidel reageerida kasutaja sisenditele ja muudele sündmustele. Selles peatükis käsitleme olekuhalduse põhitõdesid, `useState` hooki kasutamist, oleku edasiandmist (*prop drilling*) ja keerukamate olekuhaldusraamistike nagu Redux kasutamist.
+
+![React State Management](React-State-Management.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Reacti olekuhaldus (*state management*)](#reacti-olekuhaldus-state-management)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Reacti olekuhaldus: Põhitõed](#reacti-olekuhaldus-põhitõed)
+    - [Mis on olek (*state*)?](#mis-on-olek-state)
+    - [`useState` hook](#usestate-hook)
+      - [`useState` hooki kasutamine](#usestate-hooki-kasutamine)
+    - [Olek ja props](#olek-ja-props)
+    - [Olekumuutused ja renderdamine](#olekumuutused-ja-renderdamine)
+  - [Prop drilling](#prop-drilling)
+    - [Näide prop drillingust](#näide-prop-drillingust)
+  - [Keerukamate olekuhaldusraamistike kasutamine](#keerukamate-olekuhaldusraamistike-kasutamine)
+    - [Redux](#redux)
+      - [Reduxi põhikontseptsioonid](#reduxi-põhikontseptsioonid)
+      - [Näide Reduxi kasutamisest](#näide-reduxi-kasutamisest)
+  - [Context API](#context-api)
+    - [Näide Context API kasutamisest](#näide-context-api-kasutamisest)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on olek (*state*) Reactis ja kuidas see töötab.
-- Kasutama `useState` hooki oleku haldamiseks funktsionaalsetes komponentides.
-- Rakendama oleku edasiandmist (*prop drilling*) komponentide vahel.
-- Kirjeldama ja kasutama keerukamaid olekuhaldusraamistikke nagu Redux.
+- selgitama, mis on olek (*state*) Reactis ja kuidas see töötab;
+- kasutama `useState` hooki oleku haldamiseks funktsionaalsetes komponentides;
+- rakendama oleku edasiandmist (*prop drilling*) komponentide vahel;
+- kirjeldama ja kasutama keerukamaid olekuhaldusraamistikke nagu Redux.
 
 ## Reacti olekuhaldus: Põhitõed
 

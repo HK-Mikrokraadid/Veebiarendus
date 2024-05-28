@@ -1,17 +1,36 @@
 # Reacti Elutsükli Meetodid (Lifecycle Methods)
 
-## Sissejuhatus
-
 Reacti elutsükli meetodid võimaldavad arendajatel teostada koodi konkreetsetes punktides komponentide elutsükli jooksul. Need meetodid on eriti olulised klassipõhistes komponentides, kus need pakuvad võimalust hallata komponentide loomist, ajakohastamist ja eemaldamist. Selles peatükis käsitleme Reacti elutsükli meetodeid, nende kasutamist ja praktilisi näiteid.
+
+![React Life Cycle](React-Lifecycle.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Reacti Elutsükli Meetodid (Lifecycle Methods)](#reacti-elutsükli-meetodid-lifecycle-methods)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Reacti Elutsükli Meetodid Klassipõhistes Komponentides](#reacti-elutsükli-meetodid-klassipõhistes-komponentides)
+    - [Loomise Etapp](#loomise-etapp)
+    - [Ajakohastamise Etapp](#ajakohastamise-etapp)
+    - [Eemaldamise Etapp](#eemaldamise-etapp)
+  - [Elutsükli Meetodid Funktsionaalsetes Komponentides](#elutsükli-meetodid-funktsionaalsetes-komponentides)
+    - [`useEffect` Hook](#useeffect-hook)
+      - [componentDidMount ja componentWillUnmount](#componentdidmount-ja-componentwillunmount)
+      - [componentDidUpdate](#componentdidupdate)
+  - [Praktiline Näide: Täielik Elutsükli Meetodite Kasutamine](#praktiline-näide-täielik-elutsükli-meetodite-kasutamine)
+    - [Klassipõhine Komponent](#klassipõhine-komponent)
+    - [Funktsionaalne Komponent Hookidega](#funktsionaalne-komponent-hookidega)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on Reacti elutsükli meetodid ja miks neid kasutatakse.
-- Kasutama erinevaid elutsükli meetodeid klassipõhistes komponentides.
-- Rakendama elutsükli meetodeid, et hallata komponentide loomist, ajakohastamist ja eemaldamist.
-- Mõistma funktsionaalsete komponentide elutsükli juhtimist Hookide abil.
+- selgitama, mis on Reacti elutsükli meetodid ja miks neid kasutatakse;
+- kasutama erinevaid elutsükli meetodeid klassipõhistes komponentides;
+- rakendama elutsükli meetodeid, et hallata komponentide loomist, ajakohastamist ja eemaldamist;
+- mõistma funktsionaalsete komponentide elutsükli juhtimist Hookide abil.
 
 ## Reacti Elutsükli Meetodid Klassipõhistes Komponentides
 
@@ -34,7 +53,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-2. **componentDidMount()**: See meetod kutsub välja kohe pärast komponendi esmakordset renderdamist. Seda kasutatakse sageli andmete toomiseks või teatud DOM manipulatsioonide teostamiseks.
+1. **componentDidMount()**: See meetod kutsub välja kohe pärast komponendi esmakordset renderdamist. Seda kasutatakse sageli andmete toomiseks või teatud DOM manipulatsioonide teostamiseks.
 
 ```javascript
 class MyComponent extends React.Component {

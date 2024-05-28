@@ -1,17 +1,39 @@
 # Reacti Renderdamine ja Tingimuslik Renderdamine
 
-## Sissejuhatus
-
 Reacti renderdamine ja tingimuslik renderdamine on olulised kontseptsioonid, mis võimaldavad arendajatel luua dünaamilisi ja interaktiivseid kasutajaliideseid. Renderdamine määrab, kuidas komponenti ja selle lapskomponente kuvatakse DOM-is. Tingimuslik renderdamine võimaldab kuvada komponente või elemente sõltuvalt teatud tingimustest.
+
+![React Render](React-Render.webp)
+
+Pildi allikas: [Dall-E by OpenAI](https://openai.com/)
+
+- [Reacti Renderdamine ja Tingimuslik Renderdamine](#reacti-renderdamine-ja-tingimuslik-renderdamine)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Reacti Renderdamine](#reacti-renderdamine)
+    - [Mis on renderdamine?](#mis-on-renderdamine)
+    - [Renderdamine funktsionaalsetes komponentides](#renderdamine-funktsionaalsetes-komponentides)
+    - [Renderdamine klassipõhistes komponentides](#renderdamine-klassipõhistes-komponentides)
+    - [Reacti virtuaalne DOM](#reacti-virtuaalne-dom)
+  - [Tingimuslik renderdamine](#tingimuslik-renderdamine)
+    - [If-lause kasutamine](#if-lause-kasutamine)
+    - [Ternaaroperaatori kasutamine](#ternaaroperaatori-kasutamine)
+    - [Loogilise JA (\&\&) operaatori kasutamine](#loogilise-ja--operaatori-kasutamine)
+    - [Elementide muutmine muutujates](#elementide-muutmine-muutujates)
+    - [Tingimuslik renderdamine klassipõhises komponendis](#tingimuslik-renderdamine-klassipõhises-komponendis)
+  - [Praktiline näide: Login ja Logout](#praktiline-näide-login-ja-logout)
+    - [Funktsionaalne komponent](#funktsionaalne-komponent)
+    - [Klassipõhine komponent](#klassipõhine-komponent)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on renderdamine Reactis.
-- Kirjeldama, kuidas React uuendab DOM-i vastavalt komponentide olekule ja propsidele.
-- Kasutama tingimuslikku renderdamist, et kuvada komponente ja elemente vastavalt teatud tingimustele.
-- Rakendama erinevaid tingimusliku renderdamise tehnikaid Reactis.
+- selgitama, mis on renderdamine Reactis;
+- kirjeldama, kuidas React uuendab DOM-i vastavalt komponentide olekule ja propsidele;
+- kasutama tingimuslikku renderdamist, et kuvada komponente ja elemente vastavalt teatud tingimustele;
+- rakendama erinevaid tingimusliku renderdamise tehnikaid Reactis.
 
 ## Reacti Renderdamine
 

@@ -1,17 +1,38 @@
 # Propsid Reactis
 
-## Sissejuhatus
-
 Propsid (lühend sõnast "properties") on Reacti oluline kontseptsioon, mis võimaldab komponentide vahel andmeid edastada. Propsid võimaldavad komponentidel olla dünaamilised ja korduvkasutatavad, andes neile võimaluse saada ja kasutada väliseid väärtusi. Selles peatükis käsitleme propside põhialuseid, nende kasutamist ja parimaid praktikaid.
+
+![React Props](React-Props.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Propsid Reactis](#propsid-reactis)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on propsid?](#mis-on-propsid)
+    - [Propside kasutamine](#propside-kasutamine)
+      - [Näide: Funktsionaalne komponent, mis kasutab propsid](#näide-funktsionaalne-komponent-mis-kasutab-propsid)
+    - [Propside kasutamine klassipõhises komponendis](#propside-kasutamine-klassipõhises-komponendis)
+      - [Näide: Klassipõhine komponent, mis kasutab propsid](#näide-klassipõhine-komponent-mis-kasutab-propsid)
+    - [Propside edasiandmine](#propside-edasiandmine)
+      - [Näide: Propside edasiandmine](#näide-propside-edasiandmine)
+    - [Propside vaikeväärtused](#propside-vaikeväärtused)
+      - [Näide: Propside vaikeväärtused](#näide-propside-vaikeväärtused)
+    - [Propside tüübi valideerimine PropTypes abil](#propside-tüübi-valideerimine-proptypes-abil)
+      - [Näide: PropTypes kasutamine](#näide-proptypes-kasutamine)
+      - [Näide: Kohustuslikud propsid](#näide-kohustuslikud-propsid)
+    - [Propside parimad praktikad](#propside-parimad-praktikad)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on propsid ja kuidas neid kasutatakse Reactis.
-- Loome komponente, mis saavad ja kasutavad propsid.
-- Edastama andmeid vanemkomponendist lapsekomponentidele propside abil.
-- Kasutama `PropTypes`-i komponentide propside valideerimiseks.
+- selgitama, mis on propsid ja kuidas neid kasutatakse Reactis.
+- looma komponente, mis saavad ja kasutavad props-e.
+- edastama andmeid vanemkomponendist lapsekomponentidele propside abil.
+- kasutama `PropTypes`-i komponentide propside valideerimiseks.
 
 ## Mis on propsid?
 

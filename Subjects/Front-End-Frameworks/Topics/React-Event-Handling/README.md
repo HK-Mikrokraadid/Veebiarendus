@@ -1,17 +1,43 @@
 # Reacti Sündmuste Haldus (Event Handling)
 
-## Sissejuhatus
-
 Sündmuste haldamine on Reacti rakenduste oluline osa, mis võimaldab reageerida kasutaja sisenditele ja interaktsioonidele, näiteks klikkidele, sisestustele ja hiireliigutustele. Reactis on sündmuste haldamine sarnane DOM-i sündmuste haldamisele, kuid sisaldab mõningaid erinevusi ja optimeerimisi, et parandada koodi loetavust ja hooldatavust. Selles peatükis käsitleme Reacti sündmuste haldamise põhitõdesid, sündmuste tüüpe ja parimaid praktikaid.
+
+![React Event Handling](React-Event-Handling.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Reacti Sündmuste Haldus (Event Handling)](#reacti-sündmuste-haldus-event-handling)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Sündmuste haldamine Reactis](#sündmuste-haldamine-reactis)
+    - [Mis on sündmuste haldamine?](#mis-on-sündmuste-haldamine)
+    - [Sündmuste haldamise põhialused](#sündmuste-haldamise-põhialused)
+    - [Näide: Sündmuste haldamine funktsionaalsetes komponentides](#näide-sündmuste-haldamine-funktsionaalsetes-komponentides)
+      - [Klikisündmuse käsitlemine](#klikisündmuse-käsitlemine)
+    - [Näide: Sündmuste haldamine klassipõhistes komponentides](#näide-sündmuste-haldamine-klassipõhistes-komponentides)
+      - [Klikisündmuse käsitlemine](#klikisündmuse-käsitlemine-1)
+    - [Sündmuste haldamine ja this kontekst](#sündmuste-haldamine-ja-this-kontekst)
+      - [Sidumine konstruktoris](#sidumine-konstruktoris)
+      - [Noolfunktsioonide kasutamine](#noolfunktsioonide-kasutamine)
+    - [Sündmuste tüübid Reactis](#sündmuste-tüübid-reactis)
+      - [Klikisündmused](#klikisündmused)
+      - [Muutmissündmused](#muutmissündmused)
+      - [Vormide esitamine](#vormide-esitamine)
+    - [Sünteetilised sündmused](#sünteetilised-sündmused)
+    - [Sündmuste haldamise parimad praktikad](#sündmuste-haldamise-parimad-praktikad)
+  - [Praktiline näide: Kompleksne sündmuste haldamine](#praktiline-näide-kompleksne-sündmuste-haldamine)
+    - [Olekuhaldus ja sündmuste käsitlemine](#olekuhaldus-ja-sündmuste-käsitlemine)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, kuidas sündmuste haldamine töötab Reactis.
-- Rakendama sündmuste käsitlejaid funktsionaalsetes ja klassipõhistes komponentides.
-- Kasutama sündmuste käsitlejaid erinevate sündmuste jaoks (nt klikk, muutmine, submit).
-- Rakendama sündmuste haldamise parimaid praktikaid Reactis.
+- selgitama, kuidas sündmuste haldamine töötab Reactis;
+- rakendama sündmuste käsitlejaid funktsionaalsetes ja klassipõhistes komponentides;
+- kasutama sündmuste käsitlejaid erinevate sündmuste jaoks (nt klikk, muutmine, submit);
+- rakendama sündmuste haldamise parimaid praktikaid Reactis.
 
 ## Sündmuste haldamine Reactis
 

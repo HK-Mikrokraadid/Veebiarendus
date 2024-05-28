@@ -1,18 +1,42 @@
 # Reacti Hookid
 
-## Sissejuhatus
-
 Reacti Hookid on funktsioonid, mis võimaldavad kasutada olekut ja muid Reacti funktsioone funktsionaalsetes komponentides. Hookid võimaldavad hallata olekut, käivitada kõrvalmõjusid ja kasutada muid Reacti funktsioone ilma klassipõhiste komponentideta. Hookid tutvustati Reacti versioonis 16.8 ning need on muutnud funktsionaalsete komponentide kasutamise ja haldamise palju lihtsamaks ja võimsamaks.
+
+![React-Hooks](React-Hooks.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Reacti Hookid](#reacti-hookid)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Hookide põhitõed](#hookide-põhitõed)
+    - [Mis on Hookid?](#mis-on-hookid)
+    - [Hookide reeglid](#hookide-reeglid)
+  - [`useState` Hook](#usestate-hook)
+    - [Näide: `useState` hooki kasutamine](#näide-usestate-hooki-kasutamine)
+  - [`useEffect` Hook](#useeffect-hook)
+    - [Näide: `useEffect` hooki kasutamine](#näide-useeffect-hooki-kasutamine)
+  - [Muud levinumad Hookid](#muud-levinumad-hookid)
+    - [`useContext` Hook](#usecontext-hook)
+    - [Näide: `useContext` hooki kasutamine](#näide-usecontext-hooki-kasutamine)
+    - [`useReducer` Hook](#usereducer-hook)
+    - [Näide: `useReducer` hooki kasutamine](#näide-usereducer-hooki-kasutamine)
+    - [`useRef` Hook](#useref-hook)
+    - [Näide: `useRef` hooki kasutamine](#näide-useref-hooki-kasutamine)
+  - [Kohandatud Hookid](#kohandatud-hookid)
+    - [Näide: Kohandatud hooki loomine](#näide-kohandatud-hooki-loomine)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on Hookid ja miks neid kasutatakse.
-- Kasutama `useState` hooki oleku haldamiseks funktsionaalsetes komponentides.
-- Kasutama `useEffect` hooki kõrvalmõjude haldamiseks.
-- Kirjeldama ja kasutama teisi levinumaid hooke nagu `useContext`, `useReducer` ja `useRef`.
-- Loome oma kohandatud hooke.
+- selgitama, mis on Hookid ja miks neid kasutatakse;
+- kasutama `useState` hooki oleku haldamiseks funktsionaalsetes komponentides;
+- kasutama `useEffect` hooki kõrvalmõjude haldamiseks;
+- kirjeldama ja kasutama teisi levinumaid hooke nagu `useContext`, `useReducer` ja `useRef`;
+- looma oma kohandatud hooke.
 
 ## Hookide põhitõed
 

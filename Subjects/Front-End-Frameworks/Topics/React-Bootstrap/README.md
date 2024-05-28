@@ -1,16 +1,34 @@
 # React ja Bootstrap: Kuidas kasutada
 
-## Sissejuhatus
-
 Bootstrap on populaarne avatud lähtekoodiga CSS-i raamistik, mis võimaldab luua atraktiivseid ja mobiilisõbralikke veebilehti kiiresti ja lihtsalt. Kombineerides Bootstrap-i Reactiga, saate luua kasutajaliideseid, mis on nii funktsionaalsed kui ka visuaalselt meeldivad. Selles peatükis käsitleme, kuidas kasutada React-i koos Bootstrap-iga, sealhulgas vajalike teekide installimist ja komponentide loomist.
+
+![React Bootstrap](React-Bootstrap.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [React ja Bootstrap: Kuidas kasutada](#react-ja-bootstrap-kuidas-kasutada)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Bootstrap-i installimine ja seadistamine](#bootstrap-i-installimine-ja-seadistamine)
+    - [Bootstrap ja React Bootstrap](#bootstrap-ja-react-bootstrap)
+      - [Bootstrap ja React Bootstrap-i installimine](#bootstrap-ja-react-bootstrap-i-installimine)
+  - [React Bootstrap komponentide kasutamine](#react-bootstrap-komponentide-kasutamine)
+    - [Näide: Nupp](#näide-nupp)
+    - [Näide: Navigeerimisriba](#näide-navigeerimisriba)
+    - [Näide: Vorm](#näide-vorm)
+  - [Bootstrap-i stiilide kohandamine](#bootstrap-i-stiilide-kohandamine)
+    - [Kohandatud CSS](#kohandatud-css)
+    - [Kohandatud Bootstrap teemad](#kohandatud-bootstrap-teemad)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Installeerima ja seadistama Bootstrap-i React projektis.
-- Loome ja kasutama React Bootstrap komponente.
-- Kohandama Bootstrap-i stiile vastavalt projekti vajadustele.
+- installeerima ja seadistama Bootstrap-i React projektis;
+- looma ja kasutama React Bootstrap komponente;
+- kohandama Bootstrap-i stiile vastavalt projekti vajadustele.
 
 ## Bootstrap-i installimine ja seadistamine
 
