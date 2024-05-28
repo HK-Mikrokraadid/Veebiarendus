@@ -2,7 +2,7 @@
 
 - [Neljas loeng](../Lesson-04/README.md)
 - [Viienda loengu slaidid](Slides.md)
-- [Viienda loengu salvestus]()
+- [Viienda loengu salvestus](https://youtu.be/YlnuBubiVe8)
 - [Viiendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/05)
 - [Kuues loeng](../Lesson-06/README.md)
 - [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
