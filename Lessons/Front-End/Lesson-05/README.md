@@ -3,6 +3,7 @@
 - [Neljas loeng](../Lesson-04/README.md)
 - [Viienda loengu slaidid](Slides.md)
 - [Viienda loengu salvestus]()
+- [Viiendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/05)
 - [Kuues loeng](../Lesson-06/README.md)
 - [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
 
@@ -13,3 +14,7 @@
 - [JWT](../../../Subjects/Back-End-Frameworks/Topics/JWT/README.md)
 - [Päiste saatmine Axiose abil](../../../Subjects/Front-End-Technologies/Topics/Axios/README.md#päiste-saatmine-axiosega)
 - Autentimise ja autoriseerimise rakendamine
+
+## Näidis-API
+
+<https://github.com/HK-Mikrokraadid/Example-API>
