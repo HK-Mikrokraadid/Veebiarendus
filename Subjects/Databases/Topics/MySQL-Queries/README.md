@@ -1,7 +1,5 @@
 # MySQL Päringute Tegemine (CRUD)
 
-## Sissejuhatus
-
 CRUD (Create, Read, Update, Delete) operatsioonid on põhilised andmebaasi toimingud, mida kasutatakse andmete haldamiseks. Selles õppematerjalis käsitleme, kuidas teha CRUD operatsioone MySQL-is, kasutades eelnevalt loodud blogi andmebaasi, mis sisaldab kasutajate, postituste ja kommentaaride tabeleid.
 
 ## Õpiväljundid
@@ -56,6 +54,8 @@ SELECT * FROM users;
 SELECT * FROM users WHERE username = 'alice';
 ```
 
+> `WHERE` tingimus piirab päringu tulemusi vastavalt määratud tingimustele.
+
 #### Postituste ja nende autorite lugemine
 
 ```sql
@@ -63,6 +63,8 @@ SELECT posts.title, posts.content, users.username
 FROM posts
 JOIN users ON posts.user_id = users.id;
 ```
+
+> `JOIN` klausel ühendab kaks tabelit vastavalt määratud tingimustele. Selle tagajärjel saame kombineerida andmeid mitmest tabelist ühe päringu abil.
 
 #### Kommentaaride lugemine koos postituste ja autorite andmetega
 
@@ -103,6 +105,8 @@ Kirjete kustutamiseks tabelitest kasutatakse `DELETE` käsku.
 DELETE FROM users
 WHERE username = 'bob';
 ```
+
+> Kindalasti veenduge, et kustutate õige kirje, kasutades `WHERE` tingimust.
 
 #### Postituse kustutamine
 
@@ -186,3 +190,113 @@ WHERE id = 2;
 DELETE FROM comments
 WHERE id = 1;
 ```
+
+## Täpsustavate Parameetrite Kasutamine MySQL Päringutes
+
+MySQL pakub mitmeid võimsaid SQL käske ja klausleid, mis aitavad andmeid täpselt ja tõhusalt pärida. Selles peatükis käsitleme mitmeid kasulikke SQL käske ja klausleid, sealhulgas LIMIT, ORDER BY, GROUP BY, SORT, AND, OR, DISTINCT ja muud.
+
+## LIMIT
+
+LIMIT klauslit kasutatakse päringu tulemuste arvu piiramiseks. See on kasulik suurte andmekogumite haldamiseks, eriti kui töötate koos leheküljelise kuvamisega.
+
+### Näide: Esimese 10 rea toomine kasutajate tabelist
+
+```sql
+SELECT * FROM users LIMIT 10;
+```
+
+## ORDER BY
+
+ORDER BY klauslit kasutatakse päringu tulemuste sortimiseks kindla veeru järgi. Saate tulemusi sortida kas tõusvas (ASC) või laskuvas (DESC) järjekorras.
+
+### Näide: Kasutajate sortimine kasutajanime järgi tõusvas järjekorras
+
+```sql
+SELECT * FROM users ORDER BY username ASC;
+```
+
+### Näide: Kasutajate sortimine loomiskuupäeva järgi laskuvas järjekorras
+
+```sql
+SELECT * FROM users ORDER BY created_at DESC;
+```
+
+## GROUP BY
+
+GROUP BY klauslit kasutatakse ridade grupeerimiseks, mis jagavad teatud omadusi, ja tavaliselt kasutatakse seda koos agregaafunktsioonidega nagu COUNT, SUM, AVG, MAX ja MIN.
+
+### Näide: Postituste arvu loendamine kasutajate kaupa
+
+```sql
+SELECT user_id, COUNT(*) AS post_count
+FROM posts
+GROUP BY user_id;
+```
+
+## SORT
+
+SORT on süntaktiline varieerumine ORDER BY klauslist. SQL standard ei sisalda SORT klauslit, kuid mõnikord viidatakse sellele ekslikult ORDER BY klausli asemel. Seega ORDER BY on õige viis tulemuste sortimiseks.
+
+## AND, OR
+
+AND ja OR operaatorid võimaldavad määrata mitu tingimust WHERE klausel. AND operaator tagastab read, mis vastavad kõigile tingimustele, samas kui OR operaator tagastab read, mis vastavad vähemalt ühele tingimusele.
+
+### Näide: Kasutajad, kellel on teatud e-posti domeen ja kes on registreeritud pärast teatud kuupäeva
+
+```sql
+SELECT * FROM users
+WHERE email LIKE '%@example.com' AND created_at > '2021-01-01';
+```
+
+### Näide: Kasutajad, kellel on teatud e-posti domeen või kes on registreeritud pärast teatud kuupäeva
+
+```sql
+SELECT * FROM users
+WHERE email LIKE '%@example.com' OR created_at > '2021-01-01';
+```
+
+## DISTINCT
+
+DISTINCT klauslit kasutatakse duplikaatväärtuste eemaldamiseks päringu tulemustes. See tagastab ainult unikaalsed read.
+
+### Näide: Kõigi unikaalsete e-posti domeenide toomine kasutajate tabelist
+
+```sql
+SELECT DISTINCT SUBSTRING_INDEX(email, '@', -1) AS domain
+FROM users;
+```
+
+## Näited Täiendavate Parameetrite Koos Kasutamisest
+
+### Näide: Kasutajate loetelu toomine koos piirangute ja sortimisega
+
+```sql
+SELECT * FROM users
+WHERE email LIKE '%@example.com' AND created_at > '2021-01-01'
+ORDER BY created_at DESC
+LIMIT 5;
+```
+
+### Näide: Kasutajate arvu loendamine domeeni kaupa ja tulemuste sortimine
+
+```sql
+SELECT SUBSTRING_INDEX(email, '@', -1) AS domain, COUNT(*) AS user_count
+FROM users
+GROUP BY domain
+ORDER BY user_count DESC;
+```
+
+### Täielik Näide: Täpsustavate Parameetrite Kasutamine Blogi Andmebaasis
+
+#### Postituste loendamine ja sortimine kasutajate kaupa
+
+```sql
+SELECT users.username, COUNT(posts.id) AS post_count
+FROM users
+LEFT JOIN posts ON users.id = posts.user_id
+GROUP BY users.username
+ORDER BY post_count DESC
+LIMIT 10;
+```
+
+See päring liitub kasutajate ja postituste tabelitega, loendab iga kasutaja postituste arvu, grupeerib tulemused kasutajanime järgi ja sorteerib need postituste arvu järgi kahanevas järjekorras, piirdudes esimesel 10 tulemusega.
