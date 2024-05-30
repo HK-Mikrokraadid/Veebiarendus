@@ -122,9 +122,11 @@ CREATE TABLE posts (
 );
 ```
 
+> Märkus: `FOREIGN KEY` kasutatakse viite loomiseks kahe tabeli vahel. See tagab, et postituse `user_id` veerg viitab kasutaja tabeli `id` veerule. See tähendab omakorda seda, et postituse autor peab olema olemas kasutajate tabelis.
+
 #### Kommentaaride tabel
 
-Kommentaaride tabel sisaldab viiteid nii kasutajate kui ka postituste tabelitele, et määrata, milline kasutaja on kommentaari teinud ja millisele postitusele see kommentaar kuulub.
+Kommentaaride tabel sisaldab viiteid nii kasutajate kui ka postituste tabelitele, et määrata, milline kasutaja on kommentaari teinud ja millisele postitusele see kommentaar kuulub. Selline seos tähendab seda, et kommentaare saab lisada ainult olemasolev, ehk registreeritud kasutaja ja olemasoleva postituse kohta.
 
 ```sql
 CREATE TABLE comments (
@@ -139,6 +141,8 @@ CREATE TABLE comments (
 ```
 
 ## Tabelite Muutmine
+
+Vahel võib juhtuda, et peate olemasolevaid tabeleid muutma, kui selgub, et struktuur vajab täiendamist või kohandamist vastavalt rakenduse nõuetele.
 
 Tabelite muutmine võib hõlmata veergude lisamist, kustutamist või muutmist ning olemasolevate tabeli struktuuride kohandamist vastavalt vajadusele.
 
