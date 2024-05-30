@@ -95,9 +95,26 @@ Docker konteinerid on isoleeritud ja kergkaalulised virtuaalmasinad, mis käivit
 
 ---
 
+## Docker Hub
+
+Docker Hub on Dockeri ametlik registriplatvorm, mis võimaldab arendajatel leida, jagada ja käivitada Dockeri konteinereid. Docker Hub sisaldab tuhandeid avalikke konteinereid, mida saab kasutada erinevate rakenduste ja teenuste käivitamiseks.
+
+---
+
 ## MySQL Dockeris
 
-Kursuse käigus kasutame MySQL-i Dockeris, et luua ja hallata andmebaase arenduskeskkonnas, kuna see on kiire ja lihtne viis MySQL-i käivitamiseks ja kasutamiseks. Lisaks ei pea me otseselt paigaldama MySQL-i oma arvutisse.
+Kursuse käigus kasutame MySQL-i konteinerit Dockeris, et luua ja hallata andmebaase arenduskeskkonnas, kuna see on kiire ja lihtne viis MySQL-i käivitamiseks ja kasutamiseks. Lisaks ei pea me otseselt paigaldama MySQL-i oma arvutisse.
+
+---
+
+## MySQL Dockeri käivitamine
+
+MySQL-i keskkonnamuutujad:
+
+- `MYSQL_ROOT_PASSWORD`: MySQL-i juurkasutaja parool.
+- `MYSQL_DATABASE`: Andmebaasi nimi, mida soovite luua.
+- `MYSQL_USER`: Andmebaasi kasutajanimi.
+- `MYSQL_PASSWORD`: Andmebaasi kasutaja parool.
 
 ---
 
@@ -127,7 +144,8 @@ Tabeli loomiseks kasutame SQL-i käsku `CREATE TABLE`, millele järgneb tabeli n
 CREATE TABLE users (
     id INT PRIMARY KEY,
     username VARCHAR(50),
-    email VARCHAR(100)
+    email VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
 
@@ -178,6 +196,37 @@ DROP TABLE users;
 
 ---
 
+## Seosed (Relationships)
+
+Andmebaasides kasutatakse seoseid, et luua seosed kahe või enama tabeli vahel. Seosed võimaldavad andmeid tõhusalt pärida ja hallata, luues seoseid võõrvõtmete abil.
+
+---
+
+## Võõrvõtme lisamine
+
+Võõrvõtme lisamiseks kasutame SQL-i käsku `FOREIGN KEY`, millele järgneb veeru nimi ja viide teise tabeli primaarvõtmele.
+
+```sql
+CREATE TABLE posts (
+    id INT PRIMARY KEY,
+    user_id INT,
+    title VARCHAR(255),
+    content TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+```
+
+---
+
+## Seoste tüübid
+
+- **Üks-ühele (One-to-One):** Iga kirje esimeses tabelis vastab täpselt ühele kirjele teises tabelis.
+- **Üks-paljudele (One-to-Many):** Iga kirje esimeses tabelis vastab mitmele kirjele teises tabelis.
+- **Palju-paljudele (Many-to-Many):** Mitu kirjet esimeses tabelis vastab mitmele kirjele teises tabelis ja vastupidi.
+
+---
+
 ## Andmete sisestamine
 
 Andmete sisestamiseks kasutame SQL-i käsku `INSERT INTO`, millele järgneb tabeli nimi ja veergude väärtused.
@@ -198,3 +247,112 @@ SELECT * FROM users;
 
 ---
 
+## Täpsustatud päringud
+
+Päringute täpsustamiseks kasutame `WHERE` tingimust, mis piirab päringu tulemusi vastavalt määratud tingimustele.
+
+```sql
+SELECT * FROM users WHERE username = 'alice';
+```
+
+```sql
+SELECT * FROM users WHERE id = 1;
+```
+
+```sql
+SELECT * FROM users WHERE age > 18;
+```
+
+---
+
+## Määrame, mis andmeid soovime kuvada
+
+```sql
+SELECT username, email FROM users;
+```
+
+```sql
+SELECT username, email FROM users WHERE age > 18;
+```
+
+---
+
+## Andmebaasi ühendamine NodeJS-iga
+
+---
+
+## MySQL NodeJS-iga
+
+Andmebaasi ühendamine NodeJS-iga toimub MySQL mooduli abil, mis võimaldab luua ühenduse MySQL andmebaasiga, saata päringuid ja saada vastuseid.
+
+```javascript
+const mysql = require('mysql2');
+
+const pool = mysql.createPool({
+  host: 'localhost',
+  user: 'mysql-user',
+  password: 'mysql-password',
+  database: 'mydatabase'
+});
+
+const promisePool = pool.promise();
+
+module.exports = promisePool;
+```
+
+---
+
+## Andmebaasi päringud teenustes
+
+Andmebaasi päringute tegemiseks loome teenused, mis kasutavad andmebaasi ühendust ja saadavad päringuid.
+
+```javascript
+const db = require('../db');
+
+const getAllUsers = async () => {
+  const [rows] = await db.query('SELECT * FROM users');
+  return rows;
+};
+
+const getUserById = async (id) => {
+  const [rows] = await db.query('SELECT * FROM users WHERE id = ?', [id]);
+  return rows[0];
+};
+
+const createUser = async (username, email) => {
+  const [result] = await db.query('INSERT INTO users (username, email) VALUES (?, ?)', [username, email]);
+  return result.insertId;
+};
+```
+
+---
+
+## SQL-injection
+
+SQL-injection on turvarünnak, mis võimaldab ründajal süstida pahatahtlikku SQL-koodi veebirakendusse, et manipuleerida andmebaasi päringuid ja saada juurdepääs konfidentsiaalsetele andmetele.
+
+---
+
+## Parameetrilised päringud
+
+Parameetrilised päringud võimaldavad kasutada muutujaid ja väärtusi päringutes, mis muudavad päringud dünaamiliseks ja turvalisemaks. ,
+
+Parameetrilised päringud aitavad vältida SQL-injection rünnakuid.
+
+```javascript
+const getUserById = async (id) => {
+  const [rows] = await db.query('SELECT * FROM users WHERE id = ?', [id]);
+  return rows[0];
+};
+```
+
+> Pane tähele, et päringu muutuja asendatakse küsimärgiga `?` ja väärtused antakse massiivina.
+
+---
+
+## Kodutöö
+
+- Loo MySQL andmebaas ja tabelid, mis sisaldavad kasutajaid, postitusi ja kommentaare.
+- Lisa andmeid tabelitesse.
+- Tee päringuid, mis tagastavad kasutajate, postituste ja kommentaaride andmeid.
+- Ühenda andmebaas NodeJS-iga ja tee päringuid kasutades teenuseid.
