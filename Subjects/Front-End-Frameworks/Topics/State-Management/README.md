@@ -243,10 +243,8 @@ export default App;
 
 ## Allikad
 
-- [React Official Documentation - State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
-- [React Official Documentation - Hooks API Reference](https://reactjs.org/docs/hooks-reference.html)
+- [React Official Documentation](https://react.dev)
 - [Redux Official Documentation](https://redux.js.org/)
-- [React Context API Documentation](https://reactjs.org/docs/context.html)
 
 ## Kontrollküsimused või harjutus
 

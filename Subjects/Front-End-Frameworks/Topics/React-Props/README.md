@@ -36,7 +36,7 @@ Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
 ## Mis on propsid?
 
-Propsid on andmed, mis edastatakse vanemkomponendist lapsekomponenti. Need on ainult loetavad ja ei saa olla seesama komponentide poolt muudetavad. Propsid võimaldavad komponentidel olla dünaamilised ja korduvkasutatavad, sest need saavad oma väärtused väljastpoolt.
+Propsid on andmed, mis edastatakse vanemkomponendist lapskomponenti. Need on ainult loetavad ja ei saa olla lapskomponentide poolt muudetavad. Propsid võimaldavad komponentidel olla dünaamilised ja korduvkasutatavad, sest need saavad oma väärtused väljastpoolt.
 
 ### Propside kasutamine
 
@@ -200,13 +200,12 @@ Greeting.propTypes = {
 
 - **Kasutage selgeid ja kirjeldavaid nimesid:** Andke propsidele nimed, mis peegeldavad nende sisu ja eesmärki.
 - **Määrake vaikeväärtused:** Kasutage `defaultProps`, et määrata propsidele vaikeväärtused, kui need ei ole määratud.
-- **Valideerige propsid:** Kasutage `PropTypes`, et tagada propside õigsus ja aidata leida vigu arendamise ajal.
+- **Valideerige propse:** Kasutage `PropTypes`, et tagada propside õigsus ja aidata leida vigu arendamise ajal.
 - **Propside edasiandmine:** Vältige propside tarbetut edasiandmist liiga paljude tasemete kaudu. Kasutage konteksti või olekuhaldusraamistikke, kui andmeid tuleb edastada paljude komponentide kaudu.
 
 ## Allikad
 
-- [React Official Documentation - Components and Props](https://reactjs.org/docs/components-and-props.html)
-- [React Official Documentation - Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+- [React](https://react.dev/)
 - [JavaScript Front-End Frameworks and Libraries](https://www.javascriptstuff.com/)
 
 ## Kontrollküsimused või harjutus

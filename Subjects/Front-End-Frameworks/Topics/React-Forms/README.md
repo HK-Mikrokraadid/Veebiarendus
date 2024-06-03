@@ -75,7 +75,7 @@ export default ControlledForm;
 
 ### Kontrollimata komponendid
 
-Kontrollimata komponentides juhitakse vormielemente otse DOM-i kaudu, kasutades ref-e, et pääseda väärtustele.
+Kontrollimata komponentides juhitakse vormielemente otse DOM-i kaudu, kasutades ref-e, et pääseda ligi vormi väärtustele.
 
 #### Näide: Kontrollimata komponent
 
@@ -356,7 +356,7 @@ export default CompleteForm;
 
 ## Allikad
 
-- [React Official Documentation - Forms](https://reactjs.org/docs/forms.html)
+- [React Official Documentation](https://react.dev)
 - [JavaScript Front-End Frameworks and Libraries](https://www.javascriptstuff.com/)
 - [MDN Web Docs - Form Data Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
 

@@ -17,10 +17,10 @@ Martti Raavel
 - Meenutame eelmist loengut
 - [Front-End raamistikud](../../../Subjects/Front-End-Frameworks/Topics/FE-Frameworks/README.md)
 - [RactJS](../../../Subjects/Front-End-Frameworks/Topics/React/README.md)
-- [ReactJS komponendid](../../../Subjects/Front-End-Frameworks/Topics/React-Components/README.md),
+- [React komponendid](../../../Subjects/Front-End-Frameworks/Topics/React-Components/README.md)
+- [React props](../../../Subjects/Front-End-Frameworks/Topics/React-Props/README.md)
 - [React Bootstrap](../../../Subjects/Front-End-Frameworks/Topics/React-Bootstrap/README.md)
-- [React Hooks](../../../Subjects/Front-End-Frameworks/Topics/React-Hooks/README.md)
-- [React Forms](../../../Subjects/Front-End-Frameworks/Topics/React-Forms/README.md)
+- [React olekuhaldus](../../../Subjects/Front-End-Frameworks/Topics/State-Management/README.md)
 
 ---
 
@@ -142,11 +142,20 @@ JavaScripti laiendus, mis võimaldab HTML-i kirjutamist JavaScripti sees. JSX mu
 const element = <h1>Hello, world!</h1>;
 ```
 
+JSX-i sees saab kasutada JavaScripti avaldisi ja muutujaid, kasutades loogelisi sulge `{}`.
+
+```jsx
+const name = 'Alice';
+const element = <h1>Hello, {name}!</h1>;
+```
+
 ---
 
 ## Hooks
 
 Reacti funktsioonid, mis võimaldavad kasutada olekut (*state*) ja muid Reacti omadusi funktsionaalsetes komponentides. Kõige levinumad Hookid on `useState` ja `useEffect`.
+
+Olek on komponendi sisemine seisund, mis võib muutuda ja mõjutada komponendi renderdamist, nagu kasutaja sisend, API päringute vastused jne. Olekut saab hallata Reacti Hookide abil.
 
 ---
 
@@ -240,6 +249,71 @@ export default Greeting;
 ## React komponentide eksport ja import
 
 Nagu näha, siis toimub React-is moodulite ja komponentide eksportimine ja importimine kasutades `export default` ja `import` võtmesõnu, erinevalt sellest, kuidas me varasemalt oleme seda Node.js-is teinud.
+
+---
+
+## Andmete edastamine komponentidele
+
+Andmete edastamine komponentidele toimub propside abil. Propsid on komponendi parameetrid, mis võimaldavad andmete edastamist vanemkomponentidelt lapskomponentidele.
+
+---
+
+## Propside kasutamine
+
+Propsid edastatakse komponentidele sarnaselt HTML atribuutidega. Allpool on näide, kuidas kasutada propsid funktsionaalses komponendis.
+
+---
+
+### Propside kasutamine - User.js
+
+```jsx
+import React from 'react';
+
+function User(props) {
+  return <div>
+    <p>Name: {props.name}</p>
+    <p>Age: {props.age}</p>
+  </div>;
+}
+```
+
+---
+
+### Propside kasutamine - Users.js
+
+```jsx
+import React from 'react';
+import User from './User';
+
+const users = [
+  { name: 'John', age: 20 },
+  { name: 'Jill', age: 30 },
+  { name: 'Peter', age: 40 },
+];
+
+function Users() {
+  return <div>
+    {users.map(user => <User name={user.name} age={user.age} />)}
+  </div>
+}
+
+export default Users;
+```
+
+---
+
+### Propside kasutamine - App.js
+
+```jsx
+import React from 'react';
+import Users from './Users';
+
+function App() {
+  return <Users />;
+}
+
+export default App;
+```
 
 ---
 
@@ -400,3 +474,45 @@ Veeru laiuse määramise jaoks kasutame `xs`, `sm`, `md`, `lg` ja `xl` atribuute
 
 ---
 
+## React-i olekuhaldus
+
+React-i olekuhaldus on protsess, kus haldame komponendi olekut ja uuendame seda vastavalt vajadusele. Olekuhaldus on oluline, kui soovime, et komponendi olek muutuks kasutaja tegevuse või muude sündmuste tõttu.
+
+---
+
+## Olek (*state*)
+
+Olek on objekti kujul andmete kogum, mis on komponendi privaatne ja mida saab muuta ainult seesama komponent. Olek määrab, kuidas komponent käitub ja mida see renderdab.
+
+---
+
+## `useState` hook
+
+`useState` on Reacti hook, mis võimaldab funktsionaalsetes komponentides olekut hallata. See tagastab massiivi, mis sisaldab kahte elementi: praegust oleku väärtust ja funktsiooni, mis võimaldab olekut uuendada.
+
+---
+
+## `useState` hooki kasutamine
+
+```jsx
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0); // Oleku väärtus on 0
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+
+export default Counter;
+```
+
+---
+
+## Kodune töö

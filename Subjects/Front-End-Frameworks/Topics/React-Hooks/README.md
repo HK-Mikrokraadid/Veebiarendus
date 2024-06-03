@@ -260,6 +260,3 @@ export default App;
 - Looge uus React projekt, kasutades Create React App tööriista.
 - Looge komponent, mis kasutab `useState` hooki, et hallata ja kuvada klikkide arvu.
 - Looge komponent, mis kasutab `useEffect` hooki, et muuta dokumendi tiitlit vastavalt olekule.
-- Rakendage `useContext` hook, et jagada väärtust komponentpuu kaudu ilma prop drillinguta.
-- Looge komponent, mis kasutab `useReducer` hooki keerukama olekuloogika haldamiseks.
-- Looge kohandatud hook, mis jälgib akna laiust ja tagastab selle väärtuse.
