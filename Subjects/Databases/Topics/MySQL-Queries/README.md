@@ -11,6 +11,49 @@ Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 - Uuendama olemasolevaid kirjeid (Update) tabelites.
 - Kustutama kirjeid (Delete) tabelitest.
 
+## Andmebaasi ja tabelite loomine
+
+Alustame andmebaasi loomisest, mis sisaldab kolme tabelit: `users`, `posts` ja `comments`.
+
+Kõigepealt loome andmebaasi, kasutades järgmist SQL käsku:
+
+```sql
+CREATE DATABASE blog;
+```
+
+Seejärel loome tabelid, kasutades järgmisi SQL käske:
+
+```sql
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  password VARCHAR(100) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE posts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT,
+  title VARCHAR(100) NOT NULL,
+  content TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+CREATE TABLE comments (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  post_id INT,
+  user_id INT,
+  content TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (post_id) REFERENCES posts(id),
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
+```
+
+Need SQL käsud loovad kolm tabelit: `users`, `posts` ja `comments`. Iga tabel sisaldab erinevaid veerge, mis määratlevad andmete struktuuri ja suhteid teiste tabelitega.
+
 ## CRUD Operatsioonid
 
 ### 1. Andmete Lisamine (Create)

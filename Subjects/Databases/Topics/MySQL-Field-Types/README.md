@@ -1,16 +1,29 @@
 # MySQL: Väljade tüüpide ülevaade
 
-## Sissejuhatus
-
 MySQL-is on andmete salvestamiseks saadaval erinevad andmetüübid, mida kasutatakse vastavalt konkreetsete andmete olemusele ja nõuetele. Õige andmetüübi valimine on oluline, et tagada andmebaasi efektiivsus, jõudlus ja andmete terviklikkus. Selles peatükis antakse ülevaade MySQL-i väljade tüüpidest ja nende kasutamisest.
+
+- [MySQL: Väljade tüüpide ülevaade](#mysql-väljade-tüüpide-ülevaade)
+  - [Õpiväljundid](#õpiväljundid)
+  - [MySQL-i andmetüübid](#mysql-i-andmetüübid)
+    - [Numbrilised andmetüübid](#numbrilised-andmetüübid)
+      - [Täisarvud](#täisarvud)
+      - [Ujukoma arvud](#ujukoma-arvud)
+    - [Kuupäeva ja kellaaja andmetüübid](#kuupäeva-ja-kellaaja-andmetüübid)
+    - [Teksti andmetüübid](#teksti-andmetüübid)
+    - [Binaarsed andmetüübid](#binaarsed-andmetüübid)
+    - [Muud andmetüübid](#muud-andmetüübid)
+  - [Väljade lisaomadused](#väljade-lisaomadused)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama erinevaid MySQL-i andmetüüpe ja nende omadusi.
-- Valima sobiva andmetüübi vastavalt andmete olemusele.
-- Kasutama erinevaid andmetüüpe MySQL-i tabelite loomisel ja muutmisel.
+- selgitama erinevaid MySQL-i andmetüüpe ja nende omadusi;
+- valima sobiva andmetüübi vastavalt andmete olemusele;
+- kasutama erinevaid andmetüüpe MySQL-i tabelite loomisel ja muutmisel.
 
 ## MySQL-i andmetüübid
 
@@ -134,11 +147,22 @@ CREATE TABLE Products (
 );
 ```
 
+## Väljade lisaomadused
+
+Väljadele saab lisada erinevaid omadusi, mis määravad veergude piirangud ja käitumise. Mõned levinumad väljade lisaomadused on:
+
+- `NOT NULL`: Väärtus ei saa olla NULL.
+- `UNIQUE`: Väärtus peab olema unikaalne.
+- `DEFAULT value`: Vaikeväärtus, mis määratakse, kui väärtust ei ole määratud.
+- `AUTO_INCREMENT`: Veeru väärtus suureneb automaatselt iga uue rea lisamisel.
+- `PRIMARY KEY`: Unikaalne identifikaator, mis eristab iga kirjet.
+- `FOREIGN KEY`: Võõrvõti, mis loob seose kahe või enama tabeli vahel.
+- ...
+
 ## Allikad
 
 - [MySQL Official Documentation](https://dev.mysql.com/doc/)
 - [W3Schools MySQL Data Types](https://www.w3schools.com/sql/sql_datatypes.asp)
-- [SQL for Dummies by Allen G. Taylor](https://www.amazon.com/SQL-Dummies-Computer-Tech/dp/1119527074)
 - [MySQL Performance Blog](https://www.percona.com/blog/)
 
 ## Kontrollküsimused või harjutus

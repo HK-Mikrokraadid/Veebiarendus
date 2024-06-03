@@ -15,6 +15,7 @@ Martti Raavel
 ## Tänased teemad
 
 - Meenutame eelmist loengut
+- Andmebaas
 - [Relatsiooniline andmebaas](../../../Subjects/Databases/Topics/Relational-Database/README.md)
 - [MySQL](../../../Subjects/Back-End-Frameworks/Topics/MySQL/README.md)
 - [MySQL Dockeris](../../../Subjects/Back-End-Frameworks/Topics/Docker-MySQL/README.md)
@@ -27,6 +28,22 @@ Martti Raavel
 ---
 
 ## Millest rääkisime eelmine kord?
+
+---
+
+## Mis on andmebaas?
+
+---
+
+## Andmebaas
+
+Organiseeritud kogum andmetest, mis on struktureeritud nii, et neid oleks lihtne hallata, uuendada ja otsida. Andmebaasid võimaldavad tõhusat andmete hoiustamist ja neile juurdepääsu.
+
+---
+
+## Andmebaasisüsteem
+
+Tarkvara, mis võimaldab luua, hallata ja kasutada andmebaase. Seda nimetatakse andmebaaside haldussüsteemiks (**DBMS** - *Database Management System*).
 
 ---
 
@@ -173,6 +190,20 @@ MySQL toetab mitmeid andmetüüpe, mis määravad veergude väärtuste tüübi j
 - ...
 
 > `BOOLEAN` andmetüübi tegelikult MySQL-is ei eksisteeri ja selle kasutamisel luuakse tegelikult `TINYINT(1)` veerg.
+
+---
+
+## Väljade lisaomadused
+
+Väljadele saab lisada erinevaid omadusi, mis määravad veergude piirangud ja käitumise. Mõned levinumad väljade lisaomadused on:
+
+- `NOT NULL`: Väärtus ei saa olla NULL.
+- `UNIQUE`: Väärtus peab olema unikaalne.
+- `DEFAULT value`: Vaikeväärtus, mis määratakse, kui väärtust ei ole määratud.
+- `AUTO_INCREMENT`: Veeru väärtus suureneb automaatselt iga uue rea lisamisel.
+- `PRIMARY KEY`: Unikaalne identifikaator, mis eristab iga kirjet.
+- `FOREIGN KEY`: Võõrvõti, mis loob seose kahe või enama tabeli vahel.
+- ...
 
 ---
 
