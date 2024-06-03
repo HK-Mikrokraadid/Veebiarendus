@@ -1,6 +1,7 @@
 # Kuues loeng
 
 - [Viies loeng](../Lesson-05/README.md)
+- [Kuuenda loengu slaidid](Slides.md)
 - [Kuuenda loengu salvestus](https://youtu.be/MeHKBCd8NoM)
 - [Kuuendas loengus kirjutatud päringud](https://github.com/HK-Mikrokraadid/Martti/blob/main/lessons/BE/06/tunnis-kirjutatud.sql)
 - [Seitsmes loeng](../Lesson-07/README.md)
@@ -10,16 +11,14 @@
 
 - Meenutame eelmist loengut
 - Andmebaas
-- [Relatsiooniline andmebaas](../../../Subjects/Databases/Topics/Relational-Database/README.md)
-- [MySQL](../../../Subjects/Back-End-Frameworks/Topics/MySQL/README.md)
-- [MySQL Dockeris](../../../Subjects/Back-End-Frameworks/Topics/Docker-MySQL/README.md)
-- Andmebaasi loomine
-- Tabelite loomine
-- Andmete sisestamine
-- Päringute tegemine
+- [Relatsiooniline andmebaas](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Databases/Topics/Relational-Database/README.md)
+- [MySQL](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Databases/Topics/MySQL/README.md)
+- [MySQL Dockeris](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Databases/Topics/Docker-MySQL/README.md)
+- [SQL päringute tegemine](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Databases/Topics/MySQL-Queries/README.md)
 
 ## Kodutöö
 
-- Loo MySQL andmebaas ja tabelid, mis sisaldavad kasutajaid, postitusi ja kommentaare.
+- Loe läbi kuuenda loengu materjalid.
+- Loo oma API jaoks MySQL andmebaas ja tabelid, mis sisaldavad kasutajaid, postitusi ja kommentaare (või muid ressursse, mida Sinu rakendus kasutab).
 - Lisa tabelitesse andmeid, et oleks võimalik oma API-s neid kasutada.
-- Tee päringuid, mis tagastavad kasutajate, postituste ja kommentaaride andmeid.
+- Tee päringuid, mis tagastavad kasutajate, postituste ja kommentaaride andmeid (või muid ressursse, mida Sinu rakendus kasutab).
