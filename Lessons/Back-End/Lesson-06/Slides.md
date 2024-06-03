@@ -17,13 +17,13 @@ Martti Raavel
 - Meenutame eelmist loengut
 - Andmebaas
 - [Relatsiooniline andmebaas](../../../Subjects/Databases/Topics/Relational-Database/README.md)
-- [MySQL](../../../Subjects/Back-End-Frameworks/Topics/MySQL/README.md)
-- [MySQL Dockeris](../../../Subjects/Back-End-Frameworks/Topics/Docker-MySQL/README.md)
+- [MySQL](../../../Subjects/Databases/Topics/MySQL/README.md)
+- [MySQL Dockeris](../../../Subjects/Databases/Topics/Docker-MySQL/README.md)
 - Andmebaasi loomine
 - Tabelite loomine
 - Andmete sisestamine
 - Päringute tegemine
-- [Andmebaasi ühendamine NodeJS-iga](../../../Subjects/Back-End-Frameworks/Topics/MySQL-NodeJS/README.md)
+- [Andmebaasi ühendamine NodeJS-iga](../../../Subjects/Databases/Topics/MySQL-NodeJS/README.md)
 
 ---
 
