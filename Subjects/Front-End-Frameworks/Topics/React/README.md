@@ -18,8 +18,11 @@ Pildi allikas: Dall-E by OpenAI
   - [React Hooks ja olekuhaldus (*state management*)](#react-hooks-ja-olekuhaldus-state-management)
     - [useState](#usestate)
     - [useEffect](#useeffect)
-  - [Reacti põhimõtted ja tehnikad](#reacti-põhimõtted-ja-tehnikad)
-    - [Ühesuunaline andmevoog](#ühesuunaline-andmevoog)
+  - [React komponentide stiilimine](#react-komponentide-stiilimine)
+    - [Inline stiilid](#inline-stiilid)
+    - [CSS-failid](#css-failid)
+    - [CSS moodulid](#css-moodulid)
+    - [CSS raamistikud](#css-raamistikud)
   - [Allikad](#allikad)
   - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
   - [Harjutus](#harjutus)
@@ -183,17 +186,123 @@ function DataFetcher() {
 export default DataFetcher;
 ```
 
-## Reacti põhimõtted ja tehnikad
+## React komponentide stiilimine
 
-### Ühesuunaline andmevoog
+React komponentide stiilimiseks on mitmeid viise, sealhulgas:
 
-React järgib ühesuunalist andmevoogu, mis tähendab, et andmed liiguvad vanematelt komponentidelt allapoole lastakomponentidele. See tagab koodi lihtsuse ja parema kontrolli oleku üle.
+- Inline stiilid
+- CSS-failid
+- CSS moodulid
+- CSS raamistikud (Bootstrap, Material-UI jne)
+
+### Inline stiilid
+
+Inline stiilide abil saame stiilida komponente otse JSX-s, lisades JSX-i elemendile stiilide objekti.
+
+Näide:
+
+```jsx
+import React from 'react';
+
+function Welcome(props) {
+  const style = {
+    border: "1px solid black",
+    margin: "10px",
+    backgroundColor: "lightgray",
+  };
+
+  return <h2 style={style}>Hello, {props.name}!</h2>;
+};
+
+export default Welcome;
+```
+
+> Pane tähele, et kuna stiili lisamine käib Javascripti objekti kujul, siis tuleb kasutada camelCase stiilinimesid (nt `background-color` asemel `backgroundColor`).
+>
+> Lisaks tuleb märkida, et Javascripti avaldised kirjutatakse JSX-s `{}` sulgudesse.
+
+### CSS-failid
+
+CSS-failide abil saame stiilida komponente eraldi CSS-failides ja seejärel importida neid komponentidesse.
+
+Näide:
+
+```jsx
+import React from 'react';
+import './styles.css';
+
+function Welcome(props) {
+  return <h2 className="welcome">Hello, {props.name}!</h2>;
+};
+
+export default Welcome;
+```
+
+`styles.css`:
+
+```css
+.welcome {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: lightgray;
+}
+```
+
+> Pane tähele, et klassi määramiseks kasutatakse JSX-is `className` atribuuti, mitte `class` atribuuti, kuna `class` on Javascripti võtmesõna.
+
+### CSS moodulid
+
+CSS moodulid on Reacti poolt toetatud stiilimise viis, mis võimaldab stiilide lokaliseerimist komponentidele.
+
+Näide:
+
+```jsx
+import React from 'react';
+
+import styles from './styles.module.css';
+
+function Welcome(props) {
+  return <h2 className={styles.welcome}>Hello, {props.name}!</h2>;
+};
+
+export default Welcome;
+```
+
+`styles.module.css`:
+
+```css
+.welcome {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: lightgray;
+}
+```
+
+### CSS raamistikud
+
+Loomulikult on võimalik ka kasutada CSS raamistikke, nagu Bootstrap, Material-UI, Tailwind CSS jne, et stiilida React komponente.
+
+Näide:
+
+```jsx
+import React from 'react';
+import { Button } from 'react-bootstrap';
+
+function Welcome(props) {
+  return <Button variant="primary">Hello, {props.name}!</Button>;
+};
+
+export default Welcome;
+```
+
+> Pane tähele, et toodud näites on kasutatud spetsiaalselt Reacti jaoks loodud Bootstrap-i komponente, mis on kohandatud Reacti kasutamiseks ja mille kasutamise süntaks erineb natuke tavalisest Bootstrap-i kasutamisest.
 
 ## Allikad
 
 - [React Official Documentation](https://reactjs.org/docs/getting-started.html)
 - [React Hooks Documentation](https://reactjs.org/docs/hooks-intro.html)
 - [Create React App Documentation](https://create-react-app.dev/docs/getting-started/)
+- [W3Schools React Tutorial](https://www.w3schools.com/react/)
 
 ## Kontrollküsimused või harjutus
 

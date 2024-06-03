@@ -1,17 +1,31 @@
 # JavaScripti Front-End raamistikud: Ülevaade
 
-## Sissejuhatus
-
 JavaScript on veebiarenduse lahutamatu osa, võimaldades dünaamilist ja interaktiivset sisu. JavaScripti front-end raamistikud ja teegid pakuvad struktuuritud lähenemist keerukate ja interaktiivsete kasutajaliideste loomiseks. Selles peatükis antakse ülevaade JavaScripti front-end raamistikest ja teekidest, nende omadustest ja kasutusjuhtudest.
+
+![FE Frameworks](FE-Frameworks.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [JavaScripti Front-End raamistikud: Ülevaade](#javascripti-front-end-raamistikud-ülevaade)
+  - [Õpiväljundid](#õpiväljundid)
+  - [JavaScripti front-end raamistikud ja teegid](#javascripti-front-end-raamistikud-ja-teegid)
+    - [Raamistik vs teek](#raamistik-vs-teek)
+  - [Populaarsed JavaScripti front-end raamistikud ja teegid](#populaarsed-javascripti-front-end-raamistikud-ja-teegid)
+    - [React](#react)
+    - [Angular](#angular)
+    - [Vue.js](#vuejs)
+    - [Svelte](#svelte)
+  - [Front-end raamistikute ja teekide eelised](#front-end-raamistikute-ja-teekide-eelised)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
 
 ## Õpiväljundid
 
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on JavaScripti front-end raamistik ja kuidas see erineb teegist.
-- Tundma populaarsemaid JavaScripti front-end raamistikud ja teeke.
-- Aru saama front-end raamistikute ja teekide peamistest omadustest ja eelistest.
-- Valima sobiva JavaScripti front-end raamistiku või teegi vastavalt projekti nõuetele.
+- selgitama, mis on JavaScripti front-end raamistik;
+- tundma populaarsemaid JavaScripti front-end raamistikud ja teeke;
+- aru saama front-end raamistikute ja teekide peamistest omadustest ja eelistest.
 
 ## JavaScripti front-end raamistikud ja teegid
 
@@ -19,7 +33,7 @@ JavaScripti front-end raamistikud ja teegid pakuvad tööriistu ja raamistikke, 
 
 ### Raamistik vs teek
 
-- **Raamistik:** Raamistik määratleb rakenduse struktuuri ja pakub reeglid ja konventsioonid, mille järgi rakendust ehitatakse. Raamistik võtab kontrolli enda kätte ja kutsub teie koodi vastavalt vajadusele.
+- **Raamistik:** Raamistik määratleb rakenduse struktuuri ja pakub reeglid ja konventsioonid, mille järgi rakendust ehitatakse. Raamistik võtab kontrolli enda kätte ja käivitab koodi vastavalt vajadusele.
 - **Teek:** Teek on tööriistade kogum, mida saab kasutada teatud funktsionaalsuse lisamiseks rakendusse. Teek annab arendajale kontrolli selle üle, millal ja kuidas koodi kasutatakse.
 
 ## Populaarsed JavaScripti front-end raamistikud ja teegid
@@ -44,7 +58,7 @@ JavaScripti front-end raamistikud ja teegid pakuvad tööriistu ja raamistikke, 
 
 - **Peamised omadused:**
   - MV* arhitektuur
-  - Kaks-uunaline andmesidumine
+  - Kahesuunaline andmesidumine
   - Komponentidel põhinev struktuur
   - Sisseehitatud suunamine ja HTTP teenused
 - **Kasutusjuhud:**
@@ -90,7 +104,7 @@ JavaScripti front-end raamistikud ja teegid pakuvad tööriistu ja raamistikke, 
 
 ## Allikad
 
-- [React Official Documentation](https://reactjs.org/docs/getting-started.html)
+- [React Official Documentation](https://react.dev/)
 - [Angular Official Documentation](https://angular.io/docs)
 - [Vue.js Official Documentation](https://vuejs.org/v2/guide/)
 - [Svelte Official Documentation](https://svelte.dev/docs)
@@ -101,11 +115,3 @@ JavaScripti front-end raamistikud ja teegid pakuvad tööriistu ja raamistikke, 
 - Mis on JavaScripti front-end raamistik ja kuidas see erineb teegist?
 - Nimetage vähemalt kolm populaarset JavaScripti front-end raamistikku ja teeki.
 - Selgitage Reacti peamisi omadusi ja kasutusjuhte.
-- Kuidas erineb Angulari arhitektuur Vue.js-i omast?
-- Millised on Svelte peamised eelised võrreldes teiste front-end raamistikudega?
-
-## Harjutus
-
-- Uurige ja võrrelge Reacti, Angulari ja Vue.js-i ametlikke dokumentatsioone. Leidke sarnasused ja erinevused nende omadustes ja kasutusjuhtudes.
-- Looge lihtne "Hello World" rakendus kasutades Reacti, Angularit või Vue.js-i.
-- Kirjutage lühike essee (200-300 sõna) teemal "Miks valida Svelte oma järgmise veebiprojekti jaoks?".

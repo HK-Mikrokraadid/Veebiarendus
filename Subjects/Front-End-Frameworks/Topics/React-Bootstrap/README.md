@@ -38,13 +38,13 @@ Bootstrap-i kasutamiseks React projektis võite kasutada React Bootstrap teeki, 
 
 #### Bootstrap ja React Bootstrap-i installimine
 
-1. Installige Bootstrap ja React Bootstrap npm-i kaudu:
+- Installige Bootstrap ja React Bootstrap npm-i kaudu:
 
 ```bash
 npm install bootstrap react-bootstrap
 ```
 
-2. Importige Bootstrap CSS oma `index.js` või `App.js` faili:
+- Importige Bootstrap CSS oma `index.js` või `App.js` faili:
 
 ```javascript
 import 'bootstrap/dist/css/bootstrap.min.css';
