@@ -19,6 +19,7 @@ Martti Raavel
 - [Relatsiooniline andmebaas](../../../Subjects/Databases/Topics/Relational-Database/README.md)
 - [MySQL](../../../Subjects/Databases/Topics/MySQL/README.md)
 - [MySQL Dockeris](../../../Subjects/Databases/Topics/Docker-MySQL/README.md)
+- [SQL päringute tegemine](../../../Subjects/Databases/Topics/MySQL-Queries/README.md)
 - Andmebaasi loomine
 - Tabelite loomine
 - Andmete sisestamine

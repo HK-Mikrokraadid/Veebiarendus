@@ -2,6 +2,55 @@
 
 CRUD (Create, Read, Update, Delete) operatsioonid on põhilised andmebaasi toimingud, mida kasutatakse andmete haldamiseks. Selles õppematerjalis käsitleme, kuidas teha CRUD operatsioone MySQL-is, kasutades eelnevalt loodud blogi andmebaasi, mis sisaldab kasutajate, postituste ja kommentaaride tabeleid.
 
+![MySQL queries](MySQL-Queries.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [MySQL Päringute Tegemine (CRUD)](#mysql-päringute-tegemine-crud)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Andmebaasi ja tabelite loomine](#andmebaasi-ja-tabelite-loomine)
+  - [CRUD Operatsioonid](#crud-operatsioonid)
+    - [1. Andmete Lisamine (Create)](#1-andmete-lisamine-create)
+      - [Kasutajate lisamine](#kasutajate-lisamine)
+      - [Postituste lisamine](#postituste-lisamine)
+      - [Kommentaaride lisamine](#kommentaaride-lisamine)
+    - [2. Andmete Lugemine (Read)](#2-andmete-lugemine-read)
+      - [Kõigi kasutajate lugemine](#kõigi-kasutajate-lugemine)
+      - [Spetsiifilise kasutaja andmete lugemine](#spetsiifilise-kasutaja-andmete-lugemine)
+      - [Postituste ja nende autorite lugemine](#postituste-ja-nende-autorite-lugemine)
+      - [Kommentaaride lugemine koos postituste ja autorite andmetega](#kommentaaride-lugemine-koos-postituste-ja-autorite-andmetega)
+    - [3. Andmete Uuendamine (Update)](#3-andmete-uuendamine-update)
+      - [Kasutaja andmete uuendamine](#kasutaja-andmete-uuendamine)
+      - [Postituse sisu uuendamine](#postituse-sisu-uuendamine)
+    - [4. Andmete Kustutamine (Delete)](#4-andmete-kustutamine-delete)
+      - [Kasutaja kustutamine](#kasutaja-kustutamine)
+      - [Postituse kustutamine](#postituse-kustutamine)
+      - [Kommentaari kustutamine](#kommentaari-kustutamine)
+  - [Täielik Näide](#täielik-näide)
+    - [Lisamine (Create)](#lisamine-create)
+    - [Lugemine (Read)](#lugemine-read)
+    - [Uuendamine (Update)](#uuendamine-update)
+    - [Kustutamine (Delete)](#kustutamine-delete)
+  - [Täpsustavate Parameetrite Kasutamine MySQL Päringutes](#täpsustavate-parameetrite-kasutamine-mysql-päringutes)
+  - [LIMIT](#limit)
+    - [Näide: Esimese 10 rea toomine kasutajate tabelist](#näide-esimese-10-rea-toomine-kasutajate-tabelist)
+  - [ORDER BY](#order-by)
+    - [Näide: Kasutajate sortimine kasutajanime järgi tõusvas järjekorras](#näide-kasutajate-sortimine-kasutajanime-järgi-tõusvas-järjekorras)
+    - [Näide: Kasutajate sortimine loomiskuupäeva järgi laskuvas järjekorras](#näide-kasutajate-sortimine-loomiskuupäeva-järgi-laskuvas-järjekorras)
+  - [GROUP BY](#group-by)
+    - [Näide: Postituste arvu loendamine kasutajate kaupa](#näide-postituste-arvu-loendamine-kasutajate-kaupa)
+  - [SORT](#sort)
+  - [AND, OR](#and-or)
+    - [Näide: Kasutajad, kellel on teatud e-posti domeen ja kes on registreeritud pärast teatud kuupäeva](#näide-kasutajad-kellel-on-teatud-e-posti-domeen-ja-kes-on-registreeritud-pärast-teatud-kuupäeva)
+    - [Näide: Kasutajad, kellel on teatud e-posti domeen või kes on registreeritud pärast teatud kuupäeva](#näide-kasutajad-kellel-on-teatud-e-posti-domeen-või-kes-on-registreeritud-pärast-teatud-kuupäeva)
+  - [DISTINCT](#distinct)
+    - [Näide: Kõigi unikaalsete e-posti domeenide toomine kasutajate tabelist](#näide-kõigi-unikaalsete-e-posti-domeenide-toomine-kasutajate-tabelist)
+  - [Näited Täiendavate Parameetrite Koos Kasutamisest](#näited-täiendavate-parameetrite-koos-kasutamisest)
+    - [Näide: Kasutajate loetelu toomine koos piirangute ja sortimisega](#näide-kasutajate-loetelu-toomine-koos-piirangute-ja-sortimisega)
+    - [Näide: Kasutajate arvu loendamine domeeni kaupa ja tulemuste sortimine](#näide-kasutajate-arvu-loendamine-domeeni-kaupa-ja-tulemuste-sortimine)
+    - [Täielik Näide: Täpsustavate Parameetrite Kasutamine Blogi Andmebaasis](#täielik-näide-täpsustavate-parameetrite-kasutamine-blogi-andmebaasis)
+      - [Postituste loendamine ja sortimine kasutajate kaupa](#postituste-loendamine-ja-sortimine-kasutajate-kaupa)
+
 ## Õpiväljundid
 
 Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
@@ -52,7 +101,7 @@ CREATE TABLE comments (
 );
 ```
 
-Need SQL käsud loovad kolm tabelit: `users`, `posts` ja `comments`. Iga tabel sisaldab erinevaid veerge, mis määratlevad andmete struktuuri ja suhteid teiste tabelitega.
+Need SQL käsud loovad kolm tabelit: `users`, `posts` ja `comments`. Iga tabel sisaldab erinevaid veerge, mis määratlevad andmete struktuuri ja suhteid teiste tabelitega. Kommentaaride tabelis on välised võtmed, mis viitavad postituste ja kasutajate tabelitele - see tähendab, et me ei saa lisada kommentaare, kui vastav postitus või kasutaja puudub.
 
 ## CRUD Operatsioonid
 
