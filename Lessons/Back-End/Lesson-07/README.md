@@ -6,3 +6,6 @@
 - [Kaheksas loeng](../Lesson-08/README.md)
 
 ## Teemad
+
+- [Andmebaasi ühendamine NodeJS-iga](../../../Subjects/Back-End-Frameworks/Topics/MySQL-NodeJS/README.md)
+- JOIN päringud
