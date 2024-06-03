@@ -167,9 +167,8 @@ Tabeli loomiseks kasutame SQL-i käsku `CREATE TABLE`, millele järgneb tabeli n
 
 ```sql
 CREATE TABLE users (
-    id INT PRIMARY KEY,
-    username VARCHAR(50),
-    email VARCHAR(100),
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(50),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
