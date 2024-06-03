@@ -40,7 +40,8 @@ Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
 ## MySQL ja SQL tutvustus
 
-**MySQL:** MySQL on avatud lähtekoodiga relatsiooniline andmebaasihaldussüsteem, mida kasutatakse laialdaselt veebirakenduste ja ettevõtete andmehalduse jaoks. See põhineb SQL (Structured Query Language) keelel.
+**MySQL:** MySQL on avatud lähtekoodiga relatsiooniline andmebaasihaldussüsteem (**RDBMS** - *Relational Database Management System*)
+, mida kasutatakse laialdaselt veebirakenduste ja ettevõtete andmehalduse jaoks. See põhineb SQL (Structured Query Language) keelel.
 
 **SQL (Structured Query Language):** SQL on standardne päringukeel, mida kasutatakse relatsiooniliste andmebaaside haldamiseks ja andmete manipuleerimiseks. SQL-i abil saab luua, muuta, kustutada ja pärida andmeid tabelitest.
 

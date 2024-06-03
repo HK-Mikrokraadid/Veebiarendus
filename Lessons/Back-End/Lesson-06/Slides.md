@@ -26,7 +26,15 @@ Martti Raavel
 
 ---
 
+## Millest rääkisime eelmine kord?
+
+---
+
 ## Relatsiooniline andmebaas
+
+---
+
+## Relatsiooniline andmebaas - 1
 
 Relatsioonilised andmebaasid on laialdaselt kasutatav andmehaldusvahend, mis võimaldab andmeid salvestada struktureeritud ja korraldatud kujul. Need andmebaasid kasutavad tabelite süsteemi, et andmeid talletada ja hallata, ning tuginevad relatsioonilisele mudelile.
 
@@ -79,7 +87,7 @@ Indeks on andmestruktuur, mis võimaldab kiiremat andmete otsimist ja päringute
 
 ## MySQL
 
-MySQL on avatud lähtekoodiga relatsiooniline andmebaasisüsteem, mis on laialdaselt kasutatav veebirakenduste arendamisel. MySQL kasutab SQL-i (Structured Query Language) andmete haldamiseks ja päringute tegemiseks.
+MySQL on avatud lähtekoodiga relatsiooniline andmebaasihaldussüsteem (**RDBMS** - *Relational Database Management System*), mis on laialdaselt kasutatav veebirakenduste arendamisel. MySQL kasutab SQL-i (Structured Query Language) andmete haldamiseks ja päringute tegemiseks.
 
 ---
 
@@ -91,7 +99,7 @@ Docker on avatud lähtekoodiga konteinerite virtualiseerimise platvorm, mis või
 
 ## Docker konteinerid
 
-Docker konteinerid on isoleeritud ja kergkaalulised virtuaalmasinad, mis käivitatakse Dockeri platvormil. Iga konteiner sisaldab rakenduse koodi, sõltuvusi ja konfiguratsiooni, mis on pakendatud konteineri imageks.
+Docker konteinerid on isoleeritud ja kergkaalulised *virtuaalmasinad*, mis käivitatakse Dockeri platvormil. Iga konteiner sisaldab rakenduse koodi, sõltuvusi ja konfiguratsiooni, mis on pakendatud konteineri imageks.
 
 ---
 
@@ -353,6 +361,6 @@ const getUserById = async (id) => {
 ## Kodutöö
 
 - Loo MySQL andmebaas ja tabelid, mis sisaldavad kasutajaid, postitusi ja kommentaare.
-- Lisa andmeid tabelitesse.
+- Lisa tabelitesse andmeid, et oleks võimalik oma API-s neid kasutada.
 - Tee päringuid, mis tagastavad kasutajate, postituste ja kommentaaride andmeid.
 - Ühenda andmebaas NodeJS-iga ja tee päringuid kasutades teenuseid.
