@@ -1,7 +1,9 @@
 # Kuues loeng
 
 - [Viies loeng](../Lesson-05/README.md)
+- [Kuuenda loengu slaidid](Slides.md)
 - [Kuuenda loengu salvestus]()
+- [Kuuendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/06)
 - [Seitsmes loeng](../Lesson-07/README.md)
 
 ## Teemad

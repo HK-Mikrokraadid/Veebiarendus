@@ -45,7 +45,7 @@ JavaScripti front-end raamistikud ja teegid pakuvad tööriistu ja raamistikke, 
 
 ## Front-end raamistikute ja teekide eelised
 
-- **Korduvkasutatavad komponendid:** Komponentidel põhinev arhitektuur võimaldab luua korduvkasutatavaid UI komponente, mis vähendab koodi duplikaate ja lihtsustab hooldust;
+- **Korduvkasutatavad komponendid:** Komponentidel põhinev arhitektuur võimaldab luua korduvkasutatavaid UI komponente, mis vähendab koodi dubleerimist ja lihtsustab hooldust;
 - **Jõudlus:** Virtuaalne DOM ja optimeeritud renderdamisprotsessid parandavad veebirakenduste jõudlust;
 - **Modulaarsus:** Raamistikud ja teegid jagavad rakenduse väikesteks, hallatavateks osadeks, mis parandab koodi organiseerimist ja skaleeritavust;
 - **Arendusefektiivsus:** Sisseehitatud tööriistad ja funktsioonid, nagu suunamine, andmesidumine ja testimine, kiirendavad arendusprotsessi;
@@ -155,13 +155,15 @@ const element = <h1>Hello, {name}!</h1>;
 
 Reacti funktsioonid, mis võimaldavad kasutada olekut (*state*) ja muid Reacti omadusi funktsionaalsetes komponentides. Kõige levinumad Hookid on `useState` ja `useEffect`.
 
-Olek on komponendi sisemine seisund, mis võib muutuda ja mõjutada komponendi renderdamist, nagu kasutaja sisend, API päringute vastused jne. Olekut saab hallata Reacti Hookide abil.
+Olek on komponendi sisemine seisund, mis võib muutuda ja mõjutada komponendi renderdamist. Olekut võib muuta kasutaja sisend, API päringute vastused jne. Olekut saab hallata Reacti Hookide abil.
 
 ---
 
 ## React projektiga alustamine
 
-React-iga on võimalik alustada mitut moodi - luua käsitsi projekt, kuhu paigaldada React-iga seotud teegid, või kasutada mõnda tööriista, mis aitab erinevad seadistused ja paigaldused automaatselt teha. Sellised tööriistad on näiteks:
+React-iga on võimalik alustada mitut moodi - luua käsitsi projekt, kuhu paigaldada React-iga seotud teegid, või kasutada mõnda tööriista, mis aitab erinevad seadistused ja paigaldused automaatselt teha.
+
+Sellised tööriistad on näiteks:
 
 - [Create React App](https://create-react-app.dev/)
 - [Vite](https://vitejs.dev/)
@@ -171,7 +173,7 @@ React-iga on võimalik alustada mitut moodi - luua käsitsi projekt, kuhu paigal
 
 ## Create React App
 
-Create React App on mugav tööriist, mis võimaldab kiiresti seadistada ja käivitada uut React projekti ilma käsitsi konfiguratsioonita.
+Create React App on mugav tööriist, mis võimaldab kiiresti seadistada ja käivitada uut React projekti ilma käsitsi konfigureerimata.
 
 ---
 
@@ -184,7 +186,7 @@ Create React App on mugav tööriist, mis võimaldab kiiresti seadistada ja käi
 npx create-react-app my-app
 ```
 
-> See käsk loob uue React projekti nimega `my-app`, mis on valmis kasutamiseks.
+> See käsk loob uue React projekti nimega `my-app`, mis on kohe kasutamiseks valmis.
 
 ---
 
