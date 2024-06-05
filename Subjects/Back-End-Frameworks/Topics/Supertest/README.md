@@ -1,91 +1,217 @@
-# Supertest
+# Supertest: Testimine HTTP Päringutega
 
-[`Supertest`](https://www.npmjs.com/package/supertest) on Node.js raamistik, mida kasutatakse HTTP-põhiste rakenduste, nagu Express.js API-de, testimiseks. See on ehitatud [`superagent`](https://github.com/ladjs/superagent) HTTP-kliendi peale ja pakub lihtsat ja paindlikku API-de HTTP-päringute tegemiseks ja vastuste kontrollimiseks testide raames.
+## Sissejuhatus
 
-## Supertest'i eelised võrreldes teiste raamistikega
+Supertest on JavaScripti teek, mida kasutatakse HTTP päringute testimiseks Node.js keskkonnas. See on eriti kasulik, kui testite oma API-de lõpp-punkte, kuna see võimaldab lihtsalt saata HTTP päringuid ja kontrollida vastuseid. Supertesti saab kasutada koos populaarsete testimisraamistikega nagu Mocha ja Jest.
 
-- **Lihtne integreerida:** Supertest integreerub hästi olemasolevate Node.js testimisraamistikega nagu [`Mocha`](../mocha/README.md), `Jest` või `Jasmine`, võimaldades testida HTTP-päringuid ilma keerulise seadistuseta.
-- **Ei vaja serveri käivitamist:** Supertest võimaldab testida Express.js rakendusi ilma et peaks serveri eraldi käivitama. See lihtsustab testide seadistamist ja vähendab testide jooksutamise aega.
-- **Rikkalikud päringu võimalused:** Võimaldab teha erinevaid HTTP-päringuid (GET, POST, PUT, DELETE jne), lisada päised, kehad ja päringu parameetrid, mis on vajalikud realistlike stsenaariumide testimiseks.
-- **Kergesti loetavad `assertionid`:** Supertest'i kasutamine koos `assertion`-i teekidega nagu [`Chai`](../chai/README.md) võimaldab kirjutada kergesti loetavaid ja arusaadavaid teste.
-- **Toetab asünkroonseid teste:** Võimaldab kirjutada asünkroonseid teste, mis on vajalikud kaasaegsetes Node.js rakendustes. Näiteks on võimalik sellisel viisil testida API-sid, mis kasutavad andmebaasi.
+## Õpiväljundid
 
-## Kuidas Supertest'i Kasutada
+Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
-Supertest'i kasutamine koos TypeScriptiga Express.js API testimisel on sarnane selle kasutamisega JavaScriptis, kuid tuleb arvestada mõningate TypeScripti spetsiifikatega. Eeldan, et sul on juba paigaldatud TypeScript, Mocha, Chai ja Supertest. Kui ei, siis saad need paigaldada järgnevalt:
+- Selgitama, mis on Supertest ja miks seda kasutatakse.
+- Paigaldama ja seadistama Supertesti testide kirjutamiseks.
+- Kirjutama ja käivitama HTTP päringutega seotud teste, kasutades Supertesti.
+- Kasutama Supertesti koos testimisraamistikega nagu Jest.
+
+## Mis on Supertest?
+
+Supertest on teek, mis võimaldab teha HTTP päringuid Node.js serveritele ja kontrollida vastuseid. See on loodud lihtsaks ja intuitiivseks, pakkudes mitmeid funktsioone, mis teevad API testimise lihtsaks ja tõhusaks.
+
+## Supertesti Paigaldamine ja Seadistamine
+
+### 1. Supertesti Paigaldamine
+
+Paigaldage Supertest projekti tasemel, kasutades npm-i või yarn-i.
 
 ```bash
-npm install typescript mocha chai supertest @types/mocha @types/chai @types/supertest --save-dev
+npm install --save-dev supertest
 ```
 
-Lisaks peab sul olema TypeScripti konfiguratsioonifail `tsconfig.json` projektis olemas.
+Või, kui kasutate yarn-i:
 
-### TypeScripti Näide Supertestiga
+```bash
+yarn add --dev supertest
+```
 
-**app.ts** (sinu Express.js rakendus)
+### 2. Testimisraamistiku Paigaldamine
 
-```typescript
-import express from 'express';
+Selles näites kasutame Jesti, kuid võite kasutada ka Mocha või mõnda muud testimisraamistikku.
 
+```bash
+npm install --save-dev jest
+```
+
+Lisage `package.json` faili skript, et käivitada teste Jestiga.
+
+```json
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+```
+
+### 3. Lihtsa Expressi Rakenduse Loomine
+
+Loome lihtsa Expressi rakenduse, mida testime Supertesti abil.
+
+#### `app.js` - Expressi rakendus
+
+```javascript
+const express = require('express');
 const app = express();
 
-app.get('/users', (req, res) => {
-  res.json([{ name: 'John Doe' }, { name: 'Jane Doe' }]);
+app.get('/hello', (req, res) => {
+  res.status(200).send('Hello, World!');
 });
 
-export default app;
+app.post('/data', (req, res) => {
+  res.status(201).send({ message: 'Data received' });
+});
+
+module.exports = app;
 ```
 
-**test/users.test.ts** (testifail)
+#### `server.js` - Serveri käivitamine
 
-```typescript
-import { expect } from 'chai';
-import request from 'supertest';
-import app from '../app';
+```javascript
+const app = require('./app');
 
-describe('GET /users', () => {
-  it('responds with json', (done) => {
-    request(app)
-      .get('/users')
-      .set('Accept', 'application/json')
-      .expect('Content-Type', /json/)
-      .expect(200)
-      .end((err, res) => {
-        if (err) return done(err);
-        expect(res.body).to.be.an('array');
-        done();
-      });
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+```
+
+## Testide Kirjutamine Supertestiga
+
+### Näide: Lihtne Test
+
+Loome testi, et kontrollida GET päringu vastust `/hello` lõpp-punktis.
+
+#### `__tests__/app.test.js`
+
+```javascript
+const request = require('supertest');
+const app = require('../app');
+
+describe('GET /hello', () => {
+  it('should return "Hello, World!"', async () => {
+    const response = await request(app).get('/hello');
+    expect(response.status).toBe(200);
+    expect(response.text).toBe('Hello, World!');
   });
 });
 ```
 
-### Testide Käivitamine TypeScriptiga
+### Näide: POST Päringu Testimine
 
-Testide käivitamiseks võid kasutada `ts-node`, mis võimaldab otse TypeScripti faile käivitada, või kompileerida TypeScripti kood JavaScriptiks ja seejärel käivitada tulemuse. Kui kasutad `ts-node`, siis võid lisada järgmise skripti oma `package.json` faili:
+Lisame testi, et kontrollida POST päringu vastust `/data` lõpp-punktis.
 
-```json
-"scripts": {
-  "test": "mocha -r ts-node/register 'test/**/*.ts'"
-}
+#### `__tests__/app.test.js`
+
+```javascript
+const request = require('supertest');
+const app = require('../app');
+
+describe('GET /hello', () => {
+  it('should return "Hello, World!"', async () => {
+    const response = await request(app).get('/hello');
+    expect(response.status).toBe(200);
+    expect(response.text).toBe('Hello, World!');
+  });
+});
+
+describe('POST /data', () => {
+  it('should return "Data received"', async () => {
+    const response = await request(app)
+      .post('/data')
+      .send({ name: 'John' });
+    expect(response.status).toBe(201);
+    expect(response.body.message).toBe('Data received');
+  });
+});
 ```
 
-Vahel võib juhtuda, et testid jäävad mingil põhjusel `rippuma`, siis võid lisada `test` skripti lõppu `--exit` parameetri, mis sunnib Mocha protsessi peatuma:
+### Testide Käivitamine
 
-```json
-"scripts": {
-  "test": "mocha -r ts-node/register 'test/**/*.ts' --exit"
-}
-```
-
-Seejärel saad testid käivitada käsuga:
+Käivitage testid, kasutades Jest käsurealt.
 
 ```bash
 npm test
 ```
 
-See käsk käivitab Mocha, registreerib `ts-node` käivitaja ja käivitab kõik `.ts` laiendiga testifailid kaustas `test`.
+## Täiendavad Näited ja Parimad Praktikad
 
-### Märkused
+### 1. Parameetrite Kontrollimine
 
-- Veendu, et su TypeScripti konfiguratsioon on õigesti seadistatud ja sobib sinu projektiga.
-- Kui kasutad muid lintimis- või vormindamisvahendeid nagu ESLint või Prettier, veendu, et need on samuti TypeScriptiga ühilduvad.
+Testige, kuidas API käsitleb URL parameetreid ja päringupäringuid.
+
+#### `app.js` - Uuendatud
+
+```javascript
+app.get('/user/:id', (req, res) => {
+  res.status(200).send({ id: req.params.id });
+});
+```
+
+#### `__tests__/app.test.js`
+
+```javascript
+describe('GET /user/:id', () => {
+  it('should return the user id', async () => {
+    const userId = '12345';
+    const response = await request(app).get(`/user/${userId}`);
+    expect(response.status).toBe(200);
+    expect(response.body.id).toBe(userId);
+  });
+});
+```
+
+### 2. Päiste Kontrollimine
+
+Testige, kuidas API käsitleb HTTP päiseid.
+
+#### `app.js` - Uuendatud
+
+```javascript
+app.get('/headers', (req, res) => {
+  res.status(200).set('X-Custom-Header', 'value').send('Headers');
+});
+```
+
+#### `__tests__/app.test.js`
+
+```javascript
+describe('GET /headers', () => {
+  it('should return custom header', async () => {
+    const response = await request(app).get('/headers');
+    expect(response.status).toBe(200);
+    expect(response.headers['x-custom-header']).toBe('value');
+  });
+});
+```
+
+### 3. Veakäsitlus
+
+Testige, kuidas API käsitleb vigu ja vigaseid päringuid.
+
+#### `app.js` - Uuendatud
+
+```javascript
+app.get('/error', (req, res) => {
+  res.status(500).send({ error: 'Something went wrong' });
+});
+```
+
+#### `__tests__/app.test.js`
+
+```javascript
+describe('GET /error', () => {
+  it('should return an error', async () => {
+    const response = await request(app).get('/error');
+    expect(response.status).toBe(500);
+    expect(response.body.error).toBe('Something went wrong');
+  });
+});
+```

@@ -1,17 +1,48 @@
 # MySQL JOIN-id
 
-## Sissejuhatus
+MySQL JOIN-id on võimas vahend, mis võimaldab andmeid erinevatest tabelitest pärida ja ühendada. JOIN-id võimaldavad kombineerida ridu kahest või enamast tabelist, mis on omavahel seotud primaar- ja võõrvõtmete kaudu. Selles õppematerjalis käsitleme erinevaid JOIN-i tüüpe, nende kasutamist ja näiteid praktiliste päringute tegemiseks.
 
-MySQL JOIN-id on võimas vahend, mis võimaldab andmeid erinevatest tabelitest ühendada ja pärida. JOIN-id võimaldavad kombineerida ridu kahest või enamast tabelist, mis on omavahel seotud primaar- ja võõrvõtmete kaudu. Selles õppematerjalis käsitleme erinevaid JOIN-i tüüpe, nende kasutamist ja näiteid praktiliste päringute tegemiseks.
+![SQL JOIN](SQL-JOIN.webp)
+
+Pildi allikas: [Dall-E by OpenAI](https://openai.com/)
+
+- [MySQL JOIN-id](#mysql-join-id)
+  - [Õpiväljundid](#õpiväljundid)
+  - [JOIN-ide Põhitõed](#join-ide-põhitõed)
+    - [JOIN-ide Tüübid](#join-ide-tüübid)
+  - [INNER JOIN](#inner-join)
+    - [Näide: INNER JOIN kasutamine](#näide-inner-join-kasutamine)
+      - [Kasutajad ja Postitused](#kasutajad-ja-postitused)
+    - [Praktiline Näide: Kasutajad ja Kommentaarid](#praktiline-näide-kasutajad-ja-kommentaarid)
+  - [LEFT JOIN](#left-join)
+    - [Näide: LEFT JOIN kasutamine](#näide-left-join-kasutamine)
+      - [Kõik Kasutajad ja Nende Postitused](#kõik-kasutajad-ja-nende-postitused)
+    - [Praktiline Näide: Kõik Kasutajad ja Nende Kommentaarid](#praktiline-näide-kõik-kasutajad-ja-nende-kommentaarid)
+  - [RIGHT JOIN](#right-join)
+    - [Näide: RIGHT JOIN kasutamine](#näide-right-join-kasutamine)
+      - [Kõik Postitused ja Nende Autorid](#kõik-postitused-ja-nende-autorid)
+    - [Praktiline Näide: Kõik Kommentaarid ja Nende Autorid](#praktiline-näide-kõik-kommentaarid-ja-nende-autorid)
+  - [FULL JOIN](#full-join)
+    - [Näide: FULL JOIN kasutamine](#näide-full-join-kasutamine)
+      - [Kõik Kasutajad ja Postitused](#kõik-kasutajad-ja-postitused)
+    - [Praktiline Näide: Kõik Kasutajad ja Kommentaarid](#praktiline-näide-kõik-kasutajad-ja-kommentaarid)
+  - [Täielik Näide: JOIN-id Blogi Andmebaasis](#täielik-näide-join-id-blogi-andmebaasis)
+    - [Andmebaasi ja Tabelite Loomine](#andmebaasi-ja-tabelite-loomine)
+    - [Andmete Lisamine](#andmete-lisamine)
+    - [JOIN-ide Kasutamine](#join-ide-kasutamine)
+      - [INNER JOIN: Kasutajad ja Postitused](#inner-join-kasutajad-ja-postitused)
+      - [LEFT JOIN: Kõik Kasutajad ja Nende Postitused](#left-join-kõik-kasutajad-ja-nende-postitused)
+      - [RIGHT JOIN: Kõik Postitused ja Nende Autorid](#right-join-kõik-postitused-ja-nende-autorid)
+      - [FULL JOIN: Kõik Kasutajad ja Postitused](#full-join-kõik-kasutajad-ja-postitused)
 
 ## Õpiväljundid
 
 Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama JOIN-ide põhimõtteid ja kasutamist MySQL-is.
-- Kasutama erinevaid JOIN-i tüüpe (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN).
-- Loome keerulisi päringuid, mis ühendavad andmeid mitmest tabelist.
-- Kasutama JOIN-e praktilistes näidetes blogi andmebaasiga.
+- selgitama JOIN-ide põhimõtteid ja kasutamist MySQL-is;
+- kasutama erinevaid JOIN-i tüüpe (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN);
+- looma keerulisi päringuid, mis ühendavad andmeid mitmest tabelist;
+- kasutama JOIN-e praktilistes näidetes blogi andmebaasiga.
 
 ## JOIN-ide Põhitõed
 

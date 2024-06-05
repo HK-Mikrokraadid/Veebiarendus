@@ -1,120 +1,227 @@
-# Mocha
+# Mocha Testimisraamistik
 
-Mocha on paindlik ja populaarne JavaScripti testiraamistik, mida kasutatakse peamiselt Node.js keskkonnas, aga ka brauseripõhistes projektides. Mocha võimaldab kirjutada asünkroonseid teste lihtsalt ja loetavalt, toetades erinevaid `assert`-teeke, nagu `Chai`, `Sinon`, ja `Jest`.
+## Sissejuhatus
 
-## Mocha eelised
+Mocha on populaarne JavaScripti testimisraamistik, mis võimaldab kirjutada ja käivitada teste nii serveripoolses (Node.js) kui ka kliendipoolses (brauseris) keskkonnas. Mocha on paindlik ja laiendatav, pakkudes tuge mitmesugustele testimisstiilidele, sealhulgas BDD (Behavior-Driven Development) ja TDD (Test-Driven Development).
 
-1. **Paindlikkus ja konfigureeritavus:** Mocha on väga konfigureeritav, võimaldades valida erinevaid väljundformaatide (reporters), testimiskeskkondi ja asünkroonse testimise viise.
+## Õpiväljundid
 
-2. **Rikkalik ökosüsteem:** Tänu laiale kasutajaskonnale on Mocha'l palju pistikprogramme, laiendusi ja integreeritud tööriistu.
+Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
-3. **Asünkroonne tugi:** Mocha toetab asünkroonset testimist, mis on oluline Node.js keskkonnas.
+- Selgitama, mis on Mocha ja miks seda kasutatakse.
+- Paigaldama ja seadistama Mocha testimisraamistiku.
+- Kirjutama ja käivitama põhitaseme teste Mocha abil.
+- Kasutama assertsiooniraamatukogusid, nagu Chai, koos Mochaga.
 
-4. **Lihtne ja loetav sündmuste käsitlemine:** Mocha kasutab kirjeldavaid `describe` ja `it` blokke, muutes testid loetavaks ja lihtsalt mõistetavaks.
+## Mis on Mocha?
 
-### Näide: TypeScriptiga mocha kasutamine
+Mocha on JavaScripti testimisraamistik, mis on mõeldud asünkroonsete testide kirjutamiseks ja käivitamiseks. See pakub lihtsat ja paindlikku viisi testide korraldamiseks ja haldamiseks ning on hästi integreeritav teiste tööriistade ja raamistikega.
 
-Eeldan, et sul on juba paigaldatud TypeScript, Mocha ja Chai. Kui ei, siis saad need paigaldada järgnevalt:
+## Mocha Eelised
+
+- **Paindlikkus:** Toetab erinevaid testimisstiile ja -meetodeid.
+- **Asünkroonsus:** Lihtne asünkroonsete testide kirjutamine ja käivitamine.
+- **Laiendatavus:** Integreerub hästi teiste tööriistade ja raamistikega, nagu Chai ja Sinon.
+- **Hea dokumentatsioon ja kogukond:** Lai kasutajabaas ja rohkelt ressursse.
+
+## Mocha Paigaldamine ja Seadistamine
+
+### 1. Mocha Paigaldamine
+
+Paigaldage Mocha globaalselt või projekti tasemel, kasutades npm-i.
+
+#### Globaalne paigaldus
 
 ```bash
-npm install typescript mocha chai @types/mocha @types/chai --save-dev
+npm install --global mocha
 ```
 
-**1. Testitava funktsiooni loogika (Näide: app.ts)**
+#### Projekti tasemel paigaldus
 
-```typescript
-export const add = (a: number, b: number): number => {
+```bash
+npm install --save-dev mocha
+```
+
+### 2. Testi Faili Loomine
+
+Looge projekti juurkausta kataloog nimega `test` ja selle sisse testifail, näiteks `test.js`.
+
+```bash
+mkdir test
+cd test
+touch test.js
+```
+
+## Testide Kirjutamine Mocha abil
+
+Mocha kasutab BDD stiilis testide kirjutamiseks funktsioone `describe`, `it` ja `before`, `after`, `beforeEach`, `afterEach`.
+
+### Näide: Lihtne Test
+
+#### `sum.js` - Funktsioon, mida testime
+
+```javascript
+function sum(a, b) {
   return a + b;
-};
+}
+
+module.exports = sum;
 ```
 
-**2. Testi fail (Näide: test/app.test.ts)**
+#### `test/test.js` - Mocha test
 
-```typescript
-import { expect } from 'chai';
-import { add } from '../app';
+```javascript
+const assert = require('assert');
+const sum = require('../sum');
 
-describe('Add Function', () => {
-  it('should add two numbers', () => {
-    const result = add(2, 3);
-    expect(result).to.equal(5);
+describe('Sum Function', function() {
+  it('should return 3 when the inputs are 1 and 2', function() {
+    assert.strictEqual(sum(1, 2), 3);
+  });
+
+  it('should return -1 when the inputs are -2 and 1', function() {
+    assert.strictEqual(sum(-2, 1), -1);
   });
 });
 ```
 
-**3. Mocha ja TypeScripti konfiguratsioon (tsconfig.json)**
-Veendu, et su `tsconfig.json` fail sisaldab järgmist:
+### Testide Käivitamine
 
-```json
-{
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "outDir": "./build",
-    "strict": true,
-    "esModuleInterop": true
-  },
-  "include": ["src/**/*", "test/**/*"]
-}
-```
-
-**4. Testide käivitamise skript (package.json)**
-Lisa oma `package.json` faili järgmine skript:
-
-```json
-"scripts": {
-  "test": "mocha -r ts-node/register 'test/**/*.ts'"
-}
-```
-
-**5. Testide käivitamine**
-Käivita testid käsuga:
+Käivitage testid, kasutades Mocha käsurealt.
 
 ```bash
-npm test
+mocha
 ```
 
-See käsk kasutab `ts-node` registreerijat, et käivitada TypeScripti testifailid otse ilma neid eelnevalt kompileerimata.
+## Asünkroonsed Testid
 
-Tulemus peaks olema järgmine:
+Mocha toetab asünkroonsete testide kirjutamist, kasutades callback-e või lubadusi (promises).
 
-```bash
-> mocha-ts-example@1.0.0 test /Users/username/mocha-ts-example
-> mocha -r ts-node/register 'test/**/*.ts'
-  Add Function
-    ✓ should add two numbers
-  1 passing (8ms)
-```
+### Näide: Asünkroonne Test Callbacks
 
-## Mocha hooks
-
-Mocha pakub mitmeid `hook`-e, mis võimaldavad testide käivitamise tsüklit kontrollida. Mocha `hook`-id on `before`, `beforeEach`, `after` ja `afterEach`. `before` ja `after` `hook`-id käivitatakse enne ja pärast testide käivitamist, vastavalt. `beforeEach` ja `afterEach` `hook`-id käivitatakse enne ja pärast iga testi käivitamist, vastavalt.
-
-Näiteks võimaldavad `hook`-id luua andmebaasi kirjed või kustutada hiljem andmebaasist testide poolt tekitatud andmed jne.
+#### `asyncFunction.js` - Asünkroonne funktsioon
 
 ```javascript
-import {
-  describe, before, after, beforeEach, afterEach,
-} from 'mocha';
+function asyncFunction(callback) {
+  setTimeout(() => {
+    callback(null, 'Hello World');
+  }, 1000);
+}
 
+module.exports = asyncFunction;
+```
 
-describe('hooks', () => {
-  before(() => {
-    // käivitatakse ühe korra enne esimest testi selles blokis
+#### `test/asyncTest.js` - Mocha test
+
+```javascript
+const assert = require('assert');
+const asyncFunction = require('../asyncFunction');
+
+describe('AsyncFunction', function() {
+  it('should return "Hello World" after 1 second', function(done) {
+    asyncFunction(function(err, result) {
+      assert.strictEqual(result, 'Hello World');
+      done();
+    });
+  });
+});
+```
+
+### Näide: Asünkroonne Test Promises
+
+#### `asyncPromise.js` - Asünkroonne funktsioon
+
+```javascript
+function asyncPromise() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve('Hello World');
+    }, 1000);
+  });
+}
+
+module.exports = asyncPromise;
+```
+
+#### `test/asyncPromiseTest.js` - Mocha test
+
+```javascript
+const assert = require('assert');
+const asyncPromise = require('../asyncPromise');
+
+describe('AsyncPromise', function() {
+  it('should return "Hello World" after 1 second', function() {
+    return asyncPromise().then(result => {
+      assert.strictEqual(result, 'Hello World');
+    });
+  });
+});
+```
+
+## Chai Asertsiooniraamatukogu Kasutamine
+
+Chai on populaarne assertsiooniraamatukogu, mida saab kasutada koos Mochaga. Chai toetab erinevaid assertsioonistiile, sealhulgas TDD ja BDD.
+
+### Chai Paigaldamine
+
+Paigaldage Chai projekti tasemel.
+
+```bash
+npm install --save-dev chai
+```
+
+### Näide: Chai Kasutamine
+
+#### `test/chaiTest.js` - Mocha test Chai-ga
+
+```javascript
+const chai = require('chai');
+const expect = chai.expect;
+const sum = require('../sum');
+
+describe('Sum Function', function() {
+  it('should return 3 when the inputs are 1 and 2', function() {
+    expect(sum(1, 2)).to.equal(3);
   });
 
-  after(() => {
-    // käivitatakse ühe korra pärast viimast testi selles blokis
+  it('should return -1 when the inputs are -2 and 1', function() {
+    expect(sum(-2, 1)).to.equal(-1);
+  });
+});
+```
+
+## Täiendavad Mocha Funktsioonid
+
+### Hooks
+
+Mocha pakub hook-e (`before`, `after`, `beforeEach`, `afterEach`), mis võimaldavad sooritada koodi enne ja pärast testide käivitamist.
+
+#### Näide: Hookide Kasutamine
+
+```javascript
+describe('Hooks Example', function() {
+  before(function() {
+    // Sooritatakse enne kõiki teste
   });
 
-  beforeEach(() => {
-    // käivitatakse enne igat testi selles blokis
+  after(function() {
+    // Sooritatakse pärast kõiki teste
   });
 
-  afterEach(() => {
-    // käivitatakse peale igat testi selles blokis
+  beforeEach(function() {
+    // Sooritatakse enne iga testi
   });
 
-  // testid
+  afterEach(function() {
+    // Sooritatakse pärast iga testi
+  });
+
+  it('test case 1', function() {
+    // Testi kood
+  });
+
+  it('test case 2', function() {
+    // Testi kood
+  });
 });
 ```

@@ -1,146 +1,237 @@
-# Chai
+# Chai Asertsiooniraamatukogu
 
-Chai on `assertion`-teek JavaScripti jaoks, mida kasutatakse koos testiraamistikega nagu `Mocha`, `Jasmine` või `Jest`, et kirjutada testide jaoks `assertion`-eid. See pakub mitmeid stiile (nt. `expect`, `should`, `assert`), mis võimaldavad testides kontrollida, kas teatud tingimused on täidetud.
+## Sissejuhatus
 
-## Chai eelised
+Chai on populaarne asertsiooniraamatukogu JavaScripti jaoks, mida kasutatakse koos testimisraamistikega nagu Mocha ja Jest. Chai pakub mitmesuguseid asertsioonistiile, sealhulgas TDD (Test-Driven Development) ja BDD (Behavior-Driven Development) stiile, mis teevad testide kirjutamise lihtsaks ja loetavaks.
 
-1. **Erinevad asserdioonistiilid:** Chai pakub `expect`, `should` ja `assert` stiile, mis võimaldavad valida endale sobiva ja intuitiivse asserdioonistiili.
+## Õpiväljundid
 
-2. **Kasutajasõbralik:** Chai `assertion`-id on loetavad ja kirjutatud inimkeelsele sarnaselt, mis muudab testid arusaadavaks.
+Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
-3. **Paindlikkus:** Chai on laiendatav, võimaldades lisada uusi funktsioone ja pistikprogramme.
+- Selgitama, mis on Chai ja miks seda kasutatakse.
+- Paigaldama ja seadistama Chai asertsiooniraamatukogu.
+- Kasutama erinevaid Chai asertsioone TDD ja BDD stiilis testide kirjutamiseks.
+- Laiendama Chai funktsionaalsust pistikprogrammide abil.
 
-4. **Ühilduvus:** Ühildub paljude populaarsete testiraamistike ja vahenditega.
+## Mis on Chai?
 
-### Chai kasutamine TypeScriptiga
+Chai on asertsiooniraamatukogu, mis pakub mitmesuguseid meetodeid, et kontrollida testide tulemusi. See töötab hästi koos Mocha ja teiste JavaScripti testimisraamistikega, pakkudes paindlikke ja loetavaid asertsioone.
 
-Kõigepealt veendu, et sul on Chai ja TypeScript paigaldatud. Kui ei, siis saad need paigaldada järgnevalt:
+### Chai Eelised
+
+- **Paindlikkus:** Toetab mitmesuguseid asertsioonistiile.
+- **Loetavus:** Asertsioonid on loetavad ja intuitiivsed.
+- **Laiendatavus:** Saab laiendada pistikprogrammide abil.
+
+## Chai Paigaldamine ja Seadistamine
+
+### 1. Chai Paigaldamine
+
+Paigaldage Chai projekti tasemel, kasutades npm-i või yarn-i.
 
 ```bash
-npm install chai @types/chai --save-dev
+npm install --save-dev chai
 ```
 
-**Näide: Testi Kirjutamine Chai ja TypeScriptiga**
+Või, kui kasutate yarn-i:
 
-Eeldades, et sul on olemas testitav funktsioon, näiteks:
-
-**app.ts**
-
-```typescript
-export const isEven = (num: number): boolean => {
-  return num % 2 === 0;
-};
+```bash
+yarn add --dev chai
 ```
 
-**test/app.test.ts**
+### 2. Testimisraamistiku Paigaldamine
 
-```typescript
-import { expect } from 'chai';
-import { isEven } from '../app';
+Selles näites kasutame Mocha, kuid võite kasutada ka Jest või mõnda muud testimisraamistikku.
 
-describe('isEven Function', () => {
-  it('should return true for even numbers', () => {
-    expect(isEven(4)).to.be.true;
-    expect(isEven(5)).to.be.false;
+```bash
+npm install --save-dev mocha
+```
+
+Lisage `package.json` faili skript, et käivitada teste Mochaga.
+
+```json
+{
+  "scripts": {
+    "test": "mocha"
+  }
+}
+```
+
+### 3. Testi Faili Loomine
+
+Looge projekti juurkausta kataloog nimega `test` ja selle sisse testifail, näiteks `sum.test.js`.
+
+```bash
+mkdir test
+cd test
+touch sum.test.js
+```
+
+## Testide Kirjutamine Chai abil
+
+### Näide: Lihtne Test TDD Stiilis
+
+#### `sum.js` - Funktsioon, mida testime
+
+```javascript
+function sum(a, b) {
+  return a + b;
+}
+
+module.exports = sum;
+```
+
+#### `test/sum.test.js` - Mocha test Chai-ga
+
+```javascript
+const chai = require('chai');
+const assert = chai.assert;
+const sum = require('../sum');
+
+describe('Sum Function', function() {
+  it('should return 3 when the inputs are 1 and 2', function() {
+    assert.strictEqual(sum(1, 2), 3);
+  });
+
+  it('should return -1 when the inputs are -2 and 1', function() {
+    assert.strictEqual(sum(-2, 1), -1);
   });
 });
 ```
 
-Siin kasutatakse `expect` stiili `assertion` Chai teegist, mis võimaldab kirjutada `assertion`-eid, mis on loetavad ja lihtsalt mõistetavad.
+### Näide: Lihtne Test BDD Stiilis
 
-**Testide Käivitamine**
+#### `test/sum.test.js` - Mocha test Chai-ga
 
-Kui kasutad Mocha koos Chai'ga, lisage järgmine skript oma `package.json` faili:
+```javascript
+const chai = require('chai');
+const expect = chai.expect;
+const sum = require('../sum');
 
-```json
-"scripts": {
-  "test": "mocha -r ts-node/register 'test/**/*.ts'"
-}
+describe('Sum Function', function() {
+  it('should return 3 when the inputs are 1 and 2', function() {
+    expect(sum(1, 2)).to.equal(3);
+  });
+
+  it('should return -1 when the inputs are -2 and 1', function() {
+    expect(sum(-2, 1)).to.equal(-1);
+  });
+});
 ```
 
-Käivita testid käsuga:
+### Testide Käivitamine
+
+Käivitage testid, kasutades Mocha käsurealt.
 
 ```bash
 npm test
 ```
 
-See seadistus võimaldab sul käivitada TypeScriptis kirjutatud teste, kasutades Mocha testiraamistikku ja Chai `assertion`-i teeki.
+## Chai Asertsioonistiilid
 
-## Chai cheat sheet
+Chai toetab kolme erinevat asertsioonistiili: Assert, Expect ja Should.
 
-- <https://devhints.io/chai>
+### 1. Assert Stiil
 
-## Chai ja ESLint
+```javascript
+const chai = require('chai');
+const assert = chai.assert;
 
-Kui kasutad ESLinti, siis võid saada järgmise veateate:
-
-```bash
-'expect' is not defined
+assert.strictEqual(sum(1, 2), 3, 'sum of 1 and 2 should be 3');
 ```
 
-Selle veateate likvideerimiseks on üks võimalus teha järgmised tegevused:
+### 2. Expect Stiil
 
-Paigalda pistikprogramm `eslint-plugin-chai-friendly`:
+```javascript
+const chai = require('chai');
+const expect = chai.expect;
 
-```bash
-npm install eslint-plugin-chai-friendly --save-dev
+expect(sum(1, 2)).to.equal(3, 'sum of 1 and 2 should be 3');
 ```
 
-Lisa järgnev rida ESLint-i konfiguratsioonifaili `extends` sektsiooni:
+### 3. Should Stiil
 
-```json
-{
-  "extends": ["plugin:chai-friendly/recommended"]
+```javascript
+const chai = require('chai');
+chai.should();
+
+sum(1, 2).should.equal(3, 'sum of 1 and 2 should be 3');
+```
+
+## Chai Laiendamine
+
+Chai saab laiendada pistikprogrammide abil, et lisada täiendavat funktsionaalsust.
+
+### Näide: Chai-as-Promised
+
+Chai-as-Promised on pistikprogramm, mis võimaldab testida lubadusi (promises).
+
+#### Paigaldamine
+
+```bash
+npm install --save-dev chai-as-promised
+```
+
+#### Kasutamine
+
+```javascript
+const chai = require('chai');
+const expect = chai.expect;
+const chaiAsPromised = require('chai-as-promised');
+
+chai.use(chaiAsPromised);
+
+function asyncFunction() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve('Hello, World!');
+    }, 1000);
+  });
 }
+
+describe('Async Function', function() {
+  it('should return "Hello, World!" after 1 second', function() {
+    return expect(asyncFunction()).to.eventually.equal('Hello, World!');
+  });
+});
 ```
 
-Või kui ESLint-i konfiguratsioon on JavaScripti failis, siis:
+## Täiendavad Näited ja Parimad Praktikad
+
+### Objekti Ekvivalentsuse Kontrollimine
 
 ```javascript
-{
-  extends: ['plugin:chai-friendly/recommended'],
-};
+const obj1 = { a: 1, b: 2 };
+const obj2 = { a: 1, b: 2 };
+
+expect(obj1).to.deep.equal(obj2);
 ```
 
-## ESLint-i faili näide
+### Vea Käivitamise Kontrollimine
 
 ```javascript
-module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-  },
-  extends: [
-    'airbnb-base',
-    'plugin:chai-friendly/recommended',
-  ],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-  },
-  plugins: [
-    '@typescript-eslint',
-  ],
-  rules: {
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
-      },
-    ],
-    'linebreak-style': 0,
-  },
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-      },
-    },
-  },
-};
+function badFunction() {
+  throw new Error('Something went wrong');
+}
+
+expect(badFunction).to.throw('Something went wrong');
+```
+
+### Asünkroonsete Funktsioonide Testimine
+
+```javascript
+function asyncFunction(callback) {
+  setTimeout(() => {
+    callback(null, 'Hello, World!');
+  }, 1000);
+}
+
+describe('Async Function', function() {
+  it('should return "Hello, World!" after 1 second', function(done) {
+    asyncFunction(function(err, result) {
+      expect(result).to.equal('Hello, World!');
+      done();
+    });
+  });
+});
 ```
