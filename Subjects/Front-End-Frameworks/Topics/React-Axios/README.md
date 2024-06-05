@@ -2,6 +2,10 @@
 
 React on populaarne JavaScripti teek kasutajaliideste loomiseks, samas kui Axios on lubadustepõhine HTTP klient, mida kasutatakse andmete pärimiseks ja saatmiseks. Koos kasutatuna võimaldavad need tööriistad luua dünaamilisi ja andmepõhiseid veebirakendusi. Selles õppematerjalis käsitleme, kuidas paigaldada ja seadistada Axios React projektis, kuidas pärida andmeid välisest API-st ja kuidas saadud andmeid kuvada.
 
+![React ja Axios](React-Axios.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [React ja Axios: Andmete Pärimine ja Kuvamine](#react-ja-axios-andmete-pärimine-ja-kuvamine)
   - [Õpiväljundid](#õpiväljundid)
   - [Eeldused](#eeldused)
