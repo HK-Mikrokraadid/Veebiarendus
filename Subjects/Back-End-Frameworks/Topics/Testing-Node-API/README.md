@@ -1,16 +1,17 @@
-# Node API Testimine Supertesti, Mocha ja Chai-ga
+# Node API Testimine Supertesti, Mocha ja Chai-ga: Rakenduse Käivitamine ja Testimine
 
-Selles õppematerjalis keskendume Expressi API testimisele. Testimiseks kasutame Supertesti, Mocha ja Chai ning keskendume erinevate API lõpp-punktide testimisele.
+API testimine on oluline, et tagada teie rakenduse lõpp-punktide korrektne toimimine. Selles õppematerjalis käsitleme, kuidas seadistada ja testida Node.js API-d, kasutades Expressi koos Supertesti, Mocha ja Chai-ga. Esiteks eraldame Expressi rakenduse loogika ja serveri käivitamise erinevatesse failidesse (`app.js` ja `server.js`), mis lihtsustab testimist. Seejärel loome ja käivitame teste, et kontrollida erinevaid API lõpp-punkte.
 
-![Node API testing](Node-API-Testing.webp)
+![Node API Testing](Node-API-Testing.webp)
 
 Pildi allikas: Dall-E by OpenAI
 
-- [Node API Testimine Supertesti, Mocha ja Chai-ga](#node-api-testimine-supertesti-mocha-ja-chai-ga)
+- [Node API Testimine Supertesti, Mocha ja Chai-ga: Rakenduse Käivitamine ja Testimine](#node-api-testimine-supertesti-mocha-ja-chai-ga-rakenduse-käivitamine-ja-testimine)
   - [Õpiväljundid](#õpiväljundid)
-  - [Eeldused](#eeldused)
-  - [API Seadistamine (Expressi Rakendus)](#api-seadistamine-expressi-rakendus)
+  - [Projekti Struktuur](#projekti-struktuur)
+  - [API Seadistamine](#api-seadistamine)
     - [`app.js`](#appjs)
+    - [`server.js`](#serverjs)
     - [`routes/posts.js`](#routespostsjs)
     - [`controllers/postsController.js`](#controllerspostscontrollerjs)
     - [`services/postsService.js`](#servicespostsservicejs)
@@ -28,20 +29,33 @@ Pildi allikas: Dall-E by OpenAI
 
 Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
-- testima API lõpp-punkte, kasutades Supertesti, Mocha ja Chai;
+- seadistama Expressi rakenduse ja serveri käivitamise eraldi failidesse;
+- testima API lõpp-punkte, kasutades Supertesti, Mocha-t ja Chai-d;
 - kontrollima testide katvust, kasutades `nyc` tööriista.
 
-## Eeldused
+## Projekti Struktuur
 
-Oletame, et teil on olemas põhivormis blogi API, mis kasutab Expressi ja järgmist struktuuri:
+```text
+my-blog-api/
+│
+├── app.js          # Expressi rakenduse konfiguratsioon
+├── server.js       # Serveri käivitamine
+├── routes/
+│   └── posts.js    # API lõpp-punktide defineerimine
+├── controllers/
+│   └── postsController.js  # Kontrollerid lõpp-punktide käsitlemiseks
+└── services/
+    └── postsService.js     # Teenused äriloogika ja andmeoperatsioonide jaoks
+└── test/
+    └── posts.test.js       # Testid lõpp-punktide jaoks
+└── package.json    # Projektikonfiguratsioon ja sõltuvused
+```
 
-- `app.js` – API serveri seadistamine.
-- `controllers/` – Kataloog, mis sisaldab API lõpp-punktide kontrollereid.
-- `services/` – Kataloog, mis sisaldab äriloogikat ja andmeoperatsioone.
-
-## API Seadistamine (Expressi Rakendus)
+## API Seadistamine
 
 ### `app.js`
+
+`app.js` failis seadistame Expressi rakenduse ja ruuterid. See fail sisaldab kogu rakenduse loogikat ja konfiguratsiooni, kuid ei käivita serverit.
 
 ```javascript
 const express = require('express');
@@ -58,7 +72,23 @@ app.use('/posts', postsRouter);
 module.exports = app;
 ```
 
+### `server.js`
+
+`server.js` fail vastutab serveri käivitamise eest. Siin importime `app.js` failis defineeritud Expressi rakenduse ja käivitame selle.
+
+```javascript
+const app = require('./app'); // Importime Expressi rakenduse
+const PORT = process.env.PORT || 3000;
+
+// Serveri käivitamine
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+```
+
 ### `routes/posts.js`
+
+Defineerime API lõpp-punktid ja seome need kontrolleritega `postsController.js` failis.
 
 ```javascript
 const express = require('express');
@@ -75,6 +105,8 @@ module.exports = router;
 ```
 
 ### `controllers/postsController.js`
+
+Kontrollerid vastutavad HTTP päringute käsitlemise ja vastuste tagastamise eest. Nad kasutavad teenuseid (`postsService.js`), et teha äriloogikat ja andmeoperatsioone.
 
 ```javascript
 const postsService = require('../services/postsService');
@@ -113,6 +145,8 @@ exports.deletePost = (req, res) => {
 ```
 
 ### `services/postsService.js`
+
+Teenused vastutavad äriloogika ja andmeoperatsioonide eest. Nad pakuvad funktsioone, mida kontrollerid kasutavad.
 
 ```javascript
 let posts = [
@@ -163,6 +197,8 @@ exports.deletePost = (postId) => {
 
 ## Testide Kirjutamine Supertesti, Mocha ja Chai-ga
 
+Nüüd kui rakendus ja serveri käivitamine on eraldatud, saame kirjutada ja käivitada teste ilma, et server käivitataks.
+
 ### Testi Faili Loomine
 
 Looge `test` kataloog ja selles `posts.test.js` fail.
@@ -179,7 +215,7 @@ touch test/posts.test.js
 ```javascript
 const request = require('supertest');
 const chai = require('chai');
-const app = require('../app');
+const app = require('../app'); // Impordime Expressi rakenduse
 const expect = chai.expect;
 
 describe('Blog API', function() {
@@ -243,7 +279,7 @@ npm test
 
 ## Testidega Kaetuse Kontrollimine
 
-Testidega kaetuse kontrollimine on oluline, et mõista, kui palju koodi on kaetud testidega. Saame kasutada `nyc` tööriista selleks otstarbeks.
+Kontrollime, kui palju koodi on kaetud testidega, kasutades `nyc` tööriista.
 
 ### `nyc` Paigaldamine
 
@@ -269,6 +305,8 @@ Lisage `package.json` faili järgmine konfiguratsioon:
     ],
     "exclude": [
       "test/**"
+
+
     ]
   }
 }
