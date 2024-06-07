@@ -32,8 +32,8 @@ Pildi allikas: Dall-E by OpenAI
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
 - selgitama, mis on React ja kuidas see töötab;
-- looma React projekt ja seadistama arenduskeskkonna;
-- loome ja haldama React komponente;
+- looma React projekt ja seadistama arenduskeskkonda;
+- looma ja haldama React komponente;
 - kasutama React Hooks-i ja olekuhaldust (*state management*).
 
 ## Reacti põhimõisted
