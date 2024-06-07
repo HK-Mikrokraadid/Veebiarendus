@@ -24,8 +24,8 @@ Pildi allikas: Dall-E by OpenAI
 Selle peatüki lõpuks peaksid õppijad olema võimelised:
 
 - selgitama, mis on JavaScripti front-end raamistik;
-- tundma populaarsemaid JavaScripti front-end raamistikud ja teeke;
-- aru saama front-end raamistikute ja teekide peamistest omadustest ja eelistest.
+- tundma populaarsemaid JavaScripti front-end raamistikke ja teeke;
+- aru saama front-end raamistike ja teekide peamistest omadustest ja eelistest.
 
 ## JavaScripti front-end raamistikud ja teegid
 
@@ -54,7 +54,7 @@ JavaScripti front-end raamistikud ja teegid pakuvad tööriistu ja raamistikke, 
 
 ### Angular
 
-**Angular** on täisfunktsionaalne JavaScripti raamistik, mida arendab Google. Angular kasutab TypeScripti ja pakub ulatuslikku tööriistade komplekti veebirakenduste arendamiseks, sealhulgas andmesidumine, teenused, suunamine ja testimine. Angular järgib MVC (Model-View-Controller) arhitektuuri, mis aitab hoida koodi organiseeritud ja skaleeritavana.
+**Angular** on täisfunktsionaalne JavaScripti raamistik, mida arendab Google. Angular kasutab TypeScripti ja pakub ulatuslikku tööriistade komplekti veebirakenduste arendamiseks, sealhulgas andmesidumine, teenused, suunamine ja testimine. Angular järgib MVC (Model-View-Controller) arhitektuuri, mis aitab hoida koodi organiseerituna ja skaleeritavana.
 
 - **Peamised omadused:**
   - MV* arhitektuur
@@ -94,7 +94,7 @@ JavaScripti front-end raamistikud ja teegid pakuvad tööriistu ja raamistikke, 
   - Ühelehe rakendused (SPA)
   - Projekti kiire algus ja prototüüpide loomine
 
-## Front-end raamistikute ja teekide eelised
+## Front-end raamistike ja teekide eelised
 
 - **Korduvkasutatavad komponendid:** Komponentidel põhinev arhitektuur võimaldab luua korduvkasutatavaid UI komponente, mis vähendab koodi duplikaate ja lihtsustab hooldust.
 - **Jõudlus:** Virtuaalne DOM ja optimeeritud renderdamisprotsessid parandavad veebirakenduste jõudlust.
