@@ -9,8 +9,8 @@ React on populaarne JavaScripti teek, mida kasutatakse kasutajaliideste loomisek
 Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
 - Selgitama, mis on Reacti komponent ja miks see on oluline.
-- Loome ja kasutama erinevat tüüpi komponente (funktsionaalsed ja klassipõhised).
-- Kasutama props-e ja olekut komponentide vahelise suhtluse ja dünaamilise andmete haldamiseks.
+- Looma ja kasutama erinevat tüüpi komponente (funktsionaalsed ja klassipõhised).
+- Kasutama props-e ja olekut komponentide vaheliseks suhtluseks ja dünaamiliseks andmete haldamiseks.
 
 ## Mis on Reacti Komponent?
 
