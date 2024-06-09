@@ -1,6 +1,6 @@
 # MySQL JOIN-id
 
-MySQL JOIN-id on võimas vahend, mis võimaldab andmeid erinevatest tabelitest pärida ja ühendada. JOIN-id võimaldavad kombineerida ridu kahest või enamast tabelist, mis on omavahel seotud primaar- ja võõrvõtmete kaudu. Selles õppematerjalis käsitleme erinevaid JOIN-i tüüpe, nende kasutamist ja näiteid praktiliste päringute tegemiseks.
+MySQL JOIN-id on vahend, mis võimaldab andmeid erinevatest tabelitest pärida ja ühendada. JOIN-id võimaldavad kombineerida ridu kahest või enamast tabelist, mis on omavahel seotud primaar- ja võõrvõtmete kaudu. Selles õppematerjalis käsitleme erinevaid JOIN-i tüüpe, nende kasutamist ja näiteid praktiliste päringute tegemiseks.
 
 ![SQL JOIN](SQL-JOIN.webp)
 
@@ -53,6 +53,8 @@ Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 3. **RIGHT JOIN**: Tagastab kõik read paremast tabelist ja vastavad read vasakust tabelist. Kui vastavust pole, siis täidetakse vasaku tabeli väljad NULL-idega.
 4. **FULL JOIN**: Tagastab kõik read, kui on vastavus vasakus või paremas tabelis. MySQL-is ei ole otsest `FULL JOIN` toetust, kuid seda saab saavutada `UNION` abil.
 
+> Vasak ja parem tabel on suhtelised mõisted, mis viitavad tabelite järjekorrale päringus. Vasak tabel on esimene tabel ja parem tabel on teine tabel.
+
 ## INNER JOIN
 
 INNER JOIN tagastab ainult need read, millel on mõlemas tabelis vastavus.
@@ -62,9 +64,8 @@ INNER JOIN tagastab ainult need read, millel on mõlemas tabelis vastavus.
 #### Kasutajad ja Postitused
 
 ```sql
-SELECT users.username, posts.title
-FROM users
-INNER JOIN posts ON users.id = posts.user_id;
+SELECT users.username, posts.title FROM users
+  INNER JOIN posts ON users.id = posts.user_id;
 ```
 
 See päring tagastab kõigi kasutajate kasutajanimed ja nende postituste pealkirjad, millel on kasutaja ja postituse vahel vastavus.
@@ -73,8 +74,8 @@ See päring tagastab kõigi kasutajate kasutajanimed ja nende postituste pealkir
 
 ```sql
 SELECT users.username, comments.content
-FROM users
-INNER JOIN comments ON users.id = comments.user_id;
+  FROM users
+  INNER JOIN comments ON users.id = comments.user_id;
 ```
 
 See päring tagastab kõigi kasutajate kasutajanimed ja nende kommentaaride sisu.
@@ -89,8 +90,8 @@ LEFT JOIN tagastab kõik read vasakust tabelist ja vastavad read paremast tabeli
 
 ```sql
 SELECT users.username, posts.title
-FROM users
-LEFT JOIN posts ON users.id = posts.user_id;
+  FROM users
+  LEFT JOIN posts ON users.id = posts.user_id;
 ```
 
 See päring tagastab kõigi kasutajate kasutajanimed ja nende postituste pealkirjad. Kui kasutajal pole postitusi, tagastatakse postituste pealkiri NULL-ina.
@@ -99,8 +100,8 @@ See päring tagastab kõigi kasutajate kasutajanimed ja nende postituste pealkir
 
 ```sql
 SELECT users.username, comments.content
-FROM users
-LEFT JOIN comments ON users.id = comments.user_id;
+  FROM users
+  LEFT JOIN comments ON users.id = comments.user_id;
 ```
 
 See päring tagastab kõigi kasutajate kasutajanimed ja nende kommentaaride sisu. Kui kasutajal pole kommentaare, tagastatakse kommentaaride sisu NULL-ina.
@@ -115,8 +116,8 @@ RIGHT JOIN tagastab kõik read paremast tabelist ja vastavad read vasakust tabel
 
 ```sql
 SELECT users.username, posts.title
-FROM users
-RIGHT JOIN posts ON users.id = posts.user_id;
+  FROM users
+  RIGHT JOIN posts ON users.id = posts.user_id;
 ```
 
 See päring tagastab kõigi postituste pealkirjad ja nende autorite kasutajanimed. Kui postitusel pole autorit (mis on haruldane ja ebatavaline olukord), tagastatakse autori kasutajanimi NULL-ina.

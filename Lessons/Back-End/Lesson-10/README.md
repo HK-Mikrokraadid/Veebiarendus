@@ -6,3 +6,6 @@
 - [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
 
 ## Teemad
+
+- Millest rääkisime eelmisel korral?
+- Kursuse kokkuvõte

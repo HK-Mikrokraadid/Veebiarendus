@@ -74,7 +74,7 @@ module.exports = app;
 
 ### `server.js`
 
-`server.js` fail vastutab serveri käivitamise eest. Siin importime `app.js` failis defineeritud Expressi rakenduse ja käivitame selle.
+`server.js` fail vastutab serveri käivitamise eest. Siin impordime `app.js` failis defineeritud Expressi rakenduse ja käivitame selle.
 
 ```javascript
 const app = require('./app'); // Importime Expressi rakenduse

@@ -80,7 +80,7 @@ Loome `db.js` faili, kus konfigureerime ja loome MySQL andmebaasi ühenduse.
 // db.js
 const mysql = require('mysql2');
 
-// Loo ühenduse konfiguratsioon
+// Loo ühenduse konfiguratsioon selliselt, et andmebaas võimaldaks luua mitu ühendust
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
@@ -88,11 +88,13 @@ const pool = mysql.createPool({
   database: 'blog'
 });
 
-// Lubame ühenduste basseini kasutada promise'sid
+// Lubame ühenduste  kasutada promise'sid
 const promisePool = pool.promise();
 
 module.exports = promisePool;
 ```
+
+Ühenduse seadistamiseks on vaja muuta `host`, `user`, `password` ja `database` vastavalt oma andmebaasi seadetele.
 
 ### 2.2. Teenuste loomine
 

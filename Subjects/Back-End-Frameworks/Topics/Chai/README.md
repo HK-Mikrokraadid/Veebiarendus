@@ -1,17 +1,47 @@
 # Chai Asertsiooniraamatukogu
 
-## Sissejuhatus
-
 Chai on populaarne asertsiooniraamatukogu JavaScripti jaoks, mida kasutatakse koos testimisraamistikega nagu Mocha ja Jest. Chai pakub mitmesuguseid asertsioonistiile, sealhulgas TDD (Test-Driven Development) ja BDD (Behavior-Driven Development) stiile, mis teevad testide kirjutamise lihtsaks ja loetavaks.
+
+![Chai](Chai.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Chai Asertsiooniraamatukogu](#chai-asertsiooniraamatukogu)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on Chai?](#mis-on-chai)
+    - [Chai Eelised](#chai-eelised)
+  - [Chai Paigaldamine ja Seadistamine](#chai-paigaldamine-ja-seadistamine)
+    - [1. Chai Paigaldamine](#1-chai-paigaldamine)
+    - [2. Testimisraamistiku Paigaldamine](#2-testimisraamistiku-paigaldamine)
+    - [3. Testi Faili Loomine](#3-testi-faili-loomine)
+  - [Testide Kirjutamine Chai abil](#testide-kirjutamine-chai-abil)
+    - [Näide: Lihtne Test TDD Stiilis](#näide-lihtne-test-tdd-stiilis)
+      - [`sum.js` - Funktsioon, mida testime](#sumjs---funktsioon-mida-testime)
+      - [`test/sum.test.js` - Mocha test Chai-ga](#testsumtestjs---mocha-test-chai-ga)
+    - [Näide: Lihtne Test BDD Stiilis](#näide-lihtne-test-bdd-stiilis)
+      - [`test/sum.test.js` - Mocha test Chai-ga](#testsumtestjs---mocha-test-chai-ga-1)
+    - [Testide Käivitamine](#testide-käivitamine)
+  - [Chai Asertsioonistiilid](#chai-asertsioonistiilid)
+    - [1. Assert Stiil](#1-assert-stiil)
+    - [2. Expect Stiil](#2-expect-stiil)
+    - [3. Should Stiil](#3-should-stiil)
+  - [Chai Laiendamine](#chai-laiendamine)
+    - [Näide: Chai-as-Promised](#näide-chai-as-promised)
+      - [Paigaldamine](#paigaldamine)
+      - [Kasutamine](#kasutamine)
+  - [Täiendavad Näited ja Parimad Praktikad](#täiendavad-näited-ja-parimad-praktikad)
+    - [Objekti Ekvivalentsuse Kontrollimine](#objekti-ekvivalentsuse-kontrollimine)
+    - [Vea Käivitamise Kontrollimine](#vea-käivitamise-kontrollimine)
+    - [Asünkroonsete Funktsioonide Testimine](#asünkroonsete-funktsioonide-testimine)
 
 ## Õpiväljundid
 
 Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on Chai ja miks seda kasutatakse.
-- Paigaldama ja seadistama Chai asertsiooniraamatukogu.
-- Kasutama erinevaid Chai asertsioone TDD ja BDD stiilis testide kirjutamiseks.
-- Laiendama Chai funktsionaalsust pistikprogrammide abil.
+- selgitama, mis on Chai ja miks seda kasutatakse;
+- paigaldama ja seadistama Chai projekti tasemel koos Mocha või muu testimisraamistikuga;
+- kasutama erinevaid Chai assertsioone TDD ja BDD stiilis testide kirjutamiseks;
+- laiendama Chai funktsionaalsust pistikprogrammide abil.
 
 ## Mis on Chai?
 
@@ -30,14 +60,16 @@ Chai on asertsiooniraamatukogu, mis pakub mitmesuguseid meetodeid, et kontrollid
 Paigaldage Chai projekti tasemel, kasutades npm-i või yarn-i.
 
 ```bash
-npm install --save-dev chai
+npm install --save-dev chai@4.4.1
 ```
 
 Või, kui kasutate yarn-i:
 
 ```bash
-yarn add --dev chai
+yarn add --dev chai@4.4.1
 ```
+
+> NB! Selle kursuse jaoks kasutame versiooni 4.4.1, kuna see on viimane versioon, mis toetab `require`-põhist importimist. Uuemad versioonid kasutavad ES6 importimist.
 
 ### 2. Testimisraamistiku Paigaldamine
 

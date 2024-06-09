@@ -3,9 +3,18 @@
 - [Kuues loeng](../Lesson-06/README.md)
 - [Seitsmenda loengu slaidid](Slides.md)
 - [Seitsmenda loengu salvestus]()
+- [Seitsmendas loengus kirjutatud kood]()
 - [Kaheksas loeng](../Lesson-08/README.md)
 
 ## Teemad
 
-- [Andmebaasi ühendamine NodeJS-iga](../../../Subjects/Back-End-Frameworks/Topics/MySQL-NodeJS/README.md)
-- JOIN päringud
+- Eelmise loengu meenutamine
+- [Andmebaasi ühendamine NodeJS-iga](../../../Subjects/Databases/Topics/MySQL-NodeJS/README.md)
+- Andmebaasi päringud Node API-s
+- [JOIN laused MySQL-is](../../../Subjects/Databases/Topics/MySQL-Join/README.md)
+- [Node API automaattestimine](../../../Subjects/Back-End-Frameworks/Topics/Testing/README.md)
+  - [Mocha](../../../Subjects/Back-End-Frameworks/Topics/Testing/Tools/Mocha/README.md)
+  - [Chai](../../../Subjects/Back-End-Frameworks/Topics/Testing/Tools/Chai/README.md)
+  - [Supertest](../../../Subjects/Back-End-Frameworks/Topics/Testing/Tools/Supertest/README.md)
+
+## Kodune ülesanne

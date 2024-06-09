@@ -7,3 +7,6 @@
 - [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
 
 ## Teemad
+
+- [Vigade haldus Express API-s]()
+- [Testimiseks eraldi andmebaas]()

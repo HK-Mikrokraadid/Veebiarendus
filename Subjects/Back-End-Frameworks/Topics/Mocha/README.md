@@ -1,17 +1,48 @@
 # Mocha Testimisraamistik
 
-## Sissejuhatus
-
 Mocha on populaarne JavaScripti testimisraamistik, mis võimaldab kirjutada ja käivitada teste nii serveripoolses (Node.js) kui ka kliendipoolses (brauseris) keskkonnas. Mocha on paindlik ja laiendatav, pakkudes tuge mitmesugustele testimisstiilidele, sealhulgas BDD (Behavior-Driven Development) ja TDD (Test-Driven Development).
+
+![Mocha](Mocha.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Mocha Testimisraamistik](#mocha-testimisraamistik)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on Mocha?](#mis-on-mocha)
+  - [Mocha Eelised](#mocha-eelised)
+  - [Mocha Paigaldamine ja Seadistamine](#mocha-paigaldamine-ja-seadistamine)
+    - [1. Mocha Paigaldamine](#1-mocha-paigaldamine)
+      - [Globaalne paigaldus](#globaalne-paigaldus)
+      - [Projekti tasemel paigaldus](#projekti-tasemel-paigaldus)
+    - [2. Testi Faili Loomine](#2-testi-faili-loomine)
+  - [Testide Kirjutamine Mocha abil](#testide-kirjutamine-mocha-abil)
+    - [Näide: Lihtne Test](#näide-lihtne-test)
+      - [`sum.js` - Funktsioon, mida testime](#sumjs---funktsioon-mida-testime)
+      - [`test/test.js` - Mocha test](#testtestjs---mocha-test)
+    - [Testide Käivitamine](#testide-käivitamine)
+  - [Asünkroonsed Testid](#asünkroonsed-testid)
+    - [Näide: Asünkroonne Test Callbacks](#näide-asünkroonne-test-callbacks)
+      - [`asyncFunction.js` - Asünkroonne funktsioon](#asyncfunctionjs---asünkroonne-funktsioon)
+      - [`test/asyncTest.js` - Mocha test](#testasynctestjs---mocha-test)
+    - [Näide: Asünkroonne Test Promises](#näide-asünkroonne-test-promises)
+      - [`asyncPromise.js` - Asünkroonne funktsioon](#asyncpromisejs---asünkroonne-funktsioon)
+      - [`test/asyncPromiseTest.js` - Mocha test](#testasyncpromisetestjs---mocha-test)
+  - [Chai Asertsiooniraamatukogu Kasutamine](#chai-asertsiooniraamatukogu-kasutamine)
+    - [Chai Paigaldamine](#chai-paigaldamine)
+    - [Näide: Chai Kasutamine](#näide-chai-kasutamine)
+      - [`test/chaiTest.js` - Mocha test Chai-ga](#testchaitestjs---mocha-test-chai-ga)
+  - [Täiendavad Mocha Funktsioonid](#täiendavad-mocha-funktsioonid)
+    - [Hooks](#hooks)
+      - [Näide: Hookide Kasutamine](#näide-hookide-kasutamine)
 
 ## Õpiväljundid
 
 Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
-- Selgitama, mis on Mocha ja miks seda kasutatakse.
-- Paigaldama ja seadistama Mocha testimisraamistiku.
-- Kirjutama ja käivitama põhitaseme teste Mocha abil.
-- Kasutama assertsiooniraamatukogusid, nagu Chai, koos Mochaga.
+- selgitama, mis on Mocha ja miks seda kasutatakse;
+- paigaldama ja seadistama Mocha testimisraamistiku;
+- kirjutama ja käivitama põhitaseme teste Mocha abil;
+- kasutama assertsiooniraamatukogusid, nagu Chai, koos Mochaga.
 
 ## Mis on Mocha?
 
@@ -90,7 +121,7 @@ describe('Sum Function', function() {
 Käivitage testid, kasutades Mocha käsurealt.
 
 ```bash
-mocha
+npx mocha
 ```
 
 ## Asünkroonsed Testid
