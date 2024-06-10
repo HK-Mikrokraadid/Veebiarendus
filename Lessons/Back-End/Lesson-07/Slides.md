@@ -467,3 +467,6 @@ describe('GET /ping', () => {
 ---
 
 ## Kodutöö
+
+- Andmebaasi kasutamine oma API-s
+- 
