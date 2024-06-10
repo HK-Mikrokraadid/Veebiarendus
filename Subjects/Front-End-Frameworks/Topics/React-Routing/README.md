@@ -23,7 +23,8 @@ Pildi allikas: Dall-E by OpenAI
     - [Näide: Dünaamiline marsruut](#näide-dünaamiline-marsruut)
       - [User.js](#userjs)
       - [App.js](#appjs-1)
-    - [404 Lehtede Halduse](#404-lehtede-halduse)
+  - [Koodi abil navigeerimine](#koodi-abil-navigeerimine)
+    - [404 Lehtede Haldus](#404-lehtede-haldus)
       - [Näide: 404 lehe haldamine](#näide-404-lehe-haldamine)
       - [NotFound.js](#notfoundjs)
       - [App.js](#appjs-2)
@@ -66,7 +67,7 @@ npm install react-router-dom
 ### Põhikomponendid
 
 - **BrowserRouter:** Peamine konteiner, mis haldab URL-ide ajalugu ja pakub konteksti marsruutide jaoks.
-- **Routes:** Mahutav komponent, mis sisaldab erinevaid marsruute.
+- **Routes:** Komponent, mis sisaldab erinevaid marsruute.
 - **Route:** Marsruudi määratlemiseks ja vastava komponendi renderdamiseks kasutatav komponent.
 - **Link:** Kasutatakse, et luua linke, mis võimaldavad navigeerimist ilma lehte uuesti laadimata.
 
@@ -214,7 +215,28 @@ function App() {
 export default App;
 ```
 
-### 404 Lehtede Halduse
+## Koodi abil navigeerimine
+
+Koodi abil navigeerimine võimaldab programmil navigeerida lehtede vahel, kasutades `useNavigate` kohandatud hooki. Näiteks suunatakse kasutaja pärast sisselogimist teisele lehele.
+
+```javascript
+import { useNavigate } from 'react-router-dom';
+
+function Login() {
+  const navigate = useNavigate();
+
+  function handleLogin() {
+    // Sisselogimise loogika
+    navigate('/dashboard');
+  }
+
+  return (
+    <button onClick={handleLogin}>Login</button>
+  );
+}
+```
+
+### 404 Lehtede Haldus
 
 404 lehtede haldamine võimaldab kuvada sõbraliku veateate, kui kasutaja proovib navigeerida mitteolemasolevale lehele.
 

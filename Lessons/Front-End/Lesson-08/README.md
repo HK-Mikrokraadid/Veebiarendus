@@ -6,3 +6,5 @@
 - [Üheksas loeng](../Lesson-09/README.md)
 
 ## Teemad
+
+- [Andmete pärimine Axios-e abil]()
