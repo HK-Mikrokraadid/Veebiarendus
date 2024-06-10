@@ -8,5 +8,5 @@
 
 ## Teemad
 
+- [JOIN laused MySQL-is](../../../Subjects/Databases/Topics/MySQL-Join/README.md)
 - [Vigade haldus Express API-s]()
-- [Testimiseks eraldi andmebaas]()

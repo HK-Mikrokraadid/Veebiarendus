@@ -7,4 +7,8 @@
 
 ## Teemad
 
-- [API dokumentatsioon](../../../Subjects/Back-End-Frameworks/Topics/API-Documentation/README.md)
+- Meenutame eelmist loengut
+- [Node API automaattestimine](../../../Subjects/Back-End-Frameworks/Topics/Testing/README.md)
+  - [Mocha](../../../Subjects/Back-End-Frameworks/Topics/Testing/Tools/Mocha/README.md)
+  - [Chai](../../../Subjects/Back-End-Frameworks/Topics/Testing/Tools/Chai/README.md)
+  - [Supertest](../../../Subjects/Back-End-Frameworks/Topics/Testing/Tools/Supertest/README.md)
