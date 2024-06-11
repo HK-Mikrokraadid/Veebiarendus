@@ -2,7 +2,7 @@
 
 - [Kuues loeng](../Lesson-06/README.md)
 - [Seitsmenda loengu slaidid](Slides.md)
-- [Seitsmenda loengu salvestus]()
+- [Seitsmenda loengu salvestus](https://youtu.be/huq3a_IPJfA)
 - [Seitsmendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/07)
 - [Kaheksas loeng](../Lesson-08/README.md)
 - [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
