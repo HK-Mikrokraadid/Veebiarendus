@@ -1,165 +1,222 @@
-# Vigade haldus Express rakenduses
+# Vigade Haldus (Error Handling) Express API-s
 
-Vigade haldus on oluline osa rakenduse arendamisest. Vigade halduse all mõtleme me vigade tuvastamist, nende käsitlemist ja nende kohta teavitamist. Samuti oleks pikas perspektiivis kusagil ka talletada vigade kohta infot, et neid hiljem analüüsida.
+Vigade haldus on kriitiline komponent igas API-s. Õige veahaldus aitab mitte ainult parandada kasutajakogemust, vaid ka hoida rakendust turvalisena ja hooldatavana. Express pakub paindlikke meetodeid vigade haldamiseks, mis võimaldavad teil elegantset ja tõhusat vigade käsitlemist oma API-s rakendada.
 
-Express raamistik pakub üsna lihtsat viisi kuidas vigu käsitleda. Selleks tuleb Kõigepealt luua vigu käsitlev `middleware` funktsioon. Seejärel tuleb see `middleware` funktsioon rakendusele lisada. Kui me oleme selle `middleware` oma rakenduses registreerinud ja rakenduses tekib viga, siis see viga edastatakse sellele `middleware` funktsioonile ja seejärel tegeletakse sellega vastavalt vajadusele. Selline lähenemisviis võimaldab meil vigu käsitleda ühes kohas ja see annab meile hea ja lihtsa võimaluse rakendada erinevaid vigade käsitlemise strateegiaid.
+- [Vigade Haldus (Error Handling) Express API-s](#vigade-haldus-error-handling-express-api-s)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Miks on Veahaldus Oluline?](#miks-on-veahaldus-oluline)
+  - [Veahaldus Expressis](#veahaldus-expressis)
+    - [Kohandatud Veakäsitlejad Lõpp-punktides](#kohandatud-veakäsitlejad-lõpp-punktides)
+    - [Keskne Veakäsitleja Vahevara](#keskne-veakäsitleja-vahevara)
+    - [Selgitus](#selgitus)
+    - [Asünkroonsete Vigade Käsitlemine](#asünkroonsete-vigade-käsitlemine)
+    - [Selgitus](#selgitus-1)
+  - [Täiendavad Meetodid Vigade Käsitlemiseks](#täiendavad-meetodid-vigade-käsitlemiseks)
+    - [Vigade Logimine](#vigade-logimine)
+    - [Valesti Tehtud Päringute Käsitlemine](#valesti-tehtud-päringute-käsitlemine)
 
-## Vea middleware funktsiooni loomine
+## Õpiväljundid
 
-Vea `middleware` funktsiooni loomiseks tuleb luua uus fail (näiteks `middleware/errorHandler.ts`)  ja lisada sinna järgnev kood:
+Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
-```ts
-import { Request, Response, NextFunction } from 'express';
+- selgitama, miks on veahaldus Expressis oluline.
+- rakendama kohandatud veakäsitlejaid Expressi API-s;
+- kasutama vahevara (middleware) vigade haldamiseks;
+- kasutama keskse veakäsitleja kasutamist kogu rakenduse ulatuses;
+- käsitlema asünkroonseid vigu Expressis.
 
-const errorMiddleware = (
-  error: Error,
-  request: Request,
-  response: Response,
-  next: NextFunction,
-) => {
-  console.log('Error handler:', error);
-  response.status(500).json({
-    success: false,
-    message: error.message,
-  });
-};
+## Miks on Veahaldus Oluline?
 
-export default errorMiddleware;
-```
+- **Kasutajakogemus**: Hästi kavandatud veahaldus annab kasutajale selged ja kasulikud sõnumid, mis aitavad tal mõista, mis valesti läks ja mida teha järgmiseks.
+- **Turvalisus**: Peidab süsteemi siseinfo ja hoiab ära tundliku teabe lekkimise.
+- **Hooldatavus**: Lihtsustab vigade jälgimist ja parandamist, andes arendajatele täpsed ja kasulikud logid.
+- **Usaldusväärsus**: Tagab, et rakendus suudab jätkata tööd isegi siis, kui tekivad vead.
 
-See `middleware` funktsioon meenutab meile juba tuttavat tavalist `middleware` funktsiooni, selle erinevusega, et esimene argument on `Error`, mis on viga, mis sellele funktsioonile Expressi poolt edastatakse.
+## Veahaldus Expressis
 
-## Vea middleware funktsiooni rakendamine
+Expressis saab vigu käsitleda mitmel viisil, sealhulgas:
 
-Järgmisena tuleb see `middleware` funktsioon rakendusele lisada. Selleks impordime kõigepealt selle `index.ts` failis ja registreerime selle. Meeles tuleb pidada, et vigade haldamise `middleware` tuleb registreerida kõige viimase `middleware` funktsioonina. Kui me registreerime selle `middleware` funktsiooni enne teisi `middleware` funktsioone, siis ei jõua see kunagi käesoleva `middleware` funktsioonini, sest mõni teine `middleware` funktsioon võib juba enne seda vastuse tagastada.
+1. **Kohandatud veakäsitlejad**: Funktsioonid, mis käsitlevad vigu kindlates lõpp-punktides.
+2. **Vahevara (middleware)**: Keskse veakäsitleja loomine, mis püüab kinni kõik vead, mis tekivad rakenduses.
+3. **Asünkroonsete vigade käsitlemine**: Vigade haldamine asünkroonsetes funktsioonides ja promisis.
 
-```ts
-...
-import errorMiddleware from './middlewares/errorMiddleware';
-...
+### Kohandatud Veakäsitlejad Lõpp-punktides
 
-app.get('/homeworks', homeworksControllers.getHomeworks);
-app.get('/homeworks/:id', homeworksControllers.getHomeworkById);
-app.post('/homeworks', homeworksControllers.createHomework);
+Mõnikord on vaja käsitleda vigu spetsiaalselt teatud lõpp-punktides. Näiteks, kui päringuga kaasneb vale sisend, saate tagastada kohandatud veateate:
 
-app.use(errorMiddleware);
+```javascript
+// routes/users.js
+const express = require('express');
+const router = express.Router();
 
-app.listen(port, () => {
-  // eslint-disable-next-line no-console
-  console.log(`App is running on port ${port}`);
+// Näidis GET päring, mis võib tekitada vea
+router.get('/:id', (req, res, next) => {
+  const userId = req.params.id;
+
+  // Kontrollime, kas ID on number
+  if (isNaN(userId)) {
+    const error = new Error('Invalid user ID');
+    error.status = 400;
+    return next(error); // Edastame vea järgmisele vahevarale või veakäsitlejale
+  }
+
+  // Otsime kasutajat (näidis)
+  const user = { id: userId, name: 'John Doe' };
+
+  // Kui kasutajat ei leita
+  if (!user) {
+    const error = new Error('User not found');
+    error.status = 404;
+    return next(error);
+  }
+
+  // Tagastame kasutaja andmed
+  res.json(user);
 });
+
+module.exports = router;
 ```
 
-Nüüd selleks, et meie rakendus hakkaks ka päriselt vigu edastama sellele `middleware` funktsioonile, tuleb meil kõigepealt ka kontrollerites väikesed muudatused teha. Nimelt tuleb meil kõigepealt kontrollerid ümber kirjutada omakorda `middleware` funktsioonideks, lisades neile `next` argumendi. Seejärel tuleb meil erinevates veaolukordades tekitada veaobjekt ja see `next` argumendile edastada. Näiteks:
+### Keskne Veakäsitleja Vahevara
 
-```ts
-getUsers: async (req: Request, res: Response, next: NextFunction) => {
-  const users = await usersServices.getUsers();
-  if (!users) {
-    return res.status(500).json({
-      success: false,
-      message: 'Server error',
-    });
-  }
-  return res.status(200).json({
-    success: true,
-    message: 'List of users',
-    users,
-    countOfUsers: users.length,
-  });
-},
-```
+Expressis saab luua keskse veakäsitleja vahevara, mis püüab kinni kõik vead, mis tekivad rakenduses. See vahevara paigutatakse pärast kõiki teisi teekondi ja vahevarasid.
 
-Tuleks ümber kirjutada järgmiselt:
+```javascript
+// app.js
+const express = require('express');
+const bodyParser = require('body-parser');
+const usersRouter = require('./routes/users');
 
-```ts
-getUsers: async (req: Request, res: Response, next: NextFunction) => {
-  const users = await usersServices.getUsers();
-  if (!users) {
-    return next(new Error('Server error'));
-  }
-  return res.status(200).json({
-    success: true,
-    message: 'List of users',
-    users,
-    countOfUsers: users.length,
-  });
-},
-```
+const app = express();
 
-Kui nüüd eelneva näite põhjal mingil põhjusel kasutajate nimekirja ei tagastata, siis edastatakse see viga meie loodud vea `middleware` funktsioonile ja seejärel tagastatakse kasutajale vastus, mis näeb välja järgmine:
+app.use(bodyParser.json());
 
-```json
-{
-  "success": false,
-  "message": "Server error"
-}
-```
+app.use('/users', usersRouter);
 
-Kui me nüüd kogu oma rakenduse selliselt ümber kirjutaksime, siis tekib meil selline probleem, et meil ei eristata enam veakoodi. Kõik vead tagastatakse kasutajale veakoodiga `500`. Selleks, et me saaksime eristada erinevaid veakoode, tuleb meil luua erinevad veaobjektid. Idee poolest saaksime teha sellise objekti, mis sisaldab ainult veakoodi ja veateadet. Näiteks:
-
-```ts
-const error = {
-  statusCode: 500,
-  message: 'Server error',
-};
-```
-
-Kuid selline lähenemisviis on natukene piiratud, kuna me kaotame osa originaalse veaobjekti infost (näiteks vea *stack trace*, mis näitab ära teekonna, mida viga läbis). Üks võimalus on kasutada olemasolevat veaobjekti ja lisada sellele omadused, mis meile vaja on (näiteks veakood).
-
-Siin kasutame nüüd pisut objektorienteeritud lähenemist, mida me ei ole küll siiani õppinud, kuid mis on siiski üsna lihtne. Me loome uue klassi, mis laiendab (nagu oleme teinud juba *Interface*-de puhul) olemasolevat veaobjekti, lisades sinna uue omaduse `statusCode`. Seejärel loome uue veaobjekti, kasutades seda klassi.
-
-```ts
-class ErrorWithCode extends Error {
-  code: number;
-
-  constructor(message: string, statusCode: number) {
-    super(message);
-    this.code = statusCode;
-  }
-}
-
-export default ErrorWithCode;
-```
-
-Nüüd saame seda kasutada järgmiselt:
-
-```ts
-getUsers: async (req: Request, res: Response, next: NextFunction) => {
-  const users = await usersServices.getUsers();
-  if (!users) {
-    return next(new ErrorWithCode('Server error', 500));
-  }
-  return res.status(200).json({
-    success: true,
-    message: 'List of users',
-    users,
-    countOfUsers: users.length,
-  });
-},
-```
-
-Ja vea haldamise `middleware` saame ümber kirjutada järgmiselt:
-
-```ts
-/* eslint-disable no-unused-vars */
-import { Request, Response, NextFunction } from 'express';
-
-const errorMiddleware = (
-  error: any,
-  request: Request,
-  response: Response,
-  next: NextFunction,
-) => {
-  // eslint-disable-next-line no-console
-  console.log('Error handler:');
-  response.status(error.statusCode || 500).json({
+// Keskne veakäsitleja
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(err.status || 500).json({
     success: false,
-    message: error.message || 'Server error',
+    message: err.message || 'Internal Server Error',
   });
-};
+});
 
-export default errorMiddleware;
+module.exports = app;
 ```
 
-Nüüd, kui meil tekib rakenduses mingi viga, siis me saame sellest kasutajale teada anda vastava veakoodiga ja veateatega. Lisaks, kuigi me ei ole seda veel rakendanud, saame me nüüd ka `middleware`-s vea kohta mingil moel infot talletada. Näiteks võiksime me selle vea logida, et hiljem seda analüüsida.
+### Selgitus
+
+- **`app.use((err, req, res, next) => { ... })`**: See on Expressi vahevara veakäsitleja signatuur. Kui mõni teekond või vahevara kutsub `next(error)`, püüab see vahevara vea kinni ja käsitleb seda.
+- **`err.status`**: See on määratud veakood, kui see on olemas. Kui ei ole määratud, kasutatakse vaiket `500`.
+- **`err.message`**: Veateade, mis tagastatakse vastusena.
+- **`console.error(err.stack)`**: Logib vea stack trace serveri konsooli.
+
+### Asünkroonsete Vigade Käsitlemine
+
+Asünkroonsed operatsioonid, nagu andmete pärimine API-st või andmebaasist, võivad tekitada vigu, mis tuleb käsitleda. Expressis saate kasutada `try/catch` plokke ja `next` funktsiooni asünkroonsete vigade käsitlemiseks.
+
+```javascript
+// routes/todos.js
+const express = require('express');
+const router = express.Router();
+const todosService = require('../services/todosService');
+
+// Näidis GET päring, mis kasutab async/await
+router.get('/:id', async (req, res, next) => {
+  try {
+    const todoId = req.params.id;
+    
+    if (isNaN(todoId)) {
+      const error = new Error('Invalid todo ID');
+      error.status = 400;
+      throw error;
+    }
+
+    const todo = await todosService.getById(todoId);
+
+    if (!todo) {
+      const error = new Error('Todo not found');
+      error.status = 404;
+      throw error;
+    }
+
+    res.json(todo);
+  } catch (error) {
+    next(error); // Edastame vea järgmisele vahevarale või veakäsitlejale
+  }
+});
+
+module.exports = router;
+```
+
+### Selgitus
+
+- **`try/catch` plokk**: Kasutatakse asünkroonsete operatsioonide vigade püüdmise ja käsitlemise jaoks.
+- **`throw error`**: Visatakse vead `try` plokist `catch` plokki, mis seejärel edasi saadetakse Expressi veakäsitlejale.
+- **`next(error)`**: Kutsutakse `catch` plokis, et edastada vea järgmisele vahevarale või veakäsitlejale.
+
+## Täiendavad Meetodid Vigade Käsitlemiseks
+
+### Vigade Logimine
+
+Hea tava on logida vead, et saaksite neid hiljem analüüsida ja parandada. Võite kasutada spetsiaalseid logimisteeke, nagu `winston` või `morgan`, et logida vead välisesse faili või logihaldussüsteemi.
+
+```javascript
+const express = require('express');
+const morgan = require('morgan');
+
+const app = express();
+
+// Morgan logib kõik päringud
+app.use(morgan('dev'));
+
+// Teie teekonnad ja vahevara siia
+
+// Keskne veakäsitleja
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(err.status || 500).json({
+    success: false,
+    message: err.message || 'Internal Server Error',
+  });
+});
+
+module.exports = app;
+```
+
+### Valesti Tehtud Päringute Käsitlemine
+
+Vigade vältimiseks on hea lisada vahevara, mis püüab kinni kõik valesti tehtud päringud ja tagastab 404 vastuse.
+
+```javascript
+// app.js
+const express = require('express');
+const bodyParser = require('body-parser');
+const usersRouter = require('./routes/users');
+
+const app = express();
+
+app.use(bodyParser.json());
+
+app.use('/users', usersRouter);
+
+// Kui ükski teekond ei vasta
+app.use((req, res, next) => {
+  res.status(404).json({
+    success: false,
+    message: 'Resource not found',
+  });
+});
+
+// Keskne veakäsitleja
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(err.status || 500).json({
+    success: false,
+    message: err.message || 'Internal Server Error',
+  });
+});
+
+module.exports = app;
+```

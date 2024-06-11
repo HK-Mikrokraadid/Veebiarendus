@@ -7,4 +7,7 @@
 
 ## Teemad
 
-- [Andmete pärimine Axios-e abil]()
+- [React ja Axios](../../../Subjects/Front-End-Frameworks/Topics/React-Axios/README.md)
+- Dünaamilised marsruudid
+- [Tingimuslaused](../../../Subjects/Front-End-Frameworks/Topics/React-Conditional-Rendering/README.md)
+- [Flash messages](../../../Subjects/Front-End-Frameworks/Topics/React-Flash-Messages/README.md)

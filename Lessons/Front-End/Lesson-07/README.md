@@ -12,5 +12,3 @@
 - Meenutame eelmist loengut
 - [React Router](../../../Subjects/Front-End-Frameworks/Topics/React-Routing/README.md)
 - [React Forms](../../../Subjects/Front-End-Frameworks/Topics/React-Forms/README.md)
-- [React ja Axios](../../../Subjects/Front-End-Frameworks/Topics/React-Axios/README.md)
-- [Tingimuslaused](../../../Subjects/Front-End-Frameworks/Topics/React-Conditional-Rendering/README.md)
