@@ -40,7 +40,7 @@ Kursuse lõpuks peaksid õppurid olema osavad serveri arhitektuuri põhimõtetes
 
 - [Chai](./Topics/Chai/README.md)
 - [Andmebaasiga ühendamine](./Topics/Connecting-Database/README.md)
-- [Disainimustrid](./Topics/Design-Patterns/README.md)
+- [Arendusmustrid](./Topics/Design-Patterns/README.md)
 - [Docker](./Topics/Docker/README.md)
 - [Keskkonnamuutujad](./Topics/Environment-Variables/README.md)
 - [Vigade haldus Expressis](./Topics/Error-Handling/README.md)

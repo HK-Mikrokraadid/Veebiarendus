@@ -2,6 +2,10 @@
 
 API kasutuse logimine on oluline, et saada ülevaade, kuidas ja millal kasutajad teie API-t kasutavad. Logimine aitab tuvastada mustreid, jälgida jõudlust ja diagnoosida probleeme. Expressis saate logimise rakendada mitmel viisil, kasutades kas sisseehitatud võimalusi või kolmandate osapoolte teeke. Üks populaarsemaid ja võimsamaid logimisteeke on `winston`. Lisaks saab kasutada ka `morgan` teeki, mis on lihtne HTTP päringute logija.
 
+![Logging](Logging.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Express rakenduse logimine](#express-rakenduse-logimine)
   - [Õpiväljundid](#õpiväljundid)
   - [Paigaldamine](#paigaldamine)

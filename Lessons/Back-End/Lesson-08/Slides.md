@@ -15,6 +15,8 @@ Martti Raavel
 ## Tänased teemad
 
 - [JOIN laused MySQL-is](../../../Subjects/Databases/Topics/MySQL-Join/README.md)
+- [Vigade haldus Express API-s](../../../Subjects/Back-End-Frameworks/Topics/Error-Handling/README.md)
+- [Logimine Express rakenduses](../../../Subjects/Back-End-Frameworks/Topics/Logging/README.md)
 
 ---
 
@@ -219,3 +221,119 @@ const getAllComments = async () => {
 
 ---
 
+## Logimine
+
+Logimine on protsess, kus salvestatakse rakenduse tegevusi ja sündmusi, et neid hiljem analüüsida. Logimine on oluline osa tarkvaraarendusest, sest see aitab meil mõista, mis meie rakenduses toimub ja kuidas seda parandada.
+
+Samuti võib logimise abil tuvastada pahatahtlikke tegevusi ja ründeid, mis võivad meie rakendust ohustada.
+
+---
+
+## Logimine Express rakenduses
+
+Siiani oleme oma rakenduses logimist kasutanud väga vähesel määral. Kui meil tekib viga, siis logime selle konsooli ja saadame kliendile vastava veateate. Kuid see pole piisav, sest me ei saa hiljem analüüsida, mis viga tekkis ja miks see tekkis, sest ei ole reaalne, et meil on alati võimalik konsooli jälgida. Samuti on meil keeruline konsoolist otsida konkreetset viga, kui meil on palju logisid.
+
+---
+
+## Winston logger
+
+Winston on logimise teek, mis võimaldab meil logida erinevaid sündmusi ja tegevusi meie rakenduses. Winston on väga paindlik ja võimaldab meil logida erinevatesse kohtadesse, näiteks faili, andmebaasi või konsooli.
+
+---
+
+## Winston paigaldamine
+
+Winstoni paigaldamiseks kasutame npm-i:
+
+```bash
+npm install winston
+```
+
+---
+
+## Winston kasutamine
+
+Winstoni kasutamiseks peame looma loggeri. Logger on objekt, mis sisaldab logimise seadeid, nagu logi tase, logi formaat ja transpordid, mis määravad, kuhu logitakse.
+
+```javascript
+// logger.js
+const { createLogger, format, transports } = require('winston');
+const { combine, timestamp, printf, errors } = format;
+
+// Kohandatud logi formaat
+const logFormat = printf(({ level, message, timestamp, stack }) => {
+  return `${timestamp} ${level}: ${stack || message}`;
+});
+
+const logger = createLogger({
+  level: 'info', // Logi tase - info, error, warn, debug
+  format: combine(
+    timestamp(),
+    errors({ stack: true }), // Logi veateated koos stack trace'iga
+    logFormat // Kohandatud logi formaat
+  ),
+  transports: [ // Transpordid - kuhu logitakse
+    new transports.Console(), // Logi konsooli
+    new transports.File({ filename: 'logs/combined.log' }), // Salvesta kõik logid faili nimega 'combined.log'
+    new transports.File({ filename: 'logs/errors.log', level: 'error' }), // Salvesta ainult veateated faili nimega 'errors.log'
+  ],
+});
+
+module.exports = logger;
+```
+
+---
+
+## Winston kasutamine - vigade logimine
+
+Kõigepealt soovime logida kõik vead eraldi faili, et neid hiljem analüüsida. Selleks lisame oma vigade halduse vahevarale logimise.
+
+```javascript
+const logger = require('./logger');
+
+const errorHandling = (err, req, res, next) => {
+  logger.error(err.message, { stack: err.stack });
+  res.status(err.status || 500).json({
+    success: false,
+    message: err.message || 'Internal Server Error',
+  });
+}
+```
+
+Nüüd kuvatakse kõik veateated nii konsoolis, kui ka failis `errors.log`.
+
+---
+
+## Morgan
+
+Morgan on logimise teek, mis on spetsiaalselt loodud HTTP päringute logimiseks. Morgan on väga paindlik ja võimaldab meil logida erinevaid andmeid, nagu päringu meetod, URL, vastuse staatuskood ja muud.
+
+---
+
+## Morgan paigaldamine
+
+Morgani paigaldamiseks kasutame npm-i:
+
+```bash
+npm install morgan
+```
+
+---
+
+## Morgan kasutamine
+
+Morgani kasutamiseks lisame selle oma Express rakendusse. Morgani kasutamiseks peame määrama, millist logi formaati soovime kasutada ja kuhu soovime logida. Meie rakenduses kasutame `combined` logi formaati ja kasutame logimiseks omakorda Winstoni loggerit.
+
+```javascript
+const morgan = require('morgan');
+const logger = require('./logger');
+
+app.use(morgan('combined', { stream: { write: message => logger.info(message.trim()) }}));
+```
+
+---
+
+## Kodune töö
+
+- Rakenda oma API-s vigade haldus
+- Logi kõik päringud ja vead faili

@@ -130,5 +130,4 @@ Viimase näite puhul peab `user` olema objekt, kus võtmed vastavad andmebaasi v
 
 ## Kodutöö
 
-- Andmebaasi kasutamine oma API-s
-- 
+- Lisa oma rakendusele andmebaasi ühendus ja päringud

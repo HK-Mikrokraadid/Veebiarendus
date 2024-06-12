@@ -16,8 +16,8 @@ Martti Raavel
 
 - [Node API automaattestimine](../../../Subjects/Back-End-Frameworks/Topics/Testing/README.md)
 
-
 ---
+
 ## Express API automaattestimine
 
 ---
@@ -271,3 +271,5 @@ describe('GET /ping', () => {
 ---
 
 ## Kodune töö
+
+- Lisa oma API-le automaattestid nii palju kui võimalik

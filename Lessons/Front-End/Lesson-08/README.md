@@ -7,7 +7,9 @@
 
 ## Teemad
 
+- Meenutame eelmist loengut
 - [React ja Axios](../../../Subjects/Front-End-Frameworks/Topics/React-Axios/README.md)
-- Dünaamilised marsruudid
+- [useEffect hook](../../../Subjects/Front-End-Frameworks/Topics/React-UseEffect/README.md)
+- [Dünaamilised marsruudid](../../../Subjects/Front-End-Frameworks/Topics/React-Routing/README.md#dünaamilised-marsruudid)
 - [Tingimuslaused](../../../Subjects/Front-End-Frameworks/Topics/React-Conditional-Rendering/README.md)
 - [Flash messages](../../../Subjects/Front-End-Frameworks/Topics/React-Flash-Messages/README.md)

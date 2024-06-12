@@ -12,10 +12,9 @@
 - Eelmise loengu meenutamine
 - [Andmebaasi ühendamine NodeJS-iga](../../../Subjects/Databases/Topics/MySQL-NodeJS/README.md)
 - Andmebaasi päringud Node API-s
-- [JOIN laused MySQL-is](../../../Subjects/Databases/Topics/MySQL-Join/README.md)
-- [Node API automaattestimine](../../../Subjects/Back-End-Frameworks/Topics/Testing/README.md)
-  - [Mocha](../../../Subjects/Back-End-Frameworks/Topics/Testing/Tools/Mocha/README.md)
-  - [Chai](../../../Subjects/Back-End-Frameworks/Topics/Testing/Tools/Chai/README.md)
-  - [Supertest](../../../Subjects/Back-End-Frameworks/Topics/Testing/Tools/Supertest/README.md)
 
 ## Kodune ülesanne
+
+- Loe läbi seitsmenda loengu materjalid
+  - [Andmebaasi ühendamine NodeJS-iga](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Databases/Topics/MySQL-NodeJS/README.md)
+- Lisa oma rakendusele andmebaasi ühendus ja päringud
