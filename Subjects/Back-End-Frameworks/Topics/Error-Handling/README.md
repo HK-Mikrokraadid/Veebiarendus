@@ -2,6 +2,10 @@
 
 Vigade haldus on kriitiline komponent igas API-s. Õige veahaldus aitab mitte ainult parandada kasutajakogemust, vaid ka hoida rakendust turvalisena ja hooldatavana. Express pakub paindlikke meetodeid vigade haldamiseks, mis võimaldavad teil elegantset ja tõhusat vigade käsitlemist oma API-s rakendada.
 
+![Express Error Handling](Express-Error-Handling.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Vigade Haldus (Error Handling) Express API-s](#vigade-haldus-error-handling-express-api-s)
   - [Õpiväljundid](#õpiväljundid)
   - [Miks on Veahaldus Oluline?](#miks-on-veahaldus-oluline)
