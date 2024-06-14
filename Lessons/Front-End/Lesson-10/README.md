@@ -6,3 +6,6 @@
 
 ## Teemad
 
+- Meenutame eelmist loengut
+- [React rakenduse deploy-mine](../../../Subjects/Front-End-Frameworks/Topics/Deploy/README.md)
+- Kursuse kokkuvõte ja tagasiside
