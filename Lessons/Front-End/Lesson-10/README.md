@@ -7,5 +7,6 @@
 ## Teemad
 
 - Meenutame eelmist loengut
+- [Pagination](../../../Subjects/Front-End-Frameworks/Topics/React-Pagination/README.md)
 - [React rakenduse deploy-mine](../../../Subjects/Front-End-Frameworks/Topics/Deploy/README.md)
 - Kursuse kokkuvõte ja tagasiside
