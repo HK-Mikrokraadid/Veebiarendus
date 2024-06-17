@@ -14,9 +14,14 @@ Martti Raavel
 
 ## Tänased teemad
 
+- Meenutame eelmist loengut
 - [JOIN laused MySQL-is](../../../Subjects/Databases/Topics/MySQL-Join/README.md)
 - [Vigade haldus Express API-s](../../../Subjects/Back-End-Frameworks/Topics/Error-Handling/README.md)
 - [Logimine Express rakenduses](../../../Subjects/Back-End-Frameworks/Topics/Logging/README.md)
+
+---
+
+## Millest rääksimi eelmisel korral?
 
 ---
 
@@ -214,7 +219,7 @@ const getAllComments = async () => {
   } catch (error) {
     const err = new Error('Something happened while fetching comments');
     err.status = 500;
-    return err;
+    throw err;
   }
 };
 ```
