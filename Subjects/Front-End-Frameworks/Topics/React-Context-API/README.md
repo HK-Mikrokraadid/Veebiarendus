@@ -127,6 +127,7 @@ import React, { createContext, useState } from 'react';
 
 export const ThemeContext = createContext();
 
+// children on komponendi alamkomponendid, see tagab, et kõik alamkomponendid saavad konteksti väärtusi
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
 
