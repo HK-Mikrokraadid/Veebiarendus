@@ -3,6 +3,7 @@
 - [Seitsmes loeng](../Lesson-07/README.md)
 - [Kood kaheksanda loengu jaoks](./code/blog.zip)
 - [Kaheksanda loengu slaidid](Slides.md)
+- [Kaheksandas loengus kirjutatud kood]()
 - [Kaheksanda loengu salvestus]()
 - [Üheksas loeng](../Lesson-09/README.md)
 

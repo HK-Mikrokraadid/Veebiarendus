@@ -9,13 +9,13 @@ Pildi allikas: Dall-E by OpenAI
 - [Tingimuslik Renderdamine Reactis](#tingimuslik-renderdamine-reactis)
   - [Õpiväljundid](#õpiväljundid)
   - [Tingimusliku Renderdamise Tehnikad](#tingimusliku-renderdamise-tehnikad)
-    - [1. `if`-lausung](#1-if-lausung)
-      - [Näide: `if`-lausung](#näide-if-lausung)
-    - [2. Loogiline `&&`-operaator](#2-loogiline--operaator)
+    - [`if`-lause](#if-lause)
+      - [Näide: `if`-lause](#näide-if-lause)
+    - [Loogiline `&&`-operaator](#loogiline--operaator)
       - [Näide: Loogiline `&&`-operaator](#näide-loogiline--operaator)
-    - [3. Ternaaroperaator](#3-ternaaroperaator)
+    - [Ternaaroperaator](#ternaaroperaator)
       - [Näide: Ternaaroperaator](#näide-ternaaroperaator)
-    - [4. Kohene tagastamine koos tingimusega](#4-kohene-tagastamine-koos-tingimusega)
+    - [Kohene tagastamine koos tingimusega](#kohene-tagastamine-koos-tingimusega)
       - [Näide: Tingimuslik tagastamine](#näide-tingimuslik-tagastamine)
   - [Täiendavad Näited](#täiendavad-näited)
     - [Näide: Tingimuslik Renderdamine Olekuga](#näide-tingimuslik-renderdamine-olekuga)
@@ -35,11 +35,11 @@ Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 
 ## Tingimusliku Renderdamise Tehnikad
 
-### 1. `if`-lausung
+### `if`-lause
 
-Klassikaline viis tingimusliku renderdamise saavutamiseks on kasutada `if`-lausungit. Seda tehnikat kasutatakse tavaliselt renderdamisfunktsiooni sees.
+Klassikaline viis tingimusliku renderdamise saavutamiseks on kasutada `if`-lauset. Seda tehnikat kasutatakse tavaliselt renderdamisfunktsiooni sees.
 
-#### Näide: `if`-lausung
+#### Näide: `if`-lause
 
 ```javascript
 import React from 'react';
@@ -54,7 +54,7 @@ function UserGreeting({ isLoggedIn }) {
 export default UserGreeting;
 ```
 
-### 2. Loogiline `&&`-operaator
+### Loogiline `&&`-operaator
 
 Loogilist `&&`-operaatorit saab kasutada, kui soovite renderdada komponenti ainult siis, kui tingimus on tõene. Kui tingimus on väär, ei renderdata midagi.
 
@@ -77,7 +77,7 @@ function Mailbox({ unreadMessages }) {
 export default Mailbox;
 ```
 
-### 3. Ternaaroperaator
+### Ternaaroperaator
 
 Ternaaroperaator (`? :`) on kompaktne viis tingimusliku renderdamise saavutamiseks, mis võimaldab renderdada üht või teist komponenti sõltuvalt tingimusest.
 
@@ -101,7 +101,7 @@ function Greeting({ isLoggedIn }) {
 export default Greeting;
 ```
 
-### 4. Kohene tagastamine koos tingimusega
+### Kohene tagastamine koos tingimusega
 
 Kui soovite renderdamist otse funktsioonis teha, võite kasutada tingimuslikku lauset komponentide otse tagastamiseks.
 
