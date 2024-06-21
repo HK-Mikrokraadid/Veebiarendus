@@ -166,8 +166,7 @@ export default PaginationComponent;
 
 ## Allikad
 
-- [React Bootstrap Documentation](https://react-bootstrap.github.io/components/pagination/)
-- [React Documentation - Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
+- [React Bootstrap Documentation](https://react-bootstrap.github.io/docs/components/pagination)
+- [React Documentation - Lists and Keys](https://react.dev/learn/rendering-lists)
 - [React Pagination Tutorial](https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/)
 
-See õppematerjal pakub põhjaliku juhendi, kuidas rakendada pagination-it React-i rakenduses, kasutades React Bootstrap-i komponente.
