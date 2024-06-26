@@ -135,7 +135,7 @@ Selle kursuse raames räägime põhiliselt enpointide testimisest, mis sisaldab 
 
 Node.js keskkonnas on mitmeid erinevaid testiraamistikke. Kõige levinumad on:
 
-- [Mocha](../mocha/README.md)
-- [Jest](https://jestjs.io/)
-- [Supertest](../supertest/README.md)
-- [Chai](../chai/README.md)
+- [Supertest](../supertest/README.md) - HTTP päringute testimiseks
+- [Mocha](../mocha/README.md) - Üldine testiraamistik
+- [Jest](https://jestjs.io/) - Üldine testiraamistik
+- [Chai](../chai/README.md) - Assertion library

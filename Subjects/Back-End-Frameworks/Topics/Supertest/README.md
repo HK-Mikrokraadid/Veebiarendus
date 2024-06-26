@@ -35,18 +35,18 @@ yarn add --dev supertest
 
 ### 2. Testimisraamistiku Paigaldamine
 
-Selles näites kasutame Jesti, kuid võite kasutada ka Mocha või mõnda muud testimisraamistikku.
+Selles näites kasutame Mocha-t, kuid võite kasutada ka mõnda muud testimisraamistikku.
 
 ```bash
-npm install --save-dev jest
+npm install --save-dev mocha
 ```
 
-Lisage `package.json` faili skript, et käivitada teste Jestiga.
+Lisage `package.json` faili skript, et käivitada teste Mocha-ga.
 
 ```json
 {
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   }
 }
 ```

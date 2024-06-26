@@ -23,7 +23,6 @@ Pildi allikas: Dall-E by OpenAI
   - [Testidega Kaetuse Kontrollimine](#testidega-kaetuse-kontrollimine)
     - [`nyc` Paigaldamine](#nyc-paigaldamine)
     - [`nyc` Seadistamine](#nyc-seadistamine)
-    - [Testidega Kaetuse Kontrollimine](#testidega-kaetuse-kontrollimine-1)
 
 ## Õpiväljundid
 
@@ -54,6 +53,8 @@ my-blog-api/
 ## API Seadistamine
 
 ### `app.js`
+
+Enne, kui saame hakata teste kirjutama (või õigemini enne, kui saame neid käivitada), peame seadistama Expressi rakenduse selliselt, et meil oleks võimalik seda testida. Selleks eraldame rakenduse ja serveri käivitamise erinevatesse failidesse.
 
 `app.js` failis seadistame Expressi rakenduse ja ruuterid. See fail sisaldab kogu rakenduse loogikat ja konfiguratsiooni, kuid ei käivita serverit.
 
@@ -199,6 +200,24 @@ exports.deletePost = (postId) => {
 
 Nüüd kui rakendus ja serveri käivitamine on eraldatud, saame kirjutada ja käivitada teste ilma, et server käivitataks.
 
+Aga enne veel, kui hakkame teste kirjutama, paigaldame testimiseks vajalikud teegid ja raamistikud:
+
+```bash
+npm install --save-dev mocha chai@4.4.1 supertest
+```
+
+> Märkus: Kasutame Chai versiooni 4.4.1, kuna see on viimane versioon, mis toetab Node.js `require` süntaksit.
+
+Lisame ka testide käivitamise skripti `package.json` faili:
+
+```json
+{
+  "scripts": {
+    "test": "mocha  --exit"
+  }
+}
+```
+
 ### Testi Faili Loomine
 
 Looge `test` kataloog ja selles `posts.test.js` fail.
@@ -218,14 +237,14 @@ const chai = require('chai');
 const app = require('../app'); // Impordime Expressi rakenduse
 const expect = chai.expect;
 
-describe('Blog API', function() {
+describe('Blog API', function() { // Testide grupp
 
-  describe('GET /posts', function() {
+  describe('GET /posts', function() { // Üksik test
     it('should return all posts', async function() {
-      const response = await request(app).get('/posts');
-      expect(response.status).to.equal(200);
-      expect(response.body).to.be.an('array');
-      expect(response.body.length).to.be.greaterThan(0);
+      const response = await request(app).get('/posts'); // Päringu saatmine /posts lõpp-punkti
+      expect(response.status).to.equal(200); // Kontrollime, kas vastuse staatus on 200
+      expect(response.body).to.be.an('array'); // Kontrollime, kas vastus on massiiv
+      expect(response.body.length).to.be.greaterThan(0); // Kontrollime, kas massiivis on rohkem kui 0 elementi
     });
   });
 
@@ -296,7 +315,7 @@ Lisage `package.json` faili järgmine konfiguratsioon:
 ```json
 {
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha --exit"
   },
   "nyc": {
     "reporter": [
@@ -311,8 +330,6 @@ Lisage `package.json` faili järgmine konfiguratsioon:
   }
 }
 ```
-
-### Testidega Kaetuse Kontrollimine
 
 Käivitage testid, kasutades `nyc`, et vaadata katvust.
 
