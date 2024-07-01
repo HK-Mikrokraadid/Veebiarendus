@@ -222,3 +222,32 @@ export default Login;
 ```
 
 ---
+
+## Kasutajate nimekirja komponendi kuvamine
+
+Põhimõtteliselt saame nüüd ka oma rakenduse navigeerimise menüüs ümber kirjutada selliselt, et kasutajate nimekirja komponent kuvatakse ainult siis, kui kasutaja on sisse logitud ja ta on administraator.
+
+```javascript
+import { AuthContext } from './AuthContext';
+
+function NavBar() {
+  const { user } = useContext(AuthContext);
+  
+  return (
+...
+    <Nav.Link as={Link} to='/posts'>Posts</Nav.Link>
+    {user?.role === 'admin' && <Nav.Link as={Link} to='/users'>Users</Nav.Link>}
+    <Nav.Link as={Link} to='/about'>About</Nav.Link>
+  </Nav>
+  <Nav className='ml-auto'>
+    {user && <Nav.Link>{user.email}</Nav.Link>}
+    {user ? (
+      <Logout />
+    ) : (
+      <Nav.Link as={Link} to='/login'>Login</Nav.Link>
+    )}
+    </Nav>
+...
+  );
+};
+```
