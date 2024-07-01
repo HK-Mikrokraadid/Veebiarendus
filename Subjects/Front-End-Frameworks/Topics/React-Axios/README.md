@@ -148,7 +148,7 @@ export default App;
 
 ### 3.1. Vigade Käsitlemine
 
-Koodis on juba näidatud, kuidas käsitleda vigu andmete pärimisel. Kui päring ebaõnnestub, värskendame vea olekut ja kuvame vea teate.
+Koodis on juba näidatud, kuidas käsitleda vigu andmete pärimisel. Kui päring ebaõnnestub, värskendame vea olekut ja kuvame veateate.
 
 ```javascript
 if (error) {
@@ -170,7 +170,7 @@ if (loading) {
 
 - **Kasuta `useEffect` Hooki**: Andmete pärimine tuleks teostada `useEffect` hooki abil, et päring tehtaks komponendi laadimisel.
 - **Error Boundaries**: Kasuta veakäsitluse komponente (`Error Boundaries`), et püüda vigu komponentides.
-- **Abstraktsioon**: Abstraheeri API päringud eraldi failidesse või teenustesse, et hoida kood puhtana ja taaskasutatav.
+- **Abstraktsioon**: Abstraheeri API päringud eraldi failidesse või teenustesse, et hoida kood puhtana ja taaskasutatavana.
 
 ## Täiendav Näide: Parameetriline Päring
 
