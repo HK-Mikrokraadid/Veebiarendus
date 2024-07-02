@@ -14,7 +14,12 @@ Martti Raavel
 
 ## Tänased teemad
 
+- Meenutame eelmist loengut
 - [Node API automaattestimine](../../../Subjects/Back-End-Frameworks/Topics/Testing/README.md)
+
+---
+
+## Millest rääkisime eelmisel korral?
 
 ---
 
