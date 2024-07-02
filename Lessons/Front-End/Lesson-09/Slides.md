@@ -200,7 +200,7 @@ Nüüd saame kasutada `login` ja `logout` funktsioone `Login` komponendis.
 
 import { useContext } from 'react';
 
-import AuthContext from './AuthContext';
+import { AuthContext } from './AuthContext';
 
 const Login = () => {
   const { user, login, logout } = useContext(AuthContext);
@@ -239,14 +239,6 @@ function NavBar() {
     {user?.role === 'admin' && <Nav.Link as={Link} to='/users'>Users</Nav.Link>}
     <Nav.Link as={Link} to='/about'>About</Nav.Link>
   </Nav>
-  <Nav className='ml-auto'>
-    {user && <Nav.Link>{user.email}</Nav.Link>}
-    {user ? (
-      <Logout />
-    ) : (
-      <Nav.Link as={Link} to='/login'>Login</Nav.Link>
-    )}
-    </Nav>
 ...
   );
 };
