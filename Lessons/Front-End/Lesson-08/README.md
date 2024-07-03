@@ -30,4 +30,4 @@ Rakenda oma blogi rakenduses vähemalt sisselogimine ja välja logimine. Sisselo
 
 Kui Su rakendus võimaldab, siis lisa ka postituste laadimine serverist ja nende kuvamine.
 
-Blogi API aadress on `https://blog.hk.tlu.ee/`.
+Blogi API aadress on `https://blog.hk.tlu.ee/`

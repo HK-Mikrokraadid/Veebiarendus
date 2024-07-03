@@ -17,3 +17,10 @@
 - Kasutajate nimekirja komponent ja selle kuvamine
 
 ## Kodutöö
+
+Loe läbi üheksanda loengu materjalid:
+
+- [Tokeni dekodeerimine](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Frameworks/Topics/React-Decode-JWT/README.md)
+- [Context API](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Frameworks/Topics/React-Context-API/README.md)
+
+Rakenda oma blogi rakenduses sisselogimise andmete haldamine konteksti abil. Kui kasutaja on sisse loginud, siis peab kasutaja nimi olema nähtav kõikides komponentides, kus see on vajalik.
