@@ -12,6 +12,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Deploy-mine GitHub Pages-i Abil](#deploy-mine-github-pages-i-abil)
   - [Eeltingimused](#eeltingimused)
   - [Sammud](#sammud)
+  - [React Router ja GitHub Pages](#react-router-ja-github-pages)
   - [Alternatiivsed Hostimisplatvormid](#alternatiivsed-hostimisplatvormid)
   - [Kontrollküsimused](#kontrollküsimused)
   - [Harjutus](#harjutus)
@@ -79,6 +80,16 @@ Nüüd edaspidi, kui soovite oma rakendust uuendada, siis peate tegema järgmise
 - Vajadusel värskenda lehte
 
 > Kogu protsess võib mõne minuti aega võtta, kuna GitHub peab buildi looma ja lehe avalikult kättesaadavaks tegema.
+
+## React Router ja GitHub Pages
+
+Kui kasutad oma akenduses React Router-it, siis Github Pages ei pruugi töötada nii nagu peaks. Selleks, et Router korralikult töötaks, peame oma rakenduses vahetama `BrowserRouter` `HashRouter` vastu.
+
+```javascript
+import { HashRouter as Router } from 'react-router-dom';
+```
+
+See muudatus tagab, et React Router töötab korralikult ka GitHub Pages-i puhul.
 
 ## Alternatiivsed Hostimisplatvormid
 

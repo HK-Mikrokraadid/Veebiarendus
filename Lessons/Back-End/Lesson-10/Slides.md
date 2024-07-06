@@ -31,8 +31,13 @@ Martti Raavel
 - API dokumentatsiooni loomine
 - API turvalisus (natukene rääkisime, kuid teema on oluliselt laiem)
 - Sisendi valideerimisraamistikud
+- Failide käsitlemine (üleslaadimine, allalaadimine)
 - API deploymine
 - CI/CD
+- JWT white- ja blacklisting
+- Rate limiting
+- Cache (Redis)
+- Keelevalik
 - ...
 
 ---

@@ -233,11 +233,27 @@ Nüüd edaspidi, kui soovite oma rakendust uuendada, siis peate tegema järgmise
 
 ---
 
+## React Router ja GitHub Pages
+
+Kui kasutad oma akenduses React Router-it, siis Github Pages ei pruugi töötada nii nagu peaks. Selleks, et Router korralikult töötaks, peame oma rakenduses vahetama `BrowserRouter` `HashRouter` vastu.
+
+```javascript
+import { HashRouter as Router } from 'react-router-dom';
+```
+
+See muudatus tagab, et React Router töötab korralikult ka GitHub Pages-i puhul.
+
+---
+
 ## Millest me kursuse jooksul ei rääkinud?
 
 - Front-End rakenduse testimine
 - React-i server-side renderdamine (SSR)
 - Dokumentatsiooni loomine (pisut rääkisime, kuid teema on oluliselt laiem)
+- Failide üleslaadimine (nt pildid, dokumendid)
+- Failide optimeerimine (pildid, skriptid, stiilid)
+- SEO (Search Engine Optimization)
+- Keelevalik
 - ...
 
 ---
