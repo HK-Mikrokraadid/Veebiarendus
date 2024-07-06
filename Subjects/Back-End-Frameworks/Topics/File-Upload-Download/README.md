@@ -99,7 +99,7 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 ```
 
-### Failide Allalaadimine
+## Failide Allalaadimine
 
 1. **Loo API failide allalaadimiseks**:
 
@@ -133,6 +133,6 @@ app.use('/api', downloadRoute);
 // Jätkub eelmisest lisamisest...
 ```
 
-### Kokkuvõte
+## Kokkuvõte
 
 See näide kasutab `multer`-i failide üleslaadimiseks ja `express`-i failide allalaadimiseks. Failid salvestatakse kohalikku kausta `uploads` ja teenindatakse staatiliselt. Failide üleslaadimisel kontrollitakse, kas failid on pildid ja nende suurus ei ületa 1MB. Failide allalaadimisel saab faili alla laadida selle nime järgi, kui see eksisteerib serveris.
