@@ -17,7 +17,9 @@ Martti Raavel
 - Meenutame eelmist loengut
 - [Pagination](../../../Subjects/Front-End-Frameworks/Topics/React-Pagination/README.md)
 - [React rakenduse deploy-mine](../../../Subjects/Front-End-Frameworks/Topics/Deploy/README.md)
+- Millest me kursuse jooksul ei rääkinud
 - Kursuse kokkuvõte ja tagasiside
+- Mis edasi?
 
 ---
 
@@ -110,7 +112,8 @@ import PaginationComponent from './PaginationComponent';
   totalPages={pagination.totalPages}
   currentPage={currentPage}
   onPageChange={(pageNumber) => setCurrentPage(pageNumber)}
-/>}
+/>
+}
 ...
 ```
 
@@ -163,23 +166,89 @@ useEffect(() => {
 
 Kui me oleme oma React rakenduse valmis saanud, siis soovime tõenäoliselt selle ka kuhugi üles laadida, et seda saaks üle interneti kasutada. Selleks tuleb teha kõigepealt mõned ettevalmistused ja seejärel valida sobiv meetod ja koht.
 
+Sel korral räägime sellest, kuidas deploy-da oma React rakendus GitHub Pages-i.
+
 ---
 
 ## Deploy-mise ettevalmistused
 
-Kuna siiani oleme oma React-i rakendust arendanud oma arvutis, siis me kasutame nn arenduskeskkonda, mis on mõeldud selleks, et me saaksime kiiresti ja mugavalt arendada. Kuid kui me soovime rakendust kasutada üle interneti, siis me peame selle "tootmiskeskkonda" viima. Selleks peame oma rakenduse "build"-ima, ehk looma sellest üheainsa HTML faili, mis sisaldab kogu meie rakendust.
+- Loo omale projekti jaoks repositoorium
+- Loo/kopeeri sinna oma React-i rakendus
 
 ---
 
-## React-i rakenduse "build"-imine
+## Deploy-mise sammud
 
-Kui me oleme oma rakenduse valmis saanud, siis me saame selle "build"-ida, kasutades järgmist käsku:
+- Paigalda `gh-pages` moodul
+  - `npm install gh-pages`
 
-```bash
-npm run build
+---
+
+## Package.json faili konfigureerimine
+
+Lisa `package.json` faili järgmised read:
+
+Esimene rida määrab, kus meie rakendus asub:
+
+```json
+"homepage": "https://<Githubi kasutajanimi>.github.io/<repositooriumi nimi>",
 ```
 
-See käsk loob meie projekti kausta `build` kausta, kus on kõik meie rakenduse failid. Seda kausta saame me nüüd kasutada, et seda kuskile üles laadida.
+Lisa `scripts` jaotisse järgmised read:
+
+```json
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+```
 
 ---
 
+## Deploy töövoo käivitamine
+
+```bash
+npm run deploy
+```
+
+---
+
+## GitHub Pages-i seadistamine
+
+- Mine projekti seadistustesse:
+  - Settings
+  - Pages
+    - Source: `Deploy from branch`
+    - Branch: `gh-pages` `/root`
+  - Mine aadressile: `https://<Githubi kasutajanimi>.github.io/<repositooriumi nimi>`
+
+---
+
+## Edasised sammud
+
+Kui kõik on õigesti tehtud, peaks teie React-i rakendus olema edukalt deploy-d GitHub Pages-i.
+
+Nüüd edaspidi, kui soovite oma rakendust uuendada, siis peate tegema järgmised sammud:
+
+- Tee muudatused
+- Käivita `deploy` töövoog: `npm run deploy`
+
+---
+
+## Millest me kursuse jooksul ei rääkinud?
+
+- Front-End rakenduse testimine
+- React-i server-side renderdamine (SSR)
+- Dokumentatsiooni loomine (pisut rääkisime, kuid teema on oluliselt laiem)
+- ...
+
+---
+
+## Kursuse kokkuvõte ja tagasiside
+
+- Mis oli hästi?
+- Mida saaks paremini teha?
+- Millest oleks veel tahtnud kuulda?
+- Veel midagi?
+
+---
+
+## Mis edasi?

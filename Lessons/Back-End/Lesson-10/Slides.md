@@ -16,6 +16,7 @@ Martti Raavel
 ## Tänased teemad
 
 - Millest rääkisime eelmisel korral?
+- Millest me kursuse jooksul ei rääkinud?
 - Kursuse kokkuvõte ja tagasiside
 - Mis edasi?
 
@@ -25,7 +26,23 @@ Martti Raavel
 
 ---
 
+## Millest me kursuse jooksul ei rääkinud/ei jõudnud rääkida
+
+- API dokumentatsiooni loomine
+- API turvalisus (natukene rääkisime, kuid teema on oluliselt laiem)
+- Sisendi valideerimisraamistikud
+- API deploymine
+- CI/CD
+- ...
+
+---
+
 ## Kursuse kokkuvõte ja tagasiside
+
+- Mis oli hästi?
+- Mida saaks paremini teha?
+- Millest oleks veel tahtnud kuulda?
+- Veel midagi?
 
 ---
 

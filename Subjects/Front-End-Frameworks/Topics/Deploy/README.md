@@ -1,4 +1,4 @@
-# React Projekti Deploy-mine
+# React Projekti Deploy-mine GitHub Pages-i Abil
 
 React-i rakenduse deploy-mine tähendab selle ülespanekut serverisse või hostimisteenusesse, et seda saaks avalikult kasutada. Selles õppematerjalis uurime, kuidas deploy-da React-i projekti mitmel viisil, sealhulgas GitHub Pages abil.
 
@@ -6,20 +6,13 @@ React-i rakenduse deploy-mine tähendab selle ülespanekut serverisse või hosti
 
 Pildi allikas: Dall-E by OpenAI
 
-- [React Projekti Deploy-mine](#react-projekti-deploy-mine)
+- [React Projekti Deploy-mine GitHub Pages-i Abil](#react-projekti-deploy-mine-github-pages-i-abil)
   - [Õpiväljundid](#õpiväljundid)
   - [React-i Projekti Deploy-mise Sammud](#react-i-projekti-deploy-mise-sammud)
-    - [React-i Projekti Buildi Loomine](#react-i-projekti-buildi-loomine)
   - [Deploy-mine GitHub Pages-i Abil](#deploy-mine-github-pages-i-abil)
   - [Eeltingimused](#eeltingimused)
   - [Sammud](#sammud)
   - [Alternatiivsed Hostimisplatvormid](#alternatiivsed-hostimisplatvormid)
-    - [Vercel](#vercel)
-    - [Netlify](#netlify)
-  - [Koodinäited](#koodinäited)
-    - [`package.json` Konfiguratsioon](#packagejson-konfiguratsioon)
-  - [Probleemide Lahendamine](#probleemide-lahendamine)
-  - [Kokkuvõte](#kokkuvõte)
   - [Kontrollküsimused](#kontrollküsimused)
   - [Harjutus](#harjutus)
   - [Allikad](#allikad)
@@ -38,25 +31,17 @@ Pärast selle peatüki läbimist peaksid olema võimelised:
 
 React-i rakenduse deploy-mine sisaldab tavaliselt järgmisi samme:
 
-1. **Buildi loomine**: Loome optimeeritud buildi, mis sisaldab HTML, CSS ja JavaScript faile.
-2. **Hostimine**: Laadime buildi üles hostimisteenusesse või serverisse.
-
-### React-i Projekti Buildi Loomine
-
-Alustame React-i rakenduse buildimisega:
-
-1. **Avage terminal** ja minge oma React-i projekti juurkausta.
-2. **Käivitage buildi käsk**:
-
-   ```bash
-   npm run build
-   ```
-
-   See käsk loob optimeeritud ja minimeeritud failid kausta `build`.
+- Projekti repositooriumi loomine
+- Koodi kirjutamine
+- `gh-pages` mooduli paigaldamine
+- `package.json` faili konfigureerimine
+- `deploy` töövoo käivitamine
+- GitHub Pages-i seadistamine
+- Rakenduse kontrollimine
 
 ## Deploy-mine GitHub Pages-i Abil
 
-GitHub Pages on lihtne viis staatiliste veebilehtede, sealhulgas React-i rakenduste hostimiseks.
+GitHub Pages on lihtne viis staatiliste veebilehtede, sealhulgas React-i rakenduste hostimiseks, kuna see on tasuta ja lihtne kasutada. Siin on samm-sammuline juhend, kuidas deploy-da oma React-i rakendus GitHub Pages-i:
 
 ## Eeltingimused
 
@@ -64,104 +49,45 @@ GitHub Pages on lihtne viis staatiliste veebilehtede, sealhulgas React-i rakendu
 
 ## Sammud
 
-1. **Installige `gh-pages` Pakk**:
+- Loo omale projekti jaoks repositoorium
+- Loo/kopeeri sinna oma React-i rakendus
+- Paigalda `gh-pages` moodul
+  - `npm install gh-pages`
+  - Lisa `package.json` faili rida `"homepage": "https://<Githubi kasutajanimi>.github.io/<repositooriumi nimi>",`
+- Lisa `package.json` faili `script` jaotisesse read:
 
-   Lisame `gh-pages` paki, mis aitab meil hõlpsalt deploy-da React-i rakendust GitHub Pages-i.
+```bash
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+```
 
-   ```bash
-   npm install --save-dev gh-pages
-   ```
+- Käivita `deploy` töövoog: `npm run deploy`
+- Mine projekti seadistustesse:
+  - Settings
+  - Pages
+    - Source: `Deploy from branch`
+    - Branch: `gh-pages` `/root`
+  - Mine aadressile: `https://<Githubi kasutajanimi>.github.io/<repositooriumi nimi>`
 
-2. **Lisage `homepage` Väli**:
+Kui kõik on õigesti tehtud, peaks teie React-i rakendus olema edukalt deploy-d GitHub Pages-i.
 
-   Lisage oma `package.json` faili `homepage` väli, mis määrab, kus teie rakendus hostitakse.
+Nüüd edaspidi, kui soovite oma rakendust uuendada, siis peate tegema järgmised sammud:
 
-   ```json
-   "homepage": "https://<kasutajanimi>.github.io/<repo-nimi>"
-   ```
+- Tee muudatused
+- Käivita `deploy` töövoog: `npm run deploy`
+- Mine aadressile: `https://<Githubi kasutajanimi>.github.io/<repositooriumi nimi>`
+- Vajadusel värskenda lehte
 
-   Asendage `<kasutajanimi>` oma GitHub kasutajanimega ja `<repo-nimi>` oma hoidla nimega.
-
-3. **Lisage Deploy Skriptid**:
-
-   Lisage `package.json` faili `scripts` sektsiooni kaks uut käsku: `predeploy` ja `deploy`.
-
-   ```json
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
-     // ... teised skriptid
-   }
-   ```
-
-   - `predeploy`: Käivitab `npm run build` käsu enne deploy-mist.
-   - `deploy`: Kasutab `gh-pages` pakki, et laadida `build` kausta sisu GitHub Pages-i.
-
-4. **Käivitage Deploy Käsk**:
-
-   Käivitage järgmine käsk terminalis oma projekti juurkaustas:
-
-   ```bash
-   npm run deploy
-   ```
-
-   See käsk käivitab esmalt `npm run build` ja seejärel laadib buildi sisu GitHub Pages-i.
-
-5. **Kontrollige Deploy-mist**:
-
-   Pärast deploy-mise edukat lõpuleviimist saate oma rakendust näha aadressil `https://<kasutajanimi>.github.io/<repo-nimi>`.
+> Kogu protsess võib mõne minuti aega võtta, kuna GitHub peab buildi looma ja lehe avalikult kättesaadavaks tegema.
 
 ## Alternatiivsed Hostimisplatvormid
 
-Lisaks GitHub Pages-ile on mitmeid teisi platvorme, mis pakuvad lihtsat ja kiiret viisi React-i rakenduse hostimiseks.
+Lisaks GitHub Pages-ile on mitmeid teisi platvorme, mis pakuvad lihtsat ja kiiret viisi React-i rakenduse hostimiseks, nagu näiteks:
 
-### Vercel
-
-Vercel on platvorm, mis pakub nullkonfiguratsiooni kasutajaliidest ja automaatset deploy-mist.
-
-1. **Loo konto ja logi sisse** [Vercel](https://vercel.com/) veebilehel.
-2. **Importige oma projekt**: Valige oma GitHub-i hoidla ja järgige juhiseid projekti importimiseks.
-3. **Deploy**: Vercel teeb automaatselt buildi ja deploy rakenduse.
-
-### Netlify
-
-Netlify pakub samuti lihtsat viisi React-i rakenduse deploy-miseks ja pakub palju lisafunktsioone nagu pidev integreerimine ja testimine.
-
-1. **Loo konto ja logi sisse** [Netlify](https://www.netlify.com/) veebilehel.
-2. **Seadistage projekt**: Valige oma GitHub-i hoidla ja seadistage build käsk (nt `npm run build`).
-3. **Deploy**: Netlify loob automaatselt buildi ja deploy rakenduse.
-
-## Koodinäited
-
-### `package.json` Konfiguratsioon
-
-```json
-{
-  "name": "react-app",
-  "version": "1.0.0",
-  "homepage": "https://<kasutajanimi>.github.io/<repo-nimi>",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  // ... teised seaded
-}
-```
-
-## Probleemide Lahendamine
-
-1. **404 vead GitHub Pages-il**: Veenduge, et teie `homepage` väli `package.json` failis on õigesti seadistatud.
-2. **Deploy ebaõnnestumine**: Kontrollige, et `gh-pages` pakk on õigesti installitud ja skriptid on õigesti seadistatud.
-
-## Kokkuvõte
-
-- **Buildi loomine**: Enne deploy-mist looge optimeeritud build.
-- **GitHub Pages**: Kasutage `gh-pages` pakki, et hõlpsasti deploy-da React-i rakendust GitHub Pages-i.
-- **Alternatiivsed platvormid**: Vercel ja Netlify pakuvad kasutajasõbralikke viise React-i rakenduste hostimiseks.
+- **Vercel**: Vercel on populaarne serverless hostimisteenus, mis võimaldab teil deploy-da React-i rakendusi ilma konfigureerimiseta.
+- **Netlify**: Netlify on veel üks populaarne hostimisteenus, mis pakub automaatset deploy-d, HTTPS-i ja palju muud.
+- **Heroku**: Heroku on platvorm, mis võimaldab teil deploy-da ja hostida erinevaid rakendusi, sealhulgas React-i rakendusi.
+- Igasugused muud hostimisteenused, mis toetavad React-i rakenduste või siis lihtsalt staatiliste veebilehtede hostimist.
 
 ## Kontrollküsimused
 

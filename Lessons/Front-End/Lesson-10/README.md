@@ -9,8 +9,5 @@
 - Meenutame eelmist loengut
 - [Pagination](../../../Subjects/Front-End-Frameworks/Topics/React-Pagination/README.md)
 - [React rakenduse deploy-mine](../../../Subjects/Front-End-Frameworks/Topics/Deploy/README.md)
+- Millest me kursuse jooksul ei rääkinud?
 - Kursuse kokkuvõte ja tagasiside
-
-## Kodune ülesanne
-
-

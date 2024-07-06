@@ -8,4 +8,5 @@
 ## Teemad
 
 - Millest rääkisime eelmisel korral?
+- Millest me kursuse jooksul ei rääkinud?
 - Kursuse kokkuvõte
