@@ -39,7 +39,7 @@ Samuti aitab see vähendada serveri ja interneti ühenduse koormust, kuna me ei 
 
 Põhimõtteliselt eeldab see seda, et meil on võimalik API-st pärida andmeid lehtede kaupa. Näiteks, kui meil on 1000 kasutajat, siis me ei lae korraga kõiki kasutajaid, vaid näiteks 10 kasutajat korraga. Sageli saame selleni jõuda, kasutades päringu parameetreid nagu `page` ja `limit`. Näiteks, `/users?page=1&limit=10`. Võidakse kasutada ka teistsuguseid päringu parameetreid nagu `from` ja `per_page` jms.
 
-> Oluline on meeles pidada, et server ei pruugi alati toetada pagination-i. Ja kui toetab, siis võib see olla lahendatud erinevalt.
+> Oluline on meeles pidada, et server ei pruugi alati toetada pagination-it. Ja kui toetab, siis võib see olla lahendatud erinevalt.
 
 ---
 
@@ -61,9 +61,6 @@ Lisame oma rakendusele eraldi `PaginationComponent` komponendi, mis võimaldab m
 import React from 'react';
 import { Pagination } from 'react-bootstrap';
 
-// currentPage - praegune leht
-// totalPages - kõikide lehtede arv
-// onPageChange - funktsioon, mis käivitatakse, kui lehte vahetatakse
 const PaginationComponent = ({ currentPage, totalPages, onPageChange }) => {
   const pageNumbers = [];
 
