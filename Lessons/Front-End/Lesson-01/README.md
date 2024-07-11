@@ -2,25 +2,27 @@
 
 Esimeses loengus tutvume Front-End arenduse kursuse ülesehituse ja sisuga. Räägime, mida oodata ja mida kursuselt saada. Tutvume HTML ja CSS põhitõdedega.
 
+## Esimese loengu materjalid ja viited
+
 - [Esimese loengu slaidid](Slides.md)
 - [Esimese loengu salvestus](https://youtu.be/yZMk6TfOe0k)
 - [Teine loeng](../Lesson-02/README.md)
 - [Zoomi link]()
 
-## Teemad
+### Teemad
 
 - [HTML](../../../Subjects/Front-End-Technologies/Topics/HTML/README.md)
   - [Semantiline HTML](../../../Subjects/Front-End-Technologies/Topics/Semantic-HTML/README.md)
 - [CSS](../../../Subjects/Front-End-Technologies/Topics/CSS/README.md)
 
-## Kodutöö
+### Kodutöö
 
 - Loe läbi loengus käsitletud teemad
   - [HTML](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/HTML/README.md)
     - [Semantiline HTML](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Semantic-HTML/README.md)
   - [CSS](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS/README.md)
 
-### Ülesanne
+#### Kodune ülesanne
 
 Analüüsi mõnda blogi ja mõtle, milline võiks olla Sinu loodava blogi lehekülje struktuur:
 

@@ -2,6 +2,8 @@
 
 Selles loengus jätkame nn plain Javascripti õppimist. Kõigepealt vaatame, kuidas saab Javascripti koodi jagada mitmeks failiks ja kuidas neid faile veebilehel kasutada. Seejärel räägime HTML vormidest ja kuidas Javascripti abil vormidega suhelda.
 
+## Kolmanda loengu materjalid ja viited
+
 - [Teine loeng](../Lesson-02/README.md)
 - [Kolmanda loengu slaidid](Slides.md)
 - [Kolmanda loengu salvestus](https://youtu.be/wXcafD-SF88)
@@ -9,21 +11,21 @@ Selles loengus jätkame nn plain Javascripti õppimist. Kõigepealt vaatame, kui
 - [Neljas loeng](../Lesson-04/README.md)
 - [Zoomi link]()
 
-## Teemad
+### Teemad
 
 - Meenutame eelmist loengut
 - Mitme `js` faili kasutamine
 - [HTML vormid](../../../Subjects/Front-End-Technologies/Topics/HTML-Forms/README.md)
 - [HTML vormid ja Javascript](../../../Subjects/Front-End-Technologies/Topics/Forms-and-JS/README.md)
 
-## Kodutöö
+### Kodutöö
 
 Loe läbi loengus räägitud teemade peatükid:
 
 - [HTML vormid](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/HTML-Forms/README.md)
 - [HTML vormid ja Javascript](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Forms-and-JS/README.md)
 
-## Ülesanne
+#### Kodune ülesanne
 
 - Lisa oma veebilehele vorm, mis võimaldab uute postituste lisamist.
 - Proovi ka teha nii, et postituste nimekiri on eraldi failis ja et sellest nimekirjast luuakse automaatselt veebilehele postituste loend.

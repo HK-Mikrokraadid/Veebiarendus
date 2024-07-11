@@ -2,6 +2,8 @@
 
 Peale eelmise loengu meenutamist räägime selles loengus autentimisest ja autoriseerimisest. Vaatame, kuidas autentimist ja autoriseerimist Front-Endis rakendatakse. Lisaks räägime sellest, kuidas me saame veebilehitsejas andmeid salvestada ja kuidas neid andmeid kasutada. Lõpuks vaatame, kuidas serverisse päringuid tehes andmeid päringu päisesse lisada.
 
+## Viienda loengu materjalid ja viited
+
 - [Neljas loeng](../Lesson-04/README.md)
 - [Viienda loengu slaidid](Slides.md)
 - [Viienda loengu salvestus](https://youtu.be/YlnuBubiVe8)
@@ -9,7 +11,7 @@ Peale eelmise loengu meenutamist räägime selles loengus autentimisest ja autor
 - [Kuues loeng](../Lesson-06/README.md)
 - [Zoomi link]()
 
-## Teemad
+### Teemad
 
 - [Autentimine ja autoriseerimine](../../../Subjects/Back-End-Frameworks/Topics/Auth/README.md)
 - [Veebilehitseja mälutehnoloogiad](../../../Subjects/Front-End-Technologies/Topics/Browser-Memory/README.md)
@@ -17,7 +19,7 @@ Peale eelmise loengu meenutamist räägime selles loengus autentimisest ja autor
 - [Päiste saatmine Axiose abil](../../../Subjects/Front-End-Technologies/Topics/Axios/README.md#päiste-saatmine-axiosega)
 - Autentimise ja autoriseerimise rakendamine
 
-## Kodune töö
+### Kodune töö
 
 Loe läbi loengus räägitud teemade peatükid:
 
@@ -26,7 +28,7 @@ Loe läbi loengus räägitud teemade peatükid:
 - [JWT](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Back-End-Frameworks/Topics/JWT/README.md)
 - [Päiste saatmine Axiose abil](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Axios/README.md#p%C3%A4iste-saatmine-axiosega)
 
-### Ülesanne
+#### Kodune ülesanne
 
 Rakenda oma blogi rakenduses sisselogimine ja kasuta `JWT`-d edasiste päringute tegemiseks serverisse:
 
