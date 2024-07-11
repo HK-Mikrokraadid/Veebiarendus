@@ -1,11 +1,13 @@
 # Kolmas loeng
 
+Selles loengus jätkame nn plain Javascripti õppimist. Kõigepealt vaatame, kuidas saab Javascripti koodi jagada mitmeks failiks ja kuidas neid faile veebilehel kasutada. Seejärel räägime HTML vormidest ja kuidas Javascripti abil vormidega suhelda.
+
 - [Teine loeng](../Lesson-02/README.md)
 - [Kolmanda loengu slaidid](Slides.md)
 - [Kolmanda loengu salvestus](https://youtu.be/wXcafD-SF88)
 - [Kolmandas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/03)
 - [Neljas loeng](../Lesson-04/README.md)
-- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
+- [Zoomi link]()
 
 ## Teemad
 

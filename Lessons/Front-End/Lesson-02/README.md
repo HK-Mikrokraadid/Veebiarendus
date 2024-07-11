@@ -1,5 +1,7 @@
 # Teine loeng
 
+Teises loengus kõigepealt tuletame meelde, mida rääkisime ja tegime eelmises loengus. Seejärel räägime CSS-i `display`, `flex` ja `box model` omadustest. Lõpuks vaatame, kuidas Javascript töötab veebilehitsejas, kuidas kõige lihtsamalt Javascripti programmiga suhelda, kuidas Javascripti abil muuta veebilehe sisu ja kuidas veebilehel toimuva kohta infot saada.
+
 - [Esimene loeng](../Lesson-01/README.md)
 - [Teise loengu slaidid](Slides.md)
 - [Teise loengu salvestus](https://youtu.be/qATeYGHfJFw)
