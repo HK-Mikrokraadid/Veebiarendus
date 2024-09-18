@@ -35,9 +35,7 @@ Kursuse lõpuks peaksid õppurid olema osavad serveri arhitektuuri põhimõtetes
 - [Autentimine ja autoriseerimine](./Topics/Auth/README.md)
 - [Bcrypt](./Topics/Bcrypt/README.md)
 - [JWT](./Topics/JWT/README.md)
-
-- [Testide lisamine olemasolevale projektile](./Topics/Adding-Tests-TO-Existing-Project/README.md)
-
+- [Testide lisamine olemasolevale projektile](./Topics/Adding-Tests-To-Existing-Project/README.md)
 - [Chai](./Topics/Chai/README.md)
 - [Andmebaasiga ühendamine](./Topics/Connecting-Database/README.md)
 - [Arendusmustrid](./Topics/Design-Patterns/README.md)
@@ -49,7 +47,3 @@ Kursuse lõpuks peaksid õppurid olema osavad serveri arhitektuuri põhimõtetes
 - [Supertest](./Topics/Supertest/README.md)
 - [Testimine](./Topics/Testing/README.md)
 
-- REST
-- Express.JS
-- Päringu/vastuse tsükkel
-- API dokumentatsioon
