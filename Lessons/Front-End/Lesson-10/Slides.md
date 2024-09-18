@@ -265,3 +265,7 @@ See muudatus tagab, et React Router töötab korralikult ka GitHub Pages-i puhul
 ---
 
 ## Mis edasi?
+
+- Rakendusinformaatika eriala
+- Täienduskoolitused HK-s
+- ...

@@ -30,9 +30,9 @@
 
 ## Kodutöö - tähtaeg: enne järgmist loengut
 
-- Lugege läbi esimese loengu materjalid
-- Tehke läbi materjalides olevad harjutused
+- Loe läbi esimese loengu materjalid
+- Tee läbi materjalides olevad harjutused
   - [Hello World](../../../Subjects/Programming-Basics/Topics/HelloWorld/README.md#harjutused)
   - [Muutujad](../../../Subjects/Programming-Basics/Topics/Variables/README.md#harjutused)
   - [Andmetüübid](../../../Subjects/Programming-Basics/Topics/Data-Types/README.md#harjutused)
-- Laadige tehtud harjutuste kood Githubi
+- Laadi tehtud harjutuste kood Githubi
