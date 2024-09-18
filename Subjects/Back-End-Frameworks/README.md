@@ -29,7 +29,7 @@ Kursuse lõpuks peaksid õppurid olema osavad serveri arhitektuuri põhimõtetes
 - [HTTP](./Topics/HTTP/README.md)
 - [Http meetodid](./Topics/HTTP-Methods/README.md)
 - [Express](./Topics/Express/README.md)
-- [Struktureerimine](./Topics/Structure/README.md)
+- [Struktureerimine](./Topics/Structuring/README.md)
 - [Vahevara](./Topics/Middleware/README.md)
 - [Routes](./Topics/Routes/README.md)
 - [Autentimine ja autoriseerimine](./Topics/Auth/README.md)
