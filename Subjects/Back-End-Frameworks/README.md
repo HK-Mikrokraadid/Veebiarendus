@@ -1,6 +1,6 @@
 # Back-End raamistikud
 
-Back-End raamistikud pakuvad süvitsi minevat uurimist tänapäeva serveripoolse rakenduse arendamise meetoditest, tööriistadest ja parimatest praktikatest. Õppurid sukelduvad põhilistesse kontseptsioonidesse nagu marsruutimine, vahevara (*middleware*), autentimine ja andmebaasioperatsioonid. Kursuse vältel osalevad õpilased praktilistes projektides, luues jõudluspõhiseid ja turvalisi rakendusi, mis on valmis reaalsetes stsenaariumides kasutamiseks. See teekond tutvustab neile ka ulatuslikku tööriistade komplekti ja ökosüsteemi, mis on omased kaasaegsele tagarakenduste arendusele.
+Back-End raamistikud pakuvad süvitsi minevat uurimist tänapäeva serveripoolse rakenduse arendamise meetoditest, tööriistadest ja parimatest praktikatest. Õppurid sukelduvad põhilistesse kontseptsioonidesse nagu marsruutimine, vahevara (_middleware_), autentimine ja andmebaasioperatsioonid. Kursuse vältel osalevad õpilased praktilistes projektides, luues jõudluspõhiseid ja turvalisi rakendusi, mis on valmis reaalsetes stsenaariumides kasutamiseks. See teekond tutvustab neile ka ulatuslikku tööriistade komplekti ja ökosüsteemi, mis on omased kaasaegsele tagarakenduste arendusele.
 
 ## Kirjeldus
 
@@ -37,7 +37,7 @@ Kursuse lõpuks peaksid õppurid olema osavad serveri arhitektuuri põhimõtetes
 - [JWT](./Topics/JWT/README.md)
 - [Testide lisamine olemasolevale projektile](./Topics/Adding-Tests-To-Existing-Project/README.md)
 - [Chai](./Topics/Chai/README.md)
-- [Andmebaasiga ühendamine](./Topics/Connecting-Database/README.md)
+- [Andmebaasiga ühendamine](../Databases/Topics/MySQL-NodeJS/README.md)
 - [Arendusmustrid](./Topics/Design-Patterns/README.md)
 - [Docker](./Topics/Docker/README.md)
 - [Keskkonnamuutujad](./Topics/Environment-Variables/README.md)
@@ -46,4 +46,3 @@ Kursuse lõpuks peaksid õppurid olema osavad serveri arhitektuuri põhimõtetes
 - [Mocha](./Topics/Mocha/README.md)
 - [Supertest](./Topics/Supertest/README.md)
 - [Testimine](./Topics/Testing/README.md)
-
