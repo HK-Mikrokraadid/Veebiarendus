@@ -5,7 +5,7 @@ Esimeses loengus tutvume Front-End arenduse kursuse ülesehituse ja sisuga. Rä�
 ## Esimese loengu materjalid ja viited
 
 - [Esimese loengu slaidid](Slides.md)
-- [Esimese loengu salvestus](https://youtu.be/yZMk6TfOe0k)
+- [Esimese loengu salvestus]()
 - [Teine loeng](../Lesson-02/README.md)
 - [Zoomi link]()
 

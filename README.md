@@ -28,7 +28,7 @@ Repositooriumi ülesehitus on järgmine:
 
 Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti `2022-2-EE01-KA220-HED-000100317` raames.
 
-## 2025. RKT Tarkvaraarenduse koolitus
+## 2025. aasta RKT Tarkvaraarenduse koolitus
 
 Koolituse eesmärk on omandada terviklik arusaam nii tarkvaraarenduse kui ka programmeerimise ja versioonihalduse olemusest, põhimõtetest, meetoditest ja kasutatavatest tööriistadest. Koolituse jooksul kasutame materjale, mis on loodud Veebiarenduse mikrokraadide jaoks, kuid läbime neist ainult ühised ained - [tarkvaraarenduse](./Subjects/Software-Development/README.md) ja [programmeerimise alused](./Subjects/Programming-Basics/README.md). Soovi korral võivad osalejad läbida omal käel ka teised moodulid, mis on saadaval siin repositooriumis.
 
@@ -47,7 +47,7 @@ Koolituse eesmärk on omandada terviklik arusaam nii tarkvaraarenduse kui ka pro
 
 **Koolituse maht (loengud + iseseisev töö)**: 8 EAP (8 x 26 tundi)
 
-> 2024\. a RKT koolituse raames proovime lähenemist, kus õpilased loevad enne loengusse tulekut iseseisvalt vastava loengu materjalid läbi ja loengus keskendume praktilistele ülesannetele ja küsimustele.
+> 2024\. aasta RKT koolituse raames proovime lähenemist, kus õpilased loevad enne loengusse tulekut iseseisvalt vastava loengu materjalid läbi ja loengus keskendume praktilistele ülesannetele ja küsimustele.
 
 ## Ajakava ja viited loengutele
 
@@ -64,13 +64,35 @@ Koolituse eesmärk on omandada terviklik arusaam nii tarkvaraarenduse kui ka pro
 | [9. kohtumine](./Lessons/Common-Lessons/Lesson-09/README.md)  | 26.11.2024 kell 10:00 - 16:30 | Haapsalu |
 | [10. kohtumine](./Lessons/Common-Lessons/Lesson-10/README.md) | 03.12.2024 kell 10:00 - 15:00 | Zoom     |
 
-Nüüd on igal kohtumisel eraldi veerg asukoha jaoks!
+> Loengutest tehakse salvestused, mis tehakse koolitusel osalejatele saadavaks peale loengu toimumist.
+
+## Õpijuhend
+
+Õppematerjalide läbitöötamine toimub loengute ja iseseisva tööna. Õppematerjalid, slaidid, harjutused ja iseseisvad tööd on saadaval repositooriumis vastavates kaustades.
+
+Õppematerjale tuleks läbida vastavalt loengutele, kus on kirjeldatud teemad, nende järjekord ja viited õppematerjalidele.
+
+Peale loenguid jääb õppijale iseseisev töö, kus tuleb läbi töötada õppematerjalid ja lahendada ülesandeid. Kohtumistel annab õpetaja tagasisidet, vastab küsimustele ja aitab lahendada tekkinud probleeme.
+
+### Dokumentide ja materjalide salvestamine
+
+Õpilased loovad endale [`Github`](Subjects/Software-Development/Topics/Github/README.md)-i konto ja isikliku repositooriumi [`HK mikrokraadid`](https://github.com/HK-Mikrokraadid) organisatsiooni alla, kuhu salvestavad kõik oma loengutes tehtud tööd, kodused tööd ja muud koolitusega seotud materjalid. Repositooriumid on privaatsed, kuhu pääseb ligi nii õpilane, kui ka õpetaja. Lisaks lisavad õpilased oma repositooriumisse ligipääsu ühele kaasõpilasele, kellega omavahel tehakse koostööd ja antakse tagasisidet.
+
+### Iseseisvad tööd
+
+Enne igat loengut loevad õpilased läbi õppematerjalid vastavalt loengu teemadele. Kes siivib, võib läbi teha ka teemadega seotud harjutused, kuid see pole kohustuslik. Loengus keskendume praktilistele ülesannetele ja küsimustele, mis on seotud õppematerjalidega. Peale iga loengut jääb õpilastele iseseisev töö, kus tuleb lahendada ülesandeid loengu teemadel. Iseseisvad tööd tuleb salvestada õpilase Githubi repositooriumisse vastavalt loengus antud juhistele.
+
+Kodused ülesanded hakkavad tulema iga õpilase repositooriumisse [`Github Issue`](Subjects/Software-Development/Topics/Github-Issue/README.md)-na, kus on täpsemalt kirjeldatud ülesande sisu.
 
 ## Discordi serveri kutse
+
+Discord on suhtlusplatvorm, kus saab suhelda teksti, hääle ja video vahendusel.
 
 Discordi server on mõeldud otsesuhtluseks õpetajate ja õpilaste vahel. Samuti saab seal omavahel suhelda, küsida abi ja jagada oma kogemusi.
 
 - [Kutse link](https://discord.gg/7N5CcVhUv3)
+
+---
 
 ## Mikrokraadide Struktuur
 
@@ -98,11 +120,3 @@ flowchart TB
     CS --> BE
 
 ```
-
-## Õpijuhend
-
-Õppematerjalide läbitöötamine toimub loengute ja iseseisva tööna. Õppematerjalid, slaidid, harjutused ja iseseisvad tööd on saadaval repositooriumis vastavates kaustades.
-
-Õppematerjale tuleks läbida vastavalt loengutele, kus on kirjeldatud teemad, nende järjekord ja viited õppematerjalidele.
-
-Peale loenguid jääb õppijale iseseisev töö, kus tuleb läbi töötada õppematerjalid ja lahendada ülesandeid. Kohtumistel annab õpetaja tagasisidet, vastab küsimustele ja aitab lahendada tekkinud probleeme.

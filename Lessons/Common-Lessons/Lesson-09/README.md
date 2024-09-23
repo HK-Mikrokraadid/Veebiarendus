@@ -2,7 +2,7 @@
 
 - [Kaheksas loeng](../Lesson-08/README.md)
 - [Üheksanda loengu slaidid](Slides.md)
-- [Üheksanda loengu salvestus](https://youtu.be/_9FyBN3EOZw)
+- [Üheksanda loengu salvestus]()
 - [Kümnes loeng](../Lesson-10/README.md)
 
 ## Teemad

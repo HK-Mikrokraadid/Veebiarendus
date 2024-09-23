@@ -3,10 +3,10 @@
 - [Seitsmes loeng](../Lesson-07/README.md)
 - [Kood kaheksanda loengu jaoks](./08.zip)
 - [Kaheksanda loengu slaidid](Slides.md)
-- [Kaheksanda loengu salvestus](https://youtu.be/F_yHxnGSk1o)
-- [Kaheksandas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/BE/08)
+- [Kaheksanda loengu salvestus](h)
+- [Kaheksandas loengus kirjutatud kood]()
 - [Üheksas loeng](../Lesson-09/README.md)
-- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
+- [Zoomi link]()
 
 ## Teemad
 

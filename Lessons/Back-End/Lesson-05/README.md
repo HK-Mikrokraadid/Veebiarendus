@@ -2,8 +2,8 @@
 
 - [Neljas loeng](../Lesson-04/README.md)
 - [Viienda loengu slaidid](Slides.md)
-- [Viienda loengu salvestus](https://youtu.be/S7WTWwj5gMw)
-- [Viiendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/BE/05)
+- [Viienda loengu salvestus]()
+- [Viiendas loengus kirjutatud kood]()
 - [Kuues loeng](../Lesson-06/README.md)
 
 ## Teemad

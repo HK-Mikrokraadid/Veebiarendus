@@ -9,10 +9,10 @@ Taas kasutame loengus ettevalmistatud koodi, mille saad alla laadida [siit](./co
 - [Kaheksas loeng](../Lesson-08/README.md)
 - [Kood üheksanda loengu jaoks](./code/blog.zip)
 - [Üheksanda loengu slaidid](Slides.md)
-- [Üheksandas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/09)
-- [Üheksanda loengu salvestus (ainult loengu teine pool)](https://youtu.be/LMytnwIHCIY)
+- [Üheksandas loengus kirjutatud kood]()
+- [Üheksanda loengu salvestus]()
 - [Kümnes loeng](../Lesson-10/README.md)
-- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
+- [Zoomi link]()
 
 ### Teemad
 

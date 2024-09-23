@@ -6,8 +6,8 @@ Teises loengus kõigepealt tuletame meelde, mida rääkisime ja tegime eelmises 
 
 - [Esimene loeng](../Lesson-01/README.md)
 - [Teise loengu slaidid](Slides.md)
-- [Teise loengu salvestus](https://youtu.be/qATeYGHfJFw)
-- [Teises loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/02)
+- [Teise loengu salvestus]()
+- [Teises loengus kirjutatud kood]()
 - [Kolmas loeng](../Lesson-03/README.md)
 
 ### Teemad
@@ -16,7 +16,7 @@ Teises loengus kõigepealt tuletame meelde, mida rääkisime ja tegime eelmises 
 - [CSS Display](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Display/README.md)
 - [CSS Display Flex](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Display-Flex/README.md)
 - [CSS Box model](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Box-Model/README.md)
-- [Node vs Veebilehitseja]([../../../Subjects/Front-End-Technologies/Topics/NodeJS-vs-JS/README.md](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/NodeJS-vs-JS/README.md))
+- [Node vs Veebilehitseja](<[../../../Subjects/Front-End-Technologies/Topics/NodeJS-vs-JS/README.md](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/NodeJS-vs-JS/README.md)>)
 - [Javascript veebilehitsejas](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Javascript-in-Browser/README.md)
   - [Lihtne input ja output](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Primitive-Input-Output/README.md)
 - [DOM](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/DOM/README.md)
@@ -30,7 +30,7 @@ Loe läbi loengus käsitletud teemad:
 - [CSS Display](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Display/README.md)
 - [CSS Display Flex](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Display-Flex/README.md)
 - [CSS Box model](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/CSS-Box-Model/README.md)
-- [Node vs Veebilehitseja]([../../../Subjects/Front-End-Technologies/Topics/NodeJS-vs-JS/README.md](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/NodeJS-vs-JS/README.md))
+- [Node vs Veebilehitseja](<[../../../Subjects/Front-End-Technologies/Topics/NodeJS-vs-JS/README.md](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/NodeJS-vs-JS/README.md)>)
 - [Javascript veebilehitsejas](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Javascript-in-Browser/README.md)
   - [Lihtne input ja output](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/Primitive-Input-Output/README.md)
 - [DOM](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/Topics/DOM/README.md)

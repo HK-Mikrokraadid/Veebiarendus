@@ -6,8 +6,8 @@ Peale eelmise longu meenutamist räägime selles loengus Front-End raamistikest 
 
 - [Viies loeng](../Lesson-05/README.md)
 - [Kuuenda loengu slaidid](Slides.md)
-- [Kuuenda loengu salvestus](https://youtu.be/m2mjzy2UYUY)
-- [Kuuendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/06)
+- [Kuuenda loengu salvestus]()
+- [Kuuendas loengus kirjutatud kood]()
 - [Seitsmes loeng](../Lesson-07/README.md)
 
 ### Teemad

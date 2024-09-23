@@ -6,10 +6,10 @@ Nagu traditsiooniks saanud, siis kõigepealt tuletame meelde, mida rääkisime j
 
 - [Kuues loeng](../Lesson-06/README.md)
 - [Seitsmenda loengu slaidid](Slides.md)
-- [Seitsmenda loengu salvestus](https://youtu.be/huq3a_IPJfA)
-- [Seitsmendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/07)
+- [Seitsmenda loengu salvestus]()
+- [Seitsmendas loengus kirjutatud kood]()
 - [Kaheksas loeng](../Lesson-08/README.md)
-- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
+- [Zoomi link]()
 
 ### Teemad
 

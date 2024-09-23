@@ -1,7 +1,7 @@
 # Esimene loeng
 
 - [Esimese loengu slaidid](Slides.md)
-- [Esimese loengu salvestus](https://youtu.be/917zsHa_wrc)
+- [Esimese loengu salvestus]()
 - [Teine loeng](../Lesson-02/README.md)
 
 ## Teemad

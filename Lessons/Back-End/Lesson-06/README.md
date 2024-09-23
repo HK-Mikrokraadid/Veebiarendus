@@ -2,10 +2,10 @@
 
 - [Viies loeng](../Lesson-05/README.md)
 - [Kuuenda loengu slaidid](Slides.md)
-- [Kuuenda loengu salvestus](https://youtu.be/MeHKBCd8NoM)
-- [Kuuendas loengus kirjutatud päringud](https://github.com/HK-Mikrokraadid/Martti/blob/main/lessons/BE/06/tunnis-kirjutatud.sql)
+- [Kuuenda loengu salvestus]()
+- [Kuuendas loengus kirjutatud päringud]()
 - [Seitsmes loeng](../Lesson-07/README.md)
-- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
+- [Zoomi link]()
 
 ## Teemad
 

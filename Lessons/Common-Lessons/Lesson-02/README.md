@@ -2,10 +2,10 @@
 
 - [Esimene loeng](../Lesson-01/README.md)
 - [Teise loengu slaidid](Slides.md)
-- [Teise loengu salvestus](https://youtu.be/gF2mFUuLvMw) Ainult kohtumise esimene pool, sest unustasin teisel poolel Zoomi uuesti salvestama panna :sad:
+- [Teise loengu salvestus]()
 - [Kolmas loeng](../Lesson-03/README.md)
-- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
-- [Teise loengu harjutuste lahendused](https://github.com/HK-Mikrokraadid/Martti/blob/3e21ed460cca4ac8711fb3c41e455ba771cfb499/app.js)
+- [Zoomi link]()
+- [Teise loengu harjutuste lahendused]()
 
 ## Teemad
 

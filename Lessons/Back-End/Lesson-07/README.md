@@ -3,8 +3,8 @@
 - [Kuues loeng](../Lesson-06/README.md)'
 - [Kood seitsmenda loengu jaoks](./code/07.zip)
 - [Seitsmenda loengu slaidid](Slides.md)
-- [Seitsmenda loengu salvestus](https://youtu.be/SVYlQjWh2MM)
-- [Seitsmendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/BE/07)
+- [Seitsmenda loengu salvestus]()
+- [Seitsmendas loengus kirjutatud kood]()
 - [Kaheksas loeng](../Lesson-08/README.md)
 
 ## Teemad

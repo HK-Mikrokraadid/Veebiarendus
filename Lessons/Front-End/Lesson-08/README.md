@@ -17,8 +17,8 @@ Probleemide korral võta ühendust õpetajaga.
 - [Seitsmes loeng](../Lesson-07/README.md)
 - [Kood kaheksanda loengu jaoks](./code/blog.zip)
 - [Kaheksanda loengu slaidid](Slides.md)
-- [Kaheksandas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/08)
-- [Kaheksanda loengu salvestus](https://youtu.be/KWfD_NY50tY)
+- [Kaheksandas loengus kirjutatud kood]()
+- [Kaheksanda loengu salvestus]()
 - [Üheksas loeng](../Lesson-09/README.md)
 
 ## Teemad

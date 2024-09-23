@@ -2,10 +2,10 @@
 
 - [Kolmas loeng](../Lesson-03/README.md)
 - [Neljanda loengu slaidid](Slides.md)
-- [Neljanda loengu salvestus](https://youtu.be/YeKr6oa1cdY)
-- [Neljandas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/BE/04)
+- [Neljanda loengu salvestus]()
+- [Neljandas loengus kirjutatud kood]()
 - [Viies loeng](../Lesson-05/README.md)
-- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
+- [Zoomi link]()
 
 ## Teemad
 

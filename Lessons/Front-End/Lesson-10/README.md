@@ -11,8 +11,8 @@ Enne loengut laadi jälle alla loengu jaoks ette valmistatud [kood](code/10.zip)
 - [Üheksas loeng](../Lesson-09/README.md)
 - [Kood kümnenda loengu jaoks](code/10.zip)
 - [Kümnenda loengu slaidid](Slides.md)
-- [Kümnendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/FE/10)
-- [Kümnenda loengu salvestus](https://youtu.be/C90hh0WufJ4)
+- [Kümnendas loengus kirjutatud kood]()
+- [Kümnenda loengu salvestus]()
 
 ### Teemad
 

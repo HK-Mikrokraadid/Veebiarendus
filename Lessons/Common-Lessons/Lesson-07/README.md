@@ -2,17 +2,17 @@
 
 - [Kuues loeng](../Lesson-06/README.md)
 - [Seitsmenda loengu slaidid](Slides.md)
-- [Seitsmenda loengu salvestus](https://youtu.be/os2q5LAvy_Y)
+- [Seitsmenda loengu salvestus]()
 - [Kaheksas loeng](../Lesson-08/README.md)
 
-- [Seitsmendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/Modules)
+- [Seitsmendas loengus kirjutatud kood]()
 
 ## Teemad
 
 ### Tarkvaraarendus
 
 - [VS Code laiendused ja nipid](../../../Subjects/Software-Development/Topics/VSCode-Tips/README.md)
-- [Käsurea kasutamine (*terminal*)](../../../Subjects/Software-Development/Topics/Command-Line/README.md)
+- [Käsurea kasutamine (_terminal_)](../../../Subjects/Software-Development/Topics/Command-Line/README.md)
 
 ### Programmeerimine
 

@@ -6,7 +6,7 @@ Nagu juba kombeks saanud, siis alustame eelmise loengu meenutamisega. Seejärel 
 
 - [Kolmas loeng](../Lesson-03/README.md)
 - [Neljanda loengu slaidid](Slides.md)
-- [Neljanda loengu salvestus](https://youtu.be/4VjWU5XPKuw)
+- [Neljanda loengu salvestus]()
 - [Viies loeng](../Lesson-05/README.md)
 
 ### Teemad

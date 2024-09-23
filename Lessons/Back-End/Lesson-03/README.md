@@ -2,8 +2,8 @@
 
 - [Teine loeng](../Lesson-02/README.md)
 - [Kolmanda loengu slaidid](Slides.md)
-- [Kolmanda loengu salvestus](https://youtu.be/9d4mJR2oR7I)
-- [Kolmandas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/BE/03)
+- [Kolmanda loengu salvestus]()
+- [Kolmandas loengus kirjutatud kood]()
 - [Neljas loeng](../Lesson-04/README.md)
 
 ## Teemad
@@ -25,5 +25,5 @@
 
 - Lisa oma varasemalt alustatud projektile uute ressursside lisamise võimalus (kui juba ei ole lisanud).
 - Lisa ressusrsside loomisele kontrollid, et kasutaja ei saaks lisada tühje või vigaseid andmeid.
-  
+
 Kasuks võib olla loengus kirjutatud kood, mille leiad siit: [Kolmandas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti/tree/main/lessons/BE/03)
