@@ -1,5 +1,16 @@
 # Keskkonnamuutujad, ehk Environmental Variables
 
+- [Keskkonnamuutujad, ehk Environmental Variables](#keskkonnamuutujad-ehk-environmental-variables)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Keskkonnamuutujate kasutamine Node.js-is](#keskkonnamuutujate-kasutamine-nodejs-is)
+
+## Õpiväljundid
+
+Peale selle peatüki läbimist:
+
+- oskad seadistada keskkonnamuutujaid Node.js-is
+- oskad kasutada keskkonnamuutujaid Node.js-is
+
 Keskkonnamuutujad on muutujad, mis on saadaval kõigile protsessidele, mis töötavad arvutis. Keskkonnamuutujad on tavaliselt kasutatavad, et määrata ära, kus asuvad programmid, mida kasutatakse käsurealt. Näiteks, kui kirjutada käsureale `python`, siis otsitakse ülesse `node` fail, mis on määratud keskkonnamuutujas `PATH`. Kui `PATH` keskkonnamuutuja ei ole määratud, siis ei leita `node` faili ja käsureal kuvatakse veateade.
 
 Node.js-is saab keskkonnamuutujaid kasutada näiteks selleks, et määrata ära erinevad seadistused ja parameetrid, mis on rakenduse jaoks vajalikud. Näiteks, kui meil on rakendus, mis kasutab andmebaasi, siis me saame määrata andmebaasi parameetrid keskkonnamuutujatesse ja kasutada neid rakenduses. See on kasulik, kui meil on mitu erinevat keskkonda, kus rakendus töötab. Näiteks, kui meil on arenduskeskkond, kus me arendame rakendust ja tootmiskeskkond, kus rakendus töötab. Kui me kasutame keskkonnamuutujaid, siis me saame määrata erinevad andmebaasi parameetrid erinevates keskkondades ja me ei pea muutma rakenduse koodi, et muuta andmebaasi parameetreid.
@@ -25,22 +36,22 @@ npm install dotenv
 Seejärel saame me kasutada `dotenv` moodulit, et laadida `.env` faili muutujad keskkonda:
 
 ```javascript
-require('dotenv').config()
+require("dotenv").config();
 ```
 
 Või TypeScripti puhul:
 
 ```typescript
-import dotenv from 'dotenv'
-dotenv.config()
+import dotenv from "dotenv";
+dotenv.config();
 ```
 
 Seejärel saame me kasutada muutujaid rakenduses:
 
 ```javascript
-const host = process.env.DB_HOST
-const user = process.env.DB_USER
-const pass = process.env.DB_PASS
+const host = process.env.DB_HOST;
+const user = process.env.DB_USER;
+const pass = process.env.DB_PASS;
 ```
 
 Teine variant on kasutada keskkonnamuutujaid otse käsurealt. Näiteks, kui meil on vaja rakendusele edastada näiteks pordi number, millel rakendus töötab, siis me saame seda teha järgmiselt:
@@ -52,7 +63,7 @@ PORT=3000 node index.js
 Seejärel saame me kasutada muutujaid rakenduses:
 
 ```javascript
-const port = process.env.PORT
+const port = process.env.PORT;
 ```
 
 Sellisel moel saame me näiteks öelda rakendusele, kas ta töötab arenduskeskkonnas või tootmiskeskkonnas või testikeskkonnas:
@@ -76,8 +87,8 @@ NODE_ENV=test node index.js
 ```
 
 ```javascript
-const env = process.env.NODE_ENV
-const db = env === 'test' ? 'testdb' : 'db'
+const env = process.env.NODE_ENV;
+const db = env === "test" ? "testdb" : "db";
 ```
 
 Kui soovime lisada keskkonnamuutuja `package.json` faili, siis kõige mugavam on seda teha, kasutades `cross-env` moodulit:
