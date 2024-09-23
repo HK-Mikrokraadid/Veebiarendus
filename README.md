@@ -7,58 +7,66 @@ See repositoorium sisaldab järgmiseid Veebiarenduse mikrokraade:
 - [Front-End arendus](./FE)
 - [Back-End arendus](./BE)
 
-Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti raames.
+Repositooriumi ülesehitus on järgmine:
 
-## 2024. aasta pilootprogrammi kuupäevad
+- [`Subjects`](./Subjects/) kaust sisaldab kõikide õppeainete õppematerjale
+- [`Lessons`](./Lessons/) kaust sisaldab loengute nimekirja, slaide ja viiteid õppematerjalidele
+  - [`Common-Lessons`](./Lessons/Common-Lessons/) kaust sisaldab ühiseid loenguid (tarkvaraarendus, programmeerimise alused)
+  - [`Front-End`](./Lessons/Front-End/) kaust sisaldab Front-End arenduse loenguid
+  - [`Back-End`](./Lessons/Back-End/) kaust sisaldab Back-End arenduse loenguid
+- [`Subjects`](./Subjects/) kaustas on iga mikrokraadi õppeained eraldi kaustades õppeainete kaupa
+  - Ühised ained
+    - [`Software-Development`](./Subjects/Software-Development/) kaust sisaldab tarkvaraarenduse õppeaine materjale
+    - [`Programming-Basics`](./Subjects/Programming-Basics/) kaust sisaldab programmeerimise aluste õppeaine materjale
+  - Front-End arendus
+    - [`Front-End-Technologies`](./Subjects/Front-End-Technologies/) kaust sisaldab Front-End arenduse õppeaine materjale
+    - [`Front-End-Frameworks`](./Subjects/Front-End-Frameworks/) kaust sisaldab Front-End raamistike õppeaine materjale
+  - Back-End arendus
+    - [`Back-End-Technologies`](./Subjects/Back-End-Technologies/) kaust sisaldab Back-End arenduse õppeaine materjale
+    - [`Back-End-Frameworks`](./Subjects/Back-End-Frameworks/) kaust sisaldab Back-End raamistike õppeaine materjale
+    - [`Databases`](./Subjects/Databases/) kaust sisaldab andmebaaside õppeaine materjale
 
-### Ühised ained
+Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti `2022-2-EE01-KA220-HED-000100317` raames.
 
-- [1. kohtumine](./Lessons/Common-Lessons/Lesson-01/README.md) (Haapsalus): 12.02.2024 kell 10:00 - 17:30
-- [2. kohtumine](./Lessons/Common-Lessons/Lesson-02/README.md) ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)): 19.02.2024 kell 10 - 13:15
-- [3. kohtumine](./Lessons/Common-Lessons/Lesson-03/README.md) (Haapsalus): 26.02.2024 kell 10:00 - 17:30
-- [4. kohtumine](./Lessons/Common-Lessons/Lesson-04/README.md)  ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)): 04.03.2024 kell 10 - 13:15
-- [5. kohtumine](./Lessons/Common-Lessons/Lesson-05/README.md) (Haapsalus): 11.03.2024 kell 10:00 - 17:30
-- [6. kohtumine](./Lessons/Common-Lessons/Lesson-06/README.md) ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)): 18.03.2024 kell 10 - 13:15
-- [7. kohtumine](./Lessons/Common-Lessons/Lesson-07/README.md) (Haapsalus): 25.03.2024 kell 10:00 - 17:30
-- [8. kohtumine](./Lessons/Common-Lessons/Lesson-08/README.md) ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)): 01.04.2024 kell 10 - 13:15
-- [9. kohtumine](./Lessons/Common-Lessons/Lesson-09/README.md) (Haapsalus): 08.04.2024 kell 10:00 - 17:30
-- [10. kohtumine](./Lessons/Common-Lessons/Lesson-10/README.md) ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)): 15.04.2024 kell 10 - 13:15
+## 2025. RKT Tarkvaraarenduse koolitus
 
-### Front-End arenduse kohtumised
+Koolituse eesmärk on omandada terviklik arusaam nii tarkvaraarenduse kui ka programmeerimise ja versioonihalduse olemusest, põhimõtetest, meetoditest ja kasutatavatest tööriistadest. Koolituse jooksul kasutame materjale, mis on loodud Veebiarenduse mikrokraadide jaoks, kuid läbime neist ainult ühised ained - [tarkvaraarenduse](./Subjects/Software-Development/README.md) ja [programmeerimise alused](./Subjects/Programming-Basics/README.md). Soovi korral võivad osalejad läbida omal käel ka teised moodulid, mis on saadaval siin repositooriumis.
 
-- [1. kohtumine](./Lessons/Front-End/Lesson-01/README.md) 30.04.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
-- [2. kohtumine](./Lessons/Front-End/Lesson-02/README.md) 07.05.2024 kell 10:00 - 17:30
-- [3. kohtumine](./Lessons/Front-End/Lesson-03/README.md) 14.05.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
-- [4. kohtumine](./Lessons/Front-End/Lesson-04/README.md) 21.05.2024 kell 10:00 - 17:30
-- [5. kohtumine](./Lessons/Front-End/Lesson-05/README.md) 28.05.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
-- [6. kohtumine](./Lessons/Front-End/Lesson-06/README.md) 04.06.2024 kell 10:00 - 17:30
-- [7. kohtumine](./Lessons/Front-End/Lesson-07/README.md) 11.06.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
-- [8. kohtumine](./Lessons/Front-End/Lesson-08/README.md) 18.06.2024 kell 10:00 - 17:30
-- [9. kohtumine](./Lessons/Front-End/Lesson-09/README.md) 02.07.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
-- [10. kohtumine](./Lessons/Front-End/Lesson-10/README.md) 09.07.2024 kell 10:00 - 17:30
+**Sihtgrupp**:
 
-### Back-End arenduse kohtumised
+- IKT valdkonna töötajad, kes vajavad oma igapäevatöös teadmisi tarkvaaraarendusest ja programmeerimisest;
+- täiskasvanud kes soovivad alustada karjääri IKT valdkonnas;
+- IKT valdkonna töötajad kelle on aegunud erialased oskused.
 
-- [1. kohtumine](./Lessons/Back-End/Lesson-01/README.md) 29.04.2024 kell 10:00 - 17:30
-- [2. kohtumine](./Lessons/Back-End/Lesson-02/README.md) 06.05.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
-- [3. kohtumine](./Lessons/Back-End/Lesson-03/README.md) 13.05.2024 kell 10:00 - 17:30
-- [4. kohtumine](./Lessons/Back-End/Lesson-04/README.md) 20.05.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
-- [5. kohtumine](./Lessons/Back-End/Lesson-05/README.md) 27.05.2024 kell 10:00 - 17:30
-- [6. kohtumine](./Lessons/Back-End/Lesson-06/README.md) 03.06.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
-- [7. kohtumine](./Lessons/Back-End/Lesson-07/README.md) 10.06.2024 kell 10:00 - 17:30
-- [8. kohtumine](./Lessons/Back-End/Lesson-08/README.md) 17.06.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
-- [9. kohtumine](./Lessons/Back-End/Lesson-09/README.md) 01.07.2024 kell 10:00 - 17:30
-- [10. kohtumine](./Lessons/Back-End/Lesson-10/README.md) 08.07.2024 kell 10:00 - 13:15 ([Zoom](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09))
+**Eeldused**:
+
+- elementaarsed arvutioskused;
+- huvi programmeerimise ja tarkvaraarenduse vastu.
+
+> Eelnev programmeerimisega kokkupuude pole vajalik.
+
+**Koolituse maht (loengud + iseseisev töö)**: 8 EAP (8 x 26 tundi)
+
+> 2024\. a RKT koolituse raames proovime lähenemist, kus õpilased loevad enne loengusse tulekut iseseisvalt vastava loengu materjalid läbi ja loengus keskendume praktilistele ülesannetele ja küsimustele.
+
+## Ajakava ja viited loengutele
+
+- [1. kohtumine](./Lessons/Common-Lessons/Lesson-01/README.md) (Haapsalus): 01.10.2024 kell 10:00 - 16:30
+- [2. kohtumine](./Lessons/Common-Lessons/Lesson-02/README.md) ([Zoom]()): 08.10.2024 kell 10 - 15:00
+- [3. kohtumine](./Lessons/Common-Lessons/Lesson-03/README.md) (Haapsalus): 15.10.2024 kell 10:00 - 16:30
+- [4. kohtumine](./Lessons/Common-Lessons/Lesson-04/README.md) ([Zoom]()): 22.10.2024 kell 10 - 15:00
+- [5. kohtumine](./Lessons/Common-Lessons/Lesson-05/README.md) (Haapsalus): 29.10.2024 kell 10:00 - 16:30
+- [6. kohtumine](./Lessons/Common-Lessons/Lesson-06/README.md) ([Zoom]()): 05.11.2024 kell 10 - 15:00
+- [7. kohtumine](./Lessons/Common-Lessons/Lesson-07/README.md) (Haapsalus): 12.11.2024 kell 10:00 - 16:30
+- [8. kohtumine](./Lessons/Common-Lessons/Lesson-08/README.md) ([Zoom]()): 19.11.2024 kell 10 - 15:00
+- [9. kohtumine](./Lessons/Common-Lessons/Lesson-09/README.md) (Haapsalus): 26.11.2024 kell 10:00 - 16:30
+- [10. kohtumine](./Lessons/Common-Lessons/Lesson-10/README.md) ([Zoom]()): 03.12.2024 kell 10 - 15:00
 
 ## Discordi serveri kutse
 
 Discordi server on mõeldud otsesuhtluseks õpetajate ja õpilaste vahel. Samuti saab seal omavahel suhelda, küsida abi ja jagada oma kogemusi.
 
 - [Kutse link](https://discord.gg/7N5CcVhUv3)
-
-## Zoomi link online kohtumiste jaoks
-
-- [Zoomi link](https://zoom.us/j/94501316239?pwd=MUE3VGpMcVZOTmU3ZHRQRkFsUFYwQT09)
 
 ## Mikrokraadide Struktuur
 
@@ -89,7 +97,7 @@ flowchart TB
 
 ## Õpijuhend
 
-Õppematerjalide läbitöötamine toimub loengute ja iseseisva tööna. Õppematerjalid, slaidid jms on saadaval repositooriumis vastavates kaustades.
+Õppematerjalide läbitöötamine toimub loengute ja iseseisva tööna. Õppematerjalid, slaidid, harjutused ja iseseisvad tööd on saadaval repositooriumis vastavates kaustades.
 
 Õppematerjale tuleks läbida vastavalt loengutele, kus on kirjeldatud teemad, nende järjekord ja viited õppematerjalidele.
 
