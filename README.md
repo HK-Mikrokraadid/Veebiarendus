@@ -51,16 +51,20 @@ Koolituse eesmärk on omandada terviklik arusaam nii tarkvaraarenduse kui ka pro
 
 ## Ajakava ja viited loengutele
 
-- [1. kohtumine](./Lessons/Common-Lessons/Lesson-01/README.md) (Haapsalus): 01.10.2024 kell 10:00 - 16:30
-- [2. kohtumine](./Lessons/Common-Lessons/Lesson-02/README.md) ([Zoom]()): 08.10.2024 kell 10 - 15:00
-- [3. kohtumine](./Lessons/Common-Lessons/Lesson-03/README.md) (Haapsalus): 15.10.2024 kell 10:00 - 16:30
-- [4. kohtumine](./Lessons/Common-Lessons/Lesson-04/README.md) ([Zoom]()): 22.10.2024 kell 10 - 15:00
-- [5. kohtumine](./Lessons/Common-Lessons/Lesson-05/README.md) (Haapsalus): 29.10.2024 kell 10:00 - 16:30
-- [6. kohtumine](./Lessons/Common-Lessons/Lesson-06/README.md) ([Zoom]()): 05.11.2024 kell 10 - 15:00
-- [7. kohtumine](./Lessons/Common-Lessons/Lesson-07/README.md) (Haapsalus): 12.11.2024 kell 10:00 - 16:30
-- [8. kohtumine](./Lessons/Common-Lessons/Lesson-08/README.md) ([Zoom]()): 19.11.2024 kell 10 - 15:00
-- [9. kohtumine](./Lessons/Common-Lessons/Lesson-09/README.md) (Haapsalus): 26.11.2024 kell 10:00 - 16:30
-- [10. kohtumine](./Lessons/Common-Lessons/Lesson-10/README.md) ([Zoom]()): 03.12.2024 kell 10 - 15:00
+| Kohtumine                                                     | Kuupäev ja kellaaeg           | Asukoht  |
+| ------------------------------------------------------------- | ----------------------------- | -------- |
+| [1. kohtumine](./Lessons/Common-Lessons/Lesson-01/README.md)  | 01.10.2024 kell 10:00 - 16:30 | Haapsalu |
+| [2. kohtumine](./Lessons/Common-Lessons/Lesson-02/README.md)  | 08.10.2024 kell 10:00 - 15:00 | Zoom     |
+| [3. kohtumine](./Lessons/Common-Lessons/Lesson-03/README.md)  | 15.10.2024 kell 10:00 - 16:30 | Haapsalu |
+| [4. kohtumine](./Lessons/Common-Lessons/Lesson-04/README.md)  | 22.10.2024 kell 10:00 - 15:00 | Zoom     |
+| [5. kohtumine](./Lessons/Common-Lessons/Lesson-05/README.md)  | 29.10.2024 kell 10:00 - 16:30 | Haapsalu |
+| [6. kohtumine](./Lessons/Common-Lessons/Lesson-06/README.md)  | 05.11.2024 kell 10:00 - 15:00 | Zoom     |
+| [7. kohtumine](./Lessons/Common-Lessons/Lesson-07/README.md)  | 12.11.2024 kell 10:00 - 16:30 | Haapsalu |
+| [8. kohtumine](./Lessons/Common-Lessons/Lesson-08/README.md)  | 19.11.2024 kell 10:00 - 15:00 | Zoom     |
+| [9. kohtumine](./Lessons/Common-Lessons/Lesson-09/README.md)  | 26.11.2024 kell 10:00 - 16:30 | Haapsalu |
+| [10. kohtumine](./Lessons/Common-Lessons/Lesson-10/README.md) | 03.12.2024 kell 10:00 - 15:00 | Zoom     |
+
+Nüüd on igal kohtumisel eraldi veerg asukoha jaoks!
 
 ## Discordi serveri kutse
 
