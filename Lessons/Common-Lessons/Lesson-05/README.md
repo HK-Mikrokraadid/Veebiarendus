@@ -1,5 +1,9 @@
 # Viies loeng
 
+Nagu tavajs on saanud, siis alustame eelmiste loengute meenutamisega ja koduste tööde tagasisidestamisega. Jätkame tarkvaraarenduse teemadega, räägime nõuetest ja kasutajauuringutest.
+
+Programmeerimise poole pealt räägime funktsioonidest ja erinevatest enimkasutatavatest Javascripti sisseehitatud funktsioonidest.
+
 - [Neljas loeng](../Lesson-04/README.md)
 - [Viienda loengu slaidid](Slides.md)
 - [Viienda loengu salvestus]()

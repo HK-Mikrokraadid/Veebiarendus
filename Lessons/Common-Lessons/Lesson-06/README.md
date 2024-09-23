@@ -1,5 +1,7 @@
 # Kuues loeng
 
+Kuuendas loengus võtame kokku eelmiste loengute teemad ja teeme harjutusi, mis sisaldavad kõiki seni õpitud teemasid. See loeng on mõeldud eelkõige sellekes, et paremini kinnistada seni õpitud teadmisi.
+
 - [Viies loeng](../Lesson-05/README.md)
 - [Kuuenda loengu salvestus]()
 - [Seitsmes loeng](../Lesson-07/README.md)

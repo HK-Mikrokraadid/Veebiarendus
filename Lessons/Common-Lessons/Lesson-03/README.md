@@ -1,5 +1,9 @@
 # Kolmas loeng
 
+Taas alustame loengut meeldetuletusega eelmisest loengust ja vaatame üle kodutöödega tekkinud probleemid. Jätkame tarkvaraarenduse teemadega, räägime koodi kvaliteedist, koodi ülevaatusest, tarkvaraarenduse elutsüklist, tarkvaraarenduse mudelitest ja rollidest tarkvaraarenduses.
+
+Programmeerimise poole pealt räägime algoritmidest, mida tähendab tõepärasus programmeerimises, massiividest ja tsüklitest.
+
 - [Teine loeng](../Lesson-02/README.md)
 - [Kolmanda loengu slaidid](Slides.md)
 - [Kolmanda loengu salvestus]()

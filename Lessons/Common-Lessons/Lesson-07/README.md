@@ -1,5 +1,9 @@
 # Seitsmes loeng
 
+Peale eelmiste leongute teemade meenutamist jätkame `VS Code` laienduste ja käsurea kasutamise teemadega.
+
+Programmeerimise poole pealt räägime moodulitest ja nende kasutamisest.
+
 - [Kuues loeng](../Lesson-06/README.md)
 - [Seitsmenda loengu slaidid](Slides.md)
 - [Seitsmenda loengu salvestus]()

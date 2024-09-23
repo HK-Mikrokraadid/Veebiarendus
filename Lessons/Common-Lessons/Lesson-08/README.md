@@ -1,5 +1,7 @@
 # Kaheksas loeng
 
+Kaheksandas loengus alustame ikka jälle eelmise loengu meeldetuletusega ja vaatame üle kodutöödega tekkinud probleemid. Jätkame tarkvaraarenduse teemadega, kus räägime prototüüpimisest. Seejärel liigume programmeerimise poole peale, kus räägime Javascripti parimatest praktikatest ja koodi silumisest.
+
 - [Seitsmes loeng](../Lesson-07/README.md)
 - [Kaheksanda loengu slaidid](Slides.md)
 - [Kaheksanda loengu salvestus]()

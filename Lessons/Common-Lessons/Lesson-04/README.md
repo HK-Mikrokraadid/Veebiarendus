@@ -1,5 +1,9 @@
 # Neljas loeng
 
+Neljandas loengus meenutame kõigepealt, mida tegime ja millest rääkisime eelmistes loengutes. Seejärel vaatame üle kodutöödega tekkinud probleemid ja vaatame, kuidas neid lahendada. Jätkame tarkvaraarenduse teemadega, räägime koodi kvaliteedist, koodi ülevaatusest, dokumentatsioonist ja lõpetame tarkvaraarenduse parimate tavade tutvustamisega.
+
+Programmeerimise poole pealt räägime andmestruktuuridest, eriti objektidest ja teeme objektidega seotud harjutusi.
+
 - [Kolmas loeng](../Lesson-03/README.md)
 - [Neljanda loengu slaidid](Slides.md)
 - [Neljanda loengu salvestus]()

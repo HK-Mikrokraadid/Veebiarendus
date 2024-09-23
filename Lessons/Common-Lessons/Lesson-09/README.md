@@ -1,5 +1,7 @@
 # Üheksas loeng
 
+Peale eelmiste loengute meenutamist ja koduste tööde tagasisidestamist jätkame tarkvaraarenduse teemadega, kus räägime koodi kvaliteedist ja sellest kuidas sellest mingit osa lihtsate vahenditega parandada. Seejärel liigume programmeerimise poole peale, kus räägime sellest, kuidas Node arendust saab natukene mugavamaks teha, kuidas faile lugeda ja kirjutada ning mida tähendavad Javascripti sünkroonne ja asünkroonne kood.
+
 - [Kaheksas loeng](../Lesson-08/README.md)
 - [Üheksanda loengu slaidid](Slides.md)
 - [Üheksanda loengu salvestus]()

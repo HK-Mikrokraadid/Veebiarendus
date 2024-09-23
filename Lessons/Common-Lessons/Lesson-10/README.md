@@ -1,5 +1,7 @@
 # Kümnes loeng
 
+Viimases loengus teeme kokkuvõtte kursusest, arutleme kogu koolituse üle ja vaatame, kuidas edasi minna.
+
 - [Üheksas loeng](../Lesson-09/README.md)
 - [Kümnenda loengu slaidid](Slides.md)
 - [Kümnenda loengu salvestus](h)
