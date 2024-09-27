@@ -29,6 +29,7 @@ Programmeerimise poole pealt räägime [Operaatoritest ja avaldistest](../../../
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [Operaatorid ja avaldised](../../../Subjects/Programming-Basics/Topics/Operators/README.md)
+- [Tõepärasus](../../../Subjects/Programming-Basics/Topics/Truthiness/README.md)
 - [Tingimuslaused](../../../Subjects/Programming-Basics/Topics/Conditionals/README.md)
 - Harjutused
 

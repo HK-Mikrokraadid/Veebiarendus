@@ -1,6 +1,6 @@
 # Tarkvaraarenduse elutsükkel (SDLC)
 
-Selles teemas uurime tarkvaraarenduse elutsükli (SDLC - *Software Development Life Cycle*) kontseptsiooni, õpime tundma selle erinevaid faase ja käsitleme SDLC tähtsust tarkvaraarenduses.
+Selles teemas uurime tarkvaraarenduse elutsükli (SDLC - _Software Development Life Cycle_) kontseptsiooni, õpime tundma selle erinevaid faase ja käsitleme SDLC tähtsust tarkvaraarenduses.
 
 ![SDLC](SDLC.webp)
 
@@ -68,7 +68,7 @@ Kui nõuete analüüs on tehtud, on järgmine samm tootenõuete selgelt määrat
 Siia etappi võivad kuuluda järgmised tegevused:
 
 - Nõuete ja vajaduste kogumine ja dokumenteerimine.
-- Spetsifikatsioonide kogumine sidusrühmadelt (*lõppkasutajad, kliendid jne.*).
+- Spetsifikatsioonide kogumine sidusrühmadelt (_lõppkasutajad, kliendid jne._).
 - Nõuete teostavuse analüüs.
 - Nõuete loetelu prioritiseerimine ja kinnitamine.
 
@@ -82,7 +82,7 @@ Disaini lähenemisviis määratleb selgelt kõik toote arhitektuurimoodulid koos
 
 Samuti luuakse selles etapis kasutajaliidese (UI) ja kasutajakogemuse (UX) disain, mis on oluline kasutajate kaasamiseks ja toote kasutamise lihtsustamiseks.
 
-- Nõuete *tõlkimine* süsteemi spetsifikatsioonideks.
+- Nõuete _tõlkimine_ süsteemi spetsifikatsioonideks.
 - Süsteemi arhitektuuri ja raamistiku disainimine.
 - UX (kasutajakogemus) ja UI (kasutajaliides) disain.
 - Sobivate tehnoloogiate, platvormide ja tööriistade valik.

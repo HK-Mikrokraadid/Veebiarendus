@@ -43,9 +43,9 @@ sequenceDiagram
 
 ## Veebi API-sid on mitut tüüpi, sealhulgas:
 
-- **RESTful API-d**: *Representational State Transfer* (REST) on populaarne arhitektuuristiil veebi API-de loomiseks, mis kasutavad andmete toomiseks ja töötlemiseks HTTP-päringuid. RESTful API-d on loodud skaleeritavateks, töökindlateks ja hõlpsasti kasutatavateks.
-- **SOAP API-d**: *Simple Object Access Protocol* (SOAP) on teine populaarne protokoll veebi API-de loomiseks, mis kasutavad andmete vahetamiseks XML-põhiseid sõnumeid. SOAP API-sid kasutatakse sageli ettevõtte tasemel rakendustes, mis nõuavad keerukat sõnumivahetust ja tehingute tuge.
-- **GraphQL API-d**: *GraphQL* on suhteliselt uus tehnoloogia veebi API-de loomiseks, mis võimaldab klientidel nõuda ainult neid andmeid, mida nad vajavad, selle asemel et hankida terveid ressursse. GraphQL API-sid kasutatakse sageli kaasaegsetes veebi- ja mobiilirakendustes, mis nõuavad tõhusat andmete otsimist ja töötlemist.
+- **RESTful API-d**: _Representational State Transfer_ (REST) on populaarne arhitektuuristiil veebi API-de loomiseks, mis kasutavad andmete toomiseks ja töötlemiseks HTTP-päringuid. RESTful API-d on loodud skaleeritavateks, töökindlateks ja hõlpsasti kasutatavateks.
+- **SOAP API-d**: _Simple Object Access Protocol_ (SOAP) on teine populaarne protokoll veebi API-de loomiseks, mis kasutavad andmete vahetamiseks XML-põhiseid sõnumeid. SOAP API-sid kasutatakse sageli ettevõtte tasemel rakendustes, mis nõuavad keerukat sõnumivahetust ja tehingute tuge.
+- **GraphQL API-d**: _GraphQL_ on suhteliselt uus tehnoloogia veebi API-de loomiseks, mis võimaldab klientidel nõuda ainult neid andmeid, mida nad vajavad, selle asemel et hankida terveid ressursse. GraphQL API-sid kasutatakse sageli kaasaegsetes veebi- ja mobiilirakendustes, mis nõuavad tõhusat andmete otsimist ja töötlemist.
 
 Veebi API-d on kaasaegse veebiarenduse olulised komponendid ning võimaldavad arendajatel luua keerulisi ja funktsioonirikkaid rakendusi, kasutades ära Interneti võimsust ja globaalse arendajakogukonna kollektiivseid ressursse.
 
