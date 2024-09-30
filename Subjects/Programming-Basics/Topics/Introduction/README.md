@@ -13,6 +13,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Millist keelt me kasutame?](#millist-keelt-me-kasutame)
   - [Milliseid tööriistu me kasutame?](#milliseid-tööriistu-me-kasutame)
   - [Küsimused](#küsimused)
+  - [Allikad:](#allikad)
 
 ## Mis on selle aine eesmärk?
 
@@ -30,18 +31,18 @@ Programmeerimine on loov protsess, mis hõlmab **algoritmide** kavandamist ja **
 
 Selles aines õpime tundma:
 
-- [andmetüüpe;](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Data-Types/README.md)
-- [juhtstruktuure;]
-- [operaatorid ja avaldised;](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Operators/README.md)
-- [tsükleid;](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Loops/README.md)
-- [funktsioone;](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Functions/README.md)
-- [lihtsate algoritmide arendamist.](https://github.com/HK-Mikrokraadid/Veebiarendus/blob/Programmeerimine-Sissejuhatus-linkid/Subjects/Programming-Basics/Topics/Algorithms/README.md)
+- [andmetüüpe;](../Data-Types/README.md)
+- [juhtstruktuure;](../Conditionals/README.md)
+- [operaatorid ja avaldised;](../Operators/README.md)
+- [tsükleid;](../Loops/README.md)
+- [funktsioone;](../Functions/README.md)
+- [lihtsate algoritmide arendamist.](../Algorithms/README.md)
 
 Õpime kuidas kirjutada ja siluda oma esimesi koodiridu, rajades teed edasijõudnumateks õpinguteks tarkvaraarenduses ja arvutiteaduses.
 
 ## Millist keelt me kasutame?
 
-Programmeerimiseks on palju erinevaid programmeerimiskeeli ja igaühel neist on oma tugevused ja nõrkused. Mõned neist on peetud õppimiseks lihtsamaks kui teised, samal ajal kui mõned on võimsamad ja paindlikumad. Selle kursuse jaoks kasutame JavaScripti, mis on populaarne programmeerimiskeel, mida kasutatakse nii eesrakenduste (*Front-End*) kui ka tagarakenduste (*Back-End*) arendamiseks. See ei pruugi olla parim keel programmeerimise õppimiseks, kuid see kursus on veebiarendusest ja tänapäeval on JavaScript veebiarendajate jaoks hädavajalik oskus.
+Programmeerimiseks on palju erinevaid programmeerimiskeeli ja igaühel neist on oma tugevused ja nõrkused. Mõned neist on peetud õppimiseks lihtsamaks kui teised, samal ajal kui mõned on võimsamad ja paindlikumad. Selle kursuse jaoks kasutame JavaScripti, mis on populaarne programmeerimiskeel, mida kasutatakse nii eesrakenduste (_Front-End_) kui ka tagarakenduste (_Back-End_) arendamiseks. See ei pruugi olla parim keel programmeerimise õppimiseks, kuid see kursus on veebiarendusest ja tänapäeval on JavaScript veebiarendajate jaoks hädavajalik oskus.
 
 ## Milliseid tööriistu me kasutame?
 

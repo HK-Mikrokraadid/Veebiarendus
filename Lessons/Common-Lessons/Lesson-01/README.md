@@ -13,8 +13,8 @@ Tarkvaraarenduse aine raames õpime tundma tarkvaraarenduse tööriistu, nagu [v
 ### Tarkvaraarendus
 
 - Aine tutvustus
-- [Tööriistad](../../../Subjects/Software-Development/Topics/Tools/README.md)
 - [Tarkvara ja tarkvaraarendus](../../../Subjects/Software-Development/Topics/Software/README.md)
+- [Tööriistad](../../../Subjects/Software-Development/Topics/Tools/README.md)
 - [Versioonikontroll](../../../Subjects/Software-Development/Topics/Version-Control/README.md)
 - [Git](../../../Subjects/Software-Development/Topics/Git/README.md)
 - [Github](../../../Subjects/Software-Development/Topics/Github/README.md)

@@ -49,7 +49,7 @@ gitGraph
   commit id: "Update documentation"
 ```
 
-**Versioonihaldus**, tuntud ka kui **Lähtekoodi haldus** (*SCM* - Source Code Management) või **Versioonikontroll** (*VCS* - Version Control System), on süsteem, mis jälgib ja haldab muudatusi failides, kataloogides ja koodibaasides aja jooksul. See võimaldab mitmel inimesel töötada ühe projekti kallal ilma üksteise kirjutatud koodiga konflikti tekitamata ning säilitab iga muudatuse ajaloo.
+**Versioonihaldus**, tuntud ka kui **Lähtekoodi haldus** (_SCM_ - Source Code Management) või **Versioonikontroll** (_VCS_ - Version Control System), on süsteem, mis jälgib ja haldab muudatusi failides, kataloogides ja koodibaasides aja jooksul. See võimaldab mitmel inimesel töötada ühe projekti kallal ilma üksteise kirjutatud koodiga konflikti tekitamata ning säilitab iga muudatuse ajaloo.
 
 Tänapäeval on versioonihaldus tarkvaraarendusprotsessi lahutamatu osa. Arendajad kasutavad seda koostööks, muudatuste jälgimiseks ja oma töö ajaloo säilitamiseks. Ettevõtted kasutavad seda oma koodibaaside haldamiseks ja tagamaks, et muudatusi tehakse kontrollitud ja turvalisel viisil.
 
@@ -63,7 +63,7 @@ Versioonihaldus on oluline mitmel põhjusel:
 - **Harud ja ühendamine**: Arendajad saavad peamisest koodibaasist luua harusid uute funktsioonide, veaparanduste või eksperimentide jaoks ilma peamist või stabiilset tarkvara versiooni mõjutamata. Kui valmis, saab neid muudatusi tagasi ühendada peaharusse.
 - **Varundamine**: Kuigi see ei asenda korralikku varundussüsteemi, võivad versioonihaldussüsteemid toimida täiendava varunduskihina. Kui arendaja kohalikus arvutis juhtub midagi, saab koodi hõlpsalt taastada versioonihalduse hoidlast.
 - **Dokumentatsioon**: Koodi lisamisega kaasnevad sõnumid versioonihalduses pakuvad kronoloogilist dokumentatsiooni jada. Need võivad anda konteksti, miks teatud otsused tehti konkreetsel ajahetkel.
-- **Koodi ülevaatus**: Versioonihaldussüsteemid, eriti kui neid kasutatakse koos platvormidega nagu *GitHub* või *GitLab*, hõlbustavad koodi ülevaatust, võimaldades teistel arendajatel üle vaadata, kommenteerida ja soovitada koodi muudatusi enne selle ühendamist peaharusse.
+- **Koodi ülevaatus**: Versioonihaldussüsteemid, eriti kui neid kasutatakse koos platvormidega nagu _GitHub_ või _GitLab_, hõlbustavad koodi ülevaatust, võimaldades teistel arendajatel üle vaadata, kommenteerida ja soovitada koodi muudatusi enne selle ühendamist peaharusse.
 - **Väljalasete haldus**: Versioonihaldus aitab hallata väljalaskeid ja parandusi. Arendajad saavad märgistada teatud punkte oma koodi ajaloos kui konkreetseid tooteversioone. See teeb uuenduste ja paranduste jälgimise lihtsamaks.
 - **Vastutus**: Tänu korralikule logile, kes tegi millised muudatused ja millal, on olemas selged vastutuse kirjed. See on eriti kasulik meeskonnas töötades, et mõista ja tagada, et koodimuudatusi saab jälgida ja need on seotud konkreetsete isikutega.
 - **Paralleelne arendus**: Versioonihaldussüsteemid võimaldavad paralleelse arenduse võimalust, kus tarkvararakenduse mitut versiooni saab arendada samaaegselt.
@@ -75,10 +75,12 @@ Kokkuvõttes on versioonihaldus kaasaegse tarkvaraarenduse praktikate alustala. 
 Versioonihaldus on aastate jooksul arenenud lihtsatest manuaalsetest meetoditest keerukateks hajutatud süsteemideks. Siin on lühike ülevaade selle ajaloost:
 
 1. **Manuaalne versioonihaldus (enne 1970ndaid)**:
+
    - Enne korralike versioonihaldussüsteemide (`VCS`) olemasolu tegid arendajad oma koodist koopiaid ja hoidsid neid eraldi kataloogides, tihti märgistades neid kuupäevade või versiooninumbritega.
    - Nagu võib ette kujutada, oli see meetod vigadele vastuvõtlik, ei olnud skaleeritav ja tegi koostöö keeruliseks.
 
 1. **Kesksed versioonihaldussüsteemid (`CVCS`, 1970ndad-1990ndad)**:
+
    - `CVCS`-i peamine idee on üks keskne hoidla, kus kõiki muudatusi jälgitakse.
    - **RCS (Revision Control System)**: Tutvustati 1970ndate lõpus, `RCS` oli üks esimesi tööriistu, mis haldas ja jälgis individuaalsete failide revisjone. See kasutas lihtsat mehhanismi, kus salvestati viimane versioon ja versioonidevahelised erinevused.
    - **SCCS (Source Code Control System)**: Teine varajane süsteem, mis oli ajaliselt paralleelne `RCS`-iga, kuid omas mõningaid erinevaid funktsioone.
@@ -104,7 +106,7 @@ Kuigi see on lühike ülevaade, on versioonihalduse ajalugu tunnistus pidevatest
 
 ## Kesksed vs hajutatud versioonihaldussüsteemid
 
-Järgnevalt võrdleme kesksete ja hajutatud versioonihaldussüsteemide (VCS) omadusi:
+Järgnevalt võrdleme kesksete (_CVCS_) ja hajutatud versioonihaldussüsteemide (_DVCS_) omadusi:
 
 ### Kesksed versioonihaldussüsteemid (`CVCS`)
 
@@ -152,17 +154,17 @@ Järgnevalt võrdleme kesksete ja hajutatud versioonihaldussüsteemide (VCS) oma
 
 ### Võrdlus
 
-| Omadus/Aspekt           | Keskne versioonihaldus (`CVCS`) | Hajutatud versioonihaldus (`DVCS`) |
-|--------------------------|------------------------------------|------------------------------------|
-| **Hoidla struktuur** | Üks keskne hoidla          | Igal arendajal on täielik kohalik hoidla |
-| **Võrgusõltuvus**   | Nõutav enamike toimingute jaoks       | Enamik toiminguid saab teha võrguühenduseta |
-| **Andmete redundants**      | Keskne varundamine                 | Iga kloon on täielik varukoopia   |
-| **Õppimiskõver**       | Üldiselt lihtsam                  | Võib olla keerukam täiendavate võimaluste tõttu |
-| **Skaleeritavus**          | Sobib paremini väiksematele meeskondadele    | Sobib suurtele projektidele ja meeskondadele |
-| **Versiooniajalugu**      | Viimane hetktõmmis kohalikus masinas   | Täielik versiooniajalugu kohalikus masinas |
-| **Jõudlus**          | Aeglasem võrgusõltuvuse tõttu   | Kiirem enamiku toimingute jaoks, kuna need on kohalikud |
-| **Varundamine ja taastamine**    | Üksik ebaõnnestumispunkt            | Redundants vähendab andmekao riski |
-| **Koostöö**        | Lineaarne, keskne koostöö  | Paindlik, võrdõiguslik koostöö |
+| Omadus/Aspekt                 | Keskne versioonihaldus (`CVCS`)           | Hajutatud versioonihaldus (`DVCS`)                      |
+| ----------------------------- | ----------------------------------------- | ------------------------------------------------------- |
+| **Hoidla struktuur**          | Üks keskne hoidla                         | Igal arendajal on täielik kohalik hoidla                |
+| **Võrgusõltuvus**             | Nõutav enamike toimingute jaoks           | Enamik toiminguid saab teha võrguühenduseta             |
+| **Andmete redundants**        | Keskne varundamine                        | Iga kloon on täielik varukoopia                         |
+| **Õppimiskõver**              | Üldiselt lihtsam                          | Võib olla keerukam täiendavate võimaluste tõttu         |
+| **Skaleeritavus**             | Sobib paremini väiksematele meeskondadele | Sobib suurtele projektidele ja meeskondadele            |
+| **Versiooniajalugu**          | Viimane hetktõmmis kohalikus masinas      | Täielik versiooniajalugu kohalikus masinas              |
+| **Jõudlus**                   | Aeglasem võrgusõltuvuse tõttu             | Kiirem enamiku toimingute jaoks, kuna need on kohalikud |
+| **Varundamine ja taastamine** | Üksik ebaõnnestumispunkt                  | Redundants vähendab andmekao riski                      |
+| **Koostöö**                   | Lineaarne, keskne koostöö                 | Paindlik, võrdõiguslik koostöö                          |
 
 Kokkuvõttes, kuigi nii `CVCS` kui ka `DVCS` omavad oma tugevusi ja nõrkusi, sõltub valik suuresti projekti nõuetest, meeskonna suurusest ja eelistatud töövoost. Siiski on oluline märkida, et `DVCS`, eriti `Git`, on viimastel aastatel leidnud laialdast kasutamist tänu oma paindlikkusele ja koostööfunktsioonidele, mida pakuvad platvormid nagu `GitHub` ja `GitLab`.
 

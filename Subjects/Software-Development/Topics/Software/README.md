@@ -10,17 +10,20 @@ Pildi allikas: Dall-E by OpenAI
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on tarkvara?](#mis-on-tarkvara)
   - [Avaliku lähtekoodiga tarkvara vs suletud lähtekoodiga tarkvara](#avaliku-lähtekoodiga-tarkvara-vs-suletud-lähtekoodiga-tarkvara)
+    - [Avaliku lähtekoodiga tarkvara](#avaliku-lähtekoodiga-tarkvara)
+    - [Suletud lähtekoodiga tarkvara](#suletud-lähtekoodiga-tarkvara)
   - [Kust tuleb tarkvara?](#kust-tuleb-tarkvara)
   - [Mis on tarkvaraarendus?](#mis-on-tarkvaraarendus)
   - [Harjutused](#harjutused)
 
 ## Õpiväljundid
 
-Selle teema lõpuks peaksid oskama:
-- määratleda, mis on tarkvara;
-- kirjeldada erinevaid tarkvara tüüpe;
-- selgitada erinevust avaliku lähtekoodiga ja suletud lähtekoodiga tarkvara vahel;
-- selgitada tarkvaraarenduse olemust.
+Peale selle peatüki läbimist õppija:
+
+- määratleb, mis on tarkvara ja tarkvaraarendus;
+- kirjeldab tarkvara põhitüüpe;
+- selgitab erinevust avaliku lähtekoodiga ja suletud lähtekoodiga tarkvara vahel;
+- tunneb ära tarkvaraarenduse põhimõisteid ja nende seoseid..
 
 ## Mis on tarkvara?
 
@@ -28,20 +31,23 @@ Tarkvara on juhiste või programmide kogum, mis on loodud arvutisüsteemis konkr
 
 Tarkvara saab klassifitseerida kahte põhikategooriasse:
 
-- **Süsteemitarkvara:** Süsteemitarkvara on tarkvara, mis juhib ja haldab arvutisüsteemi riistvarakomponente. See hõlmab operatsioonisüsteeme, seadmedraivereid, utiliite ja muid tööriistu, mis aitavad hallata arvutisüsteemi. Süsteemitarkvara on arvuti nõuetekohaseks toimimiseks hädavajalik. Süsteemitarkvara näited on:
+- **Süsteemitarkvara:** Süsteemitarkvara on tarkvara, mis juhib ja haldab arvutisüsteemi riistvarakomponente. See hõlmab operatsioonisüsteeme, seadmedraivereid, utiliite ja muid tööriistu, mis aitavad hallata arvutisüsteemi. See on tavaliselt tarkvara, mis käivitub, kui arvuti sisse lülitatakse ja mis võimaldab teistel tarkvararakendustel töötada - see on justkui taustajõud, mis võimaldam meil oma töö tegemiseks vajalikke rakendusi käivitada ja kasutada. Süsteemitarkvara on arvuti nõuetekohaseks toimimiseks hädavajalik.
 
-  - **Windows**
-  - **macOS**
-  - **Linux**
-  - **Android**
-  - **iOS**
+Süsteemitarkvara näited on:
 
-- **Rakendustarkvara:** Rakendustarkvara on tarkvara, mis täidab konkreetset ülesannet või ülesannete kogumit. See hõlmab programme nagu tekstitöötlusprogrammid, tabelarvutusprogrammid, veebilehitsejad, mängud jne. Rakendustarkvara on see, millele enamik inimesi mõtleb, kui nad mõtlevad tarkvarale. Rakendustarkvara näited on:
+- **Windows** (Microsofti poolt loodud operatsioonisüsteem)
+- **macOS** (Apple'i poolt loodud operatsioonisüsteem)
+- **Linux** (tasuta ja avatud lähtekoodiga operatsioonisüsteem)
 
-  - **Microsoft Word**
-  - **Google Chrome**
-  - **Adobe Photoshop**
-  - **Minecraft**.
+> Operatsioonisüsteemide levikut ja turuosa saab jälgida [StatCounter](https://gs.statcounter.com/os-market-share) veebilehelt.
+
+- **Rakendustarkvara:** Rakendustarkvara on tarkvara, mis täidab konkreetset ülesannet või ülesannete kogumit. See hõlmab programme nagu tekstitöötlusprogrammid, tabelarvutusprogrammid, veebilehitsejad, mängud jne. Rakendustarkvara on see, millele enamik inimesi mõtleb, kui nad mõtlevad tarkvarale. Rakendustarkvara on tavaliselt see tarkvara, mida me kasutame oma töö tegemiseks sõltumata sellest, mis süsteemitarkvara me kasutame.
+
+Rakendustarkvara näited on:
+
+- Veebibrauserid (nt **Google Chrome**, **Firefox**), mida kasutatakse internetis surfamiseks.
+- Mängud (nt **Minecraft**), mida kasutatakse meelelahutuseks.
+- Tekstitöötlusprogrammid (nt **Microsoft Word**, **LibreOffice**) tekstide loomiseks ja redigeerimiseks.
 
 Samuti võib rakendustarkvaraks lugeda erinevad veebirakendused, mobiilirakendused ja muud spetsiifilised tarkvaralahendused, mis on loodud konkreetsete ülesannete täitmiseks.
 
@@ -49,26 +55,26 @@ Samuti võib rakendustarkvaraks lugeda erinevad veebirakendused, mobiilirakendus
 
 Tarkvara saab samuti klassifitseerida avaliku lähtekoodiga või suletud lähtekoodiga tarkvaraks. Avaliku lähtekoodiga tarkvara on tarkvara, mis on vabalt kättesaadav ning mida võib (üldjuhul) muuta ja levitada igaüks. Suletud lähtekoodiga on tarkvara, mis kuulub ettevõttele või isikule ja mida ei saa ilma loata kasutada, muuta ega levitada.
 
-Avaliku lähtekoodiga tarkvara näited on:
+### Avaliku lähtekoodiga tarkvara
 
-- **Linux**
-- **Firefox**
-- **WordPress**
+Tarkvara, mille koodi saavad kõik näha, muuta ja edasi arendada.
 
-Suletud lähtekoodiga näited on:
+**Näide:** Linux (operatsioonisüsteem, mida saab tasuta alla laadida ja kasutada).
 
-- **Microsoft Windows**
-- **Adobe Photoshop**
-- **Apple iOS**
+### Suletud lähtekoodiga tarkvara
 
-|                         | Avaliku lähtekoodiga tarkvara                                   | Suletud lähtekoodiga (Omandvara) |
-|-------------------------|----------------------------------------------------------------|----------------|
-| Kättesaadavus           | Kõigile kättesaadav, selle lähtekood on vabalt vaadatav, muudetav ja levitatav | Kättesaadav ainult neile, kes on ostnud litsentsi või kellel on omanikult luba seda kasutada |
-| Litsentsimine           | Tavaliselt litsentseeritud avaliku lähtekoodiga litsentside alusel, mis lubavad kõigil tarkvara kasutada, muuta ja levitada, kui nad järgivad litsentsi tingimusi | Tavaliselt litsentseeritud omandilitsentside alusel, mis piiravad tarkvara kasutamist, muutmist ja levitamist |
-| Arendus                 | Sageli arendatud koostöös, kaasates arendajate kogukondi | Tavaliselt arendatud ühe ettevõtte või arendajate rühma poolt |
-| Maksumus                | Sageli tasuta saadaval, kuigi mõned ettevõtted/arendajad võivad küsida tasu toe või lisateenuste eest | Tavaliselt nõutakse litsentsitasu või ostuhinda |
-| Tugi                    | Sageli toetub arendajate kogukonnale, kuigi mõned ettevõtted/arendajad võivad pakkuda ka tasulist toe teenust | Tavaliselt pakutakse tasuta või tasu eest otse tarkvara omaniku poolt |
-| Kohandamine             | Avaliku lähtekoodiga tarkvara pakub suuremat paindlikkust kohandamisel, kuna kasutajad saavad lähtekoodi oma vajadustele vastavalt muuta | Omandvara võib pakkuda piiratud kohandamisvõimalusi |
+Tarkvara, mille kood on suletud ja millele ligipääsu saab ainult omanik või selleks luba omav isik.
+
+**Näide:** Microsoft Windows ja Adobe Photoshop – nende lähtekood on lukus ja neid ei saa vabalt muuta.
+
+|               | Avaliku lähtekoodiga tarkvara                                                                                                                                     | Suletud lähtekoodiga (Omandvara)                                                                              |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Kättesaadavus | Kõigile kättesaadav, selle lähtekood on vabalt vaadatav, muudetav ja levitatav                                                                                    | Kättesaadav ainult neile, kes on ostnud litsentsi või kellel on omanikult luba seda kasutada                  |
+| Litsentsimine | Tavaliselt litsentseeritud avaliku lähtekoodiga litsentside alusel, mis lubavad kõigil tarkvara kasutada, muuta ja levitada, kui nad järgivad litsentsi tingimusi | Tavaliselt litsentseeritud omandilitsentside alusel, mis piiravad tarkvara kasutamist, muutmist ja levitamist |
+| Arendus       | Sageli arendatud koostöös, kaasates arendajate kogukondi                                                                                                          | Tavaliselt arendatud ühe ettevõtte või arendajate rühma poolt                                                 |
+| Maksumus      | Sageli tasuta saadaval, kuigi mõned ettevõtted/arendajad võivad küsida tasu toe või lisateenuste eest                                                             | Tavaliselt nõutakse litsentsitasu või ostuhinda                                                               |
+| Tugi          | Sageli toetub arendajate kogukonnale, kuigi mõned ettevõtted/arendajad võivad pakkuda ka tasulist toe teenust                                                     | Tavaliselt pakutakse tasuta või tasu eest otse tarkvara omaniku poolt                                         |
+| Kohandamine   | Avaliku lähtekoodiga tarkvara pakub suuremat paindlikkust kohandamisel, kuna kasutajad saavad lähtekoodi oma vajadustele vastavalt muuta                          | Omandvara võib pakkuda piiratud kohandamisvõimalusi                                                           |
 
 Kokkuvõttes on nii avaliku lähtekoodiga kui ka omandvaral oma eelised ja puudused. Avaliku lähtekoodiga tarkvara on sageli tasuta ja pakub suuremat kohandamisvõimalust, kuid see ei pruugi olla nii usaldusväärne või turvaline kui omandvara. Suletud lähtekoodiga on sageli usaldusväärsem ja turvalisem, kuid see ei pruugi olla nii paindlik või kohandatav kui avaliku lähtekoodiga tarkvara.
 
@@ -100,7 +106,7 @@ Tarkvaraarendus on tarkvara loomise protsess. See hõlmab:
 - tarkvara testimist;
 - tarkvara juurutamist
 - jne
-  
+
 Tarkvaraarendus on keeruline protsess, mis nõuab palju planeerimist ja koordineerimist. See toimub tavaliselt tarkvaraarendajate meeskonna poolt, kus igal liikmel on oma roll.
 
 > Selles aines keskendume tarkvaraarenduse põhitõdedele, sealhulgas tarkvaraarenduse elutsüklile, nõuete kogumisele ja analüüsile.
