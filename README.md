@@ -45,8 +45,6 @@ Koolituse eesmärk on omandada terviklik arusaam nii tarkvaraarenduse kui ka pro
 
 > Eelnev programmeerimisega kokkupuude pole vajalik.
 
-**Koolituse maht (loengud + iseseisev töö)**: 8 EAP (8 x 26 tundi)
-
 > 2024\. aasta RKT koolituse raames proovime lähenemist, kus õpilased loevad enne loengusse tulekut iseseisvalt vastava loengu materjalid läbi ja loengus keskendume praktilistele ülesannetele ja küsimustele.
 
 ## Ajakava ja viited loengutele
@@ -76,7 +74,7 @@ Peale loenguid jääb õppijale iseseisev töö, kus tuleb läbi töötada õppe
 
 ### Dokumentide ja materjalide salvestamine
 
-Õpilased loovad endale [`Github`](Subjects/Software-Development/Topics/Github/README.md)-i konto ja isikliku repositooriumi [`HK mikrokraadid`](https://github.com/HK-Mikrokraadid) organisatsiooni alla, kuhu salvestavad kõik oma loengutes tehtud tööd, kodused tööd ja muud koolitusega seotud materjalid. Repositooriumid on privaatsed, kuhu pääseb ligi nii õpilane, kui ka õpetaja. Lisaks lisavad õpilased oma repositooriumisse ligipääsu ühele kaasõpilasele, kellega omavahel tehakse koostööd ja antakse tagasisidet.
+Õpilased loovad endale [`Github`](Subjects/Software-Development/Topics/Github/README.md)-i konto ja isikliku repositooriumi [`HK-mikrokraadid`](https://github.com/HK-Mikrokraadid) organisatsiooni alla, kuhu salvestavad kõik oma loengutes tehtud tööd, kodused tööd ja muud koolitusega seotud materjalid. Repositooriumid on privaatsed, kuhu pääseb ligi nii õpilane, kui ka õpetaja. Lisaks lisavad õpilased oma repositooriumisse ligipääsu ühele kaasõpilasele, kellega omavahel tehakse koostööd ja antakse tagasisidet.
 
 ### Iseseisvad tööd
 

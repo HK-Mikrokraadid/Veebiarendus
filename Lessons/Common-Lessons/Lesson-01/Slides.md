@@ -42,7 +42,7 @@ Martti Raavel
 - 10 loengut
   - viis loengut kohapeal
   - viis loengut Zoomis
-- Kodused tööd iga loengu järel
+- Iseseisvad tööd iga loengu järel
 - Materjalide lugemine enne loengut
 - Otsesuhtlus Discordis
 
