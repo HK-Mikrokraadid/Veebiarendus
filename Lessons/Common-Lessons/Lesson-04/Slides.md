@@ -1,8 +1,8 @@
 ---
 marp: true
-
 ---
-# Veebiarendus
+
+# Tarkvaraarendus ja programmeerimine
 
 Martti Raavel
 
@@ -110,9 +110,9 @@ Objekt on võti-väärtus paaride kogum, mis on salvestatud ühte muutujasse. Ob
 
 ```js
 const person = {
-  firstName: 'John',
-  lastName: 'Doe',
-  age: 25
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
 };
 ```
 
@@ -123,4 +123,3 @@ const person = {
 ---
 
 ## Kodune töö
-

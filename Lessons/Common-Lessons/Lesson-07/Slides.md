@@ -1,8 +1,8 @@
 ---
 marp: true
-
 ---
-# Veebiarendus
+
+# Tarkvaraarendus ja programmeerimine
 
 Martti Raavel
 
@@ -13,7 +13,7 @@ Martti Raavel
 ## Tarkvaraarendus
 
 - VS Code laiendused ja nipid
-- Käsurea kasutamine (*terminal*)
+- Käsurea kasutamine (_terminal_)
 
 ---
 
@@ -49,7 +49,7 @@ Martti Raavel
 
 - `Ctrl (Cmd) + Shift + E` - Avab küljepaneeli, kus saad näha kõiki projekti faile ja kaustu
 - `Ctrl (Cmd) + Shift + X` - Avab küljepaneeli, kus saad näha kõiki laiendusi
-- `Ctrl (Cmd) + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone (*Command Palette*)
+- `Ctrl (Cmd) + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone (_Command Palette_)
 - `Ctrl (Cmd) + Alt (Option) + Nool üles/Nool alla` - Mitu kursorit üles/alla
 - `Ctrl (Cmd) + Alt (Option) + Nool üles/Nool alla` - Mitu kursorit üles/alla
 
@@ -133,16 +133,16 @@ JavaScript (ES6) code snippets
 
 ## Git-i käsud
 
-- `git clone` - Kloonib *remote* serverist projekti enda arvutisse
-- `git add .` - Lisab kõik muudatused *staging* alasse
-- `git commit -m "Muudatuste kirjeldus"` - Salvestab muudatused *commit* ajalukku
-- `git push` - Saadab muudatused *remote* serverisse
-- `git pull` - Tõmbab muudatused *remote* serverist
+- `git clone` - Kloonib _remote_ serverist projekti enda arvutisse
+- `git add .` - Lisab kõik muudatused _staging_ alasse
+- `git commit -m "Muudatuste kirjeldus"` - Salvestab muudatused _commit_ ajalukku
+- `git push` - Saadab muudatused _remote_ serverisse
+- `git pull` - Tõmbab muudatused _remote_ serverist
 - `git status` - Näitab muudatuste olekut
-- `git log` - Näitab *commit* ajalugu
-- `git branch` - Näitab olemasolevaid *branch*`e
-- `git checkout -b uusBranch` - Loob uue *branch*`i ja liigub sinna
-- `git merge teineBranch` - Liidab praeguse *branch*`i teise *branch*`iga
+- `git log` - Näitab _commit_ ajalugu
+- `git branch` - Näitab olemasolevaid _branch_`e
+- `git checkout -b uusBranch` - Loob uue _branch_`i ja liigub sinna
+- `git merge teineBranch` - Liidab praeguse _branch_`i teise *branch*`iga
 
 ---
 
@@ -186,8 +186,8 @@ Selleks, et kasutada iseenda kirjutatud mooduleid, tuleb need kõigepealt ekspor
 const myModule = {
   myFunction() {
     // funktsiooni sisu
-  }
-}
+  },
+};
 
 module.exports = myModule;
 ```
@@ -197,7 +197,7 @@ module.exports = myModule;
 ## Iseenda kirjutatud moodulid - importimine
 
 ```javascript
-const myModule = require('./moduleFileName');
+const myModule = require("./moduleFileName");
 ```
 
 ---
@@ -205,8 +205,7 @@ const myModule = require('./moduleFileName');
 ## Iseenda kirjutatud moodulid - kasutamine
 
 ```javascript
-
-const myModule = require('./moduleFileName');
+const myModule = require("./moduleFileName");
 
 myModule.myFunction();
 ```
@@ -237,7 +236,7 @@ Sisseehitatud moodulid on Javascripti enda poolt pakutavad moodulid, mida saab k
 ## Sisseehitatud moodulid - importimine
 
 ```javascript
-const fs = require('fs');
+const fs = require("fs");
 ```
 
 ---
@@ -245,9 +244,9 @@ const fs = require('fs');
 ## Sisseehitatud moodulid - kasutamine
 
 ```javascript
-const fs = require('fs');
+const fs = require("fs");
 
-const file = fs.readFileSync('file.txt', 'utf8');
+const file = fs.readFileSync("file.txt", "utf8");
 ```
 
 ---
@@ -267,7 +266,7 @@ Kolmanda osapoole moodulid on moodulid, mida on kirjutanud keegi teine ja mida s
 
 ## Kolmanda osapoole moodulid - `package.json` fail
 
-`package.json` fail on fail, kus on kirjas kõik projektiga seotud info, sh projektis kasutatavad kolmanda osapoole moodulid ehk sõltuvused (*dependencies*).
+`package.json` fail on fail, kus on kirjas kõik projektiga seotud info, sh projektis kasutatavad kolmanda osapoole moodulid ehk sõltuvused (_dependencies_).
 
 ---
 
@@ -296,11 +295,11 @@ npm install prompt-sync
 ## Kolmanda osapoole moodulid - kasutamine
 
 ```javascript
-const prompts = require('prompt-sync');
+const prompts = require("prompt-sync");
 
 const prompt = prompts();
 
-const nimi = prompt('Sisesta oma nimi: ');
+const nimi = prompt("Sisesta oma nimi: ");
 
 console.log(`Tere, ${nimi}!`);
 ```
@@ -315,7 +314,7 @@ Kõik kolmanda osapoole moodulid paigutatakse `node_modules` kausta.
 
 ## `.gitignore` fail
 
-`node_modules` kaust tuleks lisada `.gitignore` faili, et seda ei lisataks *remote* serverisse.
+`node_modules` kaust tuleks lisada `.gitignore` faili, et seda ei lisataks _remote_ serverisse.
 
 ---
 

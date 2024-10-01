@@ -1,8 +1,8 @@
 ---
 marp: true
-
 ---
-# Veebiarendus
+
+# Tarkvaraarendus ja programmeerimine
 
 Martti Raavel
 
@@ -125,7 +125,7 @@ Persoona loomiseks kogub meeskond tavaliselt teavet selliste uurimismeetodite ab
 - küsitlused;
 - intervjuud;
 - reaalsete kasutajate vaatlus.
-  
+
 Seejärel kasutatakse seda teavet väljamõeldud isiku loomiseks, mis kehastab sihtrühma võtmeomadusi.
 
 ---
@@ -218,12 +218,12 @@ Stsenaariumid luuakse tarkvara arendamisel sageli nõuete kogumise etapis ja nei
 
 ## Stsenaarium - Näide
 
-| Tegija | Tiina.. |
-| --- | --- |
-| Motivatsioon | ..soovib õppida, kuidas oma ettevõttele ise veebileht luua |
-| Eesmärk | Ta tahab leida koolitust, mis sobiks hinnalt, oleks suunatud algajatele ja toimuks sobivatel kuupäevadel |
-| Tegevus | Tiina valib koolituste nimekirjast talle sobiva kategooria, milleks on IT. Seejärel sorteerib ta koolitusi hinna ja toimumisaja alusel ning tutvub nende sisuga |
-| Tulemus | Ta leiab nimistust sobiva koolituse ja registreerib osalejaks |
+| Tegija       | Tiina..                                                                                                                                                         |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Motivatsioon | ..soovib õppida, kuidas oma ettevõttele ise veebileht luua                                                                                                      |
+| Eesmärk      | Ta tahab leida koolitust, mis sobiks hinnalt, oleks suunatud algajatele ja toimuks sobivatel kuupäevadel                                                        |
+| Tegevus      | Tiina valib koolituste nimekirjast talle sobiva kategooria, milleks on IT. Seejärel sorteerib ta koolitusi hinna ja toimumisaja alusel ning tutvub nende sisuga |
+| Tulemus      | Ta leiab nimistust sobiva koolituse ja registreerib osalejaks                                                                                                   |
 
 ---
 
@@ -357,10 +357,10 @@ function functionName(parameter1, parameter2) {
 ## Funktsiooni avaldis
 
 ```javascript
-const add = function(a, b) {
+const add = function (a, b) {
   const sum = a + b;
   return sum;
-}
+};
 ```
 
 ---

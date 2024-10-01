@@ -1,8 +1,8 @@
 ---
 marp: true
-
 ---
-# Veebiarendus
+
+# Tarkvaraarendus ja programmeerimine
 
 Martti Raavel
 
@@ -195,8 +195,7 @@ function someFunction() {
 
 // Väldi
 
-function someFunction()
-{
+function someFunction() {
   // koodiblokk
 }
 ```
@@ -207,8 +206,8 @@ function someFunction()
 
 ```javascript
 function test() {
-  return { /* <--- curly brace on new line */
-    javascript: "fantastic"
+  return {
+    /* <--- curly brace on new line */ javascript: "fantastic",
   };
 }
 
@@ -216,7 +215,7 @@ const r = test();
 try {
   console.log(r.javascript); // does this work...?
 } catch (e) {
-  console.log('no - it broke: ' + typeof r);
+  console.log("no - it broke: " + typeof r);
 }
 ```
 
@@ -224,8 +223,8 @@ try {
 
 ```javascript
 function test() {
-  return { /* <--- curly brace on new line */
-    javascript: "fantastic"
+  return {
+    /* <--- curly brace on new line */ javascript: "fantastic",
   };
 }
 
@@ -233,7 +232,7 @@ const r = test();
 try {
   console.log(r.javascript); // does this work...?
 } catch (e) {
-  console.log('no - it broke: ' + typeof r);
+  console.log("no - it broke: " + typeof r);
 }
 ```
 
@@ -283,21 +282,21 @@ Kasuta `===` ja `!==` operaatoreid
 
 ## Malliliteraalide kasutamine
 
-Kasuta malliliteraale (*template literal*) stringide koostamisel.
+Kasuta malliliteraale (_template literal_) stringide koostamisel.
 
 ```javascript
 // Tee nii
-const name = 'John';
+const name = "John";
 const greeting = `Hello, ${name}!`;
 
 // Väldi
-const name = 'John';
-const greeting = 'Hello, ' + name + '!';
+const name = "John";
+const greeting = "Hello, " + name + "!";
 ```
 
 ---
 
-## Silumine (*Debugging*)
+## Silumine (_Debugging_)
 
 Silumine on protsess, mille käigus otsitakse ja parandatakse programmeerimisvigu. Viga on programmiviga, mis põhjustab programmi töötamisel ootamatu käitumise.
 
@@ -311,7 +310,7 @@ Silumine on protsess, mille käigus otsitakse ja parandatakse programmeerimisvig
 
 ---
 
-## Murdepunkt (*Breakpoint*)
+## Murdepunkt (_Breakpoint_)
 
 Murdepunkt on koht meie koodis, kus soovime, et silur peataks täitmise ja võimaldaks meil muutujate väärtusi kontrollida.
 

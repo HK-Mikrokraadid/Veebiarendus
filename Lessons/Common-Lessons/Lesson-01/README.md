@@ -5,7 +5,7 @@ Esiemses loengus saame tuttavaks, teeme sissejuhatuse nii tarkvaraarenduse, kui 
 Tarkvaraarenduse aine raames õpime tundma tarkvaraarenduse tööriistu, nagu [versioonihaldus](../../../Subjects/Software-Development/Topics/Version-Control/README.md) ja [koodieditor](../../../Subjects/Software-Development/Topics/Tools/README.md), räägime tarkvaraarendusest üldiselt ja teeme tutvust [`Markdown`](../../../Subjects/Software-Development/Topics/Markdown/README.md)-iga. Programmeerimise aine raames õpime tundma Javascripti ja NodeJS-i, teeme tutvust programmeerimise põhitõdedega ja teeme esimesed harjutused. Lisaks õpime, kuidas hakkame hoidma ja esitama oma materjale ja koduseid töid.
 
 - [Esimese loengu slaidid](Slides.md)
-- [Esimese loengu salvestus]()
+- [Esimese loengu salvestus](https://youtu.be/m8hsL3363Yw)
 - [Teine loeng](../Lesson-02/README.md)
 
 ## Teemad

@@ -1,8 +1,8 @@
 ---
 marp: true
-
 ---
-# Veebiarendus
+
+# Tarkvaraarendus ja programmeerimine
 
 Martti Raavel
 
@@ -107,7 +107,7 @@ Koodi ülevaatus hõlmab tavaliselt koodi ridade kaupa läbilugemist ja selliste
 
 ---
 
-## Tarkvaraarenduse elutsükkel (SDLC - *Software Development Life Cycle*)
+## Tarkvaraarenduse elutsükkel (SDLC - _Software Development Life Cycle_)
 
 Tarkvaraarenduse elutsükkel (SDLC) on süsteemne protsess tarkvara planeerimiseks, loomiseks, testimiseks, juurutamiseks ja hooldamiseks. See määratleb etapid ja ülesanded, mis on seotud tarkvara tootmisega algusest kuni selle lõpetamiseni.
 
@@ -144,7 +144,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 ## Tarvaraarenduse elutsükkel - Nõuete määratlemine ja analüüs
 
 - Nõuete ja vajaduste kogumine ja dokumenteerimine.
-- Spetsifikatsioonide kogumine sidusrühmadelt (*lõppkasutajad, kliendid jne.*).
+- Spetsifikatsioonide kogumine sidusrühmadelt (_lõppkasutajad, kliendid jne._).
 - Nõuete teostavuse analüüs.
 - Nõuete loetelu prioritiseerimine ja kinnitamine.
 
@@ -152,7 +152,7 @@ Milliseid samme tuleb läbida selleks, et ideest saaks valmis tarkvara?
 
 ## Tarvaraarenduse elutsükkel - Disain
 
-- Nõuete *tõlkimine* süsteemi spetsifikatsioonideks.
+- Nõuete _tõlkimine_ süsteemi spetsifikatsioonideks.
 - Süsteemi arhitektuuri ja raamistiku disainimine.
 - UX (kasutajakogemus) ja UI (kasutajaliides) disain.
 - Sobivate tehnoloogiate, platvormide ja tööriistade valik.
@@ -359,7 +359,7 @@ LÕPETA
 
 ## Tõepärasus
 
-Kui Javascriptis räägitakse tõepärasusest, siis mõeldakse, kas avaldis on tõene (*true*) või väär (*false*). Tõepärasust kasutame, kui me tahame kontrollida, kas avaldis on tõene või väär, et teha mingeid otsuseid. Tõepärasuse kontrollimiseks kasutatakse võrdlusoperaatoreid, mille tulemuseks on `true` või `false`. Näiteks:
+Kui Javascriptis räägitakse tõepärasusest, siis mõeldakse, kas avaldis on tõene (_true_) või väär (_false_). Tõepärasust kasutame, kui me tahame kontrollida, kas avaldis on tõene või väär, et teha mingeid otsuseid. Tõepärasuse kontrollimiseks kasutatakse võrdlusoperaatoreid, mille tulemuseks on `true` või `false`. Näiteks:
 
 ---
 
@@ -378,9 +378,9 @@ console.log(5 < 3); // false
 let number = 5;
 
 if (number) {
-  console.log('Number on tõene');
+  console.log("Number on tõene");
 } else {
-  console.log('Number on väär');
+  console.log("Number on väär");
 }
 ```
 
@@ -391,7 +391,7 @@ if (number) {
 - **null** - väärtuse puudumine
 - **undefined** - väärtuse puudumine
 - **false** - väär
-- **NaN** - mitte number (*Not a Number*)
+- **NaN** - mitte number (_Not a Number_)
 - **0** - null
 - **-0** - negatiivne null
 - **0n** - BigInt null
@@ -403,9 +403,9 @@ if (number) {
 
 ```javascript
 if (username && password) {
-  console.log('Kasutajanimi ja parool on defineeritud');
+  console.log("Kasutajanimi ja parool on defineeritud");
 } else {
-  console.log('Kasutajanimi ja/või parool on defineerimata');
+  console.log("Kasutajanimi ja/või parool on defineerimata");
 }
 ```
 
@@ -413,12 +413,12 @@ if (username && password) {
 
 ## Loogiliste avaldiste tabel
 
-| `A` | `B` | `A && B` | `A \|\| B` | `!A` |
-|---|---|---|---|---|
-| false | false | false | false | true |
-| false | true  | false | true  | true |
-| true  | false | false | true  | false |
-| true  | true  | true  | true  | false |
+| `A`   | `B`   | `A && B` | `A \|\| B` | `!A`  |
+| ----- | ----- | -------- | ---------- | ----- |
+| false | false | false    | false      | true  |
+| false | true  | false    | true       | true  |
+| true  | false | false    | true       | false |
+| true  | true  | true     | true       | false |
 
 ---
 
@@ -432,8 +432,8 @@ Massiiv on väärtuste kogum, mis on salvestatud ühte muutujasse. Tavaliselt ka
 
 ```js
 const numbers = [1, 2, 3];
-const fruits = ['õun', 'pirn', 'banaan'];
-const mixed = [1, 'õun', true];
+const fruits = ["õun", "pirn", "banaan"];
+const mixed = [1, "õun", true];
 ```
 
 ---
@@ -476,7 +476,7 @@ console.log(numbers.length); // 3
 ## `for` tsükli süntaks
 
 ```js
-for (algväärtustamine; tingimus; suurendamine/vähendamine) {
+for (algväärtustamine; tingimus; suurendamine / vähendamine) {
   // kood, mida kordame
 }
 ```
