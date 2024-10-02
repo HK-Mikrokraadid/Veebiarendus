@@ -2,7 +2,7 @@
 marp: true
 ---
 
-# Veebiarendus
+# Tarkvaraarendus ja programmeerimine
 
 Martti Raavel
 

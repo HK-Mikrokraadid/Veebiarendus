@@ -1,8 +1,8 @@
 ---
 marp: true
-
 ---
-# Veebiarendus
+
+# Tarkvaraarendus ja programmeerimine
 
 Martti Raavel
 
@@ -99,7 +99,7 @@ Martti Raavel
 
 ---
 
-## Harud (*branch*), Tõmbetaotlus (*Pull Request*) ja Ühendamine (*Merge*)
+## Harud (_branch_), Tõmbetaotlus (_Pull Request_) ja Ühendamine (_Merge_)
 
 - Harude loomine
 - Harusse vahetamine
@@ -283,10 +283,10 @@ if (tingimus) {
 ## `if` näide
 
 ```javascript
-let weather = 'päikeseline';
+let weather = "päikeseline";
 
-if (weather === 'päikeseline') {
-  console.log('Lähen randa!');
+if (weather === "päikeseline") {
+  console.log("Lähen randa!");
 }
 ```
 
@@ -311,12 +311,12 @@ if (tingimus) {
 ## `if-else` näide
 
 ```javascript
-weather = 'päikeseline';
+weather = "päikeseline";
 
-if (ilm === 'päikeseline') {
-  console.log('Lähen randa!');
+if (ilm === "päikeseline") {
+  console.log("Lähen randa!");
 } else {
-  console.log('Lähen kinno!');
+  console.log("Lähen kinno!");
 }
 ```
 
@@ -346,11 +346,11 @@ if (tingimus1) {
 let number = 5;
 
 if (number > 0) {
-  console.log('Number on positiivne');
+  console.log("Number on positiivne");
 } else if (number < 0) {
-  console.log('Number on negatiivne');
+  console.log("Number on negatiivne");
 } else {
-  console.log('Number on null');
+  console.log("Number on null");
 }
 ```
 
