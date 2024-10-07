@@ -1,6 +1,6 @@
 # Teine loeng
 
-Teises loengus meenutame kõigepealt, mida tegime ja millest rääkisime esimeses loengus. Seejärel vaatame üle kodutöödega tekkinud probleemid ja vaatame, kuidas neid lahendada. Jätkame tarkvaraarenduse teemadega, räägime [Github Issue](../../../Subjects/Software-Development/Topics/Github-Issue/README.md)-dest, `.gitignore` failidest, harudest, tõmbetaotlustest ja ühendamisest ning lõpetame [Git](../../../Subjects/Software-Development/Topics/Git/README.md)-i ja [Github](../../../Subjects/Software-Development/Topics/Github/README.md)-i parimate tavade tutvustamisega.
+Teises loengus meenutame kõigepealt, mida tegime ja millest rääkisime esimeses loengus. Seejärel jätkame tarkvaraarenduse teemadega, räägime [Github Issue](../../../Subjects/Software-Development/Topics/Github-Issue/README.md)-dest, `.gitignore` failidest, harudest, tõmbetaotlustest ja ühendamisest ning lõpetame [Git](../../../Subjects/Software-Development/Topics/Git/README.md)-i ja [Github](../../../Subjects/Software-Development/Topics/Github/README.md)-i parimate tavade tutvustamisega.
 
 Programmeerimise poole pealt räägime [Operaatoritest ja avaldistest](../../../Subjects/Programming-Basics/Topics/Operators/README.md) ning [Tingimuslausetest](../../../Subjects/Programming-Basics/Topics/Conditionals/README.md).
 
@@ -17,6 +17,8 @@ Programmeerimise poole pealt räägime [Operaatoritest ja avaldistest](../../../
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- [Markodown](../../../Subjects/Software-Development/Topics/Markdown/README.md)
+  - Markdown All in One laiendus Visual Studio Code'is
 - [Github Issue](../../../Subjects/Software-Development/Topics/Github-Issue/README.md)
 - [.gitignore](../../../Subjects/Software-Development/Topics/Gitignore/README.md)
 - [Harud, Tõmbetaotlus ja ühendamine](../../../Subjects/Software-Development/Topics/Branch/README.md)
@@ -28,6 +30,7 @@ Programmeerimise poole pealt räägime [Operaatoritest ja avaldistest](../../../
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
+- VS Code Live Share pistikprogramm
 - [Operaatorid ja avaldised](../../../Subjects/Programming-Basics/Topics/Operators/README.md)
 - [Tõepärasus](../../../Subjects/Programming-Basics/Topics/Truthiness/README.md)
 - [Tingimuslaused](../../../Subjects/Programming-Basics/Topics/Conditionals/README.md)

@@ -13,7 +13,8 @@ Martti Raavel
 ## Tarkvaraarendus
 
 - Eelmise loengu meeldetuletus
-- Kodutööde ajal tekkinud probleemide lahendamine
+- Markdown
+  - Markdown All-in-One pistikprogramm
 - Github Issue
 - .gitignore
 - Harud, Tõmbetaotlus ja ühendamine
@@ -25,33 +26,23 @@ Martti Raavel
 
 ---
 
-## Loenguga seotud probleemid
+## Mis on Markdown?
 
-- Projektori pilt halvasti näha
-  - Edaspidi kasutame Live Share pistikprogrammi
-- Algtase väga erinev
-- Veel midagi?
+Markdown on kerge märgendikeel, millel on lihtne tekstivormingu süntaks. Markdowni peamine eesmärk oli muuta inimestel teksti kirjutamine ja vormindamine lihtsaks viisil, mis on vabalt loetav ja mida saab konverteerida HTML-iks (või teisteks väljundvorminguteks).
 
----
-
-## Kodutööde ajal tekkinud probleemid
-
-- Palju kirjavigu ja veidraid sõnastusi - miks?
-- Githubi Markdowni iseärasused
-- Koodi käivitamine õigest kaustast
-- Veel midagi?
+> Discord ja paljud teised platvormid kasutavad Markdowni teksti vormindamiseks.
 
 ---
 
-## Live share pistikprogramm
+## Markdown All-in-One
 
-- Live Share on Visual Studio Code pistikprogramm, mis võimaldab mitmel inimesel üheaegselt samas koodifailis töötada/seda vaadata.
+Markdown `All-in-One` on Visual Studio Code pistikprogramm, mis võimaldab Markdowni failide redigeerimisel kasutada erinevaid tööriistu ja funktsioone.
 
 ---
 
-## Live Share paigaldamine
+## Markdown All-in-One pistikrpogrammi paigaldamine
 
-![Live Share paigaldamine](image.png)
+![alt text](MarkdownAIO.png)
 
 ---
 
@@ -63,17 +54,31 @@ Martti Raavel
 
 ---
 
+## Millest Issue koosneb?
+
+- Pealkiri (_Title_)
+- Kirjeldus (_Description_)
+- Sildid (_Labels_)
+- Vastutaja (_Assignee_)
+- Kommentaarid (_Comments_)
+- Olek (_Status_ - avatud või suletud)
+
+---
+
 ## Kuidas `Issue`-t luua
 
 - Lisa oma hoidlale `collaborator`
+  - `Settings` -> `Manage access` -> `Invite a collaborator`
 - Loo oma hoidlale `Issue`
 - Määra `Issue`-le `Assignee`-ks `collaborator`
+- `Assignee` lisab `Issue`-le kommentaari
+- Sulge `Issue`
 
 ---
 
 ## `.gitignore`
 
-- `.gitignore` fail on fail, mis sisaldab hoidla jaoks ignoreeritavaid faile ja kaustu.
+`.gitignore` fail on fail, mis sisaldab hoidla jaoks ignoreeritavaid faile ja kaustu.
 
 ---
 
@@ -81,21 +86,48 @@ Martti Raavel
 
 - Kõik failid ja kaustad, mida ei soovita hoidlasse lisada.
 - Näiteks:
-  - `.env` failid
-  - `node_modules` kaustad
-  - `dist` kaustad
-  - Saladusi sisaldavad failid
+  - `.env` failid (saladusi sisaldavad failid)
+  - `node_modules` kaustad (sõltuvused)
+  - `dist` kaustad (tootmisfailid)
+  - Muud saladusi sisaldavad failid ja kaustad (_config_, _secrets_, _keys_, _passwords_)
+  - Arvuti ja redaktori poolt genereeritud failid (_Thumbs.db_, _Desktop.ini_, _\*.swp_, _\*.swm_, _\*.swo_, DS_Store)
 
 ---
 
 ## `.gitignore` harjutus
 
 - Loo oma hoidlale `.gitignore` fail
-- Lisa faili kirje `draft.md`
+- Lisa faili kirje `config.js`
 - `commit`-i ja `push`-i oma muudatused
 - lisa fail `draft.md` oma hoidlasse
 - `commit`-i ja `push`-i oma muudatused
 - Mis juhtus?
+
+---
+
+## Harud
+
+Haru (branch) on tarkvaraversioonide haldamise kontseptsioon, mis võimaldab arendajatel luua tarkvara koodipaasist isoleeritud koopiaid. Harude loomine võimaldab arendajatel töötada uute funktsioonide, paranduste või eksperimentide kallal, ilma et see mõjutaks peamist koodibaasi.
+
+---
+
+## Harud - milleks?
+
+- Uute funktsioonide arendamine
+- Vigade parandamine
+- Koodi eksperimenteerimine
+- Koodi ülevaatamine
+- Koodi testimine
+
+---
+
+## Harude tüübid
+
+- Peamine haru (_main branch_)
+- Funktsiooniharud (_feature branches_, _development branches_)
+- Väljalaskeharud (_release branches_)
+- Parandusharud (_hotfix branches_, _bugfix branches_)
+- ...
 
 ---
 
@@ -126,19 +158,19 @@ Martti Raavel
 - `commit`-i tihti
 - Kirjuta mõistlikud `commit`-i sõnumid
 - Kasuta `.gitignore` faili
-- Ära lisa saladusi sisaldavaid faile hoidlasse
+- Ära lisa saladusi sisaldavaid faile hoidlasse! (Kui midagi oled `Github`-i lisanud, siis on seda sealt raske lõplikult eemaldada)
 - Kasuta harusid
 - Sünkroniseeri tihti
-- Lisa alati hoidlasse `README.md` fail (ka alamkaustadesse)
+- Lisa alati hoidlasse `README.md` fail (dokumentatsiooni puhul ka alamkaustadesse)
 
 ---
 
 ## Programmeerimine
 
 - Eelmise loengu meeldetuletus
-- Kodutööde ajal tekkinud probleemide lahendamine
 - Operaatorid ja avaldised
 - Tingimuslaused
+- ...
 
 ---
 
@@ -146,7 +178,15 @@ Martti Raavel
 
 ---
 
-## Milliseid probleeme tekkis kodutööde ajal?
+## Live share pistikprogramm
+
+- Live Share on Visual Studio Code pistikprogramm, mis võimaldab mitmel inimesel üheaegselt samas koodifailis töötada/seda vaadata.
+
+---
+
+## Live Share paigaldamine
+
+![Live Share paigaldamine](image.png)
 
 ---
 
@@ -358,8 +398,9 @@ if (number > 0) {
 
 ## Tänane kodutöö
 
-- Loe läbi tänase loengu materjalid
 - Tee läbi materjalides olevad harjutused
+- Kui soovid, siis vali mõni lisaülesanne
 - Laadi tehtud harjutuste kood Githubi
+- Loe läbi kolmanda loengu materjalid
 
 ---
