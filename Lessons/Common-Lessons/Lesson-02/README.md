@@ -8,7 +8,7 @@ Programmeerimise poole pealt räägime [Operaatoritest ja avaldistest](../../../
 - [Teise loengu slaidid](Slides.md)
 - [Teise loengu salvestus]()
 - [Kolmas loeng](../Lesson-03/README.md)
-- [Zoomi link]()
+- [Zoomi link](https://zoom.us/j/98412128345?pwd=jNcfZrAJXaJ2m8gJo3Rdlp8poazliv.1)
 - [Teise loengu harjutuste lahendused]()
 
 ## Teemad

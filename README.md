@@ -62,6 +62,8 @@ Koolituse eesmärk on omandada terviklik arusaam nii tarkvaraarenduse kui ka pro
 | [9. kohtumine](./Lessons/Common-Lessons/Lesson-09/README.md)  | 26.11.2024 kell 10:00 - 16:30 | Haapsalu |
 | [10. kohtumine](./Lessons/Common-Lessons/Lesson-10/README.md) | 03.12.2024 kell 10:00 - 15:00 | Zoom     |
 
+Zoomi link: <https://zoom.us/j/98412128345?pwd=jNcfZrAJXaJ2m8gJo3Rdlp8poazliv.1>
+
 > Loengutest püüame teha salvestused, mis tehakse koolitusel osalejatele saadavaks peale loengu toimumist.
 
 ## Õpijuhend
