@@ -396,6 +396,63 @@ if (number > 0) {
 
 ---
 
+## Tõepärasuse teisendamine
+
+Javascriptis on iga väärtus tõepäraseks või vääraks teisendatav. Kui me kasutame `if` tingimuslauset, siis Javascript teisendab muutuja tõepäraseks või vääraks, et kontrollida, kas koodiplokk täidetakse või mitte.
+
+---
+
+## Tõepärasuse teisendamine
+
+Javascriptis teisendataks üldiselt kõik väärtused tõeseks, välja arvatud järgmised väärtused:
+
+| Väärtus   | Tüüp      | Kirjeldus                                                                                           |
+| --------- | --------- | --------------------------------------------------------------------------------------------------- |
+| null      | Null      | Väärtuse puudumine (tahtlik).                                                                       |
+| undefined | Undefined | Väärtuse puudumine (näiteks defineeritud, kuid omistamata väärtusega muutuja)                       |
+| false     | Boolean   | Märksõna false.                                                                                     |
+| NaN       | Number    | NaN — mitte number.                                                                                 |
+| 0         | Number    | Number null, kaasa arvatud 0.0, 0x0 jne.                                                            |
+| -0        | Number    | Number negatiivne null, kaasa arvatud -0.0, -0x0 jne.                                               |
+| 0n        | BigInt    | BigInt null, kaasa arvatud 0x0n jne. Märkus: BigInt negatiivset nulli ei ole — 0n negatsioon on 0n. |
+| ""        | String    | Tühi stringi väärtus, kaasa arvatud '' ja ``.                                                       |
+
+---
+
+## Tõepärasuse teisendamine - näide
+
+Ülejäänud väärtused teisendatakse tõeseks. Näiteks:
+
+```javascript
+console.log(Boolean(0)); // false
+console.log(Boolean(5)); // true
+console.log(Boolean("Hello")); // true
+console.log(Boolean("0")); // true
+console.log(Boolean([])); // true
+console.log(Boolean({})); // true
+console.log(Boolean(-42)); // true
+```
+
+---
+
+## Tõepärasuse teisendamine - `if` näide
+
+```javascript
+let firstName = "John";
+
+if (firstName) {
+  console.log("Eesnimi on defineeritud");
+} else {
+  console.log("Eesnimi on defineerimata");
+}
+```
+
+---
+
+## Millest me täna rääkisime?
+
+---
+
 ## Tänane kodutöö
 
 - Tee läbi materjalides olevad harjutused
