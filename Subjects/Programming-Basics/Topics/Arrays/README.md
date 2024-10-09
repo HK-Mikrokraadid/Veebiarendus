@@ -1,6 +1,6 @@
 # Massiiv
 
-Selles peatükis räägime sellisest andmestruktuurist nagu massiiv. Uurime, mis on massiiv, kuidas massiive kasutada ja kuidas massiividega manipuleerida.
+Selles peatükis räägime sellisest andmestruktuurist nagu massiiv. Uurime, mis on massiiv, kuidas massiive kasutada ja kuidas massiive manipuleerida.
 
 ![Andmestruktuurid](Data-Structures.webp)
 
@@ -21,7 +21,7 @@ Selles peatükis räägime sellisest andmestruktuurist nagu massiiv. Uurime, mis
 
 Pärast selle teema läbimist oskad:
 
-- Määratleda, mis on andmesruktuur
+- Määratleda, mis on andmestruktuur
 - Määratleda, mis on massiiv
 - Kasutada massiive
 - Kasutada põhilisi massiivi meetodeid
