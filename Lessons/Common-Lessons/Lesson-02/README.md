@@ -6,7 +6,7 @@ Programmeerimise poole pealt räägime [Operaatoritest ja avaldistest](../../../
 
 - [Esimene loeng](../Lesson-01/README.md)
 - [Teise loengu slaidid](Slides.md)
-- [Teise loengu salvestus]()
+- [Teise loengu salvestus](https://youtu.be/HaDU97YiX5g)
 - [Kolmas loeng](../Lesson-03/README.md)
 - [Zoomi link](https://zoom.us/j/98412128345?pwd=jNcfZrAJXaJ2m8gJo3Rdlp8poazliv.1)
 - [Teise loengu harjutuste lahendused]()
