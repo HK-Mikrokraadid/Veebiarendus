@@ -34,9 +34,9 @@ Tarkvaraarenduse aine raames õpime tundma tarkvaraarenduse tööriistu, nagu [v
 
 ## Kodutöö - tähtaeg: enne järgmist loengut
 
-- Loe läbi esimese loengu materjalid
 - Tee läbi materjalides olevad harjutused
   - [Hello World](../../../Subjects/Programming-Basics/Topics/HelloWorld/README.md#harjutused)
   - [Muutujad](../../../Subjects/Programming-Basics/Topics/Variables/README.md#harjutused)
   - [Andmetüübid](../../../Subjects/Programming-Basics/Topics/Data-Types/README.md#harjutused)
 - Laadi tehtud harjutuste kood Githubi
+- Loe läbi [järgmise loengu materjalid](../Lesson-02/README.md)

@@ -28,15 +28,17 @@ Martti Raavel
 
 ## Kodutööde ajal tekkinud probleemid
 
-- `Issue`-le `Assignee` määramine
-- Koduste tööde organiseerimine
-  - Eraldi kaustadesse teemade kaupa
+- `Issue`-de sulgemine ja tagasiside
+- `if` lausetes tingimuste järjekord
+  - Sageli saab järjekorra abil tingimusi lihtsustada
+- `if - else if - else` laused
+  - Viimast tingimust ei ole sageli vaja välja kirjutada - selle asemel saab kasutada `else`-i
 
 ---
 
 ## Koodi kvaliteet - Arutelu
 
-Mida tähendab üldse koodi kvaliteet, mida see sisaldab ja kuidas seda tagada?
+![Koodi kvaliteet](../../../Subjects/Software-Development/Topics/Code-Quality/Code-Quality.png)
 
 ---
 
@@ -292,7 +294,6 @@ Tarkvaraarenduse valdkonnas võivad isikud täita erinevaid rolle, millest igaü
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemid/tähelepanekud
 - Algoritmid
-- Tõepärasus
 - Massiivid
 - Tsüklid
 - Harjutused
@@ -353,72 +354,31 @@ LÕPETA
 
 ## Algoritmid - Voodiagramm
 
-![height:600](voodiagramm.png)
+Voodiagramm on visuaalne esitus algoritmi sammudest ja nende järjestusest. Voodiagramm koosneb erinevatest kujunditest, mis tähistavad algoritmi erinevaid samme, nagu tegevused, otsused ja loogilised operatsioonid.
 
 ---
 
-## Tõepärasus
+## Algoritmid - Voodiagramm
 
-Kui Javascriptis räägitakse tõepärasusest, siis mõeldakse, kas avaldis on tõene (_true_) või väär (_false_). Tõepärasust kasutame, kui me tahame kontrollida, kas avaldis on tõene või väär, et teha mingeid otsuseid. Tõepärasuse kontrollimiseks kasutatakse võrdlusoperaatoreid, mille tulemuseks on `true` või `false`. Näiteks:
-
----
-
-## Tõepärasus - Näide
-
-```javascript
-console.log(5 > 3); // true
-console.log(5 < 3); // false
-```
+![Voodiagramm](Algoritm_valgusfoor.png)
 
 ---
 
-## Tõepärasus - Mitte Boolean?
+## Algoritmid - voodiagrammi sümbolid
 
-```javascript
-let number = 5;
-
-if (number) {
-  console.log("Number on tõene");
-} else {
-  console.log("Number on väär");
-}
-```
+![Algoritmi sümbolid](Algoritm_symbolid.png)
 
 ---
 
-## Tõepärasuse teisendamine - Väärad väärtused
+## Algoritmid - Harjutused
 
-- **null** - väärtuse puudumine
-- **undefined** - väärtuse puudumine
-- **false** - väär
-- **NaN** - mitte number (_Not a Number_)
-- **0** - null
-- **-0** - negatiivne null
-- **0n** - BigInt null
-- **''** - tühi string
+- Paaris või paaritu arv
+- Pangaautomaadist raha välja võtmine
+- ...
 
 ---
 
-## Tõepärasuse teisendamine - Milleks oluline?
-
-```javascript
-if (username && password) {
-  console.log("Kasutajanimi ja parool on defineeritud");
-} else {
-  console.log("Kasutajanimi ja/või parool on defineerimata");
-}
-```
-
----
-
-## Loogiliste avaldiste tabel
-
-| `A`   | `B`   | `A && B` | `A \|\| B` | `!A`  |
-| ----- | ----- | -------- | ---------- | ----- |
-| false | false | false    | false      | true  |
-| false | true  | false    | true       | true  |
-| true  | false | false    | true       | false |
-| true  | true  | true     | true       | false |
+## Programmeerimine
 
 ---
 
@@ -452,6 +412,22 @@ console.log(numbers[0]); // 1
 
 console.log(numbers.length); // 3
 ```
+
+---
+
+## Massiivi elementide muutmine
+
+```js
+const numbers = [1, 2, 3];
+
+numbers[0] = 10;
+
+console.log(numbers); // [10, 2, 3]
+```
+
+---
+
+## Massivid - Harjutused
 
 ---
 
@@ -561,12 +537,18 @@ do {
 
 ## Harjutused
 
+- korrutustabel
+- paaris või paaritu arv
+- elementide kuvamine massiivist
+- käibemaksu lisamine hinnale
+- ...
+
 ---
 
 ## Kodune töö
 
-- Loe läbi tänase loengu materjalid
 - Tee läbi materjalides olevad harjutused (need, mis puudutavad tänaseid teemasid)
 - Kasuta koodi ülevaatuseks `Code review`-d
+- Loe läbi järgmise loengu materjalid
 
 ---

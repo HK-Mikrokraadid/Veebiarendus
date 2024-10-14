@@ -106,10 +106,10 @@ if (tingimus) {
 Näiteks:
 
 ```js
-let weather = 'päikeseline';
+let weather = "päikeseline";
 
-if (weather === 'päikeseline') {
-  console.log('Lähen randa!');
+if (weather === "päikeseline") {
+  console.log("Lähen randa!");
 }
 ```
 
@@ -132,12 +132,12 @@ if (tingimus) {
 Näiteks:
 
 ```js
-weather = 'päikeseline';
+weather = "päikeseline";
 
-if (weather === 'päikeseline') {
-  console.log('Lähen randa!');
+if (weather === "päikeseline") {
+  console.log("Lähen randa!");
 } else {
-  console.log('Lähen kinno!');
+  console.log("Lähen kinno!");
 }
 ```
 
@@ -158,14 +158,14 @@ if (tingimus1) {
 ```
 
 ```js
-let weather = 'vihmane';
+let weather = "vihmane";
 
-if (weather === 'päikeseline') {
-  console.log('Lähen randa!');
-} else if (weather === 'vihmane') {
-  console.log('Lähen kinno!');
+if (weather === "päikeseline") {
+  console.log("Lähen randa!");
+} else if (weather === "vihmane") {
+  console.log("Lähen kinno!");
 } else {
-  console.log('Jään koju!');
+  console.log("Jään koju!");
 }
 ```
 
@@ -184,24 +184,24 @@ switch (avaldis) {
     // kood, mida täidetakse, kui avaldis on võrdne väärtus2-ga
     break;
   default:
-    // kood, mida täidetakse, kui avaldis ei ole võrdne väärtus1 ega väärtus2-ga
+  // kood, mida täidetakse, kui avaldis ei ole võrdne väärtus1 ega väärtus2-ga
 }
 ```
 
 Näiteks:
 
 ```js
-let weather = 'vihmane';
+let weather = "vihmane";
 
 switch (weather) {
-  case 'päikeseline':
-    console.log('Lähen randa!');
+  case "päikeseline":
+    console.log("Lähen randa!");
     break;
-  case 'vihmane':
-    console.log('Lähen kinno!');
+  case "vihmane":
+    console.log("Lähen kinno!");
     break;
   default:
-    console.log('Jään koju!');
+    console.log("Jään koju!");
 }
 ```
 
@@ -214,15 +214,17 @@ See näide on ekvivalentne eelmisele näitele if-else-if lausega.
 `Ternaaroperaatoril` on järgmine süntaks:
 
 ```js
-tingimus ? avaldis1 : avaldis2
+tingimus ? avaldis1 : avaldis2;
 ```
 
 Näiteks:
 
 ```js
-let weather = 'vihmane';
+let weather = "vihmane";
 
-weather === 'päikeseline' ? console.log('Lähen randa!') : console.log('Lähen kinno!');
+weather === "päikeseline"
+  ? console.log("Lähen randa!")
+  : console.log("Lähen kinno!");
 ```
 
 See näide on ekvivalentne eelmisele näitele `if-else` lausega.
@@ -230,15 +232,15 @@ See näide on ekvivalentne eelmisele näitele `if-else` lausega.
 ### Tingimuslause tigimuslause sees
 
 ```js
-let weather = 'vihmane';
+let weather = "vihmane";
 
-if (weather === 'päikeseline') {
-  console.log('Lähen randa!');
+if (weather === "päikeseline") {
+  console.log("Lähen randa!");
 } else {
-  if (weather === 'vihmane') {
-    console.log('Lähen kinno!');
+  if (weather === "vihmane") {
+    console.log("Lähen kinno!");
   } else {
-    console.log('Jään koju!');
+    console.log("Jään koju!");
   }
 }
 ```
@@ -266,17 +268,17 @@ Näiteks:
 let x = 5;
 
 if (x) {
-  console.log('x on tõene'); // see prinditakse konsooli, sest 5 tõlgendatakse tõeseks
+  console.log("x on tõene"); // see prinditakse konsooli, sest 5 tõlgendatakse tõeseks
 } else {
-  console.log('x on väär');
+  console.log("x on väär");
 }
 
 x = 0;
 
 if (x) {
-  console.log('x on tõene');
+  console.log("x on tõene");
 } else {
-  console.log('x on väär'); // see prinditakse konsooli, sest 0 tõlgendatakse vääraks
+  console.log("x on väär"); // see prinditakse konsooli, sest 0 tõlgendatakse vääraks
 }
 ```
 
@@ -307,11 +309,12 @@ Testi oma koodi erinevate väärtustega.
 let number = 5;
 
 if (number > 0) {
-  console.log('Number on positiivne');
+  console.log("Number on positiivne");
 }
 ```
 
 ![If tingimuslause](if.gif)
+
 </details>
 
 ### Harjutus 2 - If-Else-lause
@@ -327,9 +330,9 @@ if (number > 0) {
 let number = 5;
 
 if (number % 2 === 0) {
-  console.log('Arv on paaris');
+  console.log("Arv on paaris");
 } else {
-  console.log('Arv on paaritu');
+  console.log("Arv on paaritu");
 }
 ```
 
@@ -339,13 +342,14 @@ if (number % 2 === 0) {
 
 **Eesmärk**: Hinnete klassifitseerimine.
 
-**Kirjeldus**: Kirjuta JavaScripti programm, mis klassifitseerib õpilaste hindeid. Programm peaks võtma arvu (`0-100`) ja klassifitseerima selle järgmiselt:
+**Kirjeldus**: Kirjuta JavaScripti programm, mis klassifitseerib õpilaste hindeid punktide alusel. Programm peaks võtma punktid (`0-100`) ja klassifitseerima hinded järgmiselt:
 
 - `A`: 90 ja üle selle
 - `B`: 80 kuni 89
 - `C`: 70 kuni 79
 - `D`: 60 kuni 69
-- `F`: alla 60
+- `E`: 50 kuni 59
+- `F`: alla 50
 
 Väljasta hinne.
 

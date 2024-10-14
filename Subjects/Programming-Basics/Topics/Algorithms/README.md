@@ -68,11 +68,11 @@ Näiteks järgmine voodiagramm kirjeldab algoritmi samme, mis arvutab ja väljas
 
 ```mermaid
 graph TD;
-    A[Alusta] --> B{{Sisesta number1}};
-    B --> C{{Sisesta number2}};
+    A((Algus)) --> B[/Sisesta number1/];
+    B --> C[/Sisesta number2/];
     C --> D[Summa = number1 + number2];
     D --> E[Väljasta summa];
-    E --> F[Lõpeta];
+    E --> F((Lõpp));
 ```
 
 Voodiagrammides kasutatakse järgmisi sümboleid algoritmi erinevate sammude esindamiseks:
@@ -85,7 +85,7 @@ graph TD;
     C -->|Ei| E[Teine protsess]
     D --> F((Lõpeta))
     E -->|Ühendub| G[Alamprotseduur]
-    G --> H{{Käsitsi sisestus}}
+    G --> H[/Käsitsi sisestus/]
     H --> I[Dokumendi genereerimine]
     I --> J[(Andmebaasi interaktsioon)]
     J --> F
@@ -103,11 +103,11 @@ Algoritm, mis võtab sisendiks kaks numbrit ja prindib nende kahe numbri summa.
 <summary>Lahendus</summary>
 ```mermaid
 graph TD;
-    A[Alusta] --> B{{Sisesta number1}};
-    B --> C{{Sisesta number2}};
+    A((Algus)) --> B[/Sisesta number1/];
+    B --> C[/Sisesta number2/];
     C --> D[Summa = number1 + number2];
     D --> E[Prindi summa];
-    E --> F[Lõpeta];
+    E --> F((Lõpp));
 ```
 </details>
 

@@ -449,6 +449,42 @@ if (firstName) {
 
 ---
 
+## Loogilised operaatorid ja tingimused
+
+Loogilisi operaatoreid kasutatakse tingimuslausetes, et kontrollida mitut tingimust.
+
+---
+
+## Loogiliste avaldiste tabel
+
+| `A`   | `B`   | `A && B` | `A \|\| B` | `!A`  |
+| ----- | ----- | -------- | ---------- | ----- |
+| false | false | false    | false      | true  |
+| false | true  | false    | true       | true  |
+| true  | false | false    | true       | false |
+| true  | true  | true     | true       | false |
+
+---
+
+## Mitu tingimust `if` lauses
+
+```javascript
+let weather = "vihmane";
+let time = "õhtu";
+
+if (weather === "päikeseline" && time === "õhtu") {
+  console.log("Lähen randa!");
+} else {
+  console.log("Lähen kinno!");
+}
+```
+
+---
+
+## Harjutused
+
+---
+
 ## Millest me täna rääkisime?
 
 ---

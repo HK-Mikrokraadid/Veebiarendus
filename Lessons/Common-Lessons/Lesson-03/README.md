@@ -32,11 +32,11 @@ Programmeerimise poole pealt räägime algoritmidest, mida tähendab tõepärasu
 
 ## Kodune töö - tähtaeg: enne järgmist loengut
 
-- Loe läbi tänase loengu materjalid
 - Tee läbi materjalides olevad harjutused (need, mis puudutavad tänaseid teemasid)
   - [Algoritmid](../../../Subjects/Programming-Basics/Topics/Algorithms/README.md#harjutused)
-  - [Massiivid](../../../Subjects/Programming-Basics/Topics/Arrays/README.md#harjutused) (Ainult massiivide kohta käivad ülesanded)
-  - [Massiivide lisaülesanded](../../../Subjects/Programming-Basics/Topics/Data-Structures/Exercises-Arrays.md) (Soovi korral)
+  - [Massiivid](../../../Subjects/Programming-Basics/Topics/Arrays/README.md#harjutused)
+  - [Massiivide lisaülesanded](../../../Subjects/Programming-Basics/Topics/Arrays/Exercises-Arrays.md) (Soovi korral)
   - [Tsüklid](../../../Subjects/Programming-Basics/Topics/Loops/README.md#harjutused)
   - [Tsüklite lisaülesanded](../../../Subjects/Programming-Basics/Topics/Loops/Exercises.md) (Soovi korral)
 - Esita kodune töö läbi koodi ülevaatuse (`Code review`)
+- Loe läbi [järgmise loengu materjalid](../Lesson-04/README.md)
