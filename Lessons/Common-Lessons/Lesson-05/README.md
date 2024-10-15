@@ -1,6 +1,6 @@
 # Viies loeng
 
-Nagu tavajs on saanud, siis alustame eelmiste loengute meenutamisega ja koduste tööde tagasisidestamisega. Jätkame tarkvaraarenduse teemadega, räägime nõuetest ja kasutajauuringutest.
+Nagu tavaks on saanud, siis alustame eelmiste loengute meenutamisega ja koduste tööde tagasisidestamisega. Jätkame tarkvaraarenduse teemadega, räägime nõuetest ja kasutajauuringutest.
 
 Programmeerimise poole pealt räägime funktsioonidest ja erinevatest enimkasutatavatest Javascripti sisseehitatud funktsioonidest.
 

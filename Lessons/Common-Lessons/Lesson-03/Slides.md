@@ -33,6 +33,7 @@ Martti Raavel
   - Sageli saab järjekorra abil tingimusi lihtsustada
 - `if - else if - else` laused
   - Viimast tingimust ei ole sageli vaja välja kirjutada - selle asemel saab kasutada `else`-i
+  - Muutujate nimetamine
 
 ---
 
