@@ -26,17 +26,6 @@ Martti Raavel
 
 ---
 
-## Kodutööde ajal tekkinud probleemid
-
-- `Issue`-de sulgemine ja tagasiside
-- `if` lausetes tingimuste järjekord
-  - Sageli saab järjekorra abil tingimusi lihtsustada
-- `if - else if - else` laused
-  - Viimast tingimust ei ole sageli vaja välja kirjutada - selle asemel saab kasutada `else`-i
-  - Muutujate nimetamine
-
----
-
 ## Koodi kvaliteet - Arutelu
 
 ![Koodi kvaliteet](../../../Subjects/Software-Development/Topics/Code-Quality/Code-Quality.png)
@@ -301,15 +290,50 @@ Tarkvaraarenduse valdkonnas võivad isikud täita erinevaid rolle, millest igaü
 
 ---
 
-## Kodutööde ajal tekkinud probleemid ja tähelepanekud
+## Kodutööde ajal tekkinud probleemid
 
-- Kodused tööd eraldi failidesse
-  - Kodused tööd hakkavad tulema `Issue`-na
-- `let` vs `const`
-- vahemike kontrollimine
-- loogilised tehted
-- kuidas käitub `%` operaator?
-- maagilised numbrid
+- `Issue`-de sulgemine ja tagasiside
+- `if` lausetes tingimuste järjekord
+  - Sageli saab järjekorra abil tingimusi lihtsustada
+- `if - else if - else` laused
+  - Viimast tingimust ei ole sageli vaja välja kirjutada - selle asemel saab kasutada `else`-i
+  - Muutujate nimetamine
+
+---
+
+## Koodinäide `if - else if - else`
+
+```javascript
+let age = 19;
+
+if (age <= 13) {
+  console.log("Laps");
+} else if (age > 13 && age <= 19) {
+  console.log("Teismeline");
+} else if (age > 19 && age <= 65) {
+  console.log("Täiskasvanu");
+} else {
+  console.log("Seenior");
+}
+```
+
+---
+
+## Koodinäide `if - else if - else` - lihtsustatud
+
+```javascript
+let age = 19;
+
+if (age <= 13) {
+  console.log("Laps");
+} else if (age <= 19) {
+  console.log("Teismeline");
+} else if (age <= 65) {
+  console.log("Täiskasvanu");
+} else {
+  console.log("Seenior");
+}
+```
 
 ---
 
