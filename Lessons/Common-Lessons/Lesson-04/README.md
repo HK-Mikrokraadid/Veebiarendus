@@ -9,6 +9,7 @@ Programmeerimise poole pealt räägime andmestruktuuridest, eriti objektidest ja
 - [Neljanda loengu salvestus]()
 - [Viies loeng](../Lesson-05/README.md)
 - [Zoomi link]()
+- [Neljanda loengu harjutuste lahendused](../../../Subjects/Programming-Basics/Solutions/Arrays/README.md)
 
 ## Teemad
 
