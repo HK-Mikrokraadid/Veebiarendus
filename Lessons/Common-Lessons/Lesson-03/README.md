@@ -6,8 +6,9 @@ Programmeerimise poole pealt räägime algoritmidest, mida tähendab tõepärasu
 
 - [Teine loeng](../Lesson-02/README.md)
 - [Kolmanda loengu slaidid](Slides.md)
-- [Kolmanda loengu salvestus]()
+- [Kolmanda loengu salvestus](https://youtu.be/r2ihCUA6M0s)
 - [Neljas loeng](../Lesson-04/README.md)
+- [Eelmise loengu harjutuste lahendused](../../../Subjects/Programming-Basics/Solutions/Conditionals/README.md)
 
 ## Teemad
 
