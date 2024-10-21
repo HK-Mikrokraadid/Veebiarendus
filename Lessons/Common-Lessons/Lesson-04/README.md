@@ -9,7 +9,8 @@ Programmeerimise poole pealt räägime andmestruktuuridest, eriti objektidest ja
 - [Neljanda loengu salvestus]()
 - [Viies loeng](../Lesson-05/README.md)
 - [Zoomi link]()
-- [Neljanda loengu harjutuste lahendused](../../../Subjects/Programming-Basics/Solutions/Arrays/README.md)
+- [Neljanda loengu harjutuste lahendused (massiivid)](../../../Subjects/Programming-Basics/Solutions/Arrays/README.md)
+- [Neljanda loengu harjutuste lahendused (tsüklid)](../../../Subjects/Programming-Basics/Solutions/Loops/README.md)
 
 ## Teemad
 
@@ -18,7 +19,6 @@ Programmeerimise poole pealt räägime andmestruktuuridest, eriti objektidest ja
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [Koodi ülevaatuse juhend](../../../Subjects/Software-Development/Topics/Code-Review-Guide/README.md)
-- Kuidas teiste koodi käivitada saab?
 - [Dokumentatsioon](../../../Subjects/Software-Development/Topics/Documentation/README.md)
 
 ### Programmeerimine

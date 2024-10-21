@@ -15,7 +15,6 @@ Martti Raavel
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [Koodi ülevaatuse juhend](../../../Subjects/Software-Development/Topics/Code-Review-Guide/README.md)
-- Kuidas teiste koodi käivitada saab?
 - [Dokumentatsioon](../../../Subjects/Software-Development/Topics/Documentation/README.md)
 
 ---
@@ -26,10 +25,7 @@ Martti Raavel
 
 ## Koduste tööde ajal tekkinud probleemid
 
-- Koodi ülevaatus
-- Ülevaataja määramine
-- Kes ühendab koodi tagasi peaharusse?
-- Algoritmide IF lause
+- Edaspidi iga ülesanne eraldi failis
 
 ---
 
