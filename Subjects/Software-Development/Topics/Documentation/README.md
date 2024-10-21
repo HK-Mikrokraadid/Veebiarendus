@@ -12,6 +12,7 @@ Pildi allikas: Dall-E by OpenAI
   - [Dokumentatsiooni tüübid](#dokumentatsiooni-tüübid)
   - [Dokumentatsiooni koostamise tööriistad](#dokumentatsiooni-koostamise-tööriistad)
   - [Tarkvaraarenduse dokumentatsiooni loomine](#tarkvaraarenduse-dokumentatsiooni-loomine)
+  - [Dokumentatsiooni näidised](#dokumentatsiooni-näidised)
   - [Harjutused](#harjutused)
 
 Tarkvaraarenduses viitab dokumentatsioon kirjalikele materjalidele, mis kirjeldavad tarkvaralahenduse funktsioone, arhitektuuri, disaini või kasutamist. See hõlmab kõiki andmeid, mida on vaja tarkvara mõistmiseks, sellega suhtlemiseks ja selle hooldamiseks.
@@ -78,6 +79,18 @@ Mõned näpunäited tõhusa tarkvaraarenduse dokumentatsiooni koostamiseks on j�
 Üldiselt nõuab tõhusa tarkvaraarenduse dokumentatsiooni loomine hoolikat planeerimist, kirjutamist, testimist ja hooldust. Järgides neid samme ja parimaid tavasid, saate luua dokumentatsiooni, mis aitab tagada teie tarkvaraprojekti edu.
 
 Kokkuvõttes on dokumentatsioon tarkvaraarenduse oluline aspekt, mis tagab selguse, järjepidevuse ja sujuva toimimise tarkvara elutsükli erinevatel etappidel. Nõuetekohane dokumentatsioon vähendab uute meeskonnaliikmete õpikõverat, aitab tõrkeotsingul ja parandab üldist tarkvara kvaliteeti ning kasutajakogemust.
+
+## Dokumentatsiooni näidised
+
+- [Projekti dokumentatsioon](Project.md)
+- [Rakenduse nõuded](Requirements.md)
+- [Protsessi dokumentatsioon](Process.md)
+- [Tehniline dokumentatsioon](Technical.md)
+- [Arhitektuuri- ja disainidokumentatsioon](Architecture.md)
+- [API dokumentatsioon](API.md)
+- [Testimise dokumentatsioon](Testing.md)
+- [Hooldus- ja abijuhendid](Maintenance.md)
+- [Kasutusjuhend](UserManual.md)
 
 ## Harjutused
 

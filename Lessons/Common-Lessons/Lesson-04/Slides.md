@@ -26,6 +26,7 @@ Martti Raavel
 ## Koduste tööde ajal tekkinud probleemid
 
 - Edaspidi iga ülesanne eraldi failis
+- Kodutöö branchi loomine läbi `Issue`
 
 ---
 
@@ -63,6 +64,10 @@ Tarkvaraarenduses viitab dokumentatsioon kirjalikele materjalidele, mis kirjelda
 - Hooldus- ja abijuhendid
 - Protsessi dokumentatsioon
 - Rakendusliidese (API - Application Programming Interface) dokumentatsioon
+
+---
+
+## Dokumentatsioon - näited
 
 ---
 
@@ -111,6 +116,12 @@ const person = {
 ---
 
 ## Harjutused
+
+- Objekti loomine
+- Objekti manipuleerimine
+- Objekti omaduste lisamine
+- Objekti omaduste eemaldamine
+- Objektid massiivis
 
 ---
 

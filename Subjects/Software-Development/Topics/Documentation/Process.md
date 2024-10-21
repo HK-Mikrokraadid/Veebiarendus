@@ -54,6 +54,6 @@ graph TD;
 - **Tagasiside kasutamine:** Kasutage õpetaja antud tagasisidet, et parandada oma oskusi ja saavutada paremaid tulemusi edaspidistes ülesannetes.
 - **Küsimuste korral abi küsimine:** Ärge kartke pöörduda kasutajatoe poole, kui vajate abi või selgitusi süsteemi kasutamise kohta.
 
-## 5. Järeldus
+## 5. Kokkuvõte
 
 Kasutaja vaates protsessi dokumentatsioon aitab lõppkasutajal mõista, milliseid samme tuleb teha süsteemi tõhusaks kasutamiseks. Õige tegevuste järjekorra järgimine tagab, et kasutaja saab parima võimaliku kogemuse ja suudab süsteemi võimalusi täielikult ära kasutada.
