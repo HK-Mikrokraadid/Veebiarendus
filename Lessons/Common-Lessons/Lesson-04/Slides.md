@@ -33,10 +33,6 @@ Martti Raavel
 
 ---
 
-## Kuidas teiste koodi käivitada saab?
-
----
-
 ## Dokumentatsioon - Arutelu
 
 ---
