@@ -8,6 +8,7 @@ Programmeerimise poole pealt räägime funktsioonidest ja erinevatest enimkasuta
 - [Viienda loengu slaidid](Slides.md)
 - [Viienda loengu salvestus]()
 - [Kuues loeng](../Lesson-06/README.md)
+- [Neljanda loengu harjutuste lahendused]()
 
 ## Teemad
 

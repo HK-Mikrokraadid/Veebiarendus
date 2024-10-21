@@ -10,6 +10,113 @@ Martti Raavel
 
 ---
 
+## Tänane loeng
+
+- Eelmise loengu meeldetuletus
+- Kodutööde ajal tekkinud probleemide lahendamine
+- Programmeerimine
+  - [Funktsioonid](../../../Subjects/Programming-Basics/Topics/Functions/README.md)
+- Tarkvaraarendus
+  - Nõuded ja kasutajauuringud
+    - [Lähteülesanne](../../../Subjects/Software-Development/Topics/Brief/README.md)
+    - [Persoona](../../../Subjects/Software-Development/Topics/Persona/README.md)
+    - [Kasutajalood](../../../Subjects/Software-Development/Topics/User-Stories/README.md)
+    - [Stsenaarium](../../../Subjects/Software-Development/Topics/Scenario/README.md)
+    - [Kasutaja teekonnad](../../../Subjects/Software-Development/Topics/User-Journey/README.md)
+
+---
+
+## Programmeerimine
+
+- Eelmise loengu meeldetuletus
+- Kodutööde ajal tekkinud probleemide lahendamine
+- [Funktsioonid](../../../Subjects/Programming-Basics/Topics/Functions/README.md)
+
+---
+
+## Eelmise loengu meeldetuletus
+
+---
+
+## Koduste tööde ajal tekkinud probleemid
+
+---
+
+## Funktsioon - Mis?
+
+Funktsioon on korduvkasutatav koodiplokk, mis on mõeldud teatud ülesande täitmiseks.
+
+Funktsioone kasutatakse koodi korraldamiseks loogilistesse üksustesse, mida saab programmi teistes osades uuesti kasutada.
+
+---
+
+## Funktsioon - Näide
+
+```javascript
+function add(a, b) {
+  const sum = a + b;
+  return sum;
+}
+```
+
+---
+
+## Funktsioon - Koosneb
+
+- märksõna funktsiooni deklareerimiseks
+- funktsiooni nimi
+- funktsiooni parameetrid (valikuline)
+- funktsiooni sisu
+- tagastusavaldus (valikuline)
+- tagastusväärtus (valikuline)
+
+---
+
+## Funktsiooni deklareerimine
+
+Javascriptis saame funktsioone deklareerida kahel viisil:
+
+- funktsiooni deklaratsioon;
+- funktsiooni avaldis.
+
+---
+
+## Funktsiooni deklaratsioon
+
+```javascript
+function functionName(parameter1, parameter2) {
+  // funktsiooni sisu
+  return value;
+}
+```
+
+---
+
+## Funktsiooni avaldis
+
+```javascript
+const add = function (a, b) {
+  const sum = a + b;
+  return sum;
+};
+```
+
+---
+
+## Funktsiooni väljakutsumine (käivitamine)
+
+```javascript
+const sum = add(1, 2);
+
+console.log(sum); // 3
+```
+
+---
+
+## Harjutused
+
+---
+
 ## Tarkvaraarendus
 
 - Eelmise loengu meeldetuletus
@@ -285,96 +392,3 @@ Tüüpiline kasutaja teekond võib sisaldada mitmeid võtmeetappe, näiteks:
 - Esmalt määratakse persoona ja stsenaarium, samuti eesmärgid.
 - Teisena on kaardistuse keskmes kogemuse visualiseering, mis jaotatakse mitmeks etapiks.
 - Kolmanda osa moodustavad tähelepanekud ja võimalused edasiseks ning vastutajad.
-
----
-
-## Programmeerimine
-
-- Eelmise loengu meeldetuletus
-- Kodutööde ajal tekkinud probleemide lahendamine
-- [Funktsioonid](../../../Subjects/Programming-Basics/Topics/Functions/README.md)
-
----
-
-## Eelmise loengu meeldetuletus
-
----
-
-## Koduste tööde ajal tekkinud probleemid
-
----
-
-## Funktsioon - Mis?
-
-Funktsioon on korduvkasutatav koodiplokk, mis on mõeldud teatud ülesande täitmiseks.
-
-Funktsioone kasutatakse koodi korraldamiseks loogilistesse üksustesse, mida saab programmi teistes osades uuesti kasutada.
-
----
-
-## Funktsioon - Näide
-
-```javascript
-function add(a, b) {
-  const sum = a + b;
-  return sum;
-}
-```
-
----
-
-## Funktsioon - Koosneb
-
-- märksõna funktsiooni deklareerimiseks
-- funktsiooni nimi
-- funktsiooni parameetrid (valikuline)
-- funktsiooni sisu
-- tagastusavaldus (valikuline)
-- tagastusväärtus (valikuline)
-
----
-
-## Funktsiooni deklareerimine
-
-Javascriptis saame funktsioone deklareerida kahel viisil:
-
-- funktsiooni deklaratsioon;
-- funktsiooni avaldis.
-
----
-
-## Funktsiooni deklaratsioon
-
-```javascript
-function functionName(parameter1, parameter2) {
-  // funktsiooni sisu
-  return value;
-}
-```
-
----
-
-## Funktsiooni avaldis
-
-```javascript
-const add = function (a, b) {
-  const sum = a + b;
-  return sum;
-};
-```
-
----
-
-## Funktsiooni väljakutsumine (käivitamine)
-
-```javascript
-const sum = add(1, 2);
-
-console.log(sum); // 3
-```
-
----
-
-## Harjutused
-
----
