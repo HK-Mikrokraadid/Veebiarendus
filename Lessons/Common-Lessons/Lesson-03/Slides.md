@@ -10,10 +10,317 @@ Martti Raavel
 
 ---
 
-## Tarkvaraarendus
+## Tänane loeng
 
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemid
+- Programmeerimine
+  - Massiivid
+  - Tsüklid
+- Tarkvaraarendus
+  - Koodi kvaliteet
+  - Koodi ülevaatus (Code review)
+  - Tarkvaraarenduse elutsükkel
+  - Tarkvaraarenduse meetodid
+  - Rollid tarkvaraarenduses
+
+---
+
+## Eelmise loengu meeldetuletus
+
+---
+
+## Kodutööde ajal tekkinud probleemid
+
+- `Issue`-de sulgemine ja tagasiside
+- `if` lausetes tingimuste järjekord
+  - Sageli saab järjekorra abil tingimusi lihtsustada
+- `if - else if - else` laused
+  - Viimast tingimust ei ole sageli vaja välja kirjutada - selle asemel saab kasutada `else`-i
+  - Muutujate nimetamine
+
+---
+
+## Koodinäide `if - else if - else`
+
+```javascript
+let age = 19;
+
+if (age <= 13) {
+  console.log("Laps");
+} else if (age > 13 && age <= 19) {
+  console.log("Teismeline");
+} else if (age > 19 && age <= 65) {
+  console.log("Täiskasvanu");
+} else {
+  console.log("Seenior");
+}
+```
+
+---
+
+## Koodinäide `if - else if - else` - lihtsustatud
+
+```javascript
+let age = 19;
+
+if (age <= 13) {
+  console.log("Laps");
+} else if (age <= 19) {
+  console.log("Teismeline");
+} else if (age <= 65) {
+  console.log("Täiskasvanu");
+} else {
+  console.log("Seenior");
+}
+```
+
+---
+
+## Programmeerimine
+
+- Algoritmid
+- Massiivid
+- Tsüklid
+- Harjutused
+
+---
+
+## Algoritmid - Arutelu
+
+---
+
+## Algoritmid
+
+Algoritm on kindlaksmääratud, selgelt defineeritud juhiste või samm-sammulise protsessi kogum, mille eesmärk on sooritada ülesanne või lahendada probleem.
+
+---
+
+## Algoritmid - Kuidas alustada?
+
+- Mõista probleemi
+- Tuvasta sisendid ja väljundid
+- Tuvasta sammud, mida on vaja probleemi lahendamiseks
+- Kirjuta algoritm pseudokoodis või joonistada voodiagramm
+- Testi algoritmi erinevate sisenditega
+- Vajadusel täiusta algoritmi
+
+---
+
+## Algoritmid - Pseudokood 1
+
+Pseudokood on lihtne, mitteametlik keel, mida kasutatakse algoritmi sammude kirjeldamiseks. See ei ole otseselt programmeerimiskeel, kuid see võib olla programmeerimiskeele sarnane. Pseudokoodi kasutatakse algoritmi sammude kirjeldamiseks viisil, mis on lihtne mõista.
+
+---
+
+## Algoritmid - Pseudokood 2
+
+```bash
+ALUSTA
+LOE number1
+LOE number2
+summa = number1 + number2
+VÄLJASTA summa
+LÕPETA
+```
+
+---
+
+## Algoritmid - Voodiagramm
+
+Voodiagramm on visuaalne esitus algoritmi sammudest ja nende järjestusest. Voodiagramm koosneb erinevatest kujunditest, mis tähistavad algoritmi erinevaid samme, nagu tegevused, otsused ja loogilised operatsioonid.
+
+---
+
+## Algoritmid - Voodiagramm
+
+![Voodiagramm](Algoritm_valgusfoor.png)
+
+---
+
+## Algoritmid - voodiagrammi sümbolid
+
+![Algoritmi sümbolid](Algoritm_symbolid.png)
+
+---
+
+## Algoritmid - Harjutused
+
+- Paaris või paaritu arv
+- Pangaautomaadist raha välja võtmine
+- ...
+
+---
+
+## Programmeerimine
+
+---
+
+## Massiivid
+
+Massiiv on väärtuste kogum, mis on salvestatud ühte muutujasse. Tavaliselt kasutatakse massiive omavahel seotud andmekogumite salvestamiseks.
+
+---
+
+## Massiivi deklareerimine
+
+```js
+const numbers = [1, 2, 3];
+const fruits = ["õun", "pirn", "banaan"];
+const mixed = [1, "õun", true];
+```
+
+---
+
+## Massiivi elementidele ligipääs
+
+- Igal elemendil on oma indeks (järjekorranumber)
+- Indeks algab nullist
+- Ligipääs elemendile: `massiiv[indeks]`
+- Massiivi pikkus: `massiiv.length`
+
+```js
+const numbers = [1, 2, 3];
+
+console.log(numbers[0]); // 1
+
+console.log(numbers.length); // 3
+```
+
+---
+
+## Massiivi elementide muutmine
+
+```js
+const numbers = [1, 2, 3];
+
+numbers[0] = 10;
+
+console.log(numbers); // [10, 2, 3]
+```
+
+---
+
+## Massivid - Harjutused
+
+---
+
+## Tsüklid - Arutelu
+
+---
+
+## Tsüklid - Tüübid
+
+- `for`
+- `while`
+- `do...while`
+
+---
+
+## `for` tsükkel
+
+`for` tsüklit kasutatakse koodiploki teatud arv kordi kordamiseks. `for` tsükkel koosneb kolmest osast: **algväärtustamine**, **tingimus** ja **suurendamine/vähendamine**.
+
+---
+
+## `for` tsükli süntaks
+
+```js
+for (algväärtustamine; tingimus; suurendamine / vähendamine) {
+  // kood, mida kordame
+}
+```
+
+---
+
+## `for` tsükli näide
+
+```js
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+```
+
+---
+
+## `while` tsükkel
+
+`while` tsüklit kasutatakse koodiploki kordamiseks seni, kuni teatud tingimus on tõene. `while` tsükkel koosneb **tingimusest** ja **koodiplokist**.
+
+---
+
+## `while` tsükli süntaks
+
+```js
+while (tingimus) {
+  // kood, mida kordame
+}
+```
+
+---
+
+## `while` tsükkel - NB!
+
+`while` tsüklil ei ole sisseehitatud **algväärtustamise** osa, ega loenduri **suurendamise/vähendamise** osa. Seetõttu peame `while` tsüklit kasutades olema ettevaatlikud, sest loenduri muutmata jätmine võib põhjustada lõputu tsükli.
+
+---
+
+## `while` tsükli näide
+
+```js
+let i = 0;
+
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+```
+
+---
+
+## `do...while` tsükkel
+
+`do...while` tsükkel on teist tüüpi tsükkel, mida kasutatakse koodiploki kordamiseks seni, kuni teatud tingimus on tõene.
+
+Erinevus eelmiste tsüklitega seisneb selles, et eelmiste tsüklite puhul kontrolliti tsükli täitmise tingimust enne koodiploki täitmist, kuid `do...while` tsükli puhul kontrollitakse tingimust pärast koodiploki täitmist. See tähendab, et `do...while` tsükli puhul täidetakse koodiplokk alati vähemalt üks kord, isegi kui tingimus ei ole tõene.
+
+---
+
+## `do...while` tsükli süntaks
+
+```js
+do {
+  // kood, mida kordame
+} while (tingimus);
+```
+
+---
+
+## `do...while` tsükli näide
+
+```js
+let i = 0;
+
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+```
+
+---
+
+## Harjutused
+
+- korrutustabel
+- paaris või paaritu arv
+- elementide kuvamine massiivist
+- käibemaksu lisamine hinnale
+- ...
+
+---
+
+## Tarkvaraarendus
+
 - Koodi kvaliteet
 - Koodi ülevaatus (Code review)
 - Tarkvaraarenduse elutsükkel
@@ -276,297 +583,6 @@ Tarkvaraarenduse valdkonnas võivad isikud täita erinevaid rolle, millest igaü
 - **Klienditugi:** Kliendiküsimuste ja probleemide lahendamine.
 - **Turvainsener:** Tarkvara turvalisuse tagamine ja haavatavuste tuvastamine.
 - **Tehniline kirjutaja:** Tehniliste dokumentide ja juhendite koostamine.
-
----
-
-## Programmeerimine
-
-- Eelmise loengu meeldetuletus
-- Kodutööde ajal tekkinud probleemid/tähelepanekud
-- Algoritmid
-- Massiivid
-- Tsüklid
-- Harjutused
-
----
-
-## Kodutööde ajal tekkinud probleemid
-
-- `Issue`-de sulgemine ja tagasiside
-- `if` lausetes tingimuste järjekord
-  - Sageli saab järjekorra abil tingimusi lihtsustada
-- `if - else if - else` laused
-  - Viimast tingimust ei ole sageli vaja välja kirjutada - selle asemel saab kasutada `else`-i
-  - Muutujate nimetamine
-
----
-
-## Koodinäide `if - else if - else`
-
-```javascript
-let age = 19;
-
-if (age <= 13) {
-  console.log("Laps");
-} else if (age > 13 && age <= 19) {
-  console.log("Teismeline");
-} else if (age > 19 && age <= 65) {
-  console.log("Täiskasvanu");
-} else {
-  console.log("Seenior");
-}
-```
-
----
-
-## Koodinäide `if - else if - else` - lihtsustatud
-
-```javascript
-let age = 19;
-
-if (age <= 13) {
-  console.log("Laps");
-} else if (age <= 19) {
-  console.log("Teismeline");
-} else if (age <= 65) {
-  console.log("Täiskasvanu");
-} else {
-  console.log("Seenior");
-}
-```
-
----
-
-## Algoritmid - Arutelu
-
----
-
-## Algoritmid
-
-Algoritm on kindlaksmääratud, selgelt defineeritud juhiste või samm-sammulise protsessi kogum, mille eesmärk on sooritada ülesanne või lahendada probleem.
-
----
-
-## Algoritmid - Kuidas alustada?
-
-- Mõista probleemi
-- Tuvasta sisendid ja väljundid
-- Tuvasta sammud, mida on vaja probleemi lahendamiseks
-- Kirjuta algoritm pseudokoodis või joonistada voodiagramm
-- Testi algoritmi erinevate sisenditega
-- Vajadusel täiusta algoritmi
-
----
-
-## Algoritmid - Pseudokood 1
-
-Pseudokood on lihtne, mitteametlik keel, mida kasutatakse algoritmi sammude kirjeldamiseks. See ei ole otseselt programmeerimiskeel, kuid see võib olla programmeerimiskeele sarnane. Pseudokoodi kasutatakse algoritmi sammude kirjeldamiseks viisil, mis on lihtne mõista.
-
----
-
-## Algoritmid - Pseudokood 2
-
-```bash
-ALUSTA
-LOE number1
-LOE number2
-summa = number1 + number2
-VÄLJASTA summa
-LÕPETA
-```
-
----
-
-## Algoritmid - Voodiagramm
-
-Voodiagramm on visuaalne esitus algoritmi sammudest ja nende järjestusest. Voodiagramm koosneb erinevatest kujunditest, mis tähistavad algoritmi erinevaid samme, nagu tegevused, otsused ja loogilised operatsioonid.
-
----
-
-## Algoritmid - Voodiagramm
-
-![Voodiagramm](Algoritm_valgusfoor.png)
-
----
-
-## Algoritmid - voodiagrammi sümbolid
-
-![Algoritmi sümbolid](Algoritm_symbolid.png)
-
----
-
-## Algoritmid - Harjutused
-
-- Paaris või paaritu arv
-- Pangaautomaadist raha välja võtmine
-- ...
-
----
-
-## Programmeerimine
-
----
-
-## Massiivid
-
-Massiiv on väärtuste kogum, mis on salvestatud ühte muutujasse. Tavaliselt kasutatakse massiive omavahel seotud andmekogumite salvestamiseks.
-
----
-
-## Massiivi deklareerimine
-
-```js
-const numbers = [1, 2, 3];
-const fruits = ["õun", "pirn", "banaan"];
-const mixed = [1, "õun", true];
-```
-
----
-
-## Massiivi elementidele ligipääs
-
-- Igal elemendil on oma indeks (järjekorranumber)
-- Indeks algab nullist
-- Ligipääs elemendile: `massiiv[indeks]`
-- Massiivi pikkus: `massiiv.length`
-
-```js
-const numbers = [1, 2, 3];
-
-console.log(numbers[0]); // 1
-
-console.log(numbers.length); // 3
-```
-
----
-
-## Massiivi elementide muutmine
-
-```js
-const numbers = [1, 2, 3];
-
-numbers[0] = 10;
-
-console.log(numbers); // [10, 2, 3]
-```
-
----
-
-## Massivid - Harjutused
-
----
-
-## Tsüklid - Arutelu
-
----
-
-## Tsüklid - Tüübid
-
-- `for`
-- `while`
-- `do...while`
-
----
-
-## `for` tsükkel
-
-`for` tsüklit kasutatakse koodiploki teatud arv kordi kordamiseks. `for` tsükkel koosneb kolmest osast: **algväärtustamine**, **tingimus** ja **suurendamine/vähendamine**.
-
----
-
-## `for` tsükli süntaks
-
-```js
-for (algväärtustamine; tingimus; suurendamine / vähendamine) {
-  // kood, mida kordame
-}
-```
-
----
-
-## `for` tsükli näide
-
-```js
-for (let i = 0; i < 5; i++) {
-  console.log(i);
-}
-```
-
----
-
-## `while` tsükkel
-
-`while` tsüklit kasutatakse koodiploki kordamiseks seni, kuni teatud tingimus on tõene. `while` tsükkel koosneb **tingimusest** ja **koodiplokist**.
-
----
-
-## `while` tsükli süntaks
-
-```js
-while (tingimus) {
-  // kood, mida kordame
-}
-```
-
----
-
-## `while` tsükkel - NB!
-
-`while` tsüklil ei ole sisseehitatud **algväärtustamise** osa, ega loenduri **suurendamise/vähendamise** osa. Seetõttu peame `while` tsüklit kasutades olema ettevaatlikud, sest loenduri muutmata jätmine võib põhjustada lõputu tsükli.
-
----
-
-## `while` tsükli näide
-
-```js
-let i = 0;
-
-while (i < 5) {
-  console.log(i);
-  i++;
-}
-```
-
----
-
-## `do...while` tsükkel
-
-`do...while` tsükkel on teist tüüpi tsükkel, mida kasutatakse koodiploki kordamiseks seni, kuni teatud tingimus on tõene.
-
-Erinevus eelmiste tsüklitega seisneb selles, et eelmiste tsüklite puhul kontrolliti tsükli täitmise tingimust enne koodiploki täitmist, kuid `do...while` tsükli puhul kontrollitakse tingimust pärast koodiploki täitmist. See tähendab, et `do...while` tsükli puhul täidetakse koodiplokk alati vähemalt üks kord, isegi kui tingimus ei ole tõene.
-
----
-
-## `do...while` tsükli süntaks
-
-```js
-do {
-  // kood, mida kordame
-} while (tingimus);
-```
-
----
-
-## `do...while` tsükli näide
-
-```js
-let i = 0;
-
-do {
-  console.log(i);
-  i++;
-} while (i < 5);
-```
-
----
-
-## Harjutused
-
-- korrutustabel
-- paaris või paaritu arv
-- elementide kuvamine massiivist
-- käibemaksu lisamine hinnale
-- ...
 
 ---
 
