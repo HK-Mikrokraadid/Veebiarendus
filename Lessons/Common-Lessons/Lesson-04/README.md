@@ -6,7 +6,7 @@ Programmeerimise poole pealt räägime andmestruktuuridest, eriti objektidest ja
 
 - [Kolmas loeng](../Lesson-03/README.md)
 - [Neljanda loengu slaidid](Slides.md)
-- [Neljanda loengu salvestus]()
+- [Neljanda loengu salvestus](https://youtu.be/TbHJyI2NwlA)
 - [Viies loeng](../Lesson-05/README.md)
 - [Zoomi link](https://zoom.us/j/98412128345?pwd=jNcfZrAJXaJ2m8gJo3Rdlp8poazliv.1)
 - [Neljanda loengu harjutuste lahendused (massiivid)](../../../Subjects/Programming-Basics/Solutions/Arrays/README.md)
