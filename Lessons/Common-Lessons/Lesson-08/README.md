@@ -6,7 +6,7 @@ Kaheksandas loengus alustame ikka jälle eelmise loengu meeldetuletusega ja vaat
 - [Kaheksanda loengu slaidid](Slides.md)
 - [Kaheksanda loengu salvestus]()
 - [Üheksas loeng](../Lesson-09/README.md)
-- [Zoomi link]()
+- [Zoomi link](https://zoom.us/j/98412128345?pwd=jNcfZrAJXaJ2m8gJo3Rdlp8poazliv.1)
 
 ## Teemad
 
