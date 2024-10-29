@@ -12,17 +12,6 @@ Programmeerimise poole pealt räägime funktsioonidest ja erinevatest enimkasuta
 
 ## Teemad
 
-### Tarkvaraarendus
-
-- Eelmise loengu meeldetuletus
-- Kodutööde ajal tekkinud probleemide lahendamine
-- Nõuded ja kasutajauuringud
-  - [Lähteülesanne](../../../Subjects/Software-Development/Topics/Brief/README.md)
-  - [Kasutajalood](../../../Subjects/Software-Development/Topics/User-Stories/README.md)
-  - [Persoona](../../../Subjects/Software-Development/Topics/Persona/README.md)
-  - [Stsenaarium](../../../Subjects/Software-Development/Topics/Scenario/README.md)
-  - [Kasutaja teekond](../../../Subjects/Software-Development/Topics/User-Journey/README.md)
-
 ### Programmeerimine
 
 - Eelmise loengu meeldetuletus
@@ -34,6 +23,17 @@ Programmeerimise poole pealt räägime funktsioonidest ja erinevatest enimkasuta
   - Math.ceil()
   - Math.round()
 - Harjutused
+
+### Tarkvaraarendus
+
+- Eelmise loengu meeldetuletus
+- Kodutööde ajal tekkinud probleemide lahendamine
+- Nõuded ja kasutajauuringud
+  - [Lähteülesanne](../../../Subjects/Software-Development/Topics/Brief/README.md)
+  - [Kasutajalood](../../../Subjects/Software-Development/Topics/User-Stories/README.md)
+  - [Persoona](../../../Subjects/Software-Development/Topics/Persona/README.md)
+  - [Stsenaarium](../../../Subjects/Software-Development/Topics/Scenario/README.md)
+  - [Kasutaja teekond](../../../Subjects/Software-Development/Topics/User-Journey/README.md)
 
 ## Kodutöö - tähtaeg: enne ülejärgmist loengut
 
