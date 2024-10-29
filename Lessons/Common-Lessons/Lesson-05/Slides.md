@@ -16,6 +16,7 @@ Martti Raavel
 - Kodutööde ajal tekkinud probleemide lahendamine
 - Programmeerimine
   - [Funktsioonid](../../../Subjects/Programming-Basics/Topics/Functions/README.md)
+  - Javascripti sisseehitatud funktsioonid
 - Tarkvaraarendus
   - Nõuded ja kasutajauuringud
     - [Lähteülesanne](../../../Subjects/Software-Development/Topics/Brief/README.md)
@@ -39,6 +40,8 @@ Martti Raavel
 ---
 
 ## Koduste tööde ajal tekkinud probleemid
+
+- Template literali kasutamine
 
 ---
 
@@ -117,6 +120,16 @@ console.log(sum); // 3
 
 ---
 
+## Javascripti sisseehitatud funktsioonid
+
+- Math.random()
+- Math.floor()
+- Math.ceil()
+- Math.round()
+- ...
+
+---
+
 ## Tarkvaraarendus
 
 - Eelmise loengu meeldetuletus
@@ -181,7 +194,7 @@ Lähteülesanne veebilehe loomise kontekstis on dokument või juhend, mis sisald
 
 ## Lähteülesanne - Arutelu
 
-Blogi keskkonna loomine
+TODO rakenduse loomine
 
 ---
 
@@ -247,7 +260,7 @@ Seejärel kasutatakse seda teavet väljamõeldud isiku loomiseks, mis kehastab s
 
 ## Persoona - Harjutus
 
-Loo vähemalt üks persoona blogimise keskkonna kasutaja kohta.
+Loo vähemalt üks persoona TODO rakenduse kasutaja kohta.
 
 Võid kasutada selleks mõnda online tööriista, nt
 
@@ -299,9 +312,9 @@ Kasutajalood on levinud tehnika, mida kasutatakse agiilses tarkvaraarenduses, et
 
 ## Kasutajalood - Harjutus
 
-Oletame, et klient soovib tellida keskkonna blogimiseks.
+Oletame, et klient soovib tellida omale TODO rakenduse.
 
-Kirjutage eraldi dokumneti kasutajalood, mida võimalikud kasutajad sooviksid keskkonnas teha.
+Kirjutage eraldi dokumneti kasutajalood, mida võimalikud kasutajad sooviksid rakenduses teha.
 
 ---
 
@@ -356,7 +369,7 @@ Stsenaariumid luuakse tarkvara arendamisel sageli nõuete kogumise etapis ja nei
 
 ## Stsenaarium - Harjutus
 
-Loo vähemalt üks stsenaarium blogimise keskkonna kasutaja kohta.
+Loo vähemalt üks stsenaarium TODO rakenduse kasutaja kohta.
 
 ---
 
