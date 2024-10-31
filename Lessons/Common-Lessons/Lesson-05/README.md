@@ -6,7 +6,7 @@ Programmeerimise poole pealt räägime funktsioonidest ja erinevatest enimkasuta
 
 - [Neljas loeng](../Lesson-04/README.md)
 - [Viienda loengu slaidid](Slides.md)
-- [Viienda loengu salvestus]()
+- [Viienda loengu salvestus](https://youtu.be/KviquaSxhHI)
 - [Kuues loeng](../Lesson-06/README.md)
 - [Neljanda loengu harjutuste lahendused]()
 
