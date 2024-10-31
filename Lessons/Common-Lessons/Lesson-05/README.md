@@ -8,7 +8,7 @@ Programmeerimise poole pealt räägime funktsioonidest ja erinevatest enimkasuta
 - [Viienda loengu slaidid](Slides.md)
 - [Viienda loengu salvestus](https://youtu.be/KviquaSxhHI)
 - [Kuues loeng](../Lesson-06/README.md)
-- [Neljanda loengu harjutuste lahendused]()
+- [Neljanda loengu harjutuste lahendused](../../../Subjects/Programming-Basics/Solutions/Objects/)
 
 ## Teemad
 
