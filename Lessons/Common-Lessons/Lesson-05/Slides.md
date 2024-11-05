@@ -41,7 +41,8 @@ Martti Raavel
 
 ## Koduste tööde ajal tekkinud probleemid
 
-- Template literali kasutamine
+- Malliliteraali (`template literal`) kasutamine
+- ...
 
 ---
 
