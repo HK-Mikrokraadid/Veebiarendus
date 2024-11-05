@@ -3,7 +3,8 @@
 Kuuendas loengus võtame kokku eelmiste loengute teemad ja teeme harjutusi, mis sisaldavad kõiki seni õpitud teemasid. See loeng on mõeldud eelkõige sellekes, et paremini kinnistada seni õpitud teadmisi.
 
 - [Viies loeng](../Lesson-05/README.md)
-- [Kuuenda loengu salvestus]()
+- [Kuuenda loengu salvestus](https://youtu.be/XFlHGcPqT6k)
+- [Kuuendas loengus kirjutatud kood](https://github.com/HK-Mikrokraadid/Martti-Raavel/tree/main/06-loeng)
 - [Seitsmes loeng](../Lesson-07/README.md)
 - [Zoomi link](https://zoom.us/j/98412128345?pwd=jNcfZrAJXaJ2m8gJo3Rdlp8poazliv.1)
 
