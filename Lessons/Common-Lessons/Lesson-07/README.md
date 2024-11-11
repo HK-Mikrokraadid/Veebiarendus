@@ -13,17 +13,17 @@ Programmeerimise poole pealt räägime moodulitest ja nende kasutamisest.
 
 ## Teemad
 
-### Tarkvaraarendus
-
-- [VS Code laiendused ja nipid](../../../Subjects/Software-Development/Topics/VSCode-Tips/README.md)
-- [Käsurea kasutamine (_terminal_)](../../../Subjects/Software-Development/Topics/Command-Line/README.md)
-
 ### Programmeerimine
 
 - Moodulid
   - [Moodulid](../../../Subjects/Programming-Basics/Topics/Modules/README.md)
   - [Sisseehitatud moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md)
   - [Kolmanda osapoole moodulid](../../../Subjects/Programming-Basics/Topics/Modules-Third-Party/README.md)
+
+### Tarkvaraarendus
+
+- [VS Code laiendused ja nipid](../../../Subjects/Software-Development/Topics/VSCode-Tips/README.md)
+- [Käsurea kasutamine (_terminal_)](../../../Subjects/Software-Development/Topics/Command-Line/README.md)
 
 ## Kodutöö - tähtaeg: enne järgmist loengut
 

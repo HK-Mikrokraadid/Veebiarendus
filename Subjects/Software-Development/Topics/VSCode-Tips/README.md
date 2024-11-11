@@ -43,7 +43,7 @@ Lühiklahvikombinatsioonid on kiire viis, kuidas kasutada VS Code'i funktsioone.
 
 - `Ctrl (Cmd) + Shift + E` - Avab küljepaneeli, kus saad näha kõiki projekti faile ja kaustu
 - `Ctrl (Cmd) + Shift + X` - Avab küljepaneeli, kus saad näha kõiki laiendusi
-- `Ctrl (Cmd) + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone (*Command Palette*)
+- `Ctrl (Cmd) + Shift + P` - Avab käsurea, kus saad otsida kõiki VS Code'i funktsioone (_Command Palette_)
 - `Ctrl (Cmd) + Alt (Option) + Nool üles/Nool alla` - Mitu kursorit üles/alla
 - `Ctrl (Cmd) + Alt (Option) + Nool üles/Nool alla` - Mitu kursorit üles/alla
 
@@ -53,15 +53,14 @@ VS Code'i laiendused võivad olla väga kasulikud, kuna need võimaldavad laiend
 
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - Markdowni lihtsamaks redigeerimiseks ja eelvaateks
 - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) - Mermaid diagrammide toetus Markdowni eelvaates
+- [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Markdowni failide lintimine (korrektsuse kontroll) ja stiilinõuete kontrollimine
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Koodi automaatseks vormindamiseks
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) - Git ajaloo graafiline kuvamine
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Kommentaaride värvimine vastavalt nende tüübile
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Arendusserveri käivitamine ja veebilehtede automaatne värskendamine
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - Reaalajas koostöö teiste arendajatega
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Koodis olevate vigade ja hoiatuste esiletõstmine
-- [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Markdowni failide lintimine (korrektsuse kontroll) ja stiilinõuete kontrollimine
 - [Icon Themes](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) - Ikoonide teema muutmine vastavalt failitüübile
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Javascripti lintimine (korrektsuse kontroll) ja stiilinõuete kontrollimine
 - [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) - Marp Markdowni esitluste loomine VS Code'is
 
 ## Code Snippets
@@ -72,42 +71,39 @@ Siin on mõned näited kohandatud kooditükkidest:
 
 ```json
 {
-    "Print to console": {
-        "prefix": "log",
-        "body": [
-            "console.log('$1');",
-            "$2"
-        ],
-        "description": "Log output to console"
-    },
-    "For loop": {
-        "prefix": "for",
-        "body": [
-            "for (let ${1:i} = 0; ${1:i} < ${2:array}.length; ${1:i}++) {",
-            "\t$3",
-            "}"
-        ],
-        "description": "For loop"
-    }
+  "Print to console": {
+    "prefix": "log",
+    "body": ["console.log('$1');", "$2"],
+    "description": "Log output to console"
+  },
+  "For loop": {
+    "prefix": "for",
+    "body": [
+      "for (let ${1:i} = 0; ${1:i} < ${2:array}.length; ${1:i}++) {",
+      "\t$3",
+      "}"
+    ],
+    "description": "For loop"
+  }
 }
 ```
 
 Eeltoodud koodinäites asendatakse `log` lühiklahvikombinatsiooni kasutades kooditükk järgmise koodijupiga:
 
 ```javascript
-console.log('');
+console.log("");
 ```
 
 ja `for` lühiklahvikombinatsiooni kasutades kooditükk järgmise koodijupiga:
 
 ```javascript
 for (let i = 0; i < array.length; i++) {
-    // code here
+  // code here
 }
 ```
 
-Kohandatud kooditükke saab luua VS Code'i seadete all, valides `File -> Preferences -> Configure User Snippets`.
+Kohandatud kooditükke saab luua VS Code'i seadete all, valides `File -> Preferences -> Configure User Snippets` (`Code -> Settings -> Configure Snippets`).
 
 Samuti on võimalik kasutada eelnevalt kellegi teise poolt loodud kooditükke, mida saab leida VS Code'i laienduste hulgast. Näiteks saab kasutada [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) laiendust, mis sisaldab palju kasulikke kooditükke JavaScripti jaoks.
 
-`Code Snippet`-ite kohta saad rohkem lugeda [siit] (https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+`Code Snippet`-ite kohta saad rohkem lugeda [siit](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
