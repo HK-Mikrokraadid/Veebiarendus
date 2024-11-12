@@ -6,7 +6,7 @@ Programmeerimise poole pealt räägime moodulitest ja nende kasutamisest.
 
 - [Kuues loeng](../Lesson-06/README.md)
 - [Seitsmenda loengu slaidid](Slides.md)
-- [Seitsmenda loengu salvestus]()
+- [Seitsmenda loengu salvestus](https://youtu.be/ZMZY5vfkdvQ)
 - [Kaheksas loeng](../Lesson-08/README.md)
 
 - [Seitsmendas loengus kirjutatud kood]()
