@@ -51,4 +51,4 @@ Kui Sa ei tea, kuidas mäng käib, siis [siin on lühike selgitus](https://nupsu
 
 > Mõtle kõigepealt läbi sammud, mida on teha vaja. Kui vaja, joonista omale algoritm paberile.
 >
->Alusta kõige lihtsamast variandist ja lisa keerukust järk-järgult.
+> Alusta kõige lihtsamast variandist ja lisa keerukust järk-järgult.

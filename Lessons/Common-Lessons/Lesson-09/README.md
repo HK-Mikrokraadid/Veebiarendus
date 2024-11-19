@@ -16,7 +16,6 @@ Peale eelmiste loengute meenutamist ja koduste tööde tagasisidestamist jätkam
 
 ### Programmeerimine
 
-- [Nodemon moodul](../../../Subjects/Programming-Basics/Topics/Nodemon/README.md)
 - [Failide salvestamine ja lugemine (`fs` moodul)](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md#fs-moodul)
 - Sünkroonne ja asünkroonne kood
   - [callback](../../../Subjects/Programming-Basics/Topics/Callback/README.md)
@@ -27,7 +26,6 @@ Peale eelmiste loengute meenutamist ja koduste tööde tagasisidestamist jätkam
 ## Kodutöö - tähtaeg: enne viimast loengut
 
 - Loe läbi tänase loengu materjalid
-  - [ESLint + Airbnb](../../../Subjects/Software-Development/Topics/ESLint/README.md)
   - [Nodemon moodul](../../../Subjects/Programming-Basics/Topics/Nodemon/README.md)
   - [Failide salvestamine ja lugemine (`fs` moodul)](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md#fs-moodul)
   - [callback](../../../Subjects/Programming-Basics/Topics/Callback/README.md)

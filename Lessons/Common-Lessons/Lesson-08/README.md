@@ -10,12 +10,6 @@ Kaheksandas loengus alustame ikka jälle eelmise loengu meeldetuletusega ja vaat
 
 ## Teemad
 
-### Tarkvaraarendus
-
-- Eelmise loengu meeldetuletus
-- Kodutööde ajal tekkinud probleemide lahendamine
-- [Prototüüpimine](../../../Subjects/Software-Development/Topics/Prototyping/README.md)
-
 ### Programmeerimine
 
 - Eelmise loengu meeldetuletus
@@ -23,9 +17,10 @@ Kaheksandas loengus alustame ikka jälle eelmise loengu meeldetuletusega ja vaat
 - [Javascripti parimad praktikad](../../../Subjects/Programming-Basics/Topics/Javascript-Best-Practices/README.md)
 - [Koodi silumine](../../../Subjects/Programming-Basics/Topics/Debugging/README.md)
 
-## Kodutöö - tähtaeg: enne järgmist loengut
+### Tarkvaraarendus
 
-- Loe läbi tänase loengu materjalid
-  - [Prototüüpimine](../../../Subjects/Software-Development/Topics/Prototyping/README.md)
-  - [Javascripti parimad praktikad](../../../Subjects/Programming-Basics/Topics/Javascript-Best-Practices/README.md)
-  - [Koodi silumine](../../../Subjects/Programming-Basics/Topics/Debugging/README.md)
+- Eelmise loengu meeldetuletus
+- Kodutööde ajal tekkinud probleemide lahendamine
+- [Prototüüpimine](../../../Subjects/Software-Development/Topics/Prototyping/README.md)
+
+## Kodutöö - tähtaeg: enne järgmist loengut

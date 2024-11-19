@@ -10,139 +10,28 @@ Martti Raavel
 
 ---
 
-## Tarkvaraarendus
+## Tänase loengu teemad
 
-- Eelmise loengu meeldetuletus
-- [Prototüüpimine](../../../Subjects/Software-Development/Topics/Prototyping/README.md)
-
----
-
-## Eelmise loengu meeldetuletus
-
----
-
-## Prototüüpimine - Arutelu
+- Koduste tööde tagasiside
+- Programmeerimine
+  - Javascripti parimad praktikad
+  - Silumine
+- Tartvaraarendus
+  - Prototüüpimine
 
 ---
 
-## Prototüüpimine - Mis?
+## Koduste tööde tagasiside
 
-Prototüüpimine on tehnika, mida kasutatakse tarkvaraarenduses tarkvaratoote või -süsteemi varajaste töötavate versioonide loomiseks.
-
-Prototüüpimine hõlmab lõpptootest lihtsustatud, kuid funktsionaalse versiooni loomist, mida saab kasutada tagasiside kogumiseks, ideede testimiseks ja nõuete täpsustamiseks enne lõpliku versiooni loomist.
-
----
-
-## Prototüüpimine - Eelised
-
-- Parem suhtlus ja koostöö meeskonnaliikmete ja sidusrühmade vahel
-- Võimalike probleemide ja parendusvaldkondade varajane tuvastamine
-- Arusaamatuste ja valesti suhtlemise oht arendajate ja sidusrühmade vahel
-- Disainikontseptsioonide ja töövoogude kiirem iteratsioon ja testimine
-- Parem kasutajate seotus ja rahulolu varajase tagasiside ja sisendi kaudu
-
----
-
-## Prototüüpimine - Paberprototüüpimine
-
-![Mobiilimängu paberprototüüp](../../../Subjects/Software-Development/Topics/Prototyping/Paper_prototype.jpg)
-
----
-
-## Paberprototüüpimine
-
-Paberprototüüpimine on **odav** ja madala täpsusega prototüüpimise tehnika, mida kasutatakse tarkvaraarenduses toote või süsteemi kiire, lihtsa ja interaktiivse esituse loomiseks.
-
----
-
-## Paberprototüüpimine - Eelised
-
-- Madalad kulud
-- Kiire iteratsioon
-- Parandatud suhtlus
-- Suurem kasutajate kaasatus
-
----
-
-## Paberprototüüpimine - Miinused
-
-- Madal täpsus
-- Piiratud funktsionaalsus
-- Piiratud kasutatavus
-- Keskkonna piiratus
-
----
-
-## Prototüüpimine - Digitaalsed tööriistad
-
-Prototüüpimise tööriistad on tarkvaraarenduse oluline tööriistade klass, mis aitab arendajatel kiiresti luua ja testida interaktiivse kasutajaliidese (UI) kujundusi, ilma et oleks vaja koodi kirjutada.
-
----
-
-## Digitaalsed prototüüpimise tööriistad - Näide
-
-<https://www.figma.com/proto/XGHH08vXQsVMzVlVVYysi2/Metsake---teacher?node-id=1-3>
-
----
-
-## Digitaalsed prototüüpimise tööriistad
-
-- [Figma](https://www.figma.com/)
-- [Adobe XD](https://www.adobe.com/ee/products/xd.html)
-- [Sketch](https://www.sketch.com/)
-- [InVision](https://www.invisionapp.com/)
-- [Axure RP](https://www.axure.com/)
-- Igasugused muud digitaalsed tööriistad
-
----
-
-## Digitaalsed prototüüpimise tööriistad - Eelised
-
-- Kiire iteratsioon
-- Reaalajas koostöö
-- Interaktiivsed prototüübid
-- Kasutatavuse testimine
-- Disainisüsteemide tugi
-- Arendajatele koodi ekspordi võimalus
-- ...
-
----
-
-## Digitaalsed prototüüpimise tööriistad - Miinused
-
-- Kõrgem hind võrreldes paberprototüüpimisega
-- Õppimiskõver
-- Aeganõudvam, kui paberprototüüpimine
-- ...
-
----
-
-## Prototüüpimine - Kokkuvõte
-
-- Prototüüpimine on oluline osa tarkvaraarendusest
-- Ärge kartke kasutada paberit ja pliiatsit
-- Digitaalsed tööriistad on suurepärased, kuid võivad nõuda rohkem aega ja raha
-- Vahel panustatakse liiga palju prototüüpimisse
-- Vahel ei panustata piisavalt prototüüpimisse
-- ...
-
----
+- `node_modules` kausta ei tohiks repositooriumisse lisada - `.gitignore`
+- Täpitähed `prompt-sync` moodulis
+-
 
 ## Programmeerimine
 
-- Eelmise loengu meeldetuletus
-- Kodutööde ajal tekkinud probleemide lahendamine
 - [Javascripti parimad praktikad](../../../Subjects/Programming-Basics/Topics/Javascript-Best-Practices/README.md)
 - [Silumine](../../../Subjects/Programming-Basics/Topics/Debugging/README.md)
 - Harjutused
-
----
-
-## Eelmise loengu meeldetuletus
-
----
-
-## Koduste tööde ajal tekkinud probleemid
 
 ---
 
@@ -296,6 +185,29 @@ const greeting = "Hello, " + name + "!";
 
 ---
 
+## Prettier konfiguratsioon
+
+`.prettierrc` faili näide:
+
+```json
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "printWidth": 80,
+  "bracketSameLine": true
+}
+```
+
+> `default formatter`
+>
+> `format on save`
+
+---
+
 ## Silumine (_Debugging_)
 
 Silumine on protsess, mille käigus otsitakse ja parandatakse programmeerimisvigu. Viga on programmiviga, mis põhjustab programmi töötamisel ootamatu käitumise.
@@ -313,5 +225,143 @@ Silumine on protsess, mille käigus otsitakse ja parandatakse programmeerimisvig
 ## Murdepunkt (_Breakpoint_)
 
 Murdepunkt on koht meie koodis, kus soovime, et silur peataks täitmise ja võimaldaks meil muutujate väärtusi kontrollida.
+
+---
+
+## Silumine - kasutajaliides
+
+![width:600](image.png)
+
+---
+
+- **Jätka / Paus**
+  - Jätka: Jätkab programmi/skripti normaalset täitmist (kuni järgmise katkestuspunktini).
+- **Üleastumine**
+  - Täidab järgmise meetodi ühe käsuna, ilma selle komponentidesse süvenemata.
+- **Sisenemine**
+  - Siseneb järgmisse meetodisse ja võimaldab selle täitmist jälgida rida-realt.
+- **Väljumine**
+  - Kui asud meetodis või alampunktis, naaseb varasemale kontekstile, täites ülejäänud read praeguses meetodis ühe käsuna.
+- **Taaskäivita**
+  - Lõpetab praeguse programmi täitmise ja alustab silumist uuesti jooksva konfiguratsiooniga.
+- **Stopp**
+  - Lõpetab praeguse programmi täitmise.
+
+---
+
+## Programmeerimisharjutused
+
+---
+
+## Tarkvaraarendus
+
+- [Prototüüpimine](../../../Subjects/Software-Development/Topics/Prototyping/README.md)
+
+---
+
+## Prototüüpimine - Arutelu
+
+---
+
+## Prototüüpimine - Mis?
+
+Prototüüpimine on tehnika, mida kasutatakse tarkvaraarenduses tarkvaratoote või -süsteemi varajaste töötavate versioonide loomiseks.
+
+Prototüüpimine hõlmab lõpptootest lihtsustatud, kuid funktsionaalse versiooni loomist, mida saab kasutada tagasiside kogumiseks, ideede testimiseks ja nõuete täpsustamiseks enne lõpliku versiooni loomist.
+
+---
+
+## Prototüüpimine - Eelised
+
+- Parem suhtlus ja koostöö meeskonnaliikmete ja sidusrühmade vahel
+- Võimalike probleemide ja parendusvaldkondade varajane tuvastamine
+- Arusaamatuste ja valesti suhtlemise oht arendajate ja sidusrühmade vahel
+- Disainikontseptsioonide ja töövoogude kiirem iteratsioon ja testimine
+- Parem kasutajate seotus ja rahulolu varajase tagasiside ja sisendi kaudu
+
+---
+
+## Prototüüpimine - Paberprototüüpimine
+
+![Mobiilimängu paberprototüüp](../../../Subjects/Software-Development/Topics/Prototyping/Paper_prototype.jpg)
+
+---
+
+## Paberprototüüpimine
+
+Paberprototüüpimine on **odav** ja madala täpsusega prototüüpimise tehnika, mida kasutatakse tarkvaraarenduses toote või süsteemi kiire, lihtsa ja interaktiivse esituse loomiseks.
+
+---
+
+## Paberprototüüpimine - Eelised
+
+- Madalad kulud
+- Kiire iteratsioon
+- Parandatud suhtlus
+- Suurem kasutajate kaasatus
+
+---
+
+## Paberprototüüpimine - Miinused
+
+- Madal täpsus
+- Piiratud funktsionaalsus
+- Piiratud kasutatavus
+- Keskkonna piiratus
+
+---
+
+## Prototüüpimine - Digitaalsed tööriistad
+
+Prototüüpimise tööriistad on tarkvaraarenduse oluline tööriistade klass, mis aitab arendajatel kiiresti luua ja testida interaktiivse kasutajaliidese (UI) kujundusi, ilma et oleks vaja koodi kirjutada.
+
+---
+
+## Digitaalsed prototüüpimise tööriistad - Näide
+
+<https://www.figma.com/proto/XGHH08vXQsVMzVlVVYysi2/Metsake---teacher?node-id=1-3>
+
+---
+
+## Digitaalsed prototüüpimise tööriistad
+
+- [Figma](https://www.figma.com/)
+- [Adobe XD](https://www.adobe.com/ee/products/xd.html)
+- [Sketch](https://www.sketch.com/)
+- [InVision](https://www.invisionapp.com/)
+- [Axure RP](https://www.axure.com/)
+- Igasugused muud digitaalsed tööriistad
+
+---
+
+## Digitaalsed prototüüpimise tööriistad - Eelised
+
+- Kiire iteratsioon
+- Reaalajas koostöö
+- Interaktiivsed prototüübid
+- Kasutatavuse testimine
+- Disainisüsteemide tugi
+- Arendajatele koodi ekspordi võimalus
+- ...
+
+---
+
+## Digitaalsed prototüüpimise tööriistad - Miinused
+
+- Kõrgem hind võrreldes paberprototüüpimisega
+- Õppimiskõver
+- Aeganõudvam, kui paberprototüüpimine
+- ...
+
+---
+
+## Prototüüpimine - Kokkuvõte
+
+- Prototüüpimine on oluline osa tarkvaraarendusest
+- Ärge kartke kasutada paberit ja pliiatsit
+- Digitaalsed tööriistad on suurepärased, kuid võivad nõuda rohkem aega ja raha
+- Vahel panustatakse liiga palju prototüüpimisse
+- Vahel ei panustata piisavalt prototüüpimisse
+- ...
 
 ---
