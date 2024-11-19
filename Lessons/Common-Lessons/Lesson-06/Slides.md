@@ -14,7 +14,15 @@ Martti Raavel
 
 Tänase kordamise tunni eesmärk on kinnistada seni õpitud teadmisi.
 
-Selleks loome ühe programmi, mis on abiks õpetajale.
+---
+
+## Mida me oleme siiani õppinud?
+
+---
+
+## Tänanses tunnis ...
+
+Loome ühe programmi, mis on abiks õpetajale.
 
 Programmi eesmärk on hallata õpilaste nimekirja ja abistada õpetajat juhusliku õpilase valimisel.
 
@@ -45,8 +53,8 @@ Iga õpilane peaks omama järgmisi omadusi:
 
 ## Kasutajalood
 
-- Õpetajana soovin lisada õpilast, et hoida õpilaste nimekirja ajakohasena.
-- Õpetajana soovin eemaldada õpilast, et hoida õpilaste nimekirja ajakohasena.
+- Õpetajana soovin lisada õpilast nimekirja, et hoida õpilaste nimekirja ajakohasena.
+- Õpetajana soovin eemaldada õpilast nimekirjast, et hoida õpilaste nimekirja ajakohasena.
 - Õpetajana soovin muuta õpilase andmeid, et hoida õpilaste nimekirja ajakohasena.
 - Õpetajana soovin kuvada õpilaste nimekirja klassi alusel, et näha, kes on klassis.
 - Õpetajana soovin juhuslikult valida õpilast, et kutsuda teda vastama.
