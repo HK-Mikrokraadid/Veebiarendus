@@ -16,7 +16,7 @@ Martti Raavel
 - Programmeerimine
   - Javascripti parimad praktikad
   - Silumine
-- Tartvaraarendus
+- Tarkvaraarendus
   - Prototüüpimine
 
 ---
@@ -25,7 +25,13 @@ Martti Raavel
 
 - `node_modules` kausta ei tohiks repositooriumisse lisada - `.gitignore`
 - Täpitähed `prompt-sync` moodulis
--
+- Kena sisendi kontroll
+  - `toLowerCase()`
+  - `includes`
+- Funktsioonide kasutamine
+- ChatGPT kasutamine
+
+---
 
 ## Programmeerimine
 
@@ -64,7 +70,7 @@ Lisaks eelnevale on parimate praktikate järgimine oluline ka koodi loetavuse ja
 
 ## Javascripti koodi stiil - Koodianalüsaator
 
-Kasuta koodi kirjutamisel koodianalüsaatorit, mis aitab ennetaada erinevaid koodiga seotud probleeme ja parandab koodi loetavust.
+Kasuta koodi kirjutamisel koodianalüsaatorit, mis aitab ennetada erinevaid koodiga seotud probleeme ja parandab koodi loetavust.
 
 - ESLint
 - Prettier
