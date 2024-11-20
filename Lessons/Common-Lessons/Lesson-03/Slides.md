@@ -1,5 +1,9 @@
 ---
 marp: true
+theme: default
+backgroundImage: url('../../Logo/HaapsaluK_est.png')
+backgroundPosition: 20px calc(100% - 20px)
+backgroundSize: 200px
 ---
 
 # Tarkvaraarendus ja programmeerimine
