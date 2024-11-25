@@ -9,11 +9,6 @@ Peale eelmiste loengute meenutamist ja koduste tööde tagasisidestamist jätkam
 
 ## Teemad
 
-### Tarkvaraarendus
-
-- Koodi kvaliteet (staatiline koodi analüsaator)
-  - [ESLint + Airbnb](../../../Subjects/Software-Development/Topics/ESLint/README.md)
-
 ### Programmeerimine
 
 - [Failide salvestamine ja lugemine (`fs` moodul)](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md#fs-moodul)
@@ -22,16 +17,6 @@ Peale eelmiste loengute meenutamist ja koduste tööde tagasisidestamist jätkam
   - [async/await](../../../Subjects/Programming-Basics/Topics/Async-Await/README.md)
 - [JSON.stingify()](../../../Subjects/Programming-Basics/Topics/JSON/README.md#jsonstringify)
 - [Try/Catch](../../../Subjects/Programming-Basics/Topics/Try-Catch-Finally/README.md)
-
-## Kodutöö - tähtaeg: enne viimast loengut
-
-- Loe läbi tänase loengu materjalid
-  - [Nodemon moodul](../../../Subjects/Programming-Basics/Topics/Nodemon/README.md)
-  - [Failide salvestamine ja lugemine (`fs` moodul)](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md#fs-moodul)
-  - [callback](../../../Subjects/Programming-Basics/Topics/Callback/README.md)
-  - [async/await](../../../Subjects/Programming-Basics/Topics/Async-Await/README.md)
-  - [JSON.stingify()](../../../Subjects/Programming-Basics/Topics/JSON/README.md#jsonstringify)
-  - [Try/Catch](../../../Subjects/Programming-Basics/Topics/Try-Catch-Finally/README.md)
 
 ### Faili lugemine ja kirjutamine
 

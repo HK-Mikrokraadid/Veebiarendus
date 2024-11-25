@@ -16,54 +16,12 @@ Martti Raavel
 
 ## Tänane loeng
 
-### Programmeerimine
-
-- [Nodemon moodul](../../../Subjects/Programming-Basics/Topics/Nodemon/README.md)
+- Kommentaarid koduste tööde kohta
+- Copilot-i poolne `Code Review`
 - Sünkroonne ja asünkroonne kood
 - [Try/Catch](../../../Subjects/Programming-Basics/Topics/Try-Catch-Finally/README.md)
 - [Failide salvestamine ja lugemine (`fs` moodul)](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md#fs-moodul)
 - [JSON.stingify()](../../../Subjects/Programming-Basics/Topics/JSON/README.md#jsonstringify)
-
-### Tarkvaraarendus
-
-- ESLint + Airbnb
-  - [ESLint + Airbnb](../../../Subjects/Software-Development/Topics/ESLint/README.md)
-
----
-
-## Progammeerimine
-
----
-
-## Nodemon - Mis?
-
-Nodemon on utiliit, mis aitab arendajatel automatiseerida Node.js rakenduste arendusprotsessi. Nodemon jälgib teie projekti failide muudatusi ja taaskäivitab automaatselt Node.js rakenduse, kui tuvastab muudatusi.
-
----
-
-## Nodemon - Paigaldamine
-
-Nodemoni saab paigaldada globaalselt või arendussõltuvusena. Soovitan paigaldada arendussõltuvusena.
-
-```bash
-npm install nodemon --save-dev
-```
-
----
-
-## Nodemon - Kasutamine
-
-Käivita Node.js rakendus Nodemoniga järgmiselt:
-
-```bash
-nodemon app.js
-```
-
----
-
-## Nodemon - Info
-
-Paistab, et Nodemon ei taha töötada korralikult koos `prompt-sync` mooduliga.
 
 ---
 
@@ -396,42 +354,6 @@ Väljund:
 
 ---
 
-## Tarkvaraarendus
+## THarjutused
 
----
-
-## ESLint - Mis?
-
-ESLint on populaarne avatud lähtekoodiga tööriist JavaScripti koodi staatilise koodi analüüsimiseks. Seda kasutatakse levinud kodeerimisprobleemide leidmiseks ja parandamiseks ning ühtse koodistiili rakendamiseks kogu projektis.
-
----
-
-## Airbnb stiilijuhend
-
-Airbnb on üks populaarseim JavaScripti stiilijuhend. See on laialt levinud stiilijuhend, mis põhineb parimatel tavadel ja mille eesmärk on edendada koodi järjepidevust ja hooldatavust. Airbnb JavaScripti stiilijuhendit haldab Airbnb meeskond ning seda kasutavad paljud arendajad ja organisatsioonid üle maailma.
-
----
-
-## ESLint-i paigaldamine NodeJS projektile (VSCode) - Pistikprogramm
-
-Kõigepealt lisa VSCode-le (kui ei ole veel lisatud) ESLint psitikprogramm. Leiad selle pistikprogrammide alt või siis siit: <https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint>
-
----
-
-## ESLint-i paigaldamine NodeJS projektile (VSCode) - Arendussõltuvus
-
-Paigalda ESLint arendussõltuvusena järgmiselt:
-
-```bash
-npm install eslint --save-dev
-```
-
-Käivita oma projekti juurkaustast ESLint seadistamine:
-
-```bash
-npx eslint --init
-```
-
-Vasta küsimustele.
-
----
+Võtame õpilaste rakenduse ja proovime selle teha selliseks, et see salvestaks õpilaste andmed faili ja loeks need sealt välja.
