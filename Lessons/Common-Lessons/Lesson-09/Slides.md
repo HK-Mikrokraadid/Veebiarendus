@@ -14,63 +14,24 @@ Martti Raavel
 
 ---
 
-## Tarkvaraarendus
+## Tänane loeng
 
-- Eelmise loengu meeldetuletus
+### Programmeerimine
+
+- [Nodemon moodul](../../../Subjects/Programming-Basics/Topics/Nodemon/README.md)
+- Sünkroonne ja asünkroonne kood
+- [Try/Catch](../../../Subjects/Programming-Basics/Topics/Try-Catch-Finally/README.md)
+- [Failide salvestamine ja lugemine (`fs` moodul)](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md#fs-moodul)
+- [JSON.stingify()](../../../Subjects/Programming-Basics/Topics/JSON/README.md#jsonstringify)
+
+### Tarkvaraarendus
+
 - ESLint + Airbnb
   - [ESLint + Airbnb](../../../Subjects/Software-Development/Topics/ESLint/README.md)
 
 ---
 
-## Eelmise loengu meeldetuletus
-
----
-
-## ESLint - Mis?
-
-ESLint on populaarne avatud lähtekoodiga tööriist JavaScripti koodi staatilise koodi analüüsimiseks. Seda kasutatakse levinud kodeerimisprobleemide leidmiseks ja parandamiseks ning ühtse koodistiili rakendamiseks kogu projektis.
-
----
-
-## Airbnb stiilijuhend
-
-Airbnb on üks populaarseim JavaScripti stiilijuhend. See on laialt levinud stiilijuhend, mis põhineb parimatel tavadel ja mille eesmärk on edendada koodi järjepidevust ja hooldatavust. Airbnb JavaScripti stiilijuhendit haldab Airbnb meeskond ning seda kasutavad paljud arendajad ja organisatsioonid üle maailma.
-
----
-
-## ESLint-i paigaldamine NodeJS projektile (VSCode) - Pistikprogramm
-
-Kõigepealt lisa VSCode-le (kui ei ole veel lisatud) ESLint psitikprogramm. Leiad selle pistikprogrammide alt või siis siit: <https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint>
-
----
-
-## ESLint-i paigaldamine NodeJS projektile (VSCode) - Arendussõltuvus
-
-Paigalda ESLint arendussõltuvusena järgmiselt:
-
-```bash
-npm install eslint --save-dev
-```
-
-Käivita oma projekti juurkaustast ESLint seadistamine:
-
-```bash
-npx eslint --init
-```
-
-Vasta küsimustele.
-
----
-
 ## Progammeerimine
-
-- [Nodemon moodul](../../../Subjects/Programming-Basics/Topics/Nodemon/README.md)
-- Sünkroonne ja asünkroonne kood
-  - [callback](../../../Subjects/Programming-Basics/Topics/Callback/README.md)
-  - [async/await](../../../Subjects/Programming-Basics/Topics/Async-Await/README.md)
-- [Try/Catch](../../../Subjects/Programming-Basics/Topics/Try-Catch-Finally/README.md)
-- [Failide salvestamine ja lugemine (`fs` moodul)](../../../Subjects/Programming-Basics/Topics/Modules-Built-In/README.md#fs-moodul)
-- [JSON.stingify()](../../../Subjects/Programming-Basics/Topics/JSON/README.md#jsonstringify)
 
 ---
 
@@ -432,5 +393,45 @@ Väljund:
   favoriteFoods: [ 'pizza', 'sushi', 'ice cream' ]
 }
 ```
+
+---
+
+## Tarkvaraarendus
+
+---
+
+## ESLint - Mis?
+
+ESLint on populaarne avatud lähtekoodiga tööriist JavaScripti koodi staatilise koodi analüüsimiseks. Seda kasutatakse levinud kodeerimisprobleemide leidmiseks ja parandamiseks ning ühtse koodistiili rakendamiseks kogu projektis.
+
+---
+
+## Airbnb stiilijuhend
+
+Airbnb on üks populaarseim JavaScripti stiilijuhend. See on laialt levinud stiilijuhend, mis põhineb parimatel tavadel ja mille eesmärk on edendada koodi järjepidevust ja hooldatavust. Airbnb JavaScripti stiilijuhendit haldab Airbnb meeskond ning seda kasutavad paljud arendajad ja organisatsioonid üle maailma.
+
+---
+
+## ESLint-i paigaldamine NodeJS projektile (VSCode) - Pistikprogramm
+
+Kõigepealt lisa VSCode-le (kui ei ole veel lisatud) ESLint psitikprogramm. Leiad selle pistikprogrammide alt või siis siit: <https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint>
+
+---
+
+## ESLint-i paigaldamine NodeJS projektile (VSCode) - Arendussõltuvus
+
+Paigalda ESLint arendussõltuvusena järgmiselt:
+
+```bash
+npm install eslint --save-dev
+```
+
+Käivita oma projekti juurkaustast ESLint seadistamine:
+
+```bash
+npx eslint --init
+```
+
+Vasta küsimustele.
 
 ---
