@@ -354,6 +354,6 @@ Väljund:
 
 ---
 
-## THarjutused
+## Harjutused
 
 Võtame õpilaste rakenduse ja proovime selle teha selliseks, et see salvestaks õpilaste andmed faili ja loeks need sealt välja.
