@@ -4,7 +4,7 @@ Peale eelmiste loengute meenutamist ja koduste tööde tagasisidestamist jätkam
 
 - [Kaheksas loeng](../Lesson-08/README.md)
 - [Üheksanda loengu slaidid](Slides.md)
-- [Üheksanda loengu salvestus]()
+- [Üheksanda loengu salvestus](https://youtu.be/r2Su9cj9ozE)
 - [Kümnes loeng](../Lesson-10/README.md)
 
 ## Teemad
