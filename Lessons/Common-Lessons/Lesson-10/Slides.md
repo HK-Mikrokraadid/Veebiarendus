@@ -16,24 +16,22 @@ Martti Raavel
 
 ## Sisukord
 
+- Täringumängu tagasiside
 - Eelmiste loengute teemade meenutamine (sõnapilv)
-- Esimese poole kursuse tagasiside
 - Kuidas hindate oma arengut?
 - Kas midagi jäi puudu?
 - Kuidas edasi?
 
 ---
 
-## Eelmiste loengute teemade meenutamine
-
-- <https://www.menti.com/>
-- Kood: 1327 1555
+## Täringumängu tagasiside
 
 ---
 
-## Esimese poole kursuse tagasiside
+## Eelmiste loengute teemade meenutamine
 
-<https://forms.gle/XuCzKXtDrxBH5vwt5>
+- <https://www.menti.com/>
+- Kood:
 
 ---
 
@@ -45,11 +43,7 @@ Martti Raavel
 
 ---
 
-## Kuidas edasi?
-
-- Back-End arendus - esmaspäeviti, esimene loeng kohapeal
-- Front-End arendus - teisipäeviti, esimene loeng Zoomis
-- Või soovite iga kord olla kohapeal?
+## Mis edasi?
 
 ---
 
