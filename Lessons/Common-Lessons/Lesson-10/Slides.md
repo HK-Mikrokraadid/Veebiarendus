@@ -26,6 +26,9 @@ Martti Raavel
 
 ## Täringumängu tagasiside
 
+- `npm init -y`
+- punktide liitmine/lahutamine
+
 ---
 
 ## Eelmiste loengute teemade meenutamine
