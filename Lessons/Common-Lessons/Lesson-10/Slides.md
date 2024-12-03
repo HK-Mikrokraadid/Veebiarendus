@@ -34,7 +34,7 @@ Martti Raavel
 ## Eelmiste loengute teemade meenutamine
 
 - <https://www.menti.com/>
-- Kood:
+- Kood: 8726 9846
 
 ---
 

@@ -14,4 +14,6 @@ Viimases loengus teeme kokkuvõtte kursusest, arutleme kogu koolituse üle ja va
 - Kuidas hindate oma arengut?
 - Kuidas edasi?
 
-## Sõnapilv
+## Sõnapilv koolituse märksõnade kohta
+
+![Sõnapilv](./wordCloud.png)
