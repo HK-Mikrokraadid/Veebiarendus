@@ -4,7 +4,7 @@ Viimases loengus teeme kokkuvõtte kursusest, arutleme kogu koolituse üle ja va
 
 - [Üheksas loeng](../Lesson-09/README.md)
 - [Kümnenda loengu slaidid](Slides.md)
-- [Kümnenda loengu salvestus](h)
+- [Kümnenda loengu salvestus]()
 - [Zoomi link](https://zoom.us/j/98412128345?pwd=jNcfZrAJXaJ2m8gJo3Rdlp8poazliv.1)
 
 ## Teemad
@@ -15,7 +15,3 @@ Viimases loengus teeme kokkuvõtte kursusest, arutleme kogu koolituse üle ja va
 - Kuidas edasi?
 
 ## Sõnapilv
-
-- [Märksõnade esinemissagedus](Word-Cloud.md)
-
-![alt text](1-marksonad-kursuse-esimesest-poolest.jpg)
