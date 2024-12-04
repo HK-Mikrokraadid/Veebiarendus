@@ -66,6 +66,9 @@ Zoomi link: <https://zoom.us/j/98412128345?pwd=jNcfZrAJXaJ2m8gJo3Rdlp8poazliv.1>
 
 > Loengutest püüame teha salvestused, mis tehakse koolitusel osalejatele saadavaks peale loengu toimumist.
 
+> [!NOTE]
+> Loengutes kirjutatud koodi ja viimaste kodutööde võimalikud lahendused leiad [siit](https://github.com/HK-Mikrokraadid/Martti-Raavel)
+
 ## Õpijuhend
 
 Õppematerjalide läbitöötamine toimub loengute ja iseseisva tööna. Õppematerjalid, slaidid, harjutused ja iseseisvad tööd on saadaval repositooriumis vastavates kaustades.
