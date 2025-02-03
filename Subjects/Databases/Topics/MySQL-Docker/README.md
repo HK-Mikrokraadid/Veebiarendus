@@ -1,8 +1,29 @@
 # MySQL ja Docker: Andmebaasi haldamine konteinerite abil
 
-## Sissejuhatus
-
 Docker on konteinerite haldamise platvorm, mis võimaldab arendajatel luua, testida ja juurutada rakendusi isoleeritud keskkondades. Docker muudab MySQL-i andmebaaside seadistamise ja haldamise lihtsaks ja tõhusaks, pakkudes konteineripõhist lahendust. Selles peatükis käsitletakse, kuidas kasutada MySQL-i Dockeriga.
+
+![MySQL Dockeris](MySQL-Docker.webp)
+
+Pildi allikas: [Dall-E by OpenAI](https://openai.com/)
+
+- [MySQL ja Docker: Andmebaasi haldamine konteinerite abil](#mysql-ja-docker-andmebaasi-haldamine-konteinerite-abil)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Docker-i põhikontseptsioonid](#docker-i-põhikontseptsioonid)
+  - [Docker-i installatsioon](#docker-i-installatsioon)
+  - [MySQL konteineri loomine Docker-is](#mysql-konteineri-loomine-docker-is)
+    - [MySQL konteineri tõmbamine ja käivitamine](#mysql-konteineri-tõmbamine-ja-käivitamine)
+    - [MySQL konteineri konfigureerimine](#mysql-konteineri-konfigureerimine)
+    - [Andmete püsivus](#andmete-püsivus)
+  - [Andmebaasi operatsioonid MySQL konteineris](#andmebaasi-operatsioonid-mysql-konteineris)
+    - [Uue andmebaasi loomine](#uue-andmebaasi-loomine)
+    - [Tabelite loomine](#tabelite-loomine)
+    - [Andmete lisamine](#andmete-lisamine)
+    - [Andmete valimine](#andmete-valimine)
+    - [Andmete uuendamine](#andmete-uuendamine)
+    - [Andmete kustutamine](#andmete-kustutamine)
+  - [Allikad](#allikad)
+  - [Kontrollküsimused või harjutus](#kontrollküsimused-või-harjutus)
+  - [Harjutus](#harjutus)
 
 ## Õpiväljundid
 

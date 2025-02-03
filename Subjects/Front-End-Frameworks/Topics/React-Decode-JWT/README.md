@@ -4,6 +4,24 @@ JSON Web Token (JWT) on kompaktne ja URL-sõbralik standard, mida kasutatakse tu
 
 Kui React-i rakendus kasutab API-t, mis tagastab JWT autentimistõendi, saate selle dekodeerida ja sealt välja lugeda kasulikku teavet, näiteks kasutaja rollid, õigused ja muud seotud andmed.
 
+![Decode Token](Decode-Token.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [JSON Web Token (JWT) Dekodeerimine React-is](#json-web-token-jwt-dekodeerimine-react-is)
+  - [JWT Dekodeerimine React-is](#jwt-dekodeerimine-react-is)
+    - [Näide: JWT dekodeerimine `jwt-decode` teegiga](#näide-jwt-dekodeerimine-jwt-decode-teegiga)
+      - [Teegi `jwt-decode` installimine](#teegi-jwt-decode-installimine)
+      - [JWT Dekodeerimine ja sellest informatsiooni lugemine](#jwt-dekodeerimine-ja-sellest-informatsiooni-lugemine)
+    - [Näide: JWT dekodeerimine manuaalselt](#näide-jwt-dekodeerimine-manuaalselt)
+      - [Manuaalne dekodeerimine](#manuaalne-dekodeerimine)
+  - [Näide: JWT Kasutamine React-i Rakenduses](#näide-jwt-kasutamine-react-i-rakenduses)
+    - [Konteksti loomine ja seadistamine](#konteksti-loomine-ja-seadistamine)
+    - [Kasutaja info näitamine](#kasutaja-info-näitamine)
+    - [Kontrollküsimused](#kontrollküsimused)
+    - [Harjutus](#harjutus)
+    - [Allikad](#allikad)
+
 ## JWT Dekodeerimine React-is
 
 JWT dekodeerimiseks ja selle kasuliku koormuse lugemiseks React-is saate kasutada järgmist:
@@ -29,8 +47,8 @@ Kasutame teeki `jwt-decode`, et dekodeerida JWT ja välja lugeda selle kasulikku
 
 ```javascript
 // JWTDecoder.js
-import React from 'react';
-import { jwtDecode } from 'jwt-decode';
+import React from "react";
+import { jwtDecode } from "jwt-decode";
 
 const JWTDecoder = ({ token }) => {
   if (!token) {
@@ -62,21 +80,21 @@ Kui soovite JWT dekodeerida ilma välist teeki kasutamata, saate seda teha, deko
 
 ```javascript
 // ManualJWTDecoder.js
-import React from 'react';
+import React from "react";
 
 const base64UrlDecode = (str) => {
   // Asenda - ja _ märgid vastavalt Base64 standardile
-  const base64 = str.replace(/-/g, '+').replace(/_/g, '/');
+  const base64 = str.replace(/-/g, "+").replace(/_/g, "/");
   return decodeURIComponent(
     atob(base64)
-      .split('')
-      .map((c) => '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2))
-      .join('')
+      .split("")
+      .map((c) => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2))
+      .join("")
   );
 };
 
 const decodeJWT = (token) => {
-  const [, payload] = token.split('.');
+  const [, payload] = token.split(".");
   return JSON.parse(base64UrlDecode(payload));
 };
 
@@ -110,8 +128,8 @@ Kombineerime JWT dekodeerimise ja React Context API, et hoida kasutaja autentimi
 
 ```javascript
 // AuthContext.js
-import React, { createContext, useState, useEffect } from 'react';
-import { jwtDecode } from 'jwt-decode';
+import React, { createContext, useState, useEffect } from "react";
+import { jwtDecode } from "jwt-decode";
 
 export const AuthContext = createContext();
 
@@ -120,26 +138,26 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     // Võta localStorage'ist token
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem("token");
     if (token) {
       try {
         const decodedUser = jwtDecode(token);
         setUser(decodedUser);
       } catch (error) {
-        console.error('Invalid token');
+        console.error("Invalid token");
         setUser(null);
       }
     }
   }, []);
 
   const login = (token) => {
-    localStorage.setItem('token', token);
+    localStorage.setItem("token", token);
     const decodedUser = jwtDecode(token);
     setUser(decodedUser);
   };
 
   const logout = () => {
-    localStorage.removeItem('token');
+    localStorage.removeItem("token");
     setUser(null);
   };
 
@@ -157,8 +175,8 @@ Kasutame `AuthContext`-i, et kuvada kasutaja infot, kui ta on sisse logitud.
 
 ```javascript
 // UserProfile.js
-import React, { useContext } from 'react';
-import { AuthContext } from './AuthContext';
+import React, { useContext } from "react";
+import { AuthContext } from "./AuthContext";
 
 const UserProfile = () => {
   const { user, logout } = useContext(AuthContext);

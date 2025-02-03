@@ -2,6 +2,21 @@
 
 Selles teemas saad teada, mis on semantiline HTML ja miks on oluline seda veebilehtede loomisel kasutada.
 
+![Semantiline HTML](Semantic-HTML.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Semantiline HTML](#semantiline-html)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on semantiline HTML?](#mis-on-semantiline-html)
+  - [Miks kasutada semantilist HTML-i?](#miks-kasutada-semantilist-html-i)
+  - [Kuidas kasutada semantilist HTML-i](#kuidas-kasutada-semantilist-html-i)
+    - [`<header>`](#header)
+    - [`<nav>`](#nav)
+    - [`<article>`](#article)
+    - [`<section>`](#section)
+    - [`<footer>`](#footer)
+
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:

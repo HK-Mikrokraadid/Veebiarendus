@@ -2,6 +2,23 @@
 
 Selles õppematerjalis uurime CSS-i omadusi, mis kontrollivad HTML-elementide läbipaistvust ja nähtavust. Need omadused on olulised veebidisainis, kuna need võimaldavad arendajatel luua dünaamilisemaid ja visuaalselt huvitavamaid kasutajaliideseid.
 
+![Css Visibility](CSS-Visibility.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Objekti Läbipaistvus ja Nähtavus CSS-is](#objekti-läbipaistvus-ja-nähtavus-css-is)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on Objekti Läbipaistvus ja Nähtavus?](#mis-on-objekti-läbipaistvus-ja-nähtavus)
+    - [Läbipaistvus (`opacity`)](#läbipaistvus-opacity)
+      - [Näide](#näide)
+    - [Nähtavus (`visibility`)](#nähtavus-visibility)
+      - [Näide](#näide-1)
+  - [Läbipaistvus vs. Nähtavus](#läbipaistvus-vs-nähtavus)
+  - [Praktiline Kasutus](#praktiline-kasutus)
+    - [Interaktiivsed Menüüd](#interaktiivsed-menüüd)
+    - [Hoiatusteatised](#hoiatusteatised)
+  - [Järeldus](#järeldus)
+
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:

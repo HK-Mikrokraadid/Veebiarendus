@@ -2,6 +2,21 @@
 
 Reacti `useEffect` hook võimaldab teil teostada kõrvalmõjusid (side effects) funktsionaalsetes komponentides. Seda kasutatakse laialdaselt asünkroonsete toimingute, nagu andmete pärimine, DOM-i uuendamine ja ajastatud tegevuste jaoks. `useEffect` hook on üks olulisemaid hooke Reactis, sest see aitab hallata komponentide elutsükli sündmusi.
 
+![UseEffect](UseEffect.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Reacti `useEffect` Hook](#reacti-useeffect-hook)
+  - [Õpiväljundid](#õpiväljundid)
+  - [`useEffect` Hooki Ülevaade](#useeffect-hooki-ülevaade)
+    - [`useEffect` Hooki Süntees](#useeffect-hooki-süntees)
+  - [Näited `useEffect` Hooki Kasutamiseks](#näited-useeffect-hooki-kasutamiseks)
+    - [1. Lihtne Kasutusjuht: Andmete Pärimine API-st](#1-lihtne-kasutusjuht-andmete-pärimine-api-st)
+    - [2. Sõltuvuste Massiiv: Uuendamine Spetsiifiliste Muutuste Põhjal](#2-sõltuvuste-massiiv-uuendamine-spetsiifiliste-muutuste-põhjal)
+    - [3. Cleanup Funktsioon: Resursside Vabastamine](#3-cleanup-funktsioon-resursside-vabastamine)
+    - [4. Ajastatud Toimingud](#4-ajastatud-toimingud)
+  - [`useEffect` Hooki Olulised Põhimõtted](#useeffect-hooki-olulised-põhimõtted)
+
 ## Õpiväljundid
 
 Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
@@ -29,12 +44,17 @@ Selle õppematerjali lõpuks peaksid õppijad olema võimelised:
 ### `useEffect` Hooki Süntees
 
 ```javascript
-useEffect(() => {
-  // Tegevus, mis viiakse läbi, kui komponent renderdatakse
-  return () => {
-    // Cleanup tegevus, mis viiakse läbi, kui komponent eemaldatakse või enne järgmist tegevust
-  };
-}, [/* Sõltuvuste massiiv */]);
+useEffect(
+  () => {
+    // Tegevus, mis viiakse läbi, kui komponent renderdatakse
+    return () => {
+      // Cleanup tegevus, mis viiakse läbi, kui komponent eemaldatakse või enne järgmist tegevust
+    };
+  },
+  [
+    /* Sõltuvuste massiiv */
+  ]
+);
 ```
 
 - **Tegevus**: Funktsioon, mis täidetakse pärast komponendi renderdamist.
@@ -48,7 +68,7 @@ useEffect(() => {
 Üks levinumaid `useEffect` hooki kasutusjuhtumeid on andmete pärimine välisest API-st, kui komponent esmakordselt renderdatakse.
 
 ```javascript
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
@@ -56,14 +76,14 @@ const UserList = () => {
 
   useEffect(() => {
     // Andmete pärimine API-st
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      .then(data => {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((response) => response.json())
+      .then((data) => {
         setUsers(data);
         setLoading(false);
       })
-      .catch(error => {
-        console.error('Error fetching data:', error);
+      .catch((error) => {
+        console.error("Error fetching data:", error);
         setLoading(false);
       });
   }, []); // Tühja sõltuvuste massiivi tõttu käivitatakse see ainult üks kord, pärast esimest renderdamist
@@ -76,7 +96,7 @@ const UserList = () => {
     <div>
       <h2>User List</h2>
       <ul>
-        {users.map(user => (
+        {users.map((user) => (
           <li key={user.id}>{user.name}</li>
         ))}
       </ul>
@@ -92,11 +112,11 @@ export default UserList;
 `useEffect` hooki saab konfigureerida täitma tegevusi ainult siis, kui teatud väärtused muutuvad, kasutades sõltuvuste massiivi.
 
 ```javascript
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
-  const [title, setTitle] = useState('React Counter');
+  const [title, setTitle] = useState("React Counter");
 
   // See efekt käivitub iga kord, kui 'count' muutub
   useEffect(() => {
@@ -108,10 +128,10 @@ const Counter = () => {
       <h2>{title}</h2>
       <button onClick={() => setCount(count + 1)}>Increase Count</button>
       <p>Current Count: {count}</p>
-      <input 
-        type="text" 
-        value={title} 
-        onChange={(e) => setTitle(e.target.value)} 
+      <input
+        type="text"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
         placeholder="Change title"
       />
     </div>
@@ -126,7 +146,7 @@ export default Counter;
 Kui komponent lisab näiteks `event listener`-i või ajastaja, peaks see ka need eemaldama, kui komponent eemaldatakse või kui efekt täidetakse uuesti. Cleanup funktsioonis saab puhastada kõik, mis ei ole enam vajalik.
 
 ```javascript
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const WindowWidth = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -135,11 +155,11 @@ const WindowWidth = () => {
     const handleResize = () => setWidth(window.innerWidth);
 
     // Lisame event listener-i
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Cleanup: eemaldame event listener-i
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []); // Tühja sõltuvuste massiiviga, mis tähendab, et see efekt käivitatakse ainult üks kord
 
@@ -158,14 +178,14 @@ export default WindowWidth;
 `useEffect` hooki saab kasutada ka ajastatud toimingute jaoks, nagu intervallid.
 
 ```javascript
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Timer = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setSeconds(prev => prev + 1);
+      setSeconds((prev) => prev + 1);
     }, 1000);
 
     // Cleanup: puhastame intervalli

@@ -28,47 +28,6 @@ Repositooriumi ülesehitus on järgmine:
 
 Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti `2022-2-EE01-KA220-HED-000100317` raames.
 
-## 2025. aasta RKT Tarkvaraarenduse koolitus
-
-Koolituse eesmärk on omandada terviklik arusaam nii tarkvaraarenduse kui ka programmeerimise ja versioonihalduse olemusest, põhimõtetest, meetoditest ja kasutatavatest tööriistadest. Koolituse jooksul kasutame materjale, mis on loodud Veebiarenduse mikrokraadide jaoks, kuid läbime neist ainult ühised ained - [tarkvaraarenduse](./Subjects/Software-Development/README.md) ja [programmeerimise alused](./Subjects/Programming-Basics/README.md). Soovi korral võivad osalejad läbida omal käel ka teised moodulid, mis on saadaval siin repositooriumis.
-
-**Sihtgrupp**:
-
-- IKT valdkonna töötajad, kes vajavad oma igapäevatöös teadmisi tarkvaaraarendusest ja programmeerimisest;
-- täiskasvanud kes soovivad alustada karjääri IKT valdkonnas;
-- IKT valdkonna töötajad kelle on aegunud erialased oskused.
-
-**Eeldused**:
-
-- elementaarsed arvutioskused;
-- huvi programmeerimise ja tarkvaraarenduse vastu.
-
-> Eelnev programmeerimisega kokkupuude pole vajalik.
-
-> 2024\. aasta RKT koolituse raames proovime lähenemist, kus õpilased loevad enne loengusse tulekut iseseisvalt vastava loengu materjalid läbi ja loengus keskendume praktilistele ülesannetele ja küsimustele.
-
-## Ajakava ja viited loengutele
-
-| Kohtumine                                                     | Kuupäev ja kellaaeg           | Asukoht  |
-| ------------------------------------------------------------- | ----------------------------- | -------- |
-| [1. kohtumine](./Lessons/Common-Lessons/Lesson-01/README.md)  | 01.10.2024 kell 10:00 - 16:30 | Haapsalu |
-| [2. kohtumine](./Lessons/Common-Lessons/Lesson-02/README.md)  | 08.10.2024 kell 10:00 - 15:00 | Zoom     |
-| [3. kohtumine](./Lessons/Common-Lessons/Lesson-03/README.md)  | 15.10.2024 kell 10:00 - 16:30 | Haapsalu |
-| [4. kohtumine](./Lessons/Common-Lessons/Lesson-04/README.md)  | 22.10.2024 kell 10:00 - 15:00 | Zoom     |
-| [5. kohtumine](./Lessons/Common-Lessons/Lesson-05/README.md)  | 29.10.2024 kell 10:00 - 16:30 | Haapsalu |
-| [6. kohtumine](./Lessons/Common-Lessons/Lesson-06/README.md)  | 05.11.2024 kell 10:00 - 15:00 | Zoom     |
-| [7. kohtumine](./Lessons/Common-Lessons/Lesson-07/README.md)  | 12.11.2024 kell 10:00 - 16:30 | Haapsalu |
-| [8. kohtumine](./Lessons/Common-Lessons/Lesson-08/README.md)  | 19.11.2024 kell 10:00 - 15:00 | Zoom     |
-| [9. kohtumine](./Lessons/Common-Lessons/Lesson-09/README.md)  | 26.11.2024 kell 10:00 - 16:30 | Haapsalu |
-| [10. kohtumine](./Lessons/Common-Lessons/Lesson-10/README.md) | 03.12.2024 kell 10:00 - 15:00 | Zoom     |
-
-Zoomi link: <https://zoom.us/j/98412128345?pwd=jNcfZrAJXaJ2m8gJo3Rdlp8poazliv.1>
-
-> Loengutest püüame teha salvestused, mis tehakse koolitusel osalejatele saadavaks peale loengu toimumist.
-
-> [!NOTE]
-> Loengutes kirjutatud koodi ja viimaste kodutööde võimalikud lahendused leiad [siit](https://github.com/HK-Mikrokraadid/Martti-Raavel)
-
 ## Õpijuhend
 
 Õppematerjalide läbitöötamine toimub loengute ja iseseisva tööna. Õppematerjalid, slaidid, harjutused ja iseseisvad tööd on saadaval repositooriumis vastavates kaustades.
@@ -86,14 +45,6 @@ Peale loenguid jääb õppijale iseseisev töö, kus tuleb läbi töötada õppe
 Enne igat loengut loevad õpilased läbi õppematerjalid vastavalt loengu teemadele. Kes siivib, võib läbi teha ka teemadega seotud harjutused, kuid see pole kohustuslik. Loengus keskendume praktilistele ülesannetele ja küsimustele, mis on seotud õppematerjalidega. Peale iga loengut jääb õpilastele iseseisev töö, kus tuleb lahendada ülesandeid loengu teemadel. Iseseisvad tööd tuleb salvestada õpilase Githubi repositooriumisse vastavalt loengus antud juhistele.
 
 Kodused ülesanded hakkavad tulema iga õpilase repositooriumisse [`Github Issue`](Subjects/Software-Development/Topics/Github-Issue/README.md)-na, kus on täpsemalt kirjeldatud ülesande sisu.
-
-## Discordi serveri kutse
-
-Discord on suhtlusplatvorm, kus saab suhelda teksti, hääle ja video vahendusel.
-
-Discordi server on mõeldud otsesuhtluseks õpetajate ja õpilaste vahel. Samuti saab seal omavahel suhelda, küsida abi ja jagada oma kogemusi.
-
-- [Kutse link](https://discord.gg/7N5CcVhUv3)
 
 ---
 

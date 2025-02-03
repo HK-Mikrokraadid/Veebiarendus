@@ -2,6 +2,22 @@
 
 Selles õppematerjalis käsitleme küpsiste ehk cookies'ide põhitõdesid, nende kasutamist veebirakendustes ning selgitame, kuidas küpsiseid turvaliselt käsitleda. Küpsised on väikesed tekstifailid, mida veebiserverid saavad kasutada kasutajate seadmetes informatsiooni talletamiseks ja lugemiseks, mis võimaldab mitmesuguseid kasutajasõbralikke funktsioone.
 
+![Cookies](Cookies.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Küpsiste (Cookies) kasutamine veebirakendustes](#küpsiste-cookies-kasutamine-veebirakendustes)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on küpsised?](#mis-on-küpsised)
+  - [Küpsiste tüübid](#küpsiste-tüübid)
+  - [Küpsiste kasutamine JavaScriptis](#küpsiste-kasutamine-javascriptis)
+    - [Küpsise loomine](#küpsise-loomine)
+    - [Küpsise lugemine](#küpsise-lugemine)
+    - [Küpsise kustutamine](#küpsise-kustutamine)
+  - [Küpsiste turvalisus ja privaatsus](#küpsiste-turvalisus-ja-privaatsus)
+  - [Kokkuvõte](#kokkuvõte)
+  - [Allikad](#allikad)
+
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
@@ -37,8 +53,10 @@ document.cookie = "username=JohnDoe; expires=Fri, 31 Dec 2021 23:59:59 GMT";
 Küpsised on kättesaadavad `document.cookie` kaudu semikooloniga eraldatud stringina, millest saab andmeid lugeda.
 
 ```javascript
-const cookies = document.cookie.split(';');
-const username = cookies.find(row => row.startsWith('username')).split('=')[1];
+const cookies = document.cookie.split(";");
+const username = cookies
+  .find((row) => row.startsWith("username"))
+  .split("=")[1];
 console.log(username);
 ```
 

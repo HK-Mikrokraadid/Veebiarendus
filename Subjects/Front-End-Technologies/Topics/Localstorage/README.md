@@ -2,6 +2,30 @@
 
 LocalStorage on veebibrauseri poolt pakutav funktsioon, mis võimaldab veebirakendustel salvestada andmeid kasutaja seadmes. See õppematerjal tutvustab, kuidas LocalStorage't kasutada, selle kasulikkust ja mida selle kasutamisel tähele panna.
 
+![LocalStorage](LocalStorage.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [LocalStorage'i Kasutamine Veebirakendustes](#localstoragei-kasutamine-veebirakendustes)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on LocalStorage?](#mis-on-localstorage)
+    - [Võtmefunktsioonid](#võtmefunktsioonid)
+  - [Andmete Salvestamine LocalStorage'i](#andmete-salvestamine-localstoragei)
+    - [Näide: Andmete Salvestamine](#näide-andmete-salvestamine)
+  - [Andmete Lugemine LocalStorage'ist](#andmete-lugemine-localstorageist)
+    - [Näide: Andmete Lugemine](#näide-andmete-lugemine)
+  - [Andmete Kustutamine LocalStorage'ist](#andmete-kustutamine-localstorageist)
+    - [Näide: Ühe Võtme Kustutamine](#näide-ühe-võtme-kustutamine)
+    - [Näide: Kogu LocalStorage'i Tühjendamine](#näide-kogu-localstoragei-tühjendamine)
+  - [Tähelepanekud ja Piirangud](#tähelepanekud-ja-piirangud)
+  - [Näide: Sisselogimine ja Kasutajaandmete Salvestamine](#näide-sisselogimine-ja-kasutajaandmete-salvestamine)
+    - [Sisselogimisvormi Loomine](#sisselogimisvormi-loomine)
+    - [Sisselogimisandmete saatmine JavaScripti ja Axiosega](#sisselogimisandmete-saatmine-javascripti-ja-axiosega)
+  - [Tokeni Haldamine LocalStorage'is](#tokeni-haldamine-localstorageis)
+    - [Turvalisuse Kaalutlused](#turvalisuse-kaalutlused)
+  - [Kokkuvõte](#kokkuvõte)
+  - [Allikad](#allikad)
+
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
@@ -27,7 +51,7 @@ LocalStorage'iga suhtlemine toimub JavaScripti abil. Andmeid saab salvestada `se
 ### Näide: Andmete Salvestamine
 
 ```javascript
-localStorage.setItem('username', 'JohnDoe');
+localStorage.setItem("username", "JohnDoe");
 ```
 
 ## Andmete Lugemine LocalStorage'ist
@@ -37,7 +61,7 @@ Andmeid saab lugeda `getItem` meetodi abil, kasutades võtmena sama stringi, mid
 ### Näide: Andmete Lugemine
 
 ```javascript
-const username = localStorage.getItem('username');
+const username = localStorage.getItem("username");
 console.log(username); // Väljastab: JohnDoe
 ```
 
@@ -48,7 +72,7 @@ LocalStorage'ist andmete kustutamiseks on kaks võimalust: kustutada üks konkre
 ### Näide: Ühe Võtme Kustutamine
 
 ```javascript
-localStorage.removeItem('username');
+localStorage.removeItem("username");
 ```
 
 ### Näide: Kogu LocalStorage'i Tühjendamine
@@ -76,11 +100,11 @@ Esmalt loome lihtsa HTML vormi, mis kogub kasutajalt kasutajanime ja parooli.
 ```html
 <form id="loginForm">
   <label for="username">Kasutajanimi:</label>
-  <input type="text" id="username" name="username" required>
-  
+  <input type="text" id="username" name="username" required />
+
   <label for="password">Parool:</label>
-  <input type="password" id="password" name="password" required>
-  
+  <input type="password" id="password" name="password" required />
+
   <button type="submit">Logi sisse</button>
 </form>
 ```
@@ -90,28 +114,30 @@ Esmalt loome lihtsa HTML vormi, mis kogub kasutajalt kasutajanime ja parooli.
 Kasutades Axios teeki, saadame sisselogimisandmed POST-päringuna serverile. Me eeldame, et server vastab autentimis-tokeniga, mida saab kasutada järgnevates autoriseeritud päringutes.
 
 ```javascript
-document.getElementById('loginForm').addEventListener('submit', async function(event) {
-  event.preventDefault();
+document
+  .getElementById("loginForm")
+  .addEventListener("submit", async function (event) {
+    event.preventDefault();
 
-  const username = document.getElementById('username').value;
-  const password = document.getElementById('password').value;
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
 
-  try {
-    const response = await axios.post('https://example.com/api/login', {
-      username,
-      password
-    });
-    
-    // Kui autentimine õnnestub, saame tokeni
-    const { token } = response.data;
-    console.log('Saadud token:', token);
-    
-    // Salvestame tokeni LocalStorage'isse
-    localStorage.setItem('authToken', token);
-  } catch (error) {
-    console.error('Autentimine ebaõnnestus:', error);
-  }
-});
+    try {
+      const response = await axios.post("https://example.com/api/login", {
+        username,
+        password,
+      });
+
+      // Kui autentimine õnnestub, saame tokeni
+      const { token } = response.data;
+      console.log("Saadud token:", token);
+
+      // Salvestame tokeni LocalStorage'isse
+      localStorage.setItem("authToken", token);
+    } catch (error) {
+      console.error("Autentimine ebaõnnestus:", error);
+    }
+  });
 ```
 
 ## Tokeni Haldamine LocalStorage'is
@@ -119,24 +145,24 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
 Pärast tokeni saamist salvestame selle LocalStorage'isse. See võimaldab meil kasutada tokenit järgnevates päringutes, säilitades samal ajal kasutaja sessiooni staatuse ka veebilehe värskendamisel või uuesti külastamisel.
 
 ```javascript
-localStorage.setItem('authToken', token);
+localStorage.setItem("authToken", token);
 ```
 
 Näiteks saate hiljem tokenit kasutada päringu autoriseerimiseks, lisades selle päringu päisesse:
 
 ```javascript
 async function fetchUserData() {
-  const authToken = localStorage.getItem('authToken');
+  const authToken = localStorage.getItem("authToken");
 
   try {
-    const response = await axios.get('https://example.com/api/userdata', {
+    const response = await axios.get("https://example.com/api/userdata", {
       headers: {
-        'Authorization': `Bearer ${authToken}`
-      }
+        Authorization: `Bearer ${authToken}`,
+      },
     });
-    console.log('Kasutaja andmed:', response.data);
+    console.log("Kasutaja andmed:", response.data);
   } catch (error) {
-    console.error('Viga andmete laadimisel:', error);
+    console.error("Viga andmete laadimisel:", error);
   }
 }
 

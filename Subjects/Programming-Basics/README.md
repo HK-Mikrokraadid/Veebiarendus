@@ -46,7 +46,7 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 - [Tõepärasus](./Topics/Truthiness/README.md)
 - [Algoritmid](./Topics/Algorithms/README.md)
 - [Tsüklid](./Topics/Loops/README.md)
-- [Javascripti parimad praktikad](./Topics/Best-Practices/README.md)
+- [Javascripti parimad praktikad](./Topics/Javascript-Best-Practices/README.md)
 - [Andmestruktuurid](./Topics/Data-Structures/README.md)
 - [Funktsioonid](./Topics/Functions/README.md)
 - [Moodulid](./Topics/Modules/README.md)
@@ -59,7 +59,7 @@ Järgmise loengu õppematerjalid tuleks läbi töötada enne loengut (välja arv
 - [Callback](./Topics/Callback/README.md)
 - [JSON](./Topics/JSON/README.md)
 - [NodeMon](./Topics/Nodemon/README.md)
-- [Try Catch](./Topics/Try-Catch/README.md)
+- [Try Catch](./Topics/Try-Catch-Finally/README.md)
 - [typeof](./Topics/Typeof/README.md)
 
 ---

@@ -2,6 +2,10 @@
 
 Flash-sõnumid on olulised kasutajale kiire ja ajutise tagasiside andmiseks, näiteks pärast edukat sisselogimist, andmete salvestamist või veateate kuvamist. Reactis on mitmeid viise, kuidas flash-sõnumeid rakendada, alates lihtsast seisundihaldusest (`useState` ja `useEffect`) kuni kolmandate osapoolte teekide kasutamiseni, nagu `react-toastify`. Selles õppematerjalis vaatleme, kuidas implementeerida flash-sõnumeid mõlemal viisil.
 
+![Flash messages](Flash-Messages.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
 - [Reacti Flash-sõnumid](#reacti-flash-sõnumid)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on Flash-sõnumid?](#mis-on-flash-sõnumid)
@@ -41,8 +45,8 @@ Loome lihtsa `FlashMessage` komponendi, mis kuvab sõnumi ja kaob automaatselt p
 
 ```javascript
 // FlashMessage.js
-import React, { useState, useEffect } from 'react';
-import './FlashMessage.css'; // Stiilid flash-sõnumite jaoks
+import React, { useState, useEffect } from "react";
+import "./FlashMessage.css"; // Stiilid flash-sõnumite jaoks
 
 const FlashMessage = ({ message, type, duration = 3000 }) => {
   const [isVisible, setIsVisible] = useState(true);
@@ -58,11 +62,7 @@ const FlashMessage = ({ message, type, duration = 3000 }) => {
 
   if (!isVisible) return null;
 
-  return (
-    <div className={`flash-message ${type}`}>
-      {message}
-    </div>
-  );
+  return <div className={`flash-message ${type}`}>{message}</div>;
 };
 
 export default FlashMessage;
@@ -88,15 +88,15 @@ Loome lihtsad stiilid, et eristada flash-sõnumite tüüpe (nt edu, tõrge, info
 }
 
 .flash-message.success {
-  background-color: #4CAF50; /* Roheline */
+  background-color: #4caf50; /* Roheline */
 }
 
 .flash-message.error {
-  background-color: #F44336; /* Punane */
+  background-color: #f44336; /* Punane */
 }
 
 .flash-message.info {
-  background-color: #2196F3; /* Sinine */
+  background-color: #2196f3; /* Sinine */
 }
 ```
 
@@ -106,40 +106,43 @@ Kasutame `FlashMessage` komponenti rakenduse mõnes tegevuses, näiteks pärast 
 
 ```javascript
 // LoginPage.js
-import React, { useState } from 'react';
-import FlashMessage from './FlashMessage';
-import './FlashMessage.css';
+import React, { useState } from "react";
+import FlashMessage from "./FlashMessage";
+import "./FlashMessage.css";
 
 const LoginPage = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const [flashMessage, setFlashMessage] = useState(null);
 
   const handleLogin = () => {
     // Näidis autentimise loogika
-    if (username === 'user' && password === 'password') {
+    if (username === "user" && password === "password") {
       // Näita edu sõnumit
-      setFlashMessage({ message: 'Login successful!', type: 'success' });
+      setFlashMessage({ message: "Login successful!", type: "success" });
     } else {
       // Näita tõrkesõnumit
-      setFlashMessage({ message: 'Login failed. Please try again.', type: 'error' });
+      setFlashMessage({
+        message: "Login failed. Please try again.",
+        type: "error",
+      });
     }
   };
 
   return (
     <div>
       <h2>Login</h2>
-      <input 
-        type="text" 
-        value={username} 
-        onChange={(e) => setUsername(e.target.value)} 
-        placeholder="Username" 
+      <input
+        type="text"
+        value={username}
+        onChange={(e) => setUsername(e.target.value)}
+        placeholder="Username"
       />
-      <input 
-        type="password" 
-        value={password} 
-        onChange={(e) => setPassword(e.target.value)} 
-        placeholder="Password" 
+      <input
+        type="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+        placeholder="Password"
       />
       <button onClick={handleLogin}>Login</button>
 
@@ -152,7 +155,7 @@ const LoginPage = () => {
       )}
     </div>
   );
-}
+};
 
 export default LoginPage;
 ```
@@ -179,13 +182,13 @@ npm install react-toastify
 
 ```javascript
 // App.js
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import HomePage from './HomePage';
-import LoginPage from './LoginPage';
-import Dashboard from './Dashboard';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import HomePage from "./HomePage";
+import LoginPage from "./LoginPage";
+import Dashboard from "./Dashboard";
 
 const App = () => {
   return (
@@ -198,54 +201,54 @@ const App = () => {
       <ToastContainer /> {/* Lisame ToastContaineri, et saaks kuvada teateid */}
     </Router>
   );
-}
+};
 
 export default App;
 ```
 
 ```javascript
 // LoginPage.js
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { toast } from 'react-toastify';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const LoginPage = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
   const handleLogin = () => {
     // Näidis autentimise loogika
-    if (username === 'user' && password === 'password') {
+    if (username === "user" && password === "password") {
       // Näita edu sõnumit
-      toast.success('Login successful!');
+      toast.success("Login successful!");
       // Suuna kasutaja teisele lehele
-      navigate('/dashboard');
+      navigate("/dashboard");
     } else {
       // Näita tõrkesõnumit
-      toast.error('Login failed. Please try again.');
+      toast.error("Login failed. Please try again.");
     }
   };
 
   return (
     <div>
       <h2>Login</h2>
-      <input 
-        type="text" 
-        value={username} 
-        onChange={(e) => setUsername(e.target.value)} 
-        placeholder="Username" 
+      <input
+        type="text"
+        value={username}
+        onChange={(e) => setUsername(e.target.value)}
+        placeholder="Username"
       />
-      <input 
-        type="password" 
-        value={password} 
-        onChange={(e) => setPassword(e.target.value)} 
-        placeholder="Password" 
+      <input
+        type="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+        placeholder="Password"
       />
       <button onClick={handleLogin}>Login</button>
     </div>
   );
-}
+};
 
 export default LoginPage;
 ```
@@ -261,10 +264,8 @@ Teeki `react-toastify` saab hõlpsasti kohandada ja konfigureerida erinevateks v
 
 ```javascript
 // Erinevad kohandamisvõimalused
-toast.success('Success Message', {
-  position:
-
- toast.POSITION.TOP_RIGHT,
+toast.success("Success Message", {
+  position: toast.POSITION.TOP_RIGHT,
   autoClose: 5000,
   hideProgressBar: false,
   closeOnClick: true,
