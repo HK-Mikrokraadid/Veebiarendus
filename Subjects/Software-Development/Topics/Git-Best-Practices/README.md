@@ -4,6 +4,8 @@ Selles teemas õpime tundma parimaid praktikaid Git'i ja GitHub'i kasutamiseks. 
 
 ![Git-i parimad praktikad](Git-Best-Practices.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 - [Git ja Github parimad praktikad](#git-ja-github-parimad-praktikad)
   - [Õpiväljundid](#õpiväljundid)
   - [Git'i parimad praktikad](#giti-parimad-praktikad)
@@ -16,7 +18,7 @@ Pärast selle teema läbimist suudate:
 - kirjeldada parimaid praktikaid Git'i ja GitHub'i kasutamiseks;
 - rakendada Git'i ja GitHub'i parimaid praktikaid tarkvaraarendusprojektis.
 
-*Git'i* ja *GitHub'i* tõhus kasutamine hõlmab enamat kui ainult käskude ja tööriistade tundmist. Parimate praktikate järgimine tagab, et arendusprotsess on sujuv, projekti ajalugu jääb puhtaks ja meeskonnaliikmete koostöö on tõhus.
+_Git'i_ ja _GitHub'i_ tõhus kasutamine hõlmab enamat kui ainult käskude ja tööriistade tundmist. Parimate praktikate järgimine tagab, et arendusprotsess on sujuv, projekti ajalugu jääb puhtaks ja meeskonnaliikmete koostöö on tõhus.
 
 Siin on ülevaade parimatest praktikatest nii Git'i kui ka GitHub'i jaoks:
 
@@ -49,7 +51,7 @@ Siin on ülevaade parimatest praktikatest nii Git'i kui ka GitHub'i jaoks:
 3. **Kasuta `Issue`-de ja Pull Requestide malle:**
    - Mallid juhendavad kaastöötajaid esitama vajaliku teabe, kui luuakse `Issue`-id või `Pull Request`-e.
 4. **Kaitse oma peaharu:**
-   - Kasuta haru kaitse reegleid, et tagada, et `main` või `master` harule ei saaks otse tõugata ja nõua enne ühendamist `pull requestide` ülevaatamist (*review*).
+   - Kasuta haru kaitse reegleid, et tagada, et `main` või `master` harule ei saaks otse tõugata ja nõua enne ühendamist `pull requestide` ülevaatamist (_review_).
 5. **Kasuta silte:**
    - Organiseeri `Issue`-d ja `Pull Requestid`-id siltidega (nt `bug`, `enhancement`).
 6. **Koodi ülevaatused:**
@@ -61,6 +63,6 @@ Siin on ülevaade parimatest praktikatest nii Git'i kui ka GitHub'i jaoks:
 9. **Hoidke isikuandmed repositooriumist väljas:**
    - Ärge kunagi salvestage tundlikku teavet nagu **paroolid**, **API võtmed** või **saladused** oma hoidlatesse. Kasutage selleks GitHubi saladuste funktsiooni või väliseid tööriistu, nagu keskkonnamuutujad.
 10. **Vaadake regulaarselt üle load ja juurdepääsud:**
-     - Veenduge, et ainult vajalikel kaastöötajatel oleks juurdepääs teie hoidlale.
+    - Veenduge, et ainult vajalikel kaastöötajatel oleks juurdepääs teie hoidlale.
 
 Nende parimate praktikate järgimine tagab, et teie Git'i ja GitHub'i kasutamine on tõhus, teie projekti ajalugu jääb mõttekaks ja korraldatuks ning koostöö on sujuv ja produktiivne.

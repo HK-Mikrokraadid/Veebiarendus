@@ -2,6 +2,8 @@
 
 ![alt text](Javascript-Best-Practices.webp)
 
+Pildi allikas: [Unsplash](https://uns
+
 - [Javascript-i parimad praktikad](#javascript-i-parimad-praktikad)
   - [Õpiväljundid](#õpiväljundid)
   - [Sissejuhatus](#sissejuhatus)
@@ -12,9 +14,8 @@
     - [Eelistatavalt kasuta const-i muutujate jaoks](#eelistatavalt-kasuta-const-i-muutujate-jaoks)
     - [Moodulite importimine](#moodulite-importimine)
     - [Kasuta `===` ja `!==` operaatoreid](#kasuta--ja--operaatoreid)
-    - [Kasuta malliliteraale (*template literal*) stringide koostamisel](#kasuta-malliliteraale-template-literal-stringide-koostamisel)
+    - [Kasuta malliliteraale (_template literal_) stringide koostamisel](#kasuta-malliliteraale-template-literal-stringide-koostamisel)
   - [Kasutatud allikad](#kasutatud-allikad)
-
 
 ## Õpiväljundid
 
@@ -54,8 +55,7 @@ function someFunction() {
 }
 
 // Väldi
-function someFunction()
-{
+function someFunction() {
   // koodiblokk
 }
 ```
@@ -94,18 +94,18 @@ Lisaks on moodulite importimine koodi alguses oluline ka sellepärast, et Javasc
 
 Kirjuta oma kood selliselt, et puuduks vajadus kasutada vähemrangeid võrdlusoperaatoreid nagu `==` ja `!=`. `===` ja `!==` on rangemad võrdlusoperaatorid, mis kontrollivad ka väärtuste tüüpe. Näiteks `1 === '1'` tagastab `false`, kuna need kaks väärtust on erinevat tüüpi. See aitab vältida ootamatuid vigu koodis.
 
-### Kasuta malliliteraale (*template literal*) stringide koostamisel
+### Kasuta malliliteraale (_template literal_) stringide koostamisel
 
-Malliliteraalidid on Javascript-i stringi literaalid, mis võimaldavad stringi sees kasutada muutujaid ja avaldisi. Malliliteraalid on märgitud tagurpidi ülakoma (*backtick*) (\`) sümbolitega. Sellise stringi sees saab kasutada `${}` sümbolitega muutujaid ja avaldisi. Neid peaks eelistama tavalistele stringi konkateneerimise meetoditele, kuna need muudavad koodi loetavamaks ja vähendavad vigade tekkimise tõenäosust.
+Malliliteraalidid on Javascript-i stringi literaalid, mis võimaldavad stringi sees kasutada muutujaid ja avaldisi. Malliliteraalid on märgitud tagurpidi ülakoma (_backtick_) (\`) sümbolitega. Sellise stringi sees saab kasutada `${}` sümbolitega muutujaid ja avaldisi. Neid peaks eelistama tavalistele stringi konkateneerimise meetoditele, kuna need muudavad koodi loetavamaks ja vähendavad vigade tekkimise tõenäosust.
 
 ```javascript
 // Tee nii
-const name = 'John';
+const name = "John";
 const greeting = `Hello, ${name}!`;
 
 // Väldi
-const name = 'John';
-const greeting = 'Hello, ' + name + '!';
+const name = "John";
+const greeting = "Hello, " + name + "!";
 ```
 
 ## Kasutatud allikad

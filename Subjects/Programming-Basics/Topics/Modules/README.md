@@ -3,6 +3,7 @@
 Selles teemas räägime sellest, mis on moodulid Javascriptis ja kuidas neid kasutada.
 
 Sisseehitatud moodulitest saad lugeda [siit](../Modules-Built-In/README.md).
+
 Kolmanda osapoole moodulitest saad lugeda [siit](../Modules-Third-Party/README.md).
 
 ![Moodulid](Modules.webp)
@@ -41,11 +42,12 @@ Esiteks peaks meil olema fail, milles olevat koodi soovime eksportida. See fail 
 Mooduli eksportimiseks peame kasutama `module.exports` võtmesõna, millele järgneb mooduli nimi, mida soovime eksportida. Näiteks, kui soovime eksportida moodulit nimega `myModule`, saame tippida `module.exports = myModule;` või `module.exports = { myModule, myModule1 };` (kui meil on mitu eksporti) Javascripti failis, kust soovime moodulit eksportida.
 
 ```javascript
-const myModule = { // defineerida moodul nimega myModule
+const myModule = {
+  // defineerida moodul nimega myModule
   myFunction() {
     // funktsiooni sisu
-  }
-}
+  },
+};
 
 module.exports = myModule; // eksportida moodul nimega myModule
 ```
@@ -61,13 +63,13 @@ module.exports = { myModule, myModule1 }; // eksportida mitu moodulit nimega myM
 Mooduli importimiseks peame kasutama `require` võtmesõna, millele järgneb faili nimi, mis sisaldab moodulit, mida soovime importida. Näiteks, kui soovime importida moodulit nimega `myModule` failist `moduleFileName.js`, saame tippida `require('./moduleFileName');` Javascripti failis, kus soovime moodulit importida (osaga `./` täpsustatakse faili teed, mis sisaldab mooduleid, mida soovime importida).
 
 ```javascript
-const myModule = require('./moduleFileName'); // importida moodul failist nimega `moduleFileName.js`
+const myModule = require("./moduleFileName"); // importida moodul failist nimega `moduleFileName.js`
 ```
 
 või
 
 ```javascript
-import { myModule, myModule1 } from './moduleFileName'; // importida mitu moodulit nimega myModule ja myModule1 failist `moduleFileName.js`
+import { myModule, myModule1 } from "./moduleFileName"; // importida mitu moodulit nimega myModule ja myModule1 failist `moduleFileName.js`
 ```
 
 ## Kuidas kasutada moodulit?
@@ -91,7 +93,7 @@ module.exports = { add, subtract }; // eksportida add ja subtract funktsioonid
 Faili `index.js` sisu võiks olla midagi sellist:
 
 ```javascript
-const calculate = require('./calculate'); // importida calculate moodul
+const calculate = require("./calculate"); // importida calculate moodul
 
 const sum = calculate.add(5, 3); // kutsuda add funktsioon calculate moodulist ja määrata tulemus muutujale sum
 
@@ -125,21 +127,21 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 <details>
   <summary>Lahendus</summary>
 
-  ```javascript
-  // greetings.js
-  function sayHello() {
-    console.log('Hello, World!');
-  }
+```javascript
+// greetings.js
+function sayHello() {
+  console.log("Hello, World!");
+}
 
-  module.exports = sayHello;
-  ```
+module.exports = sayHello;
+```
 
-  ```javascript
-  // index.js
-  const sayHello = require('./greetings');
+```javascript
+// index.js
+const sayHello = require("./greetings");
 
-  sayHello();
-  ```
+sayHello();
+```
 
 ![Moodulid](modules.gif)
 
@@ -156,26 +158,26 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 <details>
   <summary>Lahendus</summary>
 
-  ```javascript
-  // greetings.js
-  function sayHello() {
-    console.log('Hello, World!');
-  }
+```javascript
+// greetings.js
+function sayHello() {
+  console.log("Hello, World!");
+}
 
-  function sayHelloTo(name) {
-    console.log(`Hello, ${name}!`);
-  }
+function sayHelloTo(name) {
+  console.log(`Hello, ${name}!`);
+}
 
-  module.exports = { sayHello, sayHelloTo };
-  ```
+module.exports = { sayHello, sayHelloTo };
+```
 
-  ```javascript
-  // index.js
-  const { sayHello, sayHelloTo } = require('./greetings');
+```javascript
+// index.js
+const { sayHello, sayHelloTo } = require("./greetings");
 
-  sayHello();
-  sayHelloTo('Jaan');
-  ```
+sayHello();
+sayHelloTo("Jaan");
+```
 
 </details>
 
@@ -191,8 +193,8 @@ Testi oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
 > const myObject = {
 >   myFunction() {
 >     // funktsiooni sisu
->   }
-> }
+>   },
+> };
 > ```
 >
 > Vihje: Funktsiooni kutsumiseks objektist saad kasutada järgmist süntaksit:,

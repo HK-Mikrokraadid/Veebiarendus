@@ -1,6 +1,15 @@
-# Koodi ülevaatus(*Code Review*)
+# Koodi ülevaatus(_Code Review_)
+
+Koodi ülevaatused teiste arendajate poolt võib olla väärtuslik tööriist, mis tagab koodi kõrge kvaliteedi. Koodiülevaatused võimaldavad teistel arendajatel koodimuudatusi üle vaadata, täiustusi soovitada ning vigu või probleeme tabada.
 
 ![Code Review](Code-Review.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Koodi ülevaatus(_Code Review_)](#koodi-ülevaatuscode-review)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on koodi ülevaatus?](#mis-on-koodi-ülevaatus)
+  - [Millises etapis koodi ülevaatust tehakse?](#millises-etapis-koodi-ülevaatust-tehakse)
 
 ## Õpiväljundid
 
@@ -33,7 +42,7 @@ Koodi ülevaatust saab teha käsitsi, kus üks arendaja loeb koodi läbi ja anna
 
 Koodi ülevaatus tehakse tarkvaraarendusprotsessis pärast koodi kirjutamist, kuid enne selle ühendamist põhikoodibaasi.
 
-Enamikus tarkvaraarenduse töövoogudes on koodi ülevaatus osa tõmbetaotluse (*Pull Request*) protsessist. Kui arendaja on lõpetanud uue funktsiooni kirjutamise või vea parandamise, loob ta tõmbetaotluse, mis sisaldab tehtud muudatusi. Teised meeskonna arendajad vaatavad seejärel koodimuudatused üle ja annavad tagasisidet kas käsitsi või automatiseeritud tööriistu kasutades.
+Enamikus tarkvaraarenduse töövoogudes on koodi ülevaatus osa tõmbetaotluse (_Pull Request_) protsessist. Kui arendaja on lõpetanud uue funktsiooni kirjutamise või vea parandamise, loob ta tõmbetaotluse, mis sisaldab tehtud muudatusi. Teised meeskonna arendajad vaatavad seejärel koodimuudatused üle ja annavad tagasisidet kas käsitsi või automatiseeritud tööriistu kasutades.
 
 Pärast koodi ülevaatamist ja probleemide lahendamist saab muudatused liita põhikoodibaasi. Koodi ülevaatus on sageli iteratiivne protsess, mis tähendab, et enne muudatuste lõplikku kinnitamist võib toimuda mitu tagasiside ja muudatuste vooru.
 

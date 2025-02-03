@@ -1,6 +1,10 @@
 # Koodi kvaliteet
 
+Nagu iga toote puhul, on kvaliteet oluline ka koodi puhul. Kvaliteetne kood on loetav, järjepidev, lihtne, hooldatav ja töökindel. Kvaliteetse koodi kirjutamine võib aidata vähendada vigu, parandada tootlikkust ja säästa aega ja ressursse.
+
 ![Koodi kvaliteet](Code-Quality.webp)
+
+Pildi allikas: Dall-E by OpenAI
 
 - [Koodi kvaliteet](#koodi-kvaliteet)
   - [Mida tähendab koodi kvaliteet?](#mida-tähendab-koodi-kvaliteet)
@@ -20,29 +24,29 @@ Koodi kvaliteet viitab koodibaasi üldisele kvaliteedile ja hooldatavusele. See 
 
 Siin on mõned tegurid, mis võivad koodi heale kvaliteedile kaasa aidata.
 
-- **Loetavus** (*Readability*): kood peaks olema kergesti loetav ja arusaadav. See peaks olema hästi struktureeritud ja organiseeritud, järjekindlate nimetamisreeglite, vahede ja taandega.
-- **Järjepidevus** (*Consistency*): kood peaks olema stiililt ja lähenemisviisilt ühtne. See hõlbustab teistel arendajatel koodi mõistmist ja muutmist.
-- **Lihtsus** (*Simplicity*): kood peaks olema lihtne ja arusaadav. See vähendab vigade tõenäosust ning muudab koodi aja jooksul muutmise ja hooldamise lihtsamaks.
-- **Hooldatavus** (*Maintainability*): kood peaks olema aja jooksul hooldatav. See tähendab, et nõuete muutumisel peaks seda olema lihtne muuta, parandada ja värskendada.
-- **Töökindlus** (*Reliability*): kood peaks olema töökindel ja prognoositav. See peaks töötama ootuspäraselt ja käsitlema vigu selliselt, et need ei põhjusta programmi töös tõrkeid.
+- **Loetavus** (_Readability_): kood peaks olema kergesti loetav ja arusaadav. See peaks olema hästi struktureeritud ja organiseeritud, järjekindlate nimetamisreeglite, vahede ja taandega.
+- **Järjepidevus** (_Consistency_): kood peaks olema stiililt ja lähenemisviisilt ühtne. See hõlbustab teistel arendajatel koodi mõistmist ja muutmist.
+- **Lihtsus** (_Simplicity_): kood peaks olema lihtne ja arusaadav. See vähendab vigade tõenäosust ning muudab koodi aja jooksul muutmise ja hooldamise lihtsamaks.
+- **Hooldatavus** (_Maintainability_): kood peaks olema aja jooksul hooldatav. See tähendab, et nõuete muutumisel peaks seda olema lihtne muuta, parandada ja värskendada.
+- **Töökindlus** (_Reliability_): kood peaks olema töökindel ja prognoositav. See peaks töötama ootuspäraselt ja käsitlema vigu selliselt, et need ei põhjusta programmi töös tõrkeid.
 
 ## Kuidas tagada koodi kvaliteeti?
 
 Järgnevalt mõned punktid, kuidas tagada koodi kvaliteeti:
 
-- **Järjepidev koodi vormindamine** (*Consistent Code Formatting*): koodivormingu järjepidevus muudab arendajatel koodibaasi mõistmise ja hooldamise lihtsamaks. Kasutage koodibaasi ühtse stiili jõustamiseks koodilinterit või vormindustööriista, nagu Prettier või [ESLint](../Eslint/README.md).
+- **Järjepidev koodi vormindamine** (_Consistent Code Formatting_): koodivormingu järjepidevus muudab arendajatel koodibaasi mõistmise ja hooldamise lihtsamaks. Kasutage koodibaasi ühtse stiili jõustamiseks koodilinterit või vormindustööriista, nagu Prettier või [ESLint](../Eslint/README.md).
 
-- **Kommentaarid ja dokumentatsioon** (*Code Comments and Documentation*): koodibaasi dokumenteerimine kommentaaride, dokumentatsiooni ja tekstisiseste märkustega on hea tava tagamaks, et arendajad saavad koodist aru ja seda muuta. Kommenteeri lühidalt ja seda miks midagi sellisel kujul teed, mitte mida teed. Püüa muutujaid ja funktsioone nimetada selliselt, et kommentaare ei olekski vaja. Pikad nimed on okei.
+- **Kommentaarid ja dokumentatsioon** (_Code Comments and Documentation_): koodibaasi dokumenteerimine kommentaaride, dokumentatsiooni ja tekstisiseste märkustega on hea tava tagamaks, et arendajad saavad koodist aru ja seda muuta. Kommenteeri lühidalt ja seda miks midagi sellisel kujul teed, mitte mida teed. Püüa muutujaid ja funktsioone nimetada selliselt, et kommentaare ei olekski vaja. Pikad nimed on okei.
 
-- **Ühiktestimine** (*Unit Testing*): koodi automaattestide kirjutamine aitab tagada, et see toimib ootuspäraselt ja et koodibaasi muudatused ei too kaasa uusi vigu ega probleeme. Javascripti ühiktestide kirjutamiseks ja käitamiseks saab kasutada näiteks selliseid tööriistu nagu [Jest](https://jestjs.io/) või [Mocha](https://mochajs.org/).
+- **Ühiktestimine** (_Unit Testing_): koodi automaattestide kirjutamine aitab tagada, et see toimib ootuspäraselt ja et koodibaasi muudatused ei too kaasa uusi vigu ega probleeme. Javascripti ühiktestide kirjutamiseks ja käitamiseks saab kasutada näiteks selliseid tööriistu nagu [Jest](https://jestjs.io/) või [Mocha](https://mochajs.org/).
 
-- [**Koodiülevaatused**](../Code-Review/README.md) (*Code Reviews*): Koodide ülevaatused teiste arendajate poolt võib olla väärtuslik tööriist, mis tagab koodi kõrge kvaliteedi. Koodiülevaatused võimaldavad teistel arendajatel koodimuudatusi üle vaadata, täiustusi soovitada ning vigu või probleeme tabada.
+- [**Koodiülevaatused**](../Code-Review/README.md) (_Code Reviews_): Koodide ülevaatused teiste arendajate poolt võib olla väärtuslik tööriist, mis tagab koodi kõrge kvaliteedi. Koodiülevaatused võimaldavad teistel arendajatel koodimuudatusi üle vaadata, täiustusi soovitada ning vigu või probleeme tabada.
 
-- **Vigade käsitlemine** (*Error Handling*): vigade korrektne käsitlemine koodis võib aidata tagada selle töökindluse ja prognoositavuse. Veenduge, et vigu käsitletakse kogu koodibaasis järjepidevalt ning et veateated on arendajatele informatiivsed ja abistavad.
+- **Vigade käsitlemine** (_Error Handling_): vigade korrektne käsitlemine koodis võib aidata tagada selle töökindluse ja prognoositavuse. Veenduge, et vigu käsitletakse kogu koodibaasis järjepidevalt ning et veateated on arendajatele informatiivsed ja abistavad.
 
-- **Kaasaegsete JavaScripti funktsioonide kasutamine** (*Use of Modern JavaScript Features*): kaasaegsete JavaScripti funktsioonide (nt noolefunktsioonid, destruktureerimine ja malliliteraalid) kasutamine võib aidata parandada koodi kvaliteeti. Need funktsioonid võivad muuta koodi kokkuvõtlikumaks ja hõlpsamini loetavaks.
+- **Kaasaegsete JavaScripti funktsioonide kasutamine** (_Use of Modern JavaScript Features_): kaasaegsete JavaScripti funktsioonide (nt noolefunktsioonid, destruktureerimine ja malliliteraalid) kasutamine võib aidata parandada koodi kvaliteeti. Need funktsioonid võivad muuta koodi kokkuvõtlikumaks ja hõlpsamini loetavaks.
 
-- **Koodi refaktoreerimine** (*Code Refactoring*): Refaktoreerimine on olemasoleva koodi täiustamise protsess, muutmata selle käitumist. Refaktoreerimine võib aidata parandada koodi kvaliteeti, muutes selle loetavamaks, hooldatavamaks ja skaleeritavamaks.
+- **Koodi refaktoreerimine** (_Code Refactoring_): Refaktoreerimine on olemasoleva koodi täiustamise protsess, muutmata selle käitumist. Refaktoreerimine võib aidata parandada koodi kvaliteeti, muutes selle loetavamaks, hooldatavamaks ja skaleeritavamaks.
 
 Neid tavasid järgides saate tagada, et teie JavaScripti kood on kvaliteetne ja aja jooksul hõlpsasti hooldatav.
 
@@ -53,8 +57,10 @@ Neid tavasid järgides saate tagada, et teie JavaScripti kood on kvaliteetne ja 
 Näiteks:
 
 ```javascript
-function add(x,y){return x+y;}
-console.log(add(2,3));
+function add(x, y) {
+  return x + y;
+}
+console.log(add(2, 3));
 ```
 
 See kood sooritab lihtsa liitmise ja prindib tulemuse konsooli. Kuigi kood töötab õigesti, ei ole see eriti hästi loetav. Siin on sama koodi täiustatud versioon, mis on paremini loetav:
@@ -76,7 +82,7 @@ Näiteks:
 
 ```javascript
 function checkLogin(username, password) {
-  if (username === 'admin' && password === 'password') {
+  if (username === "admin" && password === "password") {
     return true;
   } else {
     return false;
@@ -88,7 +94,7 @@ See kood defineerib funktsiooni `checkLogin`, mis võtab kaks argumenti (usernam
 
 ```javascript
 function checkLogin(username, password) {
-  return (username === 'admin' && password === 'password');
+  return username === "admin" && password === "password";
 }
 ```
 
@@ -139,7 +145,7 @@ See kood määratleb funktsiooni `divide`, mis võtab kaks argumenti (`a` ja `b`
 ```javascript
 function divide(a, b) {
   if (b === 0) {
-    throw new Error('Division by zero error');
+    throw new Error("Division by zero error");
   }
   return a / b;
 }

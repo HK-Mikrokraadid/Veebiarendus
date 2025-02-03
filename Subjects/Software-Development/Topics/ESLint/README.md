@@ -2,6 +2,8 @@
 
 ![Staatilise koodi analüüs](Static-Code-Analyzator.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 - [ESLint](#eslint)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on ESLint?](#mis-on-eslint)
@@ -146,14 +148,13 @@ module.exports = {
     commonjs: true,
     es2021: true,
   },
-  extends: 'airbnb-base',
-  overrides: [
-  ],
+  extends: "airbnb-base",
+  overrides: [],
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaVersion: "latest",
   },
   rules: {
-    'linebreak-style': 0,
+    "linebreak-style": 0,
   },
 };
 ```

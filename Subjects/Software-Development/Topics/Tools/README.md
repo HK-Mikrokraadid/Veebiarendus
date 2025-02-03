@@ -2,7 +2,9 @@
 
 Selles peatükis räägime tarkvaraarenduses kasutatavatest tööriistadest.
 
-![alt text](Software-Development-Tools.webp)
+![Tööriistad](Software-Development-Tools.webp)
+
+Pildi allikas: Dall-E by OpenAI
 
 - [Tööriistad tarkvaraarenduses](#tööriistad-tarkvaraarenduses)
   - [Õpiväljundid](#õpiväljundid)

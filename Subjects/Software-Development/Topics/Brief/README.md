@@ -1,8 +1,10 @@
-# Lähteülesanne, ehk *briif*
+# Lähteülesanne, ehk _briif_
 
 ![Briif](Brief.webp)
 
-- [Lähteülesanne, ehk *briif*](#lähteülesanne-ehk-briif)
+Pildi allikas: Dall-E by OpenAI
+
+- [Lähteülesanne, ehk _briif_](#lähteülesanne-ehk-briif)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on lähteülesanne?](#mis-on-lähteülesanne)
   - [Lähteülesanne lühidalt](#lähteülesanne-lühidalt)

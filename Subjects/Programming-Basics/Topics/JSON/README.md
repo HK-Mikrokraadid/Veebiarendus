@@ -2,7 +2,7 @@
 
 ![JSON](JSON.webp)
 
-Pildi allikas: [Dall-E by OpenAI](https://openai.com/)
+Pildi allikas: Dall-E by OpenAI
 
 - [JSON (JavaScript Object Notation)](#json-javascript-object-notation)
   - [Mis on JSON?](#mis-on-json)
@@ -52,7 +52,7 @@ const person = {
   name: "John",
   age: 30,
   isStudent: true,
-  favoriteFoods: ["pizza", "sushi", "ice cream"]
+  favoriteFoods: ["pizza", "sushi", "ice cream"],
 };
 
 const jsonPerson = JSON.stringify(person);
@@ -63,7 +63,12 @@ console.log(jsonPerson);
 Väljund:
 
 ```json
-{"name":"John","age":30,"isStudent":true,"favoriteFoods":["pizza","sushi","ice cream"]}
+{
+  "name": "John",
+  "age": 30,
+  "isStudent": true,
+  "favoriteFoods": ["pizza", "sushi", "ice cream"]
+}
 ```
 
 Eelnevas näites teisendatakse objekt `person` JSON-stringiks, kasutades `JSON.stringify()` funktsiooni. JSON-string salvestatakse muutujasse `jsonPerson` ja seejärel väljastatakse konsooli.
@@ -77,7 +82,8 @@ Eelnevas näites teisendatakse objekt `person` JSON-stringiks, kasutades `JSON.s
 Siin on näide `JSON.parse()` kasutamisest:
 
 ```javascript
-const jsonPerson = '{"name":"John","age":30,"isStudent":true,"favoriteFoods":["pizza","sushi","ice cream"]}';
+const jsonPerson =
+  '{"name":"John","age":30,"isStudent":true,"favoriteFoods":["pizza","sushi","ice cream"]}';
 const person = JSON.parse(jsonPerson);
 
 console.log(person);

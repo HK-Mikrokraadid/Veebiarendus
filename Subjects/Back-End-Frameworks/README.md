@@ -15,15 +15,12 @@ Kursuse lõpuks peaksid õppurid olema osavad serveri arhitektuuri põhimõtetes
 
 ## Õpiväljundid
 
-- **Serveri arhitektuur**: Mõista ja rakendada serveri arhitektuure, kasutades raamistiku võimekusi skaleeritavate rakenduste struktureerimiseks.
-- **Marsruutimine ja vahendustarkvara**: Kasutada marsruutimismehhanisme erinevate päringutüüpide käsitlemiseks ja rakendada vahendustarkvara päringu/vastuse töötlemiseks.
-- **Andmebaasi integreerimine**: Ühendada serveripoolsed rakendused relatsiooniliste ja mittesuhetele põhinevate andmebaasidega, sooritada CRUD-operatsioone ja mõista ORM/ODM paradigmasid.
-- **Autentimine ja autoriseerimine**: Rakendada autentimise ja autoriseerimise strateegiaid rakenduste turvamiseks, mõistes seansse, tokeneid ja OAuth mehhanisme.
-- **API arendus**: Kujundada ja arendada RESTful API-sid, rõhutades parimaid praktikaid lõpp-punkti struktuuri, andmete valideerimise ja vigade käsitlemise osas.
-- **Vigade käsitlemine**: Rakendada põhjalikke vigade käsitlemise strateegiaid, et hallata ja reageerida erinevatele veatüüpidele ja stsenaariumidele.
-- **Juurutamine ja tootmine**: Tutvuda juurutamisprotsesside, keskkonna seadistuste ja nüanssidega, mis kaasnevad tagarakenduse tootmisesse viimisega.
-- **Turvameetmed**: Rakendada erinevaid turvameetmeid, mõistes potentsiaalseid haavatavusi nagu SQL-injektsioon, CSRF ja kaitstes nende eest.
-- **Pidev integreerimine/pidev juurutamine (CI/CD)**: Mõista CI/CD torujuhet ja integreerida see tagarakenduste arenduse töövoogu.
+Selle aine läbinud õpilane:
+
+- loob CRUD API kasutades Express.js raamistikku;
+- kasutab Express vahevara kontrollimaks päringu/vastuse tsüklit;
+- kasutab loodud API andmete talletamiseks andmebaasi;
+- kasutab API kasutajate õiguste ja ligipääsu kontrollimiseks autentimist ja autoriseerimist.
 
 ## Teemad
 

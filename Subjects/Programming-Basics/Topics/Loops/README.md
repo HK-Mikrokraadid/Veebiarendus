@@ -4,6 +4,8 @@ Selles teemas õpime tsüklite ja iteratsioonide kohta.
 
 ![Tsüklid](Loops.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 - [Tsüklid](#tsüklid)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on Tsükkel?](#mis-on-tsükkel)
@@ -134,14 +136,14 @@ Väljund:
 
 ```js
 const person = {
-  firstName: 'John',
-  lastName: 'Doe',
+  firstName: "John",
+  lastName: "Doe",
   age: 25,
-  isMarried: false
+  isMarried: false,
 };
 
 for (let key in person) {
-  console.log(key + ': ' + person[key]);
+  console.log(key + ": " + person[key]);
 }
 ```
 
@@ -161,7 +163,7 @@ Selles näites lõime objekti nimega `person` nelja omadusega: `firstName`, `las
 `for...of` tsükkel, mida kasutatakse `iterable` objekti väärtuste iteratsiooniks. `Iterable` objekt on objekt, millel on sisseehitatud iteratsioonimehhanism. Näiteks massiivid, sõned, `Map` ja `Set` on kõik `iterable` objektid. `for...of` tsükkel koosneb **muutujast** ja **iterable objektist**. **Muutujat** kasutatakse väärtuse salvestamiseks ja **iterable** objekt on see, mille väärtusi itereeritakse.
 
 ```js
-const fruits = ['apple', 'banana', 'orange'];
+const fruits = ["apple", "banana", "orange"];
 
 for (let fruit of fruits) {
   console.log(fruit);
@@ -196,7 +198,7 @@ for (let i = 0; i < 10; i++) {
 ```
 
 Väljund:
-  
+
 ```plaintext
 0
 1

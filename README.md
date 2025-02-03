@@ -48,7 +48,7 @@ Kodused ülesanded hakkavad tulema iga õpilase repositooriumisse [`Github Issue
 
 ---
 
-## Mikrokraadide Struktuur
+## Mikrokraadide struktuur
 
 ```mermaid
 flowchart TB

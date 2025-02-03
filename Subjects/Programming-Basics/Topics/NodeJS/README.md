@@ -16,6 +16,7 @@ Pildi allikas: Dall-E by OpenAI
 ## Õpiväljundid
 
 Pärast selle teema läbimist suudad:
+
 - selgitada, mis on NodeJS;
 - selgitada, miks NodeJS on populaarne;
 - paigaldada NodeJS oma arvutisse;
@@ -33,7 +34,7 @@ NodeJS-i kasutusala ei piirdu ainult veebirakendustega. Seda saab kasutada ka **
 
 ## Kuidas paigaldada NodeJS-i?
 
-NodeJS-i paigaldamiseks tuleb alla laadida NodeJS-i installeerija [ametlikult NodeJS-i veebilehelt](https://nodejs.org/en/download). Installeerija paigaldab meie arvutisse NodeJS-i ja **NPM**-i (*Node Package Manager*). **NPM** on tööriist, mida kasutatakse NodeJS pakettide paigaldamiseks ja haldamiseks.
+NodeJS-i paigaldamiseks tuleb alla laadida NodeJS-i installeerija [ametlikult NodeJS-i veebilehelt](https://nodejs.org/en/download). Installeerija paigaldab meie arvutisse NodeJS-i ja **NPM**-i (_Node Package Manager_). **NPM** on tööriist, mida kasutatakse NodeJS pakettide paigaldamiseks ja haldamiseks.
 
 ## Kuidas käivitada NodeJS-i?
 

@@ -38,6 +38,7 @@ Siin on ülevaade selle tähtsusest ja peamistest elementidest:
 - **Ulatusjuhtimine:** Aitab vältida ulatuse pugemist (projekti ulatuse muutusi pärast projekti algust), tagades, et ulatuse muudatused dokumenteeritakse
 
 , hinnatakse ja kiidetakse heaks.
+
 - **Koostöö ja meeskonnatöö:** Pakub tööriistu ja metoodikaid meeskonnatöö edendamiseks, tagades, et meeskonnaliikmed teevad tõhusalt koostööd ühiste eesmärkide saavutamiseks.
 - **Lõpetamine ja peegeldamine:** Kui projekt on lõpetatud, võimaldab projektijuhtimine struktureeritud lõpetamise ja peegeldamise faasi, et koguda tagasisidet ja õppetunde tulevaste projektide jaoks.
 

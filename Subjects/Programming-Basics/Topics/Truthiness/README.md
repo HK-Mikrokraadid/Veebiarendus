@@ -1,6 +1,10 @@
 # Tõepärasus Javascriptis
 
+Tõepärasus (_truthiness_) Javascriptis on protsess, kus Javascript teisendab väärtuse tõeseks (_true_) või vääraks (_false_). Tõepärasust kasutatakse, kui me tahame kontrollida, kas avaldis on tõene või väär, et teha mingeid otsuseid. Tõepärasuse kontrollimiseks kasutatakse võrdlusoperaatoreid, mille tulemuseks on `true` või `false`.
+
 ![Tõepärasus](Truthiness.webp)
+
+Pildi allikas: Dall-E by OpenAI
 
 - [Tõepärasus Javascriptis](#tõepärasus-javascriptis)
   - [Õpiväljundid](#õpiväljundid)

@@ -1,10 +1,10 @@
 # Markdown
 
+Selles teemas õpime tundma Markdowni, mis on üks populaarsemaid teksti vormindamise keeli maailmas. Uurime selle funktsioone, õpime seda kasutama ja avastame, kuidas seda saab kasutada tarkvaraprojektide dokumentatsioonis, blogimises ja muudes eesmärkides.
+
 ![Markup](Markup-Language.webp)
 
 Pildi allikas: Dall-E by OpenAI
-
-Selles teemas õpime tundma Markdowni, mis on üks populaarsemaid teksti vormindamise keeli maailmas. Uurime selle funktsioone, õpime seda kasutama ja avastame, kuidas seda saab kasutada tarkvaraprojektide dokumentatsioonis, blogimises ja muudes eesmärkides.
 
 - [Markdown](#markdown)
   - [Õpiväljundid](#õpiväljundid)
@@ -59,7 +59,7 @@ Levinumad märgendikeeled on näiteks:
 
 - **Lihtsus:** Markdowni on lihtne õppida ja kasutada. Selle süntaks on intuitiivne, mis tähendab, et ka mittetehnilised inimesed saavad selles formaadis kirjutamisega hõlpsasti alustada.
 - **Loetavus:** Markdowni dokumendid koosnevad tavalisest tekstist, seega need on loetavad isegi ilma teisele formaadile konverteerimata.
-- ***Kaasaskantavus*:** Kuna need on tavalised tekstifailid, on Markdowni dokumendid OS-agnostilised ja neid saab avada mis tahes tekstiredaktoriga.
+- **_Kaasaskantavus_:** Kuna need on tavalised tekstifailid, on Markdowni dokumendid OS-agnostilised ja neid saab avada mis tahes tekstiredaktoriga.
 - **Paindlik väljund:** Markdowni saab konverteerida mitmesugusteks formaatideks, sealhulgas HTML-iks, PDF-iks ja isegi MS Word'i või LaTeX formaati.
 - **Levinud kasutamine:** Markdown-i toetavad paljud platvormid, nagu GitHub, Reddit, Stack Exchange ja isegi sõnumirakendused nagu Slack ja Discord. Samuit on Markdown populaarne valik dokumentatsiooni ja blogimise jaoks.
 - **Versioonikontrolli sõbralik:** Kuna tegemist on tavalise tekstiga, töötab Markdown sujuvalt versioonikontrollisüsteemidega nagu Git.
@@ -92,19 +92,24 @@ Siin on kiire viide põhilistele Markdowni süntaksitele:
 
 ```markdown
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 ```
 
 ### Rõhutamine
 
 ```markdown
-*italic* või _italic_
-**bold** või __bold__
-**_italic ja bold_** või *__italic ja bold__*
+_italic_ või _italic_
+**bold** või **bold**
+**_italic ja bold_** või _**italic ja bold**_
 ~~läbikriipsutus~~
 ```
 
@@ -113,10 +118,10 @@ Siin on kiire viide põhilistele Markdowni süntaksitele:
 #### Märgistamata
 
 ```markdown
-* Ese 1
-* Ese 2
-  * Alamese 2.1
-  * Alamese 2.2
+- Ese 1
+- Ese 2
+  - Alamese 2.1
+  - Alamese 2.2
 ```
 
 või
@@ -199,16 +204,16 @@ function example() {
 või
 
 ```markdown
-***
+---
 ```
 
 ### Tabelid
 
 ```markdown
 | Päis 1 | Päis 2 |
-| -------- | -------- |
-| Lahtr1    | Lahtr2    |
-| Lahtr3    | Lahtr4    |
+| ------ | ------ |
+| Lahtr1 | Lahtr2 |
+| Lahtr3 | Lahtr4 |
 ```
 
 ### Ülesannete loendid

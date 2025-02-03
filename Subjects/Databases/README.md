@@ -6,6 +6,8 @@ Pildi allikas: Dall-E by OpenAI
 
 ## Kirjeldus
 
+Andmebaaside õppeaine annab ülevaate andmebaaside disainimise, loomise ja rakendamise põhimõtetest. Õppurid omandavad praktilised oskused MySQL andmebaaside kasutamiseks oma rakenduste tagarakenduses. Kursuse käigus õpitakse looma korrektsete andmetüüpide, tabelite ja seostega andmebaasi tagarakendusele, kirjutama toimivaid andmebaasipäringuid ja rakendama relatsioonilist andmebaasi oma rakenduse tagarakenduses.
+
 - **Maht**: 4 EAP (4 x 26 tundi)
 - **Õppeaine eesmärgid**: Omandada ülevaade ja praktilised oskused MySQL andmebaaside disainimisest, loomisest ja rakendamisest.
 
@@ -25,7 +27,7 @@ Pildi allikas: Dall-E by OpenAI
 - [MySQL Dockeris](./Topics/MySQL-Docker/README.md)
 - [SQL päringute tegemine](./Topics/MySQL-Queries/README.md)
 - [Andmebaasi ühendamine NodeJS-iga](./Topics/MySQL-NodeJS/README.md)
-- [JOIN laused MySQL-is](./Topics/MySQL-Joins/README.md)
+- [JOIN laused MySQL-is](./Topics/MySQL-Join/README.md)
 - [Veahaldus](../Back-End-Frameworks/Topics/Error-Handling/README.md)
 - [Logimine](../Back-End-Frameworks/Topics/Logging/README.md)
 - [Node API testimine](../Back-End-Frameworks/Topics/Testing-Node-API/README.md)

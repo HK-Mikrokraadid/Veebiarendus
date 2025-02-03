@@ -2,7 +2,7 @@
 
 ![Async Await](Async-Await.webp)
 
-Pildi allikas: [Dall-E by OpenAI](https://openai.com/)
+Pildi allikas: Dall-E by OpenAI
 
 - [Async/Await](#asyncawait)
   - [Õpiväljundid](#õpiväljundid)
@@ -19,11 +19,11 @@ Pärast selle teema läbimist suudate:
 
 ## Mis on `async/await`?
 
-`async/await` on moodsa Javascripti võimalus kirjutada asünkroonset koodi viisil, mis näeb välja ja käitub nagu sünkroonne kood. Põhimõtteliselt on tegemist lisafunktsionaalsusega, mis on ehitatud [*promise*](../promise/README.md) peale ja mis pakub lihtsamat süntaksit *promise* kasutamiseks.
+`async/await` on moodsa Javascripti võimalus kirjutada asünkroonset koodi viisil, mis näeb välja ja käitub nagu sünkroonne kood. Põhimõtteliselt on tegemist lisafunktsionaalsusega, mis on ehitatud [_promise_](../promise/README.md) peale ja mis pakub lihtsamat süntaksit _promise_ kasutamiseks.
 
 ## Milleks kasutada `async/await`?
 
-`async` võtmesõna kasutatakse asünkroonse funktsiooni defineerimiseks. Sellisel viisil defineeritud funktsioon tagastab alati *promise*, millel võib olla kolm olekut:
+`async` võtmesõna kasutatakse asünkroonse funktsiooni defineerimiseks. Sellisel viisil defineeritud funktsioon tagastab alati _promise_, millel võib olla kolm olekut:
 
 1. Ootel
 2. Täidetud
@@ -32,7 +32,7 @@ Pärast selle teema läbimist suudate:
 Näiteks:
 
 ```javascript
-const url = 'https://jsonplaceholder.typicode.com/posts/1'; // API URL
+const url = "https://jsonplaceholder.typicode.com/posts/1"; // API URL
 
 async function fetchData() {
   const response = await fetch(url);
@@ -41,7 +41,7 @@ async function fetchData() {
 }
 ```
 
-`await` võtmesõna kasutamine paneb funktsiooni täitmise seniks 'pausile', kuni *promise* on täidetud või tagasi lükatud. Kui *promise* saab täidetuks, siis tagastatakse saadud väärtus ja jätkatakse funktsiooni täitmist. Kui *promise* lükatakse tagasi, siis 'heidetakse erand' (*exception is thrown*), mis on võimalik 'kinni püüda' kasutades [`try/catch`](../Try-Catch-Finally/README.md) blokki.
+`await` võtmesõna kasutamine paneb funktsiooni täitmise seniks 'pausile', kuni _promise_ on täidetud või tagasi lükatud. Kui _promise_ saab täidetuks, siis tagastatakse saadud väärtus ja jätkatakse funktsiooni täitmist. Kui _promise_ lükatakse tagasi, siis 'heidetakse erand' (_exception is thrown_), mis on võimalik 'kinni püüda' kasutades [`try/catch`](../Try-Catch-Finally/README.md) blokki.
 
 ```javascript
 async function main() {
@@ -60,7 +60,7 @@ Näites on defineeritud asünkroonne funktsioon `main`, milles päritakse `fetch
 
 > Meeles peab pidama seda, et `await` märksõna saab kasutada ainult `async` märksõnaga defineeritud funktsiooni sees.
 
-Nagu näitest näha, siis `async/await` märksõnade kasutamine on oluliselt selgem ja lihtsam lugeda, kui [*promise*](../Promise/README.md)-t.
+Nagu näitest näha, siis `async/await` märksõnade kasutamine on oluliselt selgem ja lihtsam lugeda, kui [_promise_](../Promise/README.md)-t.
 
 Allikad:
 
