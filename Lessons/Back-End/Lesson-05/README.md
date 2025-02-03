@@ -12,7 +12,7 @@
 - [Bcrypt](../../../Subjects/Back-End-Frameworks/Topics/Bcrypt/README.md)
 - [JWT](../../../Subjects/Back-End-Frameworks/Topics/JWT/README.md)
 - [Andmete saatmine Express API-le - Header](../../../Subjects/Back-End-Frameworks/Topics/Sending-Data-To-Express/README.md#päised)
-- [Autentimise ja autoriseerimise rakendamine](../../../Subjects/Back-End-Frameworks/Topics/Auth-Middleware/README.md)
+- Autentimise ja autoriseerimise rakendamine
 
 ## Viiendas loengus joonistatud pilt
 
