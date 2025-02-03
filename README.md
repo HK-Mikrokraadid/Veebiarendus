@@ -28,7 +28,7 @@ Repositooriumi ülesehitus on järgmine:
 
 Mikrokraadid on arendatud välja rahvusvahelise Erasmus projekti `2022-2-EE01-KA220-HED-000100317` raames.
 
-## 2025. aasta RKT Tarkvaraarenduse koolitus
+## 2024. aasta RKT Tarkvaraarenduse koolitus
 
 Koolituse eesmärk on omandada terviklik arusaam nii tarkvaraarenduse kui ka programmeerimise ja versioonihalduse olemusest, põhimõtetest, meetoditest ja kasutatavatest tööriistadest. Koolituse jooksul kasutame materjale, mis on loodud Veebiarenduse mikrokraadide jaoks, kuid läbime neist ainult ühised ained - [tarkvaraarenduse](./Subjects/Software-Development/README.md) ja [programmeerimise alused](./Subjects/Programming-Basics/README.md). Soovi korral võivad osalejad läbida omal käel ka teised moodulid, mis on saadaval siin repositooriumis.
 
