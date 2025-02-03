@@ -2,6 +2,25 @@
 
 Selles õppematerjalis tutvustame, kuidas kasutada CSS-i erinevate geomeetriliste kujundite, nagu ruutude, ringide ja muude kujundite loomiseks. CSS pakub lihtsaid võimalusi nende kujundite loomiseks, mis võivad aidata kaasa atraktiivsemate ja dünaamilisemate veebilehtede kujundamisele.
 
+![CSS Shapes](CSS-Shapes.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [CSS-i abil kujundite loomine](#css-i-abil-kujundite-loomine)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Ruudud ja ristkülikud](#ruudud-ja-ristkülikud)
+    - [Näide: Ruut](#näide-ruut)
+    - [Näide: Ristkülik](#näide-ristkülik)
+  - [Ringid](#ringid)
+    - [Näide: Ring](#näide-ring)
+  - [Ovaalid](#ovaalid)
+    - [Näide: Ovaal](#näide-ovaal)
+  - [Kolmnurgad](#kolmnurgad)
+    - [Näide: Kolmnurk](#näide-kolmnurk)
+  - [Rohkem keerukaid kujundeid `clip-path` abil](#rohkem-keerukaid-kujundeid-clip-path-abil)
+    - [Näide: Tähe kuju](#näide-tähe-kuju)
+  - [Kokkuvõte](#kokkuvõte)
+
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
@@ -20,7 +39,7 @@ Ruutude ja ristkülikute loomine on lihtne, kuna need nõuavad ainult `width` ja
 .square {
   width: 100px;
   height: 100px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 ```
 
@@ -44,7 +63,7 @@ Ringi loomiseks kasutage `border-radius` omadust. Määra `border-radius` väär
 .circle {
   width: 100px;
   height: 100px;
-  background-color: #008CBA;
+  background-color: #008cba;
   border-radius: 50%;
 }
 ```
@@ -91,7 +110,18 @@ CSS `clip-path` omadus võimaldab luua keerukamaid kujundeid, määratledes klip
   width: 100px;
   height: 100px;
   background-color: #ffeb3b;
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
 }
 ```
 

@@ -2,6 +2,24 @@
 
 Selles õppematerjalis tutvustame Axiose teeki, mis on populaarne JavaScripti HTTP-klient asünkroonsete päringute tegemiseks veebiserveritesse. Axios pakub lihtsat API-d erinevate HTTP-päringute sooritamiseks, mis hõlbustab andmete saatmist ja vastuvõtmist.
 
+![Axios](Axios.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [Axios: JavaScript HTTP-klient](#axios-javascript-http-klient)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on Axios?](#mis-on-axios)
+  - [Miks Kasutada Axiosit?](#miks-kasutada-axiosit)
+  - [Axiosi ja Async/Await'i Seadistamine](#axiosi-ja-asyncawaiti-seadistamine)
+    - [CDN-i Kaudu (Brauseris)](#cdn-i-kaudu-brauseris)
+    - [NPM või Yarn Abil](#npm-või-yarn-abil)
+  - [Näited Axiosi Kasutamisest Async/Await'iga](#näited-axiosi-kasutamisest-asyncawaitiga)
+    - [GET Päring](#get-päring)
+    - [POST Päring](#post-päring)
+    - [Päiste saatmine Axiosega](#päiste-saatmine-axiosega)
+  - [Kokkuvõte](#kokkuvõte)
+  - [Allikad](#allikad)
+
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:
@@ -46,7 +64,7 @@ npm install axios
 Ja seejärel importige see oma JavaScripti faili:
 
 ```javascript
-const axios = require('axios');
+const axios = require("axios");
 ```
 
 ## Näited Axiosi Kasutamisest Async/Await'iga
@@ -58,10 +76,12 @@ Näide, kuidas teha GET-päring ja käsitleda vastust async/await abil:
 ```javascript
 async function fetchUsers() {
   try {
-    const response = await axios.get('https://jsonplaceholder.typicode.com/users');
+    const response = await axios.get(
+      "https://jsonplaceholder.typicode.com/users"
+    );
     console.log(response.data);
   } catch (error) {
-    console.error('Viga päringus:', error);
+    console.error("Viga päringus:", error);
   }
 }
 
@@ -75,16 +95,19 @@ Näide, kuidas saata andmeid serverisse POST-päringuga, kasutades async/await:
 ```javascript
 async function createUser(userData) {
   try {
-    const response = await axios.post('https://jsonplaceholder.typicode.com/users', userData);
-    console.log('Kasutaja loodud:', response.data);
+    const response = await axios.post(
+      "https://jsonplaceholder.typicode.com/users",
+      userData
+    );
+    console.log("Kasutaja loodud:", response.data);
   } catch (error) {
-    console.error('Viga kasutaja loomisel:', error);
+    console.error("Viga kasutaja loomisel:", error);
   }
 }
 
 const userData = {
-  name: 'John Doe',
-  email: 'john@example.com'
+  name: "John Doe",
+  email: "john@example.com",
 };
 
 createUser(userData);
@@ -97,16 +120,19 @@ Sageli tahame saata API-dele koos päringutega kaasa ka päised. Näiteks on see
 ```javascript
 async function fetchUser(userId) {
   try {
-    const response = await axios.get(`https://jsonplaceholder.typicode.com/users/${userId}`, {
-      headers: {
-        Authorization: 'Bearer my-auth-token'
+    const response = await axios.get(
+      `https://jsonplaceholder.typicode.com/users/${userId}`,
+      {
+        headers: {
+          Authorization: "Bearer my-auth-token",
+        },
       }
-    });
+    );
     console.log(response.data);
   } catch (error) {
-    console.error('Viga päringus:', error);
+    console.error("Viga päringus:", error);
   }
-};
+}
 
 fetchUser(1);
 ```

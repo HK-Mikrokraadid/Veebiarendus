@@ -46,7 +46,7 @@ Selle aine läbinud õpilane:
 
 ## Loengud (esialgne plaan, mis võib muutuda kursuse jooksul)
 
-### Loeng 1: Sissejuhatus Front-End Tehnoloogiatesse
+### Loeng 1 (Zoom): Sissejuhatus Front-End Tehnoloogiatesse
 
 Maht: 4 tundi
 
@@ -67,7 +67,7 @@ Maht: 8 tundi
 - Not Found leht
 - [React Forms](./Topics/React-Forms/README.md)
 
-### Loeng 3: React Axios, Hooks ja tingimuslaused
+### Loeng 3 (Zoom): React Axios, Hooks ja tingimuslaused
 
 Maht: 4 tundi
 
@@ -88,7 +88,7 @@ Maht: 8 tundi
 - Sisselogimisandmete haldamine Context API abil
 - Kasutajate nimekirja komponent ja selle kuvamine
 
-### Loeng 5: Deploy ja kokkuvõte
+### Loeng 5 (Zoom): Deploy ja kokkuvõte
 
 Maht: 4 tundi
 

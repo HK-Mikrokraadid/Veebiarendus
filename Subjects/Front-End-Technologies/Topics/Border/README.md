@@ -2,6 +2,21 @@
 
 Selles õppematerjalis uurime CSS-i `border` omadust, mis võimaldab arendajatel määrata elemendi ümber raamjooni. Raamjooni kasutatakse elemendi visuaalse piiritlemise, stiili rõhutamise ja kasutajaliidese eristatavuse parandamise eesmärgil.
 
+![CSS Border](CSS-Border.webp)
+
+Pildi allikas: Dall-E by OpenAI
+
+- [CSS-i Raamjooned (Borders)](#css-i-raamjooned-borders)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on CSS-i Border Property?](#mis-on-css-i-border-property)
+  - [Borderi omadused](#borderi-omadused)
+  - [Lühendomadus](#lühendomadus)
+  - [Erinevad Borderi Stiilid](#erinevad-borderi-stiilid)
+  - [Borderi Laius ja Värv](#borderi-laius-ja-värv)
+  - [Erinevate Külgede Stiilimine](#erinevate-külgede-stiilimine)
+  - [Borderi Raadius (Border-radius)](#borderi-raadius-border-radius)
+  - [Järeldus](#järeldus)
+
 ## Õpiväljundid
 
 Pärast selle teema läbimist oskad:

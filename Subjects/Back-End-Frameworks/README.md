@@ -59,7 +59,7 @@ Maht: 8 tundi.
 - [Express](./Topics/Express/README.md)
 - [Struktureerimine](./Topics/Structuring/README.md)
 
-### Teine loeng: Andmete saatmine API-sse
+### Teine loeng (Zoom): Andmete saatmine API-sse
 
 Maht: 4 tundi.
 
@@ -80,7 +80,7 @@ Maht: 8 tundi.
   - Struktureerimine
   - Andmete saatmine API-sse
 
-### Neljas loeng: Vahevara
+### Neljas loeng (Zoom): Vahevara
 
 Maht: 4 tundi.
 

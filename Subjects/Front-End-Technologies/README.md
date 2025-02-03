@@ -37,14 +37,13 @@ Selle aine läbinud õpilane:
 - [Axios](./Topics/Axios/README.md)
 - [Local Storage](./Topics/Localstorage/README.md)
 - [Cookies](./Topics/Cookies/README.md)
-- [CSS Grid](./Topics/Grid/README.md)
+- [CSS Grid](./Topics/CSS-Grid/README.md)
 - [CSS läbipaistvus ja nähtavus](./Topics/Opacity-Visibility/README.md)
 - [CSS Position](./Topics/CSS-Position/README.md)
 - [CSS Display](./Topics/CSS-Display/README.md)
 - [CSS Border](./Topics/Border/README.md)
 - [Kujundid CSS-i abil](./Topics/Shapes-with-CSS/README.md)
 - [CSS Frameworks](./Topics/CSS-Frameworks/README.md)
-- [Material Disain](./Topics/Material-Design/README.md)
 - [Bootstrap](./Topics/Bootstrap/README.md)
 
 ## Loengud (esialgne plaan, mis võib muutuda kursuse jooksul)
@@ -58,7 +57,7 @@ Maht: 8 tundi
   - [Semantiline HTML](./Topics/Semantic-HTML/README.md)
 - [CSS](./Topics/CSS/README.md)
 
-### Loeng 2: CSS ja DOM
+### Loeng 2 (Zoom): CSS ja DOM
 
 Maht: 4 tundi
 
@@ -82,7 +81,7 @@ Maht: 8 tundi
 - [HTML vormid](./Topics/HTML-Forms/README.md)
 - [HTML vormid ja Javascript](./Topics/Forms-and-JS/README.md)
 
-### Loeng 4: Axios, Bootstrap
+### Loeng 4 (Zoom): Axios, Bootstrap
 
 Maht: 4 tundi
 

@@ -32,7 +32,7 @@ Pildi allikas: Dall-E by OpenAI
 
 ## Loengud (esialgne plaan, mis võib muutuda kursuse jooksul)
 
-### Esimene loeng: Relatsiooniline andmebaas ja MySQL
+### Esimene loeng (Zoom): Relatsiooniline andmebaas ja MySQL
 
 Maht: 4 tundi.
 
@@ -43,7 +43,7 @@ Maht: 4 tundi.
 - [MySQL Dockeris](./Topics/MySQL-Docker/README.md)
 - [SQL päringute tegemine](./Topics/MySQL-Queries/README.md)
 
-### Teine loeng
+### Teine loeng: Andmebaasi ühendamine NodeJS-iga
 
 Maht: 8 tundi.
 
@@ -51,7 +51,7 @@ Maht: 8 tundi.
 - [Andmebaasi ühendamine NodeJS-iga](./Topics/MySQL-NodeJS/README.md)
 - Andmebaasi päringud Node API-s
 
-### Kolmas loeng
+### Kolmas loeng (Zoom): JOIN laused MySQL-is, veahaldus ja logimine
 
 Maht: 4 tundi.
 
@@ -60,14 +60,14 @@ Maht: 4 tundi.
 - [Veahaldus](../Back-End-Frameworks/Topics/Error-Handling/README.md)
 - [Logimine](../Back-End-Frameworks/Topics/Logging/README.md)
 
-### Neljas loeng
+### Neljas loeng: Testimine
 
 Maht: 8 tundi.
 
 - Meenutame eelmist loengut
 - [Node API testimine](../Back-End-Frameworks/Topics/Testing-Node-API/README.md)
 
-### Viies loeng
+### Viies loeng (Zoom): Kokkuvõte
 
 Maht: 4 tundi.
 
