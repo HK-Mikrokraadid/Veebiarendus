@@ -1,8 +1,26 @@
 # Reacti Komponendid
 
-## Sissejuhatus
-
 React on populaarne JavaScripti teek, mida kasutatakse kasutajaliideste loomiseks. Reacti põhiline mõiste ja ehitusplokk on komponent. Komponendid võimaldavad arendajatel jaotada kasutajaliidese väikesteks, taaskasutatavateks tükkideks, mis muudab arendamise ja hooldamise lihtsamaks.
+
+![React komponendid](React-Components.webp)
+
+- [Reacti Komponendid](#reacti-komponendid)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Mis on Reacti Komponent?](#mis-on-reacti-komponent)
+    - [Funktsionaalsed Komponendid](#funktsionaalsed-komponendid)
+      - [Näide: Funktsionaalne Komponent](#näide-funktsionaalne-komponent)
+    - [Klassipõhised Komponendid](#klassipõhised-komponendid)
+      - [Näide: Klassipõhine Komponent](#näide-klassipõhine-komponent)
+  - [Props](#props)
+    - [Näide: Props-ide Kasutamine](#näide-props-ide-kasutamine)
+  - [Olek (State)](#olek-state)
+    - [Näide: Oleku Kasutamine Klassipõhises Komponendis](#näide-oleku-kasutamine-klassipõhises-komponendis)
+    - [Näide: Oleku Kasutamine Funktsionaalses Komponendis (Hooks)](#näide-oleku-kasutamine-funktsionaalses-komponendis-hooks)
+  - [Komponentide Komponeerimine](#komponentide-komponeerimine)
+    - [Näide: Komponentide Komponeerimine](#näide-komponentide-komponeerimine)
+  - [Elutsükli Meetodid](#elutsükli-meetodid)
+    - [Peamised Elutsükli Meetodid](#peamised-elutsükli-meetodid)
+      - [Näide: Elutsükli Meetodite Kasutamine](#näide-elutsükli-meetodite-kasutamine)
 
 ## Õpiväljundid
 
@@ -23,7 +41,7 @@ Funktsionaalsed komponendid on JavaScripti funktsioonid, mis võtavad sisendiks 
 #### Näide: Funktsionaalne Komponent
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 function Welcome(props) {
   return <h1>Hello, {props.name}!</h1>;
@@ -39,7 +57,7 @@ Klassipõhised komponendid on JavaScripti klassid, mis laiendavad `React.Compone
 #### Näide: Klassipõhine Komponent
 
 ```javascript
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Welcome extends Component {
   render() {
@@ -57,8 +75,8 @@ Props (lühend sõnast "properties") on andmed, mida edastatakse komponentidele.
 ### Näide: Props-ide Kasutamine
 
 ```javascript
-import React from 'react';
-import Welcome from './Welcome';
+import React from "react";
+import Welcome from "./Welcome";
 
 function App() {
   return (
@@ -82,7 +100,7 @@ Olek (state) on komponentide sisemine andmemudel, mis võib muutuda aja jooksul.
 ### Näide: Oleku Kasutamine Klassipõhises Komponendis
 
 ```javascript
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Counter extends Component {
   constructor(props) {
@@ -92,7 +110,7 @@ class Counter extends Component {
 
   increment = () => {
     this.setState({ count: this.state.count + 1 });
-  }
+  };
 
   render() {
     return (
@@ -112,7 +130,7 @@ export default Counter;
 Reacti Hookid (`useState`, `useEffect` jne) võimaldavad funktsionaalsetel komponentidel kasutada olekut ja muid Reacti funktsioone.
 
 ```javascript
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -135,18 +153,30 @@ Komponentide komponering tähendab väiksemate komponentide kombineerimist suure
 ### Näide: Komponentide Komponeerimine
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 function Header() {
-  return <header><h1>My App</h1></header>;
+  return (
+    <header>
+      <h1>My App</h1>
+    </header>
+  );
 }
 
 function Footer() {
-  return <footer><p>© 2024 My App</p></footer>;
+  return (
+    <footer>
+      <p>© 2024 My App</p>
+    </footer>
+  );
 }
 
 function Main() {
-  return <main><p>Welcome to my app!</p></main>;
+  return (
+    <main>
+      <p>Welcome to my app!</p>
+    </main>
+  );
 }
 
 function App() {
@@ -175,19 +205,19 @@ Elutsükli meetodid on spetsiaalsed meetodid, mis võimaldavad komponentidel kä
 #### Näide: Elutsükli Meetodite Kasutamine
 
 ```javascript
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class LifecycleDemo extends Component {
   componentDidMount() {
-    console.log('Component mounted');
+    console.log("Component mounted");
   }
 
   componentDidUpdate(prevProps, prevState) {
-    console.log('Component updated');
+    console.log("Component updated");
   }
 
   componentWillUnmount() {
-    console.log('Component will unmount');
+    console.log("Component will unmount");
   }
 
   render() {
