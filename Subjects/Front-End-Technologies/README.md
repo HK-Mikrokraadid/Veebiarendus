@@ -41,6 +41,8 @@ Selle aine läbinud õpilane:
 - [CSS läbipaistvus ja nähtavus](./Topics/Opacity-Visibility/README.md)
 - [CSS Position](./Topics/CSS-Position/README.md)
 - [CSS Display](./Topics/CSS-Display/README.md)
+- [CSS Display Flex](./Topics/CSS-Display-Flex/README.md)
+- [CSS Box model](./Topics/CSS-Box-Model/README.md)
 - [CSS Border](./Topics/Border/README.md)
 - [Kujundid CSS-i abil](./Topics/Shapes-with-CSS/README.md)
 - [CSS Frameworks](./Topics/CSS-Frameworks/README.md)
@@ -64,7 +66,7 @@ Maht: 4 tundi
 - Meenutame eelmist loengut
 - [CSS Display](./Topics/CSS-Display/README.md)
 - [CSS Display Flex](./Topics/CSS-Display-Flex/README.md)
-- [CSS Box model]./Topics/CSS-Box-Model/README.md)
+- [CSS Box model](./Topics/CSS-Box-Model/README.md)
 - [Node vs Veebilehitseja](./Topics/NodeJS-vs-JS/README.md)
 - [Javascript veebilehitsejas](./Topics/Javascript-in-Browser/README.md)
   - [Lihtne input ja output](./Topics/Primitive-Input-Output/README.md)
