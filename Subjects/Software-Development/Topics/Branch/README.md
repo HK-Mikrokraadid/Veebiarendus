@@ -4,6 +4,8 @@ Selles peatükis vaatame, mis on harud, kuidas neid luua ja kuidas nendega töö
 
 ![Harudega töötamine](Working-With-Branches.webp)
 
+Pildi allikas: Dall-E by OpenAI
+
 - [Harudega töötamine](#harudega-töötamine)
   - [Õpiväljundid](#õpiväljundid)
   - [Mis on haru?](#mis-on-haru)
@@ -19,11 +21,11 @@ Pärast selle teema läbimist oskad:
 - kirjeldada, mis on haru ja miks see on kasulik;
 - kirjeldada erinevaid harude tüüpe;
 - luua uue haru ja teha selles muudatusi;
-- luua tõmbetaotluse (*pull request*) ja ühendada haru peamise koodibaasiga.
+- luua tõmbetaotluse (_pull request_) ja ühendada haru peamise koodibaasiga.
 
 ## Mis on haru?
 
-Haru (*branch*) on tarkvaraversioonide haldamise kontseptsioon, mis võimaldab arendajatel luua tarkvara koodipaasist isoleeritud koopiaid. Harude loomine võimaldab arendajatel töötada uute funktsioonide, paranduste või eksperimentide kallal, ilma et see mõjutaks peamist koodibaasi.
+Haru (_branch_) on tarkvaraversioonide haldamise kontseptsioon, mis võimaldab arendajatel luua tarkvara koodipaasist isoleeritud koopiaid. Harude loomine võimaldab arendajatel töötada uute funktsioonide, paranduste või eksperimentide kallal, ilma et see mõjutaks peamist koodibaasi.
 
 Harudega töötamine on oluline oskus tarkvaraarenduses, kuna see võimaldab arendajatel teha järgmist ilma peamist koodibaasi mõjutamata:
 
@@ -37,9 +39,9 @@ Harudega töötamine on oluline oskus tarkvaraarenduses, kuna see võimaldab are
 
 Tarkvaraversioonide haldamise süsteemides on mitmeid harude tüüpe, mida saab kasutada erinevate eesmärkide jaoks. Kasutatavad harude nimetused ja tüübid võivad erineda vastavalt koodihaldussüsteemile, organisatsiooni praktikatele ja projekti vajadustele. Mõned levinumad harude tüübid on:
 
-- **Peamine haru (*master branch* või *main branch*):** Peamine haru on koodibaasi põhiline haru, kus asub stabiilne kood. See on tavaliselt haru, kust teised harud hargnevad.
-- **Funktsiooniharud (*feature branches*, *development branch*):** Funktsiooniharud on harud, mis on loodud uute funktsioonide arendamiseks. Need harud on ajutised ja neid kasutatakse uute funktsioonide arendamiseks.
-- **Vigade parandamise harud (*bug fix branches*, *hotfix branches*):** Vigade parandamise harud on harud, mis on loodud vigade parandamiseks peamises koodibaasis.
+- **Peamine haru (_master branch_ või _main branch_):** Peamine haru on koodibaasi põhiline haru, kus asub stabiilne kood. See on tavaliselt haru, kust teised harud hargnevad.
+- **Funktsiooniharud (_feature branches_, _development branch_):** Funktsiooniharud on harud, mis on loodud uute funktsioonide arendamiseks. Need harud on ajutised ja neid kasutatakse uute funktsioonide arendamiseks.
+- **Vigade parandamise harud (_bug fix branches_, _hotfix branches_):** Vigade parandamise harud on harud, mis on loodud vigade parandamiseks peamises koodibaasis.
 
 ## Kuidas harude loomine käib
 
@@ -48,7 +50,7 @@ Harude loomine käib tavaliselt järgmiselt:
 1. **Haru loomine:** Arendaja loob uue haru, kasutades koodihaldussüsteemi käsklusi või tööriistu.
 2. **Harusse vahetamine:** Arendaja vahetab oma töökeskkonna harule, millel ta soovib töötada.
 3. **Töö harus:** Arendaja teeb muudatusi ja arendab uusi funktsioone haru koodibaasis.
-4. **Tõmbetaotluse (*pull request*) loomine:** Arendaja loob tõmbetaotluse, et ühendada haru muudatused peamise koodibaasiga.
+4. **Tõmbetaotluse (_pull request_) loomine:** Arendaja loob tõmbetaotluse, et ühendada haru muudatused peamise koodibaasiga.
 5. **Tõmbetaotluse ülevaatamine ja ühendamine:** Tõmbetaotlus läbib ülevaatamise ja kui see on heaks kiidetud, ühendatakse muudatused peamise koodibaasiga.
 6. **Haru kustutamine:** Pärast muudatuste ühendamist peamise koodibaasiga võib haru kustutada.
 
@@ -56,7 +58,7 @@ Harude loomine käib tavaliselt järgmiselt:
 
 Alljärgnev näide näitab, kuidas harude loomise protsess võib välja näha kasutades Github-i ja Github Desktop-i.
 
-Alguses on olemas peamine haru (*main branch*), kus asub stabiilne kood. Arendaja soovib luua uue funktsiooni jaoks haru, et arendada seda isoleeritud keskkonnas.
+Alguses on olemas peamine haru (_main branch_), kus asub stabiilne kood. Arendaja soovib luua uue funktsiooni jaoks haru, et arendada seda isoleeritud keskkonnas.
 
 ![Main haru](main.png)
 
@@ -82,19 +84,19 @@ Kui uus kood on kirjutatud, teeb arendaja `commit`-i ja `push`-ib muudatused uud
 
 ![Push](push.png)
 
-Nüüd on uus haru koos uue koodiga nähtav ka Github-is, lisaks on näha ka võimalus luua tõmbetaotlus (*pull request*) - nupp `Compare & pull request`.
+Nüüd on uus haru koos uue koodiga nähtav ka Github-is, lisaks on näha ka võimalus luua tõmbetaotlus (_pull request_) - nupp `Compare & pull request`.
 
 ![Uus haru Gihubis](new-branch-visible.png)
 
-Samal ajal, kui vaadata peamist haru (*main* või *master*), siis seal veel uued muudatused nähtavad ei kajastu.
+Samal ajal, kui vaadata peamist haru (_main_ või _master_), siis seal veel uued muudatused nähtavad ei kajastu.
 
 ![Main haru ilma muudatusteta](main-branch-before-merge.png)
 
-Nüüd selleks, et uued muudatused peaharusse saada, tuleb teha tõmbetaotlus (*pull request*), mille kaudu saab uued muudatused peamise haruga ühendada.
+Nüüd selleks, et uued muudatused peaharusse saada, tuleb teha tõmbetaotlus (_pull request_), mille kaudu saab uued muudatused peamise haruga ühendada.
 
 ![Pull Request nupp](pull-request-button.png)
 
-Seejärel on võimalik üle vaadata, milliste harude vahel muudatusi soovitakse teha, määrata vajaduse korral ülevaatajad (*Reviewers*) ja kirjutada lühike kirjeldus, mida muudatused endast kujutavad. Seejärel saab tõmbetaotluse avaldada vajutades nupule `Create pull request`.
+Seejärel on võimalik üle vaadata, milliste harude vahel muudatusi soovitakse teha, määrata vajaduse korral ülevaatajad (_Reviewers_) ja kirjutada lühike kirjeldus, mida muudatused endast kujutavad. Seejärel saab tõmbetaotluse avaldada vajutades nupule `Create pull request`.
 
 ![Create Pull Request](create-pull-request.png)
 

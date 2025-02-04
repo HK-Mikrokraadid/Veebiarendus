@@ -22,7 +22,6 @@ Repositooriumi ülesehitus on järgmine:
     - [`Front-End-Technologies`](./Subjects/Front-End-Technologies/) kaust sisaldab Front-End arenduse õppeaine materjale
     - [`Front-End-Frameworks`](./Subjects/Front-End-Frameworks/) kaust sisaldab Front-End raamistike õppeaine materjale
   - Back-End arendus
-    - [`Back-End-Technologies`](./Subjects/Back-End-Technologies/) kaust sisaldab Back-End arenduse õppeaine materjale
     - [`Back-End-Frameworks`](./Subjects/Back-End-Frameworks/) kaust sisaldab Back-End raamistike õppeaine materjale
     - [`Databases`](./Subjects/Databases/) kaust sisaldab andmebaaside õppeaine materjale
 

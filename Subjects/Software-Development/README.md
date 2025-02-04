@@ -19,7 +19,7 @@ Kursuse lõpuks omavad õpilased head ettekujutust reaalmaailma probleemide tõl
 Selle aine läbinud õpilane:
 
 - Kirjeldab tarkvaraarenduse elutsükli etappe, sealhulgas nõuete kogumist, disaini, rakendamist, testimist, juurutamist ja hooldust.
-- Mõistab ja eristab erinevaid tarkvaraarendusmeetodeid nagu *Waterfall*, *Agile* ja *Scrum*.
+- Mõistab ja eristab erinevaid tarkvaraarendusmeetodeid nagu _Waterfall_, _Agile_ ja _Scrum_.
 - Kogub ja dokumenteerib selged, täielikud ja teostatavad tarkvaranõuded sidusrühmade suhtlusest.
 - Kirjutab puhast, hooldatavat ja hästi dokumenteeritud koodi, mis järgib tööstusstandardeid ja parimaid tavasid.
 - Rakendab erinevaid testimisstrateegiaid, nagu manuaaltestimine,ühiktestimine ja integratsioonitestimine, et valideerida tarkvara funktsionaalsust ja vastupidavust.
@@ -38,6 +38,7 @@ Selle aine läbinud õpilane:
   - [Markdown](./Topics/Markdown/README.md)
   - [Git ja Githubi parimad tavad](./Topics/Git-Best-Practices/README.md)
   - [Github Issue](./Topics/Github-Issue/README.md)
+- [Harudega töötamine](./Topics/Branch/README.md)
 - [Koodi kvaliteet](./Topics/Code-Quality/README.md)
 - [Koodi ülevaatus (Code Review)](./Topics/Code-Review/README.md)
 - [Tarkvaraarenduse elutsükkel](./Topics/SDLC/README.md)
@@ -132,7 +133,7 @@ Maht: 4h
 - Eelmise loengu meeldetuletus
 - Kodutööde ajal tekkinud probleemide lahendamine
 - [VS Code laiendused ja nipid](./Topics/VSCode-Tips/README.md)
-- [Käsurea kasutamine (*terminal*)](./Topics/Command-Line/README.md)
+- [Käsurea kasutamine (_terminal_)](./Topics/Command-Line/README.md)
 
 ### Loeng 8 (Zoom)
 
