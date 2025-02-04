@@ -59,15 +59,15 @@ flowchart TB
     end
     subgraph FE [Front-End Mikrokraad]
     FET[Front-End Tehnoloogiad]
-    click FET "https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies" _blank
+    click FET "https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Technologies/README.md" _blank
     FEF[Front-End Raamistikud]
-    click FEF "https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Frameworks" _blank
+    click FEF "https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Front-End-Frameworks/README.md" _blank
     end
     subgraph CS [Ühised Ained]
     SD[Tarkvaraarendus]
-    click SD "https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Software-Development" _blank
+    click SD "https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Software-Development/README.md" _blank
     PB[Programmeerimise Alused]
-    click PB "https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Programming-Basics" _blank
+    click PB "https://github.com/HK-Mikrokraadid/Veebiarendus/blob/main/Subjects/Programming-Basics/README.md" _blank
     end
     CS --> FE
     CS --> BE
