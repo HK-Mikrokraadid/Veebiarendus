@@ -1,8 +1,8 @@
 # Esimene loeng
 
-Esiemses loengus saame tuttavaks, teeme sissejuhatuse nii tarkvaraarenduse, kui ka programmeerimise õppeainetesse. Räägime läbi, mida me aine jooksul õpime, kuidas me seda teeme ja millised on ootused selle koolituse suhtes.
+Esimeses loengus saame tuttavaks, teeme sissejuhatuse nii tarkvaraarenduse, kui ka programmeerimise õppeainetesse. Räägime läbi, mida me aine jooksul õpime, kuidas me seda teeme ja millised on ootused selle koolituse suhtes.
 
-Tarkvaraarenduse aine raames õpime tundma tarkvaraarenduse tööriistu, nagu [versioonihaldus](../../../Subjects/Software-Development/Topics/Version-Control/README.md) ja [koodieditor](../../../Subjects/Software-Development/Topics/Tools/README.md), räägime tarkvaraarendusest üldiselt ja teeme tutvust [`Markdown`](../../../Subjects/Software-Development/Topics/Markdown/README.md)-iga. Programmeerimise aine raames õpime tundma Javascripti ja NodeJS-i, teeme tutvust programmeerimise põhitõdedega ja teeme esimesed harjutused. Lisaks õpime, kuidas hakkame hoidma ja esitama oma materjale ja koduseid töid.
+Tarkvaraarenduse aine raames õpime tundma tarkvaraarenduse tööriistu, nagu [versioonihaldus](../../../Subjects/Software-Development/Topics/Version-Control/README.md) ja [koodiredaktor](../../../Subjects/Software-Development/Topics/Tools/README.md), räägime tarkvaraarendusest üldiselt ja teeme tutvust [`Markdown`](../../../Subjects/Software-Development/Topics/Markdown/README.md)-iga. Programmeerimise aine raames õpime tundma Javascripti ja NodeJS-i, teeme tutvust programmeerimise põhitõdedega ja teeme esimesed harjutused. Lisaks õpime, kuidas hakkame hoidma ja esitama oma materjale ja koduseid töid.
 
 - [Esimese loengu slaidid](Slides.md)
 - [Esimese loengu salvestus](https://youtu.be/m8hsL3363Yw)

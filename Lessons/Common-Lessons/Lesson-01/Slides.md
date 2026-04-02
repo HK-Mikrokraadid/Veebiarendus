@@ -237,7 +237,7 @@ GitHub on veebipõhine platvorm, mis pakub majutust tarkvaraarenduseks ja versio
 - Oma repositooriumi loomine
 - Kloonimine
 - README.md
-- Commi
+- Commit
 - Push
 - ...
 
